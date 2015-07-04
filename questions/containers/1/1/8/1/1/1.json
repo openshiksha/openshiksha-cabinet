@@ -6,11 +6,15 @@
     4,
     5
   ],
-  "text": "test question test text",
+  "content": {
+    "text": "test question test text",
+    "img": "1.jpg"
+  }
   "tags": [
     "test tag 1",
     "testtag2"
   ],
-  "hint": "this is an optional hint",
-  "img": "1.jpg"
+  "hint": {
+    "text": "this is an optional hint"
+  }
 }
