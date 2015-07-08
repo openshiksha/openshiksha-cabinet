@@ -5,4 +5,4 @@ This repository acts as a cabinet for the HWCentral web project where all the me
 
 run the following command when exposing this repository through nginx ->
 
-sudo scripts/deploy.sh
+sh scripts/deploy.sh
