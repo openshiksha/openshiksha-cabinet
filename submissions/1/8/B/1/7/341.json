@@ -1,320 +1,302 @@
-{
-  "answers": [
-    [
-      null, 
-      null, 
-      null, 
-      null, 
-      null
-    ], 
-    [
-      null, 
-      null, 
-      null, 
-      null, 
-      null
-    ]
-  ], 
-  "questions": [
-    {
-      "subparts": [
-        {
-          "option_order": [
-            2, 
-            3, 
-            1, 
-            0
-          ], 
-          "hint": null, 
-          "solution": null, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "Whoopdeeedoooo", 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "correct_option": {
-              "text": "p and q are integers and q is not equal to zero.", 
-              "img": null
-            }, 
-            "incorrect_options": [
-              {
-                "text": "p and q are both negative", 
-                "img": null
-              }, 
-              {
-                "text": "p and q are both positive", 
-                "img": null
-              }, 
-              {
-                "text": "p<q and q is not equal to zero", 
-                "img": null
-              }
-            ]
-          }
-        }, 
-        {
-          "option_order": [
-            0, 
-            3, 
-            2, 
-            1
-          ], 
-          "hint": null, 
-          "solution": null, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "For which of the following operation(s) do whole numbers not follow the closure property?", 
-            "img": null
-          }, 
-          "type": 2, 
-          "options": {
-            "correct_options": [
-              {
-                "text": "Subtraction", 
-                "img": null
-              }, 
-              {
-                "text": "Division", 
-                "img": null
-              }
-            ], 
-            "incorrect_options": [
-              {
-                "text": "Addition", 
-                "img": null
-              }, 
-              {
-                "text": "Multiplication", 
-                "img": null
-              }
-            ]
-          }
-        }, 
-        {
-          "hint": {
-            "text": "Use distributivity of multiplication over addition for rational numbers.", 
-            "img": null
-          }, 
-          "solution": {
-            "text": "This is the solution\nI hope you get it.\nAns : blahblah", 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "Brouuuuuuuuhahahahaha", 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": 4.22
-          }, 
-          "type": 3
-        }, 
-        {
-          "hint": {
-            "text": "hint text", 
-            "img": null
-          }, 
-          "solution": {
-            "text": "solution text", 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "What does it mean to be human?", 
-            "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy85XzEuanBnOjZ5N1c3dnUyWnFPUDY1U2gyLVpjdnhXdE5VWQ", 
-            "img": "9_1.jpg"
-          }, 
-          "answer": "answer text", 
-          "type": 4
-        }, 
-        {
-          "hint": null, 
-          "solution": null, 
-          "subpart_index": 4, 
-          "content": {
-            "text": "List 5 numbers less than 10.", 
-            "img": null
-          }, 
-          "answer": {
-            "conditions": [
-              "_{{<10}}_"
-            ], 
-            "num_answers": 5
-          }, 
-          "type": 5
-        }
-      ], 
-      "container": {
-        "content": {
-          "text": "test question test text", 
-          "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMS9pbWcvMS5qcGc6Uk44THlyYjM3NGRaVUpnRVBfYnczZXFudjZB", 
-          "img": "1.jpg"
-        }, 
-        "subparts": [
-          6, 
-          7, 
-          8, 
-          9, 
-          10
-        ], 
-        "hint": {
-          "text": "this is an optional hint", 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "option_order": [
-            0, 
-            3, 
-            2, 
-            1
-          ], 
-          "hint": null, 
-          "solution": null, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "Rational Numbers can be written in the form p/q where: (choose most appropriate answer)", 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "correct_option": {
-              "text": "p and q are integers and q is not equal to zero.", 
-              "img": null
-            }, 
-            "incorrect_options": [
-              {
-                "text": "p and q are both negative", 
-                "img": null
-              }, 
-              {
-                "text": "p and q are both positive", 
-                "img": null
-              }, 
-              {
-                "text": "p<q and q is not equal to zero", 
-                "img": null
-              }
-            ]
-          }
-        }, 
-        {
-          "option_order": [
-            1, 
-            2, 
-            0, 
-            3
-          ], 
-          "hint": null, 
-          "solution": null, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "For which of the following operation(s) do whole numbers not follow the closure property?", 
-            "img": null
-          }, 
-          "type": 2, 
-          "options": {
-            "correct_options": [
-              {
-                "text": "Subtraction", 
-                "img": null
-              }, 
-              {
-                "text": "Division", 
-                "img": null
-              }
-            ], 
-            "incorrect_options": [
-              {
-                "text": "Addition", 
-                "img": null
-              }, 
-              {
-                "text": "Multiplication", 
-                "img": null
-              }
-            ]
-          }
-        }, 
-        {
-          "hint": {
-            "text": "Use distributivity of multiplication over addition for rational numbers.", 
-            "img": null
-          }, 
-          "solution": {
-            "text": "This is the solution\nI hope you get it.\nAns : blahblah", 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "Solve { 2/5 |*| 3/7 } + { 4/35 |*| 71/2 }", 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": 4.22
-          }, 
-          "type": 3
-        }, 
-        {
-          "hint": {
-            "text": "hint text", 
-            "img": null
-          }, 
-          "solution": {
-            "text": "solution text", 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "What does it mean to be human?", 
-            "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy80XzEuanBnOmdQV2ptZl9ZOWdRUjVWUEdabWJ4Q0tMWnZTOA", 
-            "img": "4_1.jpg"
-          }, 
-          "answer": "answer text", 
-          "type": 4
-        }, 
-        {
-          "hint": null, 
-          "solution": null, 
-          "subpart_index": 4, 
-          "content": {
-            "text": "List 5 numbers less than 10.", 
-            "img": null
-          }, 
-          "answer": {
-            "conditions": [
-              "_{{<10}}_"
-            ], 
-            "num_answers": 5
-          }, 
-          "type": 5
-        }
-      ], 
-      "container": {
-        "content": {
-          "text": "test question test text", 
-          "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMS9pbWcvMS5qcGc6Uk44THlyYjM3NGRaVUpnRVBfYnczZXFudjZB", 
-          "img": "1.jpg"
-        }, 
-        "subparts": [
+[
+  {
+    "subparts": [
+      {
+        "option_order": [
           1, 
           2, 
           3, 
-          4, 
-          5
+          0
         ], 
-        "hint": {
-          "text": "this is an optional hint", 
+        "hint": null, 
+        "solution": null, 
+        "subpart_index": 0, 
+        "content": {
+          "text": "Rational Numbers can be written in the form p/q where: (choose most appropriate answer)", 
           "img": null
+        }, 
+        "type": 1, 
+        "options": {
+          "correct_option": {
+            "text": "p and q are integers and q is not equal to zero.", 
+            "img": null
+          }, 
+          "incorrect_options": [
+            {
+              "text": "p and q are both negative", 
+              "img": null
+            }, 
+            {
+              "text": "p and q are both positive", 
+              "img": null
+            }, 
+            {
+              "text": "p<q and q is not equal to zero", 
+              "img": null
+            }
+          ]
         }
+      }, 
+      {
+        "option_order": [
+          2, 
+          1, 
+          3, 
+          0
+        ], 
+        "hint": null, 
+        "solution": null, 
+        "subpart_index": 1, 
+        "content": {
+          "text": "For which of the following operation(s) do whole numbers not follow the closure property?", 
+          "img": null
+        }, 
+        "type": 2, 
+        "options": {
+          "correct_options": [
+            {
+              "text": "Subtraction", 
+              "img": null
+            }, 
+            {
+              "text": "Division", 
+              "img": null
+            }
+          ], 
+          "incorrect_options": [
+            {
+              "text": "Addition", 
+              "img": null
+            }, 
+            {
+              "text": "Multiplication", 
+              "img": null
+            }
+          ]
+        }
+      }, 
+      {
+        "hint": {
+          "text": "Use distributivity of multiplication over addition for rational numbers.", 
+          "img": null
+        }, 
+        "solution": {
+          "text": "This is the solution\nI hope you get it.\nAns : blahblah", 
+          "img": null
+        }, 
+        "subpart_index": 2, 
+        "content": {
+          "text": "Solve { 2/5 |*| 3/7 } + { 4/35 |*| 71/2 }", 
+          "img": null
+        }, 
+        "answer": {
+          "tolerance": null, 
+          "value": 4.22
+        }, 
+        "type": 3
+      }, 
+      {
+        "hint": {
+          "text": "hint text", 
+          "img": null
+        }, 
+        "solution": {
+          "text": "solution text", 
+          "img": null
+        }, 
+        "subpart_index": 3, 
+        "content": {
+          "text": "What does it mean to be human?", 
+          "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy80XzEuanBnOmdQV2ptZl9ZOWdRUjVWUEdabWJ4Q0tMWnZTOA", 
+          "img": "4_1.jpg"
+        }, 
+        "answer": "answer text", 
+        "type": 4
+      }, 
+      {
+        "hint": null, 
+        "solution": null, 
+        "subpart_index": 4, 
+        "content": {
+          "text": "List 5 numbers less than 10.", 
+          "img": null
+        }, 
+        "answer": {
+          "conditions": [
+            "_{{<10}}_"
+          ], 
+          "num_answers": 5
+        }, 
+        "type": 5
+      }
+    ], 
+    "container": {
+      "content": {
+        "text": "test question test text", 
+        "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMS9pbWcvMS5qcGc6Uk44THlyYjM3NGRaVUpnRVBfYnczZXFudjZB", 
+        "img": "1.jpg"
+      }, 
+      "subparts": [
+        1, 
+        2, 
+        3, 
+        4, 
+        5
+      ], 
+      "hint": {
+        "text": "this is an optional hint", 
+        "img": null
       }
     }
-  ]
-}
+  }, 
+  {
+    "subparts": [
+      {
+        "option_order": [
+          2, 
+          3, 
+          0, 
+          1
+        ], 
+        "hint": null, 
+        "solution": null, 
+        "subpart_index": 0, 
+        "content": {
+          "text": "Whoopdeeedoooo", 
+          "img": null
+        }, 
+        "type": 1, 
+        "options": {
+          "correct_option": {
+            "text": "p and q are integers and q is not equal to zero.", 
+            "img": null
+          }, 
+          "incorrect_options": [
+            {
+              "text": "p and q are both negative", 
+              "img": null
+            }, 
+            {
+              "text": "p and q are both positive", 
+              "img": null
+            }, 
+            {
+              "text": "p<q and q is not equal to zero", 
+              "img": null
+            }
+          ]
+        }
+      }, 
+      {
+        "option_order": [
+          2, 
+          1, 
+          3, 
+          0
+        ], 
+        "hint": null, 
+        "solution": null, 
+        "subpart_index": 1, 
+        "content": {
+          "text": "For which of the following operation(s) do whole numbers not follow the closure property?", 
+          "img": null
+        }, 
+        "type": 2, 
+        "options": {
+          "correct_options": [
+            {
+              "text": "Subtraction", 
+              "img": null
+            }, 
+            {
+              "text": "Division", 
+              "img": null
+            }
+          ], 
+          "incorrect_options": [
+            {
+              "text": "Addition", 
+              "img": null
+            }, 
+            {
+              "text": "Multiplication", 
+              "img": null
+            }
+          ]
+        }
+      }, 
+      {
+        "hint": {
+          "text": "Use distributivity of multiplication over addition for rational numbers.", 
+          "img": null
+        }, 
+        "solution": {
+          "text": "This is the solution\nI hope you get it.\nAns : blahblah", 
+          "img": null
+        }, 
+        "subpart_index": 2, 
+        "content": {
+          "text": "Brouuuuuuuuhahahahaha", 
+          "img": null
+        }, 
+        "answer": {
+          "tolerance": null, 
+          "value": 4.22
+        }, 
+        "type": 3
+      }, 
+      {
+        "hint": {
+          "text": "hint text", 
+          "img": null
+        }, 
+        "solution": {
+          "text": "solution text", 
+          "img": null
+        }, 
+        "subpart_index": 3, 
+        "content": {
+          "text": "What does it mean to be human?", 
+          "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy85XzEuanBnOjZ5N1c3dnUyWnFPUDY1U2gyLVpjdnhXdE5VWQ", 
+          "img": "9_1.jpg"
+        }, 
+        "answer": "answer text", 
+        "type": 4
+      }, 
+      {
+        "hint": null, 
+        "solution": null, 
+        "subpart_index": 4, 
+        "content": {
+          "text": "List 5 numbers less than 10.", 
+          "img": null
+        }, 
+        "answer": {
+          "conditions": [
+            "_{{<10}}_"
+          ], 
+          "num_answers": 5
+        }, 
+        "type": 5
+      }
+    ], 
+    "container": {
+      "content": {
+        "text": "test question test text", 
+        "img_url": "http://localhost:8000/secure_static/dGVzdFN0dWRlbnQ0Omh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMS9pbWcvMS5qcGc6Uk44THlyYjM3NGRaVUpnRVBfYnczZXFudjZB", 
+        "img": "1.jpg"
+      }, 
+      "subparts": [
+        6, 
+        7, 
+        8, 
+        9, 
+        10
+      ], 
+      "hint": {
+        "text": "this is an optional hint", 
+        "img": null
+      }
+    }
+  }
+]
