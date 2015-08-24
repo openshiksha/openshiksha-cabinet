@@ -31,17 +31,17 @@
               }
             ], 
             "use_dropdown_widget": false, 
-            "correct": {
-              "text": "p and q are integers and q is not equal to zero", 
-              "img_url": "http://localhost:8000/secure-static/dGVzdFN0dWRlbnQzOmh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy85XzEuanBnOmwwX1JHdHg0RDhwSXg3UHFpZGNrWHI5emlqSQ", 
-              "img": "9_1.jpg"
-            }, 
             "order": [
               0, 
               1, 
               3, 
               2
-            ]
+            ], 
+            "correct": {
+              "text": "p and q are integers and q is not equal to zero", 
+              "img_url": "http://localhost:8000/secure-static/dGVzdFN0dWRlbnQzOmh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy85XzEuanBnOmwwX1JHdHg0RDhwSXg3UHFpZGNrWHI5emlqSQ", 
+              "img": "9_1.jpg"
+            }
           }
         }, 
         {
@@ -71,6 +71,12 @@
                 "img": null
               }
             ], 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
             "correct": [
               {
                 "text": "Subtraction", 
@@ -81,13 +87,17 @@
                 "text": "Division", 
                 "img_url": null, 
                 "img": null
+              }, 
+              {
+                "text": "Addition", 
+                "img_url": "http://localhost:8000/secure-static/dGVzdFN0dWRlbnQzOmh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy80XzEuanBnOnVoSTlzV01CRFVjazV6TVhITXhNS2lNdWxaOA", 
+                "img": "4_1.jpg"
+              }, 
+              {
+                "text": "Multiplication", 
+                "img_url": null, 
+                "img": null
               }
-            ], 
-            "order": [
-              1, 
-              3, 
-              0, 
-              2
             ]
           }
         }, 
@@ -206,17 +216,17 @@
               }
             ], 
             "use_dropdown_widget": true, 
-            "correct": {
-              "text": "p and q are integers and q is not equal to zero", 
-              "img_url": null, 
-              "img": null
-            }, 
             "order": [
               0, 
               2, 
               3, 
               1
-            ]
+            ], 
+            "correct": {
+              "text": "p and q are integers and q is not equal to zero", 
+              "img_url": null, 
+              "img": null
+            }
           }
         }, 
         {
@@ -242,6 +252,12 @@
                 "img": null
               }
             ], 
+            "order": [
+              1, 
+              0, 
+              2, 
+              3
+            ], 
             "correct": [
               {
                 "text": "Subtraction", 
@@ -252,13 +268,17 @@
                 "text": "Division", 
                 "img_url": null, 
                 "img": null
+              }, 
+              {
+                "text": "Addition", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Multiplication", 
+                "img_url": null, 
+                "img": null
               }
-            ], 
-            "order": [
-              1, 
-              0, 
-              2, 
-              3
             ]
           }
         }, 
@@ -369,7 +389,36 @@
   "answers": [
     [
       {
-        "choice": null, 
+        "choice": 1, 
+        "correct_ratio": null
+      }, 
+      {
+        "choices": [
+          1, 
+          3
+        ], 
+        "correct_ratio": null
+      }, 
+      {
+        "value": "45", 
+        "correct_ratio": null
+      }, 
+      {
+        "value": "ths kgh 09", 
+        "correct_ratio": null
+      }, 
+      {
+        "values": [
+          "56", 
+          "78", 
+          null, 
+          null, 
+          "09"
+        ], 
+        "correct_ratio": null
+      }, 
+      {
+        "choice": 0, 
         "correct_ratio": null
       }, 
       {
@@ -385,13 +434,54 @@
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
+        "correct_ratio": null
+      }, 
+      {
+        "values": [
+          null
+        ], 
         "correct_ratio": null
       }
     ], 
     [
       {
-        "choice": null, 
+        "choice": 1, 
+        "correct_ratio": null
+      }, 
+      {
+        "choices": [
+          1, 
+          3
+        ], 
+        "correct_ratio": null
+      }, 
+      {
+        "value": "45", 
+        "correct_ratio": null
+      }, 
+      {
+        "value": "ths kgh 09", 
+        "correct_ratio": null
+      }, 
+      {
+        "values": [
+          "56", 
+          "78", 
+          null, 
+          null, 
+          "09"
+        ], 
+        "correct_ratio": null
+      }, 
+      {
+        "choice": 0, 
         "correct_ratio": null
       }, 
       {
@@ -407,11 +497,19 @@
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null
+        ], 
         "correct_ratio": null
       }
     ]
