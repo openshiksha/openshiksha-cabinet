@@ -83,6 +83,16 @@
                 "text": "Division", 
                 "img_url": null, 
                 "img": null
+              }, 
+              {
+                "text": "Addition", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Multiplication", 
+                "img_url": null, 
+                "img": null
               }
             ]
           }
@@ -277,6 +287,16 @@
                 "text": "Division", 
                 "img_url": null, 
                 "img": null
+              }, 
+              {
+                "text": "Addition", 
+                "img_url": "http://localhost:8000/secure-static/dGVzdFN0dWRlbnQzOmh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3Mvb2FzaXN2YWxpL2h3Y2VudHJhbC1jYWJpbmV0L2NvbnRlbnRzL3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8xL2ltZy80XzEuanBnOnVoSTlzV01CRFVjazV6TVhITXhNS2lNdWxaOA", 
+                "img": "4_1.jpg"
+              }, 
+              {
+                "text": "Multiplication", 
+                "img_url": null, 
+                "img": null
               }
             ]
           }
@@ -369,27 +389,38 @@
   "answers": [
     [
       {
-        "choice": null, 
+        "choice": 1, 
         "correct_ratio": null
       }, 
       {
-        "choices": [], 
+        "choices": [
+          0, 
+          2
+        ], 
         "correct_ratio": null
       }, 
       {
-        "value": null, 
+        "value": "45", 
         "correct_ratio": null
       }, 
       {
-        "value": null, 
+        "value": "weg grg 5", 
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          "oas", 
+          null, 
+          "val", 
+          null, 
+          null
+        ], 
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null
+        ], 
         "correct_ratio": null
       }
     ], 
@@ -411,7 +442,13 @@
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct_ratio": null
       }
     ]
