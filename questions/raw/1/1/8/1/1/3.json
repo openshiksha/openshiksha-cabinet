@@ -1,16 +1,20 @@
 {
   "type": 3,
   "content": {
-    "text": "Solve { 2/5 |*| 3/7 } + { 4/35 |*| 71/2 }"
+    "text": "Solve \\[\\frac25 \\times \\frac37 + \\frac4{35} \\times \\frac{71}2\\]",
+    "img": "4_1.jpg"
   },
   "answer": {
     "value": 4.22
   },
   "subpart_index": 2,
   "hint": {
-    "text": "Use distributivity of multiplication over addition for rational numbers."
+    "text": "Use distributivity of multiplication over addition for rational numbers.",
+    "img": "4_1.jpg"
   },
+  "show_toolbox": true,
   "solution": {
-    "text": "This is the solution\nI hope you get it.\nAns : blahblah"
+    "text": "This is the solution\nI hope you get it.\nAns : blahblah",
+    "img": "4_1.jpg"
   }
 }

@@ -1,14 +1,14 @@
 {
   "type": 5,
   "content": {
-    "text": "List 5 numbers less than 10."
+    "text": "List 5 names"
   },
   "subpart_index": 4,
   "answer": {
     "num_answers": 5,
-    "answer_format": 2,
+    "answer_format": 1,
     "conditions": [
-      "_{{<10}}_"
+      "{{in {'oasis', 'sidhant', 'sharang', 'pujan', 'corrina'}}}"
     ]
   }
 }
