@@ -369,16 +369,11 @@
   "answers": [
     [
       {
-        "choice": 2, 
+        "choice": null, 
         "correct_ratio": null
       }, 
       {
-        "choices": [
-          0, 
-          1, 
-          2, 
-          3
-        ], 
+        "choices": [], 
         "correct_ratio": null
       }, 
       {
@@ -406,10 +401,7 @@
         "correct_ratio": null
       }, 
       {
-        "choices": [
-          1, 
-          3
-        ], 
+        "choices": [], 
         "correct_ratio": null
       }, 
       {
@@ -417,7 +409,7 @@
         "correct_ratio": null
       }, 
       {
-        "value": "asf", 
+        "value": null, 
         "correct_ratio": null
       }, 
       {
@@ -425,7 +417,7 @@
           null, 
           null, 
           null, 
-          "ag", 
+          null, 
           null
         ], 
         "correct_ratio": null
