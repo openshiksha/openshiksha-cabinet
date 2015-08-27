@@ -375,7 +375,12 @@
         "correct_ratio": null
       }, 
       {
-        "choices": [], 
+        "choices": [
+          0, 
+          1, 
+          2, 
+          3
+        ], 
         "correct_ratio": null
       }, 
       {
@@ -391,8 +396,8 @@
           null, 
           null, 
           null, 
-          null, 
-          null
+          "faraz", 
+          "oasis"
         ], 
         "correct_ratio": null
       }
@@ -426,7 +431,7 @@
       }, 
       {
         "values": [
-          null
+          "10"
         ], 
         "correct_ratio": null
       }
