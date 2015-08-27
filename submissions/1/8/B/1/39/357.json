@@ -371,7 +371,7 @@
   "answers": [
     [
       {
-        "choice": null, 
+        "choice": 0, 
         "correct_ratio": null
       }, 
       {
@@ -387,13 +387,19 @@
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct_ratio": null
       }
     ], 
     [
       {
-        "choice": null, 
+        "choice": 2, 
         "correct_ratio": null
       }, 
       {
@@ -405,15 +411,23 @@
         "correct_ratio": null
       }, 
       {
-        "value": null, 
+        "value": "x^2", 
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct_ratio": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null
+        ], 
         "correct_ratio": null
       }
     ]
