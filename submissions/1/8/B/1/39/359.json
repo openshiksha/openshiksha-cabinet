@@ -372,11 +372,14 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 1
       }, 
       {
         "correct": null, 
-        "choices": []
+        "choices": [
+          1, 
+          2
+        ]
       }, 
       {
         "correct": null, 
@@ -387,14 +390,20 @@
         "value": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          "sdfer", 
+          null
+        ], 
         "correct": null
       }
     ], 
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 0
       }, 
       {
         "correct": null, 
@@ -402,18 +411,26 @@
       }, 
       {
         "correct": null, 
-        "value": null
+        "value": "46"
       }, 
       {
         "correct": null, 
         "value": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct": null
       }, 
       {
-        "values": [], 
+        "values": [
+          "5"
+        ], 
         "correct": null
       }
     ]
