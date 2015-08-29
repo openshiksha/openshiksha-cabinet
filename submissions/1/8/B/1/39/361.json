@@ -366,7 +366,7 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 2
       }, 
       {
         "correct": null, 
@@ -381,11 +381,19 @@
         "value": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          "oasis", 
+          null, 
+          "oasis"
+        ], 
         "correct": null
       }, 
       {
-        "values": [], 
+        "values": [
+          "17"
+        ], 
         "correct": null
       }
     ], 
@@ -407,7 +415,13 @@
         "value": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct": null
       }
     ]
