@@ -365,19 +365,19 @@
   "answers": [
     [
       {
-        "correct": null, 
+        "correct": true, 
         "choice": 2
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "choices": []
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
@@ -388,30 +388,38 @@
           null, 
           "oasis"
         ], 
-        "correct": null
+        "correct": [
+          false, 
+          false, 
+          true, 
+          false, 
+          true
+        ]
       }, 
       {
         "values": [
           "17"
         ], 
-        "correct": null
+        "correct": [
+          false
+        ]
       }
     ], 
     [
       {
-        "correct": null, 
+        "correct": false, 
         "choice": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "choices": []
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
@@ -422,7 +430,13 @@
           null, 
           null
         ], 
-        "correct": null
+        "correct": [
+          false, 
+          false, 
+          false, 
+          false, 
+          false
+        ]
       }
     ]
   ]
