@@ -7,8 +7,6 @@
   "answer": {
     "num_answers": 5,
     "answer_format": 1,
-    "conditions": [
-      "{{in {'oasis', 'sidhant', 'sharang', 'pujan', 'corrina'}}}"
-    ]
+    "condition": "value in {'oasis', 'sidhant', 'sharang', 'pujan', 'corrina'}"
   }
 }
