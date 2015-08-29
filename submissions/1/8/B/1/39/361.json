@@ -159,7 +159,7 @@
           }, 
           "answer": {
             "answer_format": 2, 
-            "condition": "value < _{x}_", 
+            "condition": "value < 10", 
             "num_answers": 1
           }, 
           "type": 5
