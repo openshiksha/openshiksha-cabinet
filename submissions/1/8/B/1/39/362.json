@@ -382,7 +382,13 @@
       }, 
       {
         "values": [], 
-        "correct": []
+        "correct": [
+          false, 
+          false, 
+          false, 
+          false, 
+          false
+        ]
       }
     ], 
     [
@@ -404,11 +410,19 @@
       }, 
       {
         "values": [], 
-        "correct": []
+        "correct": [
+          false, 
+          false, 
+          false, 
+          false, 
+          false
+        ]
       }, 
       {
         "values": [], 
-        "correct": []
+        "correct": [
+          false
+        ]
       }
     ]
   ]
