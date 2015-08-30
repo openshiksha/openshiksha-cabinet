@@ -365,22 +365,22 @@
   "answers": [
     [
       {
-        "correct": null, 
+        "correct": false, 
         "choice": 1
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "choices": [
           1, 
           2
         ]
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": "who knwos"
       }, 
       {
@@ -391,24 +391,30 @@
           null, 
           null
         ], 
-        "correct": null
+        "correct": [
+          false, 
+          false, 
+          false, 
+          false, 
+          false
+        ]
       }
     ], 
     [
       {
-        "correct": null, 
+        "correct": false, 
         "choice": 3
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "choices": []
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
@@ -419,13 +425,21 @@
           null, 
           null
         ], 
-        "correct": null
+        "correct": [
+          true, 
+          true, 
+          false, 
+          false, 
+          false
+        ]
       }, 
       {
         "values": [
           "9.3"
         ], 
-        "correct": null
+        "correct": [
+          true
+        ]
       }
     ]
   ]
