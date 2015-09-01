@@ -363,50 +363,64 @@
   "answers": [
     [
       {
-        "correct": null, 
+        "correct": false, 
         "choice": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "choices": []
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
         "values": [], 
-        "correct": null
+        "correct": [
+          false, 
+          false, 
+          false, 
+          false, 
+          false
+        ]
       }
     ], 
     [
       {
-        "correct": null, 
+        "correct": false, 
         "choice": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "choices": []
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
-        "correct": null, 
+        "correct": false, 
         "value": null
       }, 
       {
         "values": [], 
-        "correct": null
+        "correct": [
+          false, 
+          false, 
+          false, 
+          false, 
+          false
+        ]
       }, 
       {
         "values": [], 
-        "correct": null
+        "correct": [
+          false
+        ]
       }
     ]
   ]
