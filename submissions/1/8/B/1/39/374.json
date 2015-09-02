@@ -364,22 +364,30 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 1
       }, 
       {
         "correct": null, 
-        "choices": []
+        "choices": [
+          0
+        ]
+      }, 
+      {
+        "correct": null, 
+        "value": "-4"
       }, 
       {
         "correct": null, 
         "value": null
       }, 
       {
-        "correct": null, 
-        "value": null
-      }, 
-      {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct": null
       }
     ], 
@@ -401,11 +409,19 @@
         "value": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null, 
+          null, 
+          null, 
+          null, 
+          null
+        ], 
         "correct": null
       }, 
       {
-        "values": [], 
+        "values": [
+          null
+        ], 
         "correct": null
       }
     ]
