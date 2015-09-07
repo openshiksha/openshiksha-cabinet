@@ -1,7 +1,7 @@
 {
     "type": 1,
     "content": {
-        "text": "\\[50x^2\\]"
+        "text": "\\[_{j}_x^2\\]"
     },
     "subpart_index": 0,
     "options": {
@@ -15,7 +15,10 @@
         }]
     },
     "solution": {
-        "text": "\\[50x^2\\] "
+        "text": "\\[_{j}_x^2\\] "
+    },
+    "variable_constraints": {
+        "j":{}
     }
 } 
 
