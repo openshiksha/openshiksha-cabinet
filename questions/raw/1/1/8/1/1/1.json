@@ -19,7 +19,12 @@
     },
     "variable_constraints": {
         "j":{
-            "options":[1,2,3,4,5]
+            "range":{
+                "include": [
+                    [-20, -10]
+                    ],
+                "exclude": []
+            }
         },
         "x":{
             "options": [1,2,3,4,5]
