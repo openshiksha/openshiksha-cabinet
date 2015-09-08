@@ -20,7 +20,6 @@
     "variable_constraints": {
         "j":{
             "range":{
-                "decimal": 3,
                 "include": [
                     [-20, -20],
                     [-10, -10],
