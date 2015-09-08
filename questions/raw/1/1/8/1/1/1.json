@@ -1,7 +1,7 @@
 {
     "type": 1,
     "content": {
-        "text": "\\[_{j}_x^2\\]"
+        "text": "\\[_{j}_x^2 + _{x}_\\]"
     },
     "subpart_index": 0,
     "options": {
@@ -15,10 +15,11 @@
         }]
     },
     "solution": {
-        "text": "\\[_{j}_x^2\\] "
+        "text": "\\[_{{j*x}}_x^2\\] "
     },
     "variable_constraints": {
-        "j":{}
+        "j":{},
+        "x":{}
     }
 } 
 
