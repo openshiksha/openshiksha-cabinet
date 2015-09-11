@@ -1,12 +1,17 @@
 {
   "type": 5,
   "content": {
-    "text": "List 1 number less than 10."
+    "text": "List 1 number less than _{x}_."
   },
   "subpart_index": 5,
   "answer": {
     "num_answers": 1,
     "answer_format": 2,
     "condition": "value < _{x}_"
+  },
+  "variable_constraints": {
+    "x":{
+      "options":[2,37.3]
+    }
   }
 }
