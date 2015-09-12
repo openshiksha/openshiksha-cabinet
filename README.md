@@ -9,5 +9,6 @@ sh scripts/deploy.sh
 
 ##Dependencies
 
-Nginx - 1.8.0
+####Nginx - 1.8.0
+
 /etc/nginx/nginx.conf should only include the nginx conf in the devops directory of this repo
