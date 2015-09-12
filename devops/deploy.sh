@@ -2,6 +2,6 @@
 
 # Usage: devops/deploy.sh (from hwcentral-cabinet root dir)
 
-nginx -s stop
+sudo nginx -s stop
 git pull origin master
-nginx
+sudo nginx
