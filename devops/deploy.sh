@@ -5,5 +5,5 @@
 sudo nginx -s stop
 git pull origin master
 #truncate logs
-truncate devops/*.log --size=0
+sudo truncate devops/*.log --size=0
 sudo nginx
