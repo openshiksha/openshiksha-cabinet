@@ -1,0 +1,41 @@
+{
+    "type": 1,
+    "content": {
+        "text": "\\[_{j}_x^2 + _{x}_\\]"
+    },
+    "subpart_index": 0,
+    "options": {
+        "correct": {
+            "text": "monomial"
+        },
+        "incorrect": [{
+            "text": "\\(_{{j*x}}_x^2\\)"
+        },{
+            "text": "binomial"
+        }]
+    },
+    "solution": {
+        "text": "\\[_{{Fraction(j*x, 13)}}_x^2\\] "
+    },
+    "variable_constraints": {
+        "j":{
+            "range":{
+                "include": [
+                    [-20, -20],
+                    [-10, -10],
+                    [-3, 0]
+                    ],
+                "exclude": [
+                    [-20, -10]
+                    ]
+            }
+        },
+        "x":{
+            "fraction": {
+                "numerator": {},
+                "denominator": {}
+            }
+        }
+    }
+} 
+
