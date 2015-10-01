@@ -1,1 +1,14 @@
-{"subpart_index": 1, "solution": {"text": "<div>\\(x^2 + \\frac 1{x^2} = (_{j}_^2 + 2)\\)</div><div>\\(\\Rightarrow (x^2 + (\\frac 1{x^2})^2 ) = _{{((j**2)+2)**2}}_\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} + 2(x^2)(\\frac 1{x^2}) = _{{((j**2)+2)**2}}_\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = _{{(((j**2)+2)**2)-2}}_\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = _{{(((j**2)+2)**2)-2}}_\\)</div>"}, "content": {"text": "Now find the value of \\(x^4 + \\frac1{x^4}\\)"}, "variable_constraints": {}, "answer": {"value": "_{{(((j**2)+2)**2)-2}}_"}, "type": 3}
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(x^2 + \\frac 1{x^2} = _{{j**2 + 2}}_\\)</div><div>\\(\\Rightarrow (x^2 + (\\frac 1{x^2}) )^2 = _{{((j**2)+2)**2}}_\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} + 2(x^2)(\\frac 1{x^2}) = _{{((j**2)+2)**2}}_\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = _{{((j**2)+2)**2}}_ - 2\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = _{{(((j**2)+2)**2)-2}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Now find the value of \\(x^4 + \\frac1{x^4}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{(((j**2)+2)**2)+2}}_"
+  }, 
+  "type": 3
+}

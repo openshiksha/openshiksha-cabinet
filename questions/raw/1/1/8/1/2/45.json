@@ -1,1 +1,25 @@
-{"subpart_index": 0, "solution": {"text": "Volume of the water tank \\(= side^3 = j^3 m^3 = _{{j**3}}_ m^3 = _{{j**3}}_ \\times 1000 L = _{{(j**3)*1000}}_ L\\)"}, "content": {"text": "How many litres of water can a cubical tank of side _{j}_ m hold?"}, "variable_constraints": {"j": {"range": {"include": [[10, 25]]}}}, "answer": {"value": "_{{(j**3)*1000}}_"}, "type": 3}
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Volume of the water tank \\(= side^3 = j^3 m^3 = _{{j**3}}_ m^3 = _{{j**3}}_ \\times 1000 L = _{{(j**3)*1000}}_ L\\)"
+  }, 
+  "content": {
+    "text": "How many litres of water can a cubical tank of side _{j}_ m hold?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            25
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(j**3)*1000}}_"
+  }, 
+  "type": 3
+}

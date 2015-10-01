@@ -1,1 +1,46 @@
-{"subpart_index": 0, "solution": {"text": "<div>Area of Garden = Area of Plot - Area of the House</div><div>\\(= ab - cd\\)</div><div>\\(= (_{{j*k}}_ - _{{k+10}}_(_{l}_)) m^2\\)</div><div>\\(=_{{(j*k)-((k+10)*l)}}_ m^2\\)</div>"}, "content": {"text": "Kshitij is looking to landscape his garden. He made a diagram of his house (grey colour) but forgot to mention the exact dimensions of the garden area. You are the engineer in charge of the project. Can you use the information given below to calculate the area of the garden in \\(m^2\\)? a = _{j}_ m, b = _{k}_ m, c = _{{k+10}}_ m, d = _{l}_ m", "img": "15.png"}, "variable_constraints": {"k": {"range": {"include": [[30, 50]]}}, "j": {"range": {"include": [[80, 120]]}}, "l": {"range": {"include": [[10, 20]]}}}, "answer": {"value": "_{{(j*k)-((k+10)*l)}}_"}, "type": 3}
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of Garden = Area of Plot - Area of the House</div><div>\\(= ab - cd\\)</div><div>\\(= (_{{j*k}}_ - _{{k+10}}_(_{l}_)) m^2\\)</div><div>\\(=_{{(j*k)-((k+10)*l)}}_ m^2\\)</div>"
+  }, 
+  "content": {
+    "text": "Kshitij is looking to landscape his garden. He made a diagram of his house (grey colour) but forgot to mention the exact dimensions of the garden area. You are the engineer in charge of the project. Can you use the information given below to calculate the area of the garden in \\(m^2\\)? a = _{j}_ m, b = _{k}_ m, c = _{{k+10}}_ m, d = _{l}_ m", 
+    "img": "15.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            30, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            80, 
+            120
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(j*k)-((k+10)*l)}}_"
+  }, 
+  "type": 3
+}

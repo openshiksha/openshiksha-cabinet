@@ -1,1 +1,19 @@
-{"content": {"text": "In the cylinder below, diameter=_{j}_ cm, h=_{k}_ cm, find its volume", "img": "13.png"}, "answer": {"tolerance": 0.005, "value": "_{{pi_val*((Decimal('0.5')*j)**2)*k}}_"}, "type": 3, "subpart_index": 8, "variable_constraints": {"k": {}, "j": {}}}
+{
+  "subpart_index": 8, 
+  "solution": {
+    "text": "Volume of a cylinder = \\(\\pi \\times r^2 \\times h = _{{pi_val*((Decimal('0.5')*j)**2)*k}}_ cm^3\\)"
+  }, 
+  "content": {
+    "text": "In the cylinder below, diameter=_{j}_ cm, h=_{k}_ cm, find its volume", 
+    "img": "13.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{pi_val*((Decimal('0.5')*j)**2)*k}}_"
+  }, 
+  "type": 3
+}

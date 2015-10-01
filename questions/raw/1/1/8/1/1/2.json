@@ -1,1 +1,26 @@
-{"solution": {"text": "\\(_{j}_x^2\\) \u2013 Monomial. Because this expression has only one term"}, "subpart_index": 0, "content": {"text": "\\(_{j}_x^2\\)"}, "variable_constraints": {"j": {}}, "type": 1, "options": {"incorrect": [{"text": "binomial"}, {"text": "trinomial"}], "correct": {"text": "monomial"}}}
+{
+  "solution": {
+    "text": "\\(_{j}_x^2\\) \u2013 Monomial. Because this expression has only one term"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_x^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "binomial"
+      }, 
+      {
+        "text": "trinomial"
+      }
+    ], 
+    "correct": {
+      "text": "monomial"
+    }
+  }
+}

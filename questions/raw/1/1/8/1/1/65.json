@@ -1,1 +1,17 @@
-{"subpart_index": 0, "solution": {"text": "<div>\\(x-y = _{j}_\\)</div><div>\\(\\Rightarrow (x-y)^2 = _{{j**2}}_\\)</div><div>\\(\\Rightarrow x^2 + y^2 \u2013 2xy = (_{{j**2}}_)\\)</div><div>\\(\\Rightarrow x^2 + y^2 = (_{{j**2}}_) + 2xy\\)</div><div>Since \\(xy = _{k}_\\)</div><div>\\(\\Rightarrow x^2 + y^2 = (_{{(j**2)}}_)+(_{{(2*k)}}_)\\)</div><div>\\(\\Rightarrow x^2 + y^2 = _{{(j**2)+(2*k)}}_\\)</div>"}, "content": {"text": "If \\(x-y=_{j}_\\) and \\(xy=_{k}_\\), find the value of \\(x^2 + y^2\\)"}, "variable_constraints": {"k": {}, "j": {}}, "answer": {"value": "_{{(j**2)+(2*k)}}_"}, "type": 3}
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(x-y = _{j}_\\)</div><div>\\(\\Rightarrow (x-y)^2 = _{{j**2}}_\\)</div><div>\\(\\Rightarrow x^2 + y^2 \u2013 2xy = (_{{j**2}}_)\\)</div><div>\\(\\Rightarrow x^2 + y^2 = (_{{j**2}}_) + 2xy\\)</div><div>Since \\(xy = _{k}_\\)</div><div>\\(\\Rightarrow x^2 + y^2 = (_{{(j**2)}}_)+(_{{(2*k)}}_)\\)</div><div>\\(\\Rightarrow x^2 + y^2 = _{{(j**2)+(2*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "If \\(x-y=_{j}_\\) and \\(xy=_{k}_\\), find the value of \\(x^2 + y^2\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{(j**2)+(2*k)}}_"
+  }, 
+  "type": 3
+}

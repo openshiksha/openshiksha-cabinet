@@ -1,1 +1,46 @@
-{"subpart_index": 0, "solution": {"text": "<div>Curved Surface area of the roller \\(= 2 \\pi rh = 2 \\times \\frac {_{k}_}2 \\times _{j}_ = _{{2*pi_val*(k*Decimal('0.5'))*j}}_ cm^2\\)</div><div>Area covered per rotation \\(= _{{2*pi_val*(k*Decimal('0.5'))*j}}_ cm^2\\)</div><div>\\(\\Rightarrow\\) Area painted in _{l}_ rolls \\(= _{{2*pi_val*(k*Decimal('0.5'))*j}}_ \\times _{l}_ = _{{2*l*pi_val*(k*Decimal('0.5'))*j}}_ cm^2\\)</div>"}, "content": {"text": "Last Monday, Ram painted a rectangular wall with a cylindrical paint roller. The length of the roller is _{j}_ cm and its diameter is _{k}_ cm. While painting, the roller rolled over _{l}_ times completely. What surface area, in \\(cm^2\\), did Ram paint?"}, "variable_constraints": {"k": {"range": {"include": [[5, 10]]}}, "j": {"range": {"include": [[10, 50]]}}, "l": {"range": {"include": [[50, 60]]}}}, "answer": {"tolerance": 0.005, "value": "_{{2*l*pi_val*(k*Decimal('0.5'))*j}}_"}, "type": 3}
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Curved Surface area of the roller \\(= 2 \\pi rh = 2\\pi \\times \\frac {_{k}_}2 \\times _{j}_ = _{{2*pi_val*(k*Decimal('0.5'))*j}}_ cm^2\\)</div><div>Area covered per rotation \\(= _{{2*pi_val*(k*Decimal('0.5'))*j}}_ cm^2\\)</div><div>\\(\\Rightarrow\\) Area painted in _{l}_ rolls \\(= _{{2*pi_val*(k*Decimal('0.5'))*j}}_ \\times _{l}_ = _{{2*l*pi_val*(k*Decimal('0.5'))*j}}_ cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "Last Monday, Ram painted a rectangular wall with a cylindrical paint roller. The length of the roller is _{j}_ cm and its diameter is _{k}_ cm. While painting, the roller rolled over _{l}_ times completely. What surface area, in \\(cm^2\\), did Ram paint?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            50, 
+            60
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{2*l*pi_val*(k*Decimal('0.5'))*j}}_"
+  }, 
+  "type": 3
+}

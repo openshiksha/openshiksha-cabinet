@@ -1,1 +1,14 @@
-{"content": {"text": "In the square below, a=_{j}_ cm", "img": "1.png"}, "answer": {"value": "_{{j**2}}_"}, "type": 3, "subpart_index": 0, "variable_constraints": {"j": {}}}
+{
+  "content": {
+    "text": "In the square below, a=_{j}_ cm", 
+    "img": "1.png"
+  }, 
+  "answer": {
+    "value": "_{{j**2}}_"
+  }, 
+  "type": 3, 
+  "subpart_index": 0, 
+  "variable_constraints": {
+    "j": {}
+  }
+}

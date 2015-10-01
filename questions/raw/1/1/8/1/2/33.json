@@ -1,1 +1,19 @@
-{"content": {"text": "In the figure below Inner Radius =_{j}_ cm, Outer Radius = _{{j+2}}_ cm, Height = _{k}_ cm, find its volume", "img": "14.png"}, "answer": {"tolerance": 0.005, "value": "_{{(pi_val*((j+2)**2)*k)-(pi_val*(j**2)*k)}}_"}, "type": 3, "subpart_index": 12, "variable_constraints": {"k": {}, "j": {}}}
+{
+  "subpart_index": 12, 
+  "solution": {
+    "text": "<div>Volume = Difference in volumes between outer and inner cylinder</div><div>\\(=\\pi \\times {r_ o}^2 \\times h - \\pi \\times {r_ i}^2 \\times h\\)</div><div>\\(=_{{pi_val*((j+2)**2)*k}}_ - _{{pi_val*(j**2)*k}}_\\)</div><div>\\(=_{{(pi_val*((j+2)**2)*k)-(pi_val*(j**2)*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "In the figure below Inner Radius =_{j}_ cm, Outer Radius = _{{j+2}}_ cm, Height = _{k}_ cm, find its volume", 
+    "img": "14.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{(pi_val*((j+2)**2)*k)-(pi_val*(j**2)*k)}}_"
+  }, 
+  "type": 3
+}

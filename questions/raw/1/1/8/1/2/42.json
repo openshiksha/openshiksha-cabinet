@@ -1,1 +1,45 @@
-{"subpart_index": 0, "solution": {"text": "<div>Area of school floor \\(= _{{l*j*k}}_ m^2\\)</div><div>Area of each tile = \\(Base \\times height = _{j}_ \\times _{k}_ = _{{j*k}}_ cm^2\\)</div><div>Since the tiles can be perfectly broken into smaller parts, the number of tiles required is the area of the floor divided by the area of each tile. Also, remember that \\(1m^2 = 10000 cm^2\\)</div><div>Therefore, Number of tiles = _{{l*10000}}_</div>"}, "content": {"text": "The area of your school library floor is \\(_{{l*(j*k)}}_ m^2\\). You are asked to use tiles in the shape of a parallelogram with a base of _{j}_ cm and a height of _{k}_ cm to cover the floor. How many such tiles will you need to purchase? You can break the tiles in any way to cover the entire floor."}, "variable_constraints": {"k": {"range": {"include": [[8, 14]]}}, "j": {"range": {"include": [[15, 25]]}}, "l": {"range": {"include": [[20, 40]]}}}, "answer": {"value": "_{{l*10000}}_"}, "type": 3}
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of school floor \\(= _{{l*j*k}}_ m^2\\)</div><div>Area of each tile = \\(Base \\times height = _{j}_ \\times _{k}_ = _{{j*k}}_ cm^2\\)</div><div>Since the tiles can be perfectly broken into smaller parts, the number of tiles required is the area of the floor divided by the area of each tile. Also, remember that \\(1m^2 = 10000 cm^2\\)</div><div>Therefore, Number of tiles = _{{l*10000}}_</div>"
+  }, 
+  "content": {
+    "text": "The area of your school library floor is \\(_{{l*(j*k)}}_ m^2\\). You are asked to use tiles in the shape of a parallelogram with a base of _{j}_ cm and a height of _{k}_ cm to cover the floor. How many such tiles will you need to purchase? You can break the tiles in any way to cover the entire floor."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            8, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            25
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{l*10000}}_"
+  }, 
+  "type": 3
+}

@@ -1,1 +1,30 @@
-{"solution": {"text": "<div>\\((_{j}_x-_{k}_y)(_{j}_x-_{k}_y)\\)</div><div>\\(= (_{j}_x \u2013 _{k}_y)^2\\)</div><div>Using identity \\((a-b)^2 = a^2 + b^2 \u2013 2ab\\)</div><div>Where \\(a = _{j}_x\\) and \\(b = _{k}_y\\)</div><div>\\(= _{{j**2}}_x^2 + _{{k**2}}_y^2 \u2013 _{{2*j*k}}_xy\\)</div>"}, "subpart_index": 4, "content": {"text": "<div>\\((_{j}_x - _{k}_y) (_{j}_x - _{k}_y)\\)</div><div>Answer:</div>"}, "variable_constraints": {"k": {}, "j": {}}, "type": 1, "options": {"incorrect": [{"text": "\\(_{{j**2}}_x^2 - _{{k**2}}_y^2 + _{{2*j*k}}_xy\\)"}, {"text": "\\(_{{j**2}}_x^2 - _{{j*k}}_xy + _{{k**2}}_y^2\\)"}, {"text": "\\(_{{j**2}}_x^2 - _{{3*j*k}}_xy + 2_{k}_y^2\\)"}], "correct": {"text": "\\(_{{j**2}}_x^2 - _{{2*j*k}}_xy + _{{k**2}}_y^2\\) "}}}
+{
+  "solution": {
+    "text": "<div>\\((_{j}_x-_{k}_y)(_{j}_x-_{k}_y)\\)</div><div>\\(= (_{j}_x \u2013 _{k}_y)^2\\)</div><div>Using identity \\((a-b)^2 = a^2 + b^2 \u2013 2ab\\)</div><div>Where \\(a = _{j}_x\\) and \\(b = _{k}_y\\)</div><div>\\(= _{{j**2}}_x^2 + _{{k**2}}_y^2 \u2013 _{{2*j*k}}_xy\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "<div>\\((_{j}_x - _{k}_y) (_{j}_x - _{k}_y)\\)</div><div>Answer:</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j**2}}_x^2 - _{{k**2}}_y^2 + _{{2*j*k}}_xy\\)"
+      }, 
+      {
+        "text": "\\(_{{j**2}}_x^2 - _{{j*k}}_xy + _{{k**2}}_y^2\\)"
+      }, 
+      {
+        "text": "\\(_{{j**2}}_x^2 - _{{3*j*k}}_xy + 2_{k}_y^2\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j**2}}_x^2 - _{{2*j*k}}_xy + _{{k**2}}_y^2\\) "
+    }
+  }
+}

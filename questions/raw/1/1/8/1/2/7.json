@@ -1,1 +1,18 @@
-{"content": {"text": "In the triangle below, \\(a=_{j}_ mm\\), \\(h = _{{j+Decimal('2.5')}}_ mm\\)", "img": "4.png"}, "answer": {"tolerance": 0.001, "value": "_{{Decimal('0.5')*j*(j+Decimal('2.5'))}}_"}, "type": 3, "subpart_index": 6, "variable_constraints": {"j": {}}}
+{
+  "subpart_index": 6, 
+  "solution": {
+    "text": "<div>Area of a triangle \\(= \\frac 12 \\times base\\times height\\)</div><div>\\(= _{{Decimal('0.5')*j*(j+Decimal('2.5'))}}_ mm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "In the triangle below, \\(a=_{j}_ mm\\), \\(h = _{{j+Decimal('2.5')}}_ mm\\)", 
+    "img": "4.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{Decimal('0.5')*j*(j+Decimal('2.5'))}}_"
+  }, 
+  "type": 3
+}

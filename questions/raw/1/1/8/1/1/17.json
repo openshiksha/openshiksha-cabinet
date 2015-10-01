@@ -1,1 +1,27 @@
-{"content": {"text": "<div>\\((_{j}_y - _{k}_) (_{j}_y + _{k}_)\\)</div><div>Choose the correct identity to perform this multiplication</div>"}, "variable_constraints": {"k": {}, "j": {}}, "type": 1, "subpart_index": 2, "options": {"incorrect": [{"text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"}, {"text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)"}, {"text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"}], "correct": {"text": "\\((a+b)(a-b) = a^2 - b^2\\) "}}}
+{
+  "content": {
+    "text": "<div>\\((_{j}_y - _{k}_) (_{j}_y + _{k}_)\\)</div><div>Choose the correct identity to perform this multiplication</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"
+      }, 
+      {
+        "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
+      }, 
+      {
+        "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((a+b)(a-b) = a^2 - b^2\\) "
+    }
+  }
+}

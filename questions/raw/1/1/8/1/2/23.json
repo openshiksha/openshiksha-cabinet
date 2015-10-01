@@ -1,1 +1,15 @@
-{"content": {"text": "See the cube below, a=_{j}_ cm, Find its surface area", "img": "11.png"}, "answer": {"value": "_{{6*(j**2)}}_"}, "type": 3, "subpart_index": 2, "variable_constraints": {}}
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Surface Area of a cube = \\(6 \\times length^2 = _{{(j**2)*6}}_ cm^2\\)"
+  }, 
+  "content": {
+    "text": "See the cube below, a=_{j}_ cm, Find its surface area", 
+    "img": "11.png"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{6*(j**2)}}_"
+  }, 
+  "type": 3
+}

@@ -1,1 +1,18 @@
-{"content": {"text": "In the polygon below, a=_{{j+1}}_ dm, b=_{{3*j}}_ dm, c= _{j}_ dm, h= _{{2*j}}_ dm", "img": "6.png"}, "answer": {"value": "_{{2*(j**2)}}_"}, "type": 3, "subpart_index": 10, "variable_constraints": {"j": {}}}
+{
+  "subpart_index": 10, 
+  "solution": {
+    "text": "<div>Area of the polygon = Area Of Trapezium (1) + Area of Rectangle (2)</div><div>\\(= \\frac 12 \\times (a+b) \\times c + b \\times (h-c)\\)</div><div>\\(=\\frac 12 \\times _{{(2*j) + 6}}_ \\times _{j}_ + _{{j+5}}_ \\ times 3\\)</div><div>=\\(_{{((j+3)*j) + (3*(j+5))}}_ cm^2\\)</div>", 
+    "img": "6_sol.png"
+  }, 
+  "content": {
+    "text": "In the polygon below, a=_{{j+1}}_ dm, b=_{{3*j}}_ dm, c= _{j}_ dm, h= _{{2*j}}_ dm", 
+    "img": "6.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{((j+3)*j) + (3*(j+5))}}_"
+  }, 
+  "type": 3
+}

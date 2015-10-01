@@ -1,1 +1,14 @@
-{"subpart_index": 1, "solution": {"text": "<div>\\((_{{j*10}}_+1)^2\\)</div><div>Using identity \\((a+b)^2 = a^2 + b^2 + 2ab\\)</div><div>Where \\(a = _{{j*10}}_\\) and \\(b=1\\)</div><div>\\(= _{{j*10}}_^2 + 1^2 + 2(_{{j*10}}_)(1)\\)</div><div>\\(= _{{(j*10)**2}}_ + 1 + _{{2*j*10}}_\\)</div>"}, "content": {"text": "<div>\\((_{{j*10}}_+1)^2\\)</div><div>The answer is:</div>"}, "variable_constraints": {}, "answer": {"value": "_{{((j*10)+1)**2}}_"}, "type": 3}
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\((_{{j*10}}_+1)^2\\)</div><div>Using identity \\((a+b)^2 = a^2 + b^2 + 2ab\\)</div><div>Where \\(a = _{{j*10}}_\\) and \\(b=1\\)</div><div>\\(= _{{j*10}}_^2 + 1^2 + 2(_{{j*10}}_)(1)\\)</div><div>\\(= _{{(j*10)**2}}_ + 1 + _{{2*j*10}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>\\(_{{(j*10) + 1}}_^2\\)</div><div>The answer is:</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{((j*10)+1)**2}}_"
+  }, 
+  "type": 3
+}

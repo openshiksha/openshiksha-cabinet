@@ -1,1 +1,32 @@
-{"solution": {"text": "<div>\\((_{j}_x^2+_{k}_y)(_{l}_x+_{m}_y^2)\\)</div><div>\\(=_{j}_x^2(_{l}_x + _{m}_y^2) + _{k}_y(_{l}_x + _{m}_y^2)\\)</div><div>\\(= _{{j*l}}_x^3 + _{{j*m}}_x^2y^2 + _{{k*l}}_xy + _{{m*k}}_y^3\\)</div>"}, "subpart_index": 5, "content": {"text": "<div>\\((_{j}_x^2 - _{k}_y) (_{l}_x + _{m}_y^2)\\)</div><div>Answer:</div>"}, "variable_constraints": {"k": {}, "j": {}, "m": {}, "l": {}}, "type": 1, "options": {"incorrect": [{"text": "\\(_{{j*l}}_x^3 + _{{j*m+k*l}}_x^2y^2 + _{{m*k}}_y^3\\)"}, {"text": "\\(_{{j*l}}_x^2 + _{{j*m}}_x^2y^2 + _{{k*l}}_xy + _{{m*k}}_y^2\\)"}, {"text": "\\(_{{j*l}}_x^3 + _{{2*j*m}}_x^2y^2 + _{{2*k*l}}_xy + _{{m*k}}_y^3\\)"}], "correct": {"text": "\\(_{{j*l}}_x^3 + _{{j*m}}_x^2y^2 + _{{k*l}}_xy + _{{m*k}}_y^3\\) "}}}
+{
+  "solution": {
+    "text": "<div>\\((_{j}_x^2+_{k}_y)(_{l}_x+_{m}_y^2)\\)</div><div>\\(=_{j}_x^2(_{l}_x + _{m}_y^2) + _{k}_y(_{l}_x + _{m}_y^2)\\)</div><div>\\(= _{{j*l}}_x^3 + _{{j*m}}_x^2y^2 + _{{k*l}}_xy + _{{m*k}}_y^3\\)</div>"
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "<div>\\((_{j}_x^2 + _{k}_y) (_{l}_x + _{m}_y^2)\\)</div><div>Answer:</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j*l}}_x^3 + _{{j*m+k*l}}_x^2y^2 + _{{m*k}}_y^3\\)"
+      }, 
+      {
+        "text": "\\(_{{j*l}}_x^2 + _{{j*m}}_x^2y^2 + _{{k*l}}_xy + _{{m*k}}_y^2\\)"
+      }, 
+      {
+        "text": "\\(_{{j*l}}_x^3 + _{{2*j*m}}_x^2y^2 + _{{2*k*l}}_xy - _{{m*k}}_y^3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j*l}}_x^3 + _{{j*m}}_x^2y^2 + _{{k*l}}_xy + _{{m*k}}_y^3\\) "
+    }
+  }
+}

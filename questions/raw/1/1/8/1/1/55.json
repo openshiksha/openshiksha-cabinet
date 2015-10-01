@@ -1,1 +1,35 @@
-{"content": {"text": "<div>\\((_{{j*10}}_ - 0.2)^2\\)</div><div>Choose the identity you would apply</div>"}, "variable_constraints": {"j": {"range": {"include": [[1, 10]]}}}, "type": 1, "subpart_index": 4, "options": {"incorrect": [{"text": "\\((a+b)(a-b) = a^2 - b^2\\)"}, {"text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"}, {"text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"}], "correct": {"text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)"}}}
+{
+  "content": {
+    "text": "<div>\\((_{{(j*10) - Decimal('0.2')}}_^2\\)</div><div>Choose the identity you would apply</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 4, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((a+b)(a-b) = a^2 - b^2\\)"
+      }, 
+      {
+        "text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"
+      }, 
+      {
+        "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
+    }
+  }
+}
