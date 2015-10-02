@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Volume of Iqbal&#39;s Tank = \\(_{j}_ cm \\times _{k}_ cm \\times _{l}_ cm\\)</div><div>\\(= _{{j*k*l*0.001}}_ L\\)</div>"
+    "text": "<div>Volume of Iqbal&#39;s Tank = \\(_{j}_ cm \\times _{k}_ cm \\times _{l}_ cm\\)</div><div>\\(= _{{j*k*l*Decimal('0.001')}}_ L\\)</div>"
   }, 
   "content": {
-    "text": "Iqbal&#39;s Tank is : \\(_{j}_ cm \\times _{k}_ cm \\times _{l}_ cm\\). Its Volume in Litres is:"
+    "text": "Iqbal&#39;s Tank is : \\(_{j}_ cm \\times _{k}_ cm \\times _{l}_ cm\\). Its Volume is:"
   }, 
   "variable_constraints": {
     "k": {
@@ -39,8 +39,8 @@
     }
   }, 
   "answer": {
-    "tolerance": 0.0001, 
     "value": "_{{j*k*l*Decimal('0.001')}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Litres"
 }

@@ -1,7 +1,7 @@
 {
-  "subpart_index": 10, 
+  "subpart_index": 5, 
   "solution": {
-    "text": "<div>Area of the polygon = Area Of Trapezium (1) + Area of Rectangle (2)</div><div>\\(= \\frac 12 \\times (a+b) \\times c + b \\times (h-c)\\)</div><div>\\(=\\frac 12 \\times _{{(2*j) + 6}}_ \\times _{j}_ + _{{j+5}}_ \\ times 3\\)</div><div>=\\(_{{((j+3)*j) + (3*(j+5))}}_ cm^2\\)</div>", 
+    "text": "<div>Area of the polygon = Area Of Trapezium (1) + Area of Rectangle (2)</div><div>\\(= \\frac 12 \\times (a+b) \\times c + b \\times (h-c)\\)</div><div>\\(=\\frac 12 \\times _{{(2*j) + 6}}_ \\times _{j}_ + _{{j+5}}_ \\ times 3\\)</div><div>=\\(_{{((j+3)*j) + (3*(j+5))}}_ dm^2\\)</div>", 
     "img": "6_sol.png"
   }, 
   "content": {
@@ -14,5 +14,6 @@
   "answer": {
     "value": "_{{((j+3)*j) + (3*(j+5))}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(dm^2\\)"
 }

@@ -4,7 +4,7 @@
     "text": "Volume = Area of base \\(\\times\\) height \\(= _{j}_ cm^2 \\times _{k}_ cm = _{{j*k}}_ cm^3\\)"
   }, 
   "content": {
-    "text": "The area of the base of a cylinder is \\(_{j}_ cm^2\\). Its height is _{k}_ cm. What is the volume? (in \\(cm^3\\))"
+    "text": "The area of the base of a cylinder is \\(_{j}_ cm^2\\). Its height is _{k}_ cm. What is the volume?"
   }, 
   "variable_constraints": {
     "k": {
@@ -31,5 +31,6 @@
   "answer": {
     "value": "_{{j*k}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
 }

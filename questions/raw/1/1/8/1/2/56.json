@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>1 dm = 10cm</div><div>Area of Base \\(= \\pi r^2 = \\pi (_{j}_)^2 = _{{pi_val*(j**2)}}_ dm^2 = _{{100*pi_val*(j**2)}}_ cm^2\\)</div><div>Rise of water level = h = _{k}_ cm</div><div>Therefore, volume of rain water harvested \\(= _{{100*pi_val*(j**2)}}_ \\times _{k}_ = _{{100*pi_val*k*(j**2)}}_ cm^3\\)</div><div>1 L \\(= 1000cm^3\\)</div><div>Volume of rain water harvested \\(= _{{pi_val*k*(j**2)*Decimal('0.1')}}_ L\\)</div>"
+    "text": "<div>1 dm = 10cm</div><div>Area of Base \\(= \\pi r^2 = \\pi (_{j}_)^2 = _{{trunc( pi_val*(j**2), 2 )}}_ dm^2 = _{{trunc( 100*pi_val*(j**2), 2 )}}_ cm^2\\)</div><div>Rise of water level = h = _{k}_ cm</div><div>Therefore, volume of rain water harvested \\(= _{{trunc( 100*pi_val*(j**2), 2 )}}_ \\times _{k}_ = _{{trunc( 100*pi_val*k*(j**2), 2 )}}_ cm^3\\)</div><div>1 L \\(= 1000cm^3\\)</div><div>\\(\\Rightarrow\\)Volume of rain water harvested \\(= _{{trunc( pi_val*k*(j**2)*Decimal('0.1'), 2 )}}_ L\\)</div>"
   }, 
   "content": {
-    "text": "You have set up a rain-water harvesting system at your home. A cylindrical container with a radius of _{j}_ dm collects rain-water from your roof. It rained last Monday and some water was collected, raising the height of water in the container by _{k}_ cm. What volume of rain water was collected (in litres)?"
+    "text": "You have set up a rain-water harvesting system at your home. A cylindrical container with a radius of _{j}_ dm collects rain-water from your roof. It rained last Monday and some water was collected, raising the height of water in the container by _{k}_ cm. What volume of rain water was collected?"
   }, 
   "variable_constraints": {
     "k": {
@@ -30,7 +30,8 @@
   }, 
   "answer": {
     "tolerance": 0.05, 
-    "value": "_{{pi_val*k*(j**2)*Decimal('0.1')}}_"
+    "value": "_{{trunc( pi_val*k*(j**2)*Decimal('0.1'), 2 )}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Litres"
 }

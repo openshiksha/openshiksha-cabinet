@@ -1,7 +1,7 @@
 {
-  "subpart_index": 12, 
+  "subpart_index": 6, 
   "solution": {
-    "text": "<div>Area of a parallelogram = \\(Base \\times Height\\)</div><div>\\(= _{{2*(j)}}_ \\times _{j}_ cm^2\\)</div><div>\\(= _{{2*(j**2)}}_\\)</div>"
+    "text": "<div>Area of a parallelogram = \\(Base \\times Height\\)</div><div>\\(= _{{2*(j)}}_ \\times _{j}_ cm^2\\)</div><div>\\(= _{{2*(j**2)}}_ cm^2\\)</div>"
   }, 
   "content": {
     "text": "In the parallelogram below, a=_{{2*j}}_ cm, h=_{j}_ cm", 
@@ -13,5 +13,6 @@
   "answer": {
     "value": "_{{2*(j**2)}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
 }

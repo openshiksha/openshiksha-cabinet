@@ -4,7 +4,7 @@
     "text": "<div>Total surface area of all the cubes \\(= 5 \\times 6 \\times _{j}_^2 = _{{5*(6*(Decimal(str(j))**2))}}_ cm^2\\)</div><div>Area of each face =\\(_{j}_^2 cm^2\\)</div><div>Number of faces that face inward = 10 faces</div><div>Therefore, outer surface area = _{{5*(6*(Decimal(str(j))**2))}}_ - _{{10*(Decimal(str(j))**2)}}_ = _{{(5*(6*(Decimal(str(j))**2)))-(10*(Decimal(str(j))**2))}}_ \\(cm^2\\)</div><div>Cost of paint = Rs _{k}_ per \\(cm^2\\)</div><div>Therefore, total cost of painting the object = \\(_{{(5*(6*(Decimal(str(j))**2)))-(10*(Decimal(str(j))**2))}}_ \\times _{k}_\\)</div><div>= Rs. _{{((5*(6*(Decimal(str(j))**2)))-(10*(Decimal(str(j))**2)))*k}}_</div>"
   }, 
   "content": {
-    "text": "Five cubes of edge _{j}_ cm each are placed side by side and stuck together as shown. The cost of painting is Rs _{k}_ per \\(cm^2\\). What is the cost of painting the outer surface of the entire object? (in Rupees)", 
+    "text": "Five cubes of edge _{j}_ cm each are placed side by side and stuck together as shown. The cost of painting is Rs _{k}_ per \\(cm^2\\). What is the cost of painting the outer surface of the entire object?", 
     "img": "17.png"
   }, 
   "variable_constraints": {
@@ -21,8 +21,8 @@
     }
   }, 
   "answer": {
-    "tolerance": 0.01, 
     "value": "_{{((5*(6*(Decimal(str(j))**2)))-(10*(Decimal(str(j))**2)))*k}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Rupees"
 }

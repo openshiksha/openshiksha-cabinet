@@ -1,7 +1,7 @@
 {
-  "subpart_index": 4, 
+  "subpart_index": 2, 
   "solution": {
-    "text": "Volume of a cuboid = \\(abc = _{{3*j}}_ \\times _{{3*j*Decimal('0.5')}}_ \\times _{{j}}_ cm^3\\)"
+    "text": "Volume of a cuboid = \\(abc = _{{3*j}}_ \\times _{{3*j*Decimal('0.5')}}_ \\times _{{j}}_ dm^3\\)"
   }, 
   "content": {
     "text": "In the cuboid below, a=_{{3*j}}_ dm, b=_{{3*j*Decimal('0.5')}}_ dm, c=_{j}_ dm, find its volume", 
@@ -11,8 +11,8 @@
     "j": {}
   }, 
   "answer": {
-    "tolerance": 0.01, 
     "value": "_{{(3*j)*(3*j*Decimal('0.5'))*(j)}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(dm^3\\)"
 }

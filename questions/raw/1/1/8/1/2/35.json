@@ -1,7 +1,7 @@
 {
-  "subpart_index": 14, 
+  "subpart_index": 7, 
   "solution": {
-    "text": "<div>Surface Area = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2 (\\pi {r_ o}^2 - \\pi {r_ i}^2)\\)</div><div>\\(= _{{(2*pi_val*(j+2)*k) + (2*pi_val*j*k) + (2*pi_val*(((j+2)**2) - (j**2))) }}_\\)</div>"
+    "text": "<div>Surface Area = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2 (\\pi {r_ o}^2 - \\pi {r_ i}^2)\\)</div><div>\\(= _{{trunc( (2*pi_val*(j+2)*k) + (2*pi_val*j*k) + (2*pi_val*(((j+2)**2) - (j**2))), 2 )}}_ cm^2\\)</div>"
   }, 
   "content": {
     "text": "In the same hollow cylinder, with Inner Radius =_{j}_ cm, Outer Radius = _{{j+2}}_ cm, Height = _{k}_ cm, find its surface area", 
@@ -10,7 +10,8 @@
   "variable_constraints": {}, 
   "answer": {
     "tolerance": 0.05, 
-    "value": "_{{(2*pi_val*(j+2)*k) + (2*pi_val*j*k) + (2*pi_val*(((j+2)**2) - (j**2))) }}_"
+    "value": "_{{trunc( (2*pi_val*(j+2)*k) + (2*pi_val*j*k) + (2*pi_val*(((j+2)**2) - (j**2))), 2 )}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
 }

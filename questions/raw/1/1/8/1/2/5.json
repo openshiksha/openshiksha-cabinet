@@ -1,7 +1,7 @@
 {
-  "subpart_index": 4, 
+  "subpart_index": 2, 
   "solution": {
-    "text": "<div>Area of a circle = \\(\\frac {22}{7}\\times radius^2\\)</div><div>= \\(_{{(j**2)*pi_val}}_ m^2\\)</div>"
+    "text": "<div>Area of a circle = \\(\\pi \\times radius^2\\)</div><div>=\\(_{{trunc( (j**2)*pi_val, 2 )}}_ m^2\\)</div>"
   }, 
   "content": {
     "text": "In the circle below, \\(r=_{j}_ m\\)", 
@@ -11,8 +11,9 @@
     "j": {}
   }, 
   "answer": {
-    "tolerance": 0.001, 
-    "value": "_{{(j**2)*pi_val}}_"
+    "tolerance": 0.05, 
+    "value": "_{{trunc( (j**2)*pi_val, 2 )}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(m^2\\)"
 }

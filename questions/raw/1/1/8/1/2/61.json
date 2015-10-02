@@ -39,8 +39,8 @@
     }
   }, 
   "answer": {
-    "tolerance": 0.0001, 
     "value": "_{{j*k*l*Decimal('0.001')}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "minutes"
 }

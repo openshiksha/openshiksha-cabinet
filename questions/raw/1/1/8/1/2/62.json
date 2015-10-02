@@ -51,7 +51,8 @@
     }
   }, 
   "answer": {
-    "value": "_{{168*(j*k)*Decimal('0.5')*(l*((2*j)-30))*(10**6)*m}}_"
+    "value": "_{{168*((j*k) + (Decimal('0.5')*(l*((2*j)-30))))*m}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Megalitres"
 }

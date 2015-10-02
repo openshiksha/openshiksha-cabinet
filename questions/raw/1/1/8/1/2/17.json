@@ -1,5 +1,5 @@
 {
-  "subpart_index": 16, 
+  "subpart_index": 8, 
   "solution": {
     "text": "<div>Area of Polygon = Area of Triangle (1) + Area of Trapezium (2) + Area of Triangle (3) + Area of Triangle (4) + Area of Triangle (5)</div><div>\\(\\frac 12 \\times a \\times b + \\frac 12 (b + e)(c + d) + \\frac 12 \\times e \\times f + \\frac 12 \\times g \\times (d+f) + \\frac 12 \\times (a+c) \\times g\\)</div><div>\\(= \\frac 12 \\times _{{2*j}}_ \\times _{{(2*j)+1}}_ + \\frac 12 \\times _{{(2*j)+ 1 + (5*j*Decimal('0.5'))}}_ \\times _{{2*j + 1 + j}}_ + \\frac 12 \\times _{{5*j*Decimal('0.5')}}_ \\times _{{3*j*Decimal('0.5')}}_ + \\frac 12 \\times _{{2*j}}_ \\times _{{j+(3*j*Decimal('0.5'))}}_ + \\frac 12 \\times _{{(2*j)+(2*j)+1}}_ \\times _{{2*j}}_\\)</div><div>\\(=_{{ (Decimal('0.5')*(2*j)*((2*j)+1)) + (Decimal('0.5')*((2*j)+1+(5*j*Decimal('0.5')))*((2*j)+1+j)) + (Decimal('0.5')*(5*j*Decimal('0.5'))*(3*j*Decimal('0.5'))) + (Decimal('0.5')*(2*j)*(j+(5*j*Decimal('0.5')))) + (Decimal('0.5')*((2*j)+(2*j)+1)*(2*j)) }}_ cm^2\\)</div>", 
     "img": "9_sol.png"
@@ -12,8 +12,8 @@
     "j": {}
   }, 
   "answer": {
-    "tolerance": 0.0001, 
     "value": "_{{ (Decimal('0.5')*(2*j)*((2*j)+1)) + (Decimal('0.5')*((2*j)+1+(5*j*Decimal('0.5')))*((2*j)+1+j)) + (Decimal('0.5')*(5*j*Decimal('0.5'))*(3*j*Decimal('0.5'))) + (Decimal('0.5')*(2*j)*(j+(3*j*Decimal('0.2')))) + (Decimal('0.5')*((2*j)+(2*j)+1)*(2*j)) }}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
 }

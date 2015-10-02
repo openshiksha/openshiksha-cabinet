@@ -1,6 +1,6 @@
 {
   "content": {
-    "text": "<div>\\((_{{trunc(1-j, 1)}}_)(_{{trunc(1+j, 1)}}_)\\)</div><div>Choose the identity you would apply</div>"
+    "text": "<div>\\((_{{1-Decimal(str(j))}}_)(_{{1+Decimal(str(j))}}_)\\)</div><div>Choose the identity you would apply</div>"
   }, 
   "variable_constraints": {
     "j": {

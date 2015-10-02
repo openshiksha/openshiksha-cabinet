@@ -4,7 +4,7 @@
     "text": "<div>The surface area of the box \\(= 2 (_{k}_ \\times _{l}_ + _{l}_ \\times _{m}_ + _{k}_ \\times _{m}_) = _{{2*((k*l)+(l*m)+(k*m))}}_ cm^2\\)</div><div>Cost of painting the box = Rs. _{j}_ per \\(cm^2\\)</div><div>Therefore, total cost of painting the box = \\(_{{2*((k*l)+(l*m)+(k*m))}}_ \\times _{j}_\\)</div><div>= Rs. _{{2*Decimal(str(j))*((k*l)+(l*m)+(k*m))}}_</div>"
   }, 
   "content": {
-    "text": "Latika needs to paint a rectangular box from the outside. The cost of painting the box is Rs. _{j}_ per \\(cm^2.\\) If the dimensions of the box are \\(_{k}_ cm \\times _{l}_ cm \\times _{m}_ cm\\), what is the total cost, in Rupees, of painting the box?"
+    "text": "Latika needs to paint a rectangular box from the outside. The cost of painting the box is Rs. _{j}_ per \\(cm^2.\\) If the dimensions of the box are \\(_{k}_ cm \\times _{l}_ cm \\times _{m}_ cm\\), what is the total cost of painting the box?"
   }, 
   "variable_constraints": {
     "k": {
@@ -51,8 +51,8 @@
     }
   }, 
   "answer": {
-    "tolerance": 0.01, 
     "value": "_{{2*Decimal(str(j))*((k*l)+(l*m)+(k*m))}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Rupees"
 }

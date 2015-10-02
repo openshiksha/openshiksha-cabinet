@@ -1,6 +1,6 @@
 {
   "solution": {
-    "text": "<div>Now, your friend says he will only work half the number of hours you will.So if you work x hours and he works y hours then \\(y = \\frac{x}{2}\\)</div><div>Substituting the value of y into the equation obtained in part 1, we get:</div><div>\\(_{j}_ = _{k}_x + _{l}_\\frac x2\\)</div><div>\\(\\Rightarrow _{j}_ = x(_{k}_+ \\frac{_{l}_}{2})\\)</div><div>\\(\\Rightarrow x = \\frac{_{j}_}{_{k}_+ \\frac{_{l}_}{2}}\\)</div><div>\\(\\Rightarrow x = _{{trunc(Decimal(j)/(k+(l/Decimal(2))), 2)}}_\\)</div>"
+    "text": "<div>Now, your friend says he will only work half the number of hours you will.So if you work x hours and he works y hours then \\(y = \\frac{x}{2}\\)</div><div>Substituting the value of y into the equation obtained in part 1, we get:</div><div>\\(_{j}_ = _{k}_x + _{l}_\\frac x2\\)</div><div>\\(\\Rightarrow _{j}_ = x(_{k}_+ \\frac{_{l}_}{2})\\)</div><div>\\(\\Rightarrow x = \\frac{_{j}_}{_{k}_+ \\frac{_{l}_}{2}}\\)</div><div>\\(\\Rightarrow x = _{{trunc( j/(k+(l*Decimal('0.5'))), 2 )}}_\\)</div>"
   }, 
   "subpart_index": 1, 
   "content": {
@@ -11,17 +11,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "\\(_{{trunc((3*Decimal(j))/(2*Decimal(k+l)), 2)}}_\\)"
+        "text": "\\(_{{trunc( (3*j)/(2*Decimal(k+l)), 2 )}}_\\)"
       }, 
       {
-        "text": "\\(_{{trunc(Decimal(j)/Decimal(k+l), 2)}}_\\)"
+        "text": "\\(_{{trunc( j/Decimal(k+l), 2 )}}_\\)"
       }, 
       {
-        "text": "\\(_{{trunc((2*Decimal(j))/Decimal(k+l), 2)}}_\\)"
+        "text": "\\(_{{trunc( (2*j)/Decimal(k+l), 2 )}}_\\)"
       }
     ], 
     "correct": {
-      "text": "\\(_{{trunc(Decimal(j)/(k+(Decimal(l)/2)), 2)}}_\\) "
+      "text": "\\(_{{trunc( j/(k+(l*Decimal('0.5'))), 2 )}}_\\) "
     }
   }
 }
