@@ -14,6 +14,6 @@ git clean -df
 git pull origin master
 
 echo 'updating the nginx conf to use current username'
-sed s/oasis/sidhant/g devops/nginx.conf
+sed -i s/oasis/sidhant/g devops/nginx.conf
 echo 'Restarting nginx...'
 sudo nginx
