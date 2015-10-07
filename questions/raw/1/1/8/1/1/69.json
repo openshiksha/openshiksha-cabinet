@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "<div>Now, your friend says he will only work half the number of hours you will.So if you work x hours and he works y hours then \\(y = \\frac{x}{2}\\)</div><div>Substituting the value of y into the equation obtained in part 1, we get:</div><div>\\(_{j}_ = _{k}_x + _{l}_\\frac x2\\)</div><div>\\(\\Rightarrow _{j}_ = x(_{k}_+ \\frac{_{l}_}{2})\\)</div><div>\\(\\Rightarrow x = \\frac{_{j}_}{_{k}_+ \\frac{_{l}_}{2}}\\)</div><div>\\(\\Rightarrow x = _{{trunc( j/(k+(l*Decimal('0.5'))), 2 )}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Use the information given in the first part.</div><div>Your friend says he will only work half the amount of time that you work. Using this information, how many hours will you have to work before you both have enough money to purchase the scooter?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc( (3*j)/(2*Decimal(k+l)), 2 )}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc( j/Decimal(k+l), 2 )}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc( (2*j)/Decimal(k+l), 2 )}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc( j/(k+(l*Decimal('0.5'))), 2 )}}_\\) "
+    }
+  }
+}

@@ -1,19 +1,27 @@
 {
-  "type": 3,
-  "content": {
-    "text": "Solve \\[\\frac25 \\times \\frac37 + \\frac4{35} \\times \\frac{71}2\\]",
-    "img": "4_1.jpg"
-  },
-  "answer": {
-    "value": 4.22
-  },
-  "subpart_index": 2,
-  "hint": {
-    "text": "Use distributivity of multiplication over addition for rational numbers.",
-    "img": "4_1.jpg"
-  },
   "solution": {
-    "text": "This is the solution\nI hope you get it.\nAns : blahblah",
-    "img": "4_1.jpg"
+    "text": "\\(_{j}_x + _{k}_\\) \u2013 Binomial. Even though it only has one variable, it has two terms. "
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(_{j}_x + _{k}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "monomial"
+      }, 
+      {
+        "text": "trinomial"
+      }
+    ], 
+    "correct": {
+      "text": "binomial"
+    }
   }
 }

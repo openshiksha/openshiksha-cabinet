@@ -1,0 +1,56 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of tin sheet required for 1 box = Surface area of one box</div><div>\\(= 2 (_{j}_ \\times _{k}_ + _{k}_ \\times _{l}_ + _{j}_ \\times _{l}_) = _{{2*((j*k)+(k*l)+(j*l))}}_ cm^2\\)</div><div>Therefore, area of tin required for _{m}_ boxes \\(= _{{2*((j*k)+(k*l)+(j*l))}}_ \\times _{m}_\\)</div><div>\\(= _{{2*((j*k)+(k*l)+(j*l))*m}}_ cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "You need to create a tin box of dimensions \\(_{j}_ cm \\times _{k}_ cm \\times _{l}_ cm.\\) What is the area of a sheet of tin required to make _{m}_ such tins?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{2*((j*k)+(k*l)+(j*l))*m}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

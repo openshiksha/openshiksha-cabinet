@@ -1,17 +1,27 @@
 {
-  "type": 5,
+  "solution": {
+    "text": "\\(_{j}_xy + xy + _{k}_\\) \u2013 Binomial. Because it can be simplified to two terms \\(_{{j+1}}_xy + _{k}_\\)."
+  }, 
+  "subpart_index": 9, 
   "content": {
-    "text": "List 1 number less than _{x}_."
-  },
-  "subpart_index": 5,
-  "answer": {
-    "num_answers": 1,
-    "answer_format": 2,
-    "condition": "value < _{x}_"
-  },
+    "text": "\\(_{j}_xy + xy + _{k}_\\)"
+  }, 
   "variable_constraints": {
-    "x":{
-      "options":[2,37.3]
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "monomial"
+      }, 
+      {
+        "text": "binomial"
+      }
+    ], 
+    "correct": {
+      "text": "trinomial"
     }
   }
 }

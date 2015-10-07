@@ -1,29 +1,26 @@
 {
-  "type": 2,
-  "content": {
-    "text": "For which of the following operation(s) do whole numbers not follow the closure property?"
-  },
-  "subpart_index": 1,
   "solution": {
-    "img": "9_1.jpg"
-  },
+    "text": "\\(_{j}_x^2\\) \u2013 Monomial. Because this expression has only one term"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_x^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
   "options": {
-    "correct": [
-      {
-        "text": "Subtraction"
-      },
-      {
-        "text": "Division"
-      }
-    ],
     "incorrect": [
       {
-        "text": "Addition",
-        "img": "4_1.jpg"
-      },
+        "text": "binomial"
+      }, 
       {
-        "text": "Multiplication"
+        "text": "trinomial"
       }
-    ]
+    ], 
+    "correct": {
+      "text": "monomial"
+    }
   }
 }

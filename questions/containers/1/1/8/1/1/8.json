@@ -1,20 +1,20 @@
 {
-  "subparts": [
-    1,
-    2,
-    3,
-    4,
-    5
-  ],
   "content": {
-    "text": "test question test text"
-  },
-  "tags": [
-    "test tag 1",
-    "testtag2"
-  ],
+    "text": "Using identities, evaluate the following:"
+  }, 
+  "subparts": [
+    51, 
+    52, 
+    53, 
+    54, 
+    55, 
+    56, 
+    57, 
+    58, 
+    59, 
+    60
+  ], 
   "hint": {
-    "text": "this is an optional hint",
-    "img": "1.jpg"
+    "text": "<div>Each of the numbers below can be broken down into numbers that are easier to process.</div><div>For example: \\((401)^2\\) can be broken into \\((400 +1)^2\\)</div><div>You can then use the identity \\((a+b)^2 = a^2 + b^2 + 2ab\\)</div><div>Where \\(a = 400\\) and \\(b = 1\\)</div><div>\\(= 400^2 + 1^2 + 2(400)(1)\\)</div><div>\\(= 160000 + 1 + 800\\)</div><div>\\(= 160801\\)</div>"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>Area of Quadrilateral = Area of Triangle (1) + Area of Triangle (2)</div><div>\\(= \\frac 12 \\times h_ 1 \\times d + \\frac 12 \\times h_ 2 \\times d\\)</div><div>\\(= (\\frac 12 \\times _{j}_ \\times _{{4*j}}_) + (\\frac 12 \\times _{{2*j}}_ \\times _{{4*j}}_)\\)</div><div>=\\(_{{ (Decimal('0.5')*j*(4*j)) + (Decimal('0.5')*(2*j)*(4*j)) }}_ cm^2\\)</div>", 
+    "img": "8_sol.png"
+  }, 
+  "content": {
+    "text": "In the quadrilateral below, \\(h1=_{j}_ cm\\), \\(h2=_{{2*j}}_ cm\\), \\(d=_{{4*j}}_ cm\\)", 
+    "img": "8.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{ (Decimal('0.5')*j*(4*j)) + (Decimal('0.5')*(2*j)*(4*j)) }}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

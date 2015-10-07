@@ -1,24 +1,26 @@
 {
-  "type": 1,
+  "solution": {
+    "text": "\\(_{j}_xy\\) \u2013 Monomial. Even though it has two variables, they are both part of a single term. "
+  }, 
+  "subpart_index": 4, 
   "content": {
-    "text": "Whoopdeeedoooo"
-  },
-  "subpart_index": 0,
+    "text": "\\(_{j}_xy\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
   "options": {
-    "use_dropdown_widget": true,
-    "correct": {
-      "text": "p and q are integers and q is not equal to zero"
-    },
     "incorrect": [
       {
-        "text": "p and q are both negative"
-      },
+        "text": "binomial"
+      }, 
       {
-        "text": "p and q are both positive"
-      },
-      {
-        "text": "p &lt; q and q is not equal to zero"
+        "text": "trinomial"
       }
-    ]
+    ], 
+    "correct": {
+      "text": "monomial"
+    }
   }
 }

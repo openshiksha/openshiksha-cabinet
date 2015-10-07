@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Perimeter of cylinder = Breadth of paper</div><div>\\(= 2\\pi r = _{k}_\\)</div><div>Therefore, r = _{{trunc( (k*Decimal('0.5'))/pi_val, 2 )}}_ cm</div><div>Volume of a cylinder \\(= \\pi r^2h = _{{trunc( pi_val*((k*Decimal('0.5')/pi_val)**2)*j, 2 )}}_ cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "Rajiv likes to make 3D shapes from paper. Yesterday, he started with a rectangular piece of paper of length _{j}_ cm and breadth _{k}_ cm. He then rolled the paper into a cylinder so that the cylinder is now _{j}_ cm long. What is the volume of the air inside the cylinder so formed?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            16, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc( pi_val*((k*Decimal('0.5')/pi_val)**2)*j, 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

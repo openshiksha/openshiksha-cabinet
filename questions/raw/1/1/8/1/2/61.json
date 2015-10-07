@@ -1,0 +1,46 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The volume of the tank \\(= _{{2*j}}_ cm \\times _{{2*k}}_ cm \\times _{{2*l}}_ cm \\)= _{{j*k*l*8}}_</div><div>Rate of flow into the tank = 8L/minute = 8000\\(cm^3\\)/minute</div><div>Therefore, time taken to fill tank completely \\(= \\frac {_{{j*k*l*8}}_}{8000} \\)= _{{j*k*l*Decimal('0.001')}}_ minutes</div>"
+  }, 
+  "content": {
+    "text": "Water is pouring into a cuboidal tank of length _{{2*j}}_ cm, breadth _{{2*k}}_ cm and height _{{2*l}}_ cm at the rate of 8L/minute. How many minutes will it take to fill the tank completely?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            12, 
+            25
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            12, 
+            25
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            12, 
+            25
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*k*l*Decimal('0.001')}}_"
+  }, 
+  "type": 3, 
+  "unit": "minutes"
+}

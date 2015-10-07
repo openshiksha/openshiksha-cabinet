@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The volume of the cylindrical pool \\(= \\pi \\times (\\frac d2)^2 \\times (h) m^3 = \\pi \\times (\\frac{_{j}_}2)^2 \\times (_{k}_) m^3\\)</div><div>\\(= _{{trunc( pi_val*((j*Decimal('0.5'))**2)*k*1000, 2 )}}_\\) L</div>"
+  }, 
+  "content": {
+    "text": "Your school is building a cylindrical swimming pool with a diameter of _{j}_ metres and a depth of _{k}_ metres. How much water (in litres) will they require to completely fill the pool?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc( pi_val*((j*Decimal('0.5'))**2)*k*1000, 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "Litres"
+}

@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "If the radius is halved:"
+  }, 
+  "solution": {
+    "text": "<div>If the radius is halved :</div><div>V \\(= \\pi r^2h\\)</div><div>\\(V_ {new} = \\pi (\\frac r2)^2h = \\frac V4\\)</div><div>Therefore, the volume will quarter</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Volume will half \\((\\frac 12 V)\\)"
+      }, 
+      {
+        "text": "Volume will double (2V)"
+      }, 
+      {
+        "text": "Volume will quadruple (4V)"
+      }
+    ], 
+    "correct": {
+      "text": "Volume will quarter \\((\\frac 14 V)\\)"
+    }
+  }
+}

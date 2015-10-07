@@ -1,41 +1,44 @@
 {
-    "type": 1,
-    "content": {
-        "text": "\\[_{j}_x^2 + _{x}_\\]"
-    },
-    "subpart_index": 0,
-    "options": {
-        "correct": {
-            "text": "monomial"
-        },
-        "incorrect": [{
-            "text": "\\(_{{j*x}}_x^2\\)"
-        },{
-            "text": "binomial"
-        }]
-    },
-    "solution": {
-        "text": "\\[_{{Fraction(j*x, 13)}}_x^2\\] "
-    },
-    "variable_constraints": {
-        "j":{
-            "range":{
-                "include": [
-                    [-20, -20],
-                    [-10, -10],
-                    [-3, 0]
-                    ],
-                "exclude": [
-                    [-20, -10]
-                    ]
-            }
-        },
-        "x":{
-            "fraction": {
-                "numerator": {},
-                "denominator": {}
-            }
-        }
-    }
-} 
-
+  "solution": {
+    "text": "<div>\\(_{j}_x\\). Correct. The only variable is x</div><div>\\(_{j}_x+_{k}_\\). Correct. The only variable is x</div><div>\\(_{j}_y + x\\). Incorrect. There are two variables here: x and y</div><div>\\(_{j}_t\\). Correct. The only variable is t</div><div>\\(_{j}_xy\\). Incorrect. There are two variables here: x and y</div><div>\\(_{j}_z\\). Correct. The only variable is z</div><div>\\(_{j}_p^2 + 5\\). Correct. The only variable is p </div><div>\\(_{j}_q^3\\). Correct. The only variable is q</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Which of the following expressions have only one variable?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_y+x\\)"
+      }, 
+      {
+        "text": "\\(_{j}_xy\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{j}_x\\)"
+      }, 
+      {
+        "text": "\\(_{j}_x+_{k}_\\)"
+      }, 
+      {
+        "text": "\\(_{j}_t\\)"
+      }, 
+      {
+        "text": "\\(_{j}_z\\)"
+      }, 
+      {
+        "text": "\\(_{j}_p^2+_{k}_\\)"
+      }, 
+      {
+        "text": "\\(_{j}_p^3\\)"
+      }
+    ]
+  }
+}

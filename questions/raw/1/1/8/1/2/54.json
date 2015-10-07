@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Volume of pipe=Difference in volumes between outer and inner cylinder</div><div>\\(= \\pi{r_ o}^2 \\times h - \\pi{r_ i}^2 \\times h\\)</div><div>\\(= \\pi (_{{j+k}}_)^2 \\times _{l}_ - \\pi(_{j}_)^2 \\times _{l}_\\)</div><div>= _{{trunc( (pi_val*((j+k)**2)*l)-(pi_val*(j**2)*l), 2 )}}_\\( cm^3\\)</div><div>\\(Mass = Volume \\times Density\\)</div><div>\\(\\Rightarrow Mass = _{{trunc( (pi_val*((j+k)**2)*l)-(pi_val*(j**2)*l), 2 )}}_ cm^3 \\times \\frac{8.6 g}{cm^3}\\)</div><div>= _{{trunc( ((pi_val*((j+k)**2)*l)-(pi_val*(j**2)*l))*Decimal('8.6'), 2 )}}_ g</div>"
+  }, 
+  "content": {
+    "text": "The inner diameter of a metallic tube is _{j}_ cm. The thickness of the rim is _{k}_ cm and the length is _{l}_ cm. If the density of the metal is \\(\\frac{8.6 g}{cm^3}\\), what is the mass of the pipe?", 
+    "img": "18.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            25, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc( ((pi_val*((j+k)**2)*l)-(pi_val*(j**2)*l))*Decimal('8.6'), 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "g"
+}

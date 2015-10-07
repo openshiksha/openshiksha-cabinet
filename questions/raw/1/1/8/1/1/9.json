@@ -1,16 +1,23 @@
 {
-  "type": 4,
   "content": {
-    "text": "Enter some al-jabr!"
-  },
-  "subpart_index": 3,
-  "answer": "x^2",
-  "hint": {
-    "text": "hint text"
-  },
-  "show_toolbox": true,
+    "text": "\\(a+b\\)"
+  }, 
   "solution": {
-    "text": "solution text",
-    "img": "9_1.jpg"
+    "text": "\\(a + b\\) \u2013 Binomial. Because this expression has two terms. "
+  }, 
+  "type": 1, 
+  "subpart_index": 7, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "monomial"
+      }, 
+      {
+        "text": "trinomial"
+      }
+    ], 
+    "correct": {
+      "text": "binomial"
+    }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Volume of a cube = \\(length^3 = _{{j**3}}_ cm^3\\)"
+  }, 
+  "content": {
+    "text": "In the cube below, a=_{j}_ cm, find its volume", 
+    "img": "11.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j**3}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

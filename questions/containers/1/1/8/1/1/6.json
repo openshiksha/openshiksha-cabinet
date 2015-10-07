@@ -1,21 +1,14 @@
 {
-  "subparts": [
-    6,
-    7,
-    8,
-    9,
-    10,
-    11
-  ],
   "content": {
-    "text": "test question test text",
-    "img": "1.jpg"
-  },
-  "tags": [
-    "test tag 1",
-    "testtag2"
-  ],
+    "text": "Simplify the following expressions:"
+  }, 
+  "subparts": [
+    46, 
+    47, 
+    48, 
+    49
+  ], 
   "hint": {
-    "text": "this is an optional hint"
+    "text": "Consider the expressions you\u2019re trying to multiply. Break one expression into its separate terms and multiply each term with the second expression. Then add or subtract the terms to simplify. Some expressions can be simplified using identities."
   }
 }

@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Rise in water level = 1.5 metres = 150 cm = h</div><div>Area of base = Area of Triangle = \\(\\frac{\\sqrt{3}}{4} \\times side^2 = \\frac{\\sqrt{3}}{4}\\times _{j}_^2\\)</div><div>=\\(\\frac{\\sqrt{3}}{4}\\times _{{j**2}}_ cm^2\\)<div>Therefore, volume of water added = Area of base \\(\\times\\) Rise in water Level</div><div>=_{{trunc( (Decimal('1.73')/4)*(j**2)*150, 2 )}}_ \\(cm^3\\)<div>Since 1L =\\(1000cm^3\\)<div>Volume of water added = _{{trunc( (Decimal('1.73')/4)*(j**2)*Decimal('0.15'), 2 )}}_ L"
+  }, 
+  "content": {
+    "text": "The water tank in Rekha\u2019s house has a base in the shape of an equilateral triangle with each side measuring _{j}_ cm. It is filled with water till a height of 3 metres. She pours some more water into the tank and the new level is 4.5 metres. What volume of water did she pour into the tank? Use \\(\\sqrt{3} = 1.73\\)", 
+    "img": "19.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            35, 
+            45
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc( (Decimal('1.73')/4)*(j**2)*Decimal('0.15'), 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "Litres"
+}

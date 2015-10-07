@@ -1,0 +1,23 @@
+{
+  "subpart_index": 0, 
+  "content": {
+    "text": "The dimensions of a cuboid are in the ratio of 6:5:2 (l:b:h). If the total surface area is _{{104*(j**2)}}_ \\(m^2\\). What is the length of the cuboid?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*6}}_"
+  }, 
+  "type": 3, 
+  "unit": "metres"
+}

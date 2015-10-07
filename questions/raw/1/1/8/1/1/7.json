@@ -1,25 +1,26 @@
 {
-  "type": 2,
+  "solution": {
+    "text": "\\(_{j}_z\\) \u2013 Monomial. Because this expression only has one term."
+  }, 
+  "subpart_index": 5, 
   "content": {
-    "text": "For which of the following operation(s) do whole numbers not follow the closure property?"
-  },
-  "subpart_index": 1,
+    "text": "\\(_{j}_z\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
   "options": {
-    "correct": [
-      {
-        "text": "Subtraction"
-      },
-      {
-        "text": "Division"
-      }
-    ],
     "incorrect": [
       {
-        "text": "Addition"
-      },
+        "text": "binomial"
+      }, 
       {
-        "text": "Multiplication"
+        "text": "trinomial"
       }
-    ]
+    ], 
+    "correct": {
+      "text": "monomial"
+    }
   }
 }

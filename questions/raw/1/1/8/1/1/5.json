@@ -1,13 +1,26 @@
 {
-  "type": 5,
+  "solution": {
+    "text": "\\(_{j}_\\) \u2013 Monomial. Even though it doesn\u2019t have any variables this expression has only one term and thus is a monomial. "
+  }, 
+  "subpart_index": 3, 
   "content": {
-    "text": "List 5 names"
-  },
-  "subpart_index": 4,
-  "answer": {
-    "num_answers": 5,
-    "show_toolbox": true,
-    "answer_format": 1,
-    "condition": "value in {'oasis', 'sidhant', 'sharang', 'pujan', 'corrina'}"
+    "text": "\\(_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "binomial"
+      }, 
+      {
+        "text": "trinomial"
+      }
+    ], 
+    "correct": {
+      "text": "monomial"
+    }
   }
 }
