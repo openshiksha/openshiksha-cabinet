@@ -1,0 +1,1853 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The surface area of the box \\(= 2 (24 \\times 13 + 13 \\times 8 + 24 \\times 8) = 1216 cm^2\\)</div><div>Cost of painting the box = Rs. 2.6 per \\(cm^2\\)</div><div>Therefore, total cost of painting the box = \\(1216 \\times 2.6\\)</div><div>= Rs. 3161.6</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Latika needs to paint a rectangular box from the outside. The cost of painting the box is Rs. 2.6 per \\(cm^2.\\) If the dimensions of the box are \\(24 cm \\times 13 cm \\times 8 cm\\), what is the total cost of painting the box?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "3161.6"
+          }, 
+          "type": 3, 
+          "unit": "Rupees"
+        }
+      ], 
+      "pk": 28, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          48
+        ], 
+        "hint": {
+          "text": "Start by calculating the surface area", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of the water tank \\(= side^3 = j^3 m^3 = 1728 m^3 = 1728 \\times 1000 L = 1728000 L\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "How many litres of water can a cubical tank of side 12 m hold?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "1728000"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 25, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          45
+        ], 
+        "hint": {
+          "text": "Volume of a cube = \\(side^3\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Total surface area of all the cubes \\(= 5 \\times 6 \\times 2.7^2 = 218.7 cm^2\\)</div><div>Area of each face =\\(2.7^2 cm^2\\)</div><div>Number of faces that face inward = 10 faces</div><div>Therefore, outer surface area = 218.7 - 72.9 = 145.8 \\(cm^2\\)</div><div>Cost of paint = Rs 18 per \\(cm^2\\)</div><div>Therefore, total cost of painting the object = \\(145.8 \\times 18\\)</div><div>= Rs. 2624.4</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Five cubes of edge 2.7 cm each are placed side by side and stuck together as shown. The cost of painting is Rs 18 per \\(cm^2\\). What is the cost of painting the outer surface of the entire object?", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE3LnBuZzp1RE9wTjVZYmZRN1pCaVVHOGRlaXM2bEYwaVU/", 
+            "img": "17.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2624.4"
+          }, 
+          "type": 3, 
+          "unit": "Rupees"
+        }
+      ], 
+      "pk": 31, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          51
+        ], 
+        "hint": {
+          "text": "Count the number of faces that are outward facing", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume = Area of base \\(\\times\\) height \\(= 65 cm^2 \\times 31 cm = 2015 cm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The area of the base of a cylinder is \\(65 cm^2\\). Its height is 31 cm. What is the volume?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2015"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 27, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          47
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Garden = Area of Plot - Area of the House</div><div>\\(= ab - cd\\)</div><div>\\(= (3424 - 42(20)) m^2\\)</div><div>\\(=2584 m^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Kshitij is looking to landscape his garden. He made a diagram of his house (grey colour) but forgot to mention the exact dimensions of the garden area. You are the engineer in charge of the project. Can you use the information given below to calculate the area of the garden? a = 107 m, b = 32 m, c = 42 m, d = 20 m", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE1LnBuZzpoaVdfLUlXeDJZOTd2bFBSLUZZUUMycG1Pc1E/", 
+            "img": "15.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2584"
+          }, 
+          "type": 3, 
+          "unit": "\\(m^2\\)"
+        }
+      ], 
+      "pk": 21, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          41
+        ], 
+        "hint": {
+          "text": "Try subtracting areas to find the right answer", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Curved surface area (CSA) = \\(2\\pi rh\\)</div><div>Total surface area = \\(2\\pi r (r+h) = 2\\pi r^2 + 2\\pi rh = 3 \\times CSA = 1848\\)</div><div>Therefore, \\(2\\pi r^2 + 2\\pi rh = 6\\pi rh\\)</div><div>\\(\\Rightarrow 2\\pi r^2 = 4\\pi rh\\)</div><div>\\(\\Rightarrow r = 2h\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2}\\)</div><div>\\(CSA = \\frac{1848}3 = 2\\pi rh = 2\\pi r(\\frac {r}{2}) = \\pi r^2\\)</div><div>\\(\\Rightarrow\\) Area of Base = \\(\\pi r^2 = \\frac{1848}3\\)</div><div>\\(\\Rightarrow r^2 = \\frac {1848\\times 7}{3\\times 22}\\)</div><div>\\(\\Rightarrow r = 14 cm\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2} = 7 cm\\)</div><div>Therefore, volume \\(= \\pi r^2h = 4312 cm^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A solid cylinder has total surface area of 1848 square centimetres. Its curved surface area is one-third of its total surface area. Find the volume of the cylinder", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "4312"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 42, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          71
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The volume of the tank \\(= 50 cm \\times 46 cm \\times 48 cm \\)= 110400</div><div>Rate of flow into the tank = 8L/minute = 8000\\(cm^3\\)/minute</div><div>Therefore, time taken to fill tank completely \\(= \\frac {110400}{8000} \\)= 13.8 minutes</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Water is pouring into a cuboidal tank of length 50 cm, breadth 46 cm and height 48 cm at the rate of 8L/minute. How many minutes will it take to fill the tank completely?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "13.8"
+          }, 
+          "type": 3, 
+          "unit": "minutes"
+        }
+      ], 
+      "pk": 43, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          61
+        ], 
+        "hint": {
+          "text": "Volume of a cuboidal container = lbh", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of original tube = \\((\\pi{r_ o}^2 \\times h) - (\\pi{r_ i}^2 \\times h)\\)</div><div>\\(= 8624 cm^3\\)</div><div>Now, Volume of new tube = Volume of original tube</div><div>Let the length of the new tube be x</div><div>Therefore,\\(V_ {new} = (\\pi{r_ o}^2 \\times h) - (\\pi{r_ i}^2 \\times h) = (\\pi (\\frac {16}{2})^2 \\times x) - (\\pi (\\frac {16}{2} - 6)^2 \\times x)\\)</div><div>\\(\\Rightarrow x = \\frac {V_ {original}}{\\pi (\\frac {16}2)^2-\\pi (\\frac {16}2 - m)^2}\\)</div><div>= 45.73 cm</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A metallic tube, 98 cm long, has a thickness of 2 cm and an outer diameter of 16 cm. It is melted and made into another tube of thickness 6 cm with the same outer diameter. No material is wasted. What is the length of the new tube?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "45.73"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 40, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          60
+        ], 
+        "hint": {
+          "text": "Since no material is wasted, the volumes of both tubes are exactly equal", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of a cube = \\(length^3 = 64 cm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "In the cube below, a=4 cm, find its volume", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzExLnBuZzo5bzFjRGNGVHRYXzJkWkpxczNjSHQ3SkFtVFk/", 
+            "img": "11.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "64"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Surface Area of a cube = \\(6 \\times length^2 = 96 cm^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "See the cube below, a=4 cm, Find its surface area", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzExLnBuZzo5bzFjRGNGVHRYXzJkWkpxczNjSHQ3SkFtVFk/", 
+            "img": "11.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "96"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of a cuboid = \\(abc = 42 \\times 21 \\times 14 dm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "In the cuboid below, a=42 dm, b=21 dm, c=14 dm, find its volume", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEyLnBuZzpTSHNMcnI0djNwak5Hd0dDR0k4VG1RSnZHalU/", 
+            "img": "12.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "12348"
+          }, 
+          "type": 3, 
+          "unit": "\\(dm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Surface Area of a cuboid = \\(2(ab + bc + ca) = 2 (882 + 294 + 588) = 3528 dm^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "See the cuboid below, a=42 dm, b=21 dm, c=14 dm, Find its surface area", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEyLnBuZzpTSHNMcnI0djNwak5Hd0dDR0k4VG1RSnZHalU/", 
+            "img": "12.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "3528"
+          }, 
+          "type": 3, 
+          "unit": "\\(dm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of a cylinder = \\(\\pi \\times r^2 \\times h = 62.86 cm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "In the cylinder below, diameter=2 cm, h=20 cm, find its volume", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEzLnBuZzpFcWRxRjdlbDM2ODBpTDdLVnQ4Mmk4c1VsUnM/", 
+            "img": "13.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "62.86"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Surface Area of a cylinder = \\(2 \\times \\pi \\times r \\times(r + h) = 132 cm^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "In the cylinder, diameter=2 cm, h=20 cm, find its surface area", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEzLnBuZzpFcWRxRjdlbDM2ODBpTDdLVnQ4Mmk4c1VsUnM/", 
+            "img": "13.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "132"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume = Difference in volumes between outer and inner cylinder</div><div>\\(=\\pi \\times {r_ o}^2 \\times h - \\pi \\times {r_ i}^2 \\times h\\)</div><div>\\(=5632 - 4312\\)</div><div>\\(=1320 cm^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "In the figure below Inner Radius =14 cm, Outer Radius = 16 cm, Height = 7 cm, find its volume", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE0LnBuZzpFaUlSc1dQR2ZaYWVVR2QxREpKX1dkNnp5VWs/", 
+            "img": "14.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "1320"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Surface Area = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2 (\\pi {r_ o}^2 - \\pi {r_ i}^2)\\)</div><div>\\(= 1697.14 cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "In the same hollow cylinder, with Inner Radius =14 cm, Outer Radius = 16 cm, Height = 7 cm, find its surface area", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE0LnBuZzpFaUlSc1dQR2ZaYWVVR2QxREpKX1dkNnp5VWs/", 
+            "img": "14.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "1697.14"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }
+      ], 
+      "pk": 18, 
+      "container": {
+        "content": {
+          "text": "Find the volume and surface area of the objects below:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          21, 
+          23, 
+          25, 
+          27, 
+          29, 
+          31, 
+          33, 
+          35
+        ], 
+        "hint": {
+          "text": "<div>Remember the following formulas:</div><div>Volume of a Cube: \\(side^3\\)</div><div>Surface Area of the Cube:\\( 6 \\times side^2\\)</div><div>Volume of a Cuboid: \\(length \\times breadth \\times height\\)</div><div>Surface Area of the Cube: \\(2 \\times (lb + bh + lh)\\)</div><div>Volume of a cylinder:\\( \\pi r^2h\\)</div><div>Surface area of a cylinder:\\(2\\pi r(r+h)\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Rise in water level = 1.5 metres = 150 cm = h</div><div>Area of base = Area of Triangle = \\(\\frac{\\sqrt{3}}{4} \\times side^2 = \\frac{\\sqrt{3}}{4}\\times 42^2\\)</div><div>=\\(\\frac{\\sqrt{3}}{4}\\times 1764 cm^2\\)<div>Therefore, volume of water added = Area of base \\(\\times\\) Rise in water Level</div><div>=114439.5 \\(cm^3\\)<div>Since 1L =\\(1000cm^3\\)<div>Volume of water added = 114.44 L", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The water tank in Rekha\u2019s house has a base in the shape of an equilateral triangle with each side measuring 42 cm. It is filled with water till a height of 3 metres. She pours some more water into the tank and the new level is 4.5 metres. What volume of water did she pour into the tank? Use \\(\\sqrt{3} = 1.73\\)", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE5LnBuZzprY3hpdlNiNG9qVm5TSS1fNW5qVHVvWXNraU0/", 
+            "img": "19.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "114.44"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 36, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          69
+        ], 
+        "hint": {
+          "text": "Area of an equilateral triangle = \\(\\frac{\\sqrt{3}}{4} \\times side^2\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of school floor \\(= 5168 m^2\\)</div><div>Area of each tile = \\(Base \\times height = 19 \\times 8 = 152 cm^2\\)</div><div>Since the tiles can be perfectly broken into smaller parts, the number of tiles required is the area of the floor divided by the area of each tile. Also, remember that \\(1m^2 = 10000 cm^2\\)</div><div>Therefore, Number of tiles = 340000</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The area of your school library floor is \\(5168 m^2\\). You are asked to use tiles in the shape of a parallelogram with a base of 19 cm and a height of 8 cm to cover the floor. How many such tiles will you need to purchase? You can break the tiles in any way to cover the entire floor.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "340000"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 22, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          42
+        ], 
+        "hint": {
+          "text": "Start by finding the area of each tile.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of the brick wall \\(= 19 m \\times 3 m \\times 0.5 m = 28.5 m^3\\)</div><div>Volume of one brick \\(= 20 cm \\times 10 cm \\times 5 cm = 1000 cm^3\\)</div><div>\\(1 m^3 = 1000000 cm^3\\)</div><div>Therefore, number of bricks required \\(= 28.5 \\times \\frac{1000000}{1000}\\)</div><div>\\(= 28500\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Anjali is building a brick wall which is 19 m long, 3m tall and 50cm wide. Each brick is 20cm long, 10 cm wide and 5 cm tall. How many bricks will Anjali need to buy?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "28500"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 24, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          44
+        ], 
+        "hint": {
+          "text": "Start by calculating the volume of the entire brick wall", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Perimeter of cylinder = Breadth of paper</div><div>\\(= 2\\pi r = 14\\)</div><div>Therefore, r = 2.23 cm</div><div>Volume of a cylinder \\(= \\pi r^2h = 389.77 cm^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Rajiv likes to make 3D shapes from paper. Yesterday, he started with a rectangular piece of paper of length 25 cm and breadth 14 cm. He then rolled the paper into a cylinder so that the cylinder is now 25 cm long. What is the volume of the air inside the cylinder so formed?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "389.77"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 45, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          63
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of the large cube \\(= 36^3 cm^3\\)</div><div>Volume of the small cube \\(= 18^3 cm^3\\).</div><div>Therefore, number of cubes that can be cut \\(= \\frac {36^3}{18^3} = 8\\) cubes</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A cube has an edge measuring 36 cm. Find the number of cubes of edge 18 cm that can be cut off from it.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 26, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          46
+        ], 
+        "hint": {
+          "text": "Find the volume of the large cube and compare it to the volume of the smaller cube", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Given the volume of the pipe = V = 16405.71 \\(cm^3\\)</div><div>The volume of a cylindrical pipe = \\(\\pi{r_ o}^2h - \\pi{r_ i}^2h\\)</div><div>Let the thickness of the pipe be \\(x\\)</div><div>\\(\\Rightarrow V = \\pi (16)^2 \\times 60 - \\pi (16-x)^2 \\times 60\\)</div><div>\\(\\Rightarrow \\frac {V}{60\\pi}=16^2 - (16-x)^2\\)</div><div>\\(\\Rightarrow (16-x)^2 = 256 - \\frac{V}{60\\pi}\\)</div><div>\\(\\Rightarrow x = 16 - 13\\)</div><div>\\(\\Rightarrow x = 3\\)</div><div>Therefore, the thickness of the pipe is 3 cm</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The volume of a metallic cylinder pipe is 16405.71 cubic centimetres. Its length is 60 cm and its external radius is 16 cm. Find its thickness", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.1, 
+            "value": "3"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 41, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          70
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Given the area \\(= \\frac 12 \\times Width \\times\\) (Sum of parallel sides)</div><div>\\(= \\frac 12 \\times 30 \\times (25 +\\) River Side Length\\()\\)</div><div>Therefore River Side Length = \\(\\frac{1275}{15} - 25\\)</div><div>\\(= 60 m\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Hussain bought a plot of agricultural land which is in the shape of a trapezium (see below). The area of the land is \\(1275 m^2\\), the side parallel to the road is 25 metres and the width of the field is 30 metres. How long is the side parallel to the river?", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE2LnBuZzpLWUdZZUlYSVVnd1U3NjNuWWtMYk5mdG1IalU/", 
+            "img": "16.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "60"
+          }, 
+          "type": 3, 
+          "unit": "metres"
+        }
+      ], 
+      "pk": 23, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          43
+        ], 
+        "hint": {
+          "text": "The area of a trapezium is \\(\\frac 12 \\times Height \\times\\) (Sum of parallel sides)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Cross section of river area = Area of 1 + Area of 2 \\(= ac \\times \\frac 12 (d-c) (a+b) = 139 \\times 33 + \\frac 12 \\times 48\\times(139 + 109)\\)</div><div>\\(= 10539 m^2\\)</div><div>Rate of flow = 6 km/hr = 6000 m/hr</div><div>Volume of water flow = Area of cross section \\(\\times\\) Rate of flow</div><div>\\(= 10539 \\times 6000 = 63234000 m^3/hr\\)</div><div>= 63234 megalitre/hr</div><div>One week = 7 days =\\( 24 \\times 7\\) hours = 168 hours</div><div>Therefore, volume of water flowing into the sea in one week \\(= 168 \\times 63234\\)</div><div>= 10623312 megalitres</div>", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzIwLnBuZzo4UE1WME5DQUt2b3AyUlBYb0RUVzFfMWR6MkE/", 
+            "img": "20.png"
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The Vashishti river flows into the Arabian Sea. The cross-section of the river can be approximated as the shape shown in the diagram below. You measure the dimensions of the river and find that a = 139 m, b = 109 m, c = 33 m and d= 81 m. The river flows at a constant rate of 6 km / hr. What volume of water (in megalitres) flows into the sea over the course of a week? Note that 1 megalitre = 1000000 litres", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzIwLnBuZzo4UE1WME5DQUt2b3AyUlBYb0RUVzFfMWR6MkE/", 
+            "img": "20.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "10623312"
+          }, 
+          "type": 3, 
+          "unit": "Megalitres"
+        }
+      ], 
+      "pk": 44, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          62
+        ], 
+        "hint": {
+          "text": "Remember that the area of a trapezium is \\(\\frac 12 \\times \\)(Sum of parallel sides) \\(\\times\\) height", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The volume of the cylindrical pool \\(= \\pi \\times (\\frac d2)^2 \\times (h) m^3 = \\pi \\times (\\frac{10}2)^2 \\times (2) m^3\\)</div><div>\\(= 157142.86\\) L</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Your school is building a cylindrical swimming pool with a diameter of 10 metres and a depth of 2 metres. How much water (in litres) will they require to completely fill the pool?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "157142.86"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 20, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          40
+        ], 
+        "hint": {
+          "text": "Volume of a cylindrical container = \\(\\pi \\times r^2 \\times h\\) and \\(1m^3 = 1000L\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Total Curved Surface Area = \\(2\\pi rh = 132 cm^2\\)</div><div>\\(\\Rightarrow 2rh = \\frac{132}{\\pi} = 42 cm^2\\)</div><div>Once you cut the slice, there are three faces without icing: The curved outer surface and the two rectangular inner surfaces. (Remember that the top and bottom surfaces have icing)</div><div>Also, length of Base of Slice = Radius of Cylinder and Height of Slice = Height of Cylinder</div><div>Therefore, area of the slice that has no icing</div><div>= Curved area of slice + 2 \\(\\times\\) Rectangular surface area of slice</div><div>\\(= \\frac{1}{10}\\)(Total Curved Surface Area) + 2 \\(\\times\\) (Base \\(\\times\\) Height of slice)</div><div>\\(= \\frac {1}{10}\\times 132 + 2rh\\)</div><div>\\(= \\frac {1}{10}\\times 132 + 42\\)</div><div>= 55.2 \\(cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "You are given a cylindrical cake with icing on the top and bottom. There is no icing on the curved surface and the curved surface area is \\(132 cm^2\\). You then cut a straight slice from the cake (as shown below) such that the volume of the slice is exactly \\(\\frac {1}{10}\\) of the volume of the cake. What surface area of your slice has no icing?", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzIxLnBuZzpyblNfaXg4UGh0cTdfYTgzVE9DSkM0WVVFTk0/", 
+            "img": "21.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "55.2"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }
+      ], 
+      "pk": 46, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          64
+        ], 
+        "hint": {
+          "text": "Think about your slice as a separate object. What faces do not have icing?", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of tin sheet required for 1 box = Surface area of one box</div><div>\\(= 2 (8 \\times 7 + 7 \\times 5 + 8 \\times 5) = 262 cm^2\\)</div><div>Therefore, area of tin required for 6 boxes \\(= 262 \\times 6\\)</div><div>\\(= 1572 cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "You need to create a tin box of dimensions \\(8 cm \\times 7 cm \\times 5 cm.\\) What is the area of a sheet of tin required to make 6 such tins?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "1572"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }
+      ], 
+      "pk": 29, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          49
+        ], 
+        "hint": {
+          "text": "Start by calculating the surface area of the box", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Total surface area \\(= 6 \\times 12^2 = 6 (side)^2\\)</div><div>\\(\\Rightarrow\\) Length of side = \\((\\frac {864}{6})^{\\frac 12} = 12 cm\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A closed box in the shape of a cube has a total outer surface area of 864 \\(cm^2.\\) What is the length of its side in centimetres?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "12"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 30, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          50
+        ], 
+        "hint": {
+          "text": "Remember that surface area of a cube is \\(6 \\times side^2\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of pipe=Difference in volumes between outer and inner cylinder</div><div>\\(= \\pi{r_ o}^2 \\times h - \\pi{r_ i}^2 \\times h\\)</div><div>\\(= \\pi (21)^2 \\times 31 - \\pi(18)^2 \\times 31\\)</div><div>= 11399.14\\( cm^3\\)</div><div>\\(Mass = Volume \\times Density\\)</div><div>\\(\\Rightarrow Mass = 11399.14 cm^3 \\times \\frac{8.6 g}{cm^3}\\)</div><div>= 98032.63 g</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The inner diameter of a metallic tube is 18 cm. The thickness of the rim is 3 cm and the length is 31 cm. If the density of the metal is \\(\\frac{8.6 g}{cm^3}\\), what is the mass of the pipe?", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE4LnBuZzpleUJBMEk4TnpYcGpRb2tiY0dNNnVYYkptZnc/", 
+            "img": "18.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "98032.63"
+          }, 
+          "type": 3, 
+          "unit": "g"
+        }
+      ], 
+      "pk": 35, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          54
+        ], 
+        "hint": {
+          "text": "Volume = Difference in volumes between outer and inner cylinder", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>If the height is doubled :</div><div>V \\(= \\pi r^2\\times h\\)</div><div>\\({V_ {new}} = \\pi r^2 \\times(2h) = 2\\pi r^2 \\times h = 2V\\)</div><div>Therefore, the volume will double</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If the height is doubled:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Volume will half \\((\\frac 12 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quadruple (4V)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quarter \\((\\frac 14 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "Volume will double (2V)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>If the radius is doubled :</div><div>V \\(= \\pi r^2h\\)</div><div>\\({V_ {new}} = \\pi (2r)^2h = 4\\pi r^2h = 4V\\)</div><div>Therefore, the volume will quadruple</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "If the radius is doubled:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Volume will half \\((\\frac 12 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will double (2V)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quarter \\((\\frac 14 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "Volume will quadruple (4V)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>If the radius is halved :</div><div>V \\(= \\pi r^2h\\)</div><div>\\(V_ {new} = \\pi (\\frac r2)^2h = \\frac V4\\)</div><div>Therefore, the volume will quarter</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "If the radius is halved:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Volume will half \\((\\frac 12 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will double (2V)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quadruple (4V)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "Volume will quarter \\((\\frac 14 V)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 39, 
+      "container": {
+        "content": {
+          "text": "A cylinder has a radius r, a height h and a volume V", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          57, 
+          58, 
+          59
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of Iqbal&#39;s Tank = \\(134 cm \\times 120 cm \\times 398 cm\\)</div><div>\\(= 6399.84 L\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Iqbal&#39;s Tank is : \\(134 cm \\times 120 cm \\times 398 cm\\). Its Volume is:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6399.84"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of Rahul&#39;s Tank = \\(371 cm \\times 360 cm \\times 341 cm\\)</div><div>\\(= 45543.96 L\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Rahul&#39;s Tank is :\\(371 cm \\times 360 cm \\times 341 cm\\). Its Volume is:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "45543.96"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 19, 
+      "container": {
+        "content": {
+          "text": "Iqbal and Rahul have cuboidal water tanks at home and are trying to calculate how much rainwater they can harvest. They provide you with measurements and ask you to calculate the volumes for both tanks in litres.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          37, 
+          38
+        ], 
+        "hint": {
+          "text": "<div>Remember that the volume of a cuboidal tank = \\(length \\times breadth \\times height\\)</div><div>Also remember that 1L = \\(1000 cm^3\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of cylinder \\(= \\pi r^2 \\times h = \\pi \\times 8^2 \\times 34 = 6838.86 cm^3\\)</div><div>Volume of new cuboid = \\(lbh\\) = Volume of cylinder</div><div>Therefore, \\(lbh = 6838.86 cm^3\\)</div><div>\\(\\Rightarrow 28 \\times 19 \\times h = 6838.86 cm^3\\)</div><div>\\(\\Rightarrow h = \\frac {6838.86}{28 \\times 19} = 12.85\\)</div><div>The new cuboid is 12.85 cm tall</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A metal cylinder of height 34 cm and radius 8 cm is melted and reshaped into a cuboid of length 28 cm and breadth 19 cm. No metal was wasted during this process. How tall is the new cuboid?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "12.85"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 37, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          55
+        ], 
+        "hint": {
+          "text": "If no metal is wasted, both objects will have the same volume.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The dimensions of a cuboid are in the ratio of 6:5:2 (l:b:h). If the total surface area is 104 \\(m^2\\). What is the length of the cuboid?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
+          }, 
+          "type": 3, 
+          "unit": "metres"
+        }, 
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "What is the Breadth of the cuboid?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "5"
+          }, 
+          "type": 3, 
+          "unit": "metres"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Let length:breadth:height = 6x:5x:2x</div><div>Therefore, Surface Area of the cuboid = \\(2(6 \\times 5x^2 + 5 \\times 2x^2 + 2 \\times 6x^2)\\)</div><div>= \\(2(52)x^2\\)</div><div>= \\(104x^2\\)</div><div>Given that surface area is \\(104 m^2\\)</div><div>Therefore, \\(104 m^2 = 104 x^2\\)</div><div>\\(\\Rightarrow x^2 = \\frac{104}{104}\\)</div><div>\\(\\Rightarrow x = \\sqrt{1}\\)</div><div>\\(\\Rightarrow\\) x = 1 metres</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "What is the Height of the cuboid?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2"
+          }, 
+          "type": 3, 
+          "unit": "metres"
+        }
+      ], 
+      "pk": 32, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          66, 
+          67, 
+          68
+        ], 
+        "hint": {
+          "text": "Surface Area of the cuboid = \\(2 (lb + bh + lh)\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "In the square below, a=5 cm", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEucG5nOlRONDllcTNwTGgzal9Zc0JuWlZycnE2alM3UQ/", 
+            "img": "1.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "25"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Area of a rectangle = length \\(\\times\\) breadth \\(= 195 cm^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "In the rectangle below, \\(a=15 cm\\), \\(b=13 cm\\)", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzIucG5nOnVMZ3Y1QmNXRUUxendkNWlkdUYtRXNXQ0FZUQ/", 
+            "img": "2.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "195"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of a circle = \\(\\pi \\times radius^2\\)</div><div>=\\(154 m^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "In the circle below, \\(r=7 m\\)", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzMucG5nOkx6bVJFLWJrRHhaY3pHSU1MSHlsOFRiWkZHTQ/", 
+            "img": "3.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "154"
+          }, 
+          "type": 3, 
+          "unit": "\\(m^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of a triangle \\(= \\frac 12 \\times base\\times height\\)</div><div>\\(= 225 mm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "In the triangle below, \\(a=20 mm\\), \\(h = 22.5 mm\\)", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzQucG5nOkNzLWdJM2VLNnlRQS15bnNHWjVfRlpCM2VMUQ/", 
+            "img": "4.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "225"
+          }, 
+          "type": 3, 
+          "unit": "\\(mm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of the polygon = Area of square (1) + Area of triangle (2) + Area of square (3)</div><div>\\(= (a \\times b) + (\\frac 12 \\times e \\times d) + (b-d) \\times e\\)</div><div>\\(= 100 + 12.5 + 25\\)</div><div>= \\(137.5 cm^2\\)</div>", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzVfc29sLnBuZzpCZGc3b2ltWEtxNUtPaTRkR2ZMZ1Y1RC1PRUU/", 
+            "img": "5_sol.png"
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "In the polygon below, \\(a=10 cm\\), \\(b=10 cm\\), \\(c=15 cm\\), \\(d=5 cm\\), \\(e=5 cm\\)", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzUucG5nOmtFOFMxUlJYZ1ZOWkdZSUxFMjJnS3V6ajBJSQ/", 
+            "img": "5.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "137.5"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of the polygon = Area Of Trapezium (1) + Area of Rectangle (2)</div><div>\\(= \\frac 12 \\times (a+b) \\times c + b \\times (h-c)\\)</div><div>\\(=\\frac 12 \\times 34 \\times 14 + 19 \\ times 3\\)</div><div>=\\(295 dm^2\\)</div>", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzZfc29sLnBuZzpIeWV5NlQzYmI3TmV1NWdrWlRfYjY4V0Uxd00/", 
+            "img": "6_sol.png"
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "In the polygon below, a=15 dm, b=42 dm, c= 14 dm, h= 28 dm", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzYucG5nOlMtNFZqMllaZlIzSWRDcVJwSDNXVVMxcTZYbw/", 
+            "img": "6.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "295"
+          }, 
+          "type": 3, 
+          "unit": "\\(dm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of a parallelogram = \\(Base \\times Height\\)</div><div>\\(= 40 \\times 20 cm^2\\)</div><div>\\(= 800 cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "In the parallelogram below, a=40 cm, h=20 cm", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzcucG5nOkhfVzF4M0cyeEVXYUtDS1NZdmFVaG01RFY1WQ/", 
+            "img": "7.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "800"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Quadrilateral = Area of Triangle (1) + Area of Triangle (2)</div><div>\\(= \\frac 12 \\times h_ 1 \\times d + \\frac 12 \\times h_ 2 \\times d\\)</div><div>\\(= (\\frac 12 \\times 9 \\times 36) + (\\frac 12 \\times 18 \\times 36)\\)</div><div>=\\(486 cm^2\\)</div>", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzhfc29sLnBuZzowVGh6WDBnNlZ2NTRjek9lbWNBWXg2aldUeFk/", 
+            "img": "8_sol.png"
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "In the quadrilateral below, \\(h1=9 cm\\), \\(h2=18 cm\\), \\(d=36 cm\\)", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzgucG5nOnpKSlRCcm9pQ1Y5a1JwRXpjR0hkU0xNTDhxQQ/", 
+            "img": "8.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "486"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Polygon = Area of Triangle (1) + Area of Trapezium (2) + Area of Triangle (3) + Area of Triangle (4) + Area of Triangle (5)</div><div>\\(\\frac 12 \\times a \\times b + \\frac 12 (b + e)(c + d) + \\frac 12 \\times e \\times f + \\frac 12 \\times g \\times (d+f) + \\frac 12 \\times (a+c) \\times g\\)</div><div>\\(= \\frac 12 \\times 4 \\times 5 + \\frac 12 \\times 10 \\times 7 + \\frac 12 \\times 5 \\times 3 + \\frac 12 \\times 4 \\times 5 + \\frac 12 \\times 9 \\times 4\\)</div><div>\\(=84.5 cm^2\\)</div>", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzlfc29sLnBuZzpkaDRTM1JsdDRrVTR5N25ZOGV6ZVkwQUlEa1U/", 
+            "img": "9_sol.png"
+          }, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "In the polygon below, a=4 cm, b=5 cm, c=5 cm, d=2 cm, e=5 cm, f=3 cm, g=4 cm", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzkucG5nOlRWeGJGcndrdXdrT2Q3WHFfcnVPaDhoYW1ubw/", 
+            "img": "9.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "76.9"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Polygon = Area of Trapezium (1) + Area of Trapezium (2)</div><div>= Area of Trapezium \\(\\times 2\\)</div><div>\\(= \\frac 12 (a+c)(h) \\times 2\\)</div><div>\\(= \\frac 12 (6 + 8)(4) \\times 2\\)</div><div>\\(= 56 mm^2\\)</div>", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEwX3NvbC5wbmc6aHYwUzg4aE83eGhmVHA3NUJ4ZEhrbm1oTGZv/", 
+            "img": "10_sol.png"
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "In the polygon below, a=6 mm, h=4 mm, c=8 mm", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEwLnBuZzpDTlQwR1lhSVoxNzZ6WVVRVGRPMlhUSDhvUkE/", 
+            "img": "10.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "56"
+          }, 
+          "type": 3, 
+          "unit": "\\(mm^2\\)"
+        }
+      ], 
+      "pk": 17, 
+      "container": {
+        "content": {
+          "text": "Find the area of the shapes below:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          1, 
+          3, 
+          5, 
+          7, 
+          9, 
+          11, 
+          13, 
+          15, 
+          17, 
+          19
+        ], 
+        "hint": {
+          "text": "<div>Observe the shapes carefully and see if you can break them down into smaller shapes to make calculating the areas easier. Remember the following formulas:</div><div>Area of Rectangle: \\(length \\times breadth\\)</div><div>Area of Square: \\(length^2\\)</div><div>Area of a Triangle: \\(\\frac 12 \\times base \\times height\\)</div><div>Area of Parallelogram: \\(base \\times height\\)</div><div>Area of Trapezium: \\(\\frac 12 \\times (a+b) \\times h\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Curved Surface area of the roller \\(= 2 \\pi rh = 2\\pi \\times \\frac {10}2 \\times 32 = 1005.71 cm^2\\)</div><div>Area covered per rotation \\(= 1005.71 cm^2\\)</div><div>\\(\\Rightarrow\\) Area painted in 53 rolls \\(= 1005.71 \\times 53 = 53302.86 cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Last Monday, Ram painted a rectangular wall with a cylindrical paint roller. The length of the roller is 32 cm and its diameter is 10 cm. While painting, the roller rolled over 53 times completely. What surface area did Ram paint?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "53302.86"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }
+      ], 
+      "pk": 33, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          52
+        ], 
+        "hint": {
+          "text": "How much area does the roller cover in one rotation?", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>1 dm = 10cm</div><div>Area of Base \\(= \\pi r^2 = \\pi (18)^2 = 1018.29 dm^2 = 101828.57 cm^2\\)</div><div>Rise of water level = h = 16 cm</div><div>Therefore, volume of rain water harvested \\(= 101828.57 \\times 16 = 1629257.14 cm^3\\)</div><div>1 L \\(= 1000cm^3\\)</div><div>\\(\\Rightarrow\\)Volume of rain water harvested \\(= 1629.26 L\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "You have set up a rain-water harvesting system at your home. A cylindrical container with a radius of 18 dm collects rain-water from your roof. It rained last Monday and some water was collected, raising the height of water in the container by 16 cm. What volume of rain water was collected?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "1629.26"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 38, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          56
+        ], 
+        "hint": {
+          "text": "Volume of a cylinder = \\(\u03c0r^2h\\). Also note that 1dm = 10cm", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Surface Area of the pipe = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2(\\pi {r_ o}^2 - \\pi {r_ i}^2)\\)</div><div>\\(= 2\\pi \\times \\frac{23}2 \\times 4 + 2 \\pi \\times \\frac{6}2 \\times 4 + 2\\pi({\\frac{23}2}^2 - {\\frac{6}2}^2)\\)</div><div>= 1139.29\\(cm^2\\)</div><div>Therefore, cost of painting the pipe \\(= 1139.29 \\times 0.2\\)</div><div>= Rs. 227.86</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A cylindrical pipe has an outer diameter of 23 cm and an inner diameter of 6 cm. Its length is 4 cm. It needs to be painted on its outer and inner surfaces, as well as the rims. The cost of painting the pipe is Rs. 0.2 per \\(cm^2\\). What is the total cost of painting the pipe?", 
+            "img_url": "/secure-static/amF5YW50X3BhaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE4LnBuZzpleUJBMEk4TnpYcGpRb2tiY0dNNnVYYkptZnc/", 
+            "img": "18.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "227.86"
+          }, 
+          "type": 3, 
+          "unit": "Rupees"
+        }
+      ], 
+      "pk": 34, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          53
+        ], 
+        "hint": {
+          "text": "Surface Area of the pipe = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ]
+  ]
+}
