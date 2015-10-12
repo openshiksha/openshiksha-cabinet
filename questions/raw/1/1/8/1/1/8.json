@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "\\(_{j}_x +_{k}_\\) \u2013 Binomial. Because this expression has two terms."
+  }, 
+  "subpart_index": 6, 
+  "content": {
+    "text": "\\(_{j}_x + _{k}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "monomial"
+      }, 
+      {
+        "text": "trinomial"
+      }
+    ], 
+    "correct": {
+      "text": "binomial"
+    }
+  }
+}

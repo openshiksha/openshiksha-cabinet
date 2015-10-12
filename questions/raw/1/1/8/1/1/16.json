@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "<div>\\((_{j}_t^2 + _{k}_) (_{j}_t^2 + _{l}_)\\)</div><div>Using the identity: \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)</div><div>Where \\(x = _{j}_t^2\\), \\(a = _{k}_\\), \\(b = _{l}_\\)</div><div>= \\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>\\((_{j}_t^2 + _{k}_) (_{j}_t^2 + _{l}_)\\)</div><div>Choose the correct answer after applying the identity</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_t^2 + _{{(k+l)*j}}_t + _{{k*l}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{j**2}}_t^4 + _{{k*l}}_t^2 + _{{k+l}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{j**2}}_t^4 + _{k}_t^2 + _{{k*l}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\) "
+    }
+  }
+}

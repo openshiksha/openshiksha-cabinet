@@ -1,0 +1,27 @@
+{
+  "content": {
+    "text": "<div>\\((_{j}_pq + _{k}_q^2)(_{j}_pq + _{k}_q^2)\\)</div><div>Choose the correct identity to perform this multiplication</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "subpart_index": 6, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((a+b)(a-b) = a^2 - b^2\\)"
+      }, 
+      {
+        "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
+      }, 
+      {
+        "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\) "
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "\\(_{j}_xy + xy + _{k}_\\) \u2013 Binomial. Because it can be simplified to two terms \\(_{{j+1}}_xy + _{k}_\\)."
+  }, 
+  "subpart_index": 9, 
+  "content": {
+    "text": "\\(_{j}_xy + xy + _{k}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "monomial"
+      }, 
+      {
+        "text": "binomial"
+      }
+    ], 
+    "correct": {
+      "text": "trinomial"
+    }
+  }
+}

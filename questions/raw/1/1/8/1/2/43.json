@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given the area \\(= \\frac 12 \\times Width \\times\\) (Sum of parallel sides)</div><div>\\(= \\frac 12 \\times _{k}_ \\times (_{j}_ +\\) River Side Length\\()\\)</div><div>Therefore River Side Length = \\(\\frac{_{{Decimal('0.5')*k*(j+60)}}_}{_{{Decimal('0.5')*k}}_} - _{j}_\\)</div><div>\\(= 60 m\\)</div>"
+  }, 
+  "content": {
+    "text": "Hussain bought a plot of agricultural land which is in the shape of a trapezium (see below). The area of the land is \\(_{{Decimal('0.5')*k*(j+60)}}_ m^2\\), the side parallel to the road is _{j}_ metres and the width of the field is _{k}_ metres. How long is the side parallel to the river?", 
+    "img": "16.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            25
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 60
+  }, 
+  "type": 3, 
+  "unit": "metres"
+}
