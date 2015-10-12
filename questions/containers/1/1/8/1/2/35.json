@@ -1,9 +1,11 @@
 {
-  "content": null, 
+  "content": {
+    "text": "A cylinder has a radius r, a height h and a volume V"
+  }, 
   "subparts": [
-    54
+    57, 
+    58, 
+    59
   ], 
-  "hint": {
-    "text": "Volume = Difference in volumes between outer and inner cylinder"
-  }
+  "hint": null
 }
