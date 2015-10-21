@@ -19,7 +19,7 @@ git push origin master >> backup-tmp.log 2>&1
 
 # send log email
 echo 'Sending log email'
-curl -s --user "api:$(cat /etc/hwcentral/mailgun_apikey.txt)" https://api.mailgun.net/v3/hwcentral.in/messages -F from='DB Server <postmaster@hwcentral.in>' -F to=exception@hwcentral.in -F subject='Nightly Backup' -F text="$(cat backup-log.tmp)"
+curl -s --user "api:$(cat /etc/hwcentral/mailgun_apikey.txt)" https://api.mailgun.net/v3/hwcentral.in/messages -F from='DB Server <postmaster@hwcentral.in>' -F to=exception@hwcentral.in -F subject='Nightly Backup' -F text="$(cat backup-tmp.log)"
 
 # print log so that cron will append it to log file
 cat backup-tmp.log
