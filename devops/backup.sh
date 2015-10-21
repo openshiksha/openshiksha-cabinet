@@ -9,7 +9,7 @@ echo "Running backup script on $(date)" >> backup-tmp.log 2>&1
 echo 'Dumping db state to backup file...' >> backup-tmp.log 2>&1
 
 # create the database dump which will be backed up by rackspace daily
-mysqldump --single-transaction -u$(cat /etc/hwcentral/db_backup_user.txt) -p$(cat /etc/hwcentral/db_backup_password.txt) $(cat /etc/hwcentral/db_name.txt) 2>> backup-tmp.log 1> ../db_bak/hwcentral_prod.sql
+mysqldump --single-transaction -u$(cat /etc/hwcentral/db_backup_user.txt) -p$(cat /etc/hwcentral/db_backup_password.txt) $(cat /etc/hwcentral/db_name.txt) 2>> backup-tmp.log 1> ../db_bak/$(cat /etc/hwcentral/db_name.txt).sql
 
 echo 'db state dumped ->' >> backup-tmp.log 2>&1
 ls -alt ../db_bak/ >> backup-tmp.log 2>&1
