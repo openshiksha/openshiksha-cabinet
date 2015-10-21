@@ -1,0 +1,1 @@
+0 23 * * * oasis /home/oasis/hwcentral-cabinet/devops/backup.sh >> /home/oasis/hwcentral-cabinet/devops/cron.log 2>&1
