@@ -1,0 +1,29 @@
+{
+  "solution": {
+    "text": "<div>\\( _{{j**3}}_ \\times _{{j**3}}_ \\times _{{j**3}}_ \\times _{{j**3}}_ \\)</div><div>Notice that \\(_{{j**3}}_ = _{j}_^3\\)</div><div>Use the law of exponents:\\( a^x \\times a^y = a^{x+y}\\)</div><div>Therefore, we get:</div><div>\\( _{j}_^3 \\times _{j}_^3 \\times _{j}_^3 \\times _{j}_^3 = _{j}_^{12}\\)</div>"
+  }, 
+  "subpart_index": 7, 
+  "content": {
+    "text": "\\( _{{j**3}}_ \\times _{{j**3}}_ \\times _{{j**3}}_ \\times _{{j**3}}_ \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_^9\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^{81}\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_^{12}\\)"
+    }
+  }
+}

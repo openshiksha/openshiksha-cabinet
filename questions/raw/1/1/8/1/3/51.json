@@ -1,0 +1,19 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>\\( _{j}_\\frac 12 - _{k}_\\frac 34 - _{l}_\\frac 23\\)</div><div>\\(= \\frac {_{{(2*j)+1}}_}{2} - \\frac {_{{(4*k)+3}}_}{4} - \\frac{_{{(3*l)+2}}_}{3}\\) [Converting mixed fractions into improper fractions]</div><div>LCM of the denominators of the 3 fractions, i.e. 2, 3, 4 = 12.</div><div>Writing the fractions with a common denominator, i.e. 12, we get:</div><div>\\( (\\frac {_{{(2*j)+1}}_}{2} \\times \\frac 66) - (\\frac {_{{(4*k)+3}}_}{4} \\times \\frac 33) - (\\frac{_{{(3*l)+2}}_}{3} \\times \\frac 44)\\)</div><div>\\(= \\frac{_{{(12*j)+6}}_}{12} - \\frac{_{{(12*k)+9}}_}{12} - \\frac{_{{(12*l)+8}}_}{12}\\)</div><div>\\(= _{{Fraction((12*j)+6-(12*k)-9-(12*l)-8, 12)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_\\frac 12 - _{k}_\\frac 34 - _{l}_\\frac 23\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( j - k - l + Decimal('0.5') - Decimal('0.75') - (Decimal(2)/Decimal(3)), 2 )}}_"
+  }, 
+  "type": 3
+}

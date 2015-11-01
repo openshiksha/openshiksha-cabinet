@@ -1,0 +1,30 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\( 2 \\times _{j}_ \\times (-1)\\)</div><div>=_{{2*j*(-1)}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( 2 \\times _{j}_ \\times (-1) \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{2*j*(-1)}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Total hours spent by Archana on the farm = \\( _{j}_\\frac23 = \\frac{(3 \\times _{j}_) + 2}3 = \\frac {_{{(3*j)+2}}_}3\\)</div><div>Hours spent watering the fields = \\( _{k}_\\frac12 = \\frac{(2 \\times _{k}_) + 1}2 = \\frac{_{{(2*k)+1}}_}2\\)</div><div>We now find the LCM of the denominators of the 2 fractions, i.e. 2 and 3</div><div>LCM of 2 and 3 = 6</div><div>Let us now write the fractions in such a way that their denominators are equal, i.e. 6, so that we can subtract them.</div><div>\\( \\Rightarrow \\)Time spent by Archana on the farm = \\( \\frac {_{{(3*j)+2}}_}3 \\times \\frac 22 = \\frac {_{{2*((3*j)+2)}}_}6 hours\\)</div><div>\\( \\Rightarrow \\) Hours spent watering the fields = \\( \\frac{_{{(2*k)+1}}_}2 \\times \\frac33 = \\frac {_{{3*((2*k)+1)}}_}6 hours\\)</div><div>\\( \\Rightarrow \\) Time taken for the rest of the work = \\(\\frac {_{{2*((3*j)+2)}}_}6 - \\frac {_{{3*((2*k)+1)}}_}6 = \\frac{_{{(2*((3*j)+2)) - (3*((2*k)+1))}}_}6 hours\\)</div>"
+  }, 
+  "content": {
+    "text": "Archana works in the farm for \\( _{j}_\\frac 23 \\) hours every day. She devotes \\( _{k}_\\frac 12 \\) hours to watering the fields. How much time does the rest of her work take?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(j + (Decimal(2)/Decimal(3)) - k - Decimal('0.5'), 2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "hours"
+}

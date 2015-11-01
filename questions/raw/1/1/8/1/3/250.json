@@ -1,0 +1,16 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the number be x.</div><div>Now, according to the data provided in the question,</div><div>\\((\\frac 13 \\times x) - _{j}_ = _{{j+33}}_\\)</div><div>\\(\\Rightarrow \\frac x3 = _{{j+33}}_ + _{j}_\\) [Taking all constants to one side]</div><div>\\(\\Rightarrow \\frac x3 = _{{j+33+j}}_\\)</div><div>Cross-multiplying:</div><div>\\(x = 3 \\times _{{j+33+j}}_ = _{{3*(j+33+j)}}_\\)</div>Therefore, the number is _{{3*(j+33) + (3*j)}}_"
+  }, 
+  "content": {
+    "text": "Find a number, such that one-third of the number is _{j}_ more than _{{j+33}}_"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{3*(j+33+j)}}_"
+  }, 
+  "type": 3
+}

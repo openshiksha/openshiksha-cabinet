@@ -1,0 +1,17 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\div 2\\frac 1{_{j}_} \\)</div><div>\\(= _{j}_ \\div \\frac{(2 \\times _{j}_) + 1}{_{j}_}\\) [Converting mixed fraction into an improper fraction]</div><div>\\(= _{j}_ \\div \\frac {_{{(2*j)+1}}_}{_{j}_} = _{j}_ \\times \\frac {_{j}_}{_{{(2*j)+1}}_} = _{{Fraction(j*j, (2*j)+1)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_ \\div 2\\frac 1{_{j}_} \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( (j*j)/((2*j)+Decimal(1)), 2 )}}_"
+  }, 
+  "type": 3
+}

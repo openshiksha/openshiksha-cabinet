@@ -1,0 +1,88 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>We first convert the percentage to a fraction \\(= \\frac{_{{10*Decimal(str(j))}}_}{10}\\)</div><div>We then divide by 100 to get the true fraction form:</div><div>\\(= \\frac {_{{10*Decimal(str(j))}}_}{10} \\div 100 = _{{Fraction(int(Decimal(str(j))*10), 1000)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "_{j}_&#37;"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            78
+          ], 
+          [
+            79
+          ], 
+          [
+            80
+          ], 
+          [
+            81
+          ], 
+          [
+            82
+          ], 
+          [
+            83
+          ], 
+          [
+            84
+          ], 
+          [
+            85
+          ], 
+          [
+            86
+          ], 
+          [
+            87
+          ], 
+          [
+            88
+          ], 
+          [
+            89
+          ], 
+          [
+            90
+          ], 
+          [
+            91
+          ], 
+          [
+            92
+          ], 
+          [
+            93
+          ], 
+          [
+            94
+          ], 
+          [
+            95
+          ], 
+          [
+            96
+          ], 
+          [
+            97
+          ]
+        ], 
+        "decimal": 1, 
+        "include": [
+          [
+            77.5, 
+            97.5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(str(j))*Decimal('0.01')}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\( _{{2**j}}_ = 2^n \\)</div><div>\\( \\Rightarrow 2^{_{j}_} = 2^n \\)</div><div>Therefore n = _{j}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{{2**j}}_ = 2^n \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

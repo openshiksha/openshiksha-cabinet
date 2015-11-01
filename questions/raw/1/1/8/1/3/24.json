@@ -1,0 +1,30 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\( 1 \\times _{j}_ = a \\)</div><div>\\( 1 \\times _{j}_ = _{j}_ \\times 1\\) [Multiplication is commutative for integers]</div><div>Any number multiplied by 1 results in the number itself, i.e.\\( p \\times 1 = p\\)</div><div>Thus, a=_{j}_</div>"
+  }, 
+  "content": {
+    "text": "\\( 1 \\times _{j}_ = a \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

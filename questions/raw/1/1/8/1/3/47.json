@@ -1,0 +1,17 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\div \\frac 73 \\)</div><div>\\(= _{j}_ \\times \\frac 37 = _{{Fraction(3*j, 7)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ \\div \\frac 73 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( (3*j)/Decimal(7), 2 )}}_"
+  }, 
+  "type": 3
+}

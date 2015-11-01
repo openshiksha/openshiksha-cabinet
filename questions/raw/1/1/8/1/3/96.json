@@ -1,0 +1,30 @@
+{
+  "solution": {
+    "text": "<div>279404 = \\( 2.79404 \\times 10^5 \\)</div>"
+  }, 
+  "subpart_index": 9, 
+  "content": {
+    "text": "279404"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( 2.79404 \\times 10^2 \\)"
+      }, 
+      {
+        "text": "\\( 2.79404 \\times 10^3 \\)"
+      }, 
+      {
+        "text": "\\( 2.79404 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( 2.79404 \\times 10^5 \\)"
+    }
+  }
+}

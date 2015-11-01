@@ -1,0 +1,45 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\( _{j}_ - _{k}_ = _{k}_ - a \\)</div><div>We know that subtraction is NOT commutative for integers, p - q is not equal to q - p.</div><div>We take a to the LHS, and shift (_{j}_ - _{k}_) to the RHS.</div><div>\\( \\Rightarrow a = _{k}_ - (_{j}_ - _{k}_)\\)</div><div>\\( \\Rightarrow a = _{k}_ - _{j}_ + _{k}_\\)</div><div>\\( \\Rightarrow a = _{{(2*k)-j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ - _{k}_ = _{k}_ - a \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(2*k)-j}}_"
+  }, 
+  "type": 3
+}

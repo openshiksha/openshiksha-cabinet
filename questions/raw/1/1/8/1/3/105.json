@@ -1,0 +1,29 @@
+{
+  "solution": {
+    "text": "<div>The first step is the convert both quantities to the same unit. Thus, _{j}_kg = \\(1000 \\times _{j}_\\) grams.  Now the ratio between the two is _{{1000*j}}_:_{{14*j}}_ = 500:7</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "What is the ratio of _{j}_ kg to _{{14*j}}_ g?"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "14:1"
+      }, 
+      {
+        "text": "71:2"
+      }, 
+      {
+        "text": "1:14"
+      }
+    ], 
+    "correct": {
+      "text": "500:7"
+    }
+  }
+}

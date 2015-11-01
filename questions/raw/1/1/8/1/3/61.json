@@ -1,0 +1,28 @@
+{
+  "solution": {
+    "text": "_{j}_y - _{k}_z : Binomial. This expression has two terms"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "_{j}_y - _{k}_z"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Monomial"
+      }, 
+      {
+        "text": "Trinomial"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Binomial"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "subpart_index": 14, 
+  "solution": {
+    "text": "<div>\\( a \\div _{j}_ = -1 \\)</div><div>Upon cross multiplying, we obtain:</div><div>\\( a = -1 \\times _{j}_ = _{{(-1)*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( a \\div _{j}_ = -1 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(-1)*j}}_"
+  }, 
+  "type": 3
+}

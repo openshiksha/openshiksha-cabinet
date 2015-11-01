@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>_{j}_x - _{k}_; x=1</div><div>Subsituting x for 1 gives us: _{j}_(1) - _{k}_</div><div>= _{j}_ - _{k}_</div><div>= _{{j-k}}_</div>"
+  }, 
+  "content": {
+    "text": "_{j}_x - _{k}_; x=1"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j-k}}_"
+  }, 
+  "type": 3
+}

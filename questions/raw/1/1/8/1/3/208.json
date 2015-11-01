@@ -1,0 +1,34 @@
+{
+  "subpart_index": 8, 
+  "solution": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\div _{{Decimal('0.04')+Decimal(str(l))+m}}_ = _{{trunc( (k+Decimal(str(l)))/(Decimal('0.04')+Decimal(str(l))+m), 2 )}}_\\)"
+  }, 
+  "content": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\div _{{Decimal('0.04')+Decimal(str(l))+m}}_\\) [Final answer should contain at least 2 decimal places]"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "m": {}, 
+    "l": {
+      "options": [
+        0.1, 
+        0.2, 
+        0.3, 
+        0.4, 
+        0.5, 
+        0.6, 
+        0.7, 
+        0.8, 
+        0.9, 
+        0.01, 
+        0.05, 
+        0.07
+      ]
+    }
+  }, 
+  "answer": {
+    "tolerance": "0.01", 
+    "value": "_{{trunc( (k+Decimal(str(l)))/(Decimal('0.04')+Decimal(str(l))+m), 2 )}}_"
+  }, 
+  "type": 3
+}

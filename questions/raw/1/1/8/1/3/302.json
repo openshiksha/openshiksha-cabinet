@@ -1,0 +1,46 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We know that Rohan can travel _{j}_ km with _{k}_ litres of petrol.</div><div>Therefore, with 1L of petrol, he can drive: \\( _{j}_ \\div _{k}_ = _{{Fraction(j,k)}}_ km\\)</div><div>Thus, with _{l}_ litres of petrol, he can drive \\(_{{Fraction(j,k)}}_ \\times _{l}_ = _{{Fraction(j*l,k)}}_ km\\)</div>"
+  }, 
+  "content": {
+    "text": "Rohan\u2019s car can be driven _{j}_ km with _{k}_ litres of petrol. How far can it be driven with _{l}_ litres of petrol? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            100, 
+            200
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( (j*l)/Decimal(k), 2 )}}_"
+  }, 
+  "type": 3
+}

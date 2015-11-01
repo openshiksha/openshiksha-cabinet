@@ -1,0 +1,32 @@
+{
+  "solution": {
+    "text": "<div>_{j}_x : The only variable in this expression is x.</div><div>_{j}_x + _{k}_ : This expression has only one variable - x.</div><div>_{j}_y + x : This expression has two variables - x and y</div><div>_{j}_t : This expression has only one variable - t</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Which of the following expressions have only one variable?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_y + x"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "_{j}_x"
+      }, 
+      {
+        "text": "_{j}_x + _{k}_"
+      }, 
+      {
+        "text": "_{j}_t"
+      }
+    ]
+  }
+}

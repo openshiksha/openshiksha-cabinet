@@ -1,0 +1,33 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\times _{{m+Decimal(str(l))+Decimal('0.04')}}_ = _{{(k+Decimal(str(l)))*(m+Decimal(str(l))+Decimal('0.04'))}}_ \\)"
+  }, 
+  "content": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\times _{{m+Decimal(str(l))+Decimal('0.04')}}_ \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "m": {}, 
+    "l": {
+      "options": [
+        0.1, 
+        0.2, 
+        0.3, 
+        0.4, 
+        0.5, 
+        0.6, 
+        0.7, 
+        0.8, 
+        0.9, 
+        0.01, 
+        0.05, 
+        0.07
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{(k+Decimal(str(l)))*(m+Decimal(str(l))+Decimal('0.04'))}}_"
+  }, 
+  "type": 3
+}

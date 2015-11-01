@@ -1,0 +1,25 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\( _{{5**k}}_ = 5^n \\)</div><div>\\(\\Rightarrow = 5^{_{k}_} = 5^{n} \\)</div><div>Therefore n = _{k}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{{5**k}}_ = 5^n \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>According to the data provided in the question,</div><div>\\(\\Rightarrow 4x + _{k}_ = _{{(4*j) + k}}_\\)</div><div>Taking _{k}_ to RHS we get:</div><div>\\(\\Rightarrow 4x=_{{(4*j) + k}}_-_{k}_\\)</div><div>\\(\\Rightarrow 4x=_{{4*j}}_\\)</div><div>Dividing both sides by 4 we get:</div><div>\\(\\Rightarrow x=_{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Find the value of x if the sum of four times x, and _{k}_ is _{{(4*j) + k}}_"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

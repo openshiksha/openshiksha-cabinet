@@ -1,0 +1,14 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Percentage: \\(_{{Decimal(str(m))-Decimal('0.2')}}_ \\times 100 = _{{(Decimal(str(m))-Decimal('0.2'))*100}}_\\)&#37;"
+  }, 
+  "content": {
+    "text": "\\(_{{Decimal(str(m))-Decimal('0.2')}}_\\)"
+  }, 
+  "answer": {
+    "value": "_{{(Decimal(str(m))-Decimal('0.2'))*100}}_"
+  }, 
+  "type": 3, 
+  "unit": "&#37;"
+}

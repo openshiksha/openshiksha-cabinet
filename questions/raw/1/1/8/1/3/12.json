@@ -1,0 +1,30 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>\\((-1) \\times (-1) \\times (-1) \\times (-1) \\times (-1) \\times _{j}_\\)</div><div>Since -1 has been multiplied with itself an odd number (5) of times,</div><div>\\( (-1) \\times (-1) \\times (-1) \\times (-1) \\times (-1) \\times _{j}_ = (-1) \\times _{j}_\\)</div><div>=_{{j*(-1)}}_</div>"
+  }, 
+  "content": {
+    "text": "\\((-1) \\times (-1) \\times (-1) \\times (-1) \\times (-1) \\times _{j}_ \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*(-1)}}_"
+  }, 
+  "type": 3
+}

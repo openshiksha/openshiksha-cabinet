@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "What are the values of x, y and z ?"
+  }, 
+  "solution": {
+    "text": "<div>x is 2 units to the RIGHT of zero. Hence, x = 2.</div><div>y is 3 units to the LEFT of zero. Hence, y = -3.</div><div>z is 5 units to the RIGHT of zero. Hence, z = 5.</div><div>Therefore, x = 2, y = -3, z = 5.</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x=1, y=-2, z=5"
+      }, 
+      {
+        "text": "x=2, y=-2, z=5"
+      }, 
+      {
+        "text": "x=2, y=-2, z=4"
+      }
+    ], 
+    "correct": {
+      "text": "x=2, y=-3, z=5"
+    }
+  }
+}

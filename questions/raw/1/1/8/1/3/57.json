@@ -1,0 +1,45 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The percentage of children in the city is 100 - _{k}_ - _{l}_ = _{{100-k-l}}_&#37;</div><div>Therefore the number of children in the city is: \\( \\frac {_{{100-k-l}}_}{100} \\times _{{100000*j}}_ \\)= _{{(100-k-l)*1000*j}}_</div>"
+  }, 
+  "content": {
+    "text": "The population of a city is _{{100000*j}}_. _{k}_&#37; of the population are women and _{l}_&#37; are men. The rest of the population are children. How many children live in the city?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            28, 
+            35
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            31, 
+            39
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(100-k-l)*1000*j}}_"
+  }, 
+  "type": 3
+}

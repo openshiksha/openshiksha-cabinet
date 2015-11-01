@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "\\( (25^2 \\times 9^{18} \\times 8^2) \\div (3^{36} \\times 2^6 \\times 5^4) \\)"
+  }, 
+  "solution": {
+    "text": "<div>\\( (25^2 \\times 9^{18} \\times 8^2) \\div (3^{36} \\times 2^6 \\times 5^4) \\)</div><div>= \\( ({(5^2)}^2 \\times {(3^2)}^{18} \\times {(2^3)}^2) \\div (3^{36} \\times 2^6 \\times 5^4)\\)</div><div>= \\( (5^4 \\times 3^{36} \\times 2^6) \\div (3^{36} \\times 2^6 \\times 5^4) \\)</div><div>= 1</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 8, 
+  "options": {
+    "incorrect": [
+      {
+        "text": 0
+      }, 
+      {
+        "text": 5
+      }, 
+      {
+        "text": 3
+      }
+    ], 
+    "correct": {
+      "text": 1
+    }
+  }
+}

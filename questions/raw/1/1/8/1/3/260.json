@@ -1,0 +1,19 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>\\(0 = _{j}_ + _{k}_(p-_{l}_)\\)</div><div>\\(\\Rightarrow 0 = _{j}_ + _{k}_p - (_{k}_ \\times _{l}_)\\) [Using Distributive Law]</div><div>\\(\\Rightarrow 0 = _{j}_ + _{k}_p - _{{k*l}}_\\)</div><div>\\(\\Rightarrow -_{j}_ + _{{k*l}}_ = _{k}_p\\) [Taking the constant terms to one side]</div><div>\\(\\Rightarrow _{{(k*l)-j}}_ = _{k}_p\\)</div><div>Dividing both sides by _{k}_, we get:</div><div>\\(_{{Fraction((k*l)-j,k)}}_ = p\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(0 = _{j}_+_{k}_(p-_{l}_)\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( Decimal((k*l)-j)/k, 2 )}}_"
+  }, 
+  "type": 3
+}

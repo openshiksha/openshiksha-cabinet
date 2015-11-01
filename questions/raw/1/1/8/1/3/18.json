@@ -1,0 +1,31 @@
+{
+  "subpart_index": 11, 
+  "solution": {
+    "text": "<div>\\( (-(_{{6*j}}_+1)) \\div (_{{6*j}}_+(-1)) \\)</div><div>\\(= _{{(-6*j) - 1}}_ \\div _{{(6*j) - 1}}_\\)</div><div>\\(= _{{trunc( ((-6*j)-Decimal(1))/((6*j)-Decimal(1)), 2 )}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( (-(_{{6*j}}_+1)) \\div (_{{6*j}}_+(-1)) \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( ((-6*j)-Decimal(1))/((6*j)-Decimal(1)), 2 )}}_"
+  }, 
+  "type": 3
+}

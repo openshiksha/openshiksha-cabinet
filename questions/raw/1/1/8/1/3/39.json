@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The amount of oranges purchased by Raghav = \\(_{j}_\\frac 12\\) kg = \\( \\frac {(2 \\times _{j}_) + 1}{2}\\) kg = \\( \\frac {_{{(2*j)+1}}_}{2} \\) kg.</div><div>The amount of oranges purchased by Ijaz = \\(_{k}_\\frac 34\\) kg = \\( \\frac {(4 \\times _{k}_) + 3}{4} \\) kg = \\( \\frac {_{{(4*k)+3}}_}{4} \\) kg.</div><div>We now find the LCM of the denominators of the 2 fractions, i.e. 2 and 4.</div><div>LCM of 2 and 4 = 4.</div><div>Let us now write the fractions in such a way that they both have the same denominator, i.e. 4, so that we can add them.</div><div>\\( \\Rightarrow \\) Amount of oranges purchased by Raghav = \\( \\frac {_{{(2*j)+1}}_}{2} \\times \\frac {2}{2} = \\frac {_{{((2*j)+1)*2}}_}{4} \\) kg</div><div>\\( \\Rightarrow \\) Amount of oranges purchased by Ijaz =\\( \\frac {_{{(4*k)+3}}_}{4} \\times \\frac 11 = \\frac {_{{(4*k)+3}}_}{4} \\) kg</div><div>Therefore, total  quantity of oranges purchased = \\( \\frac {_{{((2*j)+1)*2}}_}{4} kg + \\frac {_{{(4*k)+3}}_}{4} kg \\)</div><div>= \\( \\frac { _{{(2*((2*j)+1)) + ((4*k)+3)}}_}{4} \\) kg</div>"
+  }, 
+  "content": {
+    "text": "Raghav and Ijaz purchased \\(_{j}_\\frac 12\\) kg and \\(_{k}_\\frac 34\\) kg of oranges respectively. How many kilos did they purchase together?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j + k + Decimal('0.5') + Decimal('0.75')}}_"
+  }, 
+  "type": 3, 
+  "unit": "kg"
+}

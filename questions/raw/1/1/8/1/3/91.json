@@ -1,0 +1,30 @@
+{
+  "solution": {
+    "text": "<div>\\( {(3^{_{j}_})}^{_{k}_} \\)</div><div>Use the law of exponents:\\( {(a^x)}^y = a^{xy} \\)</div><div>Therefore, we get \\(3^{(_{j}_ \\times _{k}_)} = 3^{_{{(j*k)}}_}\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\( {(3^{_{j}_})}^{_{k}_} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( 3^{_{{(j+k)}}_} \\)"
+      }, 
+      {
+        "text": "\\( 3^{_{{(2*j*k)}}_} \\)"
+      }, 
+      {
+        "text": 3
+      }
+    ], 
+    "correct": {
+      "text": "\\( 3^{_{{(j*k)}}_} \\)"
+    }
+  }
+}

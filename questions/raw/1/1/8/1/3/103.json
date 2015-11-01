@@ -1,0 +1,23 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "The simplest form of _{j}_:_{{j+1}}_ = \\(\\frac{_{j}_}{_{{j+1}}_}\\). Similarly, the simplest form of _{{j+1}}_:_{{j+2}}_ = \\(\\frac{_{{j+1}}_}{_{{j+2}}_}\\). We know that equivalent ratios when expressed in their simplest forms are equal. Therefore, the above two ratios are not equivalent."
+  }, 
+  "content": {
+    "text": "Are the ratios _{j}_:_{{j+1}}_ and _{{j+1}}_:_{{j+2}}_ equivalent?"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

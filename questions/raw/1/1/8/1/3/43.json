@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Portion of book read in _{j}_ hours = \\( \\frac 13 \\)</div><div>Thus, portion of book read in 1 hour = \\( \\frac 13 \\div _{j}_ = _{{Fraction(1,3*j)}}_\\) [Unitary Method]</div><div>Time limit given = \\( 2 \\frac 15 = \\frac {11}5 \\) hours [Converting into an improper fraction]</div><div>Thus, portion of book read in \\(\\frac {11}5 \\) hours if \\(_{{Fraction(1,3*j)}}_\\) of it is read in an hour =\\( _{{Fraction(1,3*j)}}_ \\times \\frac {11}5 \\)</div><div>= \\(_{{Fraction(11,15*j)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Raghav reads \\( \\frac 13^{rd}\\) of a certain book in _{j}_ hours. How much of the book will he be able to read in \\( 2 \\frac 15\\) hours? (Please provide your answer in the form of a simplified fraction)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.0001, 
+    "value": "_{{trunc( Decimal(11)/(15*j), 4)}}_"
+  }, 
+  "type": 3
+}

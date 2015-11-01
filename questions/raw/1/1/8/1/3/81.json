@@ -1,0 +1,17 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\( _{j}_(a^2 + ab) + _{k}_ - ab \\); a=4, b=(-3)</div> <div>Substituting a for 4 and b for -3 gives us:</div><div>\\( _{j}_(4^2 + (4 \\times (-3))) + _{k}_ - (4\\times(-3))\\)</div><div>\\( = (_{j}_\\times 4) + _{k}_ - (-12)\\)</div><div>= _{{(j*4) + k + 12}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_(a^2 + ab) + _{k}_ - ab \\); a=4, b=(-3)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{(j*4) + k + 12}}_"
+  }, 
+  "type": 3
+}

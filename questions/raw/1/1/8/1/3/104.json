@@ -1,0 +1,24 @@
+{
+  "solution": {
+    "text": "The simplest form of _{j}_:_{k}_ = \\(_{{Fraction(j,k)}}_\\) Similarly, the simplest form of _{{2*j}}_:_{{2*k}}_ = \\(_{{Fraction(j,k)}}_\\). We know that equivalent ratios when expressed in their simplest forms are equal. Therefore, the above two ratios are equivalent."
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Are the ratios _{j}_:_{k}_ and _{{2*j}}_:_{{2*k}}_ equivalent?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

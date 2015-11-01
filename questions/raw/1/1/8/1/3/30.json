@@ -1,0 +1,30 @@
+{
+  "subpart_index": 9, 
+  "solution": {
+    "text": "<div>\\( -1 \\times a = _{j}_ \\)</div><div>Multiplying both sides by -1, we get:</div><div>\\(a = _{{(-1)*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( -1 \\times a = _{j}_ \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(-1)*j}}_"
+  }, 
+  "type": 3
+}

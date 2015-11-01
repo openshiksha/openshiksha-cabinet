@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\( -_{j}_ \\div a = 1 \\)</div><div>Any number divided by itself gives quotient 1, i.e. \\( p \\div p = 1\\)</div><div>Thus, a=_{{(-1)*j}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( -_{j}_ \\div a = 1 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(-1)*j}}_"
+  }, 
+  "type": 3
+}

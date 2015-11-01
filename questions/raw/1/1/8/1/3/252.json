@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the base angles of the triangle = \\(x\\) degrees</div><div>Vertex angle = _{{2*j}}_ degrees</div><div>Thus, according to the Angle-Sum Property of a triangle:</div><div>\\(x + x + _{{2*j}}_ = 180\\)</div><div>\\(\\Rightarrow 2x + _{{2*j}}_ = 180\\)</div><div>\\(\\Rightarrow 2x = 180 \u2013 _{{2*j}}_\\) [Taking all constant terms to one side] </div><div>\\(\\Rightarrow 2x = _{{180-(2*j)}}_\\)</div><div>Dividing both sides by 2:</div><div>\\(x = _{{90-j}}_\\)</div><div>Therefore, the 2 base angles measure _{{90-j}}_ degrees each.</div>"
+  }, 
+  "content": {
+    "text": "In an isosceles triangle, the base angles are equal and the vertex angle is _{{2*j}}_ degrees. What are the base angles of the triangle? "
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{90-j}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

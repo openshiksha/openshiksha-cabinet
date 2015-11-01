@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We know that if the cities were _{j}_ cm apart on the map, they would be 1000km apart. Therefore, using the unitary method:</div><div>1 cm \\(\\Rightarrow \\frac{1000}{_{j}_}\\) km</div><div>Therefore, \\(_{{Decimal('1.75')*j}}_ cm \\Rightarrow _{{Decimal('1.75')*j}}_ \\times \\frac{1000}{_{j}_} = 1750 km\\)</div>"
+  }, 
+  "content": {
+    "text": "You are given a map with a scale of _{j}_cm = 1000km. What is the distance between two places in kilometres, if the distance on the map is _{{Decimal('1.75')*j}}_ cm?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 1750
+  }, 
+  "type": 3, 
+  "unit": "km"
+}

@@ -1,0 +1,19 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\(_{j}_a + _{k}_ = -_{l}_\\)</div><div>\\(\\Rightarrow _{j}_a = -_{l}_-_{k}_\\) [Taking _{k}_ to the RHS]</div><div>\\(\\Rightarrow _{j}_a = _{{-l-k}}_\\)</div><div>Dividing both sides by _{j}_, we get:</div><div>\\(a = _{{Fraction(-l-k,j)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_a +_{k}_ = -_{l}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( Decimal(-l-k)/j, 2 )}}_"
+  }, 
+  "type": 3
+}

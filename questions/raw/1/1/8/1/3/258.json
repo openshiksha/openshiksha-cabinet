@@ -1,0 +1,19 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\(_{j}_b - _{k}_ = _{l}_\\)</div><div>\\(\\Rightarrow _{j}_b = _{l}_+_{k}_\\) [Taking _{k}_ to the RHS]</div><div>\\(\\Rightarrow _{j}_b = _{{l+k}}_\\)</div><div>Dividing both sides by _{j}_, we get:</div><div>\\(b = _{{Fraction(l+k,j)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_b - _{k}_ = _{l}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( Decimal(l+k)/j, 2 )}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,30 @@
+{
+  "subpart_index": 9, 
+  "solution": {
+    "text": "<div>\\( _{{(-3)*j}}_ \\div _{j}_ \\)</div><div>= -3 [When a positive integer is divided by a negative integer, and when a negative integer is divided by a positive integer, the quotient obtained is negative]</div>"
+  }, 
+  "content": {
+    "text": "\\( _{{(-3)*j}}_ \\div _{j}_ \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": -3
+  }, 
+  "type": 3
+}

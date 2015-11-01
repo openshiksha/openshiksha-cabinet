@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{j}_x + _{{Fraction(k,l)}}_ = _{{Fraction(m,n)}}_\\)</div><div>\\(\\Rightarrow _{j}_x = _{{Fraction(m,n)}}_-_{{Fraction(k,l)}}_\\) [Taking \\(_{{Fraction(k,l)}}_\\) to the RHS]</div><div>\\(\\Rightarrow _{j}_x = _{{Fraction(((m*l)-(k*n)),(l*n))}}_\\)</div><div> Dividing both sides by _{j}_: </div><div>\\(x= _{{Fraction(((m*l)-(k*n)),(l*n*j))}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x + _{{Fraction(k,l)}}_ = _{{Fraction(m,n)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc (Decimal(m*l-k*n)/(l*n*j), 2)}}_"
+  }, 
+  "type": 3
+}

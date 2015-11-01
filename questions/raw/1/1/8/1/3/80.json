@@ -1,0 +1,19 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>_{j}_(_{k}_x-1) + _{l}_x + _{m}_; x=2</div><div>Substituting x for 2 gives us:</div><div>\\(_{j}_( (_{k}_ \\times 2) - 1) + (_{l}_ \\times 2) + _{m}_\\)</div><div>\\(= (_{j}_ \\times _{{(2*k)-1}}_) + _{{l*2}}_ + _{m}_\\)</div><div>= _{{j*((2*k)-1) + (l*2) + m}}_</div>"
+  }, 
+  "content": {
+    "text": "_{j}_(_{k}_x-1) + _{l}_x + _{m}_ ; x=2"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{j*((2*k)-1) + (l*2) + m}}_"
+  }, 
+  "type": 3
+}

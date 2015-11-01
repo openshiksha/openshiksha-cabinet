@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "\\( _{j}_ + x + x^2 \\): Trinomial. This expression has three terms."
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\( _{j}_ + x + x^2 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Binomial"
+      }, 
+      {
+        "text": "Monomial"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Trinomial"
+    }
+  }
+}

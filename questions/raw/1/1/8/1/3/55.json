@@ -1,0 +1,18 @@
+{
+  "subpart_index": 11, 
+  "solution": {
+    "text": "<div>\\( \\frac{_{j}_}4 + \\frac {-_{m}_}6 \\)</div><div>LCM of the denominators of the 2 fractions, i.e. 4 and 6 = 12.</div><div>Writing both the fractions with common denominator, i.e. 12, we get:</div><div>\\( (\\frac {_{j}_}4 \\times \\frac33) + (\\frac {-_{m}_}6 \\times \\frac22)\\)</div><div>\\(= \\frac {_{{j*3}}_}{12} - \\frac {_{{2*m}}_}{12} \\)</div><div>\\(= \\frac{_{{j*3}}_ - _{{2*m}}_}{12}\\)</div><div>\\(= _{{Fraction((3*j)-(2*m), 12)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( \\frac{_{j}_}4 + \\frac {-_{m}_}6 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}, 
+    "m": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( ((3*j)-(2*m))/Decimal(12), 2 )}}_"
+  }, 
+  "type": 3
+}

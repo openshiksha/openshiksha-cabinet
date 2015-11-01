@@ -1,0 +1,45 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times _{k}_\\)</div><div>=_{{j*k}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ \\times _{k}_ \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*k}}_"
+  }, 
+  "type": 3
+}

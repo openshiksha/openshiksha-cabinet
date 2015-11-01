@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{{Fraction(j,k)}}_\\)</div><div>There are an infinite number of equivalent rational numbers. For example:</div><div>\\( \\frac {_{{j*2}}_}{_{{2*k}}_}, \\frac {_{{4*j}}_}{_{{4*k}}_}, \\frac {_{{3*j}}_}{_{{3*k}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{{Fraction(j,k)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "answer_format": 2, 
+    "condition": "_value_ == _{{Decimal(j)/k}}_", 
+    "num_answers": 3
+  }, 
+  "type": 5
+}

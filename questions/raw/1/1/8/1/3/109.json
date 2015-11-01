@@ -1,0 +1,49 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Percentage: \\(_{m}_ \\times 100 = _{{Decimal(str(m))*100}}_\\)&#37;"
+  }, 
+  "content": {
+    "text": "\\(_{m}_\\)"
+  }, 
+  "variable_constraints": {
+    "m": {
+      "range": {
+        "exclude": [
+          [
+            0.29, 
+            0.3
+          ], 
+          [
+            0.39, 
+            0.4
+          ], 
+          [
+            0.49, 
+            0.5
+          ], 
+          [
+            0.59, 
+            0.6
+          ], 
+          [
+            0.69, 
+            0.7
+          ]
+        ], 
+        "decimal": 2, 
+        "include": [
+          [
+            0.25, 
+            0.75
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(str(m))*100}}_"
+  }, 
+  "type": 3, 
+  "unit": "&#37;"
+}

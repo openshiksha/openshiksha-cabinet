@@ -1,0 +1,30 @@
+{
+  "solution": {
+    "text": "<div>\\( 6^{_{j}_} \\div 6^{_{k}_} \\)</div><div>Use the law of exponents:\\( a^x \\div a^y = a^{(x-y)} \\)</div><div>Therefore,</div><div>\\( 6^{_{j}_} \\div 6^{_{k}_} = 6^{_{j}_-_{k}_} = 6^{_{{j-k}}_}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\( 6^{_{j}_} \\div 6^{_{k}_} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( 6^{_{{j+j+k}}_} \\)"
+      }, 
+      {
+        "text": "\\( 6^{_{{k-j-1}}_} \\)"
+      }, 
+      {
+        "text": "\\( 6^{_{{j+j}}_} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( 6^{_{{j-k}}_} \\)"
+    }
+  }
+}

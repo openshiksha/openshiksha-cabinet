@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "\\( (-4)^3 \\times 7^{10} \\)"
+  }, 
+  "solution": {
+    "text": "<div>\\( (-4)^3 \\times 7^{10} \\)</div><div>\\( = -64 \\times 1 \\)</div><div>\\( = -64 \\)</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 5, 
+  "options": {
+    "incorrect": [
+      {
+        "text": 448
+      }, 
+      {
+        "text": 64
+      }, 
+      {
+        "text": -448
+      }
+    ], 
+    "correct": {
+      "text": -64
+    }
+  }
+}

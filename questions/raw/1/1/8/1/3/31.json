@@ -1,0 +1,45 @@
+{
+  "subpart_index": 10, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times _{k}_ = a \\times _{j}_ \\)</div><div>Multiplication is commutative for integers, i.e. \\(p \\times q = q \\times p\\)</div><div>\\( \\Rightarrow _{j}_ \\times _{k}_ = _{k}_ \\times _{j}_\\)</div><div>Thus, a=_{k}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ \\times _{k}_ = a \\times _{j}_ \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,42 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\div _{k}_= _{{trunc( (k+Decimal(str(l)))/k, 3 )}}_\\)"
+  }, 
+  "content": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\div _{k}_\\) [Final answer should contain at least 3 decimal places]"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "options": [
+        0.1, 
+        0.2, 
+        0.3, 
+        0.4, 
+        0.5, 
+        0.6, 
+        0.7, 
+        0.8, 
+        0.9, 
+        0.01, 
+        0.05, 
+        0.07
+      ]
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc( (k+Decimal(str(l)))/k, 3 )}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We know that the cost of one computer is Rs. _{{j*7000}}_.</div>Therefore the cost of _{k}_ such computers is: Rs. _{{j*7000}}_ \\(\\times\\) _{k}_  = Rs. _{{j*k*7000}}_ \n"
+  }, 
+  "content": {
+    "text": "A laptop computer costs Rs._{{j*7000}}_. What is the cost of _{k}_ such computers? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j*k*7000}}_"
+  }, 
+  "type": 3
+}

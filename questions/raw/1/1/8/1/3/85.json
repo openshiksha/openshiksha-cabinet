@@ -1,0 +1,25 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\( _{{6**k}}_ = 6^n \\)</div><div>\\(\\Rightarrow 6^{_{k}_} = 6^{n} \\)</div><div>Therefore n = _{k}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{{6**k}}_ = 6^n \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

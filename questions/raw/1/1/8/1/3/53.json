@@ -1,0 +1,20 @@
+{
+  "subpart_index": 9, 
+  "solution": {
+    "text": "<div>\\( \\frac{_{j}_}{_{k}_} \\times \\frac {_{m}_}{_{n}_} \\)</div><div>\\(= \\frac {(_{j}_ \\times _{m}_)}{(_{k}_ \\times _{n}_)}\\)</div><div>\\(= _{{Fraction((j*m),(k*n))}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( \\frac{_{j}_}{_{k}_} \\times \\frac {_{m}_}{_{n}_} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "n": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( Decimal(j*m)/Decimal(k*n), 2 )}}_"
+  }, 
+  "type": 3
+}

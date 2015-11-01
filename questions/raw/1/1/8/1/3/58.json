@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Seema bought the house for Rs _{j}_ lakhs = Rs _{{j*100000}}_</div><div>She then sold it for Rs _{k}_ lakhs = Rs _{{k*100000}}_</div><div>Increase in price = _{{k*100000}}_ - _{{j*100000}}_ = Rs _{{(k-j)*100000}}_</div><div>Therefore, percentage increase = \\(\\frac{_{{(k-j)*100000}}_}{_{{j*100000}}_} \\times 100 = _{{trunc( Decimal(100*(k-j))/Decimal(j), 2 )}}_\\%% \\)</div>"
+  }, 
+  "content": {
+    "text": "Seema bought her house for Rs _{j}_ lakhs. Five years later, she sold her house for Rs _{k}_ lakhs. What was the percentage price increase?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            42, 
+            55
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            30, 
+            39
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{trunc( Decimal(100*(k-j))/Decimal(j), 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "&#37;"
+}

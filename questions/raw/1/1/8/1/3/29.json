@@ -1,0 +1,30 @@
+{
+  "subpart_index": 8, 
+  "solution": {
+    "text": "<div>\\( _{j}_+ a = _{j}_ \\)</div><div>0 is the additive identity of an integer, i.e. \\(p + 0 = p\\)</div><div>Thus, a = 0</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_+ a = _{j}_ \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

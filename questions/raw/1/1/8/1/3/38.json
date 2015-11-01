@@ -1,0 +1,55 @@
+{
+  "solution": {
+    "text": "<div>\\( \\Rightarrow \\) Upon reducing the fractions to their simplest form, we learn:</div><div>Katherine has solved \\( \\frac {4}{11}\\) of the puzzle,</div><div>Abhay has solved \\( \\frac {1}{3}\\) of the puzzle,</div><div>Nikhil has solved \\( \\frac {5}{14}\\) of the puzzle.</div><div>To know who has solved the most, we will find the LCM of the denominators of the 3 fractions, i.e. 11, 3, 14.</div><div>Their LCM is 462.</div><div>We now write the 3 fractions in such a way that they all have the same denominator , i.e. 462 (hence making comparison easy)</div><div>Katherine has solved \\( \\frac {168}{462}\\) of the puzzle,</div><div>Abhay has solved \\( \\frac {154}{462}\\) of the puzzle,</div><div>Nikhil has solved \\( \\frac {165}{462}\\) of the puzzle. </div><div>\\( \\Rightarrow \\) Hence, Katherine has solved most of the puzzle.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Three students were given the same puzzle. Katherine solved \\( \\frac {_{{4*k}}_}{_{{11*k}}_}\\) of the puzzle, Abhay solved \\( \\frac {_{{3*j}}_}{_{{9*j}}_}\\) of the puzzle and Nikhil solved \\( \\frac {_{{5*l}}_}{_{{14*l}}_}\\) of the puzzle. Who solved the most?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Abhay"
+      }, 
+      {
+        "text": "Nikhil"
+      }
+    ], 
+    "correct": {
+      "text": "Katherine"
+    }
+  }
+}

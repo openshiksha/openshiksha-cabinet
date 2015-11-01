@@ -1,0 +1,18 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\( _{j}_p^3 - _{k}_p^2 +_{l}_p + 7\\); p=(-3)</div><div>Substituting p for -3 gives us:</div><div>\\((_{j}_ \\times (-3)^3) - (_{k}_ \\times (-3)^2) + (_{l}_ \\times (-3)) + 7\\)</div><div>\\( = ((-27) \\times _{j}_) - (9 \\times _{k}_) + ((-3) \\times _{l}_) + 7\\)</div><div>= _{{-(27*j)-(9*k)-(3*l)+7}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_p^3 - _{k}_p^2 +_{l}_p + 7\\); p=(-3)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{-(27*j)-(9*k)-(3*l)+7}}_"
+  }, 
+  "type": 3
+}

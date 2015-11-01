@@ -1,0 +1,19 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>There are technically an infinite number of rational numbers between \\(_{{Fraction((-1)*j, k)}}_\\) and \\(_{{Fraction(-j, k+13)}}_\\)</div><div>For example:\\( _{{(Fraction((-1)*j, k) + Fraction(-j, k+13))/2}}_, _{{(((Fraction((-1)*j, k) + Fraction(-j, k+13))/2) + Fraction((-1)*j, k))/2}}_, _{{(((Fraction((-1)*j, k) + Fraction(-j, k+13))/2) + Fraction(-j, k+13))/2}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{{Fraction((-1)*j, k)}}_\\) and \\(_{{Fraction(-j, k+13)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "answer_format": 2, 
+    "condition": "(_value_ > _{{Decimal(j*(-1))/k}}_) and (value < _{{Decimal(j*(-1))/(k+13)}}_)", 
+    "num_answers": 3
+  }, 
+  "type": 5
+}

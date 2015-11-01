@@ -1,0 +1,30 @@
+{
+  "subpart_index": 16, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\div 1 = a \\)</div><div>Any number divided by 1 results in the number itself</div><div>Thus, a=_{j}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ \\div 1 = a \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

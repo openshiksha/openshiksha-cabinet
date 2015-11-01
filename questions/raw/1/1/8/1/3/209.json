@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Distance between Pune and Mumbai = 149 km.</div><div>Amount of petrol taken to complete that journey =_{{k+Decimal('0.2')}}_ litres</div><div>Thus, amount of petrol used for 1 km of travel = \\(\\frac {_{{k+Decimal('0.2')}}_}{149} litres\\) [Unitary Method]</div><div>Distance between Mumbai and Surat=289.7km</div><div>Thus, the amount of petrol required for the journey = \\(\\frac {_{{k+Decimal('0.2')}}_}{149} \\times 289.7 = _{{trunc( ((k+Decimal('0.2'))/149)*Decimal('289.7'), 2 )}}_ litres\\)</div>"
+  }, 
+  "content": {
+    "text": "The distance between Pune and Mumbai is 149km. Your car covered the distance using _{{k+Decimal('0.2')}}_ litres of petrol. The distance between Mumbai and Surat is 289.7km. How much petrol does your car require to complete the drive from Mumbai to Surat?"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( ((k+Decimal('0.2'))/149)*Decimal('289.7'), 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "litres"
+}

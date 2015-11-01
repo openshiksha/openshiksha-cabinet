@@ -1,0 +1,60 @@
+{
+  "subpart_index": 12, 
+  "solution": {
+    "text": "<div>\\( (a \\times _{j}_) + (a \\times _{k}_) = _{l}_ \\times (_{j}_+_{k}_) \\)</div><div>Using distributive law of multiplication over addition, LHS can be written as \\( a \\times (_{j}_ + _{k}_)\\)</div><div>Comparing with RHS, we get a=_{l}_</div>"
+  }, 
+  "content": {
+    "text": "\\( (a \\times _{j}_) + (a \\times _{k}_) = _{l}_ \\times (_{j}_+_{k}_) \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

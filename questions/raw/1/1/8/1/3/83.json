@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\( _{{8**k}}_ = 8^n \\)</div><div>\\(\\Rightarrow 8^{_{k}_} = 8^{n} \\)</div><div>Therefore n = _{k}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{{8**k}}_ = 8^n \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

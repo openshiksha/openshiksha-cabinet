@@ -1,0 +1,19 @@
+{
+  "subpart_index": 10, 
+  "solution": {
+    "text": "<div>\\( \\frac{_{j}_}{_{k}_} \\div -_{m}_ \\)</div><div>\\(= \\frac {_{j}_}{_{k}_} \\times \\frac 1{-_{m}_}\\)</div><div>\\(= _{{Fraction(j*(-1), (k*m))}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( \\frac{_{j}_}{_{k}_} \\div -_{m}_ \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}
+  }, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc( Decimal(j*(-1))/Decimal(k*m), 3 )}}_"
+  }, 
+  "type": 3
+}

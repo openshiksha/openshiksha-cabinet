@@ -1,0 +1,32 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\div 1000=_{{(k+Decimal(str(l)))/1000}}_\\) [Shifting the decimal three places to the left]"
+  }, 
+  "content": {
+    "text": "\\(_{{k+Decimal(str(l))}}_ \\div 1000\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "l": {
+      "options": [
+        0.1, 
+        0.2, 
+        0.3, 
+        0.4, 
+        0.5, 
+        0.6, 
+        0.7, 
+        0.8, 
+        0.9, 
+        0.01, 
+        0.05, 
+        0.07
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{(k+Decimal(str(l)))/1000}}_"
+  }, 
+  "type": 3
+}

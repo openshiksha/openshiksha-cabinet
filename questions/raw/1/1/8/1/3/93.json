@@ -1,0 +1,29 @@
+{
+  "solution": {
+    "text": "<div>\\( _{{j**2}}_ \\times _{{j**2}}_ \\times _{{j**2}}_ \\times _{{j**2}}_ \\)</div><div>Notice that \\(_{{j**2}}_ = _{j}_^2\\)</div><div>Use the law of exponents:\\( a^x \\times a^y = a^{x+y}\\)</div><div>Therefore, we get:</div><div>\\(_{j}_^2 \\times _{j}_^2 \\times _{j}_^2 \\times _{j}_^2 = _{j}_^8\\)</div>"
+  }, 
+  "subpart_index": 6, 
+  "content": {
+    "text": "\\( _{{j**2}}_ \\times _{{j**2}}_ \\times _{{j**2}}_ \\times _{{j**2}}_ \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_^{16}\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^4\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^{12}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_^8\\)"
+    }
+  }
+}

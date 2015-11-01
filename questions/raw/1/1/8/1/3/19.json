@@ -1,0 +1,46 @@
+{
+  "subpart_index": 12, 
+  "solution": {
+    "text": "<div>\\( (_{j}_ \\div _{k}_) \\div 1\\)</div><div>\\(= _{j}_ \\div _{k}_\\) [Any number divided by 1 is the number itself]</div><div>= _{{trunc( Decimal(j)/k, 2 )}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( (_{j}_ \\div _{k}_) \\div 1 \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( Decimal(j)/k, 2 )}}_"
+  }, 
+  "type": 3
+}

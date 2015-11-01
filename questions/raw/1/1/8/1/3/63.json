@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "x + _{k}_y - xy: Trinomial. This expression has three terms"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "x + _{k}_y - xy"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Binomial"
+      }, 
+      {
+        "text": "Monomial"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Trinomial"
+    }
+  }
+}

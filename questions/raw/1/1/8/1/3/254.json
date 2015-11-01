@@ -1,0 +1,16 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the number that Kritika is thinking of be \\(x\\).</div><div>Now, according to the question,</div><div>\\(x \u2013 \\frac x7 = _{{(k*6)}}_\\)</div><div>\\(\\Rightarrow \\frac {7x-x}7 = _{{(k*6)}}_\\) [Making denominators equal]</div><div>\\(\\Rightarrow \\frac {6x}7 = _{{(k*6)}}_\\)</div><div>Cross-multiplying:</div><div>\\(x = _{{(k*6)}}_ \\times \\frac 76\\)</div><div>\\(\\Rightarrow x = _{{(k*7)}}_\\)</div><div>Therefore, the number Kritika was thinking of is _{{(k*7)}}_</div>"
+  }, 
+  "content": {
+    "text": "Kritika is thinking of a number. She tells you that if she subtracts 1/7th of the number from the number, the result is _{{k*6}}_. What is the number? "
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "answer": {
+    "value": "_{{(7*k)}}_"
+  }, 
+  "type": 3
+}

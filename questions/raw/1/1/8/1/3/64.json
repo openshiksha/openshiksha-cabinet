@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "_{j}_: Monomial. This expression has only one term"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "_{j}_"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Binomial"
+      }, 
+      {
+        "text": "Trinomial"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Monomial"
+    }
+  }
+}

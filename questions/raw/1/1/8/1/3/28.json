@@ -1,0 +1,30 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>\\( _{j}_+ a = 0 \\)</div><div>Any number subtracted from itself results in zero, i.e. \\(p - p = 0\\)</div><div>\\( \\Rightarrow a = _{{(-1)*j}}_\\), because \\(_{j}_ + _{{(-1)*j}}_ = _{j}_ - _{j}_ = 0\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ + a = 0 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(-1)*j}}_"
+  }, 
+  "type": 3
+}

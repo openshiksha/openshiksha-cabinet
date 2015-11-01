@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>There are technically an infinite number of rational numbers between -_{j}_ and _{{j-1}}_</div><div>For example:\\( 0, _{{Fraction(j-1, 2)}}_, _{{Fraction(j*(-1), 2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "-_{j}_ and _{{j-1}}_"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "answer_format": 2, 
+    "condition": "(_value_ > _{{j*(-1)}}_) and (value < _{{j-1}}_)", 
+    "num_answers": 3
+  }, 
+  "type": 5
+}

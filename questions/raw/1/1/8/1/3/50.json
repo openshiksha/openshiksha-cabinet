@@ -1,0 +1,17 @@
+{
+  "subpart_index": 6, 
+  "solution": {
+    "text": "<div>\\( _{j}_\\frac 34 + _{k}_\\frac 12 \\)</div><div>\\(= \\frac {_{{(4*j)+3}}_}{4} + \\frac {_{{(2*k)+1}}_}{2}\\) [Converting mixed fractions into improper fractions]</div><div>LCM of the denominators of the 2 fractions, i.e. 2 and 4 = 4.</div><div>Writing both the fractions with a common denominator, i.e. 4, we get:</div><div>\\( (\\frac {_{{(4*j)+3}}_}{4} \\times \\frac 11) +(\\frac {_{{(2*k)+1}}_}{2} \\times \\frac 22)\\)</div><div>\\(= \\frac {_{{(4*j)+3}}_}{4} + \\frac {_{{(4*k)+2}}_}{4}\\)</div><div>\\(= _{{Fraction((4*j)+(4*k)+5, 4)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_\\frac 34 + _{k}_\\frac 12 \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j + k + Decimal('0.75') + Decimal('0.5')}}_"
+  }, 
+  "type": 3
+}

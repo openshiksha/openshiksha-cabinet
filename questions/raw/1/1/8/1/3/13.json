@@ -1,0 +1,30 @@
+{
+  "subpart_index": 6, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times 0 \\)</div><div>Any number multiplied with 0 = 0</div><div>Therefore, \\( _{j}_ \\times 0 = 0\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ \\times 0 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

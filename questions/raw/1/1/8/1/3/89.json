@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "\\( a^0 \\times b^0 \\)"
+  }, 
+  "solution": {
+    "text": "<div>\\( a^0 \\times b^0\\)</div><div>Use the law of exponents:\\( x^0 = 1 \\)</div><div>Therefore,</div><div>\\( a^0 \\times b^0 = 1 \\times 1 = 1 \\)</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": 0
+      }, 
+      {
+        "text": "ab"
+      }, 
+      {
+        "text": "\\( a^2b^2 \\)"
+      }
+    ], 
+    "correct": {
+      "text": 1
+    }
+  }
+}

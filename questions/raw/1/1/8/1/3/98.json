@@ -1,0 +1,48 @@
+{
+  "solution": {
+    "text": "<div>\\( _{j}_^3 \\times _{j}_^3 \\)</div><div>Use the law of exponents:\\( a^x \\times b^x = (ab)^x \\)</div><div>Therefore, we get:</div><div>\\( (_{j}_ \\times _{k}_)^3 = _{{j*k}}_^3 \\)</div>"
+  }, 
+  "subpart_index": 11, 
+  "content": {
+    "text": "\\( _{j}_^3 \\times _{k}_^3 \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{{j*k}}_^9 \\)"
+      }, 
+      {
+        "text": "\\( _{{j+k}}_^3 \\)"
+      }, 
+      {
+        "text": "\\( _{{j+k}}_^6 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{{j*k}}_^3 \\)"
+    }
+  }
+}

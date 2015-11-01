@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\frac {_{j}_y}{_{k}_} = 1\\)</div><div>Upon cross-multiplying:</div><div>\\(_{j}_y=_{k}_\\)</div><div>Dividing both sides by _{j}_, we obtain:</div><div>\\(y = _{{Fraction(k, j)}}_\\)</div> "
+  }, 
+  "content": {
+    "text": "\\(\\frac {_{j}_y}{_{k}_} = 1\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( Decimal(k)/j, 2 )}}_"
+  }, 
+  "type": 3
+}

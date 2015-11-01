@@ -1,0 +1,16 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{{(3*j)}}_ \\div \\frac{_{j}_}2\\)</div><div>\\(= _{{(3*j)}}_ \\times \\frac2{_{j}_} = 6 \\) [_{j}_ is the factor common to the numerator and denominator]</div>"
+  }, 
+  "content": {
+    "text": "\\( _{{3*j}}_ \\div \\frac{_{j}_}2 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": 6
+  }, 
+  "type": 3
+}

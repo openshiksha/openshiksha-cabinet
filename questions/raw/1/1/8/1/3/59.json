@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Rahul invested Rs. _{{8000*j}}_ into the bank \\(\\Rightarrow\\) Pr = _{{8000*j}}_</div><div>Simple interest earned after 2 years = Rs _{{9*k*j*8000*Decimal('0.01')}}_ \\(\\Rightarrow\\) N=2, Interest=_{{9*k*j*8000*Decimal('0.01')}}_</div><div>Let the rate of interest be R. Using simple interest formula, we get:</div><div>\\(_{{9*k*j*8000*Decimal('0.01')}}_ = \\frac{_{{8000*j}}_ \\times 2 \\times R}{100}\\)</div><div>\\( \\Rightarrow R = \\frac{_{{9*k*j*8000*Decimal('0.01')}}_ \\times 100}{_{{8000*j}}_ \\times 2} = _{{k*Decimal('4.5')}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Rahul put a sum of Rs _{{8000*j}}_ into the bank for _{k}_ years under the simple interest plan. At the end of 2 years, he earned Rs _{{9*k*j*8000*Decimal('0.01')}}_. What was the rate of interest ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{k*Decimal('4.5')}}_"
+  }, 
+  "type": 3, 
+  "unit": "&#37;"
+}

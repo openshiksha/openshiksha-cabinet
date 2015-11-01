@@ -1,0 +1,30 @@
+{
+  "subpart_index": 8, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times 1 \\)</div><div>1 is the multiplicative identity of any number, i.e. any number multiplied with 1 results in the number itself.</div><div>Therefore, \\( _{j}_ \\times 1 = _{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_ \\times 1 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -20, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

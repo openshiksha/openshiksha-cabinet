@@ -1,0 +1,32 @@
+{
+  "solution": {
+    "text": "<div>_{j}_a - _{k}_ + _{l}_a - _{m}_a</div><div>= (_{j}_a + _{l}_a - _{m}_a)-_{k}_</div><div>= (_{j}_ + _{l}_ - _{m}_)a - _{k}_</div><div>=_{{j+l-m}}_a-_{k}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "_{j}_a - _{k}_ + _{l}_a - _{m}_a"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j+l+m}}_a-_{k}_"
+      }, 
+      {
+        "text": "_{{j-l-m}}_a-_{k}_"
+      }, 
+      {
+        "text": "_{{j+l-m-k}}_a"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j+l-m}}_a-_{k}_"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given: there are a total of _{{5*j}}_ college students and \\(_{{20*k}}_\\%% \\) like playing cricket.</div><div>Therefore, number of students that like playing cricket =\\( \\frac {_{{(20*k)}}_}{100} \\times _{{5*j}}_ = _{{k*j}}_\\) students</div>"
+  }, 
+  "content": {
+    "text": "A survey of _{{5*j}}_ college students found that _{{20*k}}_&#37; liked playing cricket. How many students liked playing cricket?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k*j}}_"
+  }, 
+  "type": 3
+}

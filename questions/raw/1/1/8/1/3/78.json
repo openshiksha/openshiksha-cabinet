@@ -1,0 +1,17 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\( _{j}_a^2 + _{k}_b^2 + 1\\); a=3, b=(-9)</div><div>Substituting a for 3 and b for -9 gives us:</div><div>\\( (_{j}_ \\times (3)^2) + (_{k}_ \\times (-9)^2) +1 \\)</div><div>\\( = (9 \\times _{j}_) + (81 \\times _{k}_) + 1 \\)</div><div>=_{{(9*j)+(81*k)+1}}_</div>"
+  }, 
+  "content": {
+    "text": "\\( _{j}_a^2 + _{k}_b^2 + 1\\); a=3, b=(-9)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{(9*j)+(81*k)+1}}_"
+  }, 
+  "type": 3
+}

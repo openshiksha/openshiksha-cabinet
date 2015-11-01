@@ -1,0 +1,20 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>\\(-_{j}_(_{l}_ - _{k}_x) = _{m}_ \\)</div><div>\\(\\Rightarrow (-_{j}_\\times_{l}_) - (-_{j}_\\times_{k}_x) = _{m}_ \\) [Using Distributive Law]</div><div>\\(\\Rightarrow -_{{j*l}}_ + _{{j*k}}_x = _{m}_ \\)</div><div>\\(\\Rightarrow _{{j*k}}_x = _{m}_ + _{{j*l}}_ \\) [Taking constant terms to one side] </div><div>\\(\\Rightarrow _{{j*k}}_x = _{{m+(j*l)}}_ \\)</div><div>Dividing both sides by _{{j*k}}_, we obtain:</div><div>\\(x = _{{Fraction(m+(j*l),j*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(-_{j}_(_{l}_-_{k}_x) = _{m}_ \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( Decimal(m+(j*l))/(j*k), 2 )}}_"
+  }, 
+  "type": 3
+}

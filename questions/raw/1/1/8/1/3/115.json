@@ -1,0 +1,37 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "Percentage: \\(_{{Fraction(k,l)}}_ \\times 100 = _{{trunc( (Decimal(k)*100)/l, 2 )}}_\\)&#37;"
+  }, 
+  "content": {
+    "text": "\\(_{{Fraction(k,l)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            31, 
+            35
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            36, 
+            45
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( (Decimal(k)*100)/l, 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "&#37;"
+}

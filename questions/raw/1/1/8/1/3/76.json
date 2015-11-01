@@ -1,0 +1,30 @@
+{
+  "solution": {
+    "text": "<div>a(b-_{j}_) - b(_{k}_-a)</div> <div>= ab - _{j}_a - _{k}_b + ab</div><div>= 2ab - _{j}_a - _{k}_b</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "a(b-_{j}_) - b(_{k}_-a)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "2ab + _{j}_a - _{k}_b"
+      }, 
+      {
+        "text": "2ab - _{j}_a + _{k}_b"
+      }, 
+      {
+        "text": "-_{j}_a - _{k}_b"
+      }
+    ], 
+    "correct": {
+      "text": "2ab - _{j}_a - _{k}_b"
+    }
+  }
+}

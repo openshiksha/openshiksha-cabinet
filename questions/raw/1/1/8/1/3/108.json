@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Percentage: \\(_{j}_ \\times 100 = _{{Decimal(str(j))*100}}_\\)&#37;"
+  }, 
+  "content": {
+    "text": "\\(_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            0.1, 
+            0.9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(str(j))*100}}_"
+  }, 
+  "type": 3, 
+  "unit": "&#37;"
+}

@@ -1,0 +1,18 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\(_{j}_\\frac {2}{3} \\times _{k}_\\frac {2}{3}\\)</div><div>\\(= \\frac{(3 \\times _{j}_) + 2}{3} \\times \\frac{(3 \\times _{k}_) + 2}3\\) [Converting mixed fractions into improper fractions]</div><div>\\(= \\frac {_{{(3*j)+2}}_ \\times _{{(3*k)+2}}_}{3 \\times 3} =_{{Fraction(((3*j)+2)*((3*k)+2), 9)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_\\frac 23 \\times _{k}_\\frac 23\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc( (((3*j)+2)*((3*k)+2))/Decimal(9), 2 )}}_"
+  }, 
+  "type": 3
+}

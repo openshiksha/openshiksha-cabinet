@@ -1,0 +1,27 @@
+{
+  "solution": {
+    "text": "_{j}_pqr: Monomial. This expression has only one term even though it has three variables."
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "_{j}_pqr"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Binomial"
+      }, 
+      {
+        "text": "Trinomial"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Monomial"
+    }
+  }
+}

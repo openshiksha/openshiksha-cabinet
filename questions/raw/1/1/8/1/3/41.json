@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Amount of water in the bottle originally = _{j}_ litres</div><div>Portion of _{j}_ litres of water consumed by Chirag = \\( \\frac 35\\)</div><div>Thus, amount of water Chirag consumed = \\( \\frac 35 \\times _{j}_ \\) litres = \\( _{{Fraction(3*j, 5)}}_\\) litres</div>"
+  }, 
+  "content": {
+    "text": "Vishal went on a picnic with his friend Chirag. They carried a water bottle that contained _{j}_ litres of water. Chirag consumed \\( \\frac 35^{th} \\) of the water and Vishal consumed the remaining. How much water did Chirag Drink ?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( (3*j)/Decimal(5), 2 )}}_"
+  }, 
+  "type": 3, 
+  "unit": "Litres"
+}
