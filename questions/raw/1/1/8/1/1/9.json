@@ -8,7 +8,6 @@
   "type": 1, 
   "subpart_index": 7, 
   "options": {
-    "use_dropdown_widget": true,
     "incorrect": [
       {
         "text": "monomial"
@@ -17,6 +16,7 @@
         "text": "trinomial"
       }
     ], 
+    "use_dropdown_widget": true, 
     "correct": {
       "text": "binomial"
     }

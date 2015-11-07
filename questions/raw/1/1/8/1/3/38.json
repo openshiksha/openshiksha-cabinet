@@ -40,7 +40,6 @@
   }, 
   "type": 1, 
   "options": {
-    "use_dropdown_widget": true,
     "incorrect": [
       {
         "text": "Abhay"
@@ -49,6 +48,7 @@
         "text": "Nikhil"
       }
     ], 
+    "use_dropdown_widget": true, 
     "correct": {
       "text": "Katherine"
     }

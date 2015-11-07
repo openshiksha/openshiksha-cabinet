@@ -11,12 +11,12 @@
   }, 
   "type": 1, 
   "options": {
-    "use_dropdown_widget": true,
     "incorrect": [
       {
         "text": "Yes"
       }
     ], 
+    "use_dropdown_widget": true, 
     "correct": {
       "text": "No"
     }
