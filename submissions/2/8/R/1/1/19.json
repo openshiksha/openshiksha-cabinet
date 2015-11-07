@@ -1,0 +1,1741 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Let the number be represented by abcd (for instance if the number was 3456 then a = 3, b = 4, c = 5 and d = 6)</div><div>Given</div><div>d = 2a</div><div>b = c-a</div><div>d = c-1</div><div>a &lt; 6 and is odd so a = 1,3,5 but d=2a and d can\u2019t be equal to 10, therefore a = 1,3</div><div>Let\u2019s assume a = 1</div><div>Then d = 2a = 2, c = d+1 = 3 and b = c-a = 2</div><div>Thus the number would be 1232. But it is given that no two digits are the same, therefore a = 3.</div><div>Then d = 2a = 6, c = d+1 = 7 and b = c-a = 4</div><div>Thus the number is 3746</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The Answer is:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "3746"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 7, 
+      "container": {
+        "content": {
+          "text": "I am a four digit number with no two digits the same. My ones digit is twice my thousands digit and my thousands digit is one less than my tens digit. My hundreds digit is the sum of my tens digit and my thousands digit. My thousands digit is an odd number less than 6. What number am I?", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          70
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(9x^2\\) \u2013 Monomial. Because this expression has only one term", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(9x^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "binomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              2, 
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "monomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(20x + 11\\) \u2013 Binomial. Even though it only has one variable, it has two terms. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(20x + 11\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(3y + x\\) \u2013 Binomial. Because this expression has two terms.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(3y + x\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              2, 
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(17\\) \u2013 Monomial. Even though it doesn\u2019t have any variables this expression has only one term and thus is a monomial. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\(17\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "binomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "monomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(6xy\\) \u2013 Monomial. Even though it has two variables, they are both part of a single term. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\(6xy\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "binomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "monomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(9z\\) \u2013 Monomial. Because this expression only has one term.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "\\(9z\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "binomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              2, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "monomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(10x +5\\) \u2013 Binomial. Because this expression has two terms.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "\\(10x + 5\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(a + b\\) \u2013 Binomial. Because this expression has two terms. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "\\(a+b\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(a + b + c\\) \u2013 Trinomial. Because this expression has three terms. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "\\(a+b+c\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "binomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "trinomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(16xy + xy + 4\\) \u2013 Binomial. Because it can be simplified to two terms \\(17xy + 4\\).", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "\\(16xy + xy + 4\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "binomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "trinomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(11xyz \u2013 12\\) \u2013 Binomial. Because this expression has two terms.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 10, 
+          "content": {
+            "text": "\\(11xyz - 12\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(6x + 10y\\) \u2013 Binomial. Because this expression has two terms.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 11, 
+          "content": {
+            "text": "\\(6x + 10y\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              2, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(16z^2 - 16y^2\\) \u2013 Binomial. Because this expression has two terms.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 12, 
+          "content": {
+            "text": "\\(16z^2 - 16y^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "monomial", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "trinomial", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "binomial", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 2, 
+      "container": {
+        "content": {
+          "text": "Classify the following as monomials, binomials and trinomials", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          2, 
+          3, 
+          4, 
+          5, 
+          6, 
+          7, 
+          8, 
+          9, 
+          10, 
+          11, 
+          12, 
+          13, 
+          14
+        ], 
+        "hint": {
+          "text": "Monomials have ONE TERM (e.g. \\(3x\\)). Binomials have TWO TERMS (e.g. \\(3x + 2\\)). Trinomials have THREE TERMS (e.g. \\(3x + 2 + 2y\\))", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Your income = \\(120x\\)</div><div>Your friend\u2019s income = \\(30y\\)</div><div>Required money for scooter = \\(3600\\)</div><div>Therefore \\(3600 = 120x + 30y\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "You and your friend decide to get a part time job to earn some money to buy a scooter worth Rs.3600. The job you get pays you Rs.120 per hour and the job your friend gets pays him Rs.30 per hour. Assuming you work for x hours and your friend works for y hours, what algebraic expression describes the number of hours you and your friend need to work for to purchase the scooter.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(3600 = 120x - 30y\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(3600 = 120\\frac xy + 30\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(3600 = x + y\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(3600 = 120x + 30y\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Now, your friend says he will only work half the number of hours you will.So if you work x hours and he works y hours then \\(y = \\frac{x}{2}\\)</div><div>Substituting the value of y into the equation obtained in part 1, we get:</div><div>\\(3600 = 120x + 30\\frac x2\\)</div><div>\\(\\Rightarrow 3600 = x(120+ \\frac{30}{2})\\)</div><div>\\(\\Rightarrow x = \\frac{3600}{120+ \\frac{30}{2}}\\)</div><div>\\(\\Rightarrow x = 26.67\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>Use the information given in the first part.</div><div>Your friend says he will only work half the amount of time that you work. Using this information, how many hours will you have to work before you both have enough money to purchase the scooter?</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(36\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(24\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(48\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(26.67\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 6, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          67, 
+          69
+        ], 
+        "hint": {
+          "text": "Identify the variables in the problem (x and y) and then try and form an equation to calculate income. For instance, if I earn Rs.40 per hour and work 8 hours on Monday, then my income on Monday was \\(40 \\times 8\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(9x(2x + y)\\)</div><div>\\(=9x(2x) + 9xy\\)</div><div>\\(=18x^2 + 9xy\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>\\(9x(2x + y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(18x + 9xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9x^2 + 9xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(18x^2 + y\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(18x^2 + 9xy\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((9x-9y)(6x-5y)\\)</div><div>\\(= 9x(6x-5y) \u2013 9y(6x-5y)\\)</div><div>\\(= 54x^2 \u2013 45xy \u2013 54xy + 45y^2\\)</div><div>\\(= 54x^2 \u2013 99xy + 45y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>\\((9x - 9y) (6x - 5y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(54x^2 + 99xy + 45y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(54x^2 - 45xy + 45y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(54x^2 - (-9)xy + 45y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(54x^2 - 99xy + 45y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((7x+17y)(4x-17y)\\)</div><div>\\(= 7x(4x \u201317y) + 17y(4x-17y)\\)</div><div>\\(= 28x^2 \u2013 119xy + 68xy \u2013 289y^2\\)</div><div>\\(= 28x^2 - 51xy \u2013 289y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "<div>\\((7x + 17y) (4x - 17y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(28x^2 + 187xy + 289y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(28x^2 - 119xy + 289y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(28x^2 - 187xy + 289y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(28x^2 - 51xy - 289y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((18x+6y)(16x+11y)\\)</div><div>\\(= 18x(16x +11y) + 6y(16x+11y)\\)</div><div>\\(= 288x^2 + 198xy + 96xy + 66y^2\\)</div><div>\\(= 288x^2 + 294xy + 66y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "<div>\\((18x + 6y) (16x + 11y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(288x^2 + 102xy + 66y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(288x^2 - 198xy + 66y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(288x^2 - 102xy + 66y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(288x^2 + 294xy + 66y^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((8x-19y)(8x-19y)\\)</div><div>\\(= (8x \u2013 19y)^2\\)</div><div>Using identity \\((a-b)^2 = a^2 + b^2 \u2013 2ab\\)</div><div>Where \\(a = 8x\\) and \\(b = 19y\\)</div><div>\\(= 64x^2 + 361y^2 \u2013 304xy\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "<div>\\((8x - 19y) (8x - 19y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(64x^2 - 361y^2 + 304xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(64x^2 - 152xy + 361y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(64x^2 - 456xy + 219y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(64x^2 - 304xy + 361y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((9x^2+8y)(17x+2y^2)\\)</div><div>\\(=9x^2(17x + 2y^2) + 8y(17x + 2y^2)\\)</div><div>\\(= 153x^3 + 18x^2y^2 + 136xy + 16y^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "<div>\\((9x^2 + 8y) (17x + 2y^2)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(153x^3 + 154x^2y^2 + 16y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(153x^2 + 18x^2y^2 + 136xy + 16y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(153x^3 + 36x^2y^2 + 272xy - 16y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(153x^3 + 18x^2y^2 + 136xy + 16y^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((6x+11y)(8x^3-9y)\\)</div><div>\\(=6x(8x^3 - 9y) + 11y(8x^3 - 9y)\\)</div><div>\\(= 48x^4 - 54xy + 88x^3y - 99y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "<div>\\((6x + 11y) (8x^3 - 9y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(48x^3 - 54xy + 88x^3y - 99y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(48x^4 - 54xy + 88x^2y - 99y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(48x^4 - 108xy - 176x^3y - 99y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(48x^4 - 54xy + 88x^3y - 99y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((18x+16y)(18x+17y^2)\\)</div><div>Using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)</div><div>Where \\(x = 18x\\), \\(a = 16y\\) and \\(b = 17y^2\\)</div><div>\\(= 324x^2 + (16y + 17y^2)18x + 272y^3\\)</div><div>\\(324x^2 + 288xy + 306xy^2 + 272y^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "<div>\\((18x + 16y) (18x + 17y^2)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(324x^2 + 288x^2y + 306xy^2 + 272y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(324x^2 + 288xy + 272xy^2 + 272y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(324x^2 + 272xy + 288xy^2 + 272y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(324x^2 + 288xy + 306xy^2 + 272y^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((16x + \\frac{10y}{8}) (19x - \\frac{10y^2}{15})\\)</div><div>\\(= 16x(19x \u2013 \\frac{10}{15}y^2) + \\frac{10}{8}y (19x - \\frac{10}{15}y^2)\\)</div><div>\\(= 304x^2 \u2013 \\frac{16\\times10}{15}xy^2 + \\frac{10\\times19}{8}xy \u2013 \\frac{10\\times10}{8\\times15}y^3\\)</div><div>\\(= 304x^2 - \\frac{32}{3}xy^2 + \\frac{95}{4}xy - \\frac{5}{6}y^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "<div>\\((16x + \\frac{10y}{8}) (19x - \\frac{10y^2}{15})\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(304x^2 - \\frac{32}{3}xy + \\frac{95}{4}xy^2 - \\frac{5}{6}y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(304x^2 - \\frac{32}{3}xy^2 + \\frac{95}{2}xy - \\frac{5}{6}y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(304x^2 - \\frac{32}{3}xy^2 + \\frac{95}{4}xy - \\frac{5}{6}y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(304x^2 - \\frac{32}{3}xy^2 + \\frac{95}{4}xy - \\frac{5}{6}y^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((9a + (-11b)) (2a - (-16b^2))\\)</div><div>\\(= (9a \u2013 11b)(2a+16b^2)\\)</div><div>\\(= 9a(2a+16b^2) \u2013 11b(2a+16b^2)\\)</div><div>\\(= 18a^2 + 144ab^2 \u2013 22ab \u2013 176b^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "<div>\\((9a + (-11b)) (2a - (-16b^2))\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(18a^3 - 22ab + 288ab^2  - 176b^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(18a^2 + 44ab - 144ab^2  - 176b^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(18a^2 + 22ab - 144ab^2 - 176b^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(18a^2 + 144ab^2 - 22ab - 176b^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((17x + 5y) (17x - 5y)\\)</div><div>\\(= 17x(17x-5y) + 5y (17x-5y)\\)</div><div>\\(= 289x^2 \u2013 85xy + 85xy \u2013 25y^2\\)</div><div>\\(= 289x^2 \u2013 25y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 10, 
+          "content": {
+            "text": "<div>\\((17x + 5y) (17x - 5y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(289x^2 - 25y^2 + 85xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(289x^2 - 25y^2 + 170xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(289x^2 - 25y^2 - 85xy\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(289x^2 - 25y^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 4, 
+      "container": {
+        "content": {
+          "text": "Multiply the following expressions:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          29, 
+          30, 
+          31, 
+          32, 
+          33, 
+          34, 
+          35, 
+          36, 
+          37, 
+          38, 
+          39
+        ], 
+        "hint": {
+          "text": "<div>Consider the expressions you\u2019re trying to multiply. Break one expression into its separate terms and multiply each term with the second expression. Then add or subtract the terms to simplify.</div><div>For example:</div><div>\\((x+2y)(2x-3y)\\)</div><div>\\(= x(2x \u2013 3y) + 2y(2x-3y)\\) [Here x+2y is broken into its two terms]</div><div>\\(= 2x^2 \u2013 3xy + 4xy \u2013 6y^2\\)</div><div>\\(= 2x^2 + xy \u2013 6y^2\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Income = \\(489x\\)</div><div>Constant expense \\(= 63\\)</div><div>Variable expense \\(= 25y\\)</div><div>Therefore, Earnings \\(= 489x \u2013 63 \u2013 25y\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "An electrician earns Rs.489 per hour and spends Rs.63 a day on petrol. He also buys electric wire at Rs.25 per metre. Last Monday, he worked for x hours and purchased y metres of wire. What algebraic expression represents his earnings for that day?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Earnings = \\(489x + 63 - 25y\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Earnings = \\(489x - 63 + 25y\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Earnings = \\(489x - 63 - 50y\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "Earnings = \\(489x - 63 - 25y\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 5, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          66
+        ], 
+        "hint": {
+          "text": "Identify the variables in the problem (x and y) and then try and form an equation to calculate income. For instance, if I earn Rs.40 per hour and work 8 hours on Monday, then my income on Monday was \\(40 \\times 8\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(10x\\). Correct. The only variable is x</div><div>\\(10x+5\\). Correct. The only variable is x</div><div>\\(10y + x\\). Incorrect. There are two variables here: x and y</div><div>\\(10t\\). Correct. The only variable is t</div><div>\\(10xy\\). Incorrect. There are two variables here: x and y</div><div>\\(10z\\). Correct. The only variable is z</div><div>\\(10p^2 + 5\\). Correct. The only variable is p </div><div>\\(10q^3\\). Correct. The only variable is q</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Which of the following expressions have only one variable?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 2, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(10y+x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(10xy\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "order": [
+              0, 
+              4, 
+              5, 
+              6, 
+              3, 
+              2, 
+              7, 
+              1
+            ], 
+            "correct": [
+              {
+                "text": "\\(10x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(10x+5\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(10t\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(10z\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(10p^2+5\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(10p^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ]
+          }
+        }
+      ], 
+      "pk": 1, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          1
+        ], 
+        "hint": {
+          "text": "Look at the expressions and make a list of number of variables and constants. Then count the number of distinct variables.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((ab \u2013 bc) \u2013 (bc \u2013 ca) + (ca \u2013 ab)\\)</div><div>\\(= ab \u2013 bc \u2013 bc + ca + ca \u2013 ab\\)</div><div>\\(= ab \u2013 ab \u2013 bc \u2013 bc + ac + ac\\)</div><div>\\(= 2ac \u2013 2bc\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>\\((ab - bc) - (bc - ca) + (ca - ab)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(2ac - bc - ab\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2ca - bc\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2ab - 2bc\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(2ac - 2bc\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((19ab^2 \u2013 c^2) \u2013 (5c^2 \u2013 ca + a^2) \u2013 (2a^2 \u2013 ab)\\)</div><div>\\(= 19ab^2 \u2013 c^2 \u2013 5c^2 + ca - a^2 \u2013 2a^2 + ab\\)</div><div>\\(= 19ab^2 + ab \u2013 c^2 \u2013 5c^2 + ca - a^2 \u2013 2a^2\\)</div><div>\\(= 19ab^2 + ab \u2013 6c^2 + ca \u2013 (1+2)a^2\\)</div><div>\\(= 19ab^2 + ab \u2013 6c^2 + ca \u2013 3a^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>\\((19ab^2 - c^2) - (5c^2 - ca + a^2) - (2a^2 - ab)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(19ab^2 + ab - (-4)c^2 bc + ca - 3a^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(19ab^2 - ab - 6c^2 + ca  - a^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(20ab^2 - 6c^2 + ca - 3a^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(19ab^2 + ab - 6c^2 + ca - 3a^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((14b^2 - 7c^2 - 11a^2) - (14c^2 - 14ca + 5ab^2) - (ca - ab^2)\\)</div><div>\\(= 14b^2 \u2013 7c^2 \u2013 11a^2 \u2013 14c^2 + 14ca \u2013 5ab^2 \u2013 ca + ab^2\\)</div><div>\\(= 14b^2 \u2013 11a^2 \u2013 14c^2 \u2013 7c^2 + 14ca \u2013 ca + ab^2 \u2013 5ab^2\\)</div><div>\\(= 14b^2 \u2013 11a^2 \u2013 21c^2 + 13ca + (-4)ab^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "<div>\\((14b^2 - 7c^2 - 11a^2) - (14c^2 - 14ca + 5ab^2) - (ca - ab^2)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(14b^2 - 11a^2 - 7c^2 + 13ca - (-4)ab^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(14b^2 - 11a^2 - 21c^2 + 13ca - 6ab^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(14b^2 - 11a^2 - 21c^2 + 15ca - (-4)ab^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(14b^2 - 11a^2 - 21c^2 + 13ca + (-4)ab^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((2a \u2013 3b \u2013 4c) \u2013 (3a + 4b \u2013 5c)\\)</div><div>\\(= 2a \u2013 3b \u2013 4c \u2013 3a \u2013 4b + 5c\\)</div><div>\\(= 2a \u2013 3a \u2013 3b \u2013 4b + 5c \u2013 4c\\)</div><div>\\(= -a \u2013 7b + c\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "<div>\\((2a - 3b - 4c)-(3a + 4b - 5c)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(-a + b + c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(-a + b - 9c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(a + b + c\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(-a - 7b + c\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 3, 
+      "container": {
+        "content": {
+          "text": "Simplify the following algebraic expressions", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          40, 
+          41, 
+          42, 
+          43
+        ], 
+        "hint": {
+          "text": "<div>Open the brackets and group the like terms. Then add or subtract.</div><div>\\(For example: (a-b) \u2013 (2a \u2013 3b)\\)</div><div>\\(= a \u2013 2a \u2013 b \u2013 (-3b)\\)</div><div>\\(= a \u2013 2a \u2013 b + 3b\\)</div><div>\\(= -a + 2b\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choices": []
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ]
+  ]
+}
