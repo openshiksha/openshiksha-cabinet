@@ -1,7 +1,7 @@
 {
   "subpart_index": 3, 
   "solution": {
-    "text": "<div>We first convert the percentage to a fraction \\(= \\frac{_{{1000*Decimal(str(j))}}_}{1000}\\)</div><div>We then divide by 100 to get the true fraction form:</div><div>\\(= \\frac {_{{1000*Decimal(str(j))}}_}{1000} \\div 100 = _{{Fraction(int(1000*Decimal(str(j))), 100000)}}_\\)</div>\n"
+    "text": "<div>We first convert the percentage to a fraction \\(= \\frac{_{{1000*Decimal(str(j))}}_}{1000}\\)</div><div>We then divide by 100 to get the true fraction form:</div><div>\\(= \\frac {_{{1000*Decimal(str(j))}}_}{1000} \\div 100 = _{{Fraction(int(1000*Decimal(str(j))), 100000)}}_\\)</div>"
   }, 
   "content": {
     "text": "_{j}_&#37;"

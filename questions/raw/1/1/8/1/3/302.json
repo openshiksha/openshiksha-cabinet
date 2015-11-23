@@ -42,5 +42,6 @@
     "tolerance": 0.005, 
     "value": "_{{trunc( (j*l)/Decimal(k), 2 )}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Litres"
 }
