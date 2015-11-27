@@ -1,7 +1,7 @@
 {
   "subpart_index": 8, 
   "solution": {
-    "text": "<div>\\(_{j}_x = _{k}_ \\)</div><div>Dividing both sides by _{j}_, we obtain:</div><div>\\(x= _{{Fraction(j,k)}}_\\)"
+    "text": "<div>\\(_{j}_x = _{k}_ \\)</div><div>Dividing both sides by _{j}_, we obtain:</div><div>\\(x= _{{Fraction(k, j)}}_\\)"
   }, 
   "content": {
     "text": "\\(_{j}_x = _{k}_ \\)"
@@ -11,8 +11,8 @@
     "j": {}
   }, 
   "answer": {
-    "tolerance": 0.005, 
-    "value": "_{{trunc( Decimal(j)/(k), 2 )}}_"
+    "tolerance": 0.01, 
+    "value": "_{{trunc( Decimal(k)/j, 2 )}}_"
   }, 
   "type": 3
 }

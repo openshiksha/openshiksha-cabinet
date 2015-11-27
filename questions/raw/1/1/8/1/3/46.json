@@ -10,7 +10,7 @@
     "j": {}
   }, 
   "answer": {
-    "tolerance": 0.005, 
+    "tolerance": 0.01, 
     "value": "_{{trunc( (j*j)/((2*j)+Decimal(1)), 2 )}}_"
   }, 
   "type": 3

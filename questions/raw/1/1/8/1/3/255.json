@@ -32,7 +32,7 @@
     }
   }, 
   "answer": {
-    "tolerance": 0.005, 
+    "tolerance": 0.01, 
     "value": "_{{trunc (Decimal(m*l-k*n)/(l*n*j), 2)}}_"
   }, 
   "type": 3

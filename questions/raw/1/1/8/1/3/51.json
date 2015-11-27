@@ -12,7 +12,7 @@
     "l": {}
   }, 
   "answer": {
-    "tolerance": 0.005, 
+    "tolerance": 0.01, 
     "value": "_{{trunc( j - k - l + Decimal('0.5') - Decimal('0.75') - (Decimal(2)/Decimal(3)), 2 )}}_"
   }, 
   "type": 3

@@ -13,7 +13,7 @@
     "n": {}
   }, 
   "answer": {
-    "tolerance": 0.005, 
+    "tolerance": 0.01, 
     "value": "_{{trunc( Decimal(j*m)/Decimal(k*n), 2 )}}_"
   }, 
   "type": 3

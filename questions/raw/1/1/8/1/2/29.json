@@ -1,19 +1,28 @@
 {
   "subpart_index": 4, 
   "solution": {
-    "text": "Volume of a cylinder = \\(\\pi \\times r^2 \\times h = _{{trunc( pi_val*((Decimal('0.5')*j)**2)*k, 2 )}}_ cm^3\\)"
+    "text": "Volume of a cylinder = \\(\\pi \\times r^2 \\times h = _{{(((Decimal('0.5')*j*7)**2)*k*22)/7}}_ cm^3\\)"
   }, 
   "content": {
-    "text": "In the cylinder below, diameter=_{j}_ cm, h=_{k}_ cm, find its volume", 
+    "text": "In the cylinder below, diameter=_{{7*j}}_ cm, h=_{k}_ cm, find its volume", 
     "img": "13.png"
   }, 
   "variable_constraints": {
     "k": {}, 
-    "j": {}
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            7
+          ]
+        ]
+      }
+    }
   }, 
   "answer": {
-    "tolerance": 0.05, 
-    "value": "_{{trunc( pi_val*((Decimal('0.5')*j)**2)*k, 2 )}}_"
+    "tolerance": 0.5, 
+    "value": "_{{(((Decimal('0.5')*j*7)**2)*k*22)/7}}_"
   }, 
   "type": 3, 
   "unit": "\\(cm^3\\)"

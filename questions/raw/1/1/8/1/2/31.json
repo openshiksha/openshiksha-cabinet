@@ -1,16 +1,16 @@
 {
   "subpart_index": 5, 
   "solution": {
-    "text": "Surface Area of a cylinder = \\(2 \\times \\pi \\times r \\times(r + h) = _{{trunc( 2*pi_val*(j*Decimal('0.5'))*((j*Decimal('0.5'))+k), 2 )}}_ cm^2\\)"
+    "text": "Surface Area of a cylinder = \\(2 \\times \\pi \\times r \\times(r + h) = _{{(j*22)*((j*7*Decimal('0.5'))+k)}}_ cm^2\\)"
   }, 
   "content": {
-    "text": "In the cylinder, diameter=_{j}_ cm, h=_{k}_ cm, find its surface area", 
+    "text": "In the cylinder, diameter=_{{7*j}}_ cm, h=_{k}_ cm, find its surface area", 
     "img": "13.png"
   }, 
   "variable_constraints": {}, 
   "answer": {
-    "tolerance": 0.05, 
-    "value": "_{{trunc( 2*pi_val*(j*Decimal('0.5'))*((j*Decimal('0.5'))+k), 2 )}}_"
+    "tolerance": 0.5, 
+    "value": "_{{(j*11)*((j*7)+k)}}_"
   }, 
   "type": 3, 
   "unit": "\\(cm^2\\)"

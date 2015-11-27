@@ -12,7 +12,7 @@
   }, 
   "answer": {
     "answer_format": 2, 
-    "condition": "_value_ == _{{Decimal(j)/k}}_", 
+    "condition": "_value_ == (Decimal(_{j}_)/_{k}_)", 
     "num_answers": 3
   }, 
   "type": 5
