@@ -7,7 +7,9 @@
     "text": "See the cuboid below, a=_{{3*j}}_ dm, b=_{{3*j*Decimal('0.5')}}_ dm, c=_{j}_ dm, Find its surface area", 
     "img": "12.png"
   }, 
-  "variable_constraints": {}, 
+  "variable_constraints": {
+    "j": {}
+  }, 
   "answer": {
     "value": "_{{2*((3*j*3*j*Decimal('0.5'))+(3*j*Decimal('0.5')*j)+(3*j*j))}}_"
   }, 

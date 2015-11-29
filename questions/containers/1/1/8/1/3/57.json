@@ -1,19 +1,22 @@
 {
   "content": {
-    "text": "Compute the following. Provide the final answer in decimal form."
+    "text": "Compute the following"
   }, 
   "subparts": [
-    200, 
-    201, 
-    202, 
-    203, 
-    204, 
-    205, 
-    206, 
-    207, 
-    208
+    44, 
+    45, 
+    46, 
+    47, 
+    48, 
+    49, 
+    50, 
+    51, 
+    52, 
+    53, 
+    54, 
+    55
   ], 
   "hint": {
-    "text": "<div>Multiplication of a decimal by \\(10^m\\) shifts the decimal to the right m places.</div><div>Division of a decimal by \\(10^m\\) shifts the decimal to the left m places.</div>"
+    "text": "<div>\\( \\frac ab \\div \\frac cd = \\frac ab \\times \\frac dc\\)</div><div>Remember that you can enter the final answer in fraction form."
   }
 }

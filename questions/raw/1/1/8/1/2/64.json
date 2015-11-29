@@ -1,29 +1,27 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Total Curved Surface Area = \\(2\\pi rh = _{j}_ cm^2\\)</div><div>\\(\\Rightarrow 2rh = \\frac{_{j}_}{\\pi} = _{{trunc( j/pi_val, 2 )}}_ cm^2\\)</div><div>Once you cut the slice, there are three faces without icing: The curved outer surface and the two rectangular inner surfaces. (Remember that the top and bottom surfaces have icing)</div><div>Also, length of Base of Slice = Radius of Cylinder and Height of Slice = Height of Cylinder</div><div>Therefore, area of the slice that has no icing</div><div>= Curved area of slice + 2 \\(\\times\\) Rectangular surface area of slice</div><div>\\(= \\frac{1}{10}\\)(Total Curved Surface Area) + 2 \\(\\times\\) (Base \\(\\times\\) Height of slice)</div><div>\\(= \\frac {1}{10}\\times _{j}_ + 2rh\\)</div><div>\\(= \\frac {1}{10}\\times _{j}_ + _{{trunc( j/pi_val, 2 )}}_\\)</div><div>= _{{trunc( (Decimal('0.1')*j)+(j/pi_val), 2 )}}_ \\(cm^2\\)</div>"
+    "text": "<div>Total Curved Surface Area = \\(2\\pi rh = _{{j*22}}_ cm^2\\)</div><div>\\(\\Rightarrow 2rh = \\frac{_{{j*22}}_}{\\pi} = _{{j*7}}_ cm^2\\)</div><div>Once you cut the slice, there are three faces without icing: The curved outer surface and the two rectangular inner surfaces. (Remember that the top and bottom surfaces have icing)</div><div>Also, length of Base of Slice = Radius of Cylinder and Height of Slice = Height of Cylinder</div><div>Therefore, area of the slice that has no icing</div><div>= Curved area of slice + 2 \\(\\times\\) Rectangular surface area of slice</div><div>\\(= \\frac{1}{10}\\)(Total Curved Surface Area) + 2 \\(\\times\\) (Base \\(\\times\\) Height of slice)</div><div>\\(= \\frac {1}{10}\\times _{{j*22}}_ + 2rh\\)</div><div>\\(= \\frac {1}{10}\\times _{{j*22}}_ + _{{j*7}}_\\)</div><div>= _{{(Decimal('0.1')*j*22)+(j*7)}}_ \\(cm^2\\)</div>"
   }, 
   "content": {
-    "text": "You are given a cylindrical cake with icing on the top and bottom. There is no icing on the curved surface and the curved surface area is \\(_{j}_ cm^2\\). You then cut a straight slice from the cake (as shown below) such that the volume of the slice is exactly \\(\\frac {1}{10}\\) of the volume of the cake. What surface area of your slice has no icing?", 
+    "text": "You are given a cylindrical cake with icing on the top and bottom. There is no icing on the curved surface and the curved surface area is \\(_{{j*22}}_ cm^2\\). You then cut a straight slice from the cake (as shown below) such that the volume of the slice is exactly \\(\\frac {1}{10}\\) of the volume of the cake. What surface area of your slice has no icing?", 
     "img": "21.png"
   }, 
   "variable_constraints": {
     "j": {
-      "options": [
-        220, 
-        110, 
-        88, 
-        66, 
-        132, 
-        154, 
-        176, 
-        198
-      ]
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
     }
   }, 
   "answer": {
     "tolerance": 0.05, 
-    "value": "_{{trunc( (Decimal('0.1')*j)+(j/pi_val), 2 )}}_"
+    "value": "_{{(Decimal('0.1')*j*22)+(j*7)}}_"
   }, 
   "type": 3, 
   "unit": "\\(cm^2\\)"

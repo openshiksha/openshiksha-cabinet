@@ -1,0 +1,22 @@
+{
+  "content": {
+    "text": "Simplify the following:"
+  }, 
+  "subparts": [
+    87, 
+    88, 
+    89, 
+    90, 
+    91, 
+    92, 
+    93, 
+    94, 
+    95, 
+    96, 
+    97, 
+    98
+  ], 
+  "hint": {
+    "text": "<div>Use the laws of exponents:</div><div><table class='table table-condensed table-bordered'><thead><tr><th>Law of Exponents</th><th>Example</th></tr></thead><tbody><tr><td>\\(x^1 = x\\)</td><td>\\(4^1 = 4\\)</td></tr><tr><td>\\(x^0 = 1\\)</td><td>\\(5^0 = 1\\)</td></tr><tr><td>\\(x^{-1} = \\frac 1x\\)</td><td>\\(3^{-1} = \\frac 13\\)</td></tr><tr><td>\\(x^mx^n = x^{m+n}\\)</td><td>\\(x^2x^6 = x^{2+6} = x^8\\)</td></tr><tr><td>\\(\\frac{x^m}{x^n} = x^{m-n}\\)</td><td>\\(\\frac{x^7}{x^3} = x^{7-3} = x^4\\)</td></tr><tr><td>\\((x^m)^n = x^{mn}\\)</td><td>\\((x^2)^5 = x^{2\\times5} = x^{10}\\)</td></tr><tr><td>\\((xy)^n = x^ny^n\\)</td><td>\\((xy)^4 = x^4y^4\\)</td></tr><tr><td>\\((\\frac xy)^n = \\frac{x^n}{y^n}\\)</td><td>\\((\\frac xy)^4 = \\frac{x^4}{y^4}\\)</td></tr><tr><td>\\(x^{-n} = \\frac1{x^n}\\)</td><td>\\(x^{-2} = \\frac1{x^2}\\)</td></tr></tbody></table></div>"
+  }
+}

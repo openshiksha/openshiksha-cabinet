@@ -1,9 +1,27 @@
 {
-  "content": null, 
+  "content": {
+    "text": "Find the value of a"
+  }, 
   "subparts": [
-    38
+    21, 
+    22, 
+    23, 
+    24, 
+    25, 
+    26, 
+    27, 
+    28, 
+    29, 
+    30, 
+    31, 
+    32, 
+    33, 
+    34, 
+    35, 
+    36, 
+    37
   ], 
   "hint": {
-    "text": "Reduce the fractions to their simplest form."
+    "text": "<ul><li>The integer 1 is the identity under multiplication, i.e.,\\( 1 \\times p = p \\times 1 = p\\) for any integer p.</li><li>When a positive integer is divided by a negative integer, the quotient obtained is a negative integer and vice-versa.</li><li>Division of a negative integer by another negative integer gives a positive integer as quotient.</li><li>Integer 0 is the identity under addition. That is,\\( p + 0 = 0 + p = p \\)for every integer p.</li><li>Multiplication is commutative for integers. That is,\\( p \\times q = q \\times p\\) for any integers p and q.</li><li>Addition is commutative for integers, i.e., \\(p + q = q + p\\) for all integers p and q.</li><li>Addition is associative for integers, i.e.,\\( (p + q) + r = p + (q + r)\\) for all integers p, q and r.</li><li>Subtraction is neither commutative nor associative for integers.</li><li>\\( p \\div 1 = p, p \\times 0 = 0\\).</li></ul>"
   }
 }

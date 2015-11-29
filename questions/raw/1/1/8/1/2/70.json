@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Given the volume of the pipe = V = _{{trunc( (pi_val*(k**2)*j)-(pi_val*((k-3)**2)*j), 2 )}}_ \\(cm^3\\)</div><div>The volume of a cylindrical pipe = \\(\\pi{r_ o}^2h - \\pi{r_ i}^2h\\)</div><div>Let the thickness of the pipe be \\(x\\)</div><div>\\(\\Rightarrow V = \\pi (_{k}_)^2 \\times _{j}_ - \\pi (_{k}_-x)^2 \\times _{j}_\\)</div><div>\\(\\Rightarrow \\frac {V}{_{j}_\\pi}=_{k}_^2 - (_{k}_-x)^2\\)</div><div>\\(\\Rightarrow (_{k}_-x)^2 = _{{(k**2)}}_ - \\frac{V}{_{j}_\\pi}\\)</div><div>\\(\\Rightarrow x = _{k}_ - _{{trunc( sqrt((k**2) - (((pi_val*(k**2)*j)-(pi_val*((k-3)**2)*j))/(j*pi_val))) , 2 )}}_\\)</div><div>\\(\\Rightarrow x = 3\\)</div><div>Therefore, the thickness of the pipe is 3 cm</div>"
+    "text": "<div>Given the volume of the pipe = V = _{{trunc( pi_val*(k**2)*j, 2 ) - trunc( pi_val*((k-3)**2)*j, 2 )}}_ \\(cm^3\\)</div><div>The volume of a cylindrical pipe = \\(\\pi{r_ o}^2h - \\pi{r_ i}^2h\\)</div><div>Let the thickness of the pipe be \\(x\\)</div><div>\\(\\Rightarrow V = \\pi (_{k}_)^2 \\times _{j}_ - \\pi (_{k}_-x)^2 \\times _{j}_\\)</div><div>\\(\\Rightarrow \\frac {V}{_{j}_\\pi}=_{k}_^2 - (_{k}_-x)^2\\)</div><div>\\(\\Rightarrow (_{k}_-x)^2 = _{{(k**2)}}_ - \\frac{V}{_{j}_\\pi} = _{{k**2}}_ - _{{trunc( (trunc( pi_val*(k**2)*j, 2 ) - trunc( pi_val*((k-3)**2)*j, 2 ))/(j*pi_val), 2)}}_ = _{{(k**2) - trunc( (trunc( pi_val*(k**2)*j, 2 ) - trunc( pi_val*((k-3)**2)*j, 2 ))/(j*pi_val), 2 )}}_\\)</div><div>\\(\\Rightarrow x = _{k}_ - \\sqrt{_{{(k**2) - trunc( (trunc( pi_val*(k**2)*j, 2 ) - trunc( pi_val*((k-3)**2)*j, 2 ))/(j*pi_val), 2 )}}_} = _{k}_ - _{{trunc( sqrt((k**2) - trunc( (trunc( pi_val*(k**2)*j, 2 ) - trunc( pi_val*((k-3)**2)*j, 2 ))/(j*pi_val), 2 )), 2 )}}_\\)</div><div>\\(\\Rightarrow x = 3\\) (approximately)</div><div>Therefore, the thickness of the pipe is 3 cm</div>"
   }, 
   "content": {
-    "text": "The volume of a metallic cylinder pipe is _{{trunc( (pi_val*(k**2)*j)-(pi_val*((k-3)**2)*j), 2 )}}_ cubic centimetres. Its length is _{j}_ cm and its external radius is _{k}_ cm. Find its thickness"
+    "text": "The volume of a metallic cylinder pipe is _{{trunc( pi_val*(k**2)*j, 2 ) - trunc( pi_val*((k-3)**2)*j, 2 )}}_ cubic centimetres. Its length is _{j}_ cm and its external radius is _{k}_ cm. Find its thickness"
   }, 
   "variable_constraints": {
     "k": {

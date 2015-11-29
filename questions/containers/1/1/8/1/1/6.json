@@ -1,10 +1,9 @@
 {
-  "content": null, 
+  "content": {
+    "text": "I am a four digit number with no two digits the same. My ones digit is twice my thousands digit and my thousands digit is one less than my tens digit. My hundreds digit is the sum of my tens digit and my thousands digit. My thousands digit is an odd number less than 6. What number am I?"
+  }, 
   "subparts": [
-    67, 
-    69
+    70
   ], 
-  "hint": {
-    "text": "Identify the variables in the problem (x and y) and then try and form an equation to calculate income. For instance, if I earn Rs.40 per hour and work 8 hours on Monday, then my income on Monday was \\(40 \\times 8\\)"
-  }
+  "hint": null
 }

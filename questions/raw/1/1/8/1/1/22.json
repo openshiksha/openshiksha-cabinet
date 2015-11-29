@@ -4,24 +4,27 @@
   }, 
   "subpart_index": 7, 
   "content": {
-    "text": "<div>\\((_{j}_pq + _{k}_q^2)(_{j}_pq + _{k}_q^2)\\)</div><div>Choose the correct answer after applying the identity</div>"
+    "text": "\\((_{j}_pq + _{k}_q^2)(_{j}_pq + _{k}_q^2)\\)"
   }, 
-  "variable_constraints": {}, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
   "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "\\(_{{j**2}}_pq - _{{2*j*k}}_pq^2 + _{{k**2}}_q^2\\)"
+        "text": "\\(_{{j**2}}_pq - _{{2*j*k}}_pq^3 + _{{k**2}}_q^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_q^2q^2 + _{{k**2}}_p^4\\)"
+        "text": "\\(_{{j**2}}_q^2q^2 + _{{k**2}}_p^4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_pq + _{{2*j*k}}_pq^2 + _{{k**2}}_q^2\\)"
+        "text": "\\(_{{j**2}}_pq + _{{2*j*k}}_pq^3 + _{{k**2}}_q^2\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
       }
     ], 
     "correct": {
-      "text": "\\(_{{j**2}}_p^2q^2 + _{{2*j*k}}_pq^3 + _{{k**2}}_q^4\\) "
+      "text": "\\(_{{j**2}}_p^2q^2 + _{{2*j*k}}_pq^3 + _{{k**2}}_q^4\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"
     }
   }
 }

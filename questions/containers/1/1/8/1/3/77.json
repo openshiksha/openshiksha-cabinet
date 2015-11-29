@@ -1,9 +1,15 @@
 {
-  "content": null, 
+  "content": {
+    "text": "Convert the following to simplified fractions: "
+  }, 
   "subparts": [
-    301
+    116, 
+    117, 
+    118, 
+    119, 
+    120
   ], 
   "hint": {
-    "text": "Percentages represent the total number of a quantity normalised to a 100. For example, if 30% of 10 children are boys, it means that there are 3 boys."
+    "text": "Percentages can be converted to fractions by dividing by hundred. If the percentage is a decimal, you will first need to move the decimal place to the right and then divide the resulting fraction by hundred. "
   }
 }

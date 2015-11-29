@@ -1,9 +1,12 @@
 {
-  "content": null, 
+  "content": {
+    "text": "Iqbal and Rahul have cuboidal water tanks at home and are trying to calculate how much rainwater they can harvest. They provide you with measurements and ask you to calculate the volumes for both tanks in litres."
+  }, 
   "subparts": [
-    44
+    37, 
+    38
   ], 
   "hint": {
-    "text": "Start by calculating the volume of the entire brick wall"
+    "text": "<div>Remember that the volume of a cuboidal tank = \\(length \\times breadth \\times height\\)</div><div>Also remember that 1L = \\(1000 cm^3\\)</div>"
   }
 }

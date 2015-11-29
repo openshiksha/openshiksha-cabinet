@@ -1,24 +1,13 @@
 {
   "content": {
-    "text": "Compute the following:"
+    "img": "2.png"
   }, 
   "subparts": [
-    7, 
-    8, 
-    9, 
-    10, 
-    11, 
-    12, 
-    13, 
-    14, 
-    15, 
-    16, 
-    17, 
-    18, 
-    19, 
-    20
+    4, 
+    5, 
+    6
   ], 
   "hint": {
-    "text": "<ul><li>Product of even number of negative integers is positive, whereas the product of odd number of negative integers is negative.</li><li>The integer 1 is the identity under multiplication, i.e.,\\( 1 \\times a = a \\times 1 = a\\) for any integer a.</li><li>When a positive integer is divided by a negative integer, the quotient obtained is a negative integer and vice-versa.</li><li>Division of a negative integer by another negative integer gives a positive integer as quotient.</li><li>\\( \\frac {a}{1} = a, a \\times 0 = 0.\\)</li></ul>"
+    "text": "On the given number line, C is 5 units to the right of zero. Thus, each unit on the number line represents a difference of \\(\\frac C5\\) numbers."
   }
 }

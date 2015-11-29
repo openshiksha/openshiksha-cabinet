@@ -1,9 +1,14 @@
 {
-  "content": null, 
+  "content": {
+    "text": "Find the surface area of the objects below:"
+  }, 
   "subparts": [
-    48
+    23, 
+    27, 
+    31, 
+    35
   ], 
   "hint": {
-    "text": "Start by calculating the surface area"
+    "text": "<div>Remember the following formulas:</div><div>Surface Area of the Cube:\\( 6 \\times side^2\\)</div><div>Surface Area of the Cuboid: \\(2 \\times (lb + bh + lh)\\)</div><div>Surface area of a cylinder:\\(2\\pi r(r+h)\\)</div>"
   }
 }

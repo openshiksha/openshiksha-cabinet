@@ -1,23 +1,26 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Curved surface area (CSA) = \\(2\\pi rh\\)</div><div>Total surface area = \\(2\\pi r (r+h) = 2\\pi r^2 + 2\\pi rh = 3 \\times CSA = _{j}_\\)</div><div>Therefore, \\(2\\pi r^2 + 2\\pi rh = 6\\pi rh\\)</div><div>\\(\\Rightarrow 2\\pi r^2 = 4\\pi rh\\)</div><div>\\(\\Rightarrow r = 2h\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2}\\)</div><div>\\(CSA = \\frac{_{j}_}3 = 2\\pi rh = 2\\pi r(\\frac {r}{2}) = \\pi r^2\\)</div><div>\\(\\Rightarrow\\) Area of Base = \\(\\pi r^2 = \\frac{_{j}_}3\\)</div><div>\\(\\Rightarrow r^2 = \\frac {_{j}_\\times 7}{3\\times 22}\\)</div><div>\\(\\Rightarrow r = _{{trunc(sqrt((j*7)/(Decimal('3')*22)), 2)}}_ cm\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2} = _{{trunc(sqrt((j*7)/(Decimal('3')*22))*Decimal('0.5'), 2)}}_ cm\\)</div><div>Therefore, volume \\(= \\pi r^2h = _{{trunc( pi_val * ((j*7) / (Decimal('3')*22)) * sqrt((j*7)/(Decimal('3')*22))*Decimal('0.5') , 2)}}_ cm^3\\)</div>"
+    "text": "<div>Curved surface area (CSA) = \\(2\\pi rh\\)</div><div>Total surface area = \\(2\\pi r (r+h) = 2\\pi r^2 + 2\\pi rh = 3 \\times CSA = _{{j*j*22*7*3}}_\\)</div><div>Therefore, \\(2\\pi r^2 + 2\\pi rh = 6\\pi rh\\)</div><div>\\(\\Rightarrow 2\\pi r^2 = 4\\pi rh\\)</div><div>\\(\\Rightarrow r = 2h\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2}\\)</div><div>\\(CSA = \\frac{_{{j*j*22*7*3}}_}3 = 2\\pi rh = 2\\pi r(\\frac {r}{2}) = \\pi r^2\\)</div><div>\\(\\Rightarrow\\) Area of Base = \\(\\pi r^2 = \\frac{_{{j*j*22*7*3}}_}3\\)</div><div>\\(\\Rightarrow r^2 = \\frac {_{{j*j*22*7*3}}_\\times 7}{3\\times 22}\\)</div><div>\\(\\Rightarrow r = _{{j*7}}_ cm\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2} = _{{j*7*Decimal('0.5')}}_ cm\\)</div><div>Therefore, volume \\(= \\pi r^2h = _{{22 * (j*j*7) * (j*7*Decimal('0.5'))}}_ cm^3\\)</div>"
   }, 
   "content": {
-    "text": "A solid cylinder has total surface area of _{j}_ square centimetres. Its curved surface area is one-third of its total surface area. Find the volume of the cylinder"
+    "text": "A solid cylinder has total surface area of _{{j*j*22*7*3}}_ square centimetres. Its curved surface area is one-third of its total surface area. Find the volume of the cylinder"
   }, 
   "variable_constraints": {
     "j": {
-      "options": [
-        4158, 
-        1848, 
-        7392
-      ]
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
     }
   }, 
   "answer": {
     "tolerance": 0.05, 
-    "value": "_{{trunc( pi_val * ((j*7) / (Decimal('3')*22)) * sqrt((j*7)/(Decimal('3')*22))*Decimal('0.5') , 2)}}_"
+    "value": "_{{22 * (j*j*7) * (j*7*Decimal('0.5'))}}_"
   }, 
   "type": 3, 
   "unit": "\\(cm^3\\)"

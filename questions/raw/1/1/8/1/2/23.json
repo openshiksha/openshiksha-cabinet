@@ -7,7 +7,9 @@
     "text": "See the cube below, a=_{j}_ cm, Find its surface area", 
     "img": "11.png"
   }, 
-  "variable_constraints": {}, 
+  "variable_constraints": {
+    "j": {}
+  }, 
   "answer": {
     "value": "_{{6*(j**2)}}_"
   }, 

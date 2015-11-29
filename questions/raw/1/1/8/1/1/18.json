@@ -4,24 +4,27 @@
   }, 
   "subpart_index": 3, 
   "content": {
-    "text": "<div>\\((_{j}_y - _{k}_) (_{j}_y + _{k}_)\\)</div><div>Choose the correct answer after applying the identity</div>"
+    "text": "\\((_{j}_y - _{k}_) (_{j}_y + _{k}_)\\)"
   }, 
-  "variable_constraints": {}, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
   "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "\\(_{{j**2}}_y^2 + _{{k**2}}_\\)"
+        "text": "\\(_{{j**2}}_y^2 + _{{k**2}}_\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)"
       }, 
       {
-        "text": "\\(_{j}_y^2 - _{{k*2}}_\\)"
+        "text": "\\(_{j}_y^2 - _{{k*2}}_\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_y^2 - _{{2*j*k}}_y + _{{k**2}}_\\)"
+        "text": "\\(_{{j**2}}_y^2 - _{{2*j*k}}_y + _{{k**2}}_\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
       }
     ], 
     "correct": {
-      "text": "\\(_{{j**2}}_y^2 - _{{k**2}}_\\) "
+      "text": "\\(_{{j**2}}_y^2 - _{{k**2}}_\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)"
     }
   }
 }

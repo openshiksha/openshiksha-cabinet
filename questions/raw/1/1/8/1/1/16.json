@@ -4,24 +4,28 @@
   }, 
   "subpart_index": 1, 
   "content": {
-    "text": "<div>\\((_{j}_t^2 + _{k}_) (_{j}_t^2 + _{l}_)\\)</div><div>Choose the correct answer after applying the identity</div>"
+    "text": "\\((_{j}_t^2 + _{k}_) (_{j}_t^2 + _{l}_)\\)"
   }, 
-  "variable_constraints": {}, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
   "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "\\(_{j}_t^2 + _{{(k+l)*j}}_t + _{{k*l}}_\\)"
+        "text": "\\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\) using identity \\((a+b)(a-b) = (a^2 - b^2)\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_t^4 + _{{k*l}}_t^2 + _{{k+l}}_\\)"
+        "text": "\\(_{{j**2}}_t^4 + _{{k*l}}_t^2 + _{{k+l}}_\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_t^4 + _{k}_t^2 + _{{k*l}}_\\)"
+        "text": "\\(_{j}_t^2 + _{{(k+l)*j}}_t + _{{k*l}}_\\) using identity \\((a+b)(a-b) = (a^2 - b^2)\\)"
       }
     ], 
     "correct": {
-      "text": "\\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\) "
+      "text": "\\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
     }
   }
 }
