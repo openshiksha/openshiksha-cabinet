@@ -5,32 +5,32 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Area of tin sheet required for 1 box = Surface area of one box</div><div>\\(= 2 (6 \\times 4 + 4 \\times 8 + 6 \\times 8) = 208 cm^2\\)</div><div>Therefore, area of tin required for 9 boxes \\(= 208 \\times 9\\)</div><div>\\(= 1872 cm^2\\)</div>", 
+            "text": "<div>Curved Surface area of the roller \\(= 2 \\pi rh = 2\\pi \\times \\frac {7}2 \\times 41 = 902 cm^2\\)</div><div>Area covered per rotation \\(= 902 cm^2\\)</div><div>\\(\\Rightarrow\\) Area painted in 57 rolls \\(= 902 \\times 57 = 51414 cm^2\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "You need to create a tin box of dimensions \\(6 cm \\times 4 cm \\times 8 cm.\\) What is the area of a sheet of tin required to make 9 such tins?", 
+            "text": "Last Monday, Ram painted a rectangular wall with a cylindrical paint roller. The length of the roller is 41 cm and its diameter is 7 cm. While painting, the roller rolled over 57 times completely. What surface area did Ram paint?", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
-            "tolerance": null, 
-            "value": "1872"
+            "tolerance": 0.05, 
+            "value": "51414"
           }, 
           "type": 3, 
           "unit": "\\(cm^2\\)"
         }
       ], 
-      "pk": 23, 
+      "pk": 27, 
       "container": {
         "content": null, 
         "subparts": [
-          49
+          52
         ], 
         "hint": {
-          "text": "Start by calculating the surface area of the box", 
+          "text": "How much area does the roller cover in one rotation?", 
           "img_url": null, 
           "img": null
         }
@@ -41,19 +41,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "Surface Area of a cube = \\(6 \\times length^2 = 1734 cm^2\\)", 
+            "text": "Surface Area of a cube = \\(6 \\times length^2 = 294 cm^2\\)", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "See the cube below, a=17 cm, Find its surface area", 
-            "img_url": "/secure-static/aXNoYV92YWRhbGl5YTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzExLnBuZzpsN3FENzNlOWliQUFtT2RnRGoxeWxsbUFvZ28/", 
+            "text": "See the cube below, a=7 cm, Find its surface area", 
+            "img_url": "/secure-static/bmloYWxfbWVodGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMS5wbmc6ZXBaSEtlRFNudXNCM3JHekN2RS1obWNqb2lr/", 
             "img": "11.png"
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "1734"
+            "value": "294"
           }, 
           "type": 3, 
           "unit": "\\(cm^2\\)"
@@ -61,19 +61,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "Surface Area of a cuboid = \\(2(ab + bc + ca) = 2 (1012.5 + 337.5 + 675) = 4050 dm^2\\)", 
+            "text": "Surface Area of a cuboid = \\(2(ab + bc + ca) = 2 (40.5 + 13.5 + 27) = 162 dm^2\\)", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "See the cuboid below, a=45 dm, b=22.5 dm, c=15 dm, Find its surface area", 
-            "img_url": "/secure-static/aXNoYV92YWRhbGl5YTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEyLnBuZzptS1ZkX2stZGVPQWhzQzdkZVZEazVNM2tOcUk/", 
+            "text": "See the cuboid below, a=9 dm, b=4.5 dm, c=3 dm, Find its surface area", 
+            "img_url": "/secure-static/bmloYWxfbWVodGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMi5wbmc6djNGeUpkT3c1cHc2cEV6WmJLb1FqOWdBOTg0/", 
             "img": "12.png"
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "4050"
+            "value": "162"
           }, 
           "type": 3, 
           "unit": "\\(dm^2\\)"
@@ -81,19 +81,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "Surface Area of a cylinder = \\(2 \\times \\pi \\times r \\times(r + h) = 4125 cm^2\\)", 
+            "text": "Surface Area of a cylinder = \\(2 \\times \\pi \\times r \\times(r + h) = 6699 cm^2\\)", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "In the cylinder below, diameter=35 cm, h=20 cm, find its surface area", 
-            "img_url": "/secure-static/aXNoYV92YWRhbGl5YTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzEzLnBuZzpvcjI4QjBGUWp1aW9KTE9BNWNLbDRtTnlzeEk/", 
+            "text": "In the cylinder below, diameter=49 cm, h=19 cm, find its surface area", 
+            "img_url": "/secure-static/bmloYWxfbWVodGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMy5wbmc6S01aZnlWNEY3RTVZalNGQmVVNmRqbUhxVS1n/", 
             "img": "13.png"
           }, 
           "answer": {
             "tolerance": 0.5, 
-            "value": "4125"
+            "value": "6699"
           }, 
           "type": 3, 
           "unit": "\\(cm^2\\)"
@@ -101,19 +101,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Surface Area = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2\\pi ({r_ o}^2 - {r_ i}^2)\\)</div><div>\\(= 1760 + 1320 + 176 = 3256 cm^2\\)</div>", 
+            "text": "<div>Surface Area = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2\\pi ({r_ o}^2 - {r_ i}^2)\\)</div><div>\\(= 4180 + 3740 + 452.57 = 8372.57 cm^2\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 3, 
           "content": {
-            "text": "In the hollow cylinder below, Inner Radius =6 cm, Outer Radius = 8 cm, Height = 35 cm, find its surface area", 
-            "img_url": "/secure-static/aXNoYV92YWRhbGl5YTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE0LnBuZzpuZmFMVUloMTZXTnBLTXFuM1ZLb1lxa2NnX2c/", 
+            "text": "In the hollow cylinder below, Inner Radius =17 cm, Outer Radius = 19 cm, Height = 35 cm, find its surface area", 
+            "img_url": "/secure-static/bmloYWxfbWVodGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xNC5wbmc6VmVuLVpNVDhONk1ibTZSTWwtMVN2U3R1cTFV/", 
             "img": "14.png"
           }, 
           "answer": {
             "tolerance": 0.5, 
-            "value": "3256"
+            "value": "8372.57"
           }, 
           "type": 3, 
           "unit": "\\(cm^2\\)"
@@ -143,16 +143,52 @@
       "subparts": [
         {
           "hint": null, 
-          "solution": null, 
+          "solution": {
+            "text": "<div>Area of tin sheet required for 1 box = Surface area of one box</div><div>\\(= 2 (8 \\times 6 + 6 \\times 3 + 8 \\times 3) = 180 cm^2\\)</div><div>Therefore, area of tin required for 9 boxes \\(= 180 \\times 9\\)</div><div>\\(= 1620 cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
           "subpart_index": 0, 
           "content": {
-            "text": "The dimensions of a cuboid are in the ratio of 6:5:2 (l:b:h). If the total surface area is 936 \\(m^2\\). What is the length of the cuboid?", 
+            "text": "You need to create a tin box of dimensions \\(8 cm \\times 6 cm \\times 3 cm.\\) What is the area of a sheet of tin required to make 9 such tins?", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "18"
+            "value": "1620"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }
+      ], 
+      "pk": 23, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          49
+        ], 
+        "hint": {
+          "text": "Start by calculating the surface area of the box", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The dimensions of a cuboid are in the ratio of 6:5:2 (l:b:h). If the total surface area is 104 \\(m^2\\). What is the length of the cuboid?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
           }, 
           "type": 3, 
           "unit": "metres"
@@ -168,7 +204,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "15"
+            "value": "5"
           }, 
           "type": 3, 
           "unit": "metres"
@@ -176,7 +212,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Let length:breadth:height = 6x:5x:2x</div><div>Therefore, Surface Area of the cuboid = \\(2(6 \\times 5x^2 + 5 \\times 2x^2 + 2 \\times 6x^2)\\)</div><div>= \\(2(52)x^2\\)</div><div>= \\(104x^2\\)</div><div>Given that surface area is \\(936 m^2\\)</div><div>Therefore, \\(936 m^2 = 104 x^2\\)</div><div>\\(\\Rightarrow x^2 = \\frac{936}{104}\\)</div><div>\\(\\Rightarrow x = \\sqrt{9}\\)</div><div>\\(\\Rightarrow\\) x = 3 metres</div>", 
+            "text": "<div>Let length:breadth:height = 6x:5x:2x</div><div>Therefore, Surface Area of the cuboid = \\(2(6 \\times 5x^2 + 5 \\times 2x^2 + 2 \\times 6x^2)\\)</div><div>= \\(2(52)x^2\\)</div><div>= \\(104x^2\\)</div><div>Given that surface area is \\(104 m^2\\)</div><div>Therefore, \\(104 m^2 = 104 x^2\\)</div><div>\\(\\Rightarrow x^2 = \\frac{104}{104}\\)</div><div>\\(\\Rightarrow x = \\sqrt{1}\\)</div><div>\\(\\Rightarrow\\) x = 1 metres</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -188,7 +224,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "6"
+            "value": "2"
           }, 
           "type": 3, 
           "unit": "metres"
@@ -214,32 +250,32 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Total surface area \\(= 6 \\times 17^2 = 6 (side)^2\\)</div><div>\\(\\Rightarrow\\) Length of side = \\((\\frac {1734}{6})^{\\frac 12} = 17 cm\\)</div>", 
+            "text": "<div>Total surface area of all the cubes \\(= 5 \\times 6 \\times 3.3^2 = 326.7 cm^2\\)</div><div>Area of each face =\\(3.3^2 cm^2 = 10.89 cm^2\\)</div><div>Number of faces that face inward = 10 faces</div><div>Therefore, outer surface area = 326.7 - 108.9 = 217.8 \\(cm^2\\)</div><div>Cost of paint = Rs 12 per \\(cm^2\\)</div><div>Therefore, total cost of painting the object = \\(217.8 \\times 12\\)</div><div>= Rs. 2613.6</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "A closed box in the shape of a cube has a total outer surface area of 1734 \\(cm^2.\\) What is the length of its side in centimetres?", 
-            "img_url": null, 
-            "img": null
+            "text": "Five cubes of edge 3.3 cm each are placed side by side and stuck together as shown. The cost of painting is Rs 12 per \\(cm^2\\). What is the cost of painting the outer surface of the entire object?", 
+            "img_url": "/secure-static/bmloYWxfbWVodGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xNy5wbmc6cEdaVjgycU1UT3l0QmJWcjFxMXB5dEFCenAw/", 
+            "img": "17.png"
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "17"
+            "value": "2613.6"
           }, 
           "type": 3, 
-          "unit": "cm"
+          "unit": "Rupees"
         }
       ], 
-      "pk": 24, 
+      "pk": 25, 
       "container": {
         "content": null, 
         "subparts": [
-          50
+          51
         ], 
         "hint": {
-          "text": "Remember that surface area of a cube is \\(6 \\times side^2\\)", 
+          "text": "Count the number of faces that are outward facing", 
           "img_url": null, 
           "img": null
         }
@@ -250,55 +286,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Curved Surface area of the roller \\(= 2 \\pi rh = 2\\pi \\times \\frac {10}2 \\times 42 = 1320 cm^2\\)</div><div>Area covered per rotation \\(= 1320 cm^2\\)</div><div>\\(\\Rightarrow\\) Area painted in 54 rolls \\(= 1320 \\times 54 = 71280 cm^2\\)</div>", 
+            "text": "<div>The surface area of the box \\(= 2 (30 \\times 9 + 9 \\times 6 + 30 \\times 6) = 1008 cm^2\\)</div><div>Cost of painting the box = Rs. 2.2 per \\(cm^2\\)</div><div>Therefore, total cost of painting the box = \\(1008 \\times 2.2\\)</div><div>= Rs. 2217.6</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "Last Monday, Ram painted a rectangular wall with a cylindrical paint roller. The length of the roller is 42 cm and its diameter is 10 cm. While painting, the roller rolled over 54 times completely. What surface area did Ram paint?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": 0.05, 
-            "value": "71280"
-          }, 
-          "type": 3, 
-          "unit": "\\(cm^2\\)"
-        }
-      ], 
-      "pk": 27, 
-      "container": {
-        "content": null, 
-        "subparts": [
-          52
-        ], 
-        "hint": {
-          "text": "How much area does the roller cover in one rotation?", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>The surface area of the box \\(= 2 (20 \\times 10 + 10 \\times 9 + 20 \\times 9) = 940 cm^2\\)</div><div>Cost of painting the box = Rs. 1.2 per \\(cm^2\\)</div><div>Therefore, total cost of painting the box = \\(940 \\times 1.2\\)</div><div>= Rs. 1128</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "Latika needs to paint a rectangular box from the outside. The cost of painting the box is Rs. 1.2 per \\(cm^2.\\) If the dimensions of the box are \\(20 cm \\times 10 cm \\times 9 cm\\), what is the total cost of painting the box?", 
+            "text": "Latika needs to paint a rectangular box from the outside. The cost of painting the box is Rs. 2.2 per \\(cm^2.\\) If the dimensions of the box are \\(30 cm \\times 9 cm \\times 6 cm\\), what is the total cost of painting the box?", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "1128"
+            "value": "2217.6"
           }, 
           "type": 3, 
           "unit": "Rupees"
@@ -322,32 +322,32 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Total surface area of all the cubes \\(= 5 \\times 6 \\times 1.4^2 = 58.8 cm^2\\)</div><div>Area of each face =\\(1.4^2 cm^2 = 1.96 cm^2\\)</div><div>Number of faces that face inward = 10 faces</div><div>Therefore, outer surface area = 58.8 - 19.6 = 39.2 \\(cm^2\\)</div><div>Cost of paint = Rs 3 per \\(cm^2\\)</div><div>Therefore, total cost of painting the object = \\(39.2 \\times 3\\)</div><div>= Rs. 117.6</div>", 
+            "text": "<div>Total surface area \\(= 6 \\times 10^2 = 6 (side)^2\\)</div><div>\\(\\Rightarrow\\) Length of side = \\((\\frac {600}{6})^{\\frac 12} = 10 cm\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "Five cubes of edge 1.4 cm each are placed side by side and stuck together as shown. The cost of painting is Rs 3 per \\(cm^2\\). What is the cost of painting the outer surface of the entire object?", 
-            "img_url": "/secure-static/aXNoYV92YWRhbGl5YTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzIvaW1nLzE3LnBuZzpmakZib1BFOEd0UFdrVU1aeXRxcGlWTV8wT2c/", 
-            "img": "17.png"
+            "text": "A closed box in the shape of a cube has a total outer surface area of 600 \\(cm^2.\\) What is the length of its side in centimetres?", 
+            "img_url": null, 
+            "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "117.6"
+            "value": "10"
           }, 
           "type": 3, 
-          "unit": "Rupees"
+          "unit": "cm"
         }
       ], 
-      "pk": 25, 
+      "pk": 24, 
       "container": {
         "content": null, 
         "subparts": [
-          51
+          50
         ], 
         "hint": {
-          "text": "Count the number of faces that are outward facing", 
+          "text": "Remember that surface area of a cube is \\(6 \\times side^2\\)", 
           "img_url": null, 
           "img": null
         }
@@ -383,17 +383,17 @@
       {
         "correct": false, 
         "value": null
-      }, 
-      {
-        "correct": false, 
-        "value": null
-      }, 
-      {
-        "correct": false, 
-        "value": null
       }
     ], 
     [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
       {
         "correct": false, 
         "value": null
