@@ -1,0 +1,14 @@
+{
+  "content": {
+    "text": "From the table above, find out the value of c"
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(Decimal(j)/Decimal(4), 2)}}_"
+  }, 
+  "type": 3, 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>c = _{{trunc(Decimal(j)/Decimal(4), 2)}}_</div><div>\\(\\Rightarrow\\) Since X and Y are inversely proportional XY = k</div><div>\\(\\Rightarrow\\) Therefore, \\(80 \\times c = 10 \\times a\\)</div><div>\\(\\Rightarrow\\) From previous subpart, \\(a = 2 \\times _{j}_\\)</div><div>\\(\\Rightarrow c = \\frac a8 = \\frac {2 \\times _{j}_}{4}\\)</div><div>\\(\\Rightarrow\\) c= _{{trunc(Decimal(j)/Decimal(4), 2)}}_</div>"
+  }
+}

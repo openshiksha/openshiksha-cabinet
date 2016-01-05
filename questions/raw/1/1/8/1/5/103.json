@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(2x-32x^5\\)</div><div>\\(=2x(1-16x^4)\\)</div><div>\\(=2x(1-4x^2)(1+4x^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b).\\,\\)Here, \\(16x^4=(4x^2)^2\\)]</div><div>\\(=2x(1-2x)(1+2x)(1+4x^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b).\\,\\)Here, \\(4x^2=(2x)^2\\)]</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(2x-32x^5\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(2x(1-4x^2)(1+4x^2)\\)"
+      }, 
+      {
+        "text": "\\(2x(1-2x^2)(1+2x^2)\\)"
+      }, 
+      {
+        "text": "\\(2(1-2x+4x^2)(1+2x+4x^2)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(2x(1-2x)(1+2x)(1+4x^2)\\)"
+    }
+  }
+}

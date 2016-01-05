@@ -1,6 +1,6 @@
 {
   "solution": {
-    "text": "<div>\\((_{j}_x + \\frac{_{k}_y}{_{l}_}) (_{m}_x - \\frac{_{n}_y^2}{_{o}_})\\)</div><div>\\(= _{j}_x(_{m}_x \u2013 \\frac{_{n}_}{_{o}_}y^2) + \\frac{_{k}_}{_{l}_}y (_{m}_x - \\frac{_{n}_}{_{o}_}y^2)\\)</div><div>\\(= _{{j*m}}_x^2 \u2013 \\frac{_{j}_\\times_{n}_}{_{o}_}xy^2 + \\frac{_{k}_\\times_{m}_}{_{l}_}xy \u2013 \\frac{_{k}_\\times_{n}_}{_{l}_\\times_{o}_}y^3\\)</div><div>\\(= _{{j*m}}_x^2 - _{{Fraction(j*n,o)}}_xy^2 + _{{Fraction(k*m,l)}}_xy - _{{Fraction(k*n,l*o)}}_y^3\\)</div>"
+    "text": "<div>\\((_{j}_x + \\frac{_{k}_y}{_{l}_}) (_{m}_x - \\frac{_{n}_y^2}{_{o}_})\\)</div><div>\\(= _{j}_x(_{m}_x - \\frac{_{n}_}{_{o}_}y^2) + \\frac{_{k}_}{_{l}_}y (_{m}_x - \\frac{_{n}_}{_{o}_}y^2)\\)</div><div>\\(= _{{j*m}}_x^2 - \\frac{_{j}_\\times_{n}_}{_{o}_}xy^2 + \\frac{_{k}_\\times_{m}_}{_{l}_}xy - \\frac{_{k}_\\times_{n}_}{_{l}_\\times_{o}_}y^3\\)</div><div>\\(= _{{j*m}}_x^2 - _{{Fraction(j*n,o)}}_xy^2 + _{{Fraction(k*m,l)}}_xy - _{{Fraction(k*n,l*o)}}_y^3\\)</div>"
   }, 
   "subpart_index": 8, 
   "content": {

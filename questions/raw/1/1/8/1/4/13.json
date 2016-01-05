@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>The multiplicative inverse of a number is its reciprocal.</div><div>Remember, \\(a^m=\\frac 1 {a^{-m}}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>The multiplicative inverse of \\( 9^{-99} \\) is \\( \\frac1{9^{-99}} \\)</div><div>\\(=9^{99}\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\( 9^{-99} \\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "99"
+      }, 
+      {
+        "text": "-9"
+      }, 
+      {
+        "text": "\\( 99^{-9} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( 9^{99} \\)"
+    }
+  }
+}

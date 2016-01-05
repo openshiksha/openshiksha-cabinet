@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "img": "151h.png"
+  }, 
+  "solution": {
+    "text": "<ol type='i'><li>To find the square root of a decimal number we place a bar on the integral part of the number over every pair of digits starting from the one's digit. And place bars on the decimal part on every pair of digits beginning with the first decimal place.</li><li>Find the largest number whose square is less than or equal to the number under the left-most bar. Take the number as the divisor and the number under the left-most bar as the dividend. Divide and get the remainder i.e. \\(9\\) in this case.</li><li>Bring down the number under the next bar (i.e.\\(81\\)) to the right of the remainder. The new dividend is \\(981\\).</li><li>Double the divisor and enter it with a blank to its right.</li><li>Guess the largest possible digit to fill the blank which also becomes the new digit in the quotient such that when the new digit is multiplied to the new quotient the product is less than or equal to the dividend. In this case we see that \\(109 \\times 9 = 981\\). Get the remainder.</li><li>Since the remainder is \\(0\\) and no bar is left, therefore, \\(\\sqrt{34.81}=5.9.\\)</li></ol>", 
+    "img": "152.png"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(34.81\\)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 5.9
+  }, 
+  "type": 3
+}

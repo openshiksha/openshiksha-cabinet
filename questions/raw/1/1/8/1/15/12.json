@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "<div>Let Charlie's age be x and Charlie's brother's age be y.</div><div>According to question.</div><div>\\(\\Rightarrow\\) y=2x </div><div>For all x&gt;0,</div><div>\\(\\Rightarrow\\) 2x&gt;x</div><div>\\(\\Rightarrow\\) y&gt;x</div><div>Charlie's brother is two times his brother's age.Therefore, Charlie's brother is elder to Charlie.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>The present age of Charlie's brother is 2 times Charlie's present age.The sum of Charlie and his brother's ages is _{{3*j}}_,</div><div>Who is elder to whom ?</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Charlie is elder to his brother"
+      }, 
+      {
+        "text": "Charlie and his brother are twins"
+      }, 
+      {
+        "text": "Cannot be determined"
+      }
+    ], 
+    "correct": {
+      "text": "Charlie's brother is elder to Charlie"
+    }
+  }
+}

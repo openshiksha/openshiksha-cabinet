@@ -1,0 +1,15 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>In parallelogram ABCD, \\( \\angle ABD=\\angle BDC\\) (alternate interior angles of a parallelogram)</div> <div>But \\( \\angle ABD=30\\)</div><div>Thus \\(\\angle BDC = 30\\)</div><div>But \\( \\angle BDC=y\\)</div><div>Thus \\(y = 30\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the image shown in the first part, what is the value of y?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 30
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

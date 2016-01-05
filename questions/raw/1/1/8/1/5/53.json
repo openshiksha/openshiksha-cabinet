@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{3*m}}_xyz = _{{3*m}}_x \\times yz,  _{{6*m}}_xy = _{{3*m}}_x \\times {2y}, _{{9*m}}_xz = _{{3*m}}_x \\times {3z} \\), hence, _{{3*m}}_\\(x\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\( _{{3*m}}_xyz + _{{6*m}}_xy + _{{9*m}}_xz= _{{3*m}}_x(yz+2y+3z)\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(_{{3*m}}_xyz + _{{6*m}}_xy + _{{9*m}}_xz \\)"
+  }, 
+  "variable_constraints": {
+    "m": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{m}_x(3yz+6y+3z)\\)"
+      }, 
+      {
+        "text": "\\(_{{3*m}}_x(yz+y+z)\\)"
+      }, 
+      {
+        "text": "Factorisation not possible"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{3*m}}_x(yz+2y+3z)\\)"
+    }
+  }
+}

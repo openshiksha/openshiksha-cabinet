@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>For any nonzero number \\(a\\) and \\(b, (\\frac ab)^{-k} = (\\frac ba)^k\\)</div><div>\\((a^m)^n=a^{(mn)}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(((\\frac 1_{k}_)^2 )^{-2} = (\\frac {1}{_{k}_})^{-4} = _{k}_^4\\)</div><div>\\(= _{{k**4}}_\\)</div>"
+  }, 
+  "subpart_index": 6, 
+  "content": {
+    "text": "Solve \\(((\\frac 1_{k}_)^2 )^{-2}\\) "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac 1{_{{k**4}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{-4*k}}_\\)"
+      }, 
+      {
+        "text": "1"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{k**4}}_\\)"
+    }
+  }
+}

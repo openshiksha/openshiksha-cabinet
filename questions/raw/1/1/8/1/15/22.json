@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "Value of the larger number between the two numbers  is ?"
+  }, 
+  "solution": {
+    "text": "<div>As x = _{j}_,</div><div>And the larger of the two numbers is represented by 5x.</div><div>The larger number is 5 \\(\\times\\) _{j}_ = _{{5*j}}_</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*j}}_"
+      }, 
+      {
+        "text": "_{{3*j}}_"
+      }, 
+      {
+        "text": "_{j}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{5*j}}_"
+    }
+  }
+}

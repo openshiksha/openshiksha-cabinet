@@ -1,0 +1,24 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "If you look at the cube from the front, you would see the 1 dot figure."
+  }, 
+  "content": {
+    "text": "What is the front view of the given figure? "
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "1.2.png"
+      }, 
+      {
+        "img": "1.3.png"
+      }
+    ], 
+    "correct": {
+      "img": "1.1.png"
+    }
+  }
+}

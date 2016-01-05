@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "If L is the length of the rectangle then the breadth B of the rectangle is"
+  }, 
+  "solution": {
+    "text": "<div>It is given that length of breadth is 5cm more than the the breadth.</div><div>If L is length of the rectangle breadth is B.</div><div>L=B+5</div><div>\\(\\Rightarrow\\) B=L-5</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "B = L + 5 cm"
+      }, 
+      {
+        "text": "B = 5L cm"
+      }, 
+      {
+        "text": "B = L - 5 m"
+      }
+    ], 
+    "correct": {
+      "text": "B = L - 5 cm"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Initial cost of computer(P1) = Rs. 40000</div><div>Initial Depreciation Rate, (R1) = _{j}_ % </div><div>Time period before first sale (T1) = 2 years</div><div> Hence, When Atif sold the computer to Sidhant, Cost = \\( P1 \\times ( 1 - (R1/100))^{T1} \\) = \\( 40000 \\times ( 1 - (_{j}_/100))^2 \\) = Rs. \\(_{{4 *((100-j)**2)}}_\\)</div> <div>Therefore, now when Sidhant sold it to Ramu -</div><div>New Initial cost(P2) = Rs. _{{4 *((100-j)**2)}}_</div><div> New depreciation rate (R2) = _{k}_%</div><div> Time period before final sale (T2) = 2 years</div><div> \\( \\Rightarrow \\) Therefore, the cost of the computer when Ramu bought it = \\( P2 \\times ( 1- (R2/100))^{T2} \\)  = \\(_{{4 *((100-Decimal(j))**2)}}_ \\times (1- (_{k}_/100))^2 \\)   = Rs. \\( _{{((100-Decimal(j))**2)*((100-Decimal(k))**2)/2500}}_ \\) </div>"
+  }, 
+  "content": {
+    "text": "A Computer was bought by Atif at Rs. 40000 but it depreciated it value at a rate of _{j}_% per year. He sold it second hand to Sidhant after 2 years. Now the percentage of depreciation changed from _{j}_% to _{k}_%. Sidhant sold it Ramu after 2 more years. For what price did Ramu buy it from Sidhant for?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 1, 
+    "value": "_{{((100-Decimal(j))**2)*((100-Decimal(k))**2)/2500}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

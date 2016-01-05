@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "The number of tallies before each group is equal to the number of students whose marks lie in that group."
+  }, 
+  "solution": {
+    "text": "The number of students who have scored between \\(0\\) and \\(10\\) marks are \\(7\\). The tally marks for the same would look as shown below :", 
+    "img": "2-2-1.png"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "What would the tally marks for group 0-10 look like?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "2-2-2.png"
+      }, 
+      {
+        "img": "2-2-3.png"
+      }
+    ], 
+    "correct": {
+      "img": "2-2-1.png"
+    }
+  }
+}

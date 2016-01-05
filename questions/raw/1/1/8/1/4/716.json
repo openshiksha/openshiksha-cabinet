@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "\\(a^m= \\frac 1{a^{-m}}\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\( 2^{-2} \\times P = 2^2 \\)</div><div>\\(\\Rightarrow \\frac1{2^2} \\times P =2^2\\,\\)[Using \\(a^m= \\frac 1{a^{-m}}\\)]</div><div>\\( \\Rightarrow \\frac {1}{4} \\times P \\) = 4</div><div>\\(\\Rightarrow\\)P = 16</div>"
+  }, 
+  "subpart_index": 15, 
+  "content": {
+    "text": "Multiplying \\( 2^{-2} \\) by P gives \\( 2^2 \\). What is the value of P? "
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 16
+  }, 
+  "type": 3
+}

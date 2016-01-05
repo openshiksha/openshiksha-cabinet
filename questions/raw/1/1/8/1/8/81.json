@@ -1,0 +1,43 @@
+{
+  "hint": {
+    "text": "<div>Pythagorean triplets can be expressed in general form as \\(2m, (m^2-1) and (m^2+1)\\)</div><div>In a Pythagorean triplet, \\((2m)^2+(m^2-1)^2=(m^2+1)^2\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>The smallest member of the Pythagorean triplet is \\(_{j}_\\)</div><div>Let's take \\(2m=_{j}_\\)</div><div>Therefore, \\(m=_{{j/2}}_\\)</div><div>The other members \\((m^2-1)\\) and \\((m^2+1)\\) are \\(_{{((j/2)**2)-1}}_\\) and \\(_{{((j/2)**2)+1}}_\\) respectively.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "In which \\(_{j}_\\) is the smallest member"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        6, 
+        8, 
+        10, 
+        12, 
+        14, 
+        16, 
+        18, 
+        20
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_,_{{((j/2)**2)+1}}_\\) and \\(_{{((j/2)**2)+3}}_ \\)"
+      }, 
+      {
+        "text": "\\(_{j}_,_{{((j/2)**2)+4}}_\\) and \\(_{{((j/2)**2)+5}}_ \\)"
+      }, 
+      {
+        "text": "\\(_{j}_,_{{((j/2)**2)+6}}_\\) and \\(_{{((j/2)**2)+7}}_ \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_,_{{((j/2)**2)-1}}_\\) and \\(_{{((j/2)**2)+1}}_ \\)"
+    }
+  }
+}

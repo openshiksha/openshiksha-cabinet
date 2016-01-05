@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Observe the pattern shown below.</div><div>\\(1^3=1=1\\)</div><div>\\(2^3=3+5=8\\)</div><div>\\(3^3=7+9+11=27\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>According to the pattern shown below,</div><div>\\(1^3=1=1\\)</div><div>\\(2^3=3+5=8\\)</div><div>\\(3^3=7+9+11=27\\)</div><div></div>.<div>.</div><div>\\(_{j}_\\) number of consecutive odd numbers will be needed to obtain the sum as \\(_{j}_^3=_{{j**3}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "How many consecutive odd numbers will be needed to obtain the sum as \\(_{j}_^3=_{{j**3}}_\\)?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "The value can be obtained using the tally marks."
+  }, 
+  "solution": {
+    "text": "<div>From the table, we can see that the number of students who have scored between \\((10-20)\\) and \\((20-30)\\) are \\(5\\) and \\(4\\) respectively. (Using tally marks.)</div><div>Therefore, the number of students who have scored between \\(10\\) and \\(30\\) marks are :</div><div>\\(5+4=9\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "How many students have scored between \\(10\\) and \\(30\\) marks?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 9
+  }, 
+  "type": 3
+}

@@ -1,0 +1,61 @@
+{
+  "hint": {
+    "text": "For any nonzero number a,b and k, \\((\\frac ab)^{-k} = (\\frac ba)^k\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\((\\frac {1}{_{j}_})^{-2} + (\\frac {1}{_{k}_})^{-2} + (\\frac {1}{_{l}_})^{-2} = (_{j}_^2 + _{k}_^2 + _{l}_^2)\\qquad [(\\frac ab)^{-k} = (\\frac ba)^k]\\) </div><div> = _{{j**2 + k**2 + l**2}}_</div>"
+  }, 
+  "subpart_index": 8, 
+  "content": {
+    "text": "Solve \\((\\frac {1}{_{j}_})^{-2} + (\\frac 1{_{k}_})^{-2} + (\\frac 1{_{l}_})^{-2}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j+k+l}}_"
+      }, 
+      {
+        "text": "_{{(-2*j)-(2*k)-(2*l)}}_"
+      }, 
+      {
+        "text": "_{{j*k*l}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j**2 + k**2 + l**2}}_"
+    }
+  }
+}

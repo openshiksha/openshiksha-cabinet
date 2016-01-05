@@ -1,0 +1,35 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Here - 6 is at thousands place, 5 is at hundreds place, _{j}_ is at tens place and _{k}_ is at ones place.<div> \\(\\Rightarrow\\) Therefore the number in usual form is 65_{j}__{k}_.</div>"
+  }, 
+  "content": {
+    "text": "\\((6 \\times 1000) + (5 \\times 100) + (_{j}_ \\times 10) + _{k}_\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{ (6*1000) + (5*100)+ (j*10)+k}}_"
+  }, 
+  "type": 3
+}

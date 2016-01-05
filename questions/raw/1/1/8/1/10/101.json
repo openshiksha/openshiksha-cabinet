@@ -1,0 +1,22 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>This is true for all cases.</div><div>For example, \\(3^3=27; 13^3=2197\\)</div>"
+  }, 
+  "content": {
+    "text": "The cube of an odd number is odd."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "hint": {
+    "text": "<div>Represent the square number as a product of its prime factors</div><div>If each of the distinct prime factors exist in pairs, then the number is a perfect square.</div>", 
+    "img": "101h.png"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**m)*(k**n)*l}}_\\) can be represented as a product of its prime factors as :</div><div>\\(_{{(j**m)*(k**n)*l}}_=_{j}_^_{m}_ \\times _{k}_^_{n}_ \\times _{l}_ \\)</div><div>\\(\\Rightarrow _{{(j**m)*(k**n)*l}}_= _{{str(j) + ('\\\\times '+str(j))*(m-1)}}_ \\times _{{str(k) + ('\\\\times '+str(k))*(n-1)}}_ \\times _{l}_\\)</div><div>Observe carefully that the prime factors \\(_{j}_\\) and \\(_{k}_\\) exist in pairs.</div><div>The prime factor \\(_{l}_\\) does not have a pair.</div><div>Therefore, the number must be multiplied by \\(_{l}_\\) so as to get a perfect square.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Find the smallest number by which \\(_{{(j**m)*(k**n)*l}}_\\) must be multiplied so as to get a perfect square."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        3, 
+        5, 
+        2, 
+        5, 
+        3
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        3, 
+        2
+      ]
+    }, 
+    "m": {
+      "options": [
+        4, 
+        2, 
+        4, 
+        2, 
+        4
+      ]
+    }, 
+    "l": {
+      "options": [
+        7, 
+        11, 
+        13, 
+        17, 
+        19
+      ]
+    }, 
+    "n": {
+      "options": [
+        2, 
+        4, 
+        2, 
+        4, 
+        2
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

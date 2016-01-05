@@ -1,0 +1,38 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>As _{j}_ is multiplied to itself 4 times, it is raised to the power of 4</div><div>Hence, \\(_{j}_ \\times _{j}_ \\times _{j}_ \\times _{j}_ = _{j}_^4\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_ \\times _{j}_ \\times _{j}_ \\times _{j}_ \\) in exponential form is "
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_^3\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^{-4}\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^{-3}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_^4\\)"
+    }
+  }
+}

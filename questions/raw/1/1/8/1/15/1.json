@@ -1,0 +1,45 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> _{k}_x - _{j}_ = _{l}_</div><div>\\(\\Rightarrow\\) _{k}_x = _{l}_ + _{j}_   (Shifting to R.H.S)</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal(j+l)/Decimal(k), 2)}}_</div>"
+  }, 
+  "content": {
+    "text": "Find the solution of _{k}_x - _{j}_ = _{l}_"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{trunc(Decimal(j+l)/Decimal(k), 2)}}_"
+  }, 
+  "type": 3
+}

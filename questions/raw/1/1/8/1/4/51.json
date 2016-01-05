@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "\\((a^m)^n=a^{(m \\times n)}\\)"
+  }, 
+  "solution": {
+    "text": "<div>Initial weight = 2kg</div><div>Its weight increases by a power of 2 each year.</div><div>Hence, the weight of the bear after two years will be \\((2^2)^2\\)</div><div>\\(=2^4\\)</div><div>\\(=_{{2**4}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A new born bear weighs 2 kg. How many kilograms might a two year old bear weigh if its weight increases by the power of 2 each year? "
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 16
+  }, 
+  "type": 3, 
+  "unit": "kg"
+}

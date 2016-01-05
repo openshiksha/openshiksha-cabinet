@@ -1,0 +1,45 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Let the number be y.</div><div> Add it to \\( \\frac_{j}__{k}_ \\) </div><div> = \\( \\frac_{j}__{k}_ \\) +y </div><div> Now multiply the above expression by _{l}_. </div><div> = (\\( \\frac_{j}__{k}_ \\)+y) x _{l}_ </div><div> The above expression is equal to 5 times of 1 more than the number i.e. 5(1+y) </div><div> Therefore,the equation is </div><div> (\\(\\frac_{j}__{k}_ \\)+y) x _{l}_=5(1+y) </div><div> Opening the bracket in the LHS. </div><div> \\( \\frac_{j}__{k}_ \\) x _{l}_+  _{l}_y  = 5(1+y) </div><div>_{{j*l}}_/_{k}_+_{l}_y = 5+5y </div><div>_{{j*l}}_/_{k}_ -5 = (5-_{l}_)y </div><div> (_{{(j*l)}}_-_{{5*k}}_)/_{k}_ = (5-_{l}_)y </div><div> _{{(j*l)-(5*k)}}_/_{{(k*(5-l))}}_ = y </div><div> \\( \\Rightarrow \\) y= _{{trunc(( (Decimal(j)*l) - (5*k) )/(k*(5-l)),2)}}_ </div>"
+  }, 
+  "content": {
+    "text": "Anjali adds a number to \\( \\frac_{j}__{k}_ \\) and then multiplies it by _{l}_. The result is equal to 5 times of 1 more than the number. What is the value of the number? (Write upto 2 decimal places)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            2
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{trunc(( (Decimal(j)*l) - (5*k) )/(k*(5-l)),2)}}_"
+  }, 
+  "type": 3
+}

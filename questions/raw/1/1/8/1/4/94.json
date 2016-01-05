@@ -1,0 +1,42 @@
+{
+  "hint": {
+    "text": "<div>Example : \\(0.005 = 5.0 \\times 10^{-3} = 5 \\times 10^{-3}\\). </div><div>Here, the decimal point is shifted three places towards the right. Therefore, the exponent value of \\(10\\,\\) is \\(-3\\)</div>"
+  }, 
+  "solution": {
+    "text": "\\( _{j}_ \\times 10^{-5} \\)"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "_{{(Decimal(str(j))) *Decimal('0.00001')}}_"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            1.03, 
+            9.93
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{j}_ \\times 10^5 \\)"
+      }, 
+      {
+        "text": "\\( _{j}_ \\times 10^{4} \\)"
+      }, 
+      {
+        "text": "\\( _{j}_ \\times 10^{-4} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{j}_ \\times 10^{-5} \\)"
+    }
+  }
+}

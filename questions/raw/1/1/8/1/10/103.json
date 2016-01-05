@@ -1,0 +1,22 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>The cubes of all numbers with \\(8\\) in the unit's place end with \\(2\\).</div><div>For example, \\(8^3=512; 18^3=5832\\)</div>"
+  }, 
+  "content": {
+    "text": "There is no perfect cube which ends with \\(2\\)."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

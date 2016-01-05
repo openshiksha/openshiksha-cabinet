@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Money spent on bus  = cost per head of bus x number of students  = 100 x _{j}_ =Rs. _{{100*j}}_ </div><div> Money spent on taxi = cost per head of taxi x number of students = 200 x _{k}_ = Rs. _{{200*k}}_ </div><div> \\( \\Rightarrow \\) Hence, Ratio of money spent on bus to money spent on taxi = _{{100*j}}_/_{{200*k}}_ = _{j}_:_{{2*k}}_ </div>"
+  }, 
+  "content": {
+    "text": "The cost of going to school is Rs.100 per head by bus, Rs.200 per head by taxi and by auto-rickshaw is Rs.150 per head. If _{j}_ students go by bus, _{k}_ students by taxi and _{{12-j-k}}_ students go by auto rickshaw. What is the ratio of the money spent on bus to the money spent on taxi?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*j}}_ : _{k}_"
+      }, 
+      {
+        "text": "_{{150*j}}_ : _{{250*k}}_"
+      }, 
+      {
+        "text": "_{{100*j}}_ : _{{150*k}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_ : _{{2*k}}_"
+    }
+  }
+}

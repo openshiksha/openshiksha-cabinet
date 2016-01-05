@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{2*l}}_x = _{{2*l}}_ \\times x, _{{6*l}}_y = 3 \\times _{{2*l}}_ \\times y \\), hence, _{{2*l}}_ is a common factor for both terms</div><div>Using distributive law,</div><div>\\(_{{2*l}}_x + _{{6*l}}_y = _{{2*l}}_(x+3y)\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(_{{2*l}}_x+_{{6*l}}_y\\)"
+  }, 
+  "variable_constraints": {
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{l}_(2x+6y)\\)"
+      }, 
+      {
+        "text": "\\(1 \\times_{{12*l*l}}_xy\\)"
+      }, 
+      {
+        "text": "\\(_{{8*l}}_x+_{{8*l}}_y\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{2*l}}_(x+3y)\\)"
+    }
+  }
+}

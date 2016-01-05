@@ -1,0 +1,58 @@
+{
+  "solution": {
+    "text": "<div>\\(\\frac {x}{_{k}_} + \\frac {_{l}_}{_{j}_} = \\frac {_{k}_}{_{j}_}\\)</div><div>\\(\\Rightarrow \\frac {x}{_{k}_} = \\frac {-_{k}_ -_{l}_}{_{j}_}\\) (Shifting one term to R.H.S.)</div><div>\\(\\Rightarrow \\frac {x}{_{k}_} = \\frac {-_{k}_ - _{l}_}{_{j}_}\\) (Evaluating the numerator of R.H.S.)</div><div>\\(\\Rightarrow x = \\frac {_{k}_ \\times _{{-k-l}}_}{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal((-k-l)*k)/Decimal(j), 2)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Solve for x, \\(\\frac {x}{_{k}_} + \\frac {_{l}_}{_{j}_} = \\frac {_{k}_}{_{j}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal((k-l)*k)/Decimal(j), 2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal((l-k)*k)/Decimal(j), 2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(k-l)/Decimal(j), 2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal((-k-l)*k)/Decimal(j), 2)}}_"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "hint": {
+    "text": "Write the PRIME FACTOR form of both numbers."
+  }, 
+  "solution": {
+    "text": "<div>\\( j = _{l}_ \\times _{m}_ \\times 19, k = _{m}_ \\times 19 \\times _{o}_\\)</div><div>Thus, the highest common prime factor is 19</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "What is the highest common factor of \\(_{{l*m*19}}_\\) and \\(_{{m*19*o}}_\\) ?"
+  }, 
+  "variable_constraints": {
+    "m": {
+      "options": [
+        5, 
+        7, 
+        11, 
+        13, 
+        17, 
+        2, 
+        3
+      ]
+    }, 
+    "l": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        7, 
+        11, 
+        13, 
+        17
+      ]
+    }, 
+    "o": {
+      "options": [
+        11, 
+        13, 
+        17, 
+        2, 
+        3, 
+        5, 
+        7
+      ]
+    }, 
+    "n": {}
+  }, 
+  "answer": {
+    "value": 19
+  }, 
+  "type": 3
+}

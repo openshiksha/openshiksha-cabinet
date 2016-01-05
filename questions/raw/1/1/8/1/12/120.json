@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Total cost price = number of soaps x cost per soap</div><div>Total CP = _{{10*j}}_ x _{{20*k}}_ = Rs. _{{200*j*k}}_</div><div>Number of soaps available = total number - number of spoiled soaps = _{{10*j}}_-_{{2*j}}_=_{{8*j}}_ </div><div> Total selling price = number of soaps available x selling price of soap</div><div> Total SP= _{{8*j}}_ x _{{30*k}}_= Rs. _{{240*j*k}}_</div><div> \\( \\Rightarrow \\) Since SP>CP. Profit = SP-CP = _{{240*j*k}}_-_{{200*j*k}}_= Rs. _{{40*j*k}}_ </div>"
+  }, 
+  "content": {
+    "text": "A shopkeeper buys _{{10*j}}_ soap bars for Rs. _{{20*k}}_ each. Out of this _{{2*j}}_ soap bars get spoiled and cannot be sold. He sells the remaining soap bars for Rs. _{{30*k}}_. What profit or loss did he make?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{40*j*k}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

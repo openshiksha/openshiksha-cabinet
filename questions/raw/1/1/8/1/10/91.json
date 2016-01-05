@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>Make groups of three digits starting from the right most digit. Now, estimate the cube root using the digit in the one's place of each group</div><div>For example, consider the cube number \\(3375\\). Let's divide this number into groups of three starting from the right such as \\('375'\\) and \\('3'\\).</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{54**3}}_\\)</div><ol type='i'><li>Make groups of three digits starting from the right most digit of the number. In this case, <ul><li>\\(157\\)</li><li>\\(464\\)</li></ul></li><li>The first group i.e \\(464\\) will give you the one's digit of the cube root.</li><li>The number \\(464\\) ends with \\(4\\). We know that \\(4\\) comes at the unit's place of a number only when it's cube root ends in \\(4\\).</li><li>So, we get \\(4\\) at the unit's place of the cube root.</li><li>Now, take another group i.e. \\(157\\).</li><li>We know that \\(5^3=125\\) and \\(6^3=216\\). Also, \\(125\\lt157\\lt216\\). Therefore, we take the smaller number among \\(5\\) and \\(6\\) as the ten's place of the required cube root.</li></ol><div>\\(\\sqrt[3]{157464}=54\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Find the cube root of \\(_{{54**3}}_\\) using estimation."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 54
+  }, 
+  "type": 3
+}

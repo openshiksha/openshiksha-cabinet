@@ -1,0 +1,27 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>A triangle is a type of polygon.</div>"
+  }, 
+  "content": {
+    "text": "<div>What is the classification of the shape of his land?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Quadrilateral"
+      }, 
+      {
+        "text": "Parallelogram"
+      }, 
+      {
+        "text": "Concave quadrilateral"
+      }
+    ], 
+    "correct": {
+      "text": "Polygon"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "solution": {
+    "text": "<div>\\( _{j}_\\frac {_{k}_}{_{l}_}\\) in the improper form is \\( \\frac {_{{j*l+k}}_}{_{l}_}\\)</div><div>Reciprocal/ multiplicative inverse is \\( \\frac {_{l}_}{_{{j*l+k}}_}\\)</div><div>Therefore, answer is yes</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Is \\( \\frac {_{l}_}{_{{j*l+k}}_}\\) the multiplicative incerse of \\( _{j}_\\frac {_{k}_}{_{l}_}\\) ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Here, since x is divisible by 6, therefore it is divisible by 3. </div><div> So, one of the factors of the number x is 3 and hence the factor of its square y is \\(3^2\\)  which is 9.</div><div> \\( \\Rightarrow \\) Therefore, the number must be divisible by 9. </div>"
+  }, 
+  "content": {
+    "text": "is y divisible by 9 ?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }, 
+      {
+        "text": "Maybe"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

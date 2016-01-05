@@ -1,0 +1,20 @@
+{
+  "content": {
+    "text": "The quantity of a particular item(x) and the price of that item(y) considering that the total amount spent is constant"
+  }, 
+  "solution": {
+    "text": "<div>Yes</div><div>\\( \\Rightarrow \\)Can be represented as \\( \\frac xy = k \\), where k = total moment.</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

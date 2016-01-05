@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Percentage of her money she spent on a dress = _{j}_ %</div><div>Percentage of her money she spent on a dress = _{{60-j}}_% </div><div>Since, sum of total percentage = 100 </div><div>Hence, Percentage of her money she has remaining = 100-_{j}_-_{{60-j}}_% = 40 % </div><div>So, 36 rupees = 40 % of initial money or 36 = (40/100) x (initial money)</div><div> Initial money = 36 x (100/40) = 90 </div><div> \\( \\Rightarrow \\) Therefore, Megha's initial money = Rs.90 </div>"
+  }, 
+  "content": {
+    "text": "If Megha spent _{j}_ % of her initial money on buying a dress and then spent _{{60-j}}_% of her initial money to buy an ice cream. If she has Rs.36 remaining, what was her initial money?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 90
+  }, 
+  "type": 3
+}

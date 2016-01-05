@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "img": "161h.png"
+  }, 
+  "solution": {
+    "text": "<ol type='i'><li>Place a bar over every pair of digits starting from the one's digit.</li><li>Find the largest number whose square is less than or equal to the number under the left-most bar. Take the number as the divisor and the number under the left-most bar as the dividend. Divide and get the remainder i.e. \\(6\\) in this case.</li><li>Bring down the number under the next bar (i.e.\\(00\\)) to the right of the remainder. The new dividend is \\(600\\).</li><li>Double the divisor and enter it with a blank to its right.</li><li>Guess the largest possible digit to fill the blank which also becomes the new digit in the quotient such that when the new digit is multiplied to the new quotient the product is less than or equal to the dividend. In this case we see that \\(105 \\times 5 = 525\\). Get the remainder.</li><li>The remainder is \\(75\\). This shows that \\(55^2\\lt3100\\)</li></ol><div>The next perfect square number is \\(56^2=3136\\)</div><div>Hence, The number to be added is \\(56^2-3100=3136-3100=36\\)</div>", 
+    "img": "171.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Using long division method, find the least number that must be added to 3100 so as to get a perfect square."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 36
+  }, 
+  "type": 3
+}

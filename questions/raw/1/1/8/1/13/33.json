@@ -1,0 +1,35 @@
+{
+  "hint": {
+    "text": "The height of the bars show the number of goals scored by Zlatan in each season."
+  }, 
+  "solution": {
+    "text": "<div>Observe the histogram carefully.</div><div>The bars for the \\(2008-09\\) and \\(2013-14\\) seasons are equally tall.</div><div>Draw a horizontal line from the top of the bar to the y-axis.</div><div>Zlatan scored \\(_{j}_\\) goals in both the seasons.</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>In which two seasons was his goal tally the same?</div><div>\\(a=_{j}_, b=_{k}_, c=_{l}_, d=_{m}_, e=_{n}_, f=_{j}_, \\)</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "2009-10"
+      }, 
+      {
+        "text": "2010-11"
+      }, 
+      {
+        "text": "2011-12"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "2008-09"
+      }, 
+      {
+        "text": "2013-14"
+      }
+    ]
+  }
+}

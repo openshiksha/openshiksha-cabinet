@@ -1,0 +1,26 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> Since New price &lt; Old price, Decrease = Old price - New price.</div><div>Decrease = 50000-_{{500*j}}_ = _{{500*(100-j)}}_</div><div>Decrease percentage = (Decrease/Old Price) x 100 </div><div> Therefore, decrease percentage = (_{{500*(100-j)}}_/50000) x 100 =  _{{100-j}}_ % </div>"
+  }, 
+  "content": {
+    "text": "Price of a new computer going from Rs. 50000 to Rs. _{{j*500}}_."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            81, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{100-j}}_"
+  }, 
+  "type": 3, 
+  "unit": "%"
+}

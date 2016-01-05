@@ -1,0 +1,38 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> \\( \\Rightarrow \\)Ratio = a: b= _{{7*j}}_/_{j}_ = 7:1 </div>"
+  }, 
+  "content": {
+    "text": "_{{7*j}}_ to _{j}_"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "1:7"
+      }, 
+      {
+        "text": "11:77"
+      }, 
+      {
+        "text": "88:11"
+      }
+    ], 
+    "correct": {
+      "text": "7:1"
+    }
+  }
+}

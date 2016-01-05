@@ -1,0 +1,20 @@
+{
+  "content": {
+    "text": "Two quantities x and y such that \\( x = \\frac {15}y \\)"
+  }, 
+  "solution": {
+    "text": "<div>Yes</div><div>\\( \\Rightarrow \\)Can be represented as \\( \\frac xy = k \\), where k = 15</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 3, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

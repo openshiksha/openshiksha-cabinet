@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "The perimeter P of the rectangle is"
+  }, 
+  "solution": {
+    "text": "<div>If P is the perimeter,</div><div>\\(\\Rightarrow\\) P=2 \\(\\times\\) (L+B)</div><div>\\(\\Rightarrow\\) P=2 \\(\\times\\) ((B+5)+B)  As L=B+5]</div><div>\\(\\Rightarrow\\) P=2 \\(\\times\\) (2B+5)</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "P = 2B - 5"
+      }, 
+      {
+        "text": "P = 2 \\(\\div\\) (2B + 5)"
+      }, 
+      {
+        "text": "P = 2B + 5"
+      }
+    ], 
+    "correct": {
+      "text": "P = 2 \\(\\times\\) (2B + 5)"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the numerator be \\(x\\) and the denominator be \\(x+_{k}_\\).</div><div>According to question,</div><div>\\(\\frac{x}{x+_{k}_-_{j}_}=\\frac12\\)</div><div>\\(2x=x+_{k}_-_{j}_\\)</div><div>\\(x=_{k}_-_{j}_=_{{k-j}}_\\)</div><div>Therefore, the fraction is \\(\\frac{x}{x+_{k}_}=\\frac{_{{k-j}}_}{_{{(2*k)-j}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "The denominator of a rational number is greater than the numerator by \\(_{k}_\\). If the denominator is decreased by \\(_{j}_\\), the number obtained is \\(\\frac12\\). Find the rational number."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{_{{k+j}}_}{_{{(2*k)-j}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{k-j}}_}{_{{(2*k)+j}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{k-j}}_}{_{{(2*k)+(3*j)}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{_{{k-j}}_}{_{{(2*k)-j}}_}\\)"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "hint": {
+    "text": "To express a number in usual form, divide or multiply the value with the respective power of 10. For example, the usual form of \\(5 \\times 10^3\\,\\) is \\(5000\\). Depending on the exponent value of 10, the decimal point is shifted to the left or the right."
+  }, 
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times 10^_{k}_ \\)</div><div>\\( _{j}_ \\times 10^_{k}_ = _{j}_ \\times _{{10**k}}_ = _{{(Decimal(str(j)))*(10**k)}}_ \\)</div><div>Hence _{{(Decimal(str(j)))*(10**k)}}_ is the usual form.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\( _{j}_ \\times 10^{_{k}_} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            1.03, 
+            9.93
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(Decimal(str(j)))*(10**(k-1))}}_"
+      }, 
+      {
+        "text": "_{{(Decimal(str(j)))*(10**(k+1))}}_"
+      }, 
+      {
+        "text": "_{{(Decimal(str(j)))*(10**(k-2))}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(Decimal(str(j)))*(10**k)}}_"
+    }
+  }
+}

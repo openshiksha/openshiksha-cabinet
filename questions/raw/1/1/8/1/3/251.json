@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Let Ganesh\u2019s age be x years.</div><div>Now, based on the data provided,</div><div>Ganesh\u2019s uncle\u2019s age = 3x + _{j}_ = _{{(3*k)+j}}_ years</div><div>\\(\\Rightarrow 3x + _{j}_ = _{{(3*k)+j}}_\\)</div><div>\\(\\Rightarrow 3x = _{{(3*k)+j}}_ - _{j}_\\) [Taking all constants to one side]</div><div>\\(\\Rightarrow 3x = _{{3*k}}_\\)</div><div>Dividing both sides by 3:</div><div>x = _{k}_</div><div>Therefore, Ganesh\u2019s age is _{k}_ years</div>"
+    "text": "<div>Let Ganesh's age be x years.</div><div>Now, based on the data provided,</div><div>Ganesh's uncle's age = 3x + _{j}_ = _{{(3*k)+j}}_ years</div><div>\\(\\Rightarrow 3x + _{j}_ = _{{(3*k)+j}}_\\)</div><div>\\(\\Rightarrow 3x = _{{(3*k)+j}}_ - _{j}_\\) [Taking all constants to one side]</div><div>\\(\\Rightarrow 3x = _{{3*k}}_\\)</div><div>Dividing both sides by 3:</div><div>x = _{k}_</div><div>Therefore, Ganesh's age is _{k}_ years</div>"
   }, 
   "content": {
-    "text": "Ganesh\u2019s uncle\u2019s age is _{j}_ years more than three times Ganesh\u2019s age. If Ganesh\u2019s uncle is _{{(3*k)+j}}_ years old, how old is Ganesh?"
+    "text": "Ganesh's uncle's age is _{j}_ years more than three times Ganesh's age. If Ganesh's uncle is _{{(3*k)+j}}_ years old, how old is Ganesh?"
   }, 
   "variable_constraints": {
     "k": {

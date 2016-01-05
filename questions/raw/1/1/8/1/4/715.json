@@ -1,0 +1,30 @@
+{
+  "subpart_index": 14, 
+  "solution": {
+    "text": "<div> \\( \\frac{3^{2}}{_{k}_^3} \\times P = 3^2 \\)</div><div>Dividing by \\( 3^{2} \\) on both sides,</div><div> \\( \\frac {1}{_{k}_^{3}} \\times P = 1 \\)</div><div>\\(\\Rightarrow P=_{k}_^{3} \\)</div>"
+  }, 
+  "content": {
+    "text": "By multiplying \\( \\frac{3^{2}}{_{k}_^{3}} \\) by P, we get \\( 3^{2} \\). What is the value of P?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            3
+          ]
+        ], 
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k**3}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "The formation taken up by the volunteers is a square."
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_\\) volunteers are arranged in a such a way that each row contains as many participants as the number of rows.</div><div>Thus, the volunteers are arranged in a square.</div><div>The square root of \\(_{{j**2}}_ = \\sqrt{_{{j**2}}_}\\)</div><div>\\(=_{j}_\\)</div><div>Therefore, the numbers of rows and the number of participants in each row are \\(_{j}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "For the opening ceremony of a football world cup, \\(_{{j**2}}_\\) volunteers need to be arranged in such a way that each row contains as many participants as the number of rows. Find the number of rows and the number of participants in each row."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            21, 
+            39
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

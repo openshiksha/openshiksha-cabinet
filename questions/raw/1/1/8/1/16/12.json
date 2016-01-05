@@ -1,0 +1,24 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "If you look at the cube from the side, you would see the 3 dot figure."
+  }, 
+  "content": {
+    "text": "What is the side view of the given figure? "
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "1.2.png"
+      }, 
+      {
+        "img": "1.1.png"
+      }
+    ], 
+    "correct": {
+      "img": "1.3.png"
+    }
+  }
+}

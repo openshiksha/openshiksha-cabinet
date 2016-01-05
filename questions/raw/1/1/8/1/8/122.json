@@ -1,0 +1,64 @@
+{
+  "hint": {
+    "text": "<div>The square of a number \\('x'\\) is \\(x^2\\)</div>Square root of \\(x^2\\) can be written as \\(\\sqrt{x^2}=x\\)", 
+    "img": "101h.png"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**m)*(k**n)*l}}_=_{j}_^_{m}_ \\times _{k}_^_{n}_ \\times _{l}_ \\)</div><div>Observe carefully that the prime factors \\(_{j}_\\) and \\(_{k}_\\) exist in pairs.</div><div>The prime factor \\(_{l}_\\) does not have a pair.</div><div>Multiplying the number by \\(_{l}_\\), we get a square number,</div><div>\\(_{{(j**m)*(k**n)*l}}_\\times _{l}_=_{{(j**m)*(k**n)*(l**2)}}_\\)</div><div>\\(\\Rightarrow _{{(j**m)*(k**n)*(l**2)}}_=_{j}_^_{m}_ \\times _{k}_^_{n}_ \\times _{l}_^2\\)</div><div>Square root of the square number is :</div><div>\\(\\sqrt{_{{(j**m)*(k**n)*(l**2)}}_}=\\sqrt{_{j}_^_{m}_ \\times _{k}_^_{n}_ \\times _{l}_^2}=_{j}_^_{{m/2}}_ \\times _{k}_^_{{n/2}}_ \\times _{l}_=_{{(j**(m/2))*(k**(n/2))*l}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Find the square root of the square number obtained."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        3, 
+        5, 
+        2, 
+        5, 
+        3
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        3, 
+        2
+      ]
+    }, 
+    "m": {
+      "options": [
+        4, 
+        2, 
+        4, 
+        2, 
+        4
+      ]
+    }, 
+    "l": {
+      "options": [
+        7, 
+        11, 
+        13, 
+        17, 
+        19
+      ]
+    }, 
+    "n": {
+      "options": [
+        2, 
+        4, 
+        2, 
+        4, 
+        2
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{(j**(m/2))*(k**(n/2))*l}}_"
+  }, 
+  "type": 3
+}

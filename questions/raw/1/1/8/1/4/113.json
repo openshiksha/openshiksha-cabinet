@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "For a non-zero rational number \\(z,  (z \\times (z^3 \\times z^{-2}))\\) is equal to "
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(z\\)"
+      }, 
+      {
+        "text": "\\(z^{-1}\\)"
+      }, 
+      {
+        "text": "\\(z^3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(z^2\\)"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 12, 
+  "solution": {
+    "text": "<div>\\((z \\times (z^3 \\times z^{-2}) ) =  z \\times (z^{3-2}) \\qquad [ a^m \\times a^n = a^{m+n} ] \\)</div><div>= \\( z \\times z  = z^2 \\)</div>"
+  }
+}

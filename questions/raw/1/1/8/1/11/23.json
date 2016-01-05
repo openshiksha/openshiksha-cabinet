@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>In parallelogram ABCD, \\( \\angle A + \\angle D\\ =180\\) (Adjacent angles of a parallelogram add up to 180)</div> <div>But \\( \\angle A=k=_{k}_\\) and \\(\\angle D =x+10\\)</div><div>Thus \\(x+10+_{k}_=180\\)</div><div>\\(x=180-_{k}_-10 \\)</div><div>\\(x=_{{180-k-10}}_ \\)</div>"
+  }, 
+  "content": {
+    "text": "<div>What is the value of x when k is _{k}_?  </div>", 
+    "img": "22.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        100, 
+        120, 
+        140, 
+        160
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{180-k-10}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

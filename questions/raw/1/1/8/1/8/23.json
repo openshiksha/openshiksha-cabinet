@@ -1,0 +1,76 @@
+{
+  "hint": {
+    "text": "<div>The square of an integer with a number 'x' in the unit's place will always have a number 'y' in the unit's place of its square number.</div><div>For example, \\(12^2=144\\) and \\(22^2=484\\).</div><div>Notice that \\(2\\) is in the unit's place of the given integer and \\(4\\) is in the unit's place of the square number.</div>"
+  }, 
+  "solution": {
+    "text": "<div>The squares of integers with \\(3\\,\\)and \\(7\\,\\) in the unit's place end with \\(9\\).</div><div>For example,</div><div>The square of \\(13\\,\\) is \\(169\\,\\) and the square of \\(17\\,\\) is \\(289\\).</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>The square of which of these numbers would end with \\('9'\\)</div><ol type='i'><li>\\(_{j}_\\)</li><li>\\(_{k}_\\)</li><li>\\(_{l}_\\)</li><li>\\(_{m}_\\)</li><li>\\(_{n}_\\)</li></ol>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        67, 
+        87, 
+        107, 
+        117
+      ]
+    }, 
+    "j": {
+      "options": [
+        29, 
+        49, 
+        59, 
+        119
+      ]
+    }, 
+    "m": {
+      "options": [
+        32, 
+        72, 
+        162, 
+        12
+      ]
+    }, 
+    "l": {
+      "options": [
+        51, 
+        81, 
+        141, 
+        101
+      ]
+    }, 
+    "n": {
+      "options": [
+        63, 
+        23, 
+        93, 
+        83
+      ]
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_\\)"
+      }, 
+      {
+        "text": "\\(_{l}_\\)"
+      }, 
+      {
+        "text": "\\(_{m}_\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{k}_\\)"
+      }, 
+      {
+        "text": "\\(_{n}_\\)"
+      }
+    ]
+  }
+}

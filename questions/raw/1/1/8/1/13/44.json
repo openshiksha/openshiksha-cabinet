@@ -1,0 +1,25 @@
+{
+  "hint": {
+    "text": "Compare the central angles"
+  }, 
+  "solution": {
+    "text": "<div>Central angle for football \\(= 90\\) degrees</div><div>Central angle for tennis \\(= 72\\) degrees</div><div>Central angle for basketball \\(= 18\\) degrees</div><div>Observe that,</div><div>Central angle of football = Central angle of tennis + Central angle of basketball</div><div>i.e. \\(90=72+18\\)</div><div>Hence, the number of votes received by tennis and basketball together is equal to the number of votes received by football.</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "<div>Are the number of votes received by tennis and basketball together equal to the number of votes received by football?</div><div>Total number of votes \\(=_{{j*5000}}_\\)</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "solution": {
+    "text": "<div>y + _{j}_ = _{l}_</div><div>\\(\\Rightarrow\\) y = _{l}_ - _{j}_</div><div>\\(\\Rightarrow\\) y = _{{l-j}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Solve for y, y + _{j}_ = _{l}_"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "y = _{{-l-j}}_"
+      }, 
+      {
+        "text": "y = _{{l+j}}_"
+      }, 
+      {
+        "text": "y = _{{j-l}}_"
+      }
+    ], 
+    "correct": {
+      "text": "y = _{{l-j}}_"
+    }
+  }
+}

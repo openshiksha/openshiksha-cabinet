@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Observe that the graph is a straight line which rises proportionally.</div><div>Speed=\\(\\frac{Distance}{Time}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Total distance=300kms</div><div>Therefore, half of total distance=\\(\\frac{300}2\\)=150.</div><div>Draw a horizontal line from 150 kms on the y-axis towards the right until it intersects the graph.</div><div>From this point draw a vertical line downwards until it intersects the x-axis.</div><div>This value gives the precise time at which Bolt  has ran exactly half the distance.</div><div>For example: Look at the graph shown below.</div><div>The graph shows that by 7:30am Bolt runs 30km</div>", 
+    "img": "ITG-Q6-2.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "At precisely what time has Bolt ran exactly half the distance?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "10:30am"
+      }, 
+      {
+        "text": "11:30am"
+      }
+    ], 
+    "correct": {
+      "text": "9:30am"
+    }
+  }
+}

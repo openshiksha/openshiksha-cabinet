@@ -1,0 +1,14 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Since for the number to be divisible by 3 the sum of the digits must be divisible by 3.</div><div> Hence the closest multiple of 3 from 22 is 24.</div><div> Since the number is divisible by 10, ones digit is 0 and must become 2.</div><div> \\( \\Rightarrow \\) Therefore number that must be added is 2. </div>"
+  }, 
+  "content": {
+    "text": "What is the smallest number that must be added to x, to make it divisible by 3 ?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 2
+  }, 
+  "type": 3
+}

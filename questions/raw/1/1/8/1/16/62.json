@@ -1,0 +1,36 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> According to scale, 1 cm in the map = _{j}_ m actual distance. </div><div> Thus, _{{j*100}}_ cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, _{k}_m shown on map, actual distance = _{k}_ x _{{100*j}}_ m = _{{Decimal(k)*j/(10)}}_ km. </div>"
+  }, 
+  "content": {
+    "text": "The scale on a map is given as 1cm = _{j}_m. Find the actual distance in km for _{k}_ m shown on the map."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(k)*j/(10)}}_"
+  }, 
+  "type": 3, 
+  "unit": "Km"
+}

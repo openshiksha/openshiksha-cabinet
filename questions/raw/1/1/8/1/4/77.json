@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>If the base on both sides of the equation are equal, the exponents can be evaluated with each other.</div><div>\\(a^m \\times a^n=a^{m+n}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\((2^{m+1} \\times 2^2)  = 16\\)</div><div>\\(\\Rightarrow2^{m+1} \\times 2^2 = 2^4\\)</div><div>\\(\\Rightarrow2^{m+3} = 2^4\\,\\)[Using identity \\(a^m \\times a^n=a^{m+n}\\)]</div><div>Equating the powers of both sides as the base is the same,</div><div>\\(\\Rightarrow m+3=4\\)</div><div>\\(\\Rightarrow m=1\\)</div>"
+  }, 
+  "subpart_index": 6, 
+  "content": {
+    "text": "Find m so that \\((2^{m+1} \\times 2^2)  = 16\\)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 1
+  }, 
+  "type": 3
+}

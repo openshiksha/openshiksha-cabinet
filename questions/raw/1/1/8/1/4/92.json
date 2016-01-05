@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Example : \\(500 = 5.00 \\times 10^{2} = 5 \\times 10^{2}\\). </div><div>Here, the decimal point is shifted two places towards the left. Therefore, the exponent value of \\(10\\,\\) is \\(2\\)</div>"
+  }, 
+  "solution": {
+    "text": "\\( _{{k*10000}}_ = _{k}_ \\times 10^4 \\)"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "_{{k*10000}}_"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{k}_ \\times 10^{-4} \\)"
+      }, 
+      {
+        "text": "\\( _{k}_ \\times 10^2 \\)"
+      }, 
+      {
+        "text": "\\( _{k}_ \\times 10^6 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{k}_ \\times 10^4 \\)"
+    }
+  }
+}

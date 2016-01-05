@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "If the base on both sides of the equation are equal, the exponents can be evaluated with each other."
+  }, 
+  "solution": {
+    "text": "<div> \\((-_{k}_)^{x+1} \\times (-_{k}_)^4 = (-_{k}_)^7\\)</div><div>\\(\\Rightarrow (-_{k}_)^{x+1+4} = (-_{k}_)^7 \\qquad [a^m \\times a^n = a^{m+n}]\\)</div><div>\\(\\Rightarrow (-_{k}_)^{x+5} = (-_{k}_)^7\\)</div><div>On both sides, powers have the same base, so their exponents must be equal. Therefore, \\(x + 5 = 7\\)</div><div>\\(\\Rightarrow x = 7 - 5 = 2\\)</div><div>\\(\\Rightarrow x=2\\)</div>"
+  }, 
+  "subpart_index": 11, 
+  "content": {
+    "text": "Find \\(x\\) so that \\((-_{k}_)^{x+1} \\times (-_{k}_)^4 = (-_{k}_)^7\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 2
+  }, 
+  "type": 3
+}

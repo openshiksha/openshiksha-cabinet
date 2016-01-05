@@ -1,0 +1,29 @@
+{
+  "hint": {
+    "text": "\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)"
+  }, 
+  "solution": {
+    "text": "<div>No. of cards marked with a number less than \\(_{{j-3}}_=_{{j-4}}_\\)</div><div>Total number of cards \\(=_{{(2*j)+1}}_\\)</div><div>Probability that the number on the card is less than \\(_{{j-3}}_=\\frac{_{{j-4}}_}{_{{(2*j)+1}}_}=_{{Fraction(j-4,((2*j)+1))}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Cards marked with numbers \\(1\\) to \\(_{{(2*j)+1}}_\\) are placed in a box and mixed thoroughly. One card is drawn at random, what is the probability that the number on the card is less than \\(_{{j-3}}_\\)?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc(((Decimal(j)-4)/((2*j)+1)),3)}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,24 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>True</div><div>A convex polygon is a polygon in which no portion of its any diagonal is in its exterior, otherwise it is a concave polygon.</div> <div>As it consists of a diagonal in its exterior (in blue), it is a concave polygon.</div>", 
+    "img": "12b.png"
+  }, 
+  "content": {
+    "text": "<div>This is a concave polygon</div>", 
+    "img": "12a.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

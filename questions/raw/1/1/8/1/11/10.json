@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>False</div><div>Sum of exterior angles of a polygon of any number of sides taken in order is always equal to \\(360^o\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Sum of exterior angles of a polygon, taken in order, depends on the number of sides of the polygon</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

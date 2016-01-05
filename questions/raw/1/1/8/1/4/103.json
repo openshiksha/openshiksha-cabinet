@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "For any number \\(a, a^m \\times a^n = a^{m+n}\\)"
+  }, 
+  "solution": {
+    "text": "<div>When equal integers with powers are multiplied to each other, their powers get added.</div><div>Hence \\(_{j}_^5 \\times _{j}_^{-5} = _{j}_^{5-5} = _{j}_^0 = 1\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(_{j}_^5 \\times _{j}_^{-5}\\) is"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "\\(_{j}_^{25}\\)"
+      }, 
+      {
+        "text": "0"
+      }
+    ], 
+    "correct": {
+      "text": "1"
+    }
+  }
+}

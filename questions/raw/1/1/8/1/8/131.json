@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "First, find the LCM of the three numbers. Then, resolve the LCM as a product of its prime factors and make pairs of similar factors."
+  }, 
+  "solution": {
+    "text": "<div>\\(15=3 \\times 5\\)</div><div>\\(18=3 \\times 3 \\times 2\\)</div><div>\\(20=2 \\times 2 \\times 5\\)</div><div>LCM of \\(15, 18, 20\\) is \\(2 \\times 2 \\times 3 \\times 3 \\times 5 = 180\\)</div><div>Now, \\(180=2 \\times 2 \\times 3 \\times 3 \\times 5\\)</div><div>After pairing the similar factors, we observe that prime factor \\('5'\\) has no pair.</div><div>Multiplying the LCM by \\(5; 180 \\times 5 = 900. \\)</div><div>\\(900=2 \\times 2 \\times 3 \\times 3 \\times 5 \\times 5\\)</div><div>Notice that \\(900\\) is a perfect square of \\(2 \\times 3 \\times 5 = 30\\) </div><div>Therefore, the smallest square number that is divisible by each of the numbers \\(15, 18\\) and \\(20\\) is \\(900\\).</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Find the smallest square number that is divisible by each of the numbers \\(15,18\\) and \\(20\\)."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 900
+  }, 
+  "type": 3
+}

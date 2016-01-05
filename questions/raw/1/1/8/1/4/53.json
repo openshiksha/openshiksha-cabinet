@@ -1,0 +1,71 @@
+{
+  "hint": {
+    "text": "For any non-zero number a, \\(a^0 = 1\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{k}_^0=_{j}_^0=_{l}_^0=_{m}_^0=1\\)</div><div>Hence \\((1+1) \\times (1-1) = 2 \\times 0 = 0\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "Evaluate \\((_{k}_^0 + _{j}_^0) \\times (_{l}_^0 \u2013 _{m}_^0)\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "2"
+      }, 
+      {
+        "text": "3"
+      }, 
+      {
+        "text": "1"
+      }
+    ], 
+    "correct": {
+      "text": "0"
+    }
+  }
+}

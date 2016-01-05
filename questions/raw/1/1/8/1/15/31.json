@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "The 3 multiples are:"
+  }, 
+  "solution": {
+    "text": "<div>On solving the equation we get x = 3</div><div>Substituting x = 3 in three consecutive multiples  of _{j}_x + _{j}_(x+1) + _{j}_(x+2)</div><div>_{{3*j}}_, _{{4*j}}_, _{{5*j}}_</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{3*j}}_, _{{3*j}}_ + 1, _{{3*j}}_ + 2"
+      }, 
+      {
+        "text": "_{{4*j*j}}_, _{{j*((4*j)+1)}}_, _{{j*((4*j)+2)}}_"
+      }, 
+      {
+        "text": "_{{2*j}}_, _{{3*j}}_, _{{3*j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{3*j}}_, _{{4*j}}_, _{{5*j}}_"
+    }
+  }
+}

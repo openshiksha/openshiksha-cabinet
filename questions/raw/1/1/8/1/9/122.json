@@ -1,0 +1,25 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Here, since x is divisible by 6</div><div> So, one of the factors of the number x is 6 and hence the factor of its square y is \\(6^2\\)  which is 36.</div><div> \\( \\Rightarrow \\) Therefore, the number must be divisible by 36. </div>"
+  }, 
+  "content": {
+    "text": "is y divisible by 36 ?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }, 
+      {
+        "text": "Maybe"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

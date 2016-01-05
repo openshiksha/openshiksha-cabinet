@@ -1,6 +1,6 @@
 {
   "solution": {
-    "text": "<div>\\(Dividend = Divisor \\times Quotient + Remainder\\)</div><div>Therefore,</div><div>Dividend = \\((x+_{j}_)(x-_{j}_) + _{k}_\\)</div><div>\\(\\Rightarrow\\) Dividend = \\(x^2 - _{j}_^2 + _{k}_\\) (Using identity \\((a+b)(a-b) = a^2 \u2013 b^2\\))</div><div>\\(\\Rightarrow\\) Dividend = \\(x^2 - _{{(j**2) - k}}_\\)</div>"
+    "text": "<div>\\(Dividend = Divisor \\times Quotient + Remainder\\)</div><div>Therefore,</div><div>Dividend = \\((x+_{j}_)(x-_{j}_) + _{k}_\\)</div><div>\\(\\Rightarrow\\) Dividend = \\(x^2 - _{j}_^2 + _{k}_\\) (Using identity \\((a+b)(a-b) = a^2 - b^2\\))</div><div>\\(\\Rightarrow\\) Dividend = \\(x^2 - _{{(j**2) - k}}_\\)</div>"
   }, 
   "subpart_index": 0, 
   "content": {

@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "<div>The square of a number \\('x'\\) is \\(x^2\\)</div>Square root of \\(x^2\\) can be written as \\(\\sqrt{x^2}=x\\)"
+  }, 
+  "solution": {
+    "text": "<div>Square root of \\(_{{j**2}}_\\)</div><div>\\(=\\sqrt{_{{j**2}}_}\\)</div><div>\\(=\\sqrt {_{j}_^2}\\)</div><div>\\(=_{j}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "If \\(_{j}_^2=_{{j**2}}_\\), what is the square root of \\(_{{j**2}}_\\)?"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

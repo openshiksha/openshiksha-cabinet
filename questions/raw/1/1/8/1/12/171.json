@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> Initial principal (P) = Rs. _{{j*5000}}_ </div><div> Time Period (T) = 2 years </div><div> Annual interest rate(R) = 10% </div><div> Since, it is compounded half yearly, \\( A = P \\times (1+(R/200))^{2T}  \\) </div>  <div> \\( \\Rightarrow \\) Therefore, amount in bank = _{{j*5000}}_ x (1+ (10/200))^4 = Rs._{{Decimal('6077.531')*j}}_ </div>"
+  }, 
+  "content": {
+    "text": "Find the amount of money in a bank account after 2 years, if the initial principal was Rs. _{{5000*j}}_ and interest rate was 10% annually, compounded half yearly."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{j*Decimal('6077.531')}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> If the number is divisible by 3 the sum of the digits add up to form a multiple of 3. </div><div>Therefore, \\(2+2+8 + x = 12 + x\\). If \\(x= 0\\), sum = \\(12 \\) which is a multiple of 3. </div><div> Similarly if \\(x=3\\) or \\(x=9\\), we get \\(15\\) and \\(21\\), both are multiples of 3, hence they are possible values of \\(x\\) if the number is divisible by 3.</div><div> If \\(x=4\\), The sum = \\(16\\) which is not a multiple of 3. Hence, \\(4\\) cannot be a value of \\(x\\).</div><div> \\( \\Rightarrow \\) Hence the possible values of \\(x\\) are \\(0,3\\) and \\(9\\). </div>"
+  }, 
+  "content": {
+    "text": "What are the possible value(s) of \\(x\\), assuming that the number \\( '22x8' \\) is divisible by 3 ?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( x=4 \\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\( x=0 \\)"
+      }, 
+      {
+        "text": "\\( x=3 \\)"
+      }, 
+      {
+        "text": "\\( x=9 \\)"
+      }
+    ]
+  }
+}

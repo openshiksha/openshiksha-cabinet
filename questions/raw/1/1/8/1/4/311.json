@@ -1,0 +1,39 @@
+{
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times 10^4 \\)</div><div>\\( _{j}_ \\times 10^4 = _{j}_ \\times 10000 = _{{(Decimal(str(j)))*10000}}_ \\)</div><div>Hence _{{(Decimal(str(j)))*10000}}_ is the usual form.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\( _{j}_ \\times 10^4 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            1.03, 
+            9.93
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(Decimal(str(j)))*1000}}_"
+      }, 
+      {
+        "text": "_{{(Decimal(str(j)))*100000}}_"
+      }, 
+      {
+        "text": "_{{(Decimal(str(j)))*100}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(Decimal(str(j)))*10000}}_"
+    }
+  }
+}

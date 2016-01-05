@@ -1,0 +1,22 @@
+{
+  "subpart_index": 6, 
+  "solution": {
+    "text": "<div>\\(99\\) is the largest two digit number.</div><div>\\(99^3=_{{99**3}}_\\)</div><div>The cube of \\(99\\) is a six digit number. Hence, the cube of a two digit numbers cannot have seven digits.</div>"
+  }, 
+  "content": {
+    "text": "The cube of a two digit number may have seven digits."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

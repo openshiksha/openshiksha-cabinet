@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac{5a^4+9a^3+7a^2+3a}{3a}\\)</div><div>Taking \\(3a\\,\\)common from the numerator,</div><div>\\(=\\frac{3a(\\frac{5a^3}3 + 3a^2 + \\frac{7a}3 + 1)}{3a}\\)</div><div>Dividing numerator and denominator by \\(3a\\),</div><div>\\(=\\frac{5a^3}3 + 3a^2 + \\frac{7a}3 + 1\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(\\frac{5a^4+9a^3+7a^2+3a}{3a}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{5a^2}3 + 3a + \\frac73 + \\frac1a\\)"
+      }, 
+      {
+        "text": "\\(\\frac{5a^4}3 + 3a^3 + \\frac{7a^2}3 + a\\)"
+      }, 
+      {
+        "text": "\\(\\frac{5a^3}3 + 9a^2 + \\frac{7a}3 + 1\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{5a^3}3 + 3a^2 + \\frac{7a}3 + 1\\)"
+    }
+  }
+}

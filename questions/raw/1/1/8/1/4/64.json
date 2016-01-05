@@ -1,0 +1,25 @@
+{
+  "subpart_index": 13, 
+  "solution": {
+    "text": "<div>\\( \\frac {1}{_{k}__{k}__{k}_} \\)would be \\( \\frac {1}{_{k}_^3} \\) which can also be written as \\( _{k}_^{-3} \\).</div>"
+  }, 
+  "content": {
+    "text": "If _{k}__{k}__{k}_ is represented as \\( _{k}_^{3} \\), then what is the power of \\( \\frac {1}{_{k}__{k}__{k}_} \\) with base _{k}_? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "-3"
+  }, 
+  "type": 3
+}

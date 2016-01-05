@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "\\(No. \\, of \\, votes = \\frac{sector \\,angle}{360} \\times Total\\, number\\, of\\, people\\)"
+  }, 
+  "solution": {
+    "text": "<div>Central angle for football \\(=90\\) degrees</div><div>Central angle for tennis \\(=72\\) degrees</div><div>Total number of votes \\(=_{{j*5000}}_\\)</div><div>Therefore,</div><div>No. of votes for football \\(=\\frac {90}{360} \\times _{{j*5000}}_\\)</div><div>\\(=_{{j*1250}}_\\)</div><div>No. of votes for tennis \\(=\\frac {72}{360} \\times _{{j*5000}}_\\)</div><div>\\(=_{{j*1000}}_\\)</div><div>Therefore, football received \\(_{{j*1250}}_-_{{j*1000}}_=_{{j*250}}_\\) more votes than kabaddi.</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>How many more votes did football get as compared to tennis?</div><div>Total number of votes \\(=_{{j*5000}}_\\)</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{j*250}}_"
+  }, 
+  "type": 3
+}

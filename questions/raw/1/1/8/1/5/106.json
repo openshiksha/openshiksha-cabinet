@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(a^4-_{{j**4}}_b^4\\)</div><div>\\(=(a^2)^2-(_{{j**2}}_b^2)^2\\)</div><div>\\(=(a^2-_{{j**2}}_b^2)(a^2+_{{j**2}}_b^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(a-_{j}_b)(a+_{j}_b)(a^2+_{{j**2}}_b^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div>"
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "\\(a^4-_{{j**4}}_b^4\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((a+_{j}_b)(a+_{j}_b)(a^2+_{{j**2}}_b^2)\\)"
+      }, 
+      {
+        "text": "\\((a-_{j}_b)(a+_{j}_b)(a^2-_{{j**2}}_b^2)\\)"
+      }, 
+      {
+        "text": "\\((a-_{j}_b)(a-_{j}_b)(a^2-_{{j**2}}_b^2)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((a-_{j}_b)(a+_{j}_b)(a^2+_{{j**2}}_b^2)\\)"
+    }
+  }
+}

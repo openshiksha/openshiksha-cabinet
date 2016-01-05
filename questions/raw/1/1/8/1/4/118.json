@@ -1,0 +1,25 @@
+{
+  "subpart_index": 17, 
+  "solution": {
+    "text": "<div>\\(\\frac {-_{k}_^5}{_{k}_^3} = {-_{k}_}^5 \\times _{k}_^{-3}</div><div>Now, \\(-_{k}_^5 = -1 \\times _{k}_^5 \\qquad [Since the result of raising a negative number to an odd power is negative]\\)</div><div>\\(\\Rightarrow -1 \\times _{k}_^5 \\times _{k}_^{-3} = -1 \\times _{k}_^{5-3} = -1 \\times_{k}_^2 = -_{{k**2}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "The value of \\(\\frac {-_{k}_^5}{_{k}_^3}\\) is?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "-_{{k**2}}_"
+  }, 
+  "type": 3
+}

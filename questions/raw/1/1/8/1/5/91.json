@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_a^2-_{{k**2}}_b^2\\)</div><div>\\(={(_{j}_a)}^2-{(_{k}_b)}^2\\)</div><div>\\(=(_{j}_a-_{k}_b)(_{j}_a+_{k}_b)\\qquad\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{{j**2}}_a^2-_{{k**2}}_b^2\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cannot be factorised"
+      }, 
+      {
+        "text": "\\({(_{j}_a-_{k}_b)}^2\\)"
+      }, 
+      {
+        "text": "\\((_{{2*j}}_a-_{k}_b)(_{{2*j}}_a+_{k}_b)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_a+_{k}_b)(_{j}_a-_{k}_b)\\)"
+    }
+  }
+}

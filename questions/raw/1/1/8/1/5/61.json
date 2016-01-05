@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors."
+  }, 
+  "solution": {
+    "text": "<div>Regroup the terms:</div><div>\\(_{{3*j}}_xy-_{{2*j}}_y-9x+6\\)</div><div>\\(=_{j}_y(3x-2)-3(3x-2)\\)</div><div>\\(=(_{j}_y-3)(3x-2)\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{{3*j}}_xy-_{{2*j}}_y+6-9x\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_y+3)(3x-2)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_y-3)(3x+2)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_y-3)(2x-3)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_y-3)(3x-2)\\)"
+    }
+  }
+}

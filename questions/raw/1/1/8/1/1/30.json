@@ -1,6 +1,6 @@
 {
   "solution": {
-    "text": "<div>\\((_{j}_x-_{k}_y)(_{l}_x-_{m}_y)\\)</div><div>\\(= _{j}_x(_{l}_x-_{m}_y) \u2013 _{k}_y(_{l}_x-_{m}_y)\\)</div><div>\\(= _{{j*l}}_x^2 \u2013 _{{j*m}}_xy \u2013 _{{k*l}}_xy + _{{k*m}}_y^2\\)</div><div>\\(= _{{j*l}}_x^2 \u2013 _{{(j*m)+(k*l)}}_xy + _{{k*m}}_y^2\\)</div>"
+    "text": "<div>\\((_{j}_x-_{k}_y)(_{l}_x-_{m}_y)\\)</div><div>\\(= _{j}_x(_{l}_x-_{m}_y) - _{k}_y(_{l}_x-_{m}_y)\\)</div><div>\\(= _{{j*l}}_x^2 - _{{j*m}}_xy - _{{k*l}}_xy + _{{k*m}}_y^2\\)</div><div>\\(= _{{j*l}}_x^2 - _{{(j*m)+(k*l)}}_xy + _{{k*m}}_y^2\\)</div>"
   }, 
   "subpart_index": 1, 
   "content": {

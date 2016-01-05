@@ -1,0 +1,25 @@
+{
+  "hint": {
+    "text": "Observe that the graph is a straight line which rises proportionally."
+  }, 
+  "solution": {
+    "text": "Yes, from the graph we can observe that the line passes through point (0,0) which is the origin."
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Does the graph pass through the origin?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

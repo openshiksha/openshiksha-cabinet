@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Rs. _{{j/Decimal(2*k)}}_</div><div>\\(\\Rightarrow\\) Cost of one chocolate =Total cost \\(\\div\\) Number of Chocolates</div><div>\\(\\Rightarrow\\) Cost of one chocolate = Rs. \\(\\frac {_{j}_ \\times 5}{10 \\times _{k}_}\\)</div><div>\\(\\Rightarrow\\) Hence, Price of a single chocolate= Rs. _{{j/Decimal(2*k)}}_</div>"
+  }, 
+  "content": {
+    "text": "Given the total price of buying chocolates is _{{j*5}}_ Rs and the number of chocolates bought is _{{10*k}}_. What should be the Price of a single chocolate?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            2
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j/Decimal(2*k)}}_", 
+    "unit": "Rs."
+  }, 
+  "type": 3
+}

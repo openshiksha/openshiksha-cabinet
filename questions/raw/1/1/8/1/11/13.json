@@ -1,0 +1,22 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>False</div><div>A quadrilateral is a 4 sided polygon, while a triangle is a 3 sided polygon</div>"
+  }, 
+  "content": {
+    "text": "<div>A triangle is a quadrilateral</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

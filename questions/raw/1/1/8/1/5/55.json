@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_a^2= _{j}_a \\times a, _{j}_ab = _{j}_a \\times b, _{j}_ac = _{j}_a \\times c \\), hence, \\(_{j}_a\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\(-_{j}_a^2+_{j}_ab-_{j}_ac = _{j}_a(-a+b-c)\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\(-_{j}_a^2+_{j}_ab-_{j}_ac\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_(-a^2+ab-ac)\\)"
+      }, 
+      {
+        "text": "\\(-_{j}_a(a+b-c)\\)"
+      }, 
+      {
+        "text": "\\(a(-_{j}_a+_{j}_b-_{j}_c)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_a(-a+b-c)\\)"
+    }
+  }
+}

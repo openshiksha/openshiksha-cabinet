@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "The total number of students that fall in a particular category is called the frequency."
+  }, 
+  "solution": {
+    "text": "<div>From the frequency distribution table,</div><div>The total number of students falling in the group \\((150-160)\\) is \\(47\\), which is the highest count.</div><div>Therefore, class \\((150-160)\\) has the highest frequency.</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Which class has the highest frequency?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "190-200"
+      }, 
+      {
+        "text": "130-140"
+      }, 
+      {
+        "text": "140-150"
+      }
+    ], 
+    "correct": {
+      "text": "150-160"
+    }
+  }
+}

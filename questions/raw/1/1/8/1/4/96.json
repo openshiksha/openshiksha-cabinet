@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Example : \\(500 = 5.0 \\times 10^{2} = 5 \\times 10^{2}\\). </div><div>Here, the decimal point is shifted two places towards the left. Therefore, the exponent value of \\(10\\,\\) is \\(2\\)</div>"
+  }, 
+  "solution": {
+    "text": "_{{k*10000}}_ can also be written as \\( _{{k* Decimal('0.01')}}_ \\times 10^6 \\). Thus the power of 10 is 6"
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "The power of 10 in the standard form of _{{k*10000}}_ is ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            101, 
+            999
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 6
+  }, 
+  "type": 3
+}

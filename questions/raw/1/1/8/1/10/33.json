@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>Observe the pattern shown below.</div><div>\\(1^3=1=1\\)</div><div>\\(2^3=3+5=8\\)</div><div>\\(3^3=7+9+11=27\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>According to the pattern shown below,</div><div>\\(1^3=1=1\\)</div><div>\\(2^3=3+5=8\\)</div><div>\\(3^3=7+9+11=27\\)</div><div></div>.<div>.</div><div>\\(43+45+47+49+51+53+55 = 7^3\\) </div><div>Therefore, the value of \\(x\\) is \\(7\\).</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(43+45+47+49+51+53+55 = x^3\\). What is the value of \\(x\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 7
+  }, 
+  "type": 3
+}

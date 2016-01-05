@@ -1,0 +1,56 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div> As the ones place digit is 0, it follows the divisibility test of 10. </div><div>Therefore, Yes, it is divisible by 10.</div>"
+  }, 
+  "content": {
+    "text": "_{j}__{k}__{l}_0"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }, 
+      {
+        "text": "Cannot be determined"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

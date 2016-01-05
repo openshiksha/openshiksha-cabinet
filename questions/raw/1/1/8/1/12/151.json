@@ -1,0 +1,14 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> Discount percentage = 25%</div><div> Final price = original price - (discount percent x original price/100)</div><div> Therefore, Final bill amount = _{{2*j*(100+k)}}_ - (25 x _{{2*j*(100+k)}}_/100) = Rs. _{{(150)*Decimal(j)*(100+k)/100}}_ </div>"
+  }, 
+  "content": {
+    "text": "If the man had a discount of 25% on the entire bill, How much did he pay finally for his meal ?"
+  }, 
+  "answer": {
+    "value": "_{{(150)*Decimal(j)*(100+k)/100}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

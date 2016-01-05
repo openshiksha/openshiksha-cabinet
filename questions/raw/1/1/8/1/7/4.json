@@ -1,0 +1,21 @@
+{
+  "content": {
+    "text": "Wages of a man in a day (x) to number of hours worked (y)"
+  }, 
+  "solution": {
+    "text": "<div>Yes</div><div>Can be represented as \\( \\frac xy = k\\) where k = Wages per hour.</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 3, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

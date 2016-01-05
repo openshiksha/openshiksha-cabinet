@@ -1,0 +1,58 @@
+{
+  "subpart_index": 13, 
+  "solution": {
+    "text": "<div>As the whole expression is raised to the power 0, it doesn\u2019t matter what the expression is, as any non-zero number raised to the power 0 is 1.</div><div>Hence the answer is 1</div>"
+  }, 
+  "content": {
+    "text": "Solve \\( (_{k}_^{-1} + _{j}_^{-1} + _{m}_^{-1})^0 \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {13}{12}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {12}{13}\\)"
+      }, 
+      {
+        "text": "0"
+      }
+    ], 
+    "correct": {
+      "text": "1"
+    }
+  }
+}

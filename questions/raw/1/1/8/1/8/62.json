@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>Observe the pattern below carefully.</div><div>\\(101^2=10201\\)</div><div>\\(10101^2=102030201\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(1010101^2\\)</div><div>\\(=1020304030201\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(1010101^2\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "1020304030201"
+  }, 
+  "type": 3
+}

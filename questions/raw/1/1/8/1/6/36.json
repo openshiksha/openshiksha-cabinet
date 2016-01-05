@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "The x-axis signifies the match number and the y-axis signifies the predicted score and the actual score."
+  }, 
+  "solution": {
+    "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,_{o1}_), Point F2=(6,_{o2}_)</div><div>Difference in scores=_{o1}_-_{o2}_</div><div>_{{o1-o2}}_</div>"
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "<div>A1=(1,_{j1}_), A2=(1,_{j2}_), B1=(2,_{k1}_), B2=(2,_{k2}_), C1=(3,_{l1}_), C2=(3,_{l2}_), D1=(4,_{m1}_), D2=(4,_{m2}_), E=(5,_{n}_), F1=(6,_{o1}_), F2=(6,_{o2}_), G1=(7,_{h1}_), G2=(7,_{h2}_)</div><div>What was the greatest difference in the predicted and actual scores in a single match?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{o1-o2}}_"
+  }, 
+  "type": 3, 
+  "unit": "runs"
+}

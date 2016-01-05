@@ -1,0 +1,30 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\(3(t-_{j}_)+3(_{j}_+_{k}_)=6(t-3(_{k}_))\\)</div><div>\\(\\Rightarrow 3t-3(_{j}_)+3(_{j}_)+3(_{k}_)=6t-18(_{k}_)\\)</div><div>\\(\\Rightarrow -3t+3(_{k}_)=-18(_{k}_)\\)</div><div>\\(\\Rightarrow -3t=-21(_{k}_)\\)</div><div>\\(\\Rightarrow t=7(_{k}_)=_{{7*k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(3(t-_{j}_)+3(_{j}_+_{k}_)=6(t-3(_{k}_))\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{-7*k}}_"
+      }, 
+      {
+        "text": "_{{21*k}}_"
+      }, 
+      {
+        "text": "_{{-21*k}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{7*k}}_"
+    }
+  }
+}

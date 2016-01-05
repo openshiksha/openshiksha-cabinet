@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "For non zero number \\(n, n^j \\times n^{-k}\\) is?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(n^{j+k}\\)"
+      }, 
+      {
+        "text": "\\(n^{j \\times k}\\)"
+      }, 
+      {
+        "text": "\\(n^{j-k}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(n^{j-k}\\)"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 9, 
+  "solution": {
+    "text": "<div>When 2 numbers having the same base are multiplied to each other, their powers are added together with their respective signs.</div><div>Hence  \\(n^j \\times n^{-k} = n^{j-k}\\)</div>"
+  }
+}

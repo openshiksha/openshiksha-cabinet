@@ -1,0 +1,68 @@
+{
+  "hint": {
+    "text": "<div>Represent the given number as a product of its prime factors</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**m)*(k**n)*(l**o)}}_\\)</div><div>\\(=_{{str(j) + ('\\\\times' + str(j))*(m-1)}}_ \\times _{{str(k) + ('\\\\times' + str(k))*(n-1)}}_  _{{'\\\\times' + str(l) + ('\\\\times' + str(l))*(o-1) if (o>0) else ''}}_\\)</div><div>\\(\\)</div><div>\\(\\)</div><div>As each of the prime factors appear thrice, the number \\(_{{(j**m)*(k**n)*(l**o)}}_\\) is a perfect cube.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Is \\(_{{(j**m)*(k**n)*(l**o)}}_\\) a perfect cube?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        3, 
+        5, 
+        7
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5
+      ]
+    }, 
+    "m": {
+      "options": [
+        3, 
+        3, 
+        3
+      ]
+    }, 
+    "l": {
+      "options": [
+        5, 
+        7, 
+        11
+      ]
+    }, 
+    "o": {
+      "options": [
+        3, 
+        0, 
+        0
+      ]
+    }, 
+    "n": {
+      "options": [
+        3, 
+        3, 
+        3
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

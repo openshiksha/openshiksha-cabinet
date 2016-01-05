@@ -1,0 +1,26 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Percentage of people who play football= (Ratio of people who play football/ total ratio) x 100.</div><div>Percentage of people who play football = (Ratio of football players/ Ratio of cricket players + ratio of basketball players + ratio of football players) x 100 </div><div>Hence, Percentage = (_{j}_/(4 + _{{16-j}}_ +_{j}_)) x 100 </div><div> \\( \\Rightarrow \\) Therefore the percentage of football players = _{{j*5}}_ % </div>"
+  }, 
+  "content": {
+    "text": "The percentage of people who play football, if the ratio of people who play cricket to people who play football to people who play basketball is 4:_{j}_:_{{16-j}}_."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*5}}_"
+  }, 
+  "type": 3, 
+  "unit": "%"
+}

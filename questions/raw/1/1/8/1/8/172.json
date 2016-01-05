@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "Add the desired value to the number and find the square root using long division method."
+  }, 
+  "solution": {
+    "text": "<div>We know that \\(3100\\) is not a perfect square because on performing long division we get the remainder as \\(75\\).</div><div>Adding \\(36\\) to \\(3100\\), we get,</div><div>\\(3100+36=3136\\)</div><div>Perform long division method to find square root of \\(3136\\) as shown below. </div><div>Therefore, the square root of \\(3136\\) is \\(56\\)</div>", 
+    "img": "172.png"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Find the square root of the perfect square."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 56
+  }, 
+  "type": 3
+}

@@ -1,0 +1,39 @@
+{
+  "solution": {
+    "text": "<div>\\( _{j}_ \\times 10 \\)</div><div>\\( _{j}_ \\times 10 = _{{(Decimal(str(j)))*10}}_ \\)</div><div>Hence _{{(Decimal(str(j)))*10}}_ is the usual form.</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\( _{j}_ \\times 10 \\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            1.03, 
+            9.93
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(Decimal(str(j)))*100}}_"
+      }, 
+      {
+        "text": "-_{{(Decimal(str(j)))*Decimal('0.1')}}_"
+      }, 
+      {
+        "text": "_{j}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(Decimal(str(j)))*10}}_"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "hint": {
+    "text": "<div>Sum of exterior angles of a polygon taken in order is \\(360^o\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Let number of sides be n.</div><div>The interior angle and the exterior angle together form a linear pair</div><div>Hence, Exterior angle\\( =180- \\)Interior angle\\( =180-_{j}_=_{{180-j}}_\\)</div><div>Thus each exterior angle of the polygon is _{{180-j}}_</div><div>Now, we know that sum of exterior angles of a polygon is \\(360^o\\), hence </div><div>Number of sides\\( \\times \\)Exterior angle\\(=360\\)</div><div>\\(n \\times _{{180-j}}_=360\\)</div><div>\\(n=360/_{{180-j}}_ = _{{360/(180-j)}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Each interior angle of a polygon is \\(_{j}_^o\\). Find the number of sides of the polygon </div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        60, 
+        90, 
+        108, 
+        120, 
+        135, 
+        140, 
+        144
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(360/(180-j)) +2 }}_"
+      }, 
+      {
+        "text": "_{{(360/(180-j)) +1 }}_"
+      }, 
+      {
+        "text": "_{{(360/(180-j)) -1 }}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{360/(180-j)}}_"
+    }
+  }
+}

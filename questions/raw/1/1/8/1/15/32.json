@@ -1,0 +1,48 @@
+{
+  "solution": {
+    "text": "<div>Let the number of blue toffees be y.</div><div>We know that the number of red toffees is x. And the total umber of toffees in the jar is _{j}_.</div><div>\\(\\Rightarrow\\) x + y = _{j}_</div><div>\\(\\Rightarrow\\) y = _{j}_ - x</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>The number of red toffees and blue toffees in a jar are _{j}_ in total</div><div>If the  number of red toffees is x, then number of blue toffees are ?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            40, 
+            60
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_ + x"
+      }, 
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "_{j}_x"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_ - x"
+    }
+  }
+}

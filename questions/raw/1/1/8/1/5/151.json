@@ -1,0 +1,61 @@
+{
+  "hint": {
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{{j*k*l}}_x^3y^3z^3a^3b^3c^3+_{{2*k}}_x^2yx+_{{3*j*k}}_xy^2z+_{{l*k}}_xyz^2}{_{k}_xyz}\\)</div><div>Taking \\(_{k}_xyz\\,\\)common in the numerator,</div><div>\\(=\\frac{_{k}_xyz(_{{j*l}}_x^2y^2z^2a^3b^3c^3)+_{k}_xyz(2x)+_{k}_xyz(_{{3*j}}_y)+_{k}_xyz(_{l}_z)}{_{k}_xyz}\\)</div><div>Dividing numerator and denominator by \\(_{k}_xyz\\),</div><div>\\(=_{{j*l}}_x^2y^2z^2a^3b^3c^3+2x+_{{3*j}}_y+_{l}_z\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(\\frac{_{{j*k*l}}_x^3y^3z^3a^3b^3c^3+_{{2*k}}_x^2yz+_{{3*j*k}}_xy^2z+_{{l*k}}_xyz^2}{_{k}_xyz}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            13
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j*l}}_xyza^3b^3c^3+2x+_{{3*j}}_y+_{l}_z\\)"
+      }, 
+      {
+        "text": "\\(_{{j*l}}_a^3b^3c^3+2x+_{{3*j}}_y+_{l}_z\\)"
+      }, 
+      {
+        "text": "\\(_{{j*l}}_x^2y^2z^2+2x+_{{3*j}}_y+_{l}_z\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j*l}}_x^2y^2z^2a^3b^3c^3+2x+_{{3*j}}_y+_{l}_z\\)"
+    }
+  }
+}

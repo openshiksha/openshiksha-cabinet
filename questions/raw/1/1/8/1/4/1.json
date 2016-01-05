@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The multiplicative inverse of a number is its reciprocal.</div><div>Hence the reciprocal of \\( ({_{j}_ \\times _{k}_})^{-2} \\)  is \\( ({_{j}_ \\times _{k}_})^{2} \\) which is \\( _{j}_^{2} \\times _{k}_^{2} \\)</div>"
+  }, 
+  "content": {
+    "text": "\\( ({_{j}_ \\times _{k}_})^{-2} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{j}_ \\times _{k}_ \\)  "
+      }, 
+      {
+        "text": "\\( \\frac {1}{_{j}_^{2} \\times _{k}_^{2}} \\)"
+      }, 
+      {
+        "text": "\\( -(_{j}_^{2} \\times _{k}_^{2}) \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{j}_^{2} \\times _{k}_^{2} \\)"
+    }
+  }
+}

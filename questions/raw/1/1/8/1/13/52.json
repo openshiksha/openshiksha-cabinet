@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": "The size of each sector is proportional to the activity or information it represents. "
+  }, 
+  "solution": {
+    "text": "<div>Observe the pie chart carefully,</div><div>the students spends \\(15\\) percent of the total amount for purchasing plastic.</div><div>He also saves \\(15\\) percent of the total amount</div><div>Therefore, total expenditure on plastic is equal to the total amount saved.</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>He was given Rs.\\(_{j}_\\) from his parents and he managed to save Rs.\\(_{{(Decimal(str(0.15)))*j}}_\\) from the total amount.</div><div>Expenditure on which item is equal to the savings?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Batteries"
+      }, 
+      {
+        "text": "Travel"
+      }, 
+      {
+        "text": "Fabrication"
+      }
+    ], 
+    "correct": {
+      "text": "Plastic"
+    }
+  }, 
+  "unit": "Rupees"
+}

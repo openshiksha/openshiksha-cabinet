@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "\\(a^m \\times a^n=a^{m+n}\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\(( (-_{k}_)^4 \\times (-_{k}_)^{-2}\\) )</div><div>As they have the same base, you can add the exponents to each other.</div><div>\\({(-_{k}_)}^{4-2}=(-_{k}_)^2=_{{k**2}}_\\)</div>"
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "Evaluate the exponential expression \\(( (-_{k}_)^4 \\times (-_{k}_)^{-2}\\) )"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{-1}{_{{k**2}}_}\\)"
+      }, 
+      {
+        "text": "-_{{k**2}}_"
+      }, 
+      {
+        "text": "\\(\\frac{1}{_{{k**2}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "_{{k**2}}_"
+    }
+  }
+}

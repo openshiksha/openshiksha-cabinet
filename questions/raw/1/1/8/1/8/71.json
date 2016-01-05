@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "<div>\\((a+b)^2=a^2+2ab+b^2\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}__{k}_^2\\)</div><div>\\(=(_{{j*10}}_+_{k}_)^2\\)</div><div>\\(=_{{(j*10)}}_^2+ (2*_{{j*10}}_*_{k}_)+_{k}_^2\\)</div><div>\\(=_{{(j*10)**2}}_+_{{2*(j*10)*k}}_+_{{k**2}}_\\)</div><div>\\(=_{{((j*10)**2)+(2*(j*10)*k)+(k**2)}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Find the square of \\(_{j}__{k}_^2\\,\\) without actual multiplication."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{((j*10)**2)+(2*(j*10)*k)+(k**2)}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,28 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>A square's diagonals bisect each other perpendicularly, and their diagonals are equal too.</div><div>Thus \\(OP = OQ\\).</div><div>Also \\( \\angle POQ\\) is \\(90^o\\), thus \\( \\triangle POQ\\) is an isosceles right triangle.</div>", 
+    "img": "29.png"
+  }, 
+  "content": {
+    "text": "<div>In a square PQRS, the diagonals meet at the point O. The triangle POQ is </div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Isosceles triangle"
+      }, 
+      {
+        "text": "Equilateral triangle"
+      }, 
+      {
+        "text": "Scalene triangle"
+      }
+    ], 
+    "correct": {
+      "text": "Isosceles right triangle"
+    }
+  }
+}

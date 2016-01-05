@@ -1,0 +1,14 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>After change of strategy, new ratio of defenders to midfielders to strikers is 4:3:3. </div><div>Hence, number of strikers = (Ratio of strikers/total ratio) x number of students in the squad, = (3/(4+3+3)) x 30 = 9</div><div> Similarly, number of midfielders = (Ratio of midfielders/total ratio) x number of students in the squad, = (3/(4+3+3)) x 30 = 9 </div><div>Number of attacking players from 8th standard = 2+1 = 3.</div><div>Hence, number of attacking players not from 8th standard = total number of strikers + total number of midfielders - number of attacking players from 8th standard.</div><div> \\( \\Rightarrow \\) Therefore, number of attacking players not in 8th standard = 9 +9 -3 = 15 </div>"
+  }, 
+  "content": {
+    "text": "If he changes his strategy to make the ratio of players to 4:3:3, what is the total number of attacking players (Midfielders and Strikers) that are not in 8th standard?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 15
+  }, 
+  "type": 3
+}

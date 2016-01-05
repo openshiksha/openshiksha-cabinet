@@ -1,0 +1,38 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> The two digit number be represented as 10x+y where x is the tens place and y is the units place of the number. </div><div> The difference between the digits is _{j}_ </div><div> y-x=_{j}_ </div><div> y=_{j}_+x </div><div> Therefore,the number 10x+y=10x+_{j}_+x </div><div> 11x+_{j}_ and </div> <div> the reverse number 10y+x=10(_{j}_+x)+x </div><div>Hence, 11x+_{{10*j}}_ </div><div> The sum of the two numbers is _{{33*j}}_ </div><div> Therefore, 11x+_{j}_+11x+_{{10*j}}_=_{{33*j}}_ </div><div> 22x+_{{11*j}}_=_{{33*j}}_ </div><div> 22x=_{{22*j}}_ </div><div> x=_{j}_ </div><div> y=_{{2*j}}_ </div><div> \\( \\Rightarrow \\) The number is _{{10*j}}_+_{{2*j}}_=_{{12*j}}_</div>"
+  }, 
+  "content": {
+    "text": "The digits of a two digit number differ such that the ones place digit is _{j}_ more than the tens digit If the digits are interchanged and the resulting number is added to the original number ,we get _{{33*j}}_ . What can be the original number? "
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "_{{3*j}}_"
+      }, 
+      {
+        "text": "_{{22*j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{12*j}}_"
+    }
+  }
+}

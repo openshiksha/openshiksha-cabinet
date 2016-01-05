@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "img": "161h.png"
+  }, 
+  "solution": {
+    "text": "<ol type='i'><li>Place a bar over every pair of digits starting from the one's digit.</li><li>Find the largest number whose square is less than or equal to the number under the left-most bar. Take the number as the divisor and the number under the left-most bar as the dividend. Divide and get the remainder i.e. \\(2\\) in this case.</li><li>Bring down the number under the next bar (i.e.\\(00\\)) to the right of the remainder. The new dividend is \\(200\\).</li><li>Double the divisor and enter it with a blank to its right.</li><li>Guess the largest possible digit to fill the blank which also becomes the new digit in the quotient such that when the new digit is multiplied to the new quotient the product is less than or equal to the dividend. In this case we see that \\(44 \\times 4 = 176\\). Get the remainder.</li><li>The remainder is \\(24\\). This shows that \\(24^2\\lt600\\).</li></ol><div>The next perfect square number is \\(25^2=625\\)</div><div>\\(25^2-600=625-600=25\\)</div><div>Hence, the vintage car collector needs 25 more cars for his desired arrangement.</div>", 
+    "img": "181.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A Vintage car collector plans to put his car collection on display for other car enthusiasts. He wishes to arrange the cars in such a manner that the number of rows is equal to the number of columns. If he initially decides to put 600 cars on display, find the minimum number of cars he needs more for his desired arrangement."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 25
+  }, 
+  "type": 3
+}

@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "The length of the equal side is ?"
+  }, 
+  "solution": {
+    "text": "<div>x + x + \\(\\frac {_{j}_}3 = _{j}_\\frac {2}{15}\\)</div><div> 2x +  \\(\\frac {_{j}_}3 = \\frac {(15 \\times _{j}_) + 2}{15}\\)</div><div> 2x = \\(\\frac {(15 \\times _{j}_) + 2}{15} -  \\frac {_{j}_}3\\)</div><div> 2x = \\(\\frac {(15 \\times _{j}_) + 2 - (5 \\times _{j}_)}{15}\\)</div><div> 2x = \\(\\frac {(10 \\times _{j}_) + 2}{15}\\)</div><div> x = \\(\\frac {(10 \\times _{j}_) + 2}{30}\\)</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {(9 \\times _{j}_) + 2}{30}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {(15 \\times _{j}_) + 2}{15}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {(10 \\times _{j}_) + 5}{30}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {(10 \\times _{j}_) + 2}{30}\\)"
+    }
+  }
+}

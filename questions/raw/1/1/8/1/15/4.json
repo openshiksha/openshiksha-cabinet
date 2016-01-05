@@ -1,0 +1,48 @@
+{
+  "solution": {
+    "text": "<div>x - _{j}_ = _{k}_</div><div>x = _{k}_ + _{j}_</div><div>x = _{{k+j}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Solve for x, x - _{j}_ = _{k}_"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{k-j}}_"
+      }, 
+      {
+        "text": "x = _{{j-k}}_"
+      }, 
+      {
+        "text": "x = _{{-k-j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "x = _{{k+j}}_"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> As the ones place digit is 7, it does NOT follow the divisibility test of 10. </div><div>Therefore, No, it is not divisible by 10.</div>"
+  }, 
+  "content": {
+    "text": "_{j}__{k}_7"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }, 
+      {
+        "text": "Cannot be determined"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

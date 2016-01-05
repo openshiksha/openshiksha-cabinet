@@ -1,0 +1,13 @@
+{
+  "content": {
+    "text": "The area(in \\({cm}^2\\)) of the rectangle is"
+  }, 
+  "answer": {
+    "value": 176
+  }, 
+  "type": 3, 
+  "solution": {
+    "text": "<div>As perimeter p=54cm</div><div>Therefore,p=2*(l+b) can be written as 54=2*(l+b)</div><div>\\(\\Rightarrow\\) 54 = 2 \\(\\times\\) (2B+5)             [l=b+5]</div><div>\\(\\Rightarrow \\frac {54}{2}\\) = 2B+5   [RHS to the denominator]</div><div>\\(\\Rightarrow\\) 27 = 2B+5</div><div>\\(\\Rightarrow\\) 27-5 = 2B</div><div>\\(\\Rightarrow\\) 22 = 2B</div><div>B=11</div><div>Therefore,L=B+5=11+5=16</div><div>As area = L \\(\\times\\) B = 16 \\(\\times\\) 11 = 176 \\({cm}^2\\)</div>"
+  }, 
+  "subpart_index": 2
+}

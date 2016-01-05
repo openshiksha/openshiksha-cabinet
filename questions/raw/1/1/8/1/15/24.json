@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "<div>The mixed fraction \\({_{j}_}\\frac {2}{15}\\) can be converted to improper form by using this formula \\(\\frac{(15 \\times _{j}_)+2}{15}\\)</div><div>Therefore, \\({_{j}_}\\frac {2}{15}\\) = _{{trunc(Decimal((15*j)+2)/Decimal(15), 2)}}_ </div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>The base of an isosceles triangle is \\(\\frac {_{j}_}3\\) cm.The perimeter of the triangle is \\(_{j}_\\frac {2}{15}\\).What is the length of either of the remaining equal sides ?</div><div>The  mixed fraction can be written as:</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal((15*j)-2)/Decimal(15), 2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal((15*j)+2)/Decimal(2), 2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal((15*j)+4)/Decimal(15), 2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal((15*j)+2)/Decimal(15), 2)}}_"
+    }
+  }
+}

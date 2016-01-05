@@ -1,0 +1,40 @@
+{
+  "hint": {
+    "text": "Even powers of negative numbers stay postive."
+  }, 
+  "solution": {
+    "text": "<div>\\((-_{j}_)^2\\)</div><div>\\(=-_{j}_ \\times -_{j}_\\)</div><div>=\\(_{{j**2}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "What is the square of \\(-_{j}_\\)?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        4, 
+        5, 
+        6
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {1}{_{{(j**2)}}_}\\)"
+      }, 
+      {
+        "text": "-_{{j**2}}_"
+      }, 
+      {
+        "text": "_{{j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j**2}}_"
+    }
+  }
+}

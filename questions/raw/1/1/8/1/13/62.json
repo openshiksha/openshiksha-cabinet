@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)"
+  }, 
+  "solution": {
+    "text": "<div>No. of Blue balls \\(=_{k}_\\)</div><div>No. of Green balls \\(=_{l}_\\)</div><div>Probability \\(= \\frac {No.\\,of\\,blue\\,balls\\,+\\,No.\\,of\\,green\\,balls}{Total\\,balls}\\)</div><div>\\(=\\frac {_{k}_+_{l}_}{_{j}_+_{k}_+_{l}_+_{m}_}\\)</div><div>\\(=\\frac{_{{k+l}}_}{_{{j+k+l+m}}_}\\)</div><div>\\(=_{{Fraction(k+l,j+k+l+m)}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "A bag contains \\(_{j}_\\) red balls, \\(_{k}_\\) blue balls, \\(_{l}_\\) green balls and \\(_{m}_\\) orange balls (The balls are identical in all respects other than color). A single ball is drawn at random, What is the probability of drawing either a blue or a green ball? "
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc(((Decimal(k)+l)/(j+k+l+m)),3)}}_"
+  }, 
+  "type": 3
+}

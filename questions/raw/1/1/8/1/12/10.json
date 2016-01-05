@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>1 Rupee = 100 paisa. </div><div> Therefore, 4 Rupees= 400 paisa. </div><div> \\( \\Rightarrow \\)Ratio = a: b= 80/400 = 1:5 </div>"
+  }, 
+  "content": {
+    "text": "80 paise to 4 rupees"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "1:4"
+      }, 
+      {
+        "text": "80:4"
+      }, 
+      {
+        "text": "4:80"
+      }
+    ], 
+    "correct": {
+      "text": "1:5"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "subpart_index": 8, 
+  "solution": {
+    "text": "_{{k * Decimal('0.0001')}}_ can also be written as \\( _{k}_ \\times 10{-4} \\). Thus the power of 10 is -4"
+  }, 
+  "content": {
+    "text": "The power of 10 in the standard form of _{{k * Decimal('0.0001')}}_ is ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": -4
+  }, 
+  "type": 3
+}

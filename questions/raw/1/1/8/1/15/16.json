@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "<div>Let,the number be x.</div><div>On subtracting the number by \\(\\frac 1{_{j}_}\\),we get</div> <div>x - \\(\\frac 1{_{j}_}\\)</div><div>Now,if we multiply the above result by \\(\\frac 1{_{j}_}\\)  we get \\(\\frac 1{_{{4*j}}_}\\).</div><div>Therefore, \\( (x - \\frac 1{_{j}_}) \\times \\frac 1{_{j}_} = \\frac 1{_{{4*j}}_}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>If you subtract \\(\\frac {1}{_{j}_}\\) from a number and multiply the result by \\(\\frac {1}{_{j}_}\\) you get \\(\\frac {1}{_{{4*j}}_}\\)</div><div>What is the equation formed if x is the unknown number to be found out ?</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( (x - \\frac 1{_{j}_}) \\times \\frac 1{_{{4*j}}_} = \\frac 1{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\( (\\frac 1{_{j}_} - x) \\times \\frac 1{_{j}_} = \\frac 1{_{{4*j}}_}\\)"
+      }, 
+      {
+        "text": "\\( (\\frac 1{_{{4*j}}_} - x) \\times \\frac 1{_{j}_} = \\frac 1{_{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( (x - \\frac 1{_{j}_}) \\times \\frac 1{_{j}_} = \\frac 1{_{{4*j}}_}\\)"
+    }
+  }
+}

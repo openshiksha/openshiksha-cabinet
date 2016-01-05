@@ -1,0 +1,24 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Consider LHS</div><div>\\(=(_{j}_-y)^2\\)</div><div>\\(=_{{j**2}}_-_{{2*j}}_y+y^2\\)</div><div>\\(\\neq _{{j**2}}_-y^2\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((_{j}_-y)^2=_{{j**2}}_-y^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Correct"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Incorrect"
+    }
+  }
+}

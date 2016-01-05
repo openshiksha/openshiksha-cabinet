@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "<div>_{j}_y + 9 = 4</div><div>\\(\\Rightarrow\\) _{j}_y = 4-9 = -5</div><div>\\(\\Rightarrow\\) y = _{{trunc(Decimal(4-9)/Decimal(j), 2)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Solve _{j}_y + 9 = 4"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{trunc(Decimal(4-9)/Decimal(j), 2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc(Decimal(9-4)/Decimal(j), 2)}}_"
+      }, 
+      {
+        "text": "y = _{{trunc(Decimal(9-4)/Decimal(j), 2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "y = _{{trunc(Decimal(4-9)/Decimal(j), 2)}}_"
+    }
+  }
+}

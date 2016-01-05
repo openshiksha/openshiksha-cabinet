@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Initial weight = 2kg</div><div>Its weight increases by a power of 2 each year.</div><div>Hence in one year, its weight would be the square of the initial weight.</div><div>Hence weight after one year is \\( (2^2) \\) = 4kg</div><div>Now weight after 2 years is the square of the weight after a year.</div><div>Hence weight after 2 years is \\( (4^2) \\) = 16kg</div><div>Hence weight after 2 years is 16 kg.</div>"
+  }, 
+  "content": {
+    "text": "A new born bear weighs 2 kg. How many kilograms might a two year old bear weigh if its weight increases by the power of 2 each year? "
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "64"
+      }, 
+      {
+        "text": "32"
+      }, 
+      {
+        "text": "4"
+      }
+    ], 
+    "correct": {
+      "text": "16"
+    }
+  }
+}

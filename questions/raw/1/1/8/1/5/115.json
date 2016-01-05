@@ -1,0 +1,61 @@
+{
+  "hint": {
+    "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_t^2+_{{j*(m+n)}}_t+_{{m*n}}_\\)</div><div>Notice that \\(_{{j**2}}_t^2+_{{j*(m+n)}}_t+_{{m*n}}_\\,\\)can be written as \\((_{j}_t)^2+_{j}_t(_{{m+n}}_)+_{{m*n}}_\\)</div><div>\\(\\Rightarrow (_{j}_t)^2+_{j}_t(_{{m+n}}_)+_{{m*n}}_=(_{j}_t)^2+_{j}_t(_{m}_+_{n}_)+(_{m}_)(_{n}_)\\)</div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow(_{j}_t)^2+_{j}_t(_{m}_+_{n}_)+(_{m}_)(_{n}_)=(_{j}_t+_{m}_)(_{j}_t+_{n}_)\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\(_{{j**2}}_t^2+_{{j*(m+n)}}_t+_{{m*n}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_t+_{m}_)(_{j}_t+_{{2*n}}_)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(t+_{m}_)(t-_{n}_)\\)"
+      }, 
+      {
+        "text": "\\((t-_{m}_)(t+_{n}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_t+_{m}_)(_{j}_t+_{n}_)\\)"
+    }
+  }
+}

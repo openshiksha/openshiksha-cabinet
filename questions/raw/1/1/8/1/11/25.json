@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Opposite sides of a parallelogram are parallel.</div>"
+  }, 
+  "content": {
+    "text": "<div>Which of the following is/are properties of a parallelogram?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Adjacent sides are equal"
+      }, 
+      {
+        "text": "Diagonals bisect each other at right angles"
+      }, 
+      {
+        "text": "All angles are equal"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Opposite sides are parallel"
+      }
+    ]
+  }
+}

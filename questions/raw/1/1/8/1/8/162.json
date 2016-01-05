@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "Subtract the remainder from the number and use long division method to find the square root."
+  }, 
+  "solution": {
+    "text": "<div>We know that \\(3833\\) is not a perfect square because on performing long division we get the remainder as \\(112\\).</div><div>Subtracting \\(112\\) from \\(3833\\), we get,</div><div>\\(3833-112=3721\\)</div><div>Perform long division method to find square root of \\(3721\\) as shown below. </div><div>Therefore, the square root of \\(3721\\) is \\(61\\)</div>", 
+    "img": "162.png"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Find the square root of the perfect square."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 61
+  }, 
+  "type": 3
+}

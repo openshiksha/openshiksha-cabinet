@@ -1,0 +1,15 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Looking at the ones place, A X A, must give A in the ones digit.</div> <div>Therefore only two numbers, 5 and 0 can be possible.</div><div> As the product is not zero, A cannot be zero.</div><div> \\(\\Rightarrow\\) Hence, A = 5, which fits 15 x 5 = 75</div>"
+  }, 
+  "content": {
+    "text": "Find the value of A in the following product.", 
+    "img": "60.png"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

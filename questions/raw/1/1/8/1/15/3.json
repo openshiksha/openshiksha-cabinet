@@ -1,0 +1,62 @@
+{
+  "solution": {
+    "text": "<div>\\(x + y = z + 3\\) have 3 different variables but the maximum degree is 1.Therefore this is a linear equation in 3 variables.</div><div>\\(x - _{j}_ = 5 + _{k}_x\\) has 1 variable which has a maximum power of 1.Therefore,it is a linear equation.</div><div>\\(x + y + z = 0\\) has three variables  every variable has a maximum power of 1, Therefore,this is a linear equation in three variables.</div><div>\\(x = 3 + 3x\\) has one variable with a maximum power of 1. Therefore,this is a linear equation with single variable.</div><div>\\(y + _{j}_ = _{k}_ - 2 \\times _{j}_y\\) has one variable with a maximum power of 1.Therefore,this is a linear equation with one variable.</div><div>\\( x^2 + y^2 = _{j}_y\\) has two variables with a maximum power of 2 on y and x.Therefore,it is not a linear equation.</div><div>\\( x + 67 = x^2 - y^2\\)  has maximum of 2 on x and y. Therefore,this is not a linear equation.</div><div>\\( x^3 + x^2 = x + _{j}_\\) has maximum power of 3 in x.Therefore this is not a linear equation.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Choose from the options below:"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( x^2 + y^2 = _{j}_y\\)"
+      }, 
+      {
+        "text": "\\( x + 67 = x^2 - y^2\\)"
+      }, 
+      {
+        "text": "\\( x^3 + x^2 = x + _{j}_\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(x + y = z + 3\\)"
+      }, 
+      {
+        "text": "\\(x - _{j}_ = 5 + _{k}_x\\)"
+      }, 
+      {
+        "text": "\\(x + y + z = 0\\)"
+      }, 
+      {
+        "text": "\\(x = 3 + 3x\\)"
+      }, 
+      {
+        "text": "\\(y + _{j}_ = _{k}_ - 2 \\times _{j}_y\\)"
+      }
+    ]
+  }
+}

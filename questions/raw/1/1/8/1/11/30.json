@@ -1,0 +1,29 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>The diagonals of a rhombus, square and kite intersect at right angles.</div>"
+  }, 
+  "content": {
+    "text": "<div>If the diagonals intersect at right angles, the quadrilaterals are </div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rectangle"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Rhombus"
+      }, 
+      {
+        "text": "Kite"
+      }, 
+      {
+        "text": "Square"
+      }
+    ]
+  }
+}

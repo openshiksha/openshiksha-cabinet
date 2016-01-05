@@ -1,0 +1,58 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>_{j}__{k}__{l}_ can be represented as - \\( (100 \\times _{j}_) + (10 \\times _{k}_) + _{l}_ \\)</div><div>_{k}__{l}__{j}_ can be represented as - \\( (100 \\times _{k}_) + (10 \\times _{l}_) + _{j}_ \\)</div><div>_{l}__{j}__{k}_ can be represented as - \\( (100 \\times _{l}_) + (10 \\times _{j}_) + _{k}_ \\)</div><div>Adding all 3 we get \\( (111 \\times _{j}_) + (111 \\times _{k}_) + (111 \\times _{l}_)\\). </div><div>This can be written as - \\( ((37 \\times 3) \\times (_{j}_ + _{k}_ + _{l}_)) \\). </div><div> \\(\\Rightarrow\\) Therefore the number is divisible by both 3 and 37.</div>"
+  }, 
+  "content": {
+    "text": "Take the sum of three numbers , _{j}__{k}__{l}_ , _{k}__{l}__{j}_ and _{l}__{j}__{k}_ . What number(s) is this number divisible by ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            8, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "3"
+      }, 
+      {
+        "text": "37"
+      }, 
+      {
+        "text": "None of the Above"
+      }
+    ], 
+    "correct": {
+      "text": "Both 3 and 37"
+    }
+  }
+}

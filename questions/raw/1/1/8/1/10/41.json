@@ -1,0 +1,63 @@
+{
+  "hint": {
+    "text": "<div>Represent the number as a product of its prime factors.</div><div>Remember, in the prime factorisation of a cube number, each factor appears thrice.</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**m)*(k**n)*l}}_\\)</div><div>\\(=_{{str(j) + ('\\\\times' + str(j))*(m-1)}}_ \\times _{{str(k) + ('\\\\times' + str(k))*(n-1)}}_ \\times _{l}_ \\)</div><div>\\(\\)</div><div>Notice that the factors \\(_{j}_\\) and \\(_{k}_\\) appear in groups of three.</div><div>\\(_{l}_\\) is the only individual factor.</div><div>Therefore, \\(_{{(j**m)*(k**n)*l}}_\\) must be divided by \\(_{l}_\\) so as to get a perfect cube.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "By which smallest number must \\(_{{(j**m)*(k**n)*l}}_\\) be divided so as to get a perfect cube?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        7, 
+        3, 
+        7, 
+        3, 
+        7
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        5, 
+        2, 
+        5, 
+        2
+      ]
+    }, 
+    "m": {
+      "options": [
+        6, 
+        3, 
+        6, 
+        3, 
+        6
+      ]
+    }, 
+    "l": {
+      "options": [
+        11, 
+        13, 
+        17, 
+        19, 
+        23
+      ]
+    }, 
+    "n": {
+      "options": [
+        3, 
+        6, 
+        3, 
+        6, 
+        3
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

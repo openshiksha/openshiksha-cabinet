@@ -1,0 +1,68 @@
+{
+  "solution": {
+    "text": "<div>a \\(\\times\\) b = b \\(\\times\\) a is commutative property.</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\( \\frac {_{j}_}{_{k}_} \\times \\frac {_{l}_}{_{m}_} = \\frac {_{l}_}{_{m}_} \\times \\frac {_{j}_}{_{k}_} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Closure property"
+      }, 
+      {
+        "text": "None of the above"
+      }, 
+      {
+        "text": "Associative property"
+      }
+    ], 
+    "correct": {
+      "text": "Commutative property"
+    }
+  }
+}

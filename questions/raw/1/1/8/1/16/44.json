@@ -1,0 +1,27 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "A sphere is smooth from every angle and has no vertices."
+  }, 
+  "content": {
+    "text": "Which of the following solid does not have a vertex? "
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cone"
+      }, 
+      {
+        "text": "Pyramid"
+      }, 
+      {
+        "text": "Prism"
+      }
+    ], 
+    "correct": {
+      "text": "Sphere"
+    }
+  }
+}

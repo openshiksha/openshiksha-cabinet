@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>Represent the given number as a product of its prime factors</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**m)*(k**n)*(l**o)}}_\\)</div><div>\\(=_{{str(j) + ('\\\\times' + str(j))*(m-1)}}_ \\times _{{str(k) + ('\\\\times' + str(k))*(n-1)}}_  _{{'\\\\times' + str(l) + ('\\\\times' + str(l))*(o-1) if (o>0) else ''}}_\\)</div><div>\\(\\)</div><div>\\(\\)</div><div>Therefore, \\(_{{3 if (o>0) else 2}}_\\) distinct prime factors exist for \\(_{{(j**m)*(k**n)*(l**o)}}_\\).</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "How many distinct prime factors exist for \\(_{{(j**m)*(k**n)*(l**o)}}_\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{3 if (o>0) else 2}}_"
+  }, 
+  "type": 3
+}

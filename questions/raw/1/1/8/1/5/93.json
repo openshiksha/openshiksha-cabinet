@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_c^2-_{{k**2}}_d^2\\)</div><div>\\(={(_{j}_c)}^2-{(_{k}_d)}^2\\)</div><div>\\(=(_{j}_c-_{k}_d)(_{j}_c+_{k}_d)\\qquad\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(_{{j**2}}_c^2-_{{k**2}}_d^2\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_c+_{k}_d)(_{j}_c+_{k}_d)\\)"
+      }, 
+      {
+        "text": "\\({(_{j}_c-_{k}_d)}^2\\)"
+      }, 
+      {
+        "text": "\\((_{{2*j}}_c-_{k}_d)(_{{2*j}}_c+_{k}_d)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_c-_{k}_d)(_{j}_c+_{k}_d)\\)"
+    }
+  }
+}

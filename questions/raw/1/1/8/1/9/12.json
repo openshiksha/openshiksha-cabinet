@@ -1,0 +1,25 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Here - 5 is at thousands place, 0 is at hundreds place, 0 is at tens place and _{j}_ is at ones place.<div> \\(\\Rightarrow\\) Therefore the number in usual form is 500_{j}_.</div>"
+  }, 
+  "content": {
+    "text": "\\((5 \\times 1000) + _{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{ (5*1000)+j}}_"
+  }, 
+  "type": 3
+}

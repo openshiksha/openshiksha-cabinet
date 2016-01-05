@@ -1,0 +1,13 @@
+{
+  "content": {
+    "text": "\\(101^k = 1\\) , what is the value of \\(k\\)?"
+  }, 
+  "answer": {
+    "value": "0"
+  }, 
+  "type": 3, 
+  "subpart_index": 18, 
+  "solution": {
+    "text": "<div>Any non-zero number raised to the power 0 is equal to 1.</div><div>Hence \\(101^0=1\\), thus \\(k=0\\)</div>"
+  }
+}

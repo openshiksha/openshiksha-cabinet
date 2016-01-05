@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "First rearrange the terms in the dividend and divisor in order of degree and look for any common values."
+  }, 
+  "solution": {
+    "text": "<div>Notice that \\(_{j}_\\) is common to all terms.</div><div>\\(=_{j}_(t^3-6t^2+t+24)\\)</div><div>Now perform long division as shown above :</div><div>Therefore, \\(\\frac{_{{24*j}}_+_{j}_t-_{{6*j}}_t^2+_{j}_t^3}{t-3}\\)</div><div>\\(=_{j}_(t^2-3t-8)\\)</div>", 
+    "img": "171.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(\\frac{_{{24*j}}_+_{j}_t-_{{6*j}}_t^2+_{j}_t^3}{t-3}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(Quotient : _{j}_(t^2+3t-8)\\;Remainder : 0\\)"
+      }, 
+      {
+        "text": "\\(Quotient : _{j}_(t^2-3t+8)\\;Remainder : 0\\)"
+      }, 
+      {
+        "text": "\\(Quotient : _{j}_(t^2+3t+8)\\;Remainder : 0\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(Quotient : _{j}_(t^2-3t-8)\\;Remainder : 0\\)"
+    }
+  }
+}

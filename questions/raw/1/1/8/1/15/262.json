@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "What is the price of one popcorn packet?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rs. 45"
+      }, 
+      {
+        "text": "Rs. 30"
+      }, 
+      {
+        "text": "Rs. 60"
+      }
+    ], 
+    "correct": {
+      "text": "Rs. 15"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> From the previous part we know cost of one ticket = Rs.45 </div><div> Cost of one popcorn is 1/3 that of one ticket. </div><div> \\( \\Rightarrow \\) Therefore, cost of one popcorn = 1/3 x 45 = Rs. 15 </div>"
+  }
+}

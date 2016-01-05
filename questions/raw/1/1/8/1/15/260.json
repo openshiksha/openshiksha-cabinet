@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "Guddu has to pay for his own ticket also."
+  }, 
+  "solution": {
+    "text": "<div> The total number of people = Guddu+His friends </div><div> \\( \\Rightarrow \\) Therefore, number of people he is paying for = _{j}_ + 1 = _{{j+1}}_ </div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Guddu wanted to watch a film with his friends. The cost of popcorn is 1/3 of the ticket price. Guddu treats _{j}_ of his friends to a movie and popcorn and spends a total of Rs._{{60*(j+1)}}_. Assuming everyone has one popcorn packet, how many people did Guddu pay for ?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_ "
+      }, 
+      {
+        "text": "_{{j-1}}_ "
+      }, 
+      {
+        "text": "_{{j+2}}_ "
+      }
+    ], 
+    "correct": {
+      "text": "_{{j+1}}_ "
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>Cube of \\(12 = 12^3 = 1728\\)</div><div>Cube root of \\(1728 = \\sqrt[3]{1728} = 12\\)</div><div>Hence, we can say that the two mathematical operations are inverse of each other.</div>"
+  }, 
+  "content": {
+    "text": "Finding a cube root of a number is the inverse operation of finding a cube."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

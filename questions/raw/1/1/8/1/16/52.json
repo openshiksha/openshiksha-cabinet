@@ -1,0 +1,27 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>There are 6 gardens (parallelograms) and 8 societies (triangles) in the city. </div><div>Thus ratio of gardens to societies = number of gardens/number of societies </div><div>=6/8=3/4=3:4 </div>"
+  }, 
+  "content": {
+    "text": "The ratio of number of garden to the number of societies is:"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "4:3"
+      }, 
+      {
+        "text": "2:3"
+      }, 
+      {
+        "text": "3:2"
+      }
+    ], 
+    "correct": {
+      "text": "3:4"
+    }
+  }
+}

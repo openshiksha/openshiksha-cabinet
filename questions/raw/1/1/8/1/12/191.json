@@ -1,0 +1,14 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> Since for the first 5 years, it follows simple interest, the amount due after 5 years becomes the principal for the 6th year.</div><div> Therefore SI for 5 years =\\( (P \\times R \\times T) \\)/100 = _{{50000*j}}_ x 10 x 5/100 = Rs. _{{25000*j}}_</div><div>Amount = P+SI = _{{50000*j}}_ + _{{25000*j}}_ = Rs. _{{75000*j}}_</div><div>New principal (P2) = Rs. _{{75000*j}}_ </div><div>New time period (T2) = 6-5 = 1 year</div><div>Rate = 10%</div><div> Hence by compound interest formula,\\( A= P \\times (1 + (R/100))^T =  P2 \\times (1+ (R/100))^{T2} \\) </div><div> \\( \\Rightarrow \\) Therefore Final amount due after 6 years = \\( _{{75000*j}}_ \\times (1 + (10/100))^1 \\)= Rs. _{{82500*j}}_ </div>"
+  }, 
+  "content": {
+    "text": "Assuming that he repaid the loan after 6 years, what is the amount he would have to repay the hospital?"
+  }, 
+  "answer": {
+    "value": "_{{82500*j}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

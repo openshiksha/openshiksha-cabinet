@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "A prism is a polyhedron whose bottom and top faces (known as bases) are congruent polygons and faces known as lateral faces are parallelograms."
+  }, 
+  "content": {
+    "text": "The lateral surfaces of a prism are-"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Triangles"
+      }, 
+      {
+        "text": "Circles"
+      }, 
+      {
+        "text": "Kites"
+      }
+    ], 
+    "correct": {
+      "text": "Parallelograms"
+    }
+  }
+}

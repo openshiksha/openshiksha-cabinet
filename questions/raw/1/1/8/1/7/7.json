@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "<div>_{j}_</div><div>\\(\\Rightarrow k = \\frac xy \\)</div><div>\\(\\Rightarrow\\) k = Total price \\(\\div\\) Number of chocolates bought</div><div>k = _{j}_</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "The Price of a chocolate is _{j}_. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ "
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "0"
+      }, 
+      {
+        "text": "\\( \\frac 1{_{j}_}\\)"
+      }, 
+      {
+        "text": "None of the above"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_"
+    }
+  }
+}

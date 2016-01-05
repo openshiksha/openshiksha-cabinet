@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "What is the perimeter of the plot?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*(j+k)}}_ m"
+      }, 
+      {
+        "text": "_{{(j+k)}}_ m"
+      }, 
+      {
+        "text": "_{{(j+(2*k))}}_ m"
+      }
+    ], 
+    "correct": {
+      "text": "_{{4*(j+k)}}_ m"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> From the previous parts, </div><div> Length = _{{2*j}}_ m </div><div> Breadth = _{{2*k}}_ m </div><div> Perimeter = 2 x (l+b) </div><div> \\( \\Rightarrow \\) Therefore, perimeter of plot = 2 x (_{{2*j}}_ + _{{2*k}}_) = _{{4*(j+k)}}_  m</div>"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let \\(x\\) be the unknown angle</div><div>Sum of the angles of a quadrilateral are \\(360^o\\).</div><div>Therefore, \\(_{{30+j}}_ + _{{170+k}}_ + _{{40+l}}_ + x = 360\\)</div><div>\\(x + _{{(240+l+k+j)}}_= 360\\)</div><div>\\(x = 360 - _{{(240+l+k+j)}}_ = _{{120-j-k-l}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Three angles of a quadrilateral are \\(_{{30+j}}_^o, _{{170+k}}_^o\\) and \\(_{{40+l}}_^o\\) ,find the fourth angle</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            -10, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -10, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            -10, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{120+j+k+l}}_"
+      }, 
+      {
+        "text": "120"
+      }, 
+      {
+        "text": "_{{120+k+l}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{120-j-k-l}}_"
+    }
+  }
+}

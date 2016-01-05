@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "The total number of students that fall in a particular category is called the frequency."
+  }, 
+  "solution": {
+    "text": "<div>From the frequency distribution table,</div><div>The total number of students falling in the group \\((190-200)\\) is \\(0\\), which is the least count.</div><div>Therefore, class \\((190-200)\\) has the highest frequency.</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "Which class has the lowest frequency?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "170-180"
+      }, 
+      {
+        "text": "180-190"
+      }, 
+      {
+        "text": "100-110"
+      }
+    ], 
+    "correct": {
+      "text": "190-200"
+    }
+  }
+}

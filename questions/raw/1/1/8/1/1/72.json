@@ -1,6 +1,6 @@
 {
   "solution": {
-    "text": "<div>\\(\\frac{_{{3*j}}_x^3 \u2013 _{{8*j}}_x^2 \u2013 _{{18*j}}_x + _{j}_c}{x +1}\\)</div><div>Using the long division method gives us:</div><div>Quotient = \\(_{{3*j}}_x^2 - _{{11*j}}_x \u2013 _{{7*j}}_\\) and Remainder = \\(_{j}_c+_{{7*j}}_\\)</div><div>Since we know that the divisor is a factor of the dividend, the remainder must be 0. Therefore \\(c = -7\\)</div>"
+    "text": "<div>\\(\\frac{_{{3*j}}_x^3 - _{{8*j}}_x^2 - _{{18*j}}_x + _{j}_c}{x +1}\\)</div><div>Using the long division method gives us:</div><div>Quotient = \\(_{{3*j}}_x^2 - _{{11*j}}_x - _{{7*j}}_\\) and Remainder = \\(_{j}_c+_{{7*j}}_\\)</div><div>Since we know that the divisor is a factor of the dividend, the remainder must be 0. Therefore \\(c = -7\\)</div>"
   }, 
   "subpart_index": 1, 
   "content": {

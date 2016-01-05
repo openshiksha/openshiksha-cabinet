@@ -1,0 +1,43 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>As ABCD is a rhombus, the diagonals intersect each other perpendicularly and bisect each other, thus \\(OA=OC\\).</div><div>Thus, \\(z+1=k=_{k}_\\)</div><div>\\(z=_{k}_-1=_{{k-1}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>What is the value of z where j is _{j}_ and k is _{k}_? </div>", 
+    "img": "35.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        4, 
+        12, 
+        15
+      ]
+    }, 
+    "j": {
+      "options": [
+        3, 
+        5, 
+        8
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{k}}_"
+      }, 
+      {
+        "text": "_{{k+2}}_"
+      }, 
+      {
+        "text": "_{{k+1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{k-1}}_"
+    }
+  }
+}

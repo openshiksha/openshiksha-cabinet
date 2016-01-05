@@ -1,0 +1,39 @@
+{
+  "hint": {
+    "text": "<div>Sum of exterior angles of a polygon taken in order is \\(360^o\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Sum of exterior angles in the figure should be \\(360^o\\)</div><div>Hence \\(x+y+z+60+j+k=360\\)</div><div>\\(x+y+z=360-60-_{j}_-_{k}_\\)</div><div>\\(x+y+z=_{{300-j-k}}_\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>Find the value of \\(x + y + z\\) where value of j is _{j}_ and value of k is _{k}_</div>", 
+    "img": "3.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            60
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            20, 
+            60
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{300-j-k}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "If the base on both sides of the equation are equal, the exponents can be evaluated with each other."
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac {k^{3x-1}}{k^{2}} = k^3\\)</div><div>\\(\\Rightarrow k^{3x-1} \\times {k^{-2}} = k^3\\)</div><div>\\(\\Rightarrow k^{3x-3} = k^3\\)</div><div>As the base on both sides are equal, we can equate the exponents.</div><div>\\(\\Rightarrow 3x-3 = 3\\)</div><div>\\(\\Rightarrow x= 6/3\\)</div><div>\\(\\Rightarrow x=2\\)</div>"
+  }, 
+  "subpart_index": 9, 
+  "content": {
+    "text": "If \\(\\frac {k^{3x-1}}{k^2} = k^3\\) find the value of \\(x\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 2
+  }, 
+  "type": 3
+}

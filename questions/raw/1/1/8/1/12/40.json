@@ -1,0 +1,14 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Since the ratio of defenders to midfielders to strikers is 5:3:2, number of defenders = (ratio of defenders/total ratio) x number of students in the squad.</div><div>Number of defenders = (5/(5+3+2)) x 30 =15. </div><div> Since 3 defenders are from 8th standard. </div><div>\\( \\Rightarrow \\) Therefore, number of defenders not from 8th standard = 15-3 = 12. </div>"
+  }, 
+  "content": {
+    "text": "How many defenders are present in the squad that are not in 8th standard?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 12
+  }, 
+  "type": 3
+}

@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)"
+  }, 
+  "solution": {
+    "text": "<div>No. of Orange balls \\(=_{m}_\\)</div><div>No. of Green balls \\(=_{l}_\\)</div><div>Probability of drawing a Green ball \\(=\\frac {No.\\,of\\,green\\,balls}{Total\\,balls}\\)</div><div>\\(= \\frac{_{l}_}{_{j}_+_{k}_+_{l}_+_{m}_}\\)</div><div>\\(=\\frac {_{l}_}{_{{j+k+l+m}}_}\\)</div><div>Probability that the ball drawn is not green = \\(1-\\) probability of drawing a green ball</div><div>\\(=1-\\frac {_{l}_}{_{{j+k+l+m}}_}\\)</div><div>\\(=\\frac {_{{j+k+m}}_}{_{{j+k+l+m}}_}\\)</div><div>\\(=_{{Fraction(j+k+m,j+k+l+m)}}_\\)</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "A bag contains \\(_{j}_\\) red balls, \\(_{k}_\\) blue balls, \\(_{l}_\\) green balls and \\(_{m}_\\) orange balls (The balls are identical in all respects other than color). A single ball is drawn at random, find the probability that the ball drawn is not green? "
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc(((Decimal(j)+k+m)/(j+k+l+m)),3)}}_"
+  }, 
+  "type": 3
+}

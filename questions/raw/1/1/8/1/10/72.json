@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Finding cube root is the inverse operation of finding cube.</div><div>The cube root of the number 8 is represented as \\(\\sqrt[3]{8}=2\\)</div><div>Representing the given number as a product of its prime factors will help in finding its cube root</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**3)*(k**3)}}_\\)</div><div>After prime factorisation,</div><div>\\(_{{(j**3)*(k**3)}}_=_{j}_ \\times _{j}_ \\times _{j}_ \\times _{k}_ \\times _{k}_ \\times _{k}_\\)</div><div>Therefore, \\(\\sqrt[3]{_{{(j**3)*(k**3)}}_}=\\sqrt[3]{_{j}_ \\times _{j}_ \\times _{j}_ \\times _{k}_ \\times _{k}_ \\times _{k}_}\\)</div><div>\\(=\\sqrt[3]{_{j}_^3 \\times _{k}_^3}=_{j}_ \\times _{k}_=_{{j*k}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(_{{(j**3)*(k**3)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        17, 
+        13, 
+        11
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*k}}_"
+  }, 
+  "type": 3
+}

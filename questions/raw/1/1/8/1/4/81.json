@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "\\(a^m=\\frac1{a^{-m}}\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\(a^{-2}\\) can also be written as \\(\\frac {1}{a^2}\\)</div><div>Therefore,  \\(_{j}_^{-2}=\\frac1{{_{j}_}^2}\\)</div><div>\\(=\\frac {1}{_{{j**2}}_}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_^{-2}\\) can be written as"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j**2}}_\\)"
+      }, 
+      {
+        "text": "\\(\\frac {2}{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {-2}{_{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {1}{_{{j**2}}_}\\)"
+    }
+  }
+}

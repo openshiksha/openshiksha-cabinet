@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the number of extra goals to be scored by each team be \\(x\\).</div><div>Assume that team \\(1\\) has scored \\(_{j}_\\) goals and team \\(2\\) has scored \\(_{k}_\\) goals.</div><div>To qualify for the next round,</div><div>\\(\\frac{_{j}_+x}{_{k}_+x}=\\frac23\\)</div><div>\\(\\Rightarrow 3(_{j}_)+3x=2(_{k}_)+2x\\)</div><div>\\(\\Rightarrow x= _{{(2*k)-(3*j)}}_\\)</div><div>Therefore, the amount of extra goals to be scored by each team is \\(_{{(2*k)-(3*j)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "There is a Football League match. The score of the match is _{j}_-_{k}_. To qualify for the next round, both teams have to score the same number of goals such that the score is in the ratio of 2:3. What is the extra number of goals each team has to score?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(3*k)-(3*j)}}_"
+      }, 
+      {
+        "text": "_{{k-j}}_"
+      }, 
+      {
+        "text": "_{{(2*k)-j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(2*k)-(3*j)}}_"
+    }
+  }
+}

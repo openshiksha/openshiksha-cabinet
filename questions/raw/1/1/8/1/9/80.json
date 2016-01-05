@@ -1,0 +1,15 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Looking at the ones place, A X A, must give 9 in the ones digit.</div> <div>Therefore only two numbers, 3 and 7 can be possible.</div><div> A cannot be 7 as \\( 111117 \\times 37 \\neq 7666329 \\) .</div><div> \\(\\Rightarrow\\) Hence, A = 3, which fits \\(111113 \\times 33 = 3666729\\)</div>"
+  }, 
+  "content": {
+    "text": "Find the value of A in the following product.", 
+    "img": "80.png"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 3
+  }, 
+  "type": 3
+}

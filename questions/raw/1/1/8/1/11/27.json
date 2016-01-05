@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The opposite angles of a parallelogram are always equal.</div><div>Hence, two of the angles are \\(50^o\\).</div><div>Also, the sum of all the angles of a parallelogram add up to \\(360^o\\).</div><div>Let the angle to be found be \\(x\\), sum of all the angles are \\(50 + 50 + 2x = 360\\)</div><div>\\(2x=260\\)</div><div>\\(x=130^o\\)</div><div>Hence, the angles are 50, 50, 130, 130.</div>"
+  }, 
+  "content": {
+    "text": "<div>In a parallelogram ABCD, \\( \\angle A\\) measures \\(50^o\\), what are the measures of all the angles? </div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "50, 50, 120, 130"
+      }, 
+      {
+        "text": "50, 50, 120, 120"
+      }, 
+      {
+        "text": "50, 60, 120, 130"
+      }
+    ], 
+    "correct": {
+      "text": "50, 50, 130, 130"
+    }
+  }
+}

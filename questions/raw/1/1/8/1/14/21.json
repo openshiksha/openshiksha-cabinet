@@ -1,0 +1,23 @@
+{
+  "content": {
+    "text": "The reciprocal of a positive number is  ?"
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Negative"
+      }, 
+      {
+        "text": "Neither positive nor negative"
+      }, 
+      {
+        "text": "Both positive and negative"
+      }
+    ], 
+    "correct": {
+      "text": "Positive"
+    }
+  }
+}

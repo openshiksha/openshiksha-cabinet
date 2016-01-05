@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "\\(Central\\,angle = \\frac {percentage\\,of\\,amount\\,spent\\,on\\,a\\,particular\\,item}{total\\,percentage} \\times 360\\)"
+  }, 
+  "solution": {
+    "text": "<div>Observe the pie chart carefully,</div><div>the students spends \\(10\\) percent of the total amount on batteries.</div><div>Central angle = \\(\\frac{10}{100} \\times 360\\)</div><div>\\(=_{{(Decimal(str(0.1)))*360}}_\\)</div><div>Therefore, central angle of the sector for batteries is \\(=_{{(Decimal(str(0.1)))*360}}_\\) degrees</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "<div>He was given Rs.\\(_{j}_\\) from his parents and he managed to save Rs.\\(_{{(Decimal(str(0.15)))*j}}_\\) from the total amount.</div><div>What is the central angle of the sector for batteries?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{(Decimal(str(0.1)))*360}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

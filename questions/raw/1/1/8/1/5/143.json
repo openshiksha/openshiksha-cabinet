@@ -1,0 +1,61 @@
+{
+  "hint": {
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{{j*k*l}}_x^2ac}{_{l}_x^4a}\\)</div><div>Taking \\(_{l}_x^2a\\,\\)common in the numerator and the denominator,</div><div>\\(=\\frac{_{{j*k}}_c(_{l}_x^2a)}{x^2(_{l}_x^2a)}\\)</div><div>Dividing numerator and denominator by \\(_{l}_x^2a,\\)</div><div>\\(=\\frac{_{{j*k}}_c}{x^2}\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(\\frac{_{{j*k*l}}_x^2ac}{_{l}_x^4a}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            7, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            7, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{_{{j*k}}_ac}{x^2}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j*k}}_c}x\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j*k}}_}{x^2}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{_{{j*k}}_c}{x^2}\\)"
+    }
+  }
+}

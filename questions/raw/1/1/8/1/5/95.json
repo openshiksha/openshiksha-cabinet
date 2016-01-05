@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(x^2+_{{j**2}}_+_{{2*j}}_x\\)</div><div>\\(=x^2+(2\\times _{j}_\\times x)+ (_{j}_)^2\\)</div><div>\\(=(x+_{j}_)^2\\qquad\\)[Using identity \\((a+b)^2=a^2+2ab+b^2\\)]</div><div>\\(=(x+_{j}_)(x+_{j}_)\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\(x^2+_{{j**2}}_+_{{2*j}}_x\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x+_{j}_)(x-_{j}_)\\)"
+      }, 
+      {
+        "text": "\\((x+_{{2*j}}_)(x+_{{2*j}}_)\\)"
+      }, 
+      {
+        "text": "Cannot be factorised"
+      }
+    ], 
+    "correct": {
+      "text": "\\((x+_{j}_)(x+_{j}_)\\)"
+    }
+  }
+}

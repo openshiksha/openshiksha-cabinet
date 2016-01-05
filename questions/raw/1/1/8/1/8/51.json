@@ -1,0 +1,40 @@
+{
+  "hint": {
+    "text": "<div>The square of a number \\(x\\) can be represented as a sum of two consecutive integers as : </div><div>\\(x^2\\)</div><div>\\(=\\frac{x^2-1}2 + \\frac{x^2+1}2\\)</div><div></div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_^2=_{{j**2}}_\\)</div><div>\\(=\\frac{_{j}_^2-1}2 + \\frac{_{j}_^2+1}2\\)</div><div>\\(=_{{(j**2-1)/2}}_+_{{(j**2+1)/2}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        11, 
+        13, 
+        15, 
+        17, 
+        19
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{(j**2-3)/2}}_ \\,\\)and\\(\\, _{{(j**2-1)/2}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{(j**2+1)/2}}_ \\,\\)and\\(\\, _{{(j**2+3)/2}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{(j**2+3)/2}}_ \\,\\)and\\(\\, _{{(j**2+5)/2}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{(j**2-1)/2}}_ \\,\\)and\\(\\, _{{(j**2+1)/2}}_\\)"
+    }
+  }
+}

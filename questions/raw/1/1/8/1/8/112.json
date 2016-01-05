@@ -1,0 +1,63 @@
+{
+  "hint": {
+    "text": "<div>The square of a number \\('x'\\) is \\(x^2\\)</div>Square root of \\(x^2\\) can be written as \\(\\sqrt{x^2}=x\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{(j**m)*(k**n)*l}}_=_{j}_^_{m}_ \\times _{k}_^_{n}_ \\times _{l}_ \\)</div><div>Dividing the number by \\(_{l}_\\), the quotient (which is a square number) obtained is \\(\\frac{_{{(j**m)*(k**n)*l}}_}{_{l}_}=_{{(j**m)*(k**n)}}_\\).</div><div>The quotient can be written as :</div><div>\\(_{{(j**m)*(k**n)}}_=_{j}_^_{m}_ \\times _{k}_^_{n}_ \\)</div><div>Square root of the quotient \\(=\\sqrt{_{{(j**m)*(k**n)}}_}\\)</div><div>\\(=\\sqrt{_{j}_^_{m}_ \\times _{k}_^_{n}_}=_{{(j**(m/2))*(k**(n/2))}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "What is the square root of the quotient?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        3, 
+        5, 
+        2, 
+        5, 
+        3
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        3, 
+        2
+      ]
+    }, 
+    "m": {
+      "options": [
+        4, 
+        2, 
+        4, 
+        2, 
+        4
+      ]
+    }, 
+    "l": {
+      "options": [
+        19, 
+        23, 
+        29, 
+        31, 
+        37
+      ]
+    }, 
+    "n": {
+      "options": [
+        2, 
+        4, 
+        2, 
+        4, 
+        2
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{(j**(m/2))*(k**(n/2))}}_"
+  }, 
+  "type": 3
+}

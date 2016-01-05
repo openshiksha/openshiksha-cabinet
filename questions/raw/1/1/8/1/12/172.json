@@ -1,0 +1,23 @@
+{
+  "content": {
+    "text": "If in the previous part, the interest was compounded annually instead of half-yearly, which would result in a higher amount ?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Compounded annually"
+      }, 
+      {
+        "text": "No difference in amount"
+      }
+    ], 
+    "correct": {
+      "text": "Compounded half-yearly"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> Compounded yearly = _{{5000*j}}_ x (1+ (10/100))^2 = Rs. _{{6050*j}}_</div><div> Compounded half yearly = _{{j*5000}}_ x (1+ (10/200))^4 = Rs. _{{6077.531*j}}_</div><div> Therefore the amount compounded half yearly is greater than the amount compounded yearly. </div> <div> Note- For the same principal, interest and time period this is always true. </div>"
+  }
+}

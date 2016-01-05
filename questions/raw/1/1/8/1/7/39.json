@@ -1,0 +1,35 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>x =  _{{115*k}}_</div><div>\\(\\Rightarrow\\) Since X and Y are inversely proportional XY = K</div><div>\\(\\Rightarrow\\) Therefore, K  \\(= (529 \\times _{j}_) \\times (5 \\times _{k}_) = 2645 \\times _{j}_ \\times _{k}_\\)</div><div>\\(\\Rightarrow\\) Hence, when y \\(= 23 \\times _{j}_\\)</div><div>\\(\\Rightarrow\\) x \\(= \\frac {2645 \\times _{j}_ \\times _{k}_}{23 \\times _{j}_}\\)</div><div>\\(\\Rightarrow\\) x = _{{115*k}}_</div>"
+  }, 
+  "content": {
+    "text": "x = _{{529*j}}_ when y = _{{5*k}}_. Find x when y= _{{23*j}}_"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{115*k}}_"
+  }, 
+  "type": 3
+}

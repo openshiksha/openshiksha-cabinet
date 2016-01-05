@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Thus in the figure, vertex A is joined to C and D as B and E are adjacent sides.</div>", 
+    "img": "11.png"
+  }, 
+  "content": {
+    "text": "<div>For getting diagonals through vertex A of a pentagon ABCDE named in order, vertex A is joined to: </div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "B"
+      }, 
+      {
+        "text": "E"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "C"
+      }, 
+      {
+        "text": "D"
+      }
+    ]
+  }
+}

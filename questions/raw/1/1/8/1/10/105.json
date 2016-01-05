@@ -1,0 +1,22 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\(12^3=1728\\)</div><div>\\(1728=2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 3 \\times 3 \\times 3\\)</div><div>Here, the prime factors \\(2\\) and \\(3\\) appear in groups of three.</div>"
+  }, 
+  "content": {
+    "text": "In the prime factorisation of a cube number, each factor appears thrice."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

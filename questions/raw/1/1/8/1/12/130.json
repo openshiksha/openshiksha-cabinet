@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Since the bats cost the same price initially, and since he did not lose or gain any money, profit of bat 1 - loss of bat 2 = 0</div><div> \\( \\Rightarrow \\) Therefore profit = loss. </div>"
+  }, 
+  "content": {
+    "text": "If he did not gain or lose anything from the transaction, what is the relation between the profit and loss percentages of the two sales?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Profit &gt; Loss"
+      }, 
+      {
+        "text": "Profit &lt; Loss"
+      }, 
+      {
+        "text": "None of the above"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Profit = Loss"
+    }
+  }
+}

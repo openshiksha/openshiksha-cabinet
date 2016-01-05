@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\frac{x+_{j}_}{_{k}_x + (_{k}_+1)} = \\frac {3}{8}\\)</div><div>Cross multiply, i.e. take the denominator of one side to the numerator of the other side and multiply that numerator.</div><div>\\(\\Rightarrow 8(x+_{j}_)=3(_{k}_x + (_{k}_+1))\\)</div><div>\\(\\Rightarrow 8x+_{{8*j}}_=_{{3*k}}_x+_{{3*k+3}}_\\)</div><div>\\(\\Rightarrow (_{{3*k}}_-8)x=_{{8*j}}_-_{{3*k+3}}_\\)</div><div>\\(\\Rightarrow _{{3*k-8}}_x=_{{8*j-3*k-3}}_\\)</div><div>\\(\\Rightarrow x=\\frac {_{{8*j-3*k-3}}_}{_{{3*k-8}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{x+_{j}_}{_{k}_x + (_{k}_+1)} = \\frac {3}{8}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( \\frac {_{{8*j-3*k-3}}_}{_{{3*k+8}}_}\\)"
+      }, 
+      {
+        "text": "\\( \\frac {_{{8*j+3*k+3}}_}{_{{3*k-8}}_}\\)"
+      }, 
+      {
+        "text": "\\( \\frac {_{{8*j-3*k-1}}_}{_{{3*k-8}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( \\frac {_{{8*j-3*k-3}}_}{_{{3*k-8}}_}\\)"
+    }
+  }
+}

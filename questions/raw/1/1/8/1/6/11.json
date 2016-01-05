@@ -1,0 +1,59 @@
+{
+  "hint": {
+    "text": "Point A and Point F signify room temperature and boiling point respectively."
+  }, 
+  "solution": {
+    "text": "At time t=0, the temperature of water is _{m}_ degree celsius as represented by point A in the graph that lies on the y-axis"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A=(0,_{m}_), B=(1,_{j}_), C=(2,_{k}_), D=(3,_{l}_), E=(4,_{l}_), F=(8,100)</div><div>What was the initial temperature of water?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            48, 
+            52
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            38, 
+            42
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            28, 
+            32
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            68, 
+            72
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{m}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees celsius"
+}

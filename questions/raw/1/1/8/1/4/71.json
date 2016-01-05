@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "Odd powers of negative numbers stay negative."
+  }, 
+  "solution": {
+    "text": "<div>\\((-_{j}_)^3\\)</div><div>\\(=-_{j}_ \\times -_{j}_ \\times -_{j}_\\)</div><div>\\(=-_{{j**3}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "What is the cube of  \\(-_{j}_\\)? "
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        4
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {1}{_{{(j**3)}}_}\\)"
+      }, 
+      {
+        "text": "_{{j**3}}_"
+      }, 
+      {
+        "text": "_{{j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "\\(-_{{(j)**3}}_\\)"
+    }
+  }
+}

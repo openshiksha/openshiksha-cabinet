@@ -1,0 +1,20 @@
+{
+  "hint": {
+    "text": "Point A and Point F signify room temperature and boiling point respectively."
+  }, 
+  "solution": {
+    "text": "<div>Point A=(0,_{m}_), Point B=(1,_{j}_)</div><div>Rise in temperature in the first minute = _{j}_-_{m}_</div><div>=_{{j-m}}_</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>A=(0,_{m}_), B=(1,_{j}_), C=(2,_{k}_), D=(3,_{l}_), E=(4,_{l}_), F=(8,100)</div><div>By how many degrees did the temperature rise in the first minute?</div>"
+  }, 
+  "variable_constraints": {
+    "": {}
+  }, 
+  "answer": {
+    "value": "_{{j-m}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees celsius"
+}

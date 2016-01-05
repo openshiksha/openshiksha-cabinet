@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "<div>\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)</div><div>List out the possible outcomes.</div>"
+  }, 
+  "solution": {
+    "text": "<div>Total no. of outcomes on rolling a pair of dice \\(=36\\)</div><div>No. of outcomes in which the difference between the two number is \\(1\\) \\(=10\\)</div><div>Sample space :\\([(1,2), (2,1), (2,3), (3,2), (3,4), (4,3), (4,5), (5,4), (5,6), (6,5)]\\)</div><div>Probability \\(=\\frac{10}{36}\\)</div><div>\\(=\\frac{5}{18}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "The difference between the two numbers as \\(1\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "0.277"
+  }, 
+  "type": 3
+}

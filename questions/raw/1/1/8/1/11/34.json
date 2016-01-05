@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>As the diagonals of the rhombus are equal to its side, and all the sides of a rhombus are also equal, the rhombus forms two equilateral triangles separated by its diagonal.</div><div>Thus the angle of the equilateral triangle is \\(60^o\\), and the angle consisting of the diagonal is \\(60+60=120^o\\)</div>", 
+    "img": "34.png"
+  }, 
+  "content": {
+    "text": "<div>One of the diagonals of a rhombus and its sides are equal. Find the angles of the rhombus. </div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "60, 60"
+      }, 
+      {
+        "text": "30, 150"
+      }, 
+      {
+        "text": "90, 90"
+      }
+    ], 
+    "correct": {
+      "text": "60, 120"
+    }
+  }
+}

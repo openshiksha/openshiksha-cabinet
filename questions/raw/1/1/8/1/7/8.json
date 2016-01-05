@@ -1,0 +1,23 @@
+{
+  "content": {
+    "text": "The gross words per minute (GWAM) is defined as the number of words a person can type in one hour. Given that you are the fastest typer in the world and can type _{{6000*j}}_ words in one hour. What is your GWAM?", 
+    "img": "1.png"
+  }, 
+  "answer": {
+    "value": "_{{j*100}}_"
+  }, 
+  "type": 3, 
+  "subpart_index": 0, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "The size of each sector is proportional to the activity or information it represents. "
+  }, 
+  "solution": {
+    "text": "<div>Observe the pie chart carefully,</div><div>the students spends \\(25\\) percent of the total amount for purchasing wood.</div><div>Total expenditure on wood \\(=\\frac {25}{100} \\times _{j}_\\)</div><div>\\(=_{{(Decimal(str(0.25)))*j}}_\\)</div><div>Therefore, the maximum expenditure on a single item is Rs.\\(_{{(Decimal(str(0.25)))*j}}_\\).</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>He was given Rs.\\(_{j}_\\) from his parents and he managed to save Rs.\\(_{{(Decimal(str(0.15)))*j}}_\\) from the total amount.</div><div>What was the maximum expenditure on a single item?</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        1000, 
+        1500, 
+        2000, 
+        2500, 
+        3000
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{(Decimal(str(0.25)))*j}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

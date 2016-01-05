@@ -1,0 +1,68 @@
+{
+  "solution": {
+    "text": "<div>\\( \\frac {_{j}_}{_{k}_} \\times - \\frac {_{m}_}{_{l}_}\\) = -_{{trunc(Decimal(k*m)/Decimal(j*l), 2)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Multiply \\( \\frac {_{j}_}{_{k}_}\\) by the reciprocal of -\\( \\frac {_{m}_}{_{l}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(j*l)/Decimal(k*m), 2)}}_"
+      }, 
+      {
+        "text": "-_{{trunc(Decimal(j*l)/Decimal(k*m), 2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(k*m)/Decimal(j*l), 2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "-_{{trunc(Decimal(k*m)/Decimal(j*l), 2)}}_"
+    }
+  }
+}

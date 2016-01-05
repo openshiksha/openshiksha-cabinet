@@ -1,0 +1,16 @@
+{
+  "hint": {
+    "text": "If the cells double itself every hour, in 5 hours it would have doubled itself 5 times, find this amount."
+  }, 
+  "solution": {
+    "text": "<div>Initial number cells \\(= 1\\)</div><div>The cells double itself every hour.</div><div>Hence, the number of cells after 5 hours will be \\(2^5 \\times 1\\)</div><div>\\(=32\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "The cells of a bacteria double itself every hour. How many cells will there be after 5 hours, if initially we start with 1 cell?"
+  }, 
+  "answer": {
+    "value": 32
+  }, 
+  "type": 3
+}

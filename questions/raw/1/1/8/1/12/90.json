@@ -1,0 +1,42 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Discount on toys = _{{2*j}}_ %</div><div>Discount on clothes = _{{3*k}}_%</div><div>Discount on books = _{{6*l}}_%</div><div> Hence, total discount on bill = \\( \\sum \\)(Quantity of item \\(\\times\\) discount on item)/ \\( \\sum \\) Quantity of item</div><div>Therefore, total discount= \\( ((3 \\times _{{2*j}}_)+ (2 \\times _{{3*k}}_) + (1 \\times _{{6*l}}_))/(3+ 2 + 1)= 6 \\times _{{j+k+l}}_/6 \\)= _{{j+k+l}}_%</div>"
+  }, 
+  "content": {
+    "text": "If a store sells all toys at a _{{2*j}}_ % discount. All clothes at _{{3*k}}_ % discount and all books at _{{6*l}}_% discount. Assume all items in the store cost the exact same amount. If Rohit buys 3 toys, 2 clothes and one book. What is the total discount percentage he gets on the total bill?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "options": [
+        2, 
+        5
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{j+k+l}}_"
+  }, 
+  "type": 3, 
+  "unit": "%"
+}

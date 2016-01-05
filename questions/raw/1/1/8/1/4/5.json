@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>False</div><div>\\( (a^{_{k}_}) \\times (b^{_{m}_}) \\) is not \\( (a \\times b)^{_{k}_} \\times {_{m}_} \\)</div>"
+  }, 
+  "content": {
+    "text": "\\( (a^{_{k}_}) \\times ({b}^{_{m}_})= (a \\times b)^{{_{k}_} \\times {_{m}_}} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "m": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "\\( _{{k*10}}_ = _{{k*(Decimal('0.001'))}}_ \\times 10^4 \\)"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\( _{{k*10}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1001, 
+            9999
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{{k*(Decimal('0.01'))}}_ \\times 10^4 \\)"
+      }, 
+      {
+        "text": "\\( _{{k*(Decimal('0.1'))}}_ \\times 10^4 \\)"
+      }, 
+      {
+        "text": "\\( _{k}_ \\times 10^4 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{{k*(Decimal('0.001'))}}_ \\times 10^4 \\)"
+    }
+  }
+}

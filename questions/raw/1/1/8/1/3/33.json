@@ -7,36 +7,8 @@
     "text": "\\( (a \\times _{j}_) + (a \\times _{k}_) = _{l}_ \\times (_{j}_+_{k}_) \\)"
   }, 
   "variable_constraints": {
-    "k": {
-      "range": {
-        "exclude": [
-          [
-            0
-          ]
-        ], 
-        "include": [
-          [
-            1, 
-            20
-          ]
-        ]
-      }
-    }, 
-    "j": {
-      "range": {
-        "exclude": [
-          [
-            0
-          ]
-        ], 
-        "include": [
-          [
-            1, 
-            20
-          ]
-        ]
-      }
-    }, 
+    "k": {}, 
+    "j": {}, 
     "l": {
       "range": {
         "exclude": [

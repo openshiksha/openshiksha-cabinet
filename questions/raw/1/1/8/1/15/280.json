@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the ages be \\(_{j}_x\\) and \\(_{k}_x\\) where \\(x\\) is a variable. </div><div>According to question</div><div>\\(\\Rightarrow \\frac {_{j}_x+_{{k-(3*j)}}_}{_{k}_x+_{{k-(3*j)}}_}=\\frac13\\)</div><div>\\(\\Rightarrow _{{3*j}}_x+3(_{{k-(3*j)}}_)=_{k}_x+_{{k-(3*j)}}_\\)</div><div>\\(\\Rightarrow _{{(3*j)-k}}_x=-2(_{{k-(3*j)}}_)\\)</div><div>\\(\\Rightarrow _{{k-(3*j)}}_x=2(_{{k-(3*j)}}_)\\)</div><div>\\(\\Rightarrow x=\\frac {2(_{{k-(3*j)}}_)}{_{{k-(3*j)}}_}\\)</div><div>\\(\\Rightarrow x=2\\)</div><div>Therefore, Angad's age is \\(_{{2*j}}_\\) years.</div>"
+  }, 
+  "content": {
+    "text": "<div>The ratio of Angad's and Sachi's age is _{j}_:_{k}_. _{{k-(3*j)}}_ years later the ratio will be 1:3. </div><div>What is Angad's age?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            31, 
+            36
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "2"
+      }, 
+      {
+        "text": "_{{3*j}}_"
+      }, 
+      {
+        "text": "_{{4*j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{2*j}}_"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_u^4+_{j}_u^2+_{j}_\\)</div><div>\\(=_{j}_(u^4+u^2+1)\\)</div><div>\\(=_{j}_(u^4+2u^2+1-u^2)\\qquad\\)[Adding and subtracting \\(u^2\\) ]</div><div>\\(=_{j}_((u^2+1)^2-u^2)\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=_{j}_(u^2+1-u)(u^2+1+u)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div>"
+  }, 
+  "subpart_index": 7, 
+  "content": {
+    "text": "\\(_{j}_u^4+_{j}_u^2+_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_(u^2+1-u)(u^2+1-u)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(u^2-1-u)(u^2-1+u)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(u^2+1+u)(u^2+1+u)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_(u^2+1-u)(u^2+1+u)\\)"
+    }
+  }
+}

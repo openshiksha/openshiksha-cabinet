@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors."
+  }, 
+  "solution": {
+    "text": "<div>Regroup the terms:</div><div>\\(=t^2+ty+_{j}_t+_{j}_y\\)</div><div>\\(=t(t+y)+_{j}_(t+y)\\)</div><div>\\(=(t+_{j}_)(t+y)\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(t^2+_{j}_t+_{j}_y+ty\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((t+y)(_{j}_+y)\\)"
+      }, 
+      {
+        "text": "\\((t+1)(t+y)\\)"
+      }, 
+      {
+        "text": "\\(t(t+_{j}_+2y)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((t+_{j}_)(t+y)\\)"
+    }
+  }
+}

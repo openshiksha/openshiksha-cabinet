@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "\\(a^0=1\\)"
+  }, 
+  "solution": {
+    "text": "<div>Any non-zero number raised to the power 0 is equal to 1.</div><div>Hence \\(101^0=1\\), thus \\(k=0\\)</div>"
+  }, 
+  "subpart_index": 10, 
+  "content": {
+    "text": "\\(101^k = 1\\) , what is the value of \\(k\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

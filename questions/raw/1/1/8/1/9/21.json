@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Here - _{j}_ is at the thousands place, _{k}_ is at hundreds place, 6 is at tens place and 0 is at ones place.<div> \\(\\Rightarrow\\) Therefore the number in generalized form is \\((_{j}_ \\times 1000) + (_{k}_ \\times 100) +(6 \\times 10) \\).</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}__{k}_60\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( (_{j}_  \\times 1000) + (_{k}_ \\times 100) +6 \\)"
+      }, 
+      {
+        "text": "\\( (_{k}_ \\times 1000) + (6 \\times 10) +_{j}_ \\)"
+      }, 
+      {
+        "text": "\\(  (_{j}_ \\times 100) + (9 \\times 10) \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_ \\times 1000) + (_{k}_ \\times 100) +(6 \\times 10) \\)"
+    }
+  }
+}

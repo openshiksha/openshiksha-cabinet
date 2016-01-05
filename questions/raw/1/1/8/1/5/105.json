@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**4}}_t^4-(y+z)^4\\)</div><div>\\(=(_{{j**2}}_t^2)^2-((y+z)^2)^2\\)</div><div>\\(=(_{{j**2}}_t^2-(y+z)^2)(_{{j**2}}_t^2+(y+z)^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(_{j}_t-(y+z))(_{j}_t+(y+z))(_{{j**2}}_t^2+(y+z)^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(_{j}_t-y-z)(_{j}_t+y+z)(_{{j**2}}_t^2+(y+z)^2)\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\(_{{j**4}}_t^4-(y+z)^4\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_t-y+z)(_{j}_t+y-z)(_{{j**2}}_t^2+(y+z)^2)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_t-y-z)(_{j}_t+y+z)(_{{j**2}}_t^2-(y+z)^2)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_t+y-z)(_{j}_t+y+z)(_{{j**2}}_t^2+(y+z)^2)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_t-y-z)(_{j}_t+y+z)(_{{j**2}}_t^2+(y+z)^2)\\)"
+    }
+  }
+}

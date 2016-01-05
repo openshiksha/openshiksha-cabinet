@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Cost of Plane ticket without VAT = Distance x Rate = (150 x 20) = Rs. 3000</div><div> Cost of plane ticket with VAT= Initial cost + (VAT percentage x initial cost)/100</div><div>VAT percentage = _{j}_%.</div><div> Hence, cost of plane ticket with VAT = 3000 + (_{j}_ x 3000)/100 = Rs. _{{30*(100+j)}}_</div><div> Now, Since Shyam gets a frequent flyer discount, discount percentage = _{k}_%</div><div> Final cost for shyam = Cost of ticket - (Discount percentage x Cost of ticket)/100</div><div>  \\( \\Rightarrow \\) Final cost of ticket = _{{30* (100+j)}}_ - (_{k}_x _{{30*(100+j)}}_/100)= Rs. _{{(100-k)*(100+Decimal(j))*(3)/10}}_ </div>"
+  }, 
+  "content": {
+    "text": "Shyam bought a plane ticket ticket from Pune to Mumbai which are 150 Km apart. The ticket costs Rs.20 per Km + a VAT of _{j}_%. Shyam is a frequent flyer and the airlines offers him _{k}_% discount of every ticket he buys after all taxes are added. How much does the plane ticket from Mumbai to Pune cost Shyam ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(100-k)*(100+Decimal(j))*(3)/10}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

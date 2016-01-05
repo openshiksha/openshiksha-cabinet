@@ -1,0 +1,25 @@
+{
+  "subpart_index": 9, 
+  "solution": {
+    "text": "_{{k*10000}}_ can also be written as \\( _{{k* Decimal('0.01')}}_ \\times 10^6 \\). Thus the power of 10 is 6"
+  }, 
+  "content": {
+    "text": "The power of 10 in the standard form of _{{k*10000}}_ is ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            101, 
+            999
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 6
+  }, 
+  "type": 3
+}

@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "If the base on both sides of the equation are equal, the exponents can be equated with each other."
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac {k^n}{k^{-2}} = k^3\\)</div><div>\\({k^n} \\times {k^{2}} = k^3\\)</div><div>\\(k^{n+2} = k^3\\)</div><div>As the base on both sides are equal, we can equate the exponents.</div><div>\\(n+2 = 3\\)</div><div>\\(n=1\\)</div>"
+  }, 
+  "subpart_index": 14, 
+  "content": {
+    "text": "Find the value of \\(n, given \\frac {_{k}_^n}{_{k}_^{-2}} = _{k}_^3\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "-2"
+      }, 
+      {
+        "text": "0"
+      }, 
+      {
+        "text": "3"
+      }
+    ], 
+    "correct": {
+      "text": "1"
+    }
+  }
+}

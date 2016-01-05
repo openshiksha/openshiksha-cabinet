@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "\\(a^0=1\\)"
+  }, 
+  "solution": {
+    "text": "<div>As the whole expression is raised to the power 0, it doesn't matter what the expression is, as any non zero number raised to the power 0 is 1.</div><div>Hence the answer is 1</div>"
+  }, 
+  "subpart_index": 7, 
+  "content": {
+    "text": "Solve \\( \\left(\\frac {( 99 \\times 100 )^{-1}}{( 13 \\times 27)^{-3}} \\right)^0 \\) "
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 1
+  }, 
+  "type": 3
+}

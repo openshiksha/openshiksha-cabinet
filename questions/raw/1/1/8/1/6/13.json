@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "Point A and Point F signify room temperature and boiling point respectively."
+  }, 
+  "solution": {
+    "text": "<div>Point C=(2,_{k}_), Point D=(4,_{l}_)</div><div>Rise in temperature in the third minute = _{l}_-_{k}_</div><div>=_{{l-k}}_</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>A=(0,_{m}_), B=(1,_{j}_), C=(2,_{k}_), D=(3,_{l}_), E=(4,_{l}_), F=(8,100)</div><div>By how many degrees did the temperature rise in the third minute?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{l-k}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees celsius"
+}

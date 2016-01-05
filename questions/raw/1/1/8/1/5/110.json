@@ -1,0 +1,38 @@
+{
+  "subpart_index": 9, 
+  "solution": {
+    "text": "<div>\\((x+_{{j-3}}_)(x-_{j}_)+_{{(j*(j-3))-54}}_\\)</div><div>\\(=x^2-_{j}_x+_{{j-3}}_x-_{{j*(j-3)}}_+_{{(j*(j-3))-54}}_\\)</div><div>\\(=x^2-3x-_{{j*(j-3)}}_+_{{(j*(j-3))-54}}_\\)</div><div>\\(=x^2-3x-54\\)</div><div>\\(=x^2+(6-9)x+(6)(-9)\\)</div><div>Using identity \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow x^2+(6-9)x+(6)(-9)=(x+6)(x-9)\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((x+_{{j-3}}_)(x-_{j}_)+_{{(j*(j-3))-54}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            16
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x+6)(x-11)\\)"
+      }, 
+      {
+        "text": "\\((x+8)(x-8)\\)"
+      }, 
+      {
+        "text": "\\(x^2-4^2\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((x+6)(x-9)\\)"
+    }
+  }
+}

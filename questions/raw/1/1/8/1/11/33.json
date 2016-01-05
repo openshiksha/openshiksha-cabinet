@@ -1,0 +1,22 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>False</div><div>Diagonals of a rhombus are perpendicular to each other, but a rectangle is not a rhombus.</div>"
+  }, 
+  "content": {
+    "text": "<div>Rectangle diagonals are perpendicular to each other</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

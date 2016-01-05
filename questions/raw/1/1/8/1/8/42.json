@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>The amount of natural numbers that lie between the squares of two consecutive integers \\(x\\) and \\((x+1)\\) is equal to one less than the difference of the square numbers.</div><div>\\(=(x+1)^2-x^2-1\\)</div><div>\\(=x^2+2x+1-x^2-1\\)</div><div>\\(=2x\\), where x is the smaller one of the 2 consecutive integers.</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_^2=_{{j**2}}_\\)</div><div>\\(_{{j+1}}_^2=_{{(j+1)**2}}_\\)</div><div>Therefore, the amount of natural numbers between \\(_{j}_^2\\) and \\(_{{j+1}}_^2\\) :</div><div>\\(=_{{j+1}}_^2-_{j}_^2-1\\)</div><div>\\(=_{{(j+1)**2}}_-_{{j**2}}_-1\\)</div><div>\\(=_{{(j+1)**2-j**2-1}}_\\)</div><div>OR, since we know that the amount of natural numbers between the sqaures of 2 consecutive integers is given by twice the smaller integer,</div><div>Amount of natural numbers \\(=2\\times_{j}_\\)</div><div>\\(=_{{2*j}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "How many natural numbers lie between \\(_{j}_^2\\) and \\(_{{j+1}}_^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            100, 
+            199
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{2*j}}_"
+  }, 
+  "type": 3
+}

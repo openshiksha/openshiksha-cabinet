@@ -1,0 +1,35 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> _{j}_t - _{k}_t = _{k}_-_{j}_ </div><div> t = _{{k-j}}_/_{{(j-k)}}_ </div><div> t = -_{{k-j}}_/_{{(k-j)}}_ </div><div> \\( \\Rightarrow \\) t = -1 </div>"
+  }, 
+  "content": {
+    "text": "_{j}_t-_{k}_=_{k}_t-_{j}_  "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": -1
+  }, 
+  "type": 3
+}

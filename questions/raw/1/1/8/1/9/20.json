@@ -1,0 +1,38 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Here - 6 is at hundreds place, _{j}_ is at tens place and 1 is at ones place.<div> \\(\\Rightarrow\\) Therefore the number in generalized form is \\((6 \\times 100) + (_{j}_ \\times 10) + 1\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(6_{j}_1\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( (6 \\times 100) + (1 \\times 10) +_{j}_ \\)"
+      }, 
+      {
+        "text": "\\( (_{j}_ \\times 100) + (6 \\times 10) +1 \\)"
+      }, 
+      {
+        "text": "\\( (1 \\times 100) + (_{j}_ \\times 10) +6 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( (6 \\times 100) + (_{j}_ \\times 10) +1 \\)"
+    }
+  }
+}

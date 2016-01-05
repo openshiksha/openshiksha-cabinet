@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "A pyramid is a polyhedron whose base is a polygon and lateral faces are triangles."
+  }, 
+  "content": {
+    "text": "The lateral surfaces of a pyramid are-"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Parallelograms"
+      }, 
+      {
+        "text": "Circles"
+      }, 
+      {
+        "text": "Kites"
+      }
+    ], 
+    "correct": {
+      "text": "Triangles"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "hint": {
+    "text": "\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)"
+  }, 
+  "solution": {
+    "text": "<div>No. of Orange balls \\(=_{m}_\\)</div><div>No. of Green balls \\(=_{l}_\\)</div><div>Probability of drawing an Orange ball \\(=\\frac {No.\\,of\\,orange\\,balls}{Total\\,balls}\\)</div><div>\\(=\\frac {_{m}_}{_{j}_+_{k}_+_{l}_+_{m}_}\\)</div><div>\\(=\\frac{_{m}_}{_{{j+k+l+m}}_}=_{{Fraction(m,j+k+l+m)}}_\\)</div><div>Probability of drawing a Green ball \\(=\\frac {No.\\,of\\,green\\,balls}{Total\\,balls}\\)</div><div>\\(= \\frac{_{l}_}{_{j}_+_{k}_+_{l}_+_{m}_}\\)</div><div>\\(=\\frac {_{l}_}{_{{j+k+l+m}}_}=_{{Fraction(l,j+k+l+m)}}_\\)</div><div>Therefore, the probability of drawing of drawing an orange ball is more than that of a green ball</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "A bag contains \\(_{j}_\\) red balls, \\(_{k}_\\) blue balls, \\(_{l}_\\) green balls and \\(_{m}_\\) orange balls (The balls are identical in all respects other than color). A single ball is drawn at random, is the probability of drawing an orange ball more than that of a green ball? "
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

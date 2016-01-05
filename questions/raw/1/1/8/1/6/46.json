@@ -1,0 +1,40 @@
+{
+  "hint": {
+    "text": "To locate a point (x,y), move x units towards the right on the x-axis from origin. Then move y units upwards."
+  }, 
+  "solution": {
+    "text": "<div>Here, _{j}_ is the x co-ordinate and _{k}_ is the y co-ordinate.</div><div>Hence, we move _{j}_ units towards the right on x axis from the origin and then move _{k}_ units upwards.</div><div>Therefore, the given co-ordinates (_{j}_,_{k}_) correspond to point _{l}_</div> "
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "To which letter do the co-ordinates (_{j}_,_{k}_) correspond to?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        2, 
+        2, 
+        3, 
+        4
+      ]
+    }, 
+    "j": {
+      "options": [
+        3, 
+        4, 
+        2, 
+        2
+      ]
+    }, 
+    "l": {
+      "options": [
+        "D", 
+        "E", 
+        "J", 
+        "K"
+      ]
+    }
+  }, 
+  "answer": "_{l}_", 
+  "type": 4
+}

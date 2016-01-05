@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The adjacent angles of a parallelogram always add up to \\(180^o\\).</div><div>Let the angles be \\(_{j}_x\\) and \\(_{{10-j}}_x\\).</div><div>Now, \\(_{j}_x + _{{10-j}}_x = 10x = 180\\)</div><div>\\(x=18\\)</div><div>Therefore, smallest angle is \\(_{{min(j,10-j)}}_x=_{{min(j,10-j)}}_ \\times 18= _{{min(j,10-j)*18}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Two adjacent angles of a parallelogram are in the ratio _{j}_:_{{10-j}}_. Find the smallest angle </div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{min(j,10-j)*18}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

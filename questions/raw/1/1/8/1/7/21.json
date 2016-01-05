@@ -1,0 +1,20 @@
+{
+  "content": {
+    "text": "Number of buffaloes (x) that graze a field and the number of days(y) they take to finish grazing one field"
+  }, 
+  "solution": {
+    "text": "<div>Yes</div><div>\\( \\Rightarrow \\)Can be represented as \\( \\frac xy = k \\) as field size is constant.</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

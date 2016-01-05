@@ -1,0 +1,13 @@
+{
+  "content": {
+    "text": "From the table above, find out the value of b"
+  }, 
+  "answer": {
+    "value": "_{{trunc(Decimal(1)/Decimal(j), 2)}}_"
+  }, 
+  "type": 3, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(b = \\frac 1{_{j}_}\\)</div><div>\\(\\Rightarrow\\) Since X and Y are inversely proportional XY = k</div><div>\\(\\Rightarrow\\) Therefore, \\((b) \\times (20 \\times (_{j}_^2)) = 10 \\times a\\)</div><div>\\(\\Rightarrow\\) From previous subpart, \\(a = 2 \\times _{j}_\\)</div><div>\\(\\Rightarrow\\) b =\\( \\frac {20 \\times _{j}_}{(20 \\times (_{j}_^2))}\\)</div><div>\\(\\Rightarrow\\) b = _{{1/j}}_</div>"
+  }
+}

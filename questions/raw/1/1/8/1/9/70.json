@@ -1,0 +1,14 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Let \\(x = 10a + b.\\) </div><div>Therefore, \\(y = 10b +a\\) </div><div> \\(x+y = 11a + 11b\\) </div><div> \\(x+y = 11 \\times (a +b)\\)</div><div> \\(\\Rightarrow \\) Therefore, 11 is always a factor of the sum. </div>"
+  }, 
+  "content": {
+    "text": "If both x and y are added he gets a number that is always divisible by a certain prime number. What is the number?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 11
+  }, 
+  "type": 3
+}

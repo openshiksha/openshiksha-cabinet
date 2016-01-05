@@ -1,0 +1,15 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The diagonals of a square are equal, therefore the halves of their diagonals would also be equal.</div><div>\\(AC=BD\\)</div><div>\\(AC/2 = BD/2\\)</div><div>\\(AO=BO\\)</div><div>\\(4x+2=3x+7\\)</div><div>\\(x=7-2=5\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>ABCD is a square. The diagonals meet at O. If \\(AO = 4x + 2\\) and \\(BO = 3x + 7\\), find x</div>", 
+    "img": "38.png"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 5
+  }, 
+  "type": 3
+}

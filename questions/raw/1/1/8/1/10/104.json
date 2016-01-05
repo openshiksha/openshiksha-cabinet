@@ -1,0 +1,22 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\(3^3=7+9+11\\)</div><div>\\(4^3=13+15+17+19\\)</div><div>Hence, the cube of a number \\(x\\) may be represented as a sum of \\(x\\) consecutive odd numbers.</div>"
+  }, 
+  "content": {
+    "text": "The cube of a number \\(x\\) may be represented as a sum of \\(x\\) consecutive odd numbers."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

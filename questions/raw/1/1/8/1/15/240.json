@@ -1,0 +1,45 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Let Asmita's daughter's age be y years. </div><div> Then Asmita's present age is _{j}_y years. </div><div> _{k}_ years later, Asmita's age will be _{j}_y+_{k}_ and her Daughter's age will be y+_{k}_. </div><div>According to question , </div> <div> _{j}_y+_{k}_=_{l}_(y+_{k}_) </div><div>_{{j-l}}_y=_{k}_(_{l}_-1) </div><div>y=_{{(l-1)*k}}_/_{{j-l}}_ </div><div> y=_{{trunc((Decimal(l)*(k-1))/(j-l),2)}}_ </div>"
+  }, 
+  "content": {
+    "text": "Asmita's present age is _{j}_ times her daughter's age. _{k}_ years later she will be _{l}_ times her daughter's age. What is her daughter's age in years? Solve up to two decimal places."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{trunc((Decimal(l)*(k-1))/(j-l),2)}}_"
+  }, 
+  "type": 3
+}

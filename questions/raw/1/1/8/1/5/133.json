@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Try and use the method completing the perfect square</div><div>For example : </div><div>\\(a^2+8a+15\\)</div><div>\\(=a^2+8a+4^2-4^2+15\\,\\)[Adding and subtracting \\(4^2\\)]</div><div>\\(=a^2+(2)(a)(4)+4^2-1\\)</div><div>\\(=(a+4)^2-1\\)</div><div>Now use the identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=(a+4-1)(a+4+1)\\)</div><div>\\(=(a+3)(a+5)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(-_{j}_t+_{{6*j}}_-_{{2*j}}_t^2\\)</div><div>\\(=_{{2*j}}_(-\\frac{t}2+3-t^2)\\)</div><div>\\(=-_{{2*j}}_(t^2+\\frac{t}2-3)\\)</div><div>Now add and subtract \\(\\left(\\frac14\\right)^2\\)</div><div>\\(=-_{{2*j}}_(t^2+\\frac{t}2+\\left(\\frac14\\right)^2-3-\\left(\\frac14\\right)^2)\\)</div><div>\\(=-_{{2*j}}_(t^2+(2)(\\frac14)(t)+\\left(\\frac14\\right)^2-3-\\frac1{16})\\)</div><div>\\(=-_{{2*j}}_((t+\\frac14)^2-\\frac{49}{16})\\)</div><div>\\(=-_{{2*j}}_((t+\\frac14)^2-\\left(\\frac74\\right)^2)\\)</div><div>Using identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=-_{{2*j}}_(t+\\frac14-\\frac74)(t+\\frac14+\\frac74)\\)</div><div>\\(=-_{{2*j}}_(t-\\frac32)(t+2)\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(-_{j}_t+_{{6*j}}_-_{{2*j}}_t^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_t-3)(_{j}_t+2)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(t^2-3)^2\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(t-2)(t+\\frac32)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(-_{{2*j}}_(t-\\frac32)(t+2)\\)"
+    }
+  }
+}

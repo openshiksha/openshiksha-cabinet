@@ -3,7 +3,7 @@
     "text": "<div>\\((ab - bc) - (bc - ca) + (ca - ab)\\)</div><div>Answer:</div>"
   }, 
   "solution": {
-    "text": "<div>\\((ab \u2013 bc) \u2013 (bc \u2013 ca) + (ca \u2013 ab)\\)</div><div>\\(= ab \u2013 bc \u2013 bc + ca + ca \u2013 ab\\)</div><div>\\(= ab \u2013 ab \u2013 bc \u2013 bc + ac + ac\\)</div><div>\\(= 2ac \u2013 2bc\\)</div>"
+    "text": "<div>\\((ab - bc) - (bc - ca) + (ca - ab)\\)</div><div>\\(= ab - bc - bc + ca + ca - ab\\)</div><div>\\(= ab - ab - bc - bc + ac + ac\\)</div><div>\\(= 2ac - 2bc\\)</div>"
   }, 
   "type": 1, 
   "subpart_index": 0, 

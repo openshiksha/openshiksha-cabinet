@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "What is the breadth of the plot ?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_ m"
+      }, 
+      {
+        "text": "_{{2*j}}_ m"
+      }, 
+      {
+        "text": "_{k}_ m"
+      }
+    ], 
+    "correct": {
+      "text": "_{{2*k}}_ m"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> Taking the length and breadth  as _{j}_y and _{k}_y we get, </div> <div> From previous part, y=2 </div><div> \\( \\Rightarrow \\) Now,the breadth = _{k}_y = _{k}_ x 2 = _{{2*k}}_ m</div> "
+  }
+}

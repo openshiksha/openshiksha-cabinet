@@ -1,0 +1,22 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>True</div><div>Sum of interior angles of a polygon depends on the number of sides of the polygon by the equation \\( (n-2) \\times 180 = \\) sum of interior angles of the polygon where n is the number of sides of the polygon.</div>"
+  }, 
+  "content": {
+    "text": "<div>Sum of interior angles of a polygon depends on the number of sides of the polygon</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Cube of a number is the number we get by multiplying an integer by itself three times</div><div>For example, the cube of \\(2\\) is \\(2^3=2 \\times 2 \\times 2=8\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Cube of \\(_{j}_\\)</div><div>\\(=_{j}_^3\\)</div><div>\\(=_{{j**3}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "What is the cube of \\(_{j}_\\)?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j**3}}_"
+  }, 
+  "type": 3
+}

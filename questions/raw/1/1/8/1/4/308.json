@@ -1,0 +1,36 @@
+{
+  "content": {
+    "text": "_{{(Decimal(str(j))) *Decimal('0.00001')}}_"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            1.03, 
+            9.93
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 7, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{j}_ \\times 10^5 \\)"
+      }, 
+      {
+        "text": "\\( _{j}_ \\times 10^{4} \\)"
+      }, 
+      {
+        "text": "\\( _{j}_ \\times 10^{-4} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{j}_ \\times 10^{-5} \\)"
+    }
+  }
+}

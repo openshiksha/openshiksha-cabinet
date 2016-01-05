@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "On folding each square and rectangle inwards, it forms a cuboid."
+  }, 
+  "content": {
+    "img": "3.2.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cube"
+      }, 
+      {
+        "text": "Rectangle"
+      }, 
+      {
+        "text": "Square"
+      }
+    ], 
+    "correct": {
+      "text": "Cuboid"
+    }
+  }
+}

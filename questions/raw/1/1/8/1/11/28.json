@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>If the diagonals of a parallelogram bisect each other at right angles, the parallelogram must be a rhombus.</div><div>But a square is also a type of a rhombus, thus the answer is both, square and rhombus.</div>"
+  }, 
+  "content": {
+    "text": "<div>If the diagonals of a parallelogram bisect each other at right angles, it is a</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rectangle"
+      }, 
+      {
+        "text": "Kite"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Rhombus"
+      }, 
+      {
+        "text": "Square"
+      }
+    ]
+  }
+}

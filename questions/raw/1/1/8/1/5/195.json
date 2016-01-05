@@ -1,0 +1,24 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>Consider LHS</div><div>\\(=\\frac{_{j}_a^2}{_{j}_a^2}\\)</div><div>\\(=1\\)</div><div>\\(\\neq 0\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{j}_a^2}{_{j}_a^2}=0\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Correct"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Incorrect"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Breadth =  _{{5*j}}_ cm</div><div>\\(\\Rightarrow\\) Since Area is constant, Length and Breadth are inversely proportional. L \\(\\times\\) B = A = K</div><div>\\(\\Rightarrow\\) Therefore, taking case 1, K = ( 10 \\(\\times\\) _{j}_) \\(\\times\\) (5 \\(\\times\\) _{k}_ ) = 50 \\(\\times\\) _{j}_ \\(\\times\\) _{k}_</div><div>\\(\\Rightarrow\\) Hence, if Length = 10 \\(\\times\\) _{k}_</div><div>\\(\\Rightarrow\\) Breadth =\\( \\frac {50 \\times _{j}_ \\times _{k}_}{10 \\times _{k}_}\\)</div><div>\\(\\Rightarrow\\) Breadth = _{{5*j}}_</div>"
+  }, 
+  "content": {
+    "text": "The length and breadth of a given rectangle are _{{10*j}}_ and _{{5*k}}_ cm. Given that the area remains constant find the breadth of the rectangle when length is _{{10*k}}_"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "unit": "cm", 
+    "value": "_{{5*j}}_"
+  }, 
+  "type": 3
+}

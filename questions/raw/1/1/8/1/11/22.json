@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>In parallelogram ABCD, \\( \\angle A=\\angle C\\) (opposite angles of a parallelogram)</div> <div>But \\( \\angle A=k=_{k}_\\) and \\(\\angle C =20y\\)</div><div>Thus \\(20y=_{k}_\\)</div><div>\\(y=_{{k/20}}_ \\)</div>"
+  }, 
+  "content": {
+    "text": "<div>What is the value of y when k is _{k}_?  </div>", 
+    "img": "22.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        100, 
+        120, 
+        140, 
+        160
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{k/20}}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

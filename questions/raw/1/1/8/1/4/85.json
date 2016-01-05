@@ -1,0 +1,51 @@
+{
+  "hint": {
+    "text": "For any number \\(a, a^m \\times a^n = a^{m+n}\\)"
+  }, 
+  "solution": {
+    "text": "<div>When equal integers with powers are multiplied to each other, their powers get added.</div><div>Hence \\(z^{_{j}_} \\times z^{_{k}_} = z^{_{{j+k}}_}\\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "For a non zero integer \\(z, z^{_{j}_} \\times z^{_{k}_}\\) "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(z^{_{{j*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(z^{_{{j-k}}_}\\)"
+      }, 
+      {
+        "text": "\\(z\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(z^{_{{j+k}}_}\\)"
+    }
+  }
+}

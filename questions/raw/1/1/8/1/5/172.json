@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": "First rearrange the terms in the dividend and divisor in order of degree and look for any common values."
+  }, 
+  "solution": {
+    "text": "<div>First rearrange the terms in the divisor in order of degree : \\(2x^2+4x-3\\)</div><div>Now perform long division as follows : </div>", 
+    "img": "172.png"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(\\frac{8x^4-10x^2+30x-3}{2x^2-3+4x}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(Quotient : (4x^2+8x-17)\\;Remainder : (-62x+48)\\)"
+      }, 
+      {
+        "text": "\\(Quotient : (4x^2-8x+17)\\;Remainder : (62x-48)\\)"
+      }, 
+      {
+        "text": "\\(Quotient : (4x^2+8x+17)\\;Remainder : (62x+48)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(Quotient : (4x^2-8x+17)\\;Remainder : (-62x+48)\\)"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "content": {
+    "text": "Choose from the options below:"
+  }, 
+  "solution": {
+    "text": "<div>a + b=b+a ,Therefore commutative property</div><div>a + (b+c)=(a+b)+c,therefore associative property</div><div>Addition of two ratonal numbers gives a rational number,Therefore closed under adddition</div>"
+  }, 
+  "type": 2, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "DeMorgan's property"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Commutative property"
+      }, 
+      {
+        "text": "Associative property"
+      }, 
+      {
+        "text": "Closure property"
+      }
+    ]
+  }
+}

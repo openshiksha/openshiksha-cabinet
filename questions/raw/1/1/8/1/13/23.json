@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "The total number of students that fall in a particular category is called the frequency."
+  }, 
+  "solution": {
+    "text": "<div>From the table shown,</div><div>The total number of students falling in the group \\((30-40)\\) is \\(8\\), which is the highest count.</div><div>Therefore, group \\((30-40)\\) has the highest frequency.</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "Which group has the highest frequency?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "0-10"
+      }, 
+      {
+        "text": "10-20"
+      }, 
+      {
+        "text": "20-30"
+      }, 
+      {
+        "text": "40-50"
+      }
+    ], 
+    "correct": {
+      "text": "30-40"
+    }
+  }
+}

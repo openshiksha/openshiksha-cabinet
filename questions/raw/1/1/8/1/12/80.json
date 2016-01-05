@@ -1,0 +1,15 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Decrease or Increase= Difference in old price and new price.</div><div>Since New price &lt; Old price, Decrease = Old price - New price.</div><div>Decrease = 4000- 3600 = Rs.400</div><div> Decrease percentage = (Decrease/Old Price) x 100 </div><div> \\( \\Rightarrow \\) Therefore, decrease percentage = (400/4000) x 100 = 10%</div>"
+  }, 
+  "content": {
+    "text": "Price of a car went from Rs. 4000 this year to Rs. 3600 the next year."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 10
+  }, 
+  "type": 3, 
+  "unit": "%"
+}

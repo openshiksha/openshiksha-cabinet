@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "For any nonzero number \\(a\\) and \\(b, (\\frac ab)^{-k} = (\\frac ba)^k\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\(((\\frac 1_{k}_)^2 )^{-2} = (\\frac {1^2}{_{k}_^2})^{-2} = (\\frac {1}{_{{k**2}}_})^{-2}\\)</div><div>Writing \\(\\frac 1{_{{k**2}}_}\\) as \\(_{{k**2}}_^{-1}\\)</div><div>\\((_{{k**2}}_^{-1})^{-2} = _{{k**2}}_^2 = _{{k**4}}_\\)</div>"
+  }, 
+  "subpart_index": 10, 
+  "content": {
+    "text": "Solve \\(((\\frac 1_{k}_)^2 )^{-2}\\) "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac 1{_{{k**4}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{-4*k}}_\\)"
+      }, 
+      {
+        "text": "1"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{k**4}}_\\)"
+    }
+  }
+}

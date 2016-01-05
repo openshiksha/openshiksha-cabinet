@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(s^2+_{{2*j}}_s+(_{{j**2}}_-1)\\)</div><div>\\(=s^2+_{{2*j}}_s+_{{j**2}}_-1\\)</div><div>\\(=(s+_{j}_)^2-1^2\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2.\\,\\)Remember \\(1=1^2\\) ]</div><div>\\(=(s+_{j}_-1)(s+_{j}_+1)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(s+_{{j-1}}_)(s+_{{j+1}}_)\\)</div>"
+  }, 
+  "subpart_index": 8, 
+  "content": {
+    "text": "\\(s^2+_{{2*j}}_s+(_{{j**2}}_-1)\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((s-_{{j-1}}_)(s+_{{j+1}}_)\\)"
+      }, 
+      {
+        "text": "\\((s+_{{j-1}}_)(s-_{{j+1}}_)\\)"
+      }, 
+      {
+        "text": "\\((s-_{{j-1}}_)(s-_{{j+1}}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((s+_{{j-1}}_)(s+_{{j+1}}_)\\)"
+    }
+  }
+}

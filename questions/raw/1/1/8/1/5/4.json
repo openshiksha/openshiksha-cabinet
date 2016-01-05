@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "Irreducible factors of an expression cannot be broken down further.Eg: For \\(7(x+3)\\), the irreducible factors are \\(7\\) and \\((x+3)\\). Think of it as prime factorisation of algebraic expressions."
+  }, 
+  "solution": {
+    "text": "The irreducible factors of \\(_{j}_(x+_{k}_)x\\) are \\(_{j}_,(x+_{k}_)\\) and \\(x\\); as these cannot be broken down into further factors. "
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "What are the corect irreducible factors of the algebraic expression \\(_{j}_(x+_{k}_)x\\) :"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_x^2, _{{j*k}}_x\\)"
+      }, 
+      {
+        "text": "\\(_{j}_x, (x+_{k}_)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_, x^2, _{k}_x\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_, (x+_{k}_), x\\)"
+    }
+  }
+}

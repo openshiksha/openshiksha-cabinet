@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>\\(a^m\\times a^n = a^{(m+n)}\\)</div><div>\\(a^m\\times b^m=(a\\times b)^m\\)</div><div>\\((a^m)^n=a^{(m\\times n)}\\)</div><div>\\(\\frac{a^m}{a^n}=a^{(m-n)}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Consider LHS</div><div>\\(= \\frac {a^{_{m}_}}{a^{_{n}_}} \\)</div><div>\\(=a^{(_{m}_-_{n}_)}\\)</div><div>\\(=a^{_{{m-n}}_}\\)</div><div>\\(\\neq \\frac{a^{_{m}_}}{_{n}_}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\( \\frac {a^{_{m}_}}{a^{_{n}_}} \\) = \\( \\frac {a^{_{m}_}}{_{n}_} \\)"
+  }, 
+  "variable_constraints": {
+    "m": {}, 
+    "n": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

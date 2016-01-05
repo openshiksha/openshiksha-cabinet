@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Try and use the method completing the perfect square</div><div>For example : </div><div>\\(a^2+8a+15\\)</div><div>\\(=a^2+8a+4^2-4^2+15\\,\\)[Adding and subtracting \\(4^2\\)]</div><div>\\(=a^2+(2)(a)(4)+4^2-1\\)</div><div>\\(=(a+4)^2-1\\)</div><div>Now use the identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=(a+4-1)(a+4+1)\\)</div><div>\\(=(a+3)(a+5)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_a^2+_{{8*j}}_a+_{{12*j}}_\\)</div><div>\\(=_{j}_(a^2+8a+12)\\)</div><div>Now add and subtract \\(4^2\\)</div><div>\\(=_{j}_(a^2+(2)(a)(4)+4^2-4^2+12)\\)</div><div>Using identity \\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(=_{j}_((a+4)^2-16+12)\\)</div><div>\\(=_{j}_((a+4)^2-4)\\)</div><div>\\(=_{j}_((a+4)^2-2^2)\\)</div><div>Using identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=_{j}_(a+4-2)(a+4+2)\\)</div><div>\\(=_{j}_(a+2)(a+6)\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_a^2+_{{8*j}}_a+_{{12*j}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_a+2)(_{j}_a+6)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(a+3)(a+6)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_a+3)(_{j}_a+4)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_(a+2)(a+6)\\)"
+    }
+  }
+}

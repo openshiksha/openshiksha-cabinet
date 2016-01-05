@@ -1,0 +1,14 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>For a number to be a multiple of 9 the sum of the digits should be a multiple of 9.</div><div>Therefore 3+7+z+8 = 18+ z= multiple of 9.</div><div>Since z cannot be zero, the next multiple is 27. </div><div> \\( \\Rightarrow \\) Therefore z= 9. </div>"
+  }, 
+  "content": {
+    "text": "Assuming \\(z\\neq0\\), What is the value of z if the number is divisible by 9 ?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 9
+  }, 
+  "type": 3
+}

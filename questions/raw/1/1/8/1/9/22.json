@@ -1,0 +1,38 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Here - 9 is at hundreds place, 3 is at tens place and _{j}_ is at ones place.<div> \\(\\Rightarrow\\) Therefore the number in generalized form is \\((9 \\times 100) + (3 \\times 10) + _{j}_\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(93_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( (9 \\times 100) + (1 \\times 10) +3 \\)"
+      }, 
+      {
+        "text": "\\( (_{j}_ \\times 100) + (9 \\times 10) +3 \\)"
+      }, 
+      {
+        "text": "\\( (_{j}_ \\times 100) + (_{j}_ \\times 10) +9 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( (9 \\times 100) + (3 \\times 10) +_{j}_ \\)"
+    }
+  }
+}

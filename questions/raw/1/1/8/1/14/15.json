@@ -1,0 +1,68 @@
+{
+  "solution": {
+    "text": "<div>a + (b+c) = (a+b) + c is associative porperty</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Tell what property allows you to compute \\( \\frac {_{j}_}{_{k}_} \\times (2 \\times _{j}_) \\times \\frac {_{l}_}{_{m}_}\\) as \\( \\frac {_{l}_}{_{m}_} \\times \\frac {_{j}_}{_{k}_} \\times (2 \\times _{j}_)\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Commutative property"
+      }, 
+      {
+        "text": "Closure property"
+      }, 
+      {
+        "text": "Cannot compute like this"
+      }
+    ], 
+    "correct": {
+      "text": "Associative property"
+    }
+  }
+}

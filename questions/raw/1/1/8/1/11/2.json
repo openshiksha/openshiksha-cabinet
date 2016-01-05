@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": "<div>Sum of exterior angles of a polygon taken in order is \\(360^o\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Sum of exterior angles in the figure should be \\(360^o\\)</div><div>But the angles \\(120^o\\) and \\(95^o\\) are interior angles, and as the exterior angle and interior angle form a linear pair,</div><div> Exterior angle = 180 - Interior angle</div><div>Hence the exterior angle of \\(120^o\\) is \\(180-120 = 60^o\\)</div><div>Similarly exterior angle of \\(95^o\\) is \\(180-95 = 85^o\\)</div><div>Now, as sum of exterior angles is \\(360^o,95+60+15+x+85 = 360\\)</div><div>\\(x+255 = 360\\)</div><div>\\(x=105^o\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Find X in the figure</div>", 
+    "img": "2.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(95^o\\)"
+      }, 
+      {
+        "text": "\\(35^o\\)"
+      }, 
+      {
+        "text": "\\(45^o\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(105^o\\)"
+    }
+  }
+}

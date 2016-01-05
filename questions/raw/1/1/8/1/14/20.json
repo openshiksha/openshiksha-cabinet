@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "Product of a rational number is always a ?"
+  }, 
+  "solution": {
+    "text": "<div>Rational numbers is closed under multiplication.Therefore,multiplication of rational number is a rational number.</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Irrational number"
+      }, 
+      {
+        "text": "Integer number"
+      }, 
+      {
+        "text": "Whole number"
+      }
+    ], 
+    "correct": {
+      "text": "Rational number"
+    }
+  }
+}

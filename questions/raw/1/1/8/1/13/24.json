@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "Add the number of students falling in the two categories below \\(20\\) marks."
+  }, 
+  "solution": {
+    "text": "<div>The students require a minimum of \\(20\\) marks to pass.</div><div>The number of students who have scored between \\(0\\) and \\(10\\) are \\(7\\) and the number of students who have scored between \\(10\\) and \\(20\\) are \\(5\\).</div><div>Therefore, number of students who have failed the Math Test are :</div><div>\\(7+5=12\\)</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "How many students have failed the Math Test considering that they require a minimum of \\(20\\) marks to pass?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 12
+  }, 
+  "type": 3
+}

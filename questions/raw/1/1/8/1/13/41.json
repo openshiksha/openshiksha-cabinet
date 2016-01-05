@@ -1,0 +1,35 @@
+{
+  "hint": {
+    "text": "Using the pie chart, observe which sport occupies the greatest proportion."
+  }, 
+  "solution": {
+    "text": "<div>We know that the central angle for sector \\(3\\) is the greatest i.e. \\(144\\) degrees</div><div>As sector \\(3\\) belongs to cricket, we can say that cricket is the most liked sport.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Which sport is liked most among \\(_{{j*5000}}_\\) people?"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Football"
+      }, 
+      {
+        "text": "Tennis"
+      }, 
+      {
+        "text": "Basketball"
+      }, 
+      {
+        "text": "Kabaddi"
+      }
+    ], 
+    "correct": {
+      "text": "Cricket"
+    }
+  }
+}

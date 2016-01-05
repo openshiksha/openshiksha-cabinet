@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Percentage of apples = (Number of apples/ Total number of apples and oranges) x 100. </div><div> Percentage of apples = (Ratio of apples/ ratio of apples + ratio of oranges) x 100 </div><div> Hence, Percentage = (_{j}_/(_{j}_+_{{10-j}}_)) x100  </div><div> \\( \\Rightarrow \\) Therefore the Percentage of Apples = _{{j*10}}_ % </div>"
+  }, 
+  "content": {
+    "text": "The percentage of apples, if ratio of apples to oranges is _{j}_: _{{10-j}}_."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*10}}_"
+  }, 
+  "type": 3, 
+  "unit": "%"
+}

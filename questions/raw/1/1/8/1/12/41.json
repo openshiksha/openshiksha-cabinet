@@ -1,0 +1,14 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Similar to first part, number of strikers = (ratio of strikers/total ratio) x number of students in the squad.</div><div> \\( \\Rightarrow \\) Therefore, number of strikers = (2/(5+3+2))x 30 = 6 </div>"
+  }, 
+  "content": {
+    "text": "What is the total number of strikers in the squad?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 6
+  }, 
+  "type": 3
+}

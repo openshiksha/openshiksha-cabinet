@@ -1,0 +1,58 @@
+{
+  "hint": {
+    "text": "1 is neither prime nor composite."
+  }, 
+  "solution": {
+    "text": "\\( _{{j*j*k*k*l*l}}_ = _{j}_ \\times _{j}_\\times _{k}_\\times _{k}_\\times _{l}_ \\times _{l}_\\)"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "The correct list of all Prime Factors of \\(_{{j*j*k*k*l*l}}_\\) is :"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        5, 
+        7, 
+        11, 
+        2, 
+        3
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        7, 
+        11
+      ]
+    }, 
+    "l": {
+      "options": [
+        11, 
+        2, 
+        3, 
+        5, 
+        7
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(1,_{j}_,_{k}_,_{l}_\\)"
+      }, 
+      {
+        "text": "\\(_{j}_,_{k}_,1\\)"
+      }, 
+      {
+        "text": "\\(_{k}_,_{l}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_,_{k}_,_{l}_\\)"
+    }
+  }
+}

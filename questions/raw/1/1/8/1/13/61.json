@@ -1,0 +1,59 @@
+{
+  "hint": {
+    "text": "\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)"
+  }, 
+  "solution": {
+    "text": "<div>No. of Red balls \\(=_{j}_\\)</div><div>Probability \\(= \\frac {No.\\,of\\,red\\,balls}{Total\\,balls}\\)</div><div>\\(=\\frac {_{j}_}{_{j}_+_{k}_+_{l}_+_{m}_}\\)</div><div>\\(=\\frac{_{j}_}{_{{j+k+l+m}}_}\\)</div><div>\\(=_{{Fraction (j,j+k+l+m)}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A bag contains \\(_{j}_\\) red balls, \\(_{k}_\\) blue balls, \\(_{l}_\\) green balls and \\(_{m}_\\) orange balls (The balls are identical in all respects other than color). A single ball is drawn at random, What is the probability of drawing a red ball? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            14, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            11, 
+            13
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc((Decimal(j)/(j+k+l+m)),3)}}_"
+  }, 
+  "type": 3
+}

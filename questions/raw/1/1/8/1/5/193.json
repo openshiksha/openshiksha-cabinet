@@ -1,0 +1,24 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Consider LHS</div><div>\\(=_{j}_x+_{j}_x\\)</div><div>\\(=_{{2*j}}_x\\)</div><div>\\(\\neq _{j}_x^2\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x+_{j}_x=_{j}_x^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Correct"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Incorrect"
+    }
+  }
+}

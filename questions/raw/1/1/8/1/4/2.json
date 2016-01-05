@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The multiplicative inverse of a number is its reciprocal.</div><div>Hence the reciprocal of \\( (_{k}_^_{m}_) \\) is \\( _{k}_^{-_{m}_} \\)</div>"
+  }, 
+  "content": {
+    "text": "\\( _{k}_^{_{m}_} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( (_{k}_ \\times _{m}_) \\)"
+      }, 
+      {
+        "text": "\\( (-_{k}_)^{_{m}_} \\)"
+      }, 
+      {
+        "text": "_{m}_"
+      }
+    ], 
+    "correct": {
+      "text": "\\( (_{k}_)^{-_{m}_} \\)"
+    }
+  }
+}

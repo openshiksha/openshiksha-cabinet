@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)</div><div>List out the possible outcomes.</div>"
+  }, 
+  "solution": {
+    "text": "<div>No. of cards in a deck of playing cards \\(=52\\)</div><div>No. of spades in a deck of playing cards \\(=13\\)</div><div>No. of red cards (hearts and diamonds) \\(=26\\)</div><div>Probability of drawing a spade or a red card=\\(\\frac{13+26}{52}\\)</div><div>\\(=\\frac{39}{52}\\)</div><div>\\(=\\frac{3}{4}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A card is drawn at random from a well shuffled deck of playing cards. What is the probability that the card drawn is a spade or a red card?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 0.75
+  }, 
+  "type": 3
+}

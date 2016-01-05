@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(1-x^2-2xy-y^2\\)</div><div>\\(=1-(x^2+2xy+y^2)\\)</div><div>\\(=1-(x+y)^2\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=1^2-(x+y)^2\\qquad\\)[Remember \\(1=1^2\\)]</div><div>\\(=(1+(x+y))(1-(x+y))\\qquad\\)[Using \\(a^2-b^2=(a+b)(a-b)\\)]</div><div>\\(=(1+x+y)(1-x-y)\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(1-x^2-2xy-y^2\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x+y)(x-y)\\)"
+      }, 
+      {
+        "text": "\\((x+y+1)(x+y-1)\\)"
+      }, 
+      {
+        "text": "\\((x+y+1)(x+y+1)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((1+x+y)(1-x-y)\\)"
+    }
+  }
+}

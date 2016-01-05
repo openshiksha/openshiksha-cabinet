@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "The cells of a bacteria double itself every hour. How many cells will there be after 5 hours, if initially we start with 1 cell?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "16"
+      }, 
+      {
+        "text": "4"
+      }, 
+      {
+        "text": "64"
+      }
+    ], 
+    "correct": {
+      "text": "32"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Initial cells = 1</div><div>The cells double itself every hour</div><div>Hence in one hour, its number would be the double of the initial cells.</div><div>Hence cells after one hour is \\( (2 \\times 1) \\) = 2</div><div>Now cells after 2 hrs is the double of the cells after one hour.</div><div>Hence cells after 2 hours is \\( (2 \\times 2) \\) = 4</div><div>Similarly, cells after 3 hours is \\( (2 \\times 4) \\)=8</div><div>cells after 4 hours is \\( (2 \\times 8) \\)=16</div><div>cells after 5 hours is \\( (2 \\times 16) \\)=32</div><div>Thus number of cells after 5 hours is 32.</div>"
+  }
+}

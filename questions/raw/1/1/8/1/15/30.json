@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "The value of x is ?"
+  }, 
+  "solution": {
+    "text": "<div>The three consecutive multiples of _{j}_ are _{j}_x, _{j}_(x+1), _{j}_(x+2)</div><div> It is given that their sum is _{{12*j}}_</div><div> Therefore, _{j}_x + _{j}_(x+1) + _{j}_(x+2) = _{{12*j}}_</div><div> _{{3*j}}_x + _{j}_ + _{{2*j}}_ = _{{12*j}}_</div><div>\\(\\Rightarrow\\) _{{3*j}}_x + _{{3*j}}_ = _{{12*j}}_</div><div>\\(\\Rightarrow\\) _{{3*j}}_x = _{{12*j}}_ - _{{3*j}}_ = _{{9*j}}_</div><div>\\(\\Rightarrow\\) _{{3*j}}_x = _{{9*j}}_</div><div> Divide both sides by _{{3*j}}_</div><div>\\(\\Rightarrow\\) x=3</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "1"
+      }, 
+      {
+        "text": "2"
+      }, 
+      {
+        "text": "4"
+      }
+    ], 
+    "correct": {
+      "text": "3"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "<div>\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)</div><div>List out the possible outcomes.</div>"
+  }, 
+  "solution": {
+    "text": "<div>Total no. of outcomes on rolling a pair of dice \\(=36\\)</div><div>No. of outcomes such that the sum of the two numbers is \\(6\\) \\(=5\\)</div><div>Sample space :\\([(5,1),(1,5), (3,3), (2,4), (4,2)]\\)</div><div>Probability \\(=\\frac{5}{36}\\)</div>"
+  }, 
+  "subpart_index": 5, 
+  "content": {
+    "text": "The sum of the two numbers as \\(6\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "0.138"
+  }, 
+  "type": 3
+}

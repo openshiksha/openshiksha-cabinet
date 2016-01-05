@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>\\(a^m\\times a^n = a^{(m+n)}\\)</div><div>\\(a^m\\times b^m=(a\\times b)^m\\)</div><div>\\((a^m)^n=a^{(m\\times n)}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Consider RHS</div><div>\\(=(a\\times b)^{{_{k}_} \\times{_{m}_}}\\)</div><div>\\(=a^{_{{k*m}}_} \\times b^{_{{k*m}}_}\\)</div><div>\\( \\neq a^{_{k}_}\\times{b}^{_{m}_}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(a^{_{k}_}\\times{b}^{_{m}_}=(a\\times b)^{{_{k}_} \\times{_{m}_}} \\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "m": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

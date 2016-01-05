@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "According to question what is the value of x ?"
+  }, 
+  "solution": {
+    "text": "<div>Difference of the two numbers 5x and 2x is _{{3*j}}_.</div><div> \\(\\Rightarrow\\) 5x - 2x = _{{3*j}}_</div><div> \\(\\Rightarrow\\) 3x = _{{3*j}}_</div><div> Divide both sides by 3.</div><div> \\(\\Rightarrow\\) x = _{j}_</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*j}}_"
+      }, 
+      {
+        "text": "_{{3*j}}_"
+      }, 
+      {
+        "text": "-_{j}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "solution": {
+    "text": "<div>\\( -\\frac {_{j}_}{_{k}_} \\times \\frac {_{k}_}{_{l}_} + \\frac {_{l}_}{_{j}_} - \\frac {_{k}_}{_{l}_} \\times \\frac {_{l}_}{_{{2*j}}_}\\)</div><div>\\( -2 \\times {_{j}_}^3 + 2 \\times {_{l}_}^2 + _{k}_ \\times _{l}_\\)</div><div>-_{{trunc(Decimal((2)*(j**3)+2*(l**2)+(k*l))/Decimal(2*j*l), 2)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\( -\\frac {_{j}_}{_{k}_} \\times \\frac {_{k}_}{_{l}_} + \\frac {_{l}_}{_{j}_} - \\frac {_{k}_}{_{l}_} \\times \\frac {_{l}_}{_{{2*j}}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "-_{{trunc(Decimal((2)*(j**3)+2*(l**2)+(k*l))/Decimal(2*j*l), 2)}}_"
+  }, 
+  "type": 3
+}

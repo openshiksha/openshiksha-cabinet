@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "\\(No. \\, of \\, votes = \\frac{sector \\,angle}{360} \\times Total\\, number\\, of\\, people\\)"
+  }, 
+  "solution": {
+    "text": "<div>Central angle for kabaddi \\(=36\\) degrees</div><div>Total number of votes \\(=_{{j*5000}}_\\)</div><div>Therefore, No. of votes for kabaddi \\(=\\frac {36}{360} \\times _{{j*5000}}_\\)</div><div>\\(=_{{j*500}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "How many votes did kabaddi get from a total of \\(_{{j*5000}}_\\) votes?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{j*500}}_"
+  }, 
+  "type": 3
+}

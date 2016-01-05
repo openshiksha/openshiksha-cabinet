@@ -1,0 +1,45 @@
+{
+  "hint": {
+    "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors."
+  }, 
+  "solution": {
+    "text": "<div>Regroup the terms:</div><div>\\(=_{{j*k}}_xy+_{k}_y-_{{3*j}}_x-3\\)</div><div>\\(=_{k}_y(_{j}_x+1)-3(_{j}_x+1)\\)</div><div>\\(=(_{k}_y-3)(_{j}_x+1)\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(_{{j*k}}_xy-_{{3*j}}_x+_{k}_y-3\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        13, 
+        17, 
+        17
+      ]
+    }, 
+    "j": {
+      "options": [
+        5, 
+        7, 
+        11
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{k}_y+3)(_{j}_x-1)\\)"
+      }, 
+      {
+        "text": "\\((_{k}_y+1)(_{j}_x-3)\\)"
+      }, 
+      {
+        "text": "\\((_{k}_y-1)(_{j}_x+3)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{k}_y-3)(_{j}_x+1)\\)"
+    }
+  }
+}

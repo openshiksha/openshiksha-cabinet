@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "Remember that the force equation has two factors(Mass and Acceleration) and that the mass factor has a greater absolute value."
+  }, 
+  "solution": {
+    "text": "<div>Force \\(=x^3-2x^2y+_{j}_xy^2-_{{2*j}}_y^3\\)</div><div>\\(=x^2(x-2y)+_{j}_y^2(x-2y)\\)</div><div>\\(=(x^2+_{j}_y^2)(x-2y)=\\)Mass \\(\\times\\) Acceleration</div><div>Since mass has a larger absolute value,</div><div>Mass\\(=(x^2+_{j}_y^2)\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>You are a junior scientist at the Indian Space Research Organisation(ISRO) and are working on a physics formula to predict the force on the space shuttle when it is climbing into the atmosphere.</div><div>You know that Force \\(=\\) Mass \\(\\times\\) Acceleration and you are also told that the equation for the force on the shuttle is Force \\(=x^3-2x^2y+_{j}_xy^2-_{{2*j}}_y^3\\).</div><div>Given that the mass is a larger value than the acceleration(in absolute terms), what is the equation for the mass?</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x-2y\\)"
+      }, 
+      {
+        "text": "\\(x^2+y^2\\)"
+      }, 
+      {
+        "text": "\\(x^2-_{j}_y^2\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2+_{j}_y^2\\)"
+    }
+  }
+}

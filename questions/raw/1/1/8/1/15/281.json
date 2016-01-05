@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the ages be \\(_{j}_x\\) and \\(_{k}_x\\) where \\(x\\) is a variable. </div><div>According to question</div><div>\\(\\Rightarrow \\frac {_{j}_x+_{{k-(3*j)}}_}{_{k}_x+_{{k-(3*j)}}_}=\\frac13\\)</div><div>\\(\\Rightarrow _{{3*j}}_x+3(_{{k-(3*j)}}_)=_{k}_x+_{{k-(3*j)}}_\\)</div><div>\\(\\Rightarrow _{{(3*j)-k}}_x=-2(_{{k-(3*j)}}_)\\)</div><div>\\(\\Rightarrow _{{k-(3*j)}}_x=2(_{{k-(3*j)}}_)\\)</div><div>\\(\\Rightarrow x=\\frac {2(_{{k-(3*j)}}_)}{_{{k-(3*j)}}_}\\)</div><div>\\(\\Rightarrow x=2\\)</div><div>Therefore, Sachi's age is \\(_{{2*k}}_\\) years.</div>"
+  }, 
+  "content": {
+    "text": "What is Sachi's age?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{3*k}}_"
+      }, 
+      {
+        "text": "_{{3*j}}_"
+      }, 
+      {
+        "text": "_{{2*j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{2*k}}_"
+    }
+  }
+}

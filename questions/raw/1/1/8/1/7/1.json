@@ -1,0 +1,21 @@
+{
+  "content": {
+    "text": "Number of pens (x) and their total price (y)"
+  }, 
+  "solution": {
+    "text": "<div>Yes</div><div>Can be represented as \\( \\frac xy = k \\) where \\( k = \\frac 1n \\)</div><div>Where n represents quantity of pens bought</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

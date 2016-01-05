@@ -1,0 +1,24 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>Consider LHS</div><div>\\(=\\frac{_{j}_}{_{j}_x+_{{2*j}}_x}\\)</div><div>\\(=\\frac{_{j}_}{_{j}_(x+2x)}\\)</div><div>\\(=\\frac1{x+2x}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{j}_}{_{j}_x+_{{2*j}}_x}=\\frac1{(x+2x)}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Incorrect"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Correct"
+    }
+  }
+}

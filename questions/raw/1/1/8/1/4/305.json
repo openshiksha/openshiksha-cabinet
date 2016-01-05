@@ -1,0 +1,36 @@
+{
+  "content": {
+    "text": "_{{(Decimal(str(j)))*100}}_"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            1.03, 
+            9.93
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 4, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( _{{(Decimal(str(j)))*10}}_ \\times 10^2 \\)"
+      }, 
+      {
+        "text": "\\( _{j}_ \\times 10^{3} \\)"
+      }, 
+      {
+        "text": "\\( _{j}_ \\times 10^{-2} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( _{j}_ \\times 10^2 \\)"
+    }
+  }
+}

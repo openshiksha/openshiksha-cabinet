@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\((1-2a-a^2)(1-2a+3a^2)+4a^4\\)</div><div>\\(=((1-2a+a^2)-2a^2)((1-2a+a^2)+2a^2)+4a^4 \\qquad\\)[Here \\((-a^2)\\) has been written as \\((a^2-2a^2)\\) and \\((3a^2)\\) has been written as \\((a^2+2a^2)\\)]</div><div>\\(=((1-2a+a^2)^2-(2a^2)^2)+4a^4 \\qquad\\)[Using \\((x+y)(x-y)=x^2-y^2\\)]</div><div>\\(=((1-a)^2)^2-4a^4+4a^4 \\qquad\\)[Using \\(x^2-2xy+y^2=(x-y)^2\\)]</div><div>\\(=(1-a)^4\\)</div><div>\\(=(1-a)(1-a)(1-a)(1-a)\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\((1-2a-a^2)(1-2a+3a^2)+4a^4\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((1+a)(1+a)(1+a)(1+a)(2a+3)(2a+3)\\)"
+      }, 
+      {
+        "text": "\\((1+a)(1+a)(1+a)(1+a)\\)"
+      }, 
+      {
+        "text": "Cannot be factorised"
+      }
+    ], 
+    "correct": {
+      "text": "\\((1-a)(1-a)(1-a)(1-a)\\)"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Here - _{j}_ is at hundreds place, _{k}_ is at tens place and 3 is at ones place.<div> \\(\\Rightarrow\\) Therefore the number in usual form is _{j}__{k}_3.</div>"
+  }, 
+  "content": {
+    "text": "\\((_{j}_ \\times 100) + (_{k}_ \\times 10) + 3\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(100*j)+(10*k)+3}}_"
+  }, 
+  "type": 3
+}

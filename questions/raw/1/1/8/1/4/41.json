@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Try writing the given information in the form of an equation, with the required number as an unknown.</div><div>\\(a^m\\times a^n = a^{(m+n)}\\)</div><div>\\(a^m\\times b^m=(a\\times b)^m\\)</div><div>\\((a^m)^n=a^{(m\\times n)}\\)</div><div>\\(\\frac{a^m}{a^n}=a^{(m-n)}\\)</div><div>\\(a^0=1\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Lets say that \\( -(_{k}_)^{-2} \\) is multiplied by y to give \\( \\frac {1}{4 \\times _{k}_^{2}} \\)</div><div>Hence, \\( -(_{k}_)^{-2} \\times y = \\frac {1}{4 \\times _{k}_^2} \\)</div><div>\\( \\Rightarrow \\frac {-1}{_{k}_^2} \\times y = \\frac {1}{4 \\times _{k}_^2} \\)</div><div>Multiplying both sides by \\( (_{k}_)^{2} \\) we get,</div><div> \\( \\Rightarrow -1 \\times y = \\frac {1}{4} \\)</div><div> \\( \\Rightarrow y = \\frac {-1}{4}=-0.25 \\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "By what number should \\( -(_{k}_)^{-2} \\)  be multiplied to get \\( \\frac {1}{4 \\times _{k}_^{2}} \\)? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": -0.25
+  }, 
+  "type": 3
+}

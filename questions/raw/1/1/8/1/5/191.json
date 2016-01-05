@@ -1,0 +1,24 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{j}_(x-2)\\)</div><div>\\(_{j}_x-(_{j}_\\times 2)\\)</div><div>\\(\\neq _{j}_x-2\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_(x-2)=_{j}_x-2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Correct"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Incorrect"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{k}_y+_{{2*j}}_}{_{j}_-_{{3*k}}_y} =\\frac23\\)</div><div>Cross multiply, i.e. take the denominator of one side to the numerator of the other side and multiply that numerator.</div><div>\\(\\Rightarrow 3(_{k}_y+_{{2*j}}_) = 2(_{j}_-_{{3*k}}_y)\\)</div><div>\\(\\Rightarrow _{{9*k}}_y= _{{2*j}}_-_{{6*j}}_\\)</div><div>\\(\\Rightarrow _{{9*k}}_y=-_{{4*j}}_\\)</div><div>\\(\\Rightarrow y=\\frac {-_{{4*j}}_}{_{{9*k}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{k}_y+_{{2*j}}_}{_{j}_-_{{3*k}}_y} =\\frac23\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {-_{{4*(j+1)}}_}{_{{9*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{4*j}}_}{_{{9*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{4*(j+1)}}_}{_{{9*k}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {-_{{4*j}}_}{_{{9*k}}_}\\)"
+    }
+  }
+}

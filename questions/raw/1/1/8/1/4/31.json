@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Types of leaves collected \\(=32\\)</div><div>\\(32\\,\\)can be represented in exponential form with a base of \\(2\\,\\) as \\(2^5\\)</div>"
+  }, 
+  "content": {
+    "text": "A group of students were given an assignment to collect different types of leaves. The group collected 32 types of leaves. Represent the number of leaves collected in the form of exponential expression with its base being indivisible. "
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( 2^{4} \\)"
+      }, 
+      {
+        "text": "\\( 2^{3} \\)"
+      }, 
+      {
+        "text": "\\( 2^{2} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( 2^{5} \\)"
+    }
+  }
+}

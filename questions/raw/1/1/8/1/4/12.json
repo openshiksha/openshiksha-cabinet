@@ -1,0 +1,51 @@
+{
+  "hint": {
+    "text": "<div>The multiplicative inverse of a number is its reciprocal.</div><div>Remember, \\(a^m=\\frac 1 {a^{-m}}\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>The multiplicative inverse of \\( _{k}_^_{m}_\\)  is \\(\\frac1{_{k}_^_{m}_} \\)</div><div>\\(=_{k}_^{-_{m}_}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\( _{k}_^_{m}_ \\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            5, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{k}_^{_{m}_}\\)"
+      }, 
+      {
+        "text": "\\(_{m}_^{-_{k}_}\\)"
+      }, 
+      {
+        "text": "\\(_{m}_^{_{k}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{k}_^{-_{m}_}\\)"
+    }
+  }
+}

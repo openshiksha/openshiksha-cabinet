@@ -1,0 +1,17 @@
+{
+  "hint": {
+    "text": "<div>Represent the volume of the cuboid as a product of its prime factors.</div><div>Remember, in the prime factorisation of a cube number, each factor appears thrice.</div>"
+  }, 
+  "solution": {
+    "text": "<div>Volume of a cuboid = \\(l \\times b \\times h\\)</div><div>\\(=15 \\times 3 \\times 3\\)</div><div>\\(=5 \\times 3 \\times 3 \\times 3\\)</div><div>Since the factor \\(5\\) appears only once in the prime factorisation, Oasis needs \\(5 \\times 5\\) i.e. \\(25\\) such cuboids to make it a perfect cube.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Oasis is playing with lego blocks each in shape of a cuboid of size \\(15cm \\times 3cm \\times 3cm\\). How many such cuboids will he need to build a cube?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 25
+  }, 
+  "type": 3
+}

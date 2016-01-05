@@ -1,0 +1,48 @@
+{
+  "solution": {
+    "text": "<div>The ratio of blue toffees is to red toffees is \\(\\frac {_{k}_}{_{{k+1}}_}\\)</div><div>Therefore,there are _{k}_x blue toffees and (_{{k+2}}_)x red toffees</div><div>And the sum is _{j}_</div><div>Therefore, _{k}_x + (_{{k+2}}_)x = _{j}_</div><div>\\(\\Rightarrow\\) _{{(2*k)+2}}_x = _{j}_</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal(j)/Decimal((2*k)+2), 2)}}_</div><div>The number of red toffees = _{{k+1}}_x = _{{k+1}}_ \\(\\times\\) _{{trunc(Decimal(j)/Decimal(2*(k+1)), 2)}}_ = _{{trunc(Decimal(j)/Decimal(2), 2)}}_</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "The ratio of blue toffees is to red toffees is \\(\\frac {_{k}_}{_{{k+1}}_}\\) ,the number of red toffees is ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            40, 
+            60
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(j*(k+1))/Decimal(2), 2)}}_"
+      }, 
+      {
+        "text": "_{{j*(k+1)}}_"
+      }, 
+      {
+        "text": "_{{j*k}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal(j)/Decimal(2), 2)}}_"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "hint": {
+    "text": "If the product of all terms results in the original expression, then they are all considered to be factors. (They need not be irreducible in this case)"
+  }, 
+  "solution": {
+    "text": "<ul><li>\\( _{{2*k}}_ \\times (ab) \\times c\\) is correct because \\( _{{2*k}}_ \\times (ab)\\times c = _{{2*k}}_abc\\)</li> <li> \\( \\frac {_{{2*k}}_}2 \\times 2ab \\times c\\) is correct because \\( \\frac {_{{2*k}}_}2 \\times 2ab \\times c = _{{2*k}}_abc\\)  [Numerator and denominator are multiplied by the same number, i.e.\\(2\\)]</li> <li>\\( _{{2*k}}_ \\times a \\times b \\times c\\) is correct because \\( _{{2*k}}_ \\times a \\times b \\times c = _{{2*k}}_abc\\) [Irreducible form of \\(_{{2*k}}_abc\\)]</li> <li>\\(1 \\times _{{2*k}}_ \\times a \\times b \\times c\\) is correct because  \\( 1 \\times _{{2*k}}_ \\times a \\times b \\times c = _{{2*k}}_abc\\)</li></ul>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "The term \\(_{{2*k}}_abc\\) expressed as a product of its factors is :"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{2*k}}_ \\times (ab) \\times (bc) \\times (ca)\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\( _{{2*k}}_ \\times (ab) \\times c\\)"
+      }, 
+      {
+        "text": "\\( \\frac {_{{2*k}}_}2 \\times 2ab \\times c\\)"
+      }, 
+      {
+        "text": "\\( _{{2*k}}_\\times a \\times b \\times c\\)"
+      }, 
+      {
+        "text": "\\(1 \\times _{{2*k}}_ \\times a \\times b \\times c\\)"
+      }
+    ]
+  }
+}

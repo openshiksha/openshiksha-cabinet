@@ -1,0 +1,24 @@
+{
+  "hint": {
+    "text": "<div>\\(a^m\\times a^n = a^{(m+n)}\\)</div><div>\\(a^m\\times b^m=(a\\times b)^m\\)</div><div>\\((a^m)^n=a^{(m\\times n)}\\)</div><div>\\(\\frac{a^m}{a^n}=a^{(m-n)}\\)</div><div>\\(a^0=1\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Consider LHS</div><div>\\(= (\\frac {a}{b})^{(-3)} \\)</div> <div>\\(= \\frac {a^{(-3)}}{b^{(-3)}} \\)</div><div>\\(= a^{(-3)} \\times b^{3}\\)</div><div>\\( = b^{3} \\times a^{(-3)} \\)</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "\\( (\\frac {a}{b})^{-3} \\) = \\( b^{3} \\times a^{-3} \\) "
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

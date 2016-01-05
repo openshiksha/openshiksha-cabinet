@@ -1,0 +1,29 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{{3*j}}_x}{(_{j}_+1)-_{{2*j}}_x } = _{{5*j}}_\\)</div><div>Take the denominator to the RHS.</div><div>\\(\\Rightarrow _{{3*j}}_x = (_{{5*j}}_)(_{j}_+1-_{{2*j}}_x)\\)</div><div>\\(\\Rightarrow _{{3*j}}_x = (_{{5*j}}_ \\times _{j}_) + _{{5*j}}_ - (_{{5*j}}_)(_{{2*j}}_x)\\)</div><div>\\(\\Rightarrow (_{{(10*j*j)}}_+_{{3*j}}_)x = _{{5*j*j}}_ + _{{5*j}}_\\)</div><div>\\(\\Rightarrow _{{(10*j*j)+(3*j)}}_x=_{{(5*j*j)+(5*j)}}_\\)</div><div>\\(\\Rightarrow x=\\frac {_{{(5*j*j)+(5*j)}}_}{_{{(10*j*j)+(3*j)}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{{3*j}}_x}{(_{j}_+1)-_{{2*j}}_x } = _{{5*j}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {_{{(5*j*j)-(5*j)}}_}{_{{(10*j*j)+(3*j)}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{(5*j*j)+(5*j)}}_}{_{{(10*j*j)-(3*j)}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{(5*j*j)-(5*j)}}_}{_{{(10*j*j)-(3*j)}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {_{{(5*j*j)+(5*j)}}_}{_{{(10*j*j)+(3*j)}}_}\\)"
+    }
+  }
+}

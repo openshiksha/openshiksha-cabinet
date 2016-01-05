@@ -1,0 +1,36 @@
+{
+  "hint": {
+    "text": "<div>On factorisation of a cube number, each factor appears thrice.</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**3}}_\\) expressed as a product of its factors is :</div><div>\\(_{{j**3}}_=_{j}_ \\times _{j}_ \\times _{j}_\\)</div><div>As each factor appears thrice, \\(_{{j**3}}_\\) is a perfect cube.</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Is \\(_{{j**3}}_\\) are perfect cube?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

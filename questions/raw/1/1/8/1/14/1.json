@@ -1,0 +1,45 @@
+{
+  "solution": {
+    "text": "<div>\\( \\frac {_{j}_}{_{k}_} + \\frac {-_{{j+1}}_}{_{{k+3}}_} + \\frac {_{l}_}{_{k}_} + \\frac {_{{j+2}}_}{_{{k+2}}_}\\)</div><div>Numerator:_{{(4*j*k)+(2*j)+(k**2)+(4*k)+((k**2)*l)+(5*k*l)+(6*l)+((k**2)*j)}}_</div><div>Denominator: _{{(k**3)+(6*k)+(2*(k**2))+(6*k)}}_</div><div>_{{trunc(Decimal((4*j*k)+(2*j)+(k**2)+(4*k)+((k**2)*l)+(5*k*l)+(6*l)+((k**2)*j))/Decimal((k**3)+(6*k)+(2*(k**2))+(6*k)), 2)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\( \\frac {_{j}_}{_{k}_} + \\frac {-_{{j+1}}_}{_{{k+3}}_} + \\frac {_{l}_}{_{k}_} + \\frac {_{{j+2}}_}{_{{k+2}}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{trunc(Decimal((4*j*k)+(2*j)+(k**2)+(4*k)+((k**2)*l)+(5*k*l)+(6*l)+((k**2)*j))/Decimal((k**3)+(6*k)+(2*(k**2))+(6*k)), 2)}}_"
+  }, 
+  "type": 3
+}

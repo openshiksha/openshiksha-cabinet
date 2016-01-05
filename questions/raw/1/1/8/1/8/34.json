@@ -1,0 +1,39 @@
+{
+  "hint": {
+    "text": "<div>The square of an integer with a number 'x' in the unit's place will always have a number 'y' in the unit's place of its square number.</div><div>For example, \\(12^2=144\\) and \\(22^2=484\\).</div><div>Notice that \\(2\\) is in the unit's place of the given integer and \\(4\\) is in the unit's place of the square number.</div>"
+  }, 
+  "solution": {
+    "text": "<div>The square of an integer with \\(1\\) or \\(9\\) in the unit's place will always have \\(1\\) in the unit's place of its square number.</div><div>Here, \\(_{j}_^2=_{{j**2}}_\\) and \\(_{k}_^2=_{{k**2}}_\\).</div><div>Observe carefully, the number in the unit's place of the square numbers is \\(1\\)</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "<div>\\(_{j}_\\)</div><div>\\(_{k}_\\)</div><div>\\(_{l}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        1309, 
+        1401, 
+        1509
+      ]
+    }, 
+    "j": {
+      "options": [
+        1001, 
+        1109, 
+        1201
+      ]
+    }, 
+    "l": {
+      "options": [
+        1601, 
+        1709, 
+        1801
+      ]
+    }
+  }, 
+  "answer": {
+    "value": 1
+  }, 
+  "type": 3
+}

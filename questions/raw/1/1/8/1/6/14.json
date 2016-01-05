@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "Point A and Point F signify room temperature and boiling point respectively."
+  }, 
+  "solution": {
+    "text": "<div>The line segment joining point D and E is a horizontal line and the co-ordinates of point D and E are (3,_{l}_) and (4,_{l}_) respectively.</div><div>This shows the temperature was constant in the fourth minute at _{l}_ degrees celsius</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "<div>A=(0,_{m}_), B=(1,_{j}_), C=(2,_{k}_), D=(3,_{l}_), E=(4,_{l}_), F=(8,100)</div><div>Was the temperature constant for any duration? If yes, what was the constant temperature?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3, 
+  "unit": "degrees celsius"
+}

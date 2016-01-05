@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "\\(Probability\\,of\\,an\\,event = \\frac {No.\\,of\\,outcomes\\,that\\,make\\,an\\,event}{Total\\,outcomes}\\)"
+  }, 
+  "solution": {
+    "text": "<div>No. of defective springs \\(=21\\)</div><div>Total no. of springs in the consignment \\(=700\\)</div><div>As a single defective spring is enough for the consignment to be rejected,</div><div>probability of the consignment being rejected = \\(\\frac{21}{700}\\)</div><div>\\(=\\frac{3}{100}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "In order to clear a consignment of springs, the quality of \\(1\\) spring selected at random is examined. If it is found to be of good quality, the consignment is cleared. In a consignment of 700 springs, 21 springs are defective. What is the probability that the consignment will be rejected?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "1/100"
+      }, 
+      {
+        "text": "21/100"
+      }, 
+      {
+        "text": "1/21"
+      }
+    ], 
+    "correct": {
+      "text": "3/100"
+    }
+  }
+}

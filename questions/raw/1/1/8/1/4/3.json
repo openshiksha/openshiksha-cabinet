@@ -1,0 +1,27 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>The multiplicative inverse of a number is its reciprocal.</div><div>Hence the reciprocal of \\( (9)^{-99} \\) is \\( (9)^{99} \\)</div>"
+  }, 
+  "content": {
+    "text": "\\( (9)^{-99} \\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "99"
+      }, 
+      {
+        "text": "-9"
+      }, 
+      {
+        "text": "\\( (99)^{-9} \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( (9)^{99} \\)"
+    }
+  }
+}

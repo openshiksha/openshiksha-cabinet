@@ -1,0 +1,51 @@
+{
+  "hint": {
+    "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(x^2+_{{m+n}}_x+_{{m*n}}_\\)</div><div>Notice that \\(x^2+_{{m+n}}_x+_{{m*n}}_\\,\\)can be written as \\(x^2+(_{m}_+_{n}_)x+(_{m}_)(_{n}_)\\,\\) </div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow x^2+(_{m}_+_{n}_)x+(_{m}_)(_{n}_)=(x+_{m}_)(x+_{n}_)\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(x^2+_{{m+n}}_x+_{{m*n}}_\\)"
+  }, 
+  "variable_constraints": {
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x+_{m}_)(x+_{{n+1}}_)\\)"
+      }, 
+      {
+        "text": "\\((x+1)(x-1)(_{{m*n}}_)\\)"
+      }, 
+      {
+        "text": "\\((x+_{m}_)(x-_{n}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((x+_{m}_)(x+_{n}_)\\)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Consider RHS</div><div>\\(=(_{j}_+_{k}_)xy\\)</div><div>\\(=_{j}_xy+_{k}_xy\\)</div><div>\\(\\neq _{j}_x+_{k}_y\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x+_{k}_y=(_{j}_+_{k}_)xy\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Correct"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Incorrect"
+    }
+  }
+}

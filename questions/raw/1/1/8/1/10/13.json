@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>On factorisation of a cube number, each factor appears thrice.</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_\\) expressed as a product of its factors is :</div><div>\\(_{{j**2}}_=_{j}_ \\times _{j}_\\)</div><div>As its factors appears only twice, \\(_{{j**2}}_\\) is not a perfect cube.</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "Is \\(_{{j**2}}_\\) are perfect cube?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        3, 
+        4, 
+        5, 
+        6, 
+        7, 
+        9, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

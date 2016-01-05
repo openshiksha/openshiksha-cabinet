@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "The total number of students that fall in a particular category is called the frequency."
+  }, 
+  "solution": {
+    "text": "<div>From the frequency distribution table,</div><div>The total number of students falling in the group \\((110-120)\\) and \\((160-170)\\) is \\(23\\).</div><div>Therefore, classes \\((110-120)\\) and \\((160-170)\\) have the same frequency.</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "Which classes have the same frequency?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "100-110"
+      }, 
+      {
+        "text": "190-200"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "110-120"
+      }, 
+      {
+        "text": "160-170"
+      }
+    ]
+  }
+}

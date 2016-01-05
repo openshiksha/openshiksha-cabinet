@@ -1,0 +1,42 @@
+{
+  "hint": {
+    "text": "<div>Pythagorean triplets can be expressed in general form as \\(2m, (m^2-1) and (m^2+1)\\)</div><div>In a Pythagorean triplet, \\((2m)^2+(m^2-1)^2=(m^2+1)^2\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>The middle member of the Pythagorean triplet is \\(_{j}_\\)</div><div>Let's take \\((m^2-1)=_{j}_\\)</div><div>Therefore, \\(m=\\sqrt{_{{j+1}}_}\\)</div><div>\\(\\Rightarrow m=_{{(j+1)**(Decimal(str(0.5)))}}_\\)</div><div>The other members \\(2m\\) and \\((m^2+1)\\) are \\(_{{2*((j+1)**(Decimal(str(0.5))))}}_\\) and \\(_{{j+1+1}}_\\) respectively.</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Whose middle member is \\(_{j}_\\) "
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        8, 
+        15, 
+        24, 
+        35, 
+        48, 
+        63, 
+        80
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{2*((j+1)**(Decimal(str(0.5))))}}_, _{j}_\\) and \\(_{{j+2+1}}_\\) "
+      }, 
+      {
+        "text": "\\(_{{2*((j+1)**(Decimal(str(0.5))))}}_, _{j}_\\) and \\(_{{j+3+1}}_\\) "
+      }, 
+      {
+        "text": "\\(_{{2*((j+1)**(Decimal(str(0.5))))}}_, _{j}_\\) and \\(_{{j+4+1}}_\\) "
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{2*((j+1)**(Decimal(str(0.5))))}}_, _{j}_\\) and \\(_{{j+1+1}}_\\) "
+    }
+  }
+}

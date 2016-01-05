@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We know that the sum of interior angles of a parallelogram add up to \\(360^o\\), and also there are 2 pairs of equal angles each.</div><div>Let these 2 angles be \\(x\\) and \\(y\\)</div><div>Hence, \\(2x + 2y=360\\)</div><div>\\(x+y=180\\), hence if x is obtuse \\((x\\gt90)\\), y has to be acute \\((y\\lt90)\\)</div><div>Thus if one pair of the angles are obtuse, the other pair of angles would have to be acute to satisfy the sum of the interior angles to be \\(360^o\\).</div><div>Hence the maximum number of obtuse angles a parallelogram can have is 2.</div> "
+  }, 
+  "content": {
+    "text": "<div>What is the maximum number of obtuse angles a parallelogram can have?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "3"
+      }, 
+      {
+        "text": "1"
+      }, 
+      {
+        "text": "4"
+      }
+    ], 
+    "correct": {
+      "text": "2"
+    }
+  }
+}

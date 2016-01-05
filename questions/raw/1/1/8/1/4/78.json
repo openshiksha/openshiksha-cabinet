@@ -1,0 +1,71 @@
+{
+  "hint": {
+    "text": "For any nonzero number a,b and k, \\((\\frac ab)^{-k} = (\\frac ba)^k\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\( \\frac {(\\frac {_{j}_}{_{k}_})^{-2}}{(\\frac {_{l}_}{_{m}_})^{-3}} = \\frac {(\\frac {_{l}_}{_{m}_})^3}{ (\\frac {_{j}_}{_{k}_})^2 }\\qquad[ (\\frac ab)^{-k} = (\\frac ba)^k ]\\) </div><div>\\(=  \\frac {_{{l**3}}_}{_{{m**3}}_} \\times  \\frac {_{{k**2}}_}{_{{j**2}}_}\\)</div><div>\\(= \\frac {_{{(l**3)}}_ \\times _{{(k**2)}}_}{_{{(m**3)}}_ \\times _{{(j**2)}}_} = _{{Fraction((l**3)*(k**2),(m**3)*(j**2))}}_ \\)</div>"
+  }, 
+  "subpart_index": 7, 
+  "content": {
+    "text": "Solve \\( \\frac {(\\frac {_{j}_}{_{k}_})^{-2}}{(\\frac {_{l}_}{_{m}_})^{-3}} \\)   "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            9, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            7, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{Fraction((l*k),(m*j))}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{Fraction((m**3)*(j**2),(l**3)*(k**2))}}_\\)"
+      }, 
+      {
+        "text": "1"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{Fraction((l**3)*(k**2),(m**3)*(j**2))}}_\\)"
+    }
+  }
+}

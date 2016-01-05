@@ -1,0 +1,38 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Sum of exterior angles in a polygon does not depend on the number of sides of the polygon.</div><div>Therefore sum of exterior angles of a polygon taken in order is \\(360^o\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Sum of all exterior angles, taken in order, of a polygon with _{j}_ sides is</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(j-2)*180}}_"
+      }, 
+      {
+        "text": "_{{(j+2)*180}}_"
+      }, 
+      {
+        "text": "0"
+      }
+    ], 
+    "correct": {
+      "text": "360"
+    }
+  }
+}

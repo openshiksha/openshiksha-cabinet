@@ -1,0 +1,51 @@
+{
+  "hint": {
+    "text": "\\((\\frac ab)^{(-m)} = (\\frac ba)^m\\)"
+  }, 
+  "solution": {
+    "text": "<div> \\(( (-_{k}_)^2 \\times (\\frac {_{k}_}{_{j}_})^{-2} )\\)</div><div>\\( = ( ({_{k}_}^2 ) \\times (\\frac {{_{j}_}^2}{{_{k}_}^2}) ) \\qquad [(\\frac ab)^{-m} = (\\frac ba)^m]\\)</div><div> \\(={_{j}_}^2 \\)</div><div>\\(= _{{j**2}}_\\)</div>"
+  }, 
+  "subpart_index": 10, 
+  "content": {
+    "text": "Solve \\(( (-_{k}_)^2 \\times (\\frac {_{k}_}{_{j}_})^{-2} )\\)   "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "-_{{j**2}}_"
+      }, 
+      {
+        "text": "_{{k**2}}_"
+      }, 
+      {
+        "text": "-_{{(k)**2}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j**2}}_"
+    }
+  }
+}

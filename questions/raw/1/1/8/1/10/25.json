@@ -1,0 +1,27 @@
+{
+  "hint": {
+    "text": "<div>The cube of an integer with a number 'x' in the unit's place will always have a number 'y' in the unit's place of its cube number.</div><div>For example, \\(8^3=512\\) and \\(18^3=5832\\).</div><div>Notice that \\(8\\) is in the unit's place of the given integer and \\(2\\) is in the unit's place of the square number.</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_^3\\)</div><div>\\(=_{j}_ \\times _{j}_ \\times _{j}_\\)</div><div>\\(=_{{j**3}}_\\)</div><div>Therefore, \\(3\\) lies in the one's digit of the cube of \\(_{j}_\\).</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "\\(_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        17, 
+        27, 
+        37, 
+        47, 
+        57
+      ]
+    }
+  }, 
+  "answer": {
+    "value": 3
+  }, 
+  "type": 3
+}

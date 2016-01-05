@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "Observe the central angles"
+  }, 
+  "solution": {
+    "text": "<div>To receive \\(10\\) percent of the votes, i.e. \\(0.1 \\times _{{j*5000}}_=_{{j*500}}_\\) votes, the central angle should be : </div><div>Central angle \\(= \\frac {_{{j*500}}_}{_{{j*5000}}_} \\times 360 \\)</div><div>\\(=36\\) degrees</div><div>We know that the central angle for kabaddi is \\(36\\). Therefore, kabaddi received \\(10\\) percent of the votes.</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "Which sport received \\(10\\) percent of the total \\(_{{j*5000}}_\\) votes?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Football"
+      }, 
+      {
+        "text": "Tennis"
+      }, 
+      {
+        "text": "Basketball"
+      }, 
+      {
+        "text": "Cricket"
+      }
+    ], 
+    "correct": {
+      "text": "Kabaddi"
+    }
+  }
+}

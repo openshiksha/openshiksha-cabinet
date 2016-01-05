@@ -1,0 +1,68 @@
+{
+  "hint": {
+    "text": "The height of the bars show the number of goals scored by Zlatan in each season."
+  }, 
+  "solution": {
+    "text": "<div>Observe the histogram carefully.</div><div>Draw a horizontal line from the top of the bar to the y-axis.</div><div>In the \\(2010-11\\) season, he scored \\(_{l}_\\) goals.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>How many goals did he score in the \\(2010-11\\) season?</div><div>\\(a=_{j}_, b=_{k}_, c=_{l}_, d=_{m}_, e=_{n}_, f=_{j}_, \\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            21, 
+            25
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            26, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            36, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            31, 
+            35
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            16, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

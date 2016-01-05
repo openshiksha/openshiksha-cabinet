@@ -1,0 +1,43 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>As ABCD is a rhombus, the diagonals intersect each other perpendicularly and bisect each other, thus \\(OB=OD\\).</div><div>Thus, \\(y+2=j=_{j}_\\)</div><div>\\(y=_{j}_-2=_{{j-2}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>What is the value of y where j is _{j}_ and k is _{k}_? </div>", 
+    "img": "35.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        4, 
+        12, 
+        15
+      ]
+    }, 
+    "j": {
+      "options": [
+        3, 
+        5, 
+        8
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j}}_"
+      }, 
+      {
+        "text": "_{{j+2}}_"
+      }, 
+      {
+        "text": "_{{j+1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j-2}}_"
+    }
+  }
+}

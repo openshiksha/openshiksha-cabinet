@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "\\(a^m= \\frac1{a^{-m}}\\)"
+  }, 
+  "solution": {
+    "text": "<div>\\( \\frac {1}{_{k}_ \\times _{k}_ \\times _{k}_} \\)would be \\( \\frac {1}{_{k}_^3}, \\) which can also be written as \\( _{k}_^{-3} \\).</div>"
+  }, 
+  "subpart_index": 13, 
+  "content": {
+    "text": "If \\(_{k}_ \\times _{k}_ \\times _{k}_\\,\\) is represented as \\( _{k}_^{3} \\), then what is the power of \\( \\frac {1}{_{k}_ \\times _{k}_ \\times _{k}_} \\) with base _{k}_? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": -3
+  }, 
+  "type": 3
+}

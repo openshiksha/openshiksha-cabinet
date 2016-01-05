@@ -1,0 +1,23 @@
+{
+  "content": {
+    "text": "Assume that _{{2*j}}_ more soap bars get spoiled, does the shopkeeper make a profit or loss?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Profit"
+      }, 
+      {
+        "text": "Neither profit nor loss"
+      }
+    ], 
+    "correct": {
+      "text": "Loss"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> From first part, total CP = Rs. _{{200*j*k}}_</div><div> Since _{{2*j}}_ more soaps get spoiled, hence total new SP = (_{{8*j}}_-_{{2*j}}_) x _{{30*k}}_ = Rs. _{{180*j*k}}_</div><div> \\( \\Rightarrow \\) Since CP>SP, the shopkeeper makes a loss. </div>"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "hint": {
+    "text": "<div>The square of an integer with a number 'x' in the unit's place will always have a number 'y' in the unit's place of its square number.</div><div>For example, \\(14^2=196\\) and \\(24^2=576\\).</div><div>Notice that \\(4\\) is in the unit's place of the given integer and \\(6\\) is in the unit's place of the square number.</div>"
+  }, 
+  "solution": {
+    "text": "<div>The squares of integers with \\(2\\,\\)and \\(8\\,\\) in the unit's place end with \\(4\\).</div><div>For example,</div><div>The square of \\(12\\,\\) is \\(144\\,\\) and the square of \\(18\\,\\) is \\(324\\).</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>The square of which of these numbers would end with \\('4'\\)</div><ol type='i'><li>\\(_{j}_\\)</li><li>\\(_{k}_\\)</li><li>\\(_{l}_\\)</li><li>\\(_{m}_\\)</li><li>\\(_{n}_\\)</li></ol>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        61, 
+        81, 
+        101, 
+        111
+      ]
+    }, 
+    "j": {
+      "options": [
+        22, 
+        42, 
+        52, 
+        112
+      ]
+    }, 
+    "m": {
+      "options": [
+        36, 
+        76, 
+        166, 
+        16
+      ]
+    }, 
+    "l": {
+      "options": [
+        58, 
+        88, 
+        148, 
+        108
+      ]
+    }, 
+    "n": {
+      "options": [
+        69, 
+        29, 
+        99, 
+        89
+      ]
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{k}_\\)"
+      }, 
+      {
+        "text": "\\(_{m}_\\)"
+      }, 
+      {
+        "text": "\\(_{n}_\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{j}_\\)"
+      }, 
+      {
+        "text": "\\(_{l}_\\)"
+      }
+    ]
+  }
+}

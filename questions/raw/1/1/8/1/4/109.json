@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "What is \\((ab)^n\\) where \\(a\\) and \\(b\\) are non-zero integers?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(ab^n\\)"
+      }, 
+      {
+        "text": "\\(ba^n\\)"
+      }, 
+      {
+        "text": "\\(na\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(a^nb^n\\)"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 8, 
+  "solution": {
+    "text": "\\((ab)^n  =  a^nb^n\\)  when a and b non zero integers."
+  }
+}

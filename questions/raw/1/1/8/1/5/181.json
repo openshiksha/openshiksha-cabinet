@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": "First rearrange the terms in the dividend and divisor in order of degree and look for any common values."
+  }, 
+  "solution": {
+    "text": "<div>Perform long division method to find the quotient and remainder as shown above : </div><div>Therefore, you must subtract \\((9-12a)\\,\\) from \\(6a^3+16a^2-2a+13\\,\\) so that the resulting polynomial is divisible by \\(3a^2+2a+1\\).</div>", 
+    "img": "181.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "What must be subtracted from \\(6a^3+16a^2-2a+13\\,\\) so that the resulting polynomial is divisible by \\(3a^2+2a+1\\)."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(12a-9\\)"
+      }, 
+      {
+        "text": "\\(-8a-9\\)"
+      }, 
+      {
+        "text": "\\(-9-12a\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(9-12a\\)"
+    }
+  }
+}

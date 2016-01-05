@@ -1,0 +1,22 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>\\(1^3=1; 2^3=8\\)</div><div>Thus, the cube of a one digit number may have only one digit.</div>"
+  }, 
+  "content": {
+    "text": "The cube of a one digit number may have only one digit."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

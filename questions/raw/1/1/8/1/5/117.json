@@ -1,0 +1,61 @@
+{
+  "hint": {
+    "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_s^2-_{{j*(n-m)}}_s-_{{j*m*n}}_\\)</div><div>Notice that \\(_{j}_s^2-_{{j*(n-m)}}_s-_{{j*m*n}}_\\,\\)can be written as \\(_{j}_(s^2-_{{n-m}}_s-_{{m*n}}_)\\)</div><div>\\(\\Rightarrow _{j}_(s^2-_{{n-m}}_s-_{{m*n}}_)=_{j}_(s^2-(_{n}_-_{m}_)s-(_{m}_)(_{n}_))\\)</div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow _{j}_(s^2-(_{n}_-_{m}_)s-(_{m}_)(_{n}_))=_{j}_(s+_{m}_)(s-_{n}_)\\)</div>"
+  }, 
+  "subpart_index": 6, 
+  "content": {
+    "text": "\\(_{j}_s^2-_{{j*(n-m)}}_s-_{{j*m*n}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            10, 
+            14
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_(s+_{m}_)(s-_{{n-1}}_)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_s+_{m}_)(_{j}_s-_{n}_)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_(s-_{m}_)(s+_{n}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_(s+_{m}_)(s-_{n}_)\\)"
+    }
+  }
+}

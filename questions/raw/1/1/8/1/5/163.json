@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac{a^{8x}+a^{4x}b^{4y}+b^{8y}}{a^{4x}+a^{2x}b^{2y}+b^{4y}}\\)</div><div>Consider the LHS = \\(a^{8x}+a^{4x}b^{4y}+b^{8y}\\)</div><div>\\(=(a^{4x})^2+2a^{4x}b^{4y}+(b^{4y})^2-a^{4x}b^{4y}\\,\\)[Adding and subtracting \\(a^{4x}b^{4y}\\)]</div><div>\\(=(a^{4x}+b^{4y})^2-(a^{2x}b^{2y})^2\\,\\)[Using identity \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=(a^{4x}+b^{4y}-a^{2x}b^{2y})(a^{4x}+b^{4y}+a^{2x}b^{2y})\\,\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>Therefore,</div><div>\\(\\frac{a^{8x}+a^{4x}b^{4y}+b^{8y}}{a^{4x}+a^{2x}b^{2y}+b^{4y}}\\)</div><div>\\(=\\frac{(a^{4x}+b^{4y}-a^{2x}b^{2y})(a^{4x}+b^{4y}+a^{2x}b^{2y})}{a^{4x}+a^{2x}b^{2y}+b^{4y}}\\)</div><div>\\(=a^{4x}+b^{4y}-a^{2x}b^{2y}\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(\\frac{a^{8x}+a^{4x}b^{4y}+b^{8y}}{a^{4x}+a^{2x}b^{2y}+b^{4y}}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(a^{4x}+b^{4y}+a^{2x}b^{2y}\\)"
+      }, 
+      {
+        "text": "\\(a^{2x}+b^{2y}-a^{x}b^{y}\\)"
+      }, 
+      {
+        "text": "\\(a^{2x}+b^{2y}+a^{x}b^{y}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(a^{4x}+b^{4y}-a^{2x}b^{2y}\\)"
+    }
+  }
+}

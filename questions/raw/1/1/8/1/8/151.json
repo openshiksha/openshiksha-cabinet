@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "img": "151h.png"
+  }, 
+  "solution": {
+    "text": "<ol type='i'><li>Place a bar over every pair of digits starting from the one's digit.</li><li>Find the largest number whose square is less than or equal to the number under the left-most bar. Take the number as the divisor and the number under the left-most bar as the dividend. Divide and get the remainder i.e. \\(7\\) in this case.</li><li>Bring down the number under the next bar (i.e.\\(56\\)) to the right of the remainder. The new dividend is \\(756\\).</li><li>Double the divisor and enter it with a blank to its right.</li><li>Guess the largest possible digit to fill the blank which also becomes the new digit in the quotient such that when the new digit is multiplied to the new quotient the product is less than or equal to the dividend. In this case we see that \\(126 \\times 6 = 756\\). Get the remainder.</li><li>Since the remainder is \\(0\\) and no bar is left, therefore, \\(\\sqrt{4356}=66.\\)</li></ol>", 
+    "img": "151.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "4356"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 66
+  }, 
+  "type": 3
+}

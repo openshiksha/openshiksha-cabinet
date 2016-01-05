@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>The square of a number is the number we get by multiplying an integer by itself.</div><div>For example, the square of \\(2\\) is \\(2^2=2 \\times 2=4\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>The square of \\(_{j}_\\,\\)is\\(\\, _{j}_^2\\)</div><div>\\(=_{j}_*_{j}_\\)</div><div>\\(=_{{j**2}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(_{j}_^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j**2}}_"
+  }, 
+  "type": 3
+}

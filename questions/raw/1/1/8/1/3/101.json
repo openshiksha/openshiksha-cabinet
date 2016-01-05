@@ -4,7 +4,7 @@
     "text": "<div>Let the average score be x. You know that Khushi obtained _{{j*2}}_ marks and that it was twice the average score.</div><div>Therefore \\( 2 \\times x \\) = _{{j*2}}_</div><div>\\( \\Rightarrow x = _{{j*2}}_ \\div 2\\)</div><div>\\( \\Rightarrow x = _{j}_\\)</div><div>Let the lowest score be y. You are told that \\(y = x - 20\\)</div><div>Therefore y = _{{j- 20}}_</div><div>The lowest score is _{{j-20}}_</div>"
   }, 
   "content": {
-    "text": "Khushi obtained _{{j*2}}_ marks in the maths examination. The teacher tells your class that Khushi\u2019s score was the highest and that it was 2 times the average score. If the lowest score was 20 marks less than the average, what was the lowest score?"
+    "text": "Khushi obtained _{{j*2}}_ marks in the maths examination. The teacher tells your class that Khushi's score was the highest and that it was 2 times the average score. If the lowest score was 20 marks less than the average, what was the lowest score?"
   }, 
   "variable_constraints": {
     "j": {

@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "For any nonzero number a,b and k, \\((\\frac ab)^{-k} = (\\frac ba)^k\\)"
+  }, 
+  "solution": {
+    "text": "<div> \\((5^{-1} + (\\frac 43)^{-1} )^{-1} = ( (\\frac 15) + (\\frac 34) )^{-1} \\qquad \\{ (\\frac ab)^{-k} = (\\frac ba)^k \\}\\)</div><div> = \\( (19/20)^{-1}  = (20/19)\\)</div>"
+  }, 
+  "subpart_index": 9, 
+  "content": {
+    "text": "Solve \\(( 5^{-1} + (\\frac 43)^{-1} )^{-1}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {19}{20}\\)"
+      }, 
+      {
+        "text": "9"
+      }, 
+      {
+        "text": "-1"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {20}{19}\\)"
+    }
+  }
+}
