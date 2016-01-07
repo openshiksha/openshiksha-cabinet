@@ -2,25 +2,25 @@
   "content": {
     "text": "The unknown number is ?"
   }, 
-  "solution": {
-    "text": "<div>Twice the rational number  \\(-\\frac {_{j}_}{_{k}_}\\) is \\(-\\frac {_{{2*j}}_}{_{k}_}\\)</div><div>According to the question the sum of x and \\(-\\frac {_{{2*j}}_}{_{k}_}\\) is \\(\\frac {_{k}_}{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x + \\(-\\frac {_{{2*j}}_}{k} = \\frac {_{k}_}{_{j}_}\\)</div><div>  \\(\\Rightarrow\\) x = \\(\\frac {_{k}_}{_{j}_} - \\frac {_{{2*j}}_}{k}\\)</div><div>\\(\\Rightarrow\\)x = _{{trunc(Decimal((k+k)+(2*j*j))/Decimal(k*j), 2)}}_</div>"
-  }, 
-  "type": 1, 
-  "subpart_index": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "_{{trunc(Decimal((k+k)+(2*j))/Decimal(k*j), 2)}}_"
+        "text": "- _{{trunc(((Decimal(k)*k)+(2*j*j))/(k*j), 2)}}_"
       }, 
       {
-        "text": "_{{trunc(Decimal((k+k)-(2*j*j))/Decimal(k*j), 2)}}_"
+        "text": "_{{trunc(((Decimal(k)*k)+(j*j))/(k*j), 2)}}_"
       }, 
       {
-        "text": "_{{trunc(Decimal((k+k)+(j*j))/Decimal(k*j), 2)}}_"
+        "text": "_{{trunc(((Decimal(k))+(2*j*j))/(k*j), 2)}}_"
       }
     ], 
     "correct": {
-      "text": "_{{trunc(Decimal((k+k)+(2*j*j))/Decimal(k*j), 2)}}_"
+      "text": "_{{trunc(((Decimal(k)*k)+(2*j*j))/(k*j), 2)}}_"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Twice the rational number  \\(-\\frac {_{j}_}{_{k}_}\\) is \\(-\\frac {_{{2*j}}_}{_{k}_}\\)</div><div>According to the question the sum of x and \\(-\\frac {_{{2*j}}_}{_{k}_}\\) is \\(\\frac {_{k}_}{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x + \\(-\\frac {_{{2*j}}_}{_{k}_} = \\frac {_{k}_}{_{j}_}\\)</div><div>  \\(\\Rightarrow\\) x = \\(\\frac {_{k}_}{_{j}_} + \\frac {_{{2*j}}_}{_{k}_}\\)</div><div>\\(\\Rightarrow\\)x = _{{trunc(((Decimal(k)*k)+(2*j*j))/(k*j), 2)}}_</div>"
   }
 }

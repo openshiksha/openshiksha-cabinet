@@ -1,12 +1,7 @@
 {
   "content": {
-    "text": "According to the question, what are the three numbers ?"
+    "text": "what are the three consecutive numbers in the case above ?"
   }, 
-  "solution": {
-    "text": "<div>Let's assume x-1,x,x+1 be three consecutive integers.</div><div> Sum of three consecutive  integers is _{{3*j}}_.</div><div> (x-1) + x + (x+1) = _{{3*j}}_</div><div> 3x = _{{3*j}}_</div><div> x = _{j}_</div><div> Therefore three consecutive numbers are _{{j-1}}_, _{{j}}_, _{{j+1}}_</div>"
-  }, 
-  "type": 1, 
-  "subpart_index": 1, 
   "options": {
     "incorrect": [
       {
@@ -22,5 +17,10 @@
     "correct": {
       "text": "_{{j-1}}_, _{{j}}_, _{{j+1}}_"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let's assume x-1,x,x+1 be three consecutive integers.</div><div> Sum of three consecutive  integers is _{{3*j}}_.</div><div> (x-1) + x + (x+1) = _{{3*j}}_</div><div> 3x = _{{3*j}}_</div><div> x = _{j}_</div><div> Therefore three consecutive numbers are _{{j-1}}_, _{{j}}_, _{{j+1}}_</div>"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "solution": {
-    "text": "<div>Twice the rational number  \\(-\\frac {_{j}_}{_{k}_}\\) is \\(-\\frac {_{{2*j}}_}{_{k}_}\\)</div><div>According to the question the sum of x and \\(-\\frac {_{{2*j}}_}{_{k}_}\\) is \\(\\frac {_{k}_}{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x + \\(-\\frac {_{{2*j}}_}{k} = \\frac {_{k}_}{_{j}_}\\)</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Twice the rational number  \\(-\\frac {_{j}_}{_{k}_}\\) is \\(-\\frac {_{{2*j}}_}{_{k}_}\\)</div><div>According to the question the sum of x and \\(-\\frac {_{{2*j}}_}{_{k}_}\\) is \\(\\frac {_{k}_}{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x + \\(-\\frac {_{{2*j}}_}{_{k}_} = \\frac {_{k}_}{_{j}_}\\)</div>"
+  }, 
   "content": {
     "text": "<div>What should be added to twice the rational number -\\(\\frac {_{j}_}{_{k}_}\\) to get \\(\\frac{_{k}_}{_{j}_}\\) ?</div><div>Let x be the unknown rational number, then what will be the equation ?</div>"
   }, 
@@ -11,7 +11,7 @@
       "range": {
         "include": [
           [
-            1, 
+            6, 
             9
           ]
         ]
@@ -22,7 +22,7 @@
         "include": [
           [
             1, 
-            9
+            5
           ]
         ]
       }
@@ -32,17 +32,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "x - \\(\\frac {_{{2*j}}_}{k} = \\frac {_{k}_}{_{j}_}\\)"
+        "text": "x - \\(\\frac {_{{2*j}}_}{_{k}_} = \\frac {_{j}_}{_{k}_}\\)"
       }, 
       {
-        "text": "x + \\(\\frac {_{{2*j}}_}{k} = \\frac {_{k}_}{_{j}_}\\)"
+        "text": "x + \\(\\frac {_{{2*j}}_}{_{k}_} = \\frac {_{k}_}{_{j}_}\\)"
       }, 
       {
-        "text": "x + \\(-\\frac {_{{j}}_}{k} = \\frac {_{k}_}{_{j}_}\\)"
+        "text": "x + \\(-\\frac {_{{j}}_}{_{k}_} = \\frac {_{k}_}{_{j}_}\\)"
       }
     ], 
     "correct": {
-      "text": "x + \\(-\\frac {_{{2*j}}_}{k} = \\frac {_{k}_}{_{j}_}\\)"
+      "text": "x + \\(-\\frac {_{{2*j}}_}{_{k}_} = \\frac {_{k}_}{_{j}_}\\)"
     }
   }
 }

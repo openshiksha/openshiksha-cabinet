@@ -1,8 +1,8 @@
 {
-  "solution": {
-    "text": "<div>Consecutive numbers have a difference of 1</div><div> The only option which has a difference not equal to 2.</div><div> X + 2 - x = 2 and x - (x-2) = 2</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Consecutive numbers have a difference of 1</div><div> The only option which has a difference not equal to 1 is - </div><div> x + 2 ,x and x +2, which has a difference of 2.</div><div> Hence, these are not consecutive integers.</div>"
+  }, 
   "content": {
     "text": "<div>Three consecutive integers add up to _{{3*j}}_</div><div>Which of them does not represent a group of consecutive integers ?</div>"
   }, 

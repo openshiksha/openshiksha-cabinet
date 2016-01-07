@@ -2,11 +2,6 @@
   "content": {
     "text": "Charlie has a sister who is 6 years elder to his brother.Her age is"
   }, 
-  "solution": {
-    "text": "<div>Charlie's brother's age = _{{2*j}}_</div><div>His sister is 6 years elder to his brother.</div><div>Therefore,his sister's age = _{{2*j}}_+6 = _{{(2*j)+6}}_</div>"
-  }, 
-  "type": 1, 
-  "subpart_index": 2, 
   "options": {
     "incorrect": [
       {
@@ -22,5 +17,10 @@
     "correct": {
       "text": "_{{(2*j)+6}}_"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Charlie's brother's age = _{{2*j}}_</div><div>His sister is 6 years elder to his brother.</div><div>Therefore,his sister's age = _{{2*j}}_+6 = _{{(2*j)+6}}_</div>"
   }
 }

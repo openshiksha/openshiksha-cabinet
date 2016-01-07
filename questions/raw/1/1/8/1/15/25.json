@@ -1,26 +1,29 @@
 {
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>We don't know the length of the equal sides.So,let the length of the equal side be x.</div><div> According to question:</div><div> x + x + \\(\\frac {_{j}_}{3} = {_{j}_}\\frac {2}{15}\\)</div><div> 2x+ \\(\\frac {_{j}_}{3} = \\frac {(15 \\times _{j}_) + 2}{15}\\)</div><div>\\( \\Rightarrow \\)  2x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)</div>"
+  }, 
   "content": {
     "text": "If the length of equal side is x, then the equation for perimeter is ?"
   }, 
-  "solution": {
-    "text": "<div>We don't know the length of the equal sides.So,let the length of the equal side be x.</div><div> According to question:</div><div> x + x + \\(\\frac {_{j}_}{3} = {_{j}_}\\frac {2}{15}\\)</div><div> x + x + \\(\\frac {_{j}_}{3} = \\frac {(15 \\times _{j}_) + 2}{15}\\)</div><div> 2x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {(15 \\times _{j}_) + 2}{15}\\)</div>"
+  "variable_constraints": {
+    "j": {}
   }, 
   "type": 1, 
-  "subpart_index": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "2x - \\(\\frac {_{j}_}{3}\\) = \\(\\frac {(15 \\times _{j}_) + 2}{15}\\)"
+        "text": "2x - \\(\\frac {_{j}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)"
       }, 
       {
-        "text": "x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {(15 \\times _{j}_) + 2}{15}\\)"
+        "text": "x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)"
       }, 
       {
-        "text": "2x + \\(\\frac {2 \\times _{j}_}{3}\\) = \\(\\frac {(15 \\times _{j}_) + 2}{15}\\)"
+        "text": "2x + \\(\\frac { _{{2*j}}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)"
       }
     ], 
     "correct": {
-      "text": "2x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {(15 \\times _{j}_) + 2}{15}\\)"
+      "text": "2x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)"
     }
   }
 }

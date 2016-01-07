@@ -1,12 +1,7 @@
 {
   "content": {
-    "text": "Charlie and his brother's age  respectively  are"
+    "text": "Charlie and his brother's ages respectively are - "
   }, 
-  "solution": {
-    "text": "<div>If charlie's age is x,Then charlie's brother's age is 2x.</div><div>According to question,</div><div>The sum of Charlie and his brother's age is _{{3*j}}_</div><div>\\(\\Rightarrow\\) 2x+x = _{{3*j}}_</div><div>\\(\\Rightarrow\\) 3x = _{{3*j}}_</div><div>Divide both sides by 3,</div><div>\\(\\Rightarrow\\) x = _{j}_</div><div>Therefore,charlie's age is _{j}_ and charlie's brother's age is _{{2*j}}_.</div>"
-  }, 
-  "type": 1, 
-  "subpart_index": 1, 
   "options": {
     "incorrect": [
       {
@@ -22,5 +17,10 @@
     "correct": {
       "text": "_{j}_ years,_{{2*j}}_ years"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>If charlie's age is x,Then charlie's brother's age is 2x.</div><div>According to question,</div><div>The sum of Charlie and his brother's age is _{{3*j}}_</div><div>\\(\\Rightarrow\\) 2x+x = _{{3*j}}_</div><div>\\(\\Rightarrow\\) 3x = _{{3*j}}_</div><div>Divide both sides by 3,</div><div>\\(\\Rightarrow\\) x = _{j}_</div><div>Therefore,charlie's age is _{j}_ and charlie's brother's age is _{{2*j}}_.</div>"
   }
 }

@@ -1,38 +1,50 @@
 {
-  "solution": {
-    "text": "<div>The ratio of two numbers is 2:5.The ratio can be written in fraction form as \\(\\frac {2}5\\).</div><div>Now,multiplying in both numerator and denominator by x the ratio will remain will remain same[Because multiplying in numerator and denominator by same number doesn't change the fraction value].</div><div>Therefore,the ratio can be written as \\(\\frac {2x}{5x}\\)</div><div>Therefore,larger and smaller number are 5x and 2x respectively.</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The ratio of two numbers is 2:5.The ratio can be written in fraction form as \\(\\frac {2}{5}\\).</div><div>Therefore , any of the following numbers that can be represented in the same ratio can be possible - </div>\n<div> \\( \\frac {_{{2*j}}_}{_{{5*j}}_} \\) = 2:5 </div>\n<div> \\( \\frac {_{{12*j}}_}{_{{30*j}}_} \\) = 2:5 </div>\n<div> The other two cannot be represented in the same ratio. </div>"
+  }, 
   "content": {
-    "text": "<div>The difference between two numbers is _{{3*j}}_.The ratio of two numbers is 2:5. What are the two numbers ?</div><div>Let x be an unknown , which is the most suitable combination which represents the two numbers whose difference is _{{3*j}}_. The option shows larger number,smaller number respectively</div>"
+    "text": "The ratio of two numbers is 2:5. Which of these can represent the two numbers ? "
   }, 
   "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }, 
     "j": {
       "range": {
         "include": [
           [
-            20, 
-            33
+            5, 
+            20
           ]
         ]
       }
     }
   }, 
-  "type": 1, 
+  "type": 2, 
   "options": {
     "incorrect": [
       {
-        "text": "x, x"
+        "text": "1,5"
       }, 
       {
-        "text": "2x, 3x"
-      }, 
-      {
-        "text": "7x, 4x"
+        "text": "20,30"
       }
     ], 
-    "correct": {
-      "text": "5x, 2x"
-    }
+    "correct": [
+      {
+        "text": "_{{2*j}}_,_{{5*j}}_"
+      }, 
+      {
+        "text": "_{{12*j}}_,_{{30*j}}_"
+      }
+    ]
   }
 }

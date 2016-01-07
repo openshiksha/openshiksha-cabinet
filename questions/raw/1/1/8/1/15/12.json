@@ -1,17 +1,17 @@
 {
-  "solution": {
-    "text": "<div>Let Charlie's age be x and Charlie's brother's age be y.</div><div>According to question.</div><div>\\(\\Rightarrow\\) y=2x </div><div>For all x&gt;0,</div><div>\\(\\Rightarrow\\) 2x&gt;x</div><div>\\(\\Rightarrow\\) y&gt;x</div><div>Charlie's brother is two times his brother's age.Therefore, Charlie's brother is elder to Charlie.</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let Charlie's age be x. Hence, Charlie's brother's age be 2x.</div><div>We know that x + 2x = _{{3*j}}_ </div><div>\\(\\Rightarrow\\) 3x = _{{3*j}}_ </div><div>\\(\\Rightarrow\\) x= _{j}_ </div><div>Charlie's brother is two times his brother's age.</div> Therefore, Charlie is _{j}_ years younger than his brother.</div>"
+  }, 
   "content": {
-    "text": "<div>The present age of Charlie's brother is 2 times Charlie's present age.The sum of Charlie and his brother's ages is _{{3*j}}_,</div><div>Who is elder to whom ?</div>"
+    "text": "<div>The present age of Charlie's brother is 2 times Charlie's present age.The sum of Charlie and his brother's ages is _{{3*j}}_,</div><div>What is the relation between the ages of Charlie and his brother ?</div>"
   }, 
   "variable_constraints": {
     "j": {
       "range": {
         "include": [
           [
-            2, 
+            7, 
             20
           ]
         ]
@@ -22,17 +22,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "Charlie is elder to his brother"
+        "text": "Charlie is _{j}_ years older than his brother."
       }, 
       {
-        "text": "Charlie and his brother are twins"
+        "text": "Charlie's brother is _{j}_ years younger than Charlie."
       }, 
       {
-        "text": "Cannot be determined"
+        "text": "Charlie's brother is _{{2*j}}_ years older than Charlie."
       }
     ], 
     "correct": {
-      "text": "Charlie's brother is elder to Charlie"
+      "text": "Charlie is _{j}_ years younger than his brother."
     }
   }
 }

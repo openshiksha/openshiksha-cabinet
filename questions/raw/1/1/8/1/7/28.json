@@ -4,7 +4,7 @@
     "text": "<div>Since the total number of workers = _{{20*j}}_</div><div>Workers who leave the team = _{{10*j}}_</div><div> Therefore, Workers left for the second time = _{{20*j}}_- _{{10*j}}_ = _{{10*j}}_</div><div> Since the numbers of workers and number of days to finish the job are inversely proportional we get,</div><div>\\( _{{32*k}}_  \\times _{{20*j}}_\\) = Constant</div><div>\\(_{{10*j}}_  \\times \\) (No. of days to complete job second time) = Constant</div><div> Therefore,\\( _{{32*k}}_ \\times _{{20*j}}_ = _{{10*j}}_ \\times \\) (No. of days to complete job second time) </div><div>Number of days to complete job second time =\\( \\frac {_{{32*k}}_ \\times  _{{20*j}}_}{_{{10*j}}_} \\)</div><div>\\(\\Rightarrow\\) Number of days to complete the job second time = _{{64*k}}_</div>"
   }, 
   "content": {
-    "text": "You are a contractor and are given a contract to pave a road. It takes you _{{20*j}}_ trained workers and _{{32*k}}_ days to finish the job. Unfortunately there is a problem and you must redo all the work again. _{{10*j}}_ workers leave your team. How much time will it take the remaining to redo the work and complete the job for the second time?", 
+    "text": "You are a contractor and are given a contract to pave a road. It takes you _{{20*j}}_ trained workers and _{{32*k}}_ days to finish the job. Unfortunately there is a problem and you must redo all the work again. _{{10*j}}_ workers leave your team. How much time will it take the remaining to redo the work and complete the job for a second time?", 
     "img": "9.png"
   }, 
   "variable_constraints": {

@@ -1,48 +1,26 @@
 {
-  "solution": {
-    "text": "<div>The ratio of blue toffees is to red toffees is \\(\\frac {_{k}_}{_{{k+1}}_}\\)</div><div>Therefore,there are _{k}_x blue toffees and (_{{k+2}}_)x red toffees</div><div>And the sum is _{j}_</div><div>Therefore, _{k}_x + (_{{k+2}}_)x = _{j}_</div><div>\\(\\Rightarrow\\) _{{(2*k)+2}}_x = _{j}_</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal(j)/Decimal((2*k)+2), 2)}}_</div><div>The number of red toffees = _{{k+1}}_x = _{{k+1}}_ \\(\\times\\) _{{trunc(Decimal(j)/Decimal(2*(k+1)), 2)}}_ = _{{trunc(Decimal(j)/Decimal(2), 2)}}_</div>"
-  }, 
-  "subpart_index": 1, 
   "content": {
-    "text": "The ratio of blue toffees is to red toffees is \\(\\frac {_{k}_}{_{{k+1}}_}\\) ,the number of red toffees is ?"
+    "text": "The ratio of blue toffees to red toffees is \\(\\frac {_{{2*(j-k)}}_}{_{{2*k}}_}\\) ,the number of red toffees is ?"
   }, 
-  "variable_constraints": {
-    "k": {
-      "range": {
-        "include": [
-          [
-            1, 
-            20
-          ]
-        ]
-      }
-    }, 
-    "j": {
-      "range": {
-        "include": [
-          [
-            40, 
-            60
-          ]
-        ]
-      }
-    }
-  }, 
-  "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "_{{trunc(Decimal(j*(k+1))/Decimal(2), 2)}}_"
+        "text": "_{j}_"
       }, 
       {
-        "text": "_{{j*(k+1)}}_"
+        "text": "_{k}_"
       }, 
       {
-        "text": "_{{j*k}}_"
+        "text": "_{{(j-2*k)}}_"
       }
     ], 
     "correct": {
-      "text": "_{{trunc(Decimal(j)/Decimal(2), 2)}}_"
+      "text": "_{{(j-k)}}_"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The ratio of blue toffees is to red toffees is \\(\\frac {_{{2*(j-k)}}_}{_{{2*k}}_}\\)</div><div>Therefore, let the number of blue toffees be _{{2*(j-k)}}_y and the number of red toffees be _{{2*k}}_y .</div><div> Therefore, total number of toffees = _{j}_ </div> <div> _{{2*(j-k)}}_y + _{{2*k}}_y = _{j}_</div><div>_{{2*j}}_y = _{j}_</div><div> So, y= \\(\\frac{1}{2} \\).</div> <div> So number of blue toffees = _{{2*(j-k)}}_y = _{{2*(j-k)}}_ x \\( \\frac{1}{2} \\) = _{{(j-k)}}_ </div>"
   }
 }

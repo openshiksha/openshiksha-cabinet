@@ -1,26 +1,26 @@
 {
   "content": {
-    "text": "According to question what is the value of x ?"
+    "text": "If the difference between the two numbers is _{{3*k}}_ what is the value of the smaller number ?"
   }, 
-  "solution": {
-    "text": "<div>Difference of the two numbers 5x and 2x is _{{3*j}}_.</div><div> \\(\\Rightarrow\\) 5x - 2x = _{{3*j}}_</div><div> \\(\\Rightarrow\\) 3x = _{{3*j}}_</div><div> Divide both sides by 3.</div><div> \\(\\Rightarrow\\) x = _{j}_</div>"
-  }, 
-  "type": 1, 
-  "subpart_index": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "_{{2*j}}_"
+        "text": "_{{4*k}}_"
       }, 
       {
-        "text": "_{{3*j}}_"
+        "text": "_{{3*k}}_"
       }, 
       {
-        "text": "-_{j}_"
+        "text": "_{k}_"
       }
     ], 
     "correct": {
-      "text": "_{j}_"
+      "text": "_{{2*k}}_"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Difference of the two numbers is _{{3*k}}_.</div><div> Taking the common multiple as x, we get the two numbers as 5x and 2x</div><div>Given that 5x-2x = _{{3*k}}_</div><div> Divide both sides by 3.</div><div> \\(\\Rightarrow\\) x = _{k}_</div><div> Therefore, the smaller number is 2x = _{{2*k}}_</div>"
   }
 }

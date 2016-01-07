@@ -1,12 +1,13 @@
 {
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Yes</div><div>Can be represented as \\( \\frac xy = k \\) where \\( k = \\frac 1n \\)</div><div>Where n represents quantity of pens bought</div><div> As the cost of a pen(x) increases or decreases the total price(y) also increases or decreases respectively.</div><div> The two are directly proportional.</div>"
+  }, 
   "content": {
     "text": "Cost of a pen (x) and their total price (y)"
   }, 
-  "solution": {
-    "text": "<div>Yes</div><div>Can be represented as \\( \\frac xy = k \\) where \\( k = \\frac 1n \\)</div><div>Where n represents quantity of pens bought</div>"
-  }, 
+  "variable_constraints": {}, 
   "type": 1, 
-  "subpart_index": 0, 
   "options": {
     "incorrect": [
       {

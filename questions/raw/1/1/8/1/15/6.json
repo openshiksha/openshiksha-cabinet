@@ -1,10 +1,10 @@
 {
-  "solution": {
-    "text": "<div>\\(\\frac {2x}{3} = 18 \\times _{j}_\\)</div><div>\\(\\Rightarrow 2x = (18 \\times _{j}_) \\times 3\\)</div><div>\\(\\Rightarrow\\) 2x = _{{18*j*3}}_</div><div>\\(\\Rightarrow x = \\frac {_{{18*j*3}}_}{2} \\)</div><div>\\(\\Rightarrow\\) x = _{{27*j}}_</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\frac {2x}{3} = 18 \\times _{j}_\\)</div><div>\\(\\Rightarrow 2x = (18 \\times _{j}_) \\times 3\\)</div><div>\\(\\Rightarrow 2x = _{{18*j*3}}_ \\)</div><div>\\(\\Rightarrow x = \\frac {_{{18*j*3}}_}{2} \\)</div><div>\\(\\Rightarrow x = _{{27*j}}_\\)</div>"
+  }, 
   "content": {
-    "text": "Solve for x, \\(\\frac {2x}{3} = 18 \\times _{j}_\\)"
+    "text": "Solve for \\(x\\), \\(\\frac {2x}{3} = 18 \\times _{j}_\\)"
   }, 
   "variable_constraints": {
     "j": {
@@ -22,17 +22,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "x = _{{54*j}}_"
+        "text": "\\(x = _{{54*j}}_\\)"
       }, 
       {
-        "text": "x = _{{3*j}}_"
+        "text": "\\(x = _{{3*j}}_\\)"
       }, 
       {
-        "text": "x = _{{trunc(Decimal(j)/Decimal(27), 2)}}_"
+        "text": "\\(x = _{{trunc(Decimal(j)/Decimal(27), 2)}}_\\)"
       }
     ], 
     "correct": {
-      "text": "x= _{{27*j}}_"
+      "text": "\\(x= _{{27*j}}_\\)"
     }
   }
 }

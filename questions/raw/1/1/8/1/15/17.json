@@ -1,24 +1,7 @@
 {
-  "solution": {
-    "text": "<div>Let,the number be x.</div><div>On subtracting the number by \\(\\frac 1{_{j}_}\\), we get</div><div>x - \\(\\frac 1{_{j}_}\\).</div><div>Now, if we multiply the above result by \\(\\frac 1{_{j}_}\\)  we get \\(\\frac 1{_{{4*j}}_}\\).</div><div>Therefore, \\((x - \\frac 1{_{j}_}) \\times \\frac 1{_{j}_} =  \\frac 1{_{{4*j}}_}\\)</div><div>\\(\\Rightarrow\\) x - \\(\\frac 1{_{j}_}\\) =  \\(\\frac 1{4}\\)</div><div>\\(\\Rightarrow\\) x = \\(\\frac 1{4}\\) + \\(\\frac 1{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal(j+4)/Decimal(4*j), 2)}}_</div>"
-  }, 
-  "subpart_index": 1, 
   "content": {
     "text": "What is the number ?"
   }, 
-  "variable_constraints": {
-    "j": {
-      "range": {
-        "include": [
-          [
-            2, 
-            9
-          ]
-        ]
-      }
-    }
-  }, 
-  "type": 1, 
   "options": {
     "incorrect": [
       {
@@ -34,5 +17,10 @@
     "correct": {
       "text": "x = _{{trunc(Decimal(j+4)/Decimal(4*j), 2)}}_"
     }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let,the number be x.</div><div>On subtracting the number by \\(\\frac 1{_{j}_}\\), we get</div><div>x - \\(\\frac 1{_{j}_}\\).</div><div>Now, if we multiply the above result by \\(\\frac 1{_{j}_}\\)  we get \\(\\frac 1{_{{4*j}}_}\\).</div><div>Therefore, \\((x - \\frac 1{_{j}_}) \\times \\frac 1{_{j}_} =  \\frac 1{_{{4*j}}_}\\)</div><div>\\(\\Rightarrow\\) x - \\(\\frac 1{_{j}_}\\) =  \\(\\frac 1{4}\\)</div><div>\\(\\Rightarrow\\) x = \\(\\frac 1{4}\\) + \\(\\frac 1{_{j}_}\\)</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal(j+4)/Decimal(4*j), 2)}}_</div>"
   }
 }

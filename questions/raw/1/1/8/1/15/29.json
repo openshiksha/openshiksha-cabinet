@@ -1,8 +1,8 @@
 {
-  "solution": {
-    "text": "<div>Let x,x+1,x+2 be three consecutive numbers with which j is to be multiplied.</div><div> Therefore, _{j}_x, _{j}_(x+1), _{j}_(x+2) are three consecutive multiples.</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let x,x+1,x+2 be three consecutive numbers with which _{j}_ is to be multiplied.</div><div> Therefore, _{j}_x, _{j}_(x+1), _{j}_(x+2) are three consecutive multiples.</div>"
+  }, 
   "content": {
     "text": "<div>Sum of three consecutive multiples of _{j}_ is _{{12*j}}_</div><div>The three multiples can be represented as :</div>"
   }, 
@@ -11,7 +11,7 @@
       "range": {
         "include": [
           [
-            1, 
+            5, 
             20
           ]
         ]

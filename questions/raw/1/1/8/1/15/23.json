@@ -1,17 +1,17 @@
 {
-  "solution": {
-    "text": "<div>The square root of 3 more than an unknown number can be written in the form of linear equations as</div><div>\\(\\sqrt {x + 3}\\) = _{j}_   ,Where x is the unknown number.</div><div>\\(\\Rightarrow\\) \\(\\sqrt {x + 3}\\) = _{j}_</div><div>Square on both sides</div><div>\\(\\Rightarrow\\) x+3 = _{j}_ \\(\\times\\) _{j}_</div><div>\\(\\Rightarrow\\) x = _{{j*j}}_ - 3</div><div>\\(\\Rightarrow\\) x = _{{(j**2)-3}}_</div><div>Now,when x is added to the new unknown number y, we get the five times of the first unkown number x.</div><div>x + y = 2x</div><div>Substituting the value of x</div><div>_{{(j**2)-3}}_ + y = 5 \\(\\times\\) _{{(j**2)-3}}_</div><div>Y = 5 \\(\\times\\) _{{(j**2)-3}}_ - _{{(j**2)-3}}_</div><div>Y = 4 \\(\\times\\) _{{(j**2)-3}}_</div><div>Y = _{{4*((j**2)-3)}}_</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The square root of 3 more than an unknown number can be written in the form of linear equations as</div><div>\\(\\sqrt {y + 3}\\) = _{j}_   , where y is the first unknown number.</div><div>Square on both sides</div><div>\\(\\Rightarrow\\) y+3 = _{j}_ \\(\\times\\) _{j}_</div><div>\\(\\Rightarrow\\) y = _{{j*j}}_ - 3</div><div>\\(\\Rightarrow\\) y = _{{(j**2)-3}}_</div><div>Now,when y is added to the second unknown number z , we get the five times y.</div><div>z + y = 5y</div><div>z = 4y</div><div>z = 4 \\(\\times\\) _{{(j**2)-3}}_</div><div>z = _{{4*((j**2)-3)}}_</div>"
+  }, 
   "content": {
-    "text": "The square root of 3 more than an unknown number is _{j}_. When that number is added to another unknown number we get the five times of the first unknown number.What is the second unknown number."
+    "text": "The square root of 3 more than an unknown number y is _{j}_. When y is added to another unknown number z we get the five times of the y. What is the value of z ?"
   }, 
   "variable_constraints": {
     "j": {
       "range": {
         "include": [
           [
-            2, 
+            10, 
             20
           ]
         ]

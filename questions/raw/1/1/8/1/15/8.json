@@ -1,10 +1,10 @@
 {
-  "solution": {
-    "text": "<div>\\(\\frac {x}{_{j}_} + 1 = \\frac {7}{_{{5*j}}_}\\)</div><div>\\(\\Rightarrow \\frac {x}{_{j}_} = \\frac {7}{_{{5*j}}_} - 1\\)  (Shifting one term to R.H.S.)</div><div>\\(\\Rightarrow \\frac {x}{_{j}_} = \\frac {7 - (5 \\times _{j}_)}{5 \\times _{j}_}\\) (Evaluating the numerator of R.H.S.)</div><div>\\(\\Rightarrow x =  \\frac {7 - (5 \\times _{j}_)}{5}\\)</div><div>\\(\\Rightarrow\\) x = _{{trunc(Decimal(7-(5*j))/Decimal(5), 2)}}_</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\frac {x}{_{j}_} + 1 = \\frac {7}{_{{5*j}}_}\\)</div><div>\\(\\Rightarrow \\frac {x}{_{j}_} = \\frac {7}{_{{5*j}}_} - 1\\)  (Shifting one term to R.H.S.)</div><div>\\(\\Rightarrow \\frac {x}{_{j}_} = \\frac {7 - _{{5*j}}_}{_{{5*j}}_}\\) (Evaluating the numerator of R.H.S.)</div><div>\\(\\Rightarrow x =  \\frac {_{{7 -5*j}}_}{5}\\)</div><div>\\(\\Rightarrow x\\) = _{{trunc(Decimal(7-(5*j))/Decimal(5), 2)}}_</div>"
+  }, 
   "content": {
-    "text": "Solve for x, \\(\\frac {x}{_{j}_} + 1 = \\frac {7}{_{{5*j}}_}\\)"
+    "text": "Solve for \\(x\\), \\(\\frac {x}{_{j}_} + 1 = \\frac {7}{_{{5*j}}_}\\)"
   }, 
   "variable_constraints": {
     "j": {
