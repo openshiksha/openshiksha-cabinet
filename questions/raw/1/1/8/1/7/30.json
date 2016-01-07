@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>_{{2*j}}_</div><div>\\(\\Rightarrow\\) Since X and Y are inversely proportional XY = k</div><div>\\(\\Rightarrow\\) Therefore, \\((\\frac 1a) \\times (40 \\times (_{j}_^2))= 10 \\times a\\)</div><div>\\(\\Rightarrow\\) Hence, \\( (a^2) = 4 \\times (_{j}_^2)\\)</div><div>\\(\\Rightarrow\\) a = _{{2*j}}_</div>"
+    "text": "<div> Since X and Y are inversely proportional XY = k</div><div>Therefore, \\(\\frac 1a \\times _{{40*j*j}}_= 10 \\times a\\)</div><div>Hence, \\( a^2 = _{{4*j*j}}_\\)</div><div>\\(\\Rightarrow\\) a = _{{2*j}}_</div>"
   }, 
   "content": {
-    "text": "<div><table class = 'table table-bordered'><tbody><tr><td>X</td><td>\\(\\frac 1a\\)</td><td>10</td><td>b</td><td>80</td></tr><tr><td>Y</td><td>\\( 40 \\times _{j}_^2\\)</td><td>a</td><td>\\( 20 \\times _{j}_^2\\)</td><td>c</td></tr></tbody></table></div><div>From the table above, find out the value of a</div>"
+    "text": "<div><table class = 'table table-bordered'><tbody><tr><td>X</td><td>\\(\\frac 1a\\)</td><td>10</td><td>b</td><td>80</td></tr><tr><td>Y</td><td> _{{40*j*j}}_</td><td>a</td><td> _{{20*j*j}}_</td><td>c</td></tr></tbody></table></div><div>From the table above, find out the value of a</div>"
   }, 
   "variable_constraints": {
     "j": {

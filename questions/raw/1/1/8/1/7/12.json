@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Z = _{{100*j*k}}_</div><div>This comes from (Z/Y) \\(\\times\\) (Y/X) = Z/X</div><div>Therefore, (10 \\(\\times\\)_{j}_)\\(\\times\\)(10\\(\\times\\)k) = Z/X</div><div>At X= 1,</div><div>Z/X = Z</div><div>Hence, Z= _{{100*j*k}}_</div>"
+    "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((_{{10*j}}_) \\times (_{{10*k}}_) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= _{{100*j*k}}_</div>"
   }, 
   "content": {
-    "text": "If Z/Y = _{{10*j}}_, Y/X = _{{10*k}}_, what is the value of Z when X = 1? "
+    "text": "If \\(\\frac{Z}{Y} = _{{10*j}}_, \\frac{Y}{X} = _{{10*k}}_\\), what is the value of Z when X = 1? "
   }, 
   "variable_constraints": {
     "k": {

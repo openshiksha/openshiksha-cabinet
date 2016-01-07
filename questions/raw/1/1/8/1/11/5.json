@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Sum of interior angles of a polygon with j sides is \\( (j-2) \\times 180 \\), thus it is \\((_{j}_-2) \\times 180\\)</div><div>= \\(_{{j-2}}_ \\times 180 \\) = \\(_{{ (j-2)*180 }}_\\)</div>"
+    "text": "<div>Sum of interior angles of a polygon with j sides is \\( (j-2) \\times 180 \\), thus it is \\((_{j}_-2) \\times 180\\)</div><div>= \\(_{{j-2}}_ \\times 180 \\) = \\(_{{ (j-2)*180 }}_^o\\)</div>"
   }, 
   "content": {
     "text": "<div>What is the sum of all the interior angles of a polygon with _{j}_ sides?</div>"
@@ -22,17 +22,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "_{{ j*180 }}_"
+        "text": "\\(_{{ j*180 }}_^o\\)"
       }, 
       {
-        "text": "360"
+        "text": "\\(360^o\\)"
       }, 
       {
-        "text": "_{{ (j+2)*180 }}_"
+        "text": "\\(_{{ (j+2)*180 }}_^o\\)"
       }
     ], 
     "correct": {
-      "text": "_{{ (j-2)*180 }}_"
+      "text": "\\(_{{ (j-2)*180 }}_^o\\)"
     }
   }
 }

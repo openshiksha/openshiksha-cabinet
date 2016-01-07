@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Let the angles be _{j}_x, _{k}_x, _{l}_x, _{{20-j-k-l}}_x.</div><div>The sum of all the angles of a quadrilateral is \\(360^o\\)</div><div>Hence, \\(_{j}_x + _{k}_x + _{l}_x + _{{20-j-k-l}}_x =360\\)</div><div>\\(20x=360\\)</div><div>\\(x=18\\)</div><div>Therefore, the smallest angle is \\(_{{min(j,k,l)}}_ \\times 18 = _{{min(j,k,l)*18}}_\\)</div>"
+    "text": "<div>Let the angles be _{j}_x, _{k}_x, _{l}_x, _{{20-j-k-l}}_x.</div><div>The sum of all the angles of a quadrilateral is \\(360^o\\)</div><div>Hence, \\(_{j}_x + _{k}_x + _{l}_x + _{{20-j-k-l}}_x =360\\)</div><div>\\(20x=360\\)</div><div>\\(x=18\\)</div><div>Therefore, the smallest angle is \\(_{{min(j,k,l)}}_ \\times 18 = _{{min(j,k,l)*18}}_^o\\)</div>"
   }, 
   "content": {
     "text": "<div>The four angles of a quadrilateral are in the ratio _{j}_ : _{k}_ : _{l}_ : _{{20-j-k-l}}_. Find the smallest angle</div>"
@@ -42,17 +42,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "_{{max(j,k,l)*18}}_"
+        "text": "\\(_{{max(j,k,l)*18}}_^o\\)"
       }, 
       {
-        "text": "18"
+        "text": "\\(18^o\\)"
       }, 
       {
-        "text": "20"
+        "text": "\\(20^o\\)"
       }
     ], 
     "correct": {
-      "text": "_{{min(j,k,l)*18}}_"
+      "text": "\\(_{{min(j,k,l)*18}}_^o\\)"
     }
   }
 }

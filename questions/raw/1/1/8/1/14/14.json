@@ -1,8 +1,8 @@
 {
-  "solution": {
-    "text": "<div>\\( \\frac {_{j}_}{_{k}_} \\times - \\frac {_{m}_}{_{l}_}\\) = -_{{trunc(Decimal(k*m)/Decimal(j*l), 2)}}_</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div> We get reciprocal of \\( -\\frac{_{m}_}{_{l}_} = -\\frac{_{l}_}{_{m}_} \\) </div><div> Therefore multiplying we get,</div><div>\\( \\frac {_{j}_}{_{k}_} \\times - \\frac {_{l}_}{_{m}_}\\) = -_{{trunc(Decimal(j*l)/(k*m), 2)}}_</div>"
+  }, 
   "content": {
     "text": "Multiply \\( \\frac {_{j}_}{_{k}_}\\) by the reciprocal of -\\( \\frac {_{m}_}{_{l}_}\\)"
   }, 
@@ -52,17 +52,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "_{{trunc(Decimal(j*l)/Decimal(k*m), 2)}}_"
+        "text": "_{{trunc((Decimal(j)*l)/(k*m), 2)}}_"
       }, 
       {
-        "text": "-_{{trunc(Decimal(j*l)/Decimal(k*m), 2)}}_"
+        "text": "_{{trunc((Decimal(j)*m)/(k*l), 2)}}_"
       }, 
       {
-        "text": "_{{trunc(Decimal(k*m)/Decimal(j*l), 2)}}_"
+        "text": "-_{{trunc((Decimal(j)*m)/(k*l), 2)}}_"
       }
     ], 
     "correct": {
-      "text": "-_{{trunc(Decimal(k*m)/Decimal(j*l), 2)}}_"
+      "text": "-_{{trunc((Decimal(j)*l)/(k*m), 2)}}_"
     }
   }
 }

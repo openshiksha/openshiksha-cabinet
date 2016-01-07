@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Discount percentage on item = 10 %</div><div>Discount = (discount percentage x cost price)/100 = (10 x _{{10*j}}_)/100 = Rs. _{j}_ </div><div>Selling price = Cost price - discount = _{{10*j}}_ - _{j}_ = Rs. _{{9*j}}_ </div><div> \\( \\Rightarrow \\) Therefore, the selling price =  Rs. _{{9*j}}_ </div>"
+    "text": "<div> Discount percentage on item = 10 %</div><div>Discount = \\(\\frac{discount\\, percentage \\times cost\\, price}{100} = \\frac{10 \\times _{{10*j}}_}{100} \\) = Rs. _{j}_ </div><div>Selling price = Cost price - discount = _{{10*j}}_ - _{j}_ = Rs. _{{9*j}}_ </div><div> \\( \\Rightarrow \\) Therefore, the selling price =  Rs. _{{9*j}}_ </div>"
   }, 
   "content": {
     "text": "The discount on an item is 10%. If the item costs Rs. _{{ 10*j}}_. What is the selling price of the item?"

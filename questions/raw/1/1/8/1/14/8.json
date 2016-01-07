@@ -1,8 +1,8 @@
 {
-  "solution": {
-    "text": "<div>If \\( \\frac xy\\) is the number then \\(\\frac yx\\) is the reciprocal.</div><div>Therefore,reciprocal of \\(\\frac {_{j}_}{_{k}_}\\) is \\(\\frac{_{k}_}{_{j}_}\\) = _{{trunc(Decimal(k)/Decimal(j), 2)}}_.</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>If \\( \\frac xy\\) is the number, then \\(\\frac yx\\) is the reciprocal or multiplicative inverse.</div><div>Therefore, multiplicative inverse of \\(\\frac {_{j}_}{_{k}_}\\) is \\(\\frac{_{k}_}{_{j}_}\\) = _{{trunc(Decimal(k)/Decimal(j), 2)}}_.</div>"
+  }, 
   "content": {
     "text": "What is the multiplicative inverse of \\( \\frac {_{j}_}{_{k}_}\\)"
   }, 

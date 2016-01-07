@@ -1,12 +1,13 @@
 {
-  "content": {
-    "text": "Product of a rational number is always a ?"
-  }, 
-  "solution": {
-    "text": "<div>Rational numbers is closed under multiplication.Therefore,multiplication of rational number is a rational number.</div>"
-  }, 
-  "type": 1, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Rational numbers are closed under multiplication.</div><div>Therefore,multiplication of two rational numbers gives a rational number as product.</div>"
+  }, 
+  "content": {
+    "text": "Product of two rational numbers is always a ______ ?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
   "options": {
     "incorrect": [
       {

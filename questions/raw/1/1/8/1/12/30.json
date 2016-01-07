@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Percentage of pencils = (\\(x\\)/ 200+\\(x\\)) x 100 </div><div> Therefore , _{j}_ = (100 x \\(x\\))/(200 + \\(x\\)) </div><div> _{{100-j}}_\\(x\\) =_{{200*j}}_ </div><div> \\( \\Rightarrow \\) Therefore \\(x\\) = _{{200*j/(100-j)}}_</div>"
+    "text": "<div> Percentage of pencils = \\(\\frac{x}{200+x} \\times 100 \\) </div><div> Therefore , \\( _{j}_ = \\frac{100x}{200 + x} \\) </div><div> _{{100-j}}_\\(x\\) =_{{200*j}}_ </div><div> \\( \\Rightarrow \\) Therefore \\(x\\) = _{{200*j/(100-j)}}_</div>"
   }, 
   "content": {
     "text": "Ram thinks about doing a mathematical experiment. He takes 200 pens and mixes them with '\\(x\\)' number of pencils. He observes that the percentage of pencils is _{j}_%.  What is the value of \\(x\\)?"

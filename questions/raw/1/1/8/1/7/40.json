@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>It will take _{{10*j}}_ workers to complete the job in 24 hours.</div><div>\\(\\Rightarrow\\) Since Number of workers  and number of days are inversely proportional XY = K</div><div>\\(\\Rightarrow\\) Therefore, K  \\(= 1 \\times 10 \\times _{j}_\\)</div><div>\\(\\Rightarrow\\) Now, 24 hours = 1 day</div><div>\\(\\Rightarrow\\) Therefore number of workers to complete job in one day \\(= \\frac K1 = \\frac {10 \\times _{j}_}{1}\\)</div><div>\\(\\Rightarrow\\) Number of workers = _{{10*j}}_</div>"
+    "text": "<div> Since Number of workers  and number of days are inversely proportional XY = K</div><div> Therefore, K  \\(= 1 \\times _{{10*j}}_\\)</div><div>Now, 24 hours = 1 day</div><div>Therefore number of workers to complete job in one day \\(= \\frac K1 = \\frac {_{{10*j}}_}{1}\\)</div><div>\\(\\Rightarrow\\) Number of workers = _{{10*j}}_</div>"
   }, 
   "content": {
     "text": "One worker can complete a job in _{{10*j}}_ days. How many workers will it take to complete the same job in 24 hours? "

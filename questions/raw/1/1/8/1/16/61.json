@@ -1,27 +1,27 @@
 {
   "subpart_index": 1, 
   "solution": {
-    "text": "<div> 1 km = 100000 cm </div><div> Actual height= 8800km = 8800 x 100000 cm </div><div> Height on map = 4.4 cm </div><div> Scale= Height on map/Actual height = \\(4.4/(8800 \\times 10^5)\\) = \\( 5: 10^9\\)</div>"
+    "text": "<div> 1 km = 100000 cm </div><div> Actual height= 8.800km = 8.800 x 100000 cm </div><div> Height on map = 4.4 cm </div><div> Scale= Height on map/Actual height = \\(4.4/(8.800 \\times 10^5)\\) = \\( 5: 10^6\\)</div>"
   }, 
   "content": {
-    "text": "The actual height of Mount Everest is 8800 km, and its height is 4.4 cm represented on a map. What is the scale used for the map?"
+    "text": "The actual height of Mount Everest is 8.800 km, and its height is 4.4 cm represented on a map. What is the scale used for the map?"
   }, 
   "variable_constraints": {}, 
   "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "\\( 5:10^8 \\)"
+        "text": "\\( 5:10^5 \\)"
       }, 
       {
-        "text": "\\( 1: 10^9 \\)"
+        "text": "\\( 1: 10^6 \\)"
       }, 
       {
-        "text": "\\( 5: 10^{10} \\)"
+        "text": "\\( 5: 10^{7} \\)"
       }
     ], 
     "correct": {
-      "text": "\\( 5: 10^9 \\)"
+      "text": "\\( 5: 10^6 \\)"
     }
   }
 }

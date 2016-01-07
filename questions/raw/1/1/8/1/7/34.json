@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Breadth =  _{{5*j}}_ cm</div><div>\\(\\Rightarrow\\) Since Area is constant, Length and Breadth are inversely proportional. L \\(\\times\\) B = A = K</div><div>\\(\\Rightarrow\\) Therefore, taking case 1, K = ( 10 \\(\\times\\) _{j}_) \\(\\times\\) (5 \\(\\times\\) _{k}_ ) = 50 \\(\\times\\) _{j}_ \\(\\times\\) _{k}_</div><div>\\(\\Rightarrow\\) Hence, if Length = 10 \\(\\times\\) _{k}_</div><div>\\(\\Rightarrow\\) Breadth =\\( \\frac {50 \\times _{j}_ \\times _{k}_}{10 \\times _{k}_}\\)</div><div>\\(\\Rightarrow\\) Breadth = _{{5*j}}_</div>"
+    "text": "<div> Since Area is constant, Length and Breadth are inversely proportional. L \\(\\times\\) B = A = K</div><div>Therefore, taking area constant, K = _{{10*j}}_ \\(\\times\\) _{{5*k}}_  = _{{50*j*k}}_ cm\\(^2\\)</div><div> Hence, if Length = _{{10*k}}_ cm</div><div>Breadth =\\( \\frac {_{{50*j*k}}_}{_{{10*k}}_}\\)</div><div>\\(\\Rightarrow\\) Breadth = _{{5*j}}_ cm</div>"
   }, 
   "content": {
-    "text": "The length and breadth of a given rectangle are _{{10*j}}_ and _{{5*k}}_ cm. Given that the area remains constant find the breadth of the rectangle when length is _{{10*k}}_"
+    "text": "The length and breadth of a given rectangle are _{{10*j}}_ and _{{5*k}}_ cm. Given that the area remains constant find the breadth of the rectangle when length is _{{10*k}}_ cm."
   }, 
   "variable_constraints": {
     "k": {
@@ -29,8 +29,8 @@
     }
   }, 
   "answer": {
-    "unit": "cm", 
     "value": "_{{5*j}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "cm"
 }

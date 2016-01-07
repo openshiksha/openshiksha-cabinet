@@ -1,10 +1,13 @@
 {
-  "subpart_index": 1, 
-  "solution": {
-    "text": "<div>Radius of cylinder = _{{20*k}}_ cm</div><div>\\(\\Rightarrow\\) Since Volume is constant, Radius of cylinder and height are inversely proportional.</div><div>\\(\\Rightarrow\\) Pi \\(\\times\\) \\({{Radius}}^2\\) \\(\\times\\) Height = Volume = k. Therefore \\(({r}^2) \\times h \\)= K [Pi is a constant]</div><div>\\(\\Rightarrow\\) Therefore, taking case 1,  \\(({ 10 \\times _{k}_ )^2} \\times ( 40 \\times _{j}_ )\\)= K</div><div>\\(\\Rightarrow\\) Hence, K= \\( 4000 \\times _{j}_ \\times ({_{k}_}^2)\\)</div><div>\\(\\Rightarrow\\) If Height= _{{10*j}}_</div><div>\\(\\Rightarrow {Radius}^2 = K \\div height\\)</div><div>\\(\\Rightarrow {Radius}^2= 4000 \\times _{j}_ \\times \\frac {{_{k}_}^2}{10 \\times _{j}_}\\)</div><div>\\(\\Rightarrow {Radius}^2 = 400 \\times ({_{k}_}^2)\\)</div><div>\\(\\Rightarrow {Radius}^2= {( 20 \\times _{k}_)}^2\\)</div><div>\\(\\Rightarrow\\) Radius = _{{20*k}}_</div>"
+  "hint": {
+    "text": "<div> Volume of cylinder = Pi x radius\\(^2\\) x height </div>"
   }, 
+  "solution": {
+    "text": "<div> Since Volume is constant, the square of radius of cylinder and height are inversely proportional.</div><div> Pi \\(\\times\\) Radius\\(^2\\) \\(\\times\\) Height = Volume = k. Therefore \\( r^2 \\times h \\)= K [Pi is a constant]</div><div>Therefore, taking case 1,  \\(_{{10*k}}_^2 \\times _{{40*j}}_ \\)= K</div><div> Hence, K= _{{4000*j*k*k}}_</div><div> If Height= _{{10*j}}_ cm</div><div>Radius\\(^2 = \\frac{K}{height}\\)</div><div> Radius\\(^2 = \\frac{_{{4000*j*k*k}}_}{_{{10*j}}_}\\)<div>\\(\\Rightarrow\\) Radius = _{{20*k}}_ cm</div>"
+  }, 
+  "subpart_index": 1, 
   "content": {
-    "text": "The volume of a given right angle solid cylinder is constant. If the height of the cylinder is _{{40*j}}_ and Radius is _{{10*k}}_ cm. Find the radius of the cylinder when the height is _{{10*j}}_"
+    "text": "The volume of a right angle solid cylinder is constant. If the height of the cylinder is _{{40*j}}_ and Radius is _{{10*k}}_ cm. Find the radius of the cylinder when the height is _{{10*j}}_ cm."
   }, 
   "variable_constraints": {
     "k": {
@@ -29,8 +32,8 @@
     }
   }, 
   "answer": {
-    "unit": "cm", 
     "value": "_{{20*k}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "cm"
 }

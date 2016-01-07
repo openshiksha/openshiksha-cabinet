@@ -1,18 +1,20 @@
 {
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Yes</div><div>Can be represented as xy = k, where k = 15</div>"
+  }, 
   "content": {
     "text": "Two quantities x and y such that \\( x = \\frac {15}y \\)"
   }, 
-  "solution": {
-    "text": "<div>Yes</div><div>\\( \\Rightarrow \\)Can be represented as \\( \\frac xy = k \\), where k = 15</div>"
-  }, 
+  "variable_constraints": {}, 
   "type": 1, 
-  "subpart_index": 3, 
   "options": {
     "incorrect": [
       {
         "text": "No"
       }
     ], 
+    "use_dropdown_widget": true, 
     "correct": {
       "text": "Yes"
     }

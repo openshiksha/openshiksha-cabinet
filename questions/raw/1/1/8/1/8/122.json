@@ -10,53 +10,6 @@
   "content": {
     "text": "Find the square root of the square number obtained."
   }, 
-  "variable_constraints": {
-    "k": {
-      "options": [
-        3, 
-        5, 
-        2, 
-        5, 
-        3
-      ]
-    }, 
-    "j": {
-      "options": [
-        2, 
-        3, 
-        5, 
-        3, 
-        2
-      ]
-    }, 
-    "m": {
-      "options": [
-        4, 
-        2, 
-        4, 
-        2, 
-        4
-      ]
-    }, 
-    "l": {
-      "options": [
-        7, 
-        11, 
-        13, 
-        17, 
-        19
-      ]
-    }, 
-    "n": {
-      "options": [
-        2, 
-        4, 
-        2, 
-        4, 
-        2
-      ]
-    }
-  }, 
   "answer": {
     "value": "_{{(j**(m/2))*(k**(n/2))*l}}_"
   }, 

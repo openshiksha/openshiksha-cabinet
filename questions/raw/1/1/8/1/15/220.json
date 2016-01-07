@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Let the number be x. </div> <div> According to the question, y=z, </div><div> Hence, (x+_{j}_)=_{k}_(x-_{j}_) </div><div> _{{k-1}}_x=_{j}_(_{{-k-1}}_) </div><div> x= -_{j}_(_{{k+1}}_)/_{{k-1}}_ </div><div> \\( \\Rightarrow \\) x=_{{trunc(-Decimal(j)*(k+1)/(k-1),2)}}_</div>"
+    "text": "<div> Let the number be x. </div> <div> According to the question, y=z, </div><div> Hence, (x+_{j}_)=_{k}_(x-_{j}_) </div><div> _{{k-1}}_x=_{j}_(_{{k+1}}_) </div><div> x= \\( \\frac{_{j}_(_{{k+1}}_)}{_{{k-1}}_}\\) </div><div> \\( \\Rightarrow \\) x=_{{trunc(Decimal(j)*(k+1)/(k-1),2)}}_</div>"
   }, 
   "content": {
-    "text": "Adi thinks of a number x and adds _{j}_ to it to get y. He then takes another number z which is _{k}_ times the difference between x and _{j}_ (x-_{j}_).He sees that y and z are equal. What is the number x ?"
+    "text": "Adi thinks of a number x and adds _{j}_ to it to get y. He then takes another number z which is _{k}_ times the difference between x and _{j}_.He sees that y and z are equal. What is the number x ?"
   }, 
   "variable_constraints": {
     "k": {
@@ -21,7 +21,7 @@
       "range": {
         "include": [
           [
-            1, 
+            2, 
             5
           ]
         ]
@@ -32,7 +32,7 @@
   "options": {
     "incorrect": [
       {
-        "text": "_{{trunc(Decimal(j)*(k+1)/(k-1),2)}}_"
+        "text": "_{{trunc(-Decimal(j)*(k+1)/(k-1),2)}}_"
       }, 
       {
         "text": "_{{trunc(Decimal(j)*(k-1)/(k+1),2)}}_"
@@ -42,7 +42,7 @@
       }
     ], 
     "correct": {
-      "text": "_{{trunc(-Decimal(j)*(k+1)/(k-1),2)}}_"
+      "text": "_{{trunc(Decimal(j)*(k+1)/(k-1),2)}}_"
     }
   }
 }

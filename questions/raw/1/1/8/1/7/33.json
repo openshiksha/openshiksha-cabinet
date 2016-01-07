@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>_{{100*(trunc(Decimal(j)/Decimal(k), 2))}}_</div><div>\\(\\Rightarrow\\) Since the distance of the race is a constant = _{{400*j}}_</div><div>\\(\\Rightarrow\\) Therefore, we know the number of participants taking part and distance each participant runs are inversely proportional</div><div>\\(\\Rightarrow\\) Number of participants*distance each runs = total distance of race</div><div>\\(\\Rightarrow\\) ( 4 \\(\\times\\) _{k}_ ) \\(\\times\\) Distance run by each participant = _{{400*j}}_</div><div>\\(\\Rightarrow\\) Distance run by each participant = \\( \\frac{_{{400*j}}_}{_{{4*k}}_}\\)</div><div>\\(\\Rightarrow\\) Distance run by each participant = _{{100*(trunc(Decimal(j)/Decimal(k), 2))}}_</div>"
+    "text": "<div> Since the distance of the race is a constant = _{{400*j}}_ m </div><div> Therefore, we know the number of participants taking part and distance each participant runs are inversely proportional</div><div> Number of participants x distance each runs = total distance of race</div><div> _{{4*k}}_  \\(\\times\\) Distance run by each participant = _{{400*j}}_</div><div> Distance run by each participant = \\( \\frac{_{{400*j}}_}{_{{4*k}}_}\\)</div><div>\\(\\Rightarrow\\) Distance run by each participant = _{{100*(trunc(Decimal(j)/Decimal(k), 2))}}_ m</div>"
   }, 
   "content": {
-    "text": "A _{{400*j}}_ metre relay race, has 4 participants in each team. Due to bad organisation, k times the participants come from each school and the rules are changed such that now each team has _{{4*k}}_ participants. How much distance does each participant run?"
+    "text": "A _{{400*j}}_ metre relay race, has 4 participants in each team. Due to bad organisation, _{k}_ times the participants come from each school and the rules are changed such that now each team has _{{4*k}}_ participants. How much distance does each participant run?"
   }, 
   "variable_constraints": {
     "k": {
@@ -21,7 +21,7 @@
       "range": {
         "include": [
           [
-            1, 
+            3, 
             5
           ]
         ]
@@ -29,7 +29,9 @@
     }
   }, 
   "answer": {
+    "tolerance": 0.1, 
     "value": "_{{100*(trunc(Decimal(j)/Decimal(k), 2))}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "m"
 }

@@ -1,16 +1,17 @@
 {
-  "content": {
-    "text": "Choose from the options below:"
-  }, 
-  "solution": {
-    "text": "<div>Addition of two ratonal numbers gives a rational number,Therefore closed under addition.</div><div>Multiplication of two rational numbers is a rational number.Therefore it is closed under multiplication.</div><div>Subtraction of two rational numbers is a rational number.Therefore it is closed under subtraction.</div><div>Division of two rational numbers is a rational number.Therefore it is closed under division.</div>"
-  }, 
-  "type": 2, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Addition of two rational numbers gives a rational number, therefore it is closed under addition.</div><div>Multiplication of two rational numbers is a rational number, therefore it is closed under multiplication.</div><div>Subtraction of two rational numbers is a rational number, therefore it is closed under subtraction.</div><div>Division of two rational numbers is not always a  rational number .For example- \\(\\frac{1}{0}\\) is undefined.</div>"
+  }, 
+  "content": {
+    "text": "Closure property of rational numbers is applicable for which of the following operations ? "
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
   "options": {
     "incorrect": [
       {
-        "text": "Exponentiation"
+        "text": "Division"
       }
     ], 
     "correct": [
@@ -22,9 +23,6 @@
       }, 
       {
         "text": "Multiplication"
-      }, 
-      {
-        "text": "Division"
       }
     ]
   }

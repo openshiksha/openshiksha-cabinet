@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>The figure consists of a polygon with 6 sides, hence the sum of its interior angles is \\( (6-2) \\times 180 = 4 \\times 180 = 720^o\\)</div><div>x+y+k+120+150+90 = 720</div><div>But the value of k is _{k}_</div><div>x+y + (360+_{k}_) = 720</div><div>x+y = 720 - (_{{360+k}}_) = _{{360-k}}_</div>"
+    "text": "<div>The figure consists of a polygon with 6 sides, hence the sum of its interior angles is \\( (6-2) \\times 180 = 4 \\times 180 = 720^o\\)</div><div>x+y+k+120+150+90 = 720</div><div>But the value of k is _{k}_</div><div>x+y + (360+_{k}_) = 720</div><div>x+y = 720 - (_{{360+k}}_) = \\(_{{360-k}}_^o\\)</div>"
   }, 
   "content": {
     "text": "<div>Find the value of x + y in the figure below where _{k}_ is k</div>", 
@@ -23,17 +23,17 @@
   "options": {
     "incorrect": [
       {
-        "text": "360"
+        "text": "\\(360^o\\)"
       }, 
       {
-        "text": "_{{360-2*k}}_"
+        "text": "\\(_{{360-2*k}}_^o\\)"
       }, 
       {
-        "text": "_{{360+k}}_"
+        "text": "\\(_{{360+k}}_^o\\)"
       }
     ], 
     "correct": {
-      "text": "_{{360-k}}_"
+      "text": "\\(_{{360-k}}_^o\\)"
     }
   }
 }

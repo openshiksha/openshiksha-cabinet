@@ -1,7 +1,7 @@
 {
   "subpart_index": 1, 
   "solution": {
-    "text": "<div> _{j}_t - _{k}_t = _{k}_-_{j}_ </div><div> t = _{{k-j}}_/_{{(j-k)}}_ </div><div> t = -_{{k-j}}_/_{{(k-j)}}_ </div><div> \\( \\Rightarrow \\) t = -1 </div>"
+    "text": "<div> _{j}_t - _{k}_t = _{k}_-_{j}_ </div><div> t = \\( \\frac{_{{k-j}}_}{_{{(j-k)}}_} \\) </div><div> t = \\( \\frac{-_{{k-j}}_}{_{{(k-j)}}_} \\) </div><div> \\( \\Rightarrow \\) t = -1 </div>"
   }, 
   "content": {
     "text": "_{j}_t-_{k}_=_{k}_t-_{j}_  "

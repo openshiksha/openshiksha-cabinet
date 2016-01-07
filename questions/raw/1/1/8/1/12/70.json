@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Over a total of 4 games john scores 5 goals.</div><div> Next two he scores none. Hence, ratio of goals to games = 5:6 </div><div> Total number of games in the season = _{{6*j}}_ </div><div> \\( \\Rightarrow \\) Therefore, Number of goals scored in the season = Ratio of goals to games * total number of games = (5/6) x _{{6*j}}_ = _{{5*j}}_ </div>"
+    "text": "<div> Over a total of 4 games john scores 5 goals.</div><div> Next two he scores none. Hence, ratio of goals to games = 5:6 </div><div> Total number of games in the season = _{{6*j}}_ </div><div> \\( \\Rightarrow \\) Therefore, Number of goals scored in the season = Ratio of goals to games x total number of games = \\( \\frac{5}{6} \\times _{{6*j}}_ = _{{5*j}}_\\) </div>"
   }, 
   "content": {
     "text": "John scores 5 goals in 4 games. Then in the next two games he fails to score any goals.The following trend continues throughout the season where there are _{{6*j}}_ games. How many goals does John score in the season?"

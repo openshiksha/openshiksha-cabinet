@@ -1,18 +1,20 @@
 {
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Yes</div><div>Can be represented as xy = k as field size is constant.</div>"
+  }, 
   "content": {
     "text": "Number of buffaloes (x) that graze a field and the number of days(y) they take to finish grazing one field"
   }, 
-  "solution": {
-    "text": "<div>Yes</div><div>\\( \\Rightarrow \\)Can be represented as \\( \\frac xy = k \\) as field size is constant.</div>"
-  }, 
+  "variable_constraints": {}, 
   "type": 1, 
-  "subpart_index": 0, 
   "options": {
     "incorrect": [
       {
         "text": "No"
       }
     ], 
+    "use_dropdown_widget": true, 
     "correct": {
       "text": "Yes"
     }

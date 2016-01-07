@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Original price of bill = Rs. _{{200*j}}_</div><div> Final bill price = Original bill price + sales tax </div><div> Sales tax = (Sales tax percent x original amount)/100 </div><div> Sales tax = (_{k}_ x _{{200*j}}_)/100 =  Rs. _{{2*k*j}}_</div><div> \\( \\Rightarrow \\) Therefore, final bill = Rs. _{{200*j}}_ + Rs. _{{2*k*j}}_ = Rs. _{{2*j*(100+k)}}_ </div>"
+    "text": "<div> Original price of bill = Rs. _{{200*j}}_</div><div> Final bill price = Original bill price + sales tax </div><div> Sales tax = \\(\\frac{Sales\\, tax\\, percent \\times original \\, amount}{100}\\) </div><div> Sales tax = \\(\\frac{_{k}_ \\times _{{200*j}}_}{100}\\) =  Rs. _{{2*k*j}}_</div><div> \\( \\Rightarrow \\) Therefore, final bill = Rs. _{{200*j}}_ + Rs. _{{2*k*j}}_ = Rs. _{{2*j*(100+k)}}_ </div>"
   }, 
   "content": {
     "text": "A man sits in a restaurant and orders a meal. If the food cost comes to Rs. _{{200*j}}_ , and Sales tax is added to _{k}_%, what is the final bill amount?"

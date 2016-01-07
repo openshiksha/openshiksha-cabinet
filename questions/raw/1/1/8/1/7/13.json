@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Rs. _{{51100*j}}_</div> <div>\\(\\Rightarrow\\)Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>\\(\\Rightarrow\\)Price per km = (100\\(\\times\\)_{{j/3}}_) Rs.</div><div>\\(\\Rightarrow\\)Therefore total cost of ticket = (1533)\\(\\times\\)(100\\(\\times\\)_{{j/3}}_)</div><div>\\(\\Rightarrow\\)Total cost of ticket= _{{51100*j}}_</div>"
+    "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{_{{100*j}}_}{3} \\)</div><div>Therefore total cost of ticket = \\( 1533 \\times \\frac{_{{100*j}}_}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. _{{51100*j}}_</div>"
   }, 
   "content": {
-    "text": "A plane ticket costs _{{100*j}}_ Rs per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman? Think about whether this amount justifies the travel", 
+    "text": "A plane ticket costs Rs. _{{100*j}}_  per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman?", 
     "img": "5.png"
   }, 
   "variable_constraints": {
@@ -20,8 +20,8 @@
     }
   }, 
   "answer": {
-    "value": "_{{51100*j}}_", 
-    "unit": "Rs."
+    "value": "_{{51100*j}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "Rupees"
 }

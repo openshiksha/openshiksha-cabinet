@@ -9,6 +9,6 @@
   "type": 3, 
   "subpart_index": 2, 
   "solution": {
-    "text": "<div>c = _{{trunc(Decimal(j)/Decimal(4), 2)}}_</div><div>\\(\\Rightarrow\\) Since X and Y are inversely proportional XY = k</div><div>\\(\\Rightarrow\\) Therefore, \\(80 \\times c = 10 \\times a\\)</div><div>\\(\\Rightarrow\\) From previous subpart, \\(a = 2 \\times _{j}_\\)</div><div>\\(\\Rightarrow c = \\frac a8 = \\frac {2 \\times _{j}_}{4}\\)</div><div>\\(\\Rightarrow\\) c= _{{trunc(Decimal(j)/Decimal(4), 2)}}_</div>"
+    "text": "<div>Since X and Y are inversely proportional XY = k</div><div> Therefore, \\(80 \\times c = 10 \\times a\\)</div><div> From previous subpart, \\(a = _{{2*j}}_\\)</div><div>\\( c = \\frac a8 = \\frac {_{{2*j}}_}{8}\\)</div><div>\\(\\Rightarrow\\) c= _{{trunc(Decimal(j)/Decimal(4), 2)}}_</div>"
   }
 }

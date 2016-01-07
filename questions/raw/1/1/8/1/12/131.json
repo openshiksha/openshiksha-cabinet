@@ -1,7 +1,7 @@
 {
   "subpart_index": 1, 
   "solution": {
-    "text": "<div>Since Rs. _{{100*j}}_ is the profit on bat one.</div><div> Hence, profit percentage = (_{{100*j}}_/_{{1000*j}}_) x 100 = 10%</div><div> loss percentage = profit percentage - 5 = 10-5 = 5%</div><div> So, Loss = (loss percentage x cost price) /100 = (5 x _{{1000*j}}_)/100 = Rs. _{{50*j}}_</div><div> \\( \\Rightarrow \\) Therefore, Selling price of bat 2 = Original price - loss = _{{1000*j}}_ - _{{50*j}}_ = Rs. _{{950*j}}_ </div>"
+    "text": "<div>Since Rs. _{{100*j}}_ is the profit on bat one.</div><div> Hence, profit percentage = \\(\\frac{_{{100*j}}_}{_{{1000*j}}_} \\times 100 = 10\\)%</div><div> loss percentage = profit percentage - 5 = 10-5 = 5%</div><div> So, Loss = \\(\\frac{loss \\, percentage \\times cost\\, price}{100} = \\frac{5 \\times _{{1000*j}}_}{100}\\) = Rs. _{{50*j}}_</div><div> \\( \\Rightarrow \\) Therefore, Selling price of bat 2 = Original price - loss = _{{1000*j}}_ - _{{50*j}}_ = Rs. _{{950*j}}_ </div>"
   }, 
   "content": {
     "text": "Assuming each bat costs Rs _{{j*1000}}_. If the profit percentage on the first sale is 5%more than the loss percentage on the second sale, and if the profit on bat one is Rs. _{{j*100}}_. What was the price that bat 2(the one which had loss) was sold at?"

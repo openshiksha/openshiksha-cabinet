@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "Assuming x as the initial price.<div> Discount percentage = 20% </div><div>Therefore, final price = initial price - (initial price x (discount percentage/100))</div><div>_{{j*40}}_ = \\(x\\) - (20\\(x\\)/100)</div><div>_{{j*40}}_ = 80\\(x\\)/100</div><div> \\(x\\)= (100 x _{{40*j}}_)/80</div><div> \\( \\Rightarrow \\) Therefore, \\(x\\)= Rs. _{{j*50}}_ </div>"
+    "text": "Assuming x as the initial price.<div> Discount percentage = 20% </div><div>Therefore, final price = initial price - \\(\\frac{initial\\, price \\times discount \\, percentage}{100}\\)</div><div>_{{j*40}}_ = \\(x - \\frac{20x}{100}\\)</div><div>_{{j*40}}_ = \\(\\frac{80x}{100}\\)</div><div> \\(x= \\frac{100 \\times _{{40*j}}_}{80}\\)</div><div> \\( \\Rightarrow \\) Therefore, \\(x\\)= Rs. _{{j*50}}_ </div>"
   }, 
   "content": {
     "text": "Meena bought a pair of socks for Rs. _{{j*40}}_. The store said the discount rate was 20 %. What were the initial price of the socks?"

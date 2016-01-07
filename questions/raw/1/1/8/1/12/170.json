@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Initial principal (P) = Rs._{{j*10000}}_.</div><div> Time Period(T) = 3 Years</div><div> Rate of Interest =  _{k}_ %</div><div>Hence by formula of compound interest, Amount = P x (1+(R/100))^T</div><div> \\( \\Rightarrow \\) Therefore, Amount due of loan after 3 years = _{{j*10000}}_ x (1+(_{k}_/100))^3 = Rs. _{{Decimal(j)*10000*(((100+Decimal(k))/100)**3)}}_ </div>"
+    "text": "<div> Initial principal (P) = Rs._{{j*10000}}_.</div><div> Time Period(T) = 3 Years</div><div> Rate of Interest =  _{k}_ %</div><div>Hence by formula of compound interest, Amount = \\(P \\times (1+\\frac{R}{100})^T\\)</div><div> \\( \\Rightarrow \\) Therefore, Amount due of loan after 3 years = \\(_{{j*10000}}_ \\times (1+\\frac{_{k}_}{100})^3\\) = Rs. _{{Decimal(j)*10000*(((100+Decimal(k))/100)**3)}}_ </div>"
   }, 
   "content": {
     "text": "Find the amount due on a loan of Rs. _{{j*10000}}_ if the interest is _{k}_% compounded annually after 3 years."

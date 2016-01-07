@@ -1,7 +1,7 @@
 {
   "subpart_index": 3, 
   "solution": {
-    "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=_{j}_. </div><div> Thus j+j-E=2 </div><div> E=_{{2*j}}_-2</div><div> Hence, the polyhedron has _{{(2*j)-2}}_ edges. </div>"
+    "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=_{j}_. </div><div> Thus _{j}_+_{j}_-E=2 </div><div> E=_{{2*j}}_-2</div><div> Hence, the polyhedron has _{{(2*j)-2}}_ edges. </div>"
   }, 
   "content": {
     "text": "In a solid with faces=vertices=_{j}_, the number of edges is? "

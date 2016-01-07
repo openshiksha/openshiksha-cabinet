@@ -1,10 +1,10 @@
 {
   "subpart_index": 2, 
   "solution": {
-    "text": "<div>Time taken by car = _{{15*j}}_ min</div><div>\\(\\Rightarrow\\) Since distance between A and B is constant, speed and time are inversely proportional.</div><div>\\(\\Rightarrow\\) Speed \\(\\times\\) time = Distance = K</div><div>\\(\\Rightarrow\\) But first we convert all time to minutes. Therefore,</div> <div>\\(\\Rightarrow\\) 1 hour = 60 min</div><div>\\(\\Rightarrow\\) Time taken by auto rickshaw = _{{60*j}}_ min</div><div>\\(\\Rightarrow\\) Therefore now in case one, K =\\( _{{60*j}}_ \\times 10 \\times _{k}_\\)</div><div>\\(\\Rightarrow\\) K = _{{600*j*k}}_</div><div>\\(\\Rightarrow\\) In the case of the car, speed = _{{40*k}}_</div><div>\\(\\Rightarrow\\) Therefore time taken = \\( \\frac {K}{_{{40*k}}_} = \\frac {_{{600*j*k}}_}{_{{40*k}}_}\\)</div><div>\\(\\Rightarrow\\) Time taken by car = _{{15*k}}_ min</div>"
+    "text": "<div>Since distance between A and B is constant, speed and time are inversely proportional.</div><div> Speed \\(\\times\\) time = Distance = K</div><div> But first we convert all time to minutes. Therefore,</div> <div>1 hour = 60 min</div><div> Time taken by auto rickshaw = _{{60*j}}_ min</div><div> Therefore now in case one, K = \\( _{{60*j}}_ \\times _{{10*k}}_\\)</div><div> K = _{{600*j*k}}_</div><div> In the case of the car, speed = _{{40*k}}_ km/h </div><div>Therefore time taken = \\( \\frac {K}{_{{40*k}}_} = \\frac {_{{600*j*k}}_}{_{{40*k}}_}\\)</div><div>\\(\\Rightarrow\\) Time taken by car = _{{15*j}}_ min</div>"
   }, 
   "content": {
-    "text": "An auto rickshaw travels between two places A and B in _{j}_ hours at the constant speed of _{{10*k}}_ km/h. If a car travels at constant speed of _{{40*k}}_ km/h, How much time will it take from A to B?"
+    "text": "An auto rickshaw travels between two places A and B in _{j}_ hours at the constant speed of _{{10*k}}_ km/h. If a car travels at constant speed of _{{40*k}}_ km/h, How many minutes will it take from A to B?"
   }, 
   "variable_constraints": {
     "k": {
@@ -29,8 +29,8 @@
     }
   }, 
   "answer": {
-    "unit": "min", 
     "value": "_{{15*j}}_"
   }, 
-  "type": 3
+  "type": 3, 
+  "unit": "min"
 }

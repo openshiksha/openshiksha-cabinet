@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Profit percentage of the chocolate = (profit/initial price) x 100</div><div> Initial price = Rs. _{k}_</div><div> Final price = Rs. _{j}_</div><div> Profit = Final price- initial price = _{j}_- _{k}_= Rs. _{{j-k}}_ </div><div> \\( \\Rightarrow \\) Therefore, profit percentage = _{{((j-k)*100)/k}}_ % </div>"
+    "text": "<div>Profit percentage of the chocolate =\\(\\frac{profit}{initial\\, price} \\times 100 \\)</div><div> Initial price = Rs. _{k}_</div><div> Final price = Rs. _{j}_</div><div> Profit = Final price- initial price = _{j}_- _{k}_= Rs. _{{j-k}}_ </div><div> \\( \\Rightarrow \\) Therefore, profit percentage = _{{((j-k)*100)/k}}_ % </div>"
   }, 
   "content": {
     "text": "What is the profit percentage on a chocolate sold at Rs. _{j}_ , if the initial price was Rs. _{k}_?"

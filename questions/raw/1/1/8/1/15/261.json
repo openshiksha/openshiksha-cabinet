@@ -3,7 +3,7 @@
     "text": "The total amount Guddu pays for is equal to cost of popcorns +cost of tickets."
   }, 
   "solution": {
-    "text": "<div>Let y be the price of one ticket.Then price of one popcorn is y/3.</div><div> Amount spent is Rs _{{60*(j+1)}}_. </div><div> Number of friends who came were _{j}_. </div><div> So total number of people who went for the movie are _{{j+1}}_ (Including Guddu). </div><div> According to the question, </div><div>(_{{j+1}}_ x y)+(_{{j+1}}_ x y/3)= _{{60*(j+1)}}_ </div><div>4y/3 x _{{j+1}}_ = _{{60*(j+1)}}_ </div><div> y=\\frac{_{{3*60*(j+1)}}_}{_{{4*(j+1)}}_} </div><div> y=Rs. 45=Cost of one ticket. </div><div>Therefore, the cost of one ticket is Rs 45. </div>"
+    "text": "<div>Let y be the price of one ticket.Then price of one popcorn is \\(\\frac{y}{3} \\) .</div><div> Amount spent is Rs _{{60*(j+1)}}_. </div><div> Number of friends who came were _{j}_. </div><div> So total number of people who went for the movie are _{{j+1}}_ (Including Guddu). </div><div> According to the question, </div><div>(_{{j+1}}_ x y)+(_{{j+1}}_ x \\(\\frac{y}{3} \\))= _{{60*(j+1)}}_ </div><div>\\( \\frac{4y}{3}\\) x _{{j+1}}_ = _{{60*(j+1)}}_ </div><div> y=\\( \\frac{_{{3*60*(j+1)}}_}{_{{4*(j+1)}}_} \\) </div><div> y=Rs. 45=Cost of one ticket. </div><div>Therefore, the cost of one ticket is Rs 45. </div>"
   }, 
   "subpart_index": 1, 
   "content": {

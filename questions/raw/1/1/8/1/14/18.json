@@ -1,13 +1,14 @@
 {
-  "content": {
-    "text": "Rational number equal to their reciprocal ?"
-  }, 
-  "answer": {
-    "value": 1
-  }, 
-  "type": 3, 
+  "subpart_index": 1, 
   "solution": {
     "text": "<div>Reciprocal of 1 is \\(\\frac {1}{1}\\) which is 1</div>"
   }, 
-  "subpart_index": 1
+  "content": {
+    "text": "which positive rational number is equal to their reciprocal ?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 1
+  }, 
+  "type": 3
 }

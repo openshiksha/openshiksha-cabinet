@@ -1,12 +1,16 @@
 {
-  "content": {
-    "text": "The volume of a cylinder and a volume of a cone with same base radius and same height are ________________."
+  "hint": {
+    "text": "<div> Volume of cone = \\( \\frac{Pi \\times radius^2 \\times height}{3} \\) </div><div> Volume of cylinder = \\(Pi \\times radius^2 \\times height\\) </div> "
   }, 
   "solution": {
-    "text": "<div>Directly proportional</div><div>\\(\\Rightarrow\\) Can be represented as \\(\\frac xy= k.\\)</div><div>\\(\\Rightarrow\\) For same base radius and height, Volume of Cylinder \\(\\div\\) Volume of Cone = 3(k).</div>"
+    "text": "<div>Directly proportional</div><div>Can be represented as \\(\\frac xy= k.\\)</div><div>For same base radius and height, Volume of Cylinder \\(\\div\\) Volume of Cone = 3.(k)</div><div> \\( \\Rightarrow \\) Hence, they are directly proportional to each other.</div>"
   }, 
-  "type": 1, 
   "subpart_index": 1, 
+  "content": {
+    "text": "The relation between the volume of a cylinder and the volume of a cone with same base radius and same height are ________________."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
   "options": {
     "incorrect": [
       {

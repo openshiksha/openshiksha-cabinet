@@ -1,9 +1,13 @@
 {
-  "content": {
-    "text": "The reciprocal of a positive number is  ?"
-  }, 
-  "type": 1, 
   "subpart_index": 1, 
+  "solution": {
+    "text": "<div> Reciprocal of a number y is \\( \\frac{1}{y} \\)</div><div> Since there is no change of sign, a reciprocal of a positive number will always be positive.</div><div> For example, reciprocal of positive number 2 is \\(\\frac{1}{2} \\), which is positive.</div>"
+  }, 
+  "content": {
+    "text": "The reciprocal of a positive number is _________ ?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
   "options": {
     "incorrect": [
       {

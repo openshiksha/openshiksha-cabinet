@@ -1,7 +1,7 @@
 {
   "subpart_index": 1, 
   "solution": {
-    "text": "<div>Since New price > Old price, Increase = New price - Old price. </div><div>Increase = _{{6000*j}}_ - _{{5000*j}}_ = Rs. _{{1000*j}}_ </div><div>Increase percentage = (Increase/Old price) x 100 </div><div> \\( \\Rightarrow \\) Therefore, increase percentage = (_{{1000*j}}_/_{{5000*j}}_) x 100 = 20% </div>"
+    "text": "<div>Since New price > Old price, Increase = New price - Old price. </div><div>Increase = _{{6000*j}}_ - _{{5000*j}}_ = Rs. _{{1000*j}}_ </div><div>Increase percentage = \\( \\frac{Increase}{Old \\, price} \\) x 100 </div><div> \\( \\Rightarrow \\) Therefore, increase percentage = \\( \\frac{_{{1000*j}}_}{_{{5000*j}}_} \\) x 100 = 20% </div>"
   }, 
   "content": {
     "text": "Price of a refrigerator going from Rs. _{{5000 *j}}_ to _{{6000*j}}_ the next year."

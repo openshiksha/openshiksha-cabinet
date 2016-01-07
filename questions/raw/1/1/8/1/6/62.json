@@ -1,14 +1,11 @@
 {
-  "hint": {
-    "text": "<div>Observe that the graph is a straight line which rises proportionally.</div><div>Speed=\\(\\frac{Distance}{Time}\\)</div>"
-  }, 
+  "subpart_index": 1, 
   "solution": {
-    "text": "<div>After _{j}_ hrs, the time is _{{j+7}}_ am.</div><div>Draw a vertical line from _{{j+7}}_ am on the x-axis upwards until it intersects the graph.</div><div>From this point draw a horizontal line towards the left until it intersects the y-axis.</div><div>This value gives the distance ran by Bolt in _{j}_ hrs.</div><div>For example : Look at the graph shown below.</div><div>In half an hour, Bolt runs 30kms</div>", 
+    "text": "<div>After _{j}_ hrs, the time is _{{j+7}}_ am.</div><div>Draw a vertical line from _{{j+7}}_ am on the x-axis upwards until it intersects the graph.</div><div>From this point draw a horizontal line towards the left until it intersects the y-axis.</div><div>This value gives the distance travelled by Rahul in _{j}_ hrs.</div><div>For example : Look at the graph shown below.</div><div>In half an hour, Rahul travels 30kms</div>", 
     "img": "ITG-Q6-3.png"
   }, 
-  "subpart_index": 1, 
   "content": {
-    "text": "How many kms has Bolt ran after _{j}_ hrs?"
+    "text": "How many kms has Rahul travelled after _{j}_ hrs?"
   }, 
   "variable_constraints": {
     "j": {

@@ -1,13 +1,12 @@
 {
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> \\( \\frac{Number\\, of\\, words \\,in\\, hour}{Number \\, of \\, words\\, in \\, a \\,  minute} = 60 \\)</div><div>Therefore Number of words in a minute = \\( \\frac{_{{6000*j}}_}{60} \\)</div><div>\\( \\Rightarrow \\) Number of words in a minute = _{{100*j}}_ \n"
+  }, 
   "content": {
-    "text": "The gross words per minute (GWAM) is defined as the number of words a person can type in one hour. Given that you are the fastest typer in the world and can type _{{6000*j}}_ words in one hour. What is your GWAM?", 
+    "text": "The gross words a minute (GWAM) is defined as the number of words a person can type in one minute. Given that you are the fastest typer in the world and can type _{{6000*j}}_ words in one hour. What is your GWAM?", 
     "img": "1.png"
   }, 
-  "answer": {
-    "value": "_{{j*100}}_"
-  }, 
-  "type": 3, 
-  "subpart_index": 0, 
   "variable_constraints": {
     "j": {
       "range": {
@@ -19,5 +18,10 @@
         ]
       }
     }
-  }
+  }, 
+  "answer": {
+    "value": "_{{j*100}}_"
+  }, 
+  "type": 3, 
+  "unit": "words"
 }

@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div> Let the length and breadth  be _{j}_y and _{k}_y because the ratio between their length and breadth is j:k. </div><div> Total cost = cost per metre x total perimeter </div><div> Perimeter of rectangle = 2 x (l+b) </div><div> Therefore, _{{4*l*(j+k)}}_ = 2 x (_{j}_y + _{k}_y) x _{l}_ . </div> <div> _{{4*l*(j+k)}}_ = 2y x _{{ l*(j+k) }}_ </div><div> 2y = _{{4*l*(j+k)}}_/_{{ l*(j+k) }}_ </div><div> y=2 </div><div> \\( \\Rightarrow \\) Now,the length = _{j}_y = _{j}_ x 2 = _{{2*j}}_ m</div> "
+    "text": "<div> Let the length and breadth  be _{j}_y and _{k}_y because the ratio between their length and breadth is j:k. </div><div> Total cost = cost per metre x total perimeter </div><div> Perimeter of rectangle = 2 x (l+b) </div><div> Therefore, _{{4*l*(j+k)}}_ = 2 x (_{j}_y + _{k}_y) x _{l}_ . </div> <div> _{{4*l*(j+k)}}_ = 2y x _{{ l*(j+k) }}_ </div><div> 2y = \\( \\frac{_{{4*l*(j+k)}}_}{_{{ l*(j+k) }}_} \\) </div><div> y=2 </div><div> \\( \\Rightarrow \\) Now,the length = _{j}_y = _{j}_ x 2 = _{{2*j}}_ m</div> "
   }, 
   "content": {
-    "text": "There is a narrow rectangular plot,reserved for a school, in Mahuli village. The length and breadth of the plot are in the ratio _{j}_:_{k}_. At the rate Rs._{l}_ per metre it will cost the village panchayat Rs_{{4*l*(j+k)}}_  to fence the plot. What is the length of the plot ?"
+    "text": "There is a narrow rectangular plot,reserved for a school, in Mahuli village. The length and breadth of the plot are in the ratio _{j}_:_{k}_. At the rate Rs._{l}_ per metre it will cost the village panchayat Rs. _{{4*l*(j+k)}}_  to fence the plot. What is the length of the plot ?"
   }, 
   "variable_constraints": {
     "k": {

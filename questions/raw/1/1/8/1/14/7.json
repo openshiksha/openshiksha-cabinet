@@ -1,10 +1,10 @@
 {
-  "solution": {
-    "text": "<div>\\( \\frac xy\\) is a number then \\(\\frac yx\\) is the reciprocal.</div><div>Therefore,reciprocal of _{j}_ is _{{trunc(Decimal(1)/Decimal(j), 2)}}_.</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\( \\frac xy\\) is a number then \\(\\frac yx\\) is the reciprocal.</div><div>Therefore,reciprocal of _{j}_ is \\(\\frac{1}{_{j}_}\\) = _{{trunc(Decimal(1)/Decimal(j), 2)}}_.</div>"
+  }, 
   "content": {
-    "text": "What is the reciprocal of _{j}_"
+    "text": "What is the reciprocal of _{j}_ ?"
   }, 
   "variable_constraints": {
     "j": {
@@ -19,6 +19,7 @@
     }
   }, 
   "answer": {
+    "tolerance": 0.01, 
     "value": "_{{trunc(Decimal(1)/Decimal(j), 2)}}_"
   }, 
   "type": 3

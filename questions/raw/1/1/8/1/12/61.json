@@ -1,7 +1,7 @@
 {
   "subpart_index": 1, 
   "solution": {
-    "text": "<div>Money spent on bus  = cost per head of bus \\(\\times\\) number of students  = 100 \\(\\times\\) _{j}_= Rs. _{{100*j}}_</div><div>Money spent on taxi = cost per head of taxi \\(\\times\\) number of students = 200 \\(\\times\\) _{k}_ = Rs. _{{200*k}}_</div><div> Money spent on auto-rickshaw = cost  per head of rickshaw \\(\\times\\) number of students = 150 \\(\\times\\) _{{12-j-k}}_ = Rs. _{{1800- 150*j- 150*k}}_</div><div> Percentage of money spent on autorickshaw = money spent on rickshaw/total money spent \\(\\times\\) 100 </div><div>\\( Percentage = \\frac{_{{1800- 150*j- 150*k}}_}{_{{1800-150*j-150*k}}_ +_{{100*j}}_ +_{{200*k}}_} \\times 100\\)</div><div> Therefore, the percentage of money spent on auto-rickshaw is _{{trunc( ((1800-150*j-150*k)*100)/Decimal(1800-50*j+50*k),2 )}}_.</div>"
+    "text": "<div>Money spent on bus  = cost per head of bus \\(\\times\\) number of students  = 100 \\(\\times\\) _{j}_= Rs. _{{100*j}}_</div><div>Money spent on taxi = cost per head of taxi \\(\\times\\) number of students = 200 \\(\\times\\) _{k}_ = Rs. _{{200*k}}_</div><div> Money spent on auto-rickshaw = cost  per head of rickshaw \\(\\times\\) number of students = 150 \\(\\times\\) _{{12-j-k}}_ = Rs. _{{1800- 150*j- 150*k}}_</div><div> Percentage of money spent on autorickshaw = \\(\\frac{money \\,spent \\,on \\,rickshaw}{total \\,money\\, spent} \\times100 \\) </div><div>Percentage = \\( \\frac{_{{1800- 150*j- 150*k}}_}{_{{1800-150*j-150*k}}_ +_{{100*j}}_ +_{{200*k}}_} \\times 100\\)</div><div> Therefore, the percentage of money spent on auto-rickshaw is _{{trunc( ((1800-150*j-150*k)*100)/Decimal(1800-50*j+50*k),2 )}}_.</div>"
   }, 
   "content": {
     "text": "What percentage of the total money is spent on auto-rickshaw?"
@@ -11,5 +11,5 @@
     "value": "_{{ trunc( ((1800-150*j-150*k)*100)/Decimal(1800-50*j+50*k),2 ) }}_"
   }, 
   "type": 3, 
-  "unit": "Rupees"
+  "unit": "Percentage"
 }

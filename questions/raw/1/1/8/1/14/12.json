@@ -1,10 +1,10 @@
 {
+  "subpart_index": 0, 
   "solution": {
     "text": "<div>a \\(\\times\\) 1 = 1 \\(\\times\\) a is commutative property. 1 is the multiplicative identity.</div>"
   }, 
-  "subpart_index": 0, 
   "content": {
-    "text": "\\( -\\frac {_{j}_}{_{k}_} \\times 1 = 1 \\times \\frac {_{j}_}{_{k}_} = \\frac {_{j}_}{_{k}_}\\)"
+    "text": "\\( \\frac {_{j}_}{_{k}_} \\times 1 = 1 \\times \\frac {_{j}_}{_{k}_} = \\frac {_{j}_}{_{k}_}\\)"
   }, 
   "variable_constraints": {
     "k": {
@@ -35,7 +35,7 @@
         "text": "Closure property"
       }, 
       {
-        "text": "Commutative property and use if additive identity"
+        "text": "Commutative property and use of additive identity"
       }, 
       {
         "text": "Associative property"

@@ -1,10 +1,10 @@
 {
-  "solution": {
-    "text": "<div>\\( \\frac {_{j}_}{_{k}_} + \\frac {-_{{j+1}}_}{_{{k+3}}_} + \\frac {_{l}_}{_{k}_} + \\frac {_{{j+2}}_}{_{{k+2}}_}\\)</div><div>Numerator:_{{(4*j*k)+(2*j)+(k**2)+(4*k)+((k**2)*l)+(5*k*l)+(6*l)+((k**2)*j)}}_</div><div>Denominator: _{{(k**3)+(6*k)+(2*(k**2))+(6*k)}}_</div><div>_{{trunc(Decimal((4*j*k)+(2*j)+(k**2)+(4*k)+((k**2)*l)+(5*k*l)+(6*l)+((k**2)*j))/Decimal((k**3)+(6*k)+(2*(k**2))+(6*k)), 2)}}_</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\( \\frac {1}{_{j}_} + \\frac {-1}{_{k}_} + \\frac {_{l}_}{_{{2*k}}_} + \\frac {_{{k}}_}{_{{2*j}}_}\\) </div><div> Making the denominators  of all fractions common we get, </div><div> \\( \\frac {_{{2*k}}_}{_{{2*k*j}}_} + \\frac {-_{{2*j}}_}{_{{2*j*k}}_} + \\frac {_{{l*j}}_}{_{{2*j*k}}_} + \\frac {_{{k*k}}_}{_{{2*k*j}}_}\\) </div><div> = \\(_{{Fraction(2*k -2*j + l*j+ k*k,2*j*k)}}_\\)<div> \\( \\Rightarrow \\) _{{trunc((2*Decimal(k) -2*j + l*j+ k*k)/(2*j*k),2)}}_ </div>"
+  }, 
   "content": {
-    "text": "\\( \\frac {_{j}_}{_{k}_} + \\frac {-_{{j+1}}_}{_{{k+3}}_} + \\frac {_{l}_}{_{k}_} + \\frac {_{{j+2}}_}{_{{k+2}}_}\\)"
+    "text": "\\( \\frac {1}{_{j}_} + \\frac {-1}{_{k}_} + \\frac {_{l}_}{_{{2*k}}_} + \\frac {_{{k}}_}{_{{2*j}}_}\\)"
   }, 
   "variable_constraints": {
     "k": {
@@ -39,7 +39,7 @@
     }
   }, 
   "answer": {
-    "value": "_{{trunc(Decimal((4*j*k)+(2*j)+(k**2)+(4*k)+((k**2)*l)+(5*k*l)+(6*l)+((k**2)*j))/Decimal((k**3)+(6*k)+(2*(k**2))+(6*k)), 2)}}_"
+    "value": "_{{trunc((2*Decimal(k) -2*j + l*j+ k*k)/(2*j*k),2)}}_ "
   }, 
   "type": 3
 }

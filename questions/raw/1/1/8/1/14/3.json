@@ -1,16 +1,17 @@
 {
-  "content": {
-    "text": "Choose from the options below:"
-  }, 
-  "solution": {
-    "text": "<div>a + b=b+a ,Therefore commutative property</div><div>a + (b+c)=(a+b)+c,therefore associative property</div><div>Addition of two ratonal numbers gives a rational number,Therefore closed under adddition</div>"
-  }, 
-  "type": 2, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div>For any three rational numbers a,b and c,</div><div>a x b = b x a , therefore commutative property is proved. </div><div>a x (b x c) = (a x b) x c, therefore associative property is proved.</div><div>multiplication of two rational numbers gives a rational number, therefore they are closed under multiplication.</div>"
+  }, 
+  "content": {
+    "text": "Which of the following properties are true for  multiplication of rational numbers ?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
   "options": {
     "incorrect": [
       {
-        "text": "DeMorgan's property"
+        "text": "Dissociative property "
       }
     ], 
     "correct": [

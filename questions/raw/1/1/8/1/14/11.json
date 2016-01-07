@@ -1,18 +1,18 @@
 {
-  "solution": {
-    "text": "<div>\\( -\\frac {_{j}_}{_{k}_} \\times \\frac {_{k}_}{_{l}_} + \\frac {_{l}_}{_{j}_} - \\frac {_{k}_}{_{l}_} \\times \\frac {_{l}_}{_{{2*j}}_}\\)</div><div>\\( -2 \\times {_{j}_}^3 + 2 \\times {_{l}_}^2 + _{k}_ \\times _{l}_\\)</div><div>-_{{trunc(Decimal((2)*(j**3)+2*(l**2)+(k*l))/Decimal(2*j*l), 2)}}_</div>"
-  }, 
   "subpart_index": 0, 
+  "solution": {
+    "text": "<div> \\( (-\\frac {_{j}_}{_{k}_} \\times \\frac {_{k}_}{_{l}_}) + \\frac {_{{l+1}}_}{_{j}_} -( \\frac {_{k}_}{_{l}_} \\times \\frac {_{l}_}{_{{2*j}}_}) \\) </div><div> \\( \\Rightarrow -\\frac{_{j}_}{_{l}_} + \\frac{_{{l+1}}_}{_{j}_} - \\frac{_{k}_}{_{{2*j}}_} \\) </div><div> Taking common denominator for all fractions, </div><div> \\( \\Rightarrow -\\frac{_{{2*j*j}}_}{_{{2*j*l}}_} + \\frac{_{{(l+1)*l*2}}_}{_{{2*j*l}}_} - \\frac{_{{k*l}}_}{_{{2*j*l}}_} \\)</div><div> \\( \\Rightarrow _{{Fraction((-2*j*j)+((l+1)*l*2)-(k*l),2*j*l)}}_ \\) = _{{trunc(((-2*Decimal(j)*j)+((l+1)*l*2)-(k*l))/(2*j*l),2)}}_ </div>"
+  }, 
   "content": {
-    "text": "\\( -\\frac {_{j}_}{_{k}_} \\times \\frac {_{k}_}{_{l}_} + \\frac {_{l}_}{_{j}_} - \\frac {_{k}_}{_{l}_} \\times \\frac {_{l}_}{_{{2*j}}_}\\)"
+    "text": "\\( (-\\frac {_{j}_}{_{k}_} \\times \\frac {_{k}_}{_{l}_}) + \\frac {_{{l+1}}_}{_{j}_} -( \\frac {_{k}_}{_{l}_} \\times \\frac {_{l}_}{_{{2*j}}_}) \\)"
   }, 
   "variable_constraints": {
     "k": {
       "range": {
         "include": [
           [
-            2, 
-            20
+            7, 
+            13
           ]
         ]
       }
@@ -21,8 +21,8 @@
       "range": {
         "include": [
           [
-            2, 
-            20
+            1, 
+            6
           ]
         ]
       }
@@ -31,7 +31,7 @@
       "range": {
         "include": [
           [
-            2, 
+            14, 
             20
           ]
         ]
@@ -39,7 +39,8 @@
     }
   }, 
   "answer": {
-    "value": "-_{{trunc(Decimal((2)*(j**3)+2*(l**2)+(k*l))/Decimal(2*j*l), 2)}}_"
+    "tolerance": 0.01, 
+    "value": "_{{trunc(((-2*Decimal(j)*j)+((l+1)*l*2)-(k*l))/(2*j*l),2)}}_ "
   }, 
   "type": 3
 }
