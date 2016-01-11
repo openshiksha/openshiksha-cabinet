@@ -1,11 +1,8 @@
 {
-  "hint": {
-    "text": "<div>Example : \\(0.005 = 5.0 \\times 10^{-3} = 5 \\times 10^{-3}\\). </div><div>Here, the decimal point is shifted three places towards the right. Therefore, the exponent value of \\(10\\,\\) is \\(-3\\)</div>"
-  }, 
+  "subpart_index": 4, 
   "solution": {
     "text": "_{{k * Decimal('0.0001')}}_ can also be written as \\( _{k}_ \\times 10^{-4} \\). Thus the power of 10 is -4"
   }, 
-  "subpart_index": 4, 
   "content": {
     "text": "The power of 10 in the standard form of _{{k * Decimal('0.0001')}}_ is ?"
   }, 

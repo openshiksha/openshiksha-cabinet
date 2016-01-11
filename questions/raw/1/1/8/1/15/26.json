@@ -1,7 +1,7 @@
 {
   "subpart_index": 2, 
   "solution": {
-    "text": "<div>2x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)</div><div>2x = \\(\\frac {_{{15*j+2}}_}{15}\\) -  \\(\\frac {_{j}_}{3}\\) </div><div> 2x = \\(\\frac{_{{10*j +2}}_}{15} \\)</div> \\( \\Rightarrow\\) Therefore, x = \\( \\frac{_{{10*j+2}}_}{30} \\) = \\( _{{trunc((10*Decimal(j)+2)/(30),2)}}_ \\) cm.</div>"
+    "text": "<div>2x + \\(\\frac {_{j}_}{3}\\) = \\(\\frac {_{{15*j+2}}_}{15}\\)</div><div>2x = \\(\\frac {_{{15*j+2}}_}{15}\\) -  \\(\\frac {_{j}_}{3}\\) </div><div> 2x = \\(\\frac{_{{10*j +2}}_}{15} \\)</div><div> \\( \\Rightarrow\\) Therefore, x = \\( \\frac{_{{10*j+2}}_}{30} \\) = \\( _{{trunc((10*Decimal(j)+2)/(30),2)}}_ \\) cm.</div>"
   }, 
   "content": {
     "text": "The length of the equal side is ?"

@@ -1,7 +1,7 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>\\( \\frac {1}{_{j}_} + \\frac {-1}{_{k}_} + \\frac {_{l}_}{_{{2*k}}_} + \\frac {_{{k}}_}{_{{2*j}}_}\\) </div><div> Making the denominators  of all fractions common we get, </div><div> \\( \\frac {_{{2*k}}_}{_{{2*k*j}}_} + \\frac {-_{{2*j}}_}{_{{2*j*k}}_} + \\frac {_{{l*j}}_}{_{{2*j*k}}_} + \\frac {_{{k*k}}_}{_{{2*k*j}}_}\\) </div><div> = \\(_{{Fraction(2*k -2*j + l*j+ k*k,2*j*k)}}_\\)<div> \\( \\Rightarrow \\) _{{trunc((2*Decimal(k) -2*j + l*j+ k*k)/(2*j*k),2)}}_ </div>"
+    "text": "<div>\\( \\frac {1}{_{j}_} + \\frac {-1}{_{k}_} + \\frac {_{l}_}{_{{2*k}}_} + \\frac {_{{k}}_}{_{{2*j}}_}\\) </div><div> Making the denominators  of all fractions common we get, </div><div> \\( \\frac {_{{2*k}}_}{_{{2*k*j}}_} + \\frac {-_{{2*j}}_}{_{{2*j*k}}_} + \\frac {_{{l*j}}_}{_{{2*j*k}}_} + \\frac {_{{k*k}}_}{_{{2*k*j}}_}\\) </div><div> = \\(_{{Fraction(2*k -2*j + l*j+ k*k,2*j*k)}}_\\)</div><div> \\( \\Rightarrow \\) _{{trunc((2*Decimal(k) -2*j + l*j+ k*k)/(2*j*k),2)}}_ </div>"
   }, 
   "content": {
     "text": "\\( \\frac {1}{_{j}_} + \\frac {-1}{_{k}_} + \\frac {_{l}_}{_{{2*k}}_} + \\frac {_{{k}}_}{_{{2*j}}_}\\)"

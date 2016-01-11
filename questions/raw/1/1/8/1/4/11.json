@@ -1,11 +1,8 @@
 {
-  "hint": {
-    "text": "<div>The multiplicative inverse of a number is its reciprocal.</div><div>Remember, \\(a^m=\\frac 1 {a^{-m}}\\)</div>"
-  }, 
+  "subpart_index": 0, 
   "solution": {
     "text": "<div>The multiplicative inverse of \\( ({_{j}_ \\times _{k}_})^{-2} \\)  is \\(\\frac1{({_{j}_ \\times _{k}_})^{-2}} \\)</div><div>\\(=({_{j}_ \\times _{k}_})^2\\)</div><div>\\(= _{j}_^{2} \\times _{k}_^{2} \\)</div><div>\\(=_{{(j**2)*(k**2)}}_\\)</div>"
   }, 
-  "subpart_index": 0, 
   "content": {
     "text": "\\( ({_{j}_ \\times _{k}_})^{-2} \\)"
   }, 
