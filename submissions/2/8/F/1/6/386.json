@@ -822,11 +822,11 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 0
       }, 
       {
         "correct": null, 
-        "choice": null
+        "choice": 0
       }, 
       {
         "correct": null, 
@@ -836,13 +836,18 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 1
       }
     ], 
     [
       {
         "correct": null, 
-        "choices": []
+        "choices": [
+          0, 
+          2, 
+          3, 
+          4
+        ]
       }
     ], 
     [
@@ -860,7 +865,7 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 3
       }
     ], 
     [
