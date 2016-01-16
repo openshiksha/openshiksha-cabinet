@@ -1058,19 +1058,19 @@
     [
       {
         "correct": null, 
-        "choice": null
+        "choice": 2
       }, 
       {
         "correct": null, 
-        "choice": null
+        "choice": 2
       }, 
       {
         "correct": null, 
-        "choice": null
+        "choice": 1
       }, 
       {
         "correct": null, 
-        "choice": null
+        "choice": 2
       }
     ], 
     [
@@ -1145,7 +1145,10 @@
         "choices": [
           0, 
           1, 
-          6
+          3, 
+          4, 
+          6, 
+          7
         ]
       }
     ], 
@@ -1156,7 +1159,7 @@
       }, 
       {
         "correct": null, 
-        "choice": 2
+        "choice": 1
       }
     ]
   ]
