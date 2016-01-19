@@ -11,7 +11,7 @@
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<div>A1=(1,319), A2=(1,257), B1=(2,293), B2=(2,345), C1=(3,193), C2=(3,115), D1=(4,351), D2=(4,317), E=(5,222), F1=(6,331), F2=(6,160), G1=(7,238), G2=(7,267)</div><div>In which match number was the predicted score the same as the actual score?</div>", 
+            "text": "<div>A1=(1,336), A2=(1,271), B1=(2,257), B2=(2,310), C1=(3,167), C2=(3,125), D1=(4,397), D2=(4,320), E=(5,227), F1=(6,303), F2=(6,178), G1=(7,201), G2=(7,250)</div><div>In which match number was the predicted score the same as the actual score?</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -25,7 +25,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>We know, the predicted and actual scores were the same in the 5th match. </div><div>Draw a perpendicular to the y-axis from point E. </div><div>This value reflects the score in that match which is 222 runs</div>", 
+            "text": "<div>We know, the predicted and actual scores were the same in the 5th match. </div><div>Draw a perpendicular to the y-axis from point E. </div><div>This value reflects the score in that match which is 227 runs</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -37,7 +37,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "222"
+            "value": "227"
           }, 
           "type": 3, 
           "unit": null
@@ -45,7 +45,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Notice that on the graph of predicted scores, point D1 is the highest. </div><div>Draw a perpendicular to the y-axis from point D1. </div><div>That value reflects the highest predicted score in the series which is 351 runs</div>", 
+            "text": "<div>Notice that on the graph of predicted scores, point D1 is the highest. </div><div>Draw a perpendicular to the y-axis from point D1. </div><div>That value reflects the highest predicted score in the series which is 397 runs</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -57,7 +57,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "351"
+            "value": "397"
           }, 
           "type": 3, 
           "unit": null
@@ -65,7 +65,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Notice that on the graph of actual scores, point C2 is the lowest. </div><div>Draw a perpendicular to the y-axis from point C2. </div><div>That value reflects the highest predicted score in the series which is 115 runs</div>", 
+            "text": "<div>Notice that on the graph of actual scores, point C2 is the lowest. </div><div>Draw a perpendicular to the y-axis from point C2. </div><div>That value reflects the highest predicted score in the series which is 125 runs</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -77,7 +77,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "115"
+            "value": "125"
           }, 
           "type": 3, 
           "unit": null
@@ -105,7 +105,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,331), Point F2=(6,160)</div><div>Difference in scores=331-160</div><div>171</div>", 
+            "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,303), Point F2=(6,178)</div><div>Difference in scores=303-178</div><div>125</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -117,7 +117,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "171"
+            "value": "125"
           }, 
           "type": 3, 
           "unit": "runs"
@@ -127,7 +127,7 @@
       "container": {
         "content": {
           "text": "The following graph shows the predicted score and the actual score for team India for each match of a 7-match ODI series. Study the graph and answer the following questions : ", 
-          "img_url": "/secure-static/YXJseWVuZV9tYXRoZXc6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVEzLnBuZzpRdU1qYUtVQWRleDdldTAxa1Z0WU01X0ZEUzg/", 
+          "img_url": "/secure-static/aml5YV9ib3RoYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvY29udGFpbmVycy8xLzEvOC8xLzYvaW1nL0lURy1RMy5wbmc6UmltWU14aXZpYjhaZEEwQi1kTDhzWHBBYzdr/", 
           "img": "ITG-Q3.png"
         }, 
         "subparts": [
@@ -156,7 +156,7 @@
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<div>A=(0,28), B=(1,38), C=(2,50), D=(3,70), E=(4,70), F=(8,100)</div><div>What was the initial temperature of water?</div>", 
+            "text": "<div>A=(0,28), B=(1,40), C=(2,52), D=(3,70), E=(4,70), F=(8,100)</div><div>What was the initial temperature of water?</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -170,7 +170,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Point A=(0,28), Point B=(1,38)</div><div>Rise in temperature in the first minute = 38-28</div><div>=10</div>", 
+            "text": "<div>Point A=(0,28), Point B=(1,40)</div><div>Rise in temperature in the first minute = 40-28</div><div>=12</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -182,7 +182,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "10"
+            "value": "12"
           }, 
           "type": 3, 
           "unit": "degrees celsius"
@@ -190,7 +190,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Point C=(2,50), Point D=(4,70)</div><div>Rise in temperature in the third minute = 70-50</div><div>=20</div>", 
+            "text": "<div>Point C=(2,52), Point D=(4,70)</div><div>Rise in temperature in the third minute = 70-52</div><div>=18</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -202,7 +202,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "20"
+            "value": "18"
           }, 
           "type": 3, 
           "unit": "degrees celsius"
@@ -252,7 +252,7 @@
       "container": {
         "content": {
           "text": "The given graph describes the temperatures of water at different times when it is set to boil from room temperature to its boiling point.  Study the graph and answer the following:", 
-          "img_url": "/secure-static/YXJseWVuZV9tYXRoZXc6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVExLnBuZzpyU04wWVlTbGNuaXY2dE54d1hhQzFaNm5qS1k/", 
+          "img_url": "/secure-static/aml5YV9ib3RoYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvY29udGFpbmVycy8xLzEvOC8xLzYvaW1nL0lURy1RMS5wbmc6X1R0X2oxNjR0dERwWHl6aFFtNHlQa3NENVJV/", 
           "img": "ITG-Q1.png"
         }, 
         "subparts": [
@@ -376,7 +376,7 @@
       "container": {
         "content": {
           "text": "The following graph shows the weekly earnings of a movie for the first 5 weeks after its release. Study the graph and answer the following : ", 
-          "img_url": "/secure-static/YXJseWVuZV9tYXRoZXc6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVEyLnBuZzpLTmFpdExxNDdjZ2czem95b20wZ0lNQjNKVFE/", 
+          "img_url": "/secure-static/aml5YV9ib3RoYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvY29udGFpbmVycy8xLzEvOC8xLzYvaW1nL0lURy1RMi5wbmc6cThTbmg1d1h5MHBTd1c3ckpkT19IYy1QOEx3/", 
           "img": "ITG-Q2.png"
         }, 
         "subparts": [
@@ -398,71 +398,71 @@
     [
       {
         "correct": null, 
-        "value": "5"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "250"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "400"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "150"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "6"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "50"
+        "value": null
       }
     ], 
     [
       {
         "correct": null, 
-        "value": "3"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "4"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "7"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "11"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "8"
+        "value": null
       }
     ], 
     [
       {
         "correct": null, 
-        "value": "73"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "94"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "38"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "14"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "4"
+        "value": null
       }
     ]
   ]

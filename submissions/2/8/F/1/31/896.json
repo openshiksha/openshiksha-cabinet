@@ -5,6 +5,130 @@
         {
           "hint": null, 
           "solution": {
+            "text": "At time t=0, the temperature of water is 32 degree celsius as represented by point A in the graph that lies on the y-axis", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>A=(0,32), B=(1,41), C=(2,51), D=(3,70), E=(4,70), F=(8,100)</div><div>What was the initial temperature of water?</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "32"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point A=(0,32), Point B=(1,41)</div><div>Rise in temperature in the first minute = 41-32</div><div>=9</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "By how many degrees did the temperature rise in the first minute?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "9"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point C=(2,51), Point D=(4,70)</div><div>Rise in temperature in the third minute = 70-51</div><div>=19</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "By how many degrees did the temperature rise in the third minute?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "19"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The line segment joining point D and E is a horizontal line and the co-ordinates of point D and E are (3,70) and (4,70) respectively.</div><div>This shows the temperature was constant in the fourth minute at 70 degrees celsius</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "Was the temperature constant for any duration? If yes, what was the constant temperature?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "70"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point F=(8,100)</div><div>This shows the water attained its boiling point after 8 minutes </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "After how many minutes did the water attain its boiling point?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": "minutes"
+        }
+      ], 
+      "pk": 119, 
+      "container": {
+        "content": {
+          "text": "The given graph describes the temperatures of water at different times when it is set to boil from room temperature to its boiling point.  Study the graph and answer the following:", 
+          "img_url": "/secure-static/YW5raXRfc2luZ2g6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVExLnBuZzpvVzV2ZnFVdXFpUWVCQzZOV2JZdnJqeFEwWEE/", 
+          "img": "ITG-Q1.png"
+        }, 
+        "subparts": [
+          11, 
+          12, 
+          13, 
+          14, 
+          15
+        ], 
+        "hint": {
+          "text": "Point A and Point F signify room temperature and boiling point respectively.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
             "text": "<div>Point a=(1,73)</div><div>Therefore, the movie earned 73 crores in its first week</div>", 
             "img_url": null, 
             "img": null
@@ -107,7 +231,7 @@
       "container": {
         "content": {
           "text": "The following graph shows the weekly earnings of a movie for the first 5 weeks after its release. Study the graph and answer the following : ", 
-          "img_url": "/secure-static/YWRpdGlfcGFuZGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVEyLnBuZzoxUWItenAzQ0ZMUVo2UlRkTVlYWWNFby05MjQ/", 
+          "img_url": "/secure-static/YW5raXRfc2luZ2g6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVEyLnBuZzpvd0pWb1NNV0x1UW5UcUt4bEk4WXFQVUpCWk0/", 
           "img": "ITG-Q2.png"
         }, 
         "subparts": [
@@ -129,137 +253,13 @@
         {
           "hint": null, 
           "solution": {
-            "text": "At time t=0, the temperature of water is 29 degree celsius as represented by point A in the graph that lies on the y-axis", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "<div>A=(0,29), B=(1,42), C=(2,51), D=(3,70), E=(4,70), F=(8,100)</div><div>What was the initial temperature of water?</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "29"
-          }, 
-          "type": 3, 
-          "unit": "degrees celsius"
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Point A=(0,29), Point B=(1,42)</div><div>Rise in temperature in the first minute = 42-29</div><div>=13</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "By how many degrees did the temperature rise in the first minute?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "13"
-          }, 
-          "type": 3, 
-          "unit": "degrees celsius"
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Point C=(2,51), Point D=(4,70)</div><div>Rise in temperature in the third minute = 70-51</div><div>=19</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "By how many degrees did the temperature rise in the third minute?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "19"
-          }, 
-          "type": 3, 
-          "unit": "degrees celsius"
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>The line segment joining point D and E is a horizontal line and the co-ordinates of point D and E are (3,70) and (4,70) respectively.</div><div>This shows the temperature was constant in the fourth minute at 70 degrees celsius</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "Was the temperature constant for any duration? If yes, what was the constant temperature?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "70"
-          }, 
-          "type": 3, 
-          "unit": "degrees celsius"
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Point F=(8,100)</div><div>This shows the water attained its boiling point after 8 minutes </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 4, 
-          "content": {
-            "text": "After how many minutes did the water attain its boiling point?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "8"
-          }, 
-          "type": 3, 
-          "unit": "minutes"
-        }
-      ], 
-      "pk": 119, 
-      "container": {
-        "content": {
-          "text": "The given graph describes the temperatures of water at different times when it is set to boil from room temperature to its boiling point.  Study the graph and answer the following:", 
-          "img_url": "/secure-static/YWRpdGlfcGFuZGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVExLnBuZzowX2tsekh6bEREclVST2drRFoyaUdaUllmME0/", 
-          "img": "ITG-Q1.png"
-        }, 
-        "subparts": [
-          11, 
-          12, 
-          13, 
-          14, 
-          15
-        ], 
-        "hint": {
-          "text": "Point A and Point F signify room temperature and boiling point respectively.", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "<div>Observe carefully, the lines of the two graphs coincide at point E.</div><div> Therefore, the predicted score was same as the actual score in the 5th match.</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<div>A1=(1,344), A2=(1,263), B1=(2,256), B2=(2,322), C1=(3,177), C2=(3,128), D1=(4,392), D2=(4,301), E=(5,247), F1=(6,327), F2=(6,158), G1=(7,210), G2=(7,284)</div><div>In which match number was the predicted score the same as the actual score?</div>", 
+            "text": "<div>A1=(1,327), A2=(1,289), B1=(2,266), B2=(2,346), C1=(3,192), C2=(3,132), D1=(4,350), D2=(4,300), E=(5,243), F1=(6,333), F2=(6,199), G1=(7,219), G2=(7,289)</div><div>In which match number was the predicted score the same as the actual score?</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -273,7 +273,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>We know, the predicted and actual scores were the same in the 5th match. </div><div>Draw a perpendicular to the y-axis from point E. </div><div>This value reflects the score in that match which is 247 runs</div>", 
+            "text": "<div>We know, the predicted and actual scores were the same in the 5th match. </div><div>Draw a perpendicular to the y-axis from point E. </div><div>This value reflects the score in that match which is 243 runs</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -285,7 +285,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "247"
+            "value": "243"
           }, 
           "type": 3, 
           "unit": null
@@ -293,7 +293,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Notice that on the graph of predicted scores, point D1 is the highest. </div><div>Draw a perpendicular to the y-axis from point D1. </div><div>That value reflects the highest predicted score in the series which is 392 runs</div>", 
+            "text": "<div>Notice that on the graph of predicted scores, point D1 is the highest. </div><div>Draw a perpendicular to the y-axis from point D1. </div><div>That value reflects the highest predicted score in the series which is 350 runs</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -305,7 +305,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "392"
+            "value": "350"
           }, 
           "type": 3, 
           "unit": null
@@ -313,7 +313,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Notice that on the graph of actual scores, point C2 is the lowest. </div><div>Draw a perpendicular to the y-axis from point C2. </div><div>That value reflects the highest predicted score in the series which is 128 runs</div>", 
+            "text": "<div>Notice that on the graph of actual scores, point C2 is the lowest. </div><div>Draw a perpendicular to the y-axis from point C2. </div><div>That value reflects the highest predicted score in the series which is 132 runs</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -325,7 +325,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "128"
+            "value": "132"
           }, 
           "type": 3, 
           "unit": null
@@ -353,7 +353,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,327), Point F2=(6,158)</div><div>Difference in scores=327-158</div><div>169</div>", 
+            "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,333), Point F2=(6,199)</div><div>Difference in scores=333-199</div><div>134</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -365,7 +365,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "169"
+            "value": "134"
           }, 
           "type": 3, 
           "unit": "runs"
@@ -375,7 +375,7 @@
       "container": {
         "content": {
           "text": "The following graph shows the predicted score and the actual score for team India for each match of a 7-match ODI series. Study the graph and answer the following questions : ", 
-          "img_url": "/secure-static/YWRpdGlfcGFuZGE6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVEzLnBuZzpPYTZkTkE3SnRINWpPdnlGekd6RFJHTDZPUTA/", 
+          "img_url": "/secure-static/YW5raXRfc2luZ2g6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvNi9pbWcvSVRHLVEzLnBuZzpoS00teWpyWkROVXFpZ0R6aGVIOXFIWW10Mk0/", 
           "img": "ITG-Q3.png"
         }, 
         "subparts": [
@@ -398,7 +398,29 @@
     [
       {
         "correct": null, 
-        "value": "7.3"
+        "value": "32"
+      }, 
+      {
+        "correct": null, 
+        "value": "9"
+      }, 
+      {
+        "correct": null, 
+        "value": "19"
+      }, 
+      {
+        "correct": null, 
+        "value": "70"
+      }, 
+      {
+        "correct": null, 
+        "value": "6"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "73"
       }, 
       {
         "correct": null, 
@@ -406,11 +428,11 @@
       }, 
       {
         "correct": null, 
-        "value": "38"
+        "value": "36"
       }, 
       {
         "correct": null, 
-        "value": "11"
+        "value": "14"
       }, 
       {
         "correct": null, 
@@ -420,49 +442,27 @@
     [
       {
         "correct": null, 
-        "value": "29"
+        "value": "243"
       }, 
       {
         "correct": null, 
-        "value": "13"
+        "value": "243"
       }, 
       {
         "correct": null, 
-        "value": "61"
+        "value": "350"
       }, 
       {
         "correct": null, 
-        "value": "70"
+        "value": "192"
       }, 
       {
         "correct": null, 
-        "value": "8"
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "value": "5"
+        "value": "234"
       }, 
       {
         "correct": null, 
-        "value": "247"
-      }, 
-      {
-        "correct": null, 
-        "value": "392"
-      }, 
-      {
-        "correct": null, 
-        "value": "128"
-      }, 
-      {
-        "correct": null, 
-        "value": "6"
-      }, 
-      {
-        "correct": null, 
-        "value": "169"
+        "value": "234"
       }
     ]
   ]

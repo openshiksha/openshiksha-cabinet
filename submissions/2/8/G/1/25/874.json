@@ -1,0 +1,658 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of cylinder \\(= \\pi r^2 \\times h = \\pi \\times 12^2 \\times 65 = 29417.14 cm^3\\)</div><div>Volume of new cuboid = \\(lbh\\) = Volume of cylinder</div><div>Therefore, \\(lbh = 29417.14 cm^3\\)</div><div>\\(\\Rightarrow 26 \\times 16 \\times h = 29417.14 cm^3\\)</div><div>\\(\\Rightarrow h = \\frac {29417.14}{26 \\times 16} = 70.71\\)</div><div>The new cuboid is 70.71 cm tall</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A metal cylinder of height 65 cm and radius 12 cm is melted and reshaped into a cuboid of length 26 cm and breadth 16 cm. No metal was wasted during this process. How tall is the new cuboid?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "70.71"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 35, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          55
+        ], 
+        "hint": {
+          "text": "If no metal is wasted, both objects will have the same volume.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>If the height is doubled :</div><div>V \\(= \\pi r^2\\times h\\)</div><div>\\({V_ {new}} = \\pi r^2 \\times(2h) = 2\\pi r^2 \\times h = 2V\\)</div><div>Therefore, the volume will double</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If the height is doubled:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Volume will half \\((\\frac 12 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quadruple (4V)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quarter \\((\\frac 14 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "Volume will double (2V)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>If the radius is doubled :</div><div>V \\(= \\pi r^2h\\)</div><div>\\({V_ {new}} = \\pi (2r)^2h = 4\\pi r^2h = 4V\\)</div><div>Therefore, the volume will quadruple</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "If the radius is doubled:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Volume will half \\((\\frac 12 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will double (2V)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quarter \\((\\frac 14 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "Volume will quadruple (4V)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>If the radius is halved :</div><div>V \\(= \\pi r^2h\\)</div><div>\\(V_ {new} = \\pi (\\frac r2)^2h = \\frac V4\\)</div><div>Therefore, the volume will quarter</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "If the radius is halved:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Volume will half \\((\\frac 12 V)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will double (2V)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Volume will quadruple (4V)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "Volume will quarter \\((\\frac 14 V)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 37, 
+      "container": {
+        "content": {
+          "text": "A cylinder has a radius r, a height h and a volume V", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          57, 
+          58, 
+          59
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of the large cube \\(= 36^3 cm^3\\)</div><div>Volume of the small cube \\(= 18^3 cm^3\\).</div><div>Therefore, number of cubes that can be cut \\(= \\frac {36^3}{18^3} = 8\\) cubes</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A cube has an edge measuring 36 cm. Find the number of cubes of edge 18 cm that can be cut off from it.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 33, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          46
+        ], 
+        "hint": {
+          "text": "Find the volume of the large cube and compare it to the volume of the smaller cube", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The volume of the cylindrical pool \\(= \\pi \\times (\\frac d2)^2 \\times (h) m^3 = \\pi \\times (\\frac{16}2)^2 \\times (4) m^3\\)</div><div>\\(= 804571.43\\) L</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Your school is building a cylindrical swimming pool with a diameter of 16 metres and a depth of 4 metres. How much water (in litres) will they require to completely fill the pool?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "804571.43"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 30, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          40
+        ], 
+        "hint": {
+          "text": "Volume of a cylindrical container = \\(\\pi \\times r^2 \\times h\\) and \\(1m^3 = 1000L\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume = Area of base \\(\\times\\) height \\(= 39 cm^2 \\times 14 cm = 546 cm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The area of the base of a cylinder is \\(39 cm^2\\). Its height is 14 cm. What is the volume?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "546"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 34, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          47
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of Iqbal&#39;s Tank = \\(286 cm \\times 248 cm \\times 252 cm\\)</div><div>\\(= 17873.856 L\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Iqbal&#39;s Tank is : \\(286 cm \\times 248 cm \\times 252 cm\\). Its Volume is:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "17873.856"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of Rahul&#39;s Tank = \\(378 cm \\times 349 cm \\times 279 cm\\)</div><div>\\(= 36806.238 L\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Rahul&#39;s Tank is :\\(378 cm \\times 349 cm \\times 279 cm\\). Its Volume is:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "36806.238"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 29, 
+      "container": {
+        "content": {
+          "text": "Iqbal and Rahul have cuboidal water tanks at home and are trying to calculate how much rainwater they can harvest. They provide you with measurements and ask you to calculate the volumes for both tanks in litres.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          37, 
+          38
+        ], 
+        "hint": {
+          "text": "<div>Remember that the volume of a cuboidal tank = \\(length \\times breadth \\times height\\)</div><div>Also remember that 1L = \\(1000 cm^3\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of the water tank \\(= side^3 = 15^3 m^3 = 3375 m^3 = 3375 \\times 1000 L = 3375000 L\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "How many litres of water can a cubical tank of side 15 m hold?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "3375000"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 32, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          45
+        ], 
+        "hint": {
+          "text": "Volume of a cube = \\(side^3\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of a cube = \\(length^3 = 1728 cm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "In the cube below, a=12 cm, find its volume", 
+            "img_url": "/secure-static/bnVwdXJfa3Vsa2Fybmk6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMS5wbmc6c0I0Z2RRaXg1SGg5VmRhdUJlT2xTck51S1dr/", 
+            "img": "11.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "1728"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of a cuboid \\(=abc = 18 \\times 9 \\times 6 = 972\\, dm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "In the cuboid below, a=18 dm, b=9 dm, c=6 dm, find its volume", 
+            "img_url": "/secure-static/bnVwdXJfa3Vsa2Fybmk6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMi5wbmc6U1VYcDhJOGx6N05uZnViWkk2Qm5SR04wN29Z/", 
+            "img": "12.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "972"
+          }, 
+          "type": 3, 
+          "unit": "\\(dm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Volume of a cylinder = \\(\\pi \\times r^2 \\times h = 15246 cm^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "In the cylinder below, diameter=42 cm, h=11 cm, find its volume", 
+            "img_url": "/secure-static/bnVwdXJfa3Vsa2Fybmk6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMy5wbmc6Mk1TaHA3VXF3Nk91SlNETGktbGlob2ViY3J3/", 
+            "img": "13.png"
+          }, 
+          "answer": {
+            "tolerance": 0.5, 
+            "value": "15246"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume = Difference in volumes between outer and inner cylinder</div><div>\\(=\\pi \\times {r_ o}^2 \\times h - \\pi \\times {r_ i}^2 \\times h\\)</div><div>\\(=14872 - 10648\\)</div><div>\\(=4224 cm^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "In the figure below Inner Radius =11 cm, Outer Radius = 13 cm, Height = 28 cm, find its volume", 
+            "img_url": "/secure-static/bnVwdXJfa3Vsa2Fybmk6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xNC5wbmc6WDIyOWVSVjc4OTk1RzhKcXZVbVQ4cm9zbHFr/", 
+            "img": "14.png"
+          }, 
+          "answer": {
+            "tolerance": 0.5, 
+            "value": "4224"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 28, 
+      "container": {
+        "content": {
+          "text": "Find the volume of the objects below:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          21, 
+          25, 
+          29, 
+          33
+        ], 
+        "hint": {
+          "text": "<div>Remember the following formulas:</div><div>Volume of a Cube: \\(side^3\\)</div><div>Volume of a Cuboid: \\(length \\times breadth \\times height\\)</div><div>Volume of a cylinder:\\( \\pi r^2h\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>1 dm = 10cm</div><div>Area of Base \\(= \\pi r^2 = \\pi (7)^2 = 154 dm^2 = 15400 cm^2\\)</div><div>Rise of water level = h = 14 cm</div><div>Therefore, volume of rain water harvested \\(= 15400 \\times 14 = 215600 cm^3\\)</div><div>1 L \\(= 1000cm^3\\)</div><div>\\(\\Rightarrow\\)Volume of rain water harvested \\(= 215.6 L\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "You have set up a rain-water harvesting system at your home. A cylindrical container with a radius of 7 dm collects rain-water from your roof. It rained last Monday and some water was collected, raising the height of water in the container by 14 cm. What volume of rain water was collected?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "215.6"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 36, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          56
+        ], 
+        "hint": {
+          "text": "Volume of a cylinder = \\(\\pi \\times r^2h\\). Also note that 1dm = 10cm", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of the brick wall \\(= 19 m \\times 4 m \\times 0.5 m = 38 m^3\\)</div><div>Volume of one brick \\(= 20 cm \\times 10 cm \\times 5 cm = 1000 cm^3\\)</div><div>\\(1 m^3 = 1000000 cm^3\\)</div><div>Therefore, number of bricks required \\(= 38 \\times \\frac{1000000}{1000}\\)</div><div>\\(= 38000\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Anjali is building a brick wall which is 19 m long, 4m tall and 50cm wide. Each brick is 20cm long, 10 cm wide and 5 cm tall. How many bricks will Anjali need to buy?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "38000"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 31, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          44
+        ], 
+        "hint": {
+          "text": "Start by calculating the volume of the entire brick wall", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": null, 
+        "value": "70.71"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": 3
+      }, 
+      {
+        "correct": null, 
+        "choice": 0
+      }, 
+      {
+        "correct": null, 
+        "choice": 2
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "8"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "5632000/7"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "546"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "17873.856"
+      }, 
+      {
+        "correct": null, 
+        "value": "36806.238"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "3375"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "1728"
+      }, 
+      {
+        "correct": null, 
+        "value": "972"
+      }, 
+      {
+        "correct": null, 
+        "value": "15246"
+      }, 
+      {
+        "correct": null, 
+        "value": "4224"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "5.39"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "380"
+      }
+    ]
+  ]
+}
