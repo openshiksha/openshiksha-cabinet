@@ -1,0 +1,403 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Given the area \\(= \\frac 12 \\times Width \\times\\) (Sum of parallel sides)</div><div>\\(= \\frac 12 \\times 28 \\times (17 +\\) River Side Length\\()\\)</div><div>Therefore River Side Length = \\(\\frac{1078}{14} - 17\\)</div><div>\\(= 60 m\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Hussain bought a plot of agricultural land which is in the shape of a trapezium (see below). The area of the land is \\(1078 m^2\\), the side parallel to the road is 17 metres and the width of the field is 28 metres. How long is the side parallel to the river?", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xNi5wbmc6Q0Eyc2RzUE9nYklRbmlXLUw2SEl1X205dlI0/", 
+            "img": "16.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "60"
+          }, 
+          "type": 3, 
+          "unit": "metres"
+        }
+      ], 
+      "pk": 20, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          43
+        ], 
+        "hint": {
+          "text": "The area of a trapezium is \\(\\frac 12 \\times Height \\times\\) (Sum of parallel sides)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Area of a square = \\(side^2 = 9 cm^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "In the square below, a=3 cm", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xLnBuZzo5dHJLX0FSRE1WR1N2elBUZFN6RE41bXJqY0k/", 
+            "img": "1.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "9"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "Area of a rectangle = length \\(\\times\\) breadth \\(= 8 cm^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "In the rectangle below, \\(a=4 cm\\), \\(b=2 cm\\)", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8yLnBuZzpRNEtNZXVubUl6S0VIZF9qMUswWjEtWFlaZFE/", 
+            "img": "2.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of a circle = \\(\\pi \\times radius^2\\)</div><div>=\\(1134.57 m^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "In the circle below, \\(r=19 m\\)", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8zLnBuZzpvYmJsZFRJRXh5eXVYLXg5Q1AzYXoySWR3akE/", 
+            "img": "3.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "1134.57"
+          }, 
+          "type": 3, 
+          "unit": "\\(m^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of a triangle \\(= \\frac 12 \\times base\\times height\\)</div><div>\\(= 8.25 mm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "In the triangle below, \\(a=3 mm\\), \\(h = 5.5 mm\\)", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy80LnBuZzpyRjlvSzRuZGFvTXpVZkVNZEdvSWFpeVFxMms/", 
+            "img": "4.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8.25"
+          }, 
+          "type": 3, 
+          "unit": "\\(mm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of the polygon = Area of square (1) + Area of triangle (2) + Area of square (3)</div><div>\\(= (a \\times b) + (\\frac 12 \\times e \\times d) + (b-d) \\times e\\)</div><div>\\(= 9 + 1.125 + 2.25\\)</div><div>= \\(12.375 cm^2\\)</div>", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy81X3NvbC5wbmc6RTZ5RDBESzdGYWhXdXJpWXdGc3BTZHJNYUFR/", 
+            "img": "5_sol.png"
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "In the polygon below, \\(a=3 cm\\), \\(b=3 cm\\), \\(c=4.5 cm\\), \\(d=1.5 cm\\), \\(e=1.5 cm\\)", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy81LnBuZzpNOVBFS3RZcjNIQ0NNYm9jODl6UkdKX01ObzA/", 
+            "img": "5.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "12.375"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of the polygon = Area Of Trapezium (1) + Area of Rectangle (2)</div><div>\\(= (\\frac 12 \\times (a+b) \\times c) + (b \\times (h-c))\\)</div><div>\\(= (\\frac 12 \\times 57 \\times 14) + (42 \\times 14)\\)</div><div>=\\(987 dm^2\\)</div>", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy82X3NvbC5wbmc6SW9rWlFWVFJzdy1abXF2Wl84a3BJQnQxd1I4/", 
+            "img": "6_sol.png"
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "In the polygon below, a=15 dm, b=42 dm, c= 14 dm, h= 28 dm", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy82LnBuZzpXcVhibGV6REtuVm5ZQVVSamZ4ZUI5Ny04a1U/", 
+            "img": "6.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "987"
+          }, 
+          "type": 3, 
+          "unit": "\\(dm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of a parallelogram = \\(Base \\times Height\\)</div><div>\\(= 32 \\times 16 cm^2\\)</div><div>\\(= 512 cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "In the parallelogram below, a=32 cm, h=16 cm", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy83LnBuZzp2ZGZPcXNWb3A4MXZHZ213aHJ3QWRDWU1mZ1E/", 
+            "img": "7.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "512"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Quadrilateral = Area of Triangle (1) + Area of Triangle (2)</div><div>\\(= \\frac 12 \\times h_ 1 \\times d + \\frac 12 \\times h_ 2 \\times d\\)</div><div>\\(= (\\frac 12 \\times 9 \\times 36) + (\\frac 12 \\times 18 \\times 36)\\)</div><div>=\\(486 cm^2\\)</div>", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy84X3NvbC5wbmc6TEVFTkxWNlJhTUlJbXBJQURJRHRsYzk0VHlR/", 
+            "img": "8_sol.png"
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "In the quadrilateral below, \\(h1=9 cm\\), \\(h2=18 cm\\), \\(d=36 cm\\)", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy84LnBuZzo3Z1pvUXNkRlVDaU55aUpSNXliMnppRjhVWTA/", 
+            "img": "8.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "486"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Polygon = Area of Triangle (1) + Area of Trapezium (2) + Area of Triangle (3) + Area of Triangle (4) + Area of Triangle (5)</div><div>\\(= (\\frac 12 \\times a \\times b) + (\\frac 12 (b + e)(c + d)) + (\\frac 12 \\times e \\times f) + (\\frac 12 \\times g \\times (d+f)) + (\\frac 12 \\times (a+c) \\times g)\\)</div><div>\\(= (\\frac 12 \\times 10 \\times 11) + (\\frac 12 \\times 23.5 \\times 16) + (\\frac 12 \\times 12.5 \\times 7.5) + (\\frac 12 \\times 10 \\times 12.5) + (\\frac 12 \\times 21 \\times 10)\\)</div><div>\\(= 55 + 188 + 46.875 + 62.5 + 105 \\)</div><div>\\(=457.375 cm^2\\)</div>", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy85X3NvbC5wbmc6b2tQYUJFYkx0dUtJMzhEdHRnWTN2TWQ2N0Vv/", 
+            "img": "9_sol.png"
+          }, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "In the polygon below, a=10 cm, b=11 cm, c=11 cm, d=5 cm, e=12.5 cm, f=7.5 cm, g=10 cm", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy85LnBuZzoxekM5MzByWkVya3pBdGhNZVc2ODBfQmFRdHc/", 
+            "img": "9.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "457.375"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Polygon = Area of Trapezium (1) + Area of Trapezium (2)</div><div>= Area of Trapezium \\(\\times 2\\)</div><div>\\(= \\frac 12 (a+c)(h) \\times 2\\)</div><div>\\(= \\frac 12 (30 + 40)(20) \\times 2\\)</div><div>\\(= 1400 mm^2\\)</div>", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMF9zb2wucG5nOkRHM0tFdWZXRlJGQVVwdG9EYVQ2WHBMOHRsWQ/", 
+            "img": "10_sol.png"
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "In the polygon below, a=30 mm, h=20 mm, c=40 mm", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xMC5wbmc6MXNEZVl4UHdOMkVFVnMxb1hLU3dZVktfV29r/", 
+            "img": "10.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "1400"
+          }, 
+          "type": 3, 
+          "unit": "\\(mm^2\\)"
+        }
+      ], 
+      "pk": 17, 
+      "container": {
+        "content": {
+          "text": "Find the area of the shapes below:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          1, 
+          3, 
+          5, 
+          7, 
+          9, 
+          11, 
+          13, 
+          15, 
+          17, 
+          19
+        ], 
+        "hint": {
+          "text": "<div>Observe the shapes carefully and see if you can break them down into smaller shapes to make calculating the areas easier. Remember the following formulas:</div><div>Area of Rectangle: \\(length \\times breadth\\)</div><div>Area of Square: \\(length^2\\)</div><div>Area of a Triangle: \\(\\frac 12 \\times base \\times height\\)</div><div>Area of Parallelogram: \\(base \\times height\\)</div><div>Area of Trapezium: \\(\\frac 12 \\times (a+b) \\times h\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of school floor \\(= 4488 m^2\\)</div><div>Area of each tile = \\(Base \\times height = 17 \\times 8 = 136 cm^2\\)</div><div>Since the tiles can be perfectly broken into smaller parts, the number of tiles required is the area of the floor divided by the area of each tile. Also, remember that \\(1m^2 = 10000 cm^2\\)</div><div>Therefore, Number of tiles \\(= \\frac{4488 \\times 10000}{136} = 330000\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The area of your school library floor is \\(4488 m^2\\). You are asked to use tiles in the shape of a parallelogram with a base of 17 cm and a height of 8 cm to cover the floor. How many such tiles will you need to purchase? You can break the tiles in any way to cover the entire floor.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "330000"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 19, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          42
+        ], 
+        "hint": {
+          "text": "Start by finding the area of each tile.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Area of Garden = Area of Plot - Area of the House</div><div>\\(= ab - cd\\)</div><div>\\(= (4838 - 51(15)) m^2\\)</div><div>\\(=4073 m^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Kshitij is looking to landscape his garden. He made a diagram of his house (grey colour) but forgot to mention the exact dimensions of the garden area. You are the engineer in charge of the project. Can you use the information given below to calculate the area of the garden? a = 118 m, b = 41 m, c = 51 m, d = 15 m", 
+            "img_url": "/secure-static/amhhbGFrX3NhcmFvZ2k6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS8yL2ltZy8xNS5wbmc6aTVOOTF5dmdOTURGdjd5X3h1Uk1NUFVlZE1r/", 
+            "img": "15.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "4073"
+          }, 
+          "type": 3, 
+          "unit": "\\(m^2\\)"
+        }
+      ], 
+      "pk": 18, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          41
+        ], 
+        "hint": {
+          "text": "Try subtracting areas to find the right answer", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": null, 
+        "value": "60"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "9"
+      }, 
+      {
+        "correct": null, 
+        "value": "8"
+      }, 
+      {
+        "correct": null, 
+        "value": "1135"
+      }, 
+      {
+        "correct": null, 
+        "value": "8.25"
+      }, 
+      {
+        "correct": null, 
+        "value": "22.5"
+      }, 
+      {
+        "correct": null, 
+        "value": "987"
+      }, 
+      {
+        "correct": null, 
+        "value": "512"
+      }, 
+      {
+        "correct": null, 
+        "value": "486"
+      }, 
+      {
+        "correct": null, 
+        "value": "765.25"
+      }, 
+      {
+        "correct": null, 
+        "value": "1400"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "330000"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "4073"
+      }
+    ]
+  ]
+}

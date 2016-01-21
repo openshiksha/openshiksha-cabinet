@@ -1,0 +1,1985 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(x + \\frac 1x = 20\\)</div><div>\\(\\Rightarrow (x+ (\\frac 1x))^2 = 400\\)</div><div>\\(\\Rightarrow x^2 + \\frac 1{x^2} + 2(x)\\left(\\frac 1x\\right) = 400\\)</div><div>\\(\\Rightarrow x^2 + \\frac 1{x^2} = 400 - 2\\)</div><div>\\(\\Rightarrow x^2 + \\frac 1{x^2} = 398\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If \\(x + \\frac 1x = 20\\), find the value of \\(x^2 + \\frac 1{x^2}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "398"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(x^2 + \\frac 1{x^2} = (20^2 - 2)\\)</div><div>\\(\\Rightarrow (x^2 + (\\frac 1{x^2}))^2 = 158404\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} + 2(x^2)(\\frac 1{x^2}) = 158404\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = 158404-2\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = 158402\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Now find the value of \\(x^4 + \\frac1{x^4}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "158402"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 12, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          61, 
+          62
+        ], 
+        "hint": {
+          "text": "Try using an identity and then rearrange the terms", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(x-y = 12\\)</div><div>\\(\\Rightarrow (x-y)^2 = 144\\)</div><div>\\(\\Rightarrow x^2 + y^2 - 2xy = (144)\\)</div><div>\\(\\Rightarrow x^2 + y^2 = (144) + 2xy\\)</div><div>Since \\(xy = 7\\)</div><div>\\(\\Rightarrow x^2 + y^2 = (144)+(14)\\)</div><div>\\(\\Rightarrow x^2 + y^2 = 158\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If \\(x-y=12\\) and \\(xy=7\\), find the value of \\(x^2 + y^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "158"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 14, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          65
+        ], 
+        "hint": {
+          "text": "Try using an identity and then rearrange the terms", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(Dividend = Divisor \\times Quotient + Remainder\\)</div><div>Therefore,</div><div>Dividend = \\((x+19)(x-19) + 1\\)</div><div>\\(\\Rightarrow\\) Dividend = \\(x^2 - 19^2 + 1\\) (Using identity \\((a+b)(a-b) = a^2 - b^2\\))</div><div>\\(\\Rightarrow\\) Dividend = \\(x^2 - 360\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If divisor \\(= x + 19\\), quotient \\(= x - 19\\), remainder \\(= 1\\), find the dividend.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(x^2 - 360\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(x - 18\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(x^2 + 362\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              3, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(x^2 - 360\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 16, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          73
+        ], 
+        "hint": {
+          "text": "<div>Try using an identity to solve the equation. Remember that:</div><div>\\(Dividend = Divisor \\times Quotient + Remainder\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(\\frac{4x^3 + 20x^2 + 12x + 4c}{x+3}\\)</div><div>Using the long division method gives us:</div><div>Quotient = \\(4x^2 + 8x - 12\\) and Remainder \\(= 4c+36\\)</div><div>Since we know that the divisor is a factor of the dividend, the remainder must be 0. Therefore \\(c = -9\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(\\frac{4x^3 + 20x^2 + 12x + 4c}{x+3}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(36\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(-20\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(-9\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(\\frac{12x^3 - 32x^2 - 72x + 4c}{x +1}\\)</div><div>Using the long division method gives us:</div><div>Quotient = \\(12x^2 - 44x - 28\\) and Remainder = \\(4c+28\\)</div><div>Since we know that the divisor is a factor of the dividend, the remainder must be 0. Therefore \\(c = -7\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(\\frac{12x^3 - 32x^2 - 72x + 4c}{x+1}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(7\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(24\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(-14\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(-7\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 15, 
+      "container": {
+        "content": {
+          "text": "Find the value of the constant c, if the divisor is a factor of the dividend.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          71, 
+          72
+        ], 
+        "hint": {
+          "text": "<div>Use the long division method to find the remainder and then equate that remainder to zero to find the value of c. For example:</div><div>\\(\\frac{x^3 - 2x^2 + 3x + c}{x+1}\\)</div><div>has a quotient of \\(x^2 - 3x + 6\\) and a remainder of \\(c-6\\) (See image below). Equating the remainder to zero gives us a value of c = 6.</div>", 
+          "img_url": "/secure-static/Y2hhYWhhdF9hZHZhbmk6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMS9pbWcvMS5wbmc6TG5yQnhRbHNQRDFldUpsMUpTZnNXMlI1SlFR/", 
+          "img": "1.png"
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((11x+2y)(11x-9y)(6x-3)\\)</div><div>\\(= (11x(11x-9y) + 2y (11x-9y))(6x-3)\\)</div><div>\\(= (121x^2 - 99xy + 22xy - 18y^2)(6x-3)\\)</div><div>\\(= 121x^2(6x-3) - 99xy(6x-3) + 22xy(6x-3) - 18y^2(6x-3)\\)</div><div>\\(= 726x^3 - 363x^2 - 594x^2y + 297 + 132x^2y - 66xy - 108xy^2 + 54y^2\\)</div><div>\\(= 726x^3 - 363x^2 + (-462)x^2y + 231xy - 108xy^2 + 54y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>\\((11x+2y)(11x-9y)(6x-3)\\)</div><div>Answer will be:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(726x^3 + 363x^2 + (-462)x^2y + 231xy - 108xy^2 + 54y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(726x^3 - 363x^2 + 726x^2y + 231xy - 108xy^2 + 54y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(726x^3 - 363x^2 + (-462)x^2y + 363xy - 108xy^2 + 54y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(726x^3 - 363x^2 + (-462)x^2y + 231xy - 108xy^2 + 54y^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((3x^2+14y)(m - \\frac{9y}x)\\)</div><div>\\(= 3x^2 (m - \\frac{9y}x) + 14y(m - \\frac{9y}x)\\)</div><div>\\(= 48x^2 - 27xy + 224y - \\frac{126y^2}x\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>\\((3x^2+14y)(16-\\frac{9y}x)\\)</div><div>Answer will be:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(48x^2 + 27xy + 224y - \\frac{126y^2}x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(48x^2 - 27xy - 224y - \\frac{126y^2}x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(48x^2 - 27xy + 224y - \\frac{252y^2}x\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(48x^2 - 27xy + 224y - \\frac{126y^2}x\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((x - \\frac1x) (x + 1\\frac1x) (x^2 + \\frac{1}{x^2}) (x^4 + \\frac{1}{x^4})\\)</div><div>Using identity \\((a-b)(a+b) = a^2 - b^2\\)</div><div>Where \\(a = x\\) and \\(b = \\frac 1{x}\\)</div><div>\\(= (x^2 - \\frac 1{x^2}) (x^2 + \\frac 1{x^2}) (x^4 + \\frac 1{x^4})\\)</div><div>Once again, using identity \\((a-b)(a+b) = a^2 - b^2\\)</div><div>Where \\(a = x^2\\) and \\(b = \\frac 1{x^2}\\)</div><div>\\(= (x^4 - \\frac 1{x^4}) (x^4 + \\frac 1{x^4})\\)</div><div>Once again, using identity \\((a-b)(a+b) = a^2 - b^2\\)</div><div>Where \\(a = x^4\\) and \\(b = \\frac 1{x^4}\\)</div><div>\\(= (x^8 - \\frac 1{x^8})\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "<div>\\((x-\\frac 1{x})(x + \\frac 1{x})(x^2 + \\frac 1{x^2})(x^4 + \\frac 1{x^4})\\)</div><div>Answer will be:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x^8 + \\frac 1{x^8})\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x^{16} - \\frac 1{x^{16}})\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x^4 - \\frac 1{x^4})\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((x^8 - \\frac 1{x^8})\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(\\frac {4x^4 - 8x^3 + 3x^2 - 6x + 1}{x^{2}}\\)</div><div>\\(= 4x^{2} - 8x^{1} +3x^{0} - 6x^{(-1)} + x^{(-2)}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "<div>\\(\\frac {4x^4 - 8x^3 + 3x^2 - 6x + 1}{x^{2}}\\)</div><div>Answer will be:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(4x^{1} - 8x^{1} +3x^{0} - 6x^{(-1)} + x^{(-2)}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(4x^{2} - 8x^{1} +3x^{0} - 6x^{(-2)} + x^{(-2)}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(4x^{3} - 8x^{2} - 6x^{0} + x^{(-1)}\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(4x^{2} - 8x^{1} +3x^{0} - 6x^{(-1)} + x^{(-2)}\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 9, 
+      "container": {
+        "content": {
+          "text": "Simplify the following expressions:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          46, 
+          47, 
+          48, 
+          49
+        ], 
+        "hint": {
+          "text": "Consider the expressions you're trying to multiply. Break one expression into its separate terms and multiply each term with the second expression. Then add or subtract the terms to simplify. Some expressions can be simplified using identities.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((12t^2 + 17) (12t^2 + 19)\\)</div><div>Using the identity: \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)</div><div>Where \\(x = 12t^2\\), \\(a = 17\\), \\(b = 19\\)</div><div>= \\(144t^4 + 432t^2 + 323\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\((12t^2 + 17) (12t^2 + 19)\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(144t^4 + 432t^2 + 323\\) using identity \\((a+b)(a-b) = (a^2 - b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(144t^4 + 323t^2 + 36\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(12t^2 + 432t + 323\\) using identity \\((a+b)(a-b) = (a^2 - b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(144t^4 + 432t^2 + 323\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((20y - 2) (20y + 2)\\)</div><div>Using the identity: \\((a+b)(a-b) = a^2 - b^2\\)</div><div>Where \\(a = 20y\\), \\(b = 2\\)</div><div>\\(= 400y^2 - 4\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\((20y - 2) (20y + 2)\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(400y^2 + 4\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(20y^2 - 4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(400y^2 - 80y + 4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(400y^2 - 4\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((3ab + 8bx)^2\\)</div><div>Using the identity: \\((p+q)^2 = (p^2 + q^2 + 2pq)\\)</div><div>Where \\(p = 3ab\\), \\(q = 8bx\\)</div><div>\\(= 9a^2b^2 + 48ab^2x + 64b^2x^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\((3ab + 8bx)^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(9a^2b^2 - 48ab^2x + 64b^2x^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9a^2b^2 + 64b^2x^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9a^2b^2 + 24ab^2x + 64b^2x^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(9a^2b^2 + 48ab^2x + 64b^2x^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((8pq + 19q^2)(8pq + 19q^2)\\)</div><div>Using the identity: \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)</div><div>Where \\(a = 8pq\\), \\(b = 19q^2\\)</div><div>\\(= 64p^2q^2 + 304pq^3 + 361q^4\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\((8pq + 19q^2)(8pq + 19q^2)\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(64pq - 304pq^3 + 361q^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(64q^2q^2 + 361p^4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(64pq + 304pq^3 + 361q^2\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(64p^2q^2 + 304pq^3 + 361q^4\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((17x + 17y)^2\\)</div><div>Using the identity: \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)</div><div>Where \\(a = 17x\\), \\(b = 17y\\)</div><div>\\(= 289x^2 + 578xy + 289y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\((17x + 17y)^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(289x^2 + 578xy + 17y^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(289x^2 + 17y^2\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(289x^2 + 289xy + 289y^2\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(289x^2 + 578xy + 289y^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((10x - 3y)^2\\)</div><div>Using the identity: \\((a-b)^2 = (a^2 - 2ab + b^2)\\)</div><div>Where \\(a = 10x, b = 3y\\)</div><div>\\(= 100x^2 - 60xy + 9y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "\\((10x - 3y)^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(100x^2 - 9y^2 + 60xy\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(100x^2 - 30xy + 9y^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(100x^2 - 90xy + 6y^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(100x^2 - 60xy + 9y^2\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((5x - 12y^2) (5x + 12y^2)\\)</div><div>Using the identity: \\((a+b)(a-b) = a^2 - b^2\\)</div><div>Where \\(a = 5x\\), \\(b = 12y^2\\)</div><div>\\(= 25x^2 - 144y^4\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "\\((5x - 12y^2) (5x + 12y^2)\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(25x^2 - 144y^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(25x^2 - 7200xy^2 - 144y^4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(25x^2 - 169y^4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(25x^2 - 144y^4\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 7, 
+      "container": {
+        "content": {
+          "text": "Multiply the following  identities", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          16, 
+          18, 
+          20, 
+          22, 
+          24, 
+          26, 
+          45
+        ], 
+        "hint": {
+          "text": "<div>Try and identify the general structure of the expression. And identify how you can fit it into an identity.</div><div>For example \\((3x^3y + 7xy^2)^2\\) may seem complicated, but it can be broken down if you use the identity \\((a+b)^2 = a^2 + b^2 + 2ab\\) where \\(a = 3x^3y\\) and \\(b = 7xy^2\\).</div><div>Therefore,\\((3x^3y + 7xy^2)^2\\)</div><div>\\(= (3x^3y)^2 + (7xy^2)^2 + 2(3x^3y)( 7xy^2)\\)</div><div>\\(= 9x^6y^2 + 49x^2y^4 + 42x^4y^3\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>\\(41^2\\)</div><div>Choose the identity you would apply</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((40+1)^2\\)</div><div>Using identity \\((a+b)^2 = a^2 + b^2 + 2ab\\)</div><div>Where \\(a = 40\\) and \\(b=1\\)</div><div>\\(= 40^2 + 1^2 + 2(40)(1)\\)</div><div>\\(= 1600 + 1 + 80\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>\\(41^2\\)</div><div>The answer is:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "1681"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "<div>\\(47^2\\)</div><div>Choose the identity you would apply</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((50-3)^2\\)</div><div>Using identity \\((a-b)^2 = a^2 - 2ab + b^2\\)</div><div>Where \\(a = 50\\) and \\(b=3\\)</div><div>\\(= 50^2 + 3^2 - 2(50)(3)\\)</div><div>\\(= 2500 + 9 - 300\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "<div>\\(47^2\\)</div><div>The answer is:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2209"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "<div>\\(89.8^2\\)</div><div>Choose the identity you would apply</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((90-0.2)^2\\)</div><div>Using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)</div><div>Where \\(a = 90\\) and \\(b=0.2\\)</div><div>\\(= 90^2 + (0.2)^2 - 2(90)(0.2)\\)</div><div>\\(= (8100 + 0.04 - 36)\\)</div><div>\\(= 8064.04\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "<div>\\(89.8^2\\)</div><div>The answer is:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8064.04"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "<div>\\((303)(310)\\)</div><div>Choose the identity you would apply</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((a+b)(a-b) = a^2 - b^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((300 + 3)(300 + 10)\\)</div><div>Using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)</div><div>Where \\(x=300\\), \\(a=3\\) and \\(b=10\\)</div><div>\\(= 300^2 + (13)300 + 30\\)</div><div>\\(=93930\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "<div>\\((303)(310)\\)</div><div>The answer is:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "93930"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": null, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "<div>\\((0.8)(1.2)\\)</div><div>Choose the identity you would apply</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((a-b)^2 = (a^2 - 2ab + b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((a+b)^2 = (a^2 + b^2 + 2ab)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+a)(x+b) = x^2 + (a+b)x + ab\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((a+b)(a-b) = a^2 - b^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((1-0.2)(1 + 0.2)\\)</div><div>Using identity \\((a+b)(a-b) = a^2 - b^2\\)</div><div>Where \\(a =1\\) and \\(b=0.2\\)</div><div>\\(= 1^2 - 0.04\\)</div><div>\\(= 1 - 0.04\\)</div><div>\\(= 0.96\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "<div>\\((0.8)(1.2)\\)</div><div>The answer is:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "0.96"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 11, 
+      "container": {
+        "content": {
+          "text": "Using identities, evaluate the following:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          51, 
+          52, 
+          53, 
+          54, 
+          55, 
+          56, 
+          57, 
+          58, 
+          59, 
+          60
+        ], 
+        "hint": {
+          "text": "<div>Each of the numbers below can be broken down into numbers that are easier to process.</div><div>For example: \\((401)^2\\) can be broken into \\((400 +1)^2\\)</div><div>You can then use the identity \\((a+b)^2 = a^2 + b^2 + 2ab\\)</div><div>Where \\(a = 400\\) and \\(b = 1\\)</div><div>\\(= 400^2 + 1^2 + 2(400)(1)\\)</div><div>\\(= 160000 + 1 + 800\\)</div><div>\\(= 160801\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Using algebraic substitution to substitute \\(a = (-2)\\) and \\(b = \\frac{1}{6}\\) in the expression</div><div>\\((\\frac{5}{16}a^3)(-5ab^2)(-5a^2b^2) = (\\frac{-5}{2})(-\\frac{-5}{18})(-\\frac{5}{9})\\)</div><div>\\(= \\frac{125}{324}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Find the value of: \\((\\frac{5}{16}a^3)(-5ab^2)(-5a^2b^2)\\) for \\(a = (-2), b = \\frac{1}{6}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(\\frac{25}{27}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(\\frac{-125}{1944}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(\\frac{-125}{2916}\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(\\frac{125}{324}\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 10, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          50
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(x - \\frac 1x = 10\\)</div><div>\\(\\Rightarrow (x- (\\frac 1x) )^2 = 100\\)</div><div>\\(\\Rightarrow x^2 + \\frac 1{x^2} - 2(x)(\\frac 1x) = 100\\)</div><div>\\(\\Rightarrow x^2 + \\frac 1{x^2} = 100+2\\)</div><div>\\(\\Rightarrow x^2 + \\frac 1{x^2} = 102\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If \\(x - \\frac 1x = 10\\). Find the value of \\(x^2 + \\frac 1{x^2}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "102"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(x^2 + \\frac 1{x^2} = 102\\)</div><div>\\(\\Rightarrow (x^2 + (\\frac 1{x^2}) )^2 = 10404\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} + 2(x^2)(\\frac 1{x^2}) = 10404\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = 10404 - 2\\)</div><div>\\(\\Rightarrow x^4 + \\frac 1{x^4} = 10402\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Now find the value of \\(x^4 + \\frac1{x^4}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "10402"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 13, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          63, 
+          64
+        ], 
+        "hint": {
+          "text": "Try using an identity and then rearrange the terms", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(3x(2x + y)\\)</div><div>\\(=3x(2x) + 3xy\\)</div><div>\\(=6x^2 + 3xy\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>\\(3x(2x + y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(6x + 3xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(3x^2 + 3xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(6x^2 + y\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(6x^2 + 3xy\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((20x-14y)(5x-3y)\\)</div><div>\\(= 20x(5x-3y) - 14y(5x-3y)\\)</div><div>\\(= 100x^2 - 60xy - 70xy + 42y^2\\)</div><div>\\(= 100x^2 - 130xy + 42y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>\\((20x - 14y) (5x - 3y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(100x^2 + 130xy + 42y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(100x^2 - 60xy + 42y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(100x^2 - (-10)xy + 42y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(100x^2 - 130xy + 42y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((6x+17y)(20x-9y)\\)</div><div>\\(= 6x(20x -9y) + 17y(20x-9y)\\)</div><div>\\(= 120x^2 - 54xy + 340xy - 153y^2\\)</div><div>\\(= 120x^2 - (-286)xy - 153y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "<div>\\((6x + 17y) (20x - 9y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(120x^2 + 394xy + 153y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(120x^2 - 54xy + 153y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(120x^2 - 394xy + 153y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(120x^2 - (-286)xy - 153y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((13x+17y)(19x+20y)\\)</div><div>\\(= 13x(19x +20y) + 17y(19x+20y)\\)</div><div>\\(= 247x^2 + 260xy + 323xy + 340y^2\\)</div><div>\\(= 247x^2 + 583xy + 340y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "<div>\\((13x + 17y) (19x + 20y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(247x^2 + (-63)xy + 340y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(247x^2 - 260xy + 340y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(247x^2 - (-63)xy + 340y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(247x^2 + 583xy + 340y^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((7x-14y)(7x-14y)\\)</div><div>\\(= (7x - 14y)^2\\)</div><div>Using identity \\((a-b)^2 = a^2 + b^2 - 2ab\\)</div><div>Where \\(a = 7x\\) and \\(b = 14y\\)</div><div>\\(= 49x^2 + 196y^2 - 196xy\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "<div>\\((7x - 14y) (7x - 14y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(49x^2 - 196y^2 + 196xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(49x^2 - 98xy + 196y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(49x^2 - 294xy + 214y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(49x^2 - 196xy + 196y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((19x^2+14y)(18x+8y^2)\\)</div><div>\\(=19x^2(18x + 8y^2) + 14y(18x + 8y^2)\\)</div><div>\\(= 342x^3 + 152x^2y^2 + 252xy + 112y^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "<div>\\((19x^2 + 14y) (18x + 8y^2)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(342x^3 + 404x^2y^2 + 112y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(342x^2 + 152x^2y^2 + 252xy + 112y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(342x^3 + 304x^2y^2 + 504xy - 112y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(342x^3 + 152x^2y^2 + 252xy + 112y^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((2x+19y)(13x^3-13y)\\)</div><div>\\(=2x(13x^3 - 13y) + 19y(13x^3 - 13y)\\)</div><div>\\(= 26x^4 - 26xy + 247x^3y - 247y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "<div>\\((2x + 19y) (13x^3 - 13y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(26x^3 - 26xy + 247x^3y - 247y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(26x^4 - 26xy + 247x^2y - 247y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(26x^4 - 52xy - 494x^3y - 247y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(26x^4 - 26xy + 247x^3y - 247y^2\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((12x+17y)(12x+10y^2)\\)</div><div>Using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)</div><div>Where \\(x = 12x\\), \\(a = 17y\\) and \\(b = 10y^2\\)</div><div>\\(= 144x^2 + (17y + 10y^2)12x + 170y^3\\)</div><div>\\(144x^2 + 204xy + 120xy^2 + 170y^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "<div>\\((12x + 17y) (12x + 10y^2)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(144x^2 + 204x^2y + 120xy^2 + 170y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(144x^2 + 204xy + 170xy^2 + 170y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(144x^2 + 170xy + 204xy^2 + 170y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(144x^2 + 204xy + 120xy^2 + 170y^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((5x + \\frac{10y}{6}) (6x - \\frac{2y^2}{14})\\)</div><div>\\(= 5x(6x - \\frac{2}{14}y^2) + \\frac{10}{6}y (6x - \\frac{2}{14}y^2)\\)</div><div>\\(= 30x^2 - \\frac{5\\times2}{14}xy^2 + \\frac{10\\times6}{6}xy - \\frac{10\\times2}{6\\times14}y^3\\)</div><div>\\(= 30x^2 - \\frac{5}{7}xy^2 + 10xy - \\frac{5}{21}y^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "<div>\\((5x + \\frac{10y}{6}) (6x - \\frac{2y^2}{14})\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(30x^2 - \\frac{5}{7}xy + 10xy^2 - \\frac{5}{21}y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(30x^2 - \\frac{5}{7}xy^2 + 20xy - \\frac{5}{21}y^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(30x^2 - \\frac{5}{7}xy^2 + 10xy - \\frac{5}{21}y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(30x^2 - \\frac{5}{7}xy^2 + 10xy - \\frac{5}{21}y^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((19a + (-5b)) (14a - (-18b^2))\\)</div><div>\\(= (19a - 5b)(14a+18b^2)\\)</div><div>\\(= 19a(14a+18b^2) - 5b(14a+18b^2)\\)</div><div>\\(= 266a^2 + 342ab^2 - 70ab - 90b^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "<div>\\((19a + (-5b)) (14a - (-18b^2))\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(266a^3 - 70ab + 684ab^2  - 90b^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(266a^2 + 140ab - 342ab^2  - 90b^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(266a^2 + 70ab - 342ab^2 - 90b^3\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(266a^2 + 342ab^2 - 70ab - 90b^3\\) ", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((3x + 10y) (3x - 10y)\\)</div><div>\\(= 3x(3x-10y) + 10y (3x-10y)\\)</div><div>\\(= 9x^2 - 30xy + 30xy - 100y^2\\)</div><div>\\(= 9x^2 - 100y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 10, 
+          "content": {
+            "text": "<div>\\((3x + 10y) (3x - 10y)\\)</div><div>Answer:</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(9x^2 - 100y^2 + 30xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9x^2 - 100y^2 + 60xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9x^2 - 100y^2 - 30xy\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(9x^2 - 100y^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 8, 
+      "container": {
+        "content": {
+          "text": "Multiply the following expressions:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          29, 
+          30, 
+          31, 
+          32, 
+          33, 
+          34, 
+          35, 
+          36, 
+          37, 
+          38, 
+          39
+        ], 
+        "hint": {
+          "text": "<div>Consider the expressions you're trying to multiply. Break one expression into its separate terms and multiply each term with the second expression. Then add or subtract the terms to simplify.</div><div>For example:</div><div>\\((x+2y)(2x-3y)\\)</div><div>\\(= x(2x - 3y) + 2y(2x-3y)\\) [Here x+2y is broken into its two terms]</div><div>\\(= 2x^2 - 3xy + 4xy - 6y^2\\)</div><div>\\(= 2x^2 + xy - 6y^2\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ]
+  ]
+}
