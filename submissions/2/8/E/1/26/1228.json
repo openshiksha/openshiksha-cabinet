@@ -1,0 +1,414 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Perimeter of cylinder = Breadth of paper</div><div>\\(= 2\\pi r = 66\\)</div><div>Therefore, r = 10.5 cm</div><div>Volume of a cylinder \\(= \\pi r^2h = 10048.5 cm^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Rajiv likes to make 3D shapes from paper. Yesterday, he started with a rectangular piece of paper of length 29 cm and breadth 66 cm. He then rolled the paper into a cylinder so that the cylinder is now 29 cm long. What is the volume of the air inside the cylinder so formed?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "10048.5"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 46, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          63
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Cross section of river area = Area of 1 + Area of 2 \\(= ac + \\frac 12 (d-c) (a+b) = 131 \\times 39 + \\frac 12 \\times 45\\times(131 + 101)\\)</div><div>\\(= 10329 m^2\\)</div><div>Rate of flow = 6 km/hr = 6000 m/hr</div><div>Volume of water flow = Area of cross section \\(\\times\\) Rate of flow</div><div>\\(= 10329 \\times 6000 = 61974000 m^3/hr\\)</div><div>= 61974 megalitre/hr</div><div>One week = 7 days =\\( 24 \\times 7\\) hours = 168 hours</div><div>Therefore, volume of water flowing into the sea in one week \\(= 168 \\times 61974\\)</div><div>= 10411632 megalitres</div>", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvMi9pbWcvMjBfc29sLnBuZzpWd3pjd1VzOTFvMmdCN2FqRGszWWh5aklxY1k/", 
+            "img": "20_sol.png"
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The Vashishti river flows into the Arabian Sea. The cross-section of the river can be approximated as the shape shown in the diagram below. You measure the dimensions of the river and find that a = 131 m, b = 101 m, c = 39 m and d= 84 m. The river flows at a constant rate of 6 km / hr. What volume of water (in megalitres) flows into the sea over the course of a week? Note that 1 megalitre = 1000000 litres", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvMi9pbWcvMjAucG5nOmRFLUhfUE5XWFh4YVRhaEFVdnJ6Y2F6U1RzTQ/", 
+            "img": "20.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "10411632"
+          }, 
+          "type": 3, 
+          "unit": "Megalitres"
+        }
+      ], 
+      "pk": 45, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          62
+        ], 
+        "hint": {
+          "text": "Remember that the area of a trapezium is \\(\\frac 12 \\times \\)(Sum of parallel sides) \\(\\times\\) height", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of pipe=Difference in volumes between outer and inner cylinder</div><div>\\(= \\pi{r_ o}^2 \\times h - \\pi{r_ i}^2 \\times h\\)</div><div>\\(= \\pi (7.5)^2 \\times 7 - \\pi(4.5)^2 \\times 7\\)</div><div>\\(= 1237.5 - 445.5 = 792 cm^3\\)</div><div>\\(Mass = Volume \\times Density\\)</div><div>\\(\\Rightarrow Mass = 792 cm^3 \\times \\frac{8.6 g}{cm^3}\\)</div><div>\\(= 6811.2 g\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The inner diameter of a metallic tube is 9 cm. The thickness of the rim is 3 cm and the length is 7 cm. If the density of the metal is \\(\\frac{8.6 g}{cm^3}\\), what is the mass of the pipe?", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvMi9pbWcvMTgucG5nOkR1SXJCOTVTY1RJOFplWGVUT09MSmdzV2d0Yw/", 
+            "img": "18.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": " 6811.2"
+          }, 
+          "type": 3, 
+          "unit": "g"
+        }
+      ], 
+      "pk": 39, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          54
+        ], 
+        "hint": {
+          "text": "Volume = Difference in volumes between outer and inner cylinder", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Rise in water level = 1.5 metres = 150 cm = h</div><div>Area of base = Area of Triangle = \\(\\frac{\\sqrt{3}}{4} \\times side^2 = \\frac{\\sqrt{3}}{4}\\times 41^2\\)</div><div>=\\(\\frac{\\sqrt{3}}{4}\\times 1681 cm^2\\)</div><div>Therefore, volume of water added = Area of base \\(\\times\\) Rise in water Level</div><div>=109054.88 \\(cm^3\\)</div><div>Since 1L =\\(1000cm^3\\)</div><div>Volume of water added = 109.05 L</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The water tank in Rekha's house has a base in the shape of an equilateral triangle with each side measuring 41 cm. It is filled with water till a height of 3 metres. She pours some more water into the tank and the new level is 4.5 metres. What volume of water did she pour into the tank? Use \\(\\sqrt{3} = 1.73\\)", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvMi9pbWcvMTkucG5nOjdUU1FzUmd3Q0k1ZndROFEzYlpJZmU1TUUzUQ/", 
+            "img": "19.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "109.05"
+          }, 
+          "type": 3, 
+          "unit": "Litres"
+        }
+      ], 
+      "pk": 40, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          69
+        ], 
+        "hint": {
+          "text": "Area of an equilateral triangle = \\(\\frac{\\sqrt{3}}{4} \\times side^2\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Given the volume of the pipe = V = 6373.72 \\(cm^3\\)</div><div>The volume of a cylindrical pipe = \\(\\pi{r_ o}^2h - \\pi{r_ i}^2h\\)</div><div>Let the thickness of the pipe be \\(x\\)</div><div>\\(\\Rightarrow V = \\pi (8)^2 \\times 52 - \\pi (8-x)^2 \\times 52\\)</div><div>\\(\\Rightarrow \\frac {V}{52\\pi}=8^2 - (8-x)^2\\)</div><div>\\(\\Rightarrow (8-x)^2 = 64 - \\frac{V}{52\\pi} = 64 - 39 = 25\\)</div><div>\\(\\Rightarrow x = 8 - \\sqrt{25} = 8 - 5\\)</div><div>\\(\\Rightarrow x = 3\\) (approximately)</div><div>Therefore, the thickness of the pipe is 3 cm</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The volume of a metallic cylinder pipe is 6373.72 cubic centimetres. Its length is 52 cm and its external radius is 8 cm. Find its thickness", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.1, 
+            "value": "3"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 42, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          70
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Volume of original tube = \\((\\pi{r_ o}^2 \\times h) - (\\pi{r_ i}^2 \\times h)\\)</div><div>\\(= 7392 cm^3\\)</div><div>Now, Volume of new tube = Volume of original tube</div><div>Let the length of the new tube be x</div><div>Therefore,\\(V_ {new} = (\\pi{r_ o}^2 \\times h) - (\\pi{r_ i}^2 \\times h) = (\\pi (\\frac {18}{2})^2 \\times x) - (\\pi (\\frac {18}{2} - 7)^2 \\times x)\\)</div><div>\\(\\Rightarrow x = \\frac {V_ {original}}{\\pi (\\frac {18}2)^2-\\pi (\\frac {18}2 - 7)^2}\\)</div><div>= 30.55cm</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A metallic tube, 42 cm long, has a thickness of 4 cm and an outer diameter of 18 cm. It is melted and made into another tube of thickness 7cm with the same outer diameter. No material is wasted. What is the length of the new tube?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.1, 
+            "value": "30.55"
+          }, 
+          "type": 3, 
+          "unit": "cm"
+        }
+      ], 
+      "pk": 41, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          60
+        ], 
+        "hint": {
+          "text": "Since no material is wasted, the volumes of both tubes are exactly equal", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The volume of the tank \\(= 38 cm \\times 34 cm \\times 40 cm \\)= 51680</div><div>Rate of flow into the tank = 8L/minute = 8000\\(cm^3\\)/minute</div><div>Therefore, time taken to fill tank completely \\(= \\frac {51680}{8000} \\)= 6.46 minutes</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Water is pouring into a cuboidal tank of length 38 cm, breadth 34 cm and height 40 cm at the rate of 8L/minute. How many minutes will it take to fill the tank completely?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6.46"
+          }, 
+          "type": 3, 
+          "unit": "minutes"
+        }
+      ], 
+      "pk": 44, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          61
+        ], 
+        "hint": {
+          "text": "Volume of a cuboidal container = lbh", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Curved surface area (CSA) = \\(2\\pi rh\\)</div><div>Total surface area = \\(2\\pi r (r+h) = 2\\pi r^2 + 2\\pi rh = 3 \\times CSA = 7392\\)</div><div>Therefore, \\(2\\pi r^2 + 2\\pi rh = 6\\pi rh\\)</div><div>\\(\\Rightarrow 2\\pi r^2 = 4\\pi rh\\)</div><div>\\(\\Rightarrow r = 2h\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2}\\)</div><div>\\(CSA = \\frac{7392}3 = 2\\pi rh = 2\\pi r(\\frac {r}{2}) = \\pi r^2\\)</div><div>\\(\\Rightarrow\\) Area of Base = \\(\\pi r^2 = \\frac{7392}3\\)</div><div>\\(\\Rightarrow r^2 = \\frac {7392\\times 7}{3\\times 22}\\)</div><div>\\(\\Rightarrow r = 28 cm\\)</div><div>\\(\\Rightarrow h = \\frac {r}{2} = 14 cm\\)</div><div>Therefore, volume \\(= \\pi r^2h = 34496 cm^3\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A solid cylinder has total surface area of 7392 square centimetres. Its curved surface area is one-third of its total surface area. Find the volume of the cylinder", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "34496"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^3\\)"
+        }
+      ], 
+      "pk": 43, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          71
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Surface Area of the pipe = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims</div><div>\\(= 2\\pi {r_ o}h + 2\\pi {r_ i}h + 2(\\pi {r_ o}^2 - \\pi {r_ i}^2)\\)</div><div>\\(= 2\\pi \\times \\frac{24}2 \\times 42 + 2 \\pi \\times \\frac{8}2 \\times 42 + 2\\pi({\\frac{24}2}^2 - {\\frac{8}2}^2)\\)</div><div>= 5028.57\\(cm^2\\)</div><div>Therefore, cost of painting the pipe \\(= 5028.57 \\times 0.2\\)</div><div>= Rs. 1005.714</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A cylindrical pipe has an outer diameter of 24 cm and an inner diameter of 8 cm. Its length is 42 cm. It needs to be painted on its outer and inner surfaces, as well as the rims. The cost of painting the pipe is Rs. 0.2 per \\(cm^2\\). What is the total cost of painting the pipe?", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvMi9pbWcvMTgucG5nOkR1SXJCOTVTY1RJOFplWGVUT09MSmdzV2d0Yw/", 
+            "img": "18.png"
+          }, 
+          "answer": {
+            "tolerance": 0.5, 
+            "value": "1005.714"
+          }, 
+          "type": 3, 
+          "unit": "Rupees"
+        }
+      ], 
+      "pk": 38, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          53
+        ], 
+        "hint": {
+          "text": "Surface Area of the pipe = Curved surface area of outer cylinder + Curved surface area of inner cylinder + Area of both rims", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Total Curved Surface Area = \\(2\\pi rh = 132 cm^2\\)</div><div>\\(\\Rightarrow 2rh = \\frac{132}{\\pi} = 42 cm^2\\)</div><div>Once you cut the slice, there are three faces without icing: The curved outer surface and the two rectangular inner surfaces. (Remember that the top and bottom surfaces have icing)</div><div>Also, length of Base of Slice = Radius of Cylinder and Height of Slice = Height of Cylinder</div><div>Therefore, area of the slice that has no icing</div><div>= Curved area of slice + 2 \\(\\times\\) Rectangular surface area of slice</div><div>\\(= \\frac{1}{10}\\)(Total Curved Surface Area) + 2 \\(\\times\\) (Base \\(\\times\\) Height of slice)</div><div>\\(= \\frac {1}{10}\\times 132 + 2rh\\)</div><div>\\(= \\frac {1}{10}\\times 132 + 42\\)</div><div>= 55.2 \\(cm^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "You are given a cylindrical cake with icing on the top and bottom. There is no icing on the curved surface and the curved surface area is \\(132 cm^2\\). You then cut a straight slice from the cake (as shown below) such that the volume of the slice is exactly \\(\\frac {1}{10}\\) of the volume of the cake. What surface area of your slice has no icing?", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvMi9pbWcvMjEucG5nOng4NmEyTHZKUVg3amtOdUJ2NTNJOXg1VWt2UQ/", 
+            "img": "21.png"
+          }, 
+          "answer": {
+            "tolerance": 0.05, 
+            "value": "55.2"
+          }, 
+          "type": 3, 
+          "unit": "\\(cm^2\\)"
+        }
+      ], 
+      "pk": 47, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          64
+        ], 
+        "hint": {
+          "text": "Think about your slice as a separate object. What faces do not have icing?", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ]
+  ]
+}
