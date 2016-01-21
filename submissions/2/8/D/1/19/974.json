@@ -1,0 +1,469 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Observe carefully, the lines of the two graphs coincide at point E.</div><div> Therefore, the predicted score was same as the actual score in the 5th match.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>A1=(1,307), A2=(1,282), B1=(2,275), B2=(2,337), C1=(3,186), C2=(3,111), D1=(4,399), D2=(4,338), E=(5,236), F1=(6,343), F2=(6,155), G1=(7,213), G2=(7,255)</div><div>In which match number was the predicted score the same as the actual score?</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "5"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>We know, the predicted and actual scores were the same in the 5th match. </div><div>Draw a perpendicular to the y-axis from point E. </div><div>This value reflects the score in that match which is 236 runs</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Specify the score in the match where the actual score and predicted score were the same.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "236"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Notice that on the graph of predicted scores, point D1 is the highest. </div><div>Draw a perpendicular to the y-axis from point D1. </div><div>That value reflects the highest predicted score in the series which is 399 runs</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "What was the highest predicted score during the series?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "399"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Notice that on the graph of actual scores, point C2 is the lowest. </div><div>Draw a perpendicular to the y-axis from point C2. </div><div>That value reflects the highest predicted score in the series which is 111 runs</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "What was the lowest actual score during the series?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "111"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Notice that point F1(predicted score in match 6) and point F2(actual score in match 6) are furthest from each other as compared to any other set of point</div><div>Therefore, the difference between the actual and predicted scores is the most in match 6</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "In which match did the actual score differ the most from the predicted score?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,343), Point F2=(6,155)</div><div>Difference in scores=343-155</div><div>188</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "What was the greatest difference in the predicted and actual scores in a single match?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "188"
+          }, 
+          "type": 3, 
+          "unit": "runs"
+        }
+      ], 
+      "pk": 121, 
+      "container": {
+        "content": {
+          "text": "The following graph shows the predicted score and the actual score for team India for each match of a 7-match ODI series. Study the graph and answer the following questions : ", 
+          "img_url": "/secure-static/YXJuYXZfa2F0Z2VyaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL2NvbnRhaW5lcnMvMS8xLzgvMS82L2ltZy9JVEctUTMucG5nOlYyT1dwZ1VETFVDNUhQZU50dS1fREp4bXppcw/", 
+          "img": "ITG-Q3.png"
+        }, 
+        "subparts": [
+          31, 
+          32, 
+          33, 
+          34, 
+          35, 
+          36
+        ], 
+        "hint": {
+          "text": "The x-axis signifies the match number and the y-axis signifies the predicted score and the actual score.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "At time t=0, the temperature of water is 30 degree celsius as represented by point A in the graph that lies on the y-axis", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>A=(0,30), B=(1,38), C=(2,49), D=(3,69), E=(4,69), F=(8,100)</div><div>What was the initial temperature of water?</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "30"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point A=(0,30), Point B=(1,38)</div><div>Rise in temperature in the first minute = 38-30</div><div>=8</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "By how many degrees did the temperature rise in the first minute?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point C=(2,49), Point D=(4,69)</div><div>Rise in temperature in the third minute = 69-49</div><div>=20</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "By how many degrees did the temperature rise in the third minute?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "20"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The line segment joining point D and E is a horizontal line and the co-ordinates of point D and E are (3,69) and (4,69) respectively.</div><div>This shows the temperature was constant in the fourth minute at 69 degrees celsius</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "Was the temperature constant for any duration? If yes, what was the constant temperature?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "69"
+          }, 
+          "type": 3, 
+          "unit": "degrees celsius"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point F=(8,100)</div><div>This shows the water attained its boiling point after 8 minutes </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "After how many minutes did the water attain its boiling point?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": "minutes"
+        }
+      ], 
+      "pk": 119, 
+      "container": {
+        "content": {
+          "text": "The given graph describes the temperatures of water at different times when it is set to boil from room temperature to its boiling point.  Study the graph and answer the following:", 
+          "img_url": "/secure-static/YXJuYXZfa2F0Z2VyaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL2NvbnRhaW5lcnMvMS8xLzgvMS82L2ltZy9JVEctUTEucG5nOkVyX2R5ZTZjMUprbDBZZ2lHby1nQzFsS2JHNA/", 
+          "img": "ITG-Q1.png"
+        }, 
+        "subparts": [
+          11, 
+          12, 
+          13, 
+          14, 
+          15
+        ], 
+        "hint": {
+          "text": "Point A and Point F signify room temperature and boiling point respectively.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point a=(1,73)</div><div>Therefore, the movie earned 73 crores in its first week</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "What were the earnings in week 1?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "73"
+          }, 
+          "type": 3, 
+          "unit": "crores"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point c=(3,94)</div><div>Therefore, the movie earned 94 crores in its third week</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "What were the earnings in week 3?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "94"
+          }, 
+          "type": 3, 
+          "unit": "crores"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point e=(5,38)</div><div>Therefore, the movie earned 38 crores in its fifth week</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "What were the earnings in week 5?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "38"
+          }, 
+          "type": 3, 
+          "unit": "crores"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point b=(2,61), Point d=(4,47)</div><div>Therefore, the movie earned 61 crores and 47 crores in the second and fourth weeks respectively</div><div>Difference in earnings = 61-47</div><div>=14 crores</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "Compute the difference between the earnings of week 2 and week 4?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "14"
+          }, 
+          "type": 3, 
+          "unit": "crores"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Point c=(3,94), Point d=(4,47)</div><div>Therefore, the movie earned 94 crores and 47 crores in the third and fourth weeks respectively</div><div>Difference in earnings = 94-47</div><div>=47 crores</div><div>Hence, the greatest difference in earnings as compared to its previous week was in week 4.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "In which week was there the greatest difference in earnings as compared to its previous week?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "4"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 120, 
+      "container": {
+        "content": {
+          "text": "The following graph shows the weekly earnings of a movie for the first 5 weeks after its release. Study the graph and answer the following : ", 
+          "img_url": "/secure-static/YXJuYXZfa2F0Z2VyaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL2NvbnRhaW5lcnMvMS8xLzgvMS82L2ltZy9JVEctUTIucG5nOjBSaXR1Rk54MDl3QlplRFFFc0hSRnNNVC12TQ/", 
+          "img": "ITG-Q2.png"
+        }, 
+        "subparts": [
+          21, 
+          22, 
+          23, 
+          24, 
+          25
+        ], 
+        "hint": {
+          "text": "Obtain co-ordinates of all the node points.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ]
+  ]
+}
