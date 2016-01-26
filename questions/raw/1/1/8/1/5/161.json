@@ -1,6 +1,6 @@
 {
   "hint": {
-    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
   }, 
   "solution": {
     "text": "<div>\\(\\frac{_{{5*j}}_x^2+(_{{12*j}}_-_{{5*k}}_)x-_{{12*k}}_}{_{j}_x-_{k}_}\\)</div><div>\\(=\\frac{_{{5*j}}_x^2+_{{12*j}}_x-_{{5*k}}_x-_{{12*k}}_}{_{j}_x-_{k}_}\\)</div><div>Taking \\(_{j}_x\\,\\) and \\(_{k}_\\) commmon,</div><div>\\(=\\frac{_{j}_x(5x+12)-_{k}_(5x+12)}{_{j}_x-_{k}_}\\)</div><div>\\(=\\frac{(_{j}_x-_{k}_)(5x+12)}{_{j}_x-_{k}_}\\)</div><div>Dividing the numerator and denominator by \\(_{j}_x-_{k}_\\),</div><div>\\(=5x+12\\)</div>"

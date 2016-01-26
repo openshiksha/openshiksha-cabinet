@@ -1,6 +1,6 @@
 {
   "hint": {
-    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
   }, 
   "solution": {
     "text": "<div>\\(\\frac{-_{{j*k}}_x^4yz}{_{k}_x^2y}\\)</div><div>Taking \\(_{k}_x^2y\\,\\)common in the numerator and denominator,</div><div>\\(=\\frac{-_{j}_x^2z(_{k}_x^2y)}{(_{k}_x^2y)}\\)</div><div>Dividing numerator and denominator by \\(_{k}_x^2y,\\)</div><div>\\(=-_{j}_x^2z\\)</div>"
