@@ -3,35 +3,19 @@
     {
       "subparts": [
         {
-          "hint": null, 
+          "hint": {
+            "text": "To express a number in usual form, divide or multiply the value with the respective power of 10. For example, the usual form of \\(5 \\times 10^3\\,\\) is \\(5000\\). Depending on the exponent value of 10, the decimal point is shifted to the left or the right.", 
+            "img_url": null, 
+            "img": null
+          }, 
           "solution": {
-            "text": "<div>The multiplicative inverse of \\( ({3 \\times 3})^{-2} \\)  is \\(\\frac1{({3 \\times 3})^{-2}} \\)</div><div>\\(=({3 \\times 3})^2\\)</div><div>\\(= 3^{2} \\times 3^{2} \\)</div><div>\\(=81\\)</div>", 
+            "text": "<div>\\( 9.92 \\times 10^2 \\)</div><div>\\( 9.92 \\times 10^2 = 9.92 \\times 100 = 992 \\)</div><div>Hence 992 is the usual form.</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "\\( ({3 \\times 3})^{-2} \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "81"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>The multiplicative inverse of \\( 4^7\\)  is \\(\\frac1{4^7} \\)</div><div>\\(=4^{-7}\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "\\( 4^7 \\)", 
+            "text": "\\( 9.92 \\times 10^{2} \\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -39,30 +23,541 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(4^{7}\\)", 
+                "text": "99.2", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(7^{-4}\\)", 
+                "text": "9920", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(7^{4}\\)", 
+                "text": "9.92", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              3, 
-              2, 
+              1, 
               0, 
-              1
+              3, 
+              2
             ], 
             "correct": {
-              "text": "\\(4^{-7}\\)", 
+              "text": "992", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "To express a number in usual form, divide or multiply the value with the respective power of 10. For example, the usual form of \\(5 \\times 10^{-4}\\,\\) is \\(0.0005\\). Depending on the exponent value of 10, the decimal point is shifted to the left or the right.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\( 1.72 \\times 10^{-5} \\)</div><div>\\( 1.72 \\times 10^{-5} = \\frac {1.72}{100000} = 0.0000172 \\)</div><div>Hence 0.0000172 is the usual form.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\( 1.72 \\times 10^{-5} \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "172000", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "0.000172", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "0.00172", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": " 0.0000172", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 97, 
+      "container": {
+        "content": {
+          "text": "Express the following in usual form:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          101, 
+          102
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "\\((a^m)^n=a^{(m \\times n)}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Initial weight = 2kg</div><div>Its weight increases by a power of 2 each year.</div><div>Hence, the weight of the bear after two years will be \\((2^2)^2\\)</div><div>\\(=2^4\\)</div><div>\\(=16\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A new born bear weighs 2 kg. How many kilograms might a two year old bear weigh if its weight increases by the power of 2 each year? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "16"
+          }, 
+          "type": 3, 
+          "unit": "kg"
+        }
+      ], 
+      "pk": 94, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          51
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\( 0.00674 = 6.74 \\times 10^{-3} \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "0.00674", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\( 67.4 \\times 10^{-3} \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 0.674 \\times 10^{-3} \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 674 \\times 10^{-3} \\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\( 6.74 \\times 10^{-3} \\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\( 50000 = 5 \\times 10^4 \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "50000", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\( 5 \\times 10^{-4} \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 5 \\times 10^2 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 5 \\times 10^6 \\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              3, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "\\( 5 \\times 10^4 \\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\(  8.92 \\times 10^4 \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "89200", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\( 89.2 \\times 10^4 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 8.92 \\times 10^{-3} \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 8.92 \\times 10^5 \\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\( 8.92 \\times 10^4 \\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "\\( 3.36 \\times 10^{-5} \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "0.0000336", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\( 3.36 \\times 10^5 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 3.36 \\times 10^{4} \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 3.36 \\times 10^{-4} \\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\( 3.36 \\times 10^{-5} \\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "0.0004 can also be written as \\( 4 \\times 10^{-4} \\). Thus the power of 10 is -4", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "The power of 10 in the standard form of 0.0004 is ?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "-4"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "2690000 can also be written as \\( 2.69 \\times 10^6 \\). Thus the power of 10 is 6", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "The power of 10 in the standard form of 2690000 is ?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 96, 
+      "container": {
+        "content": {
+          "text": "Express the following in standard form:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          91, 
+          92, 
+          93, 
+          94, 
+          95, 
+          96
+        ], 
+        "hint": {
+          "text": "<div>\\(0.005 = 5.0 \\times 10^{-3} = 5 \\times 10^{-3}\\). </div><div>Here, the decimal point is shifted three places towards the right. Therefore, the exponent value of \\(10\\,\\) is \\(-3\\)</div><div>\\(500 = 5.00 \\times 10^{2} = 5 \\times 10^{2}\\). </div><div>Here, the decimal point is shifted two places towards the left. Therefore, the exponent value of \\(10\\,\\) is \\(2\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "If the cells double itself every hour, in 5 hours it would have doubled itself 5 times, find this amount.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Initial number cells \\(= 1\\)</div><div>The cells double itself every hour.</div><div>Hence, the number of cells after 5 hours will be \\(2^5 \\times 1\\)</div><div>\\(=32\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The cells of a bacteria double itself every hour. How many cells will there be after 5 hours, if initially we start with 1 cell?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "32"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 95, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          61
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Lets say that \\( -(3)^{-2} \\) is multiplied by y to give \\( \\frac {1}{4 \\times 3^{2}} \\)</div><div>Hence, \\( -(3)^{-2} \\times y = \\frac {1}{4 \\times 3^2} \\)</div><div>\\( \\Rightarrow \\frac {-1}{3^2} \\times y = \\frac {1}{4 \\times 3^2} \\)</div><div>Multiplying both sides by \\( (3)^{2} \\) we get,</div><div> \\( \\Rightarrow -1 \\times y = \\frac {1}{4} \\)</div><div> \\( \\Rightarrow y = \\frac {-1}{4}=-0.25 \\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "By what number should \\( -(3)^{-2} \\)  be multiplied to get \\( \\frac {1}{4 \\times 3^{2}} \\)? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "-0.25"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Lets say that \\(-(9)^{-2} \\) is divided by y to give \\( \\frac {1}{4 \\times {(9)}^{2}} \\) </div><div>Hence, \\( \\frac {-(9)^{-2}}{y} = \\frac {1}{4 \\times (9)^{2}} \\)</div><div>\\( \\Rightarrow \\frac {-1}{9^{2} \\times y} = \\frac {1}{4 \\times (9)^{2}} \\)</div><div>Multiplying both sides by \\( (9)^{2} \\) we get,</div><div>\\( \\Rightarrow \\frac {-1}{y} = \\frac {1}{4} \\)</div><div> \\( \\Rightarrow y=-4 \\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "By what number should \\( -(9)^{-2} \\) be divided to get \\( \\frac {1}{4 \\times {(9)}^{2}} \\) ? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "-4"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 93, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          41, 
+          42
+        ], 
+        "hint": {
+          "text": "<div>Try writing the given information in the form of an equation, with the required number as an unknown.</div><div>\\(a^m\\times a^n = a^{(m+n)}\\)</div><div>\\(a^m\\times b^m=(a\\times b)^m\\)</div><div>\\((a^m)^n=a^{(m\\times n)}\\)</div><div>\\(\\frac{a^m}{a^n}=a^{(m-n)}\\)</div><div>\\(a^0=1\\)</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The multiplicative inverse of \\( ({2 \\times 4})^{-2} \\)  is \\(\\frac1{({2 \\times 4})^{-2}} \\)</div><div>\\(=({2 \\times 4})^2\\)</div><div>\\(= 2^{2} \\times 4^{2} \\)</div><div>\\(=64\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\( ({2 \\times 4})^{-2} \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "64"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The multiplicative inverse of \\( 3^5\\)  is \\(\\frac1{3^5} \\)</div><div>\\(=3^{-5}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\( 3^5 \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(3^{5}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(5^{-3}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(5^{3}\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(3^{-5}\\)", 
               "img_url": null, 
               "img": null
             }
@@ -103,9 +598,9 @@
             "use_dropdown_widget": false, 
             "order": [
               1, 
+              3, 
               2, 
-              0, 
-              3
+              0
             ], 
             "correct": {
               "text": "\\( 9^{99} \\)", 
@@ -160,465 +655,6 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Lets say that \\( -(4)^{-2} \\) is multiplied by y to give \\( \\frac {1}{4 \\times 4^{2}} \\)</div><div>Hence, \\( -(4)^{-2} \\times y = \\frac {1}{4 \\times 4^2} \\)</div><div>\\( \\Rightarrow \\frac {-1}{4^2} \\times y = \\frac {1}{4 \\times 4^2} \\)</div><div>Multiplying both sides by \\( (4)^{2} \\) we get,</div><div> \\( \\Rightarrow -1 \\times y = \\frac {1}{4} \\)</div><div> \\( \\Rightarrow y = \\frac {-1}{4}=-0.25 \\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "By what number should \\( -(4)^{-2} \\)  be multiplied to get \\( \\frac {1}{4 \\times 4^{2}} \\)? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "-0.25"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Lets say that \\(-(3)^{-2} \\) is divided by y to give \\( \\frac {1}{4 \\times {(3)}^{2}} \\) </div><div>Hence, \\( \\frac {-(3)^{-2}}{y} = \\frac {1}{4 \\times (3)^{2}} \\)</div><div>\\( \\Rightarrow \\frac {-1}{3^{2} \\times y} = \\frac {1}{4 \\times (3)^{2}} \\)</div><div>Multiplying both sides by \\( (3)^{2} \\) we get,</div><div>\\( \\Rightarrow \\frac {-1}{y} = \\frac {1}{4} \\)</div><div> \\( \\Rightarrow y=-4 \\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "By what number should \\( -(3)^{-2} \\) be divided to get \\( \\frac {1}{4 \\times {(3)}^{2}} \\) ? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "-4"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 93, 
-      "container": {
-        "content": null, 
-        "subparts": [
-          41, 
-          42
-        ], 
-        "hint": {
-          "text": "<div>Try writing the given information in the form of an equation, with the required number as an unknown.</div><div>\\(a^m\\times a^n = a^{(m+n)}\\)</div><div>\\(a^m\\times b^m=(a\\times b)^m\\)</div><div>\\((a^m)^n=a^{(m\\times n)}\\)</div><div>\\(\\frac{a^m}{a^n}=a^{(m-n)}\\)</div><div>\\(a^0=1\\)</div>", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "\\( 0.00685 = 6.85 \\times 10^{-3} \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "0.00685", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\( 68.5 \\times 10^{-3} \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 0.685 \\times 10^{-3} \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 685 \\times 10^{-3} \\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              1, 
-              0, 
-              3
-            ], 
-            "correct": {
-              "text": "\\( 6.85 \\times 10^{-3} \\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "\\( 80000 = 8 \\times 10^4 \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "80000", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\( 8 \\times 10^{-4} \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 8 \\times 10^2 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 8 \\times 10^6 \\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              3, 
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": "\\( 8 \\times 10^4 \\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "\\(  8.56 \\times 10^4 \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "85600", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\( 85.6 \\times 10^4 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 8.56 \\times 10^{-3} \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 8.56 \\times 10^5 \\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              1, 
-              0, 
-              2
-            ], 
-            "correct": {
-              "text": "\\( 8.56 \\times 10^4 \\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "\\( 4.68 \\times 10^{-5} \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "0.0000468", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\( 4.68 \\times 10^5 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 4.68 \\times 10^{4} \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 4.68 \\times 10^{-4} \\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              3, 
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": "\\( 4.68 \\times 10^{-5} \\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "0.0006 can also be written as \\( 6 \\times 10^{-4} \\). Thus the power of 10 is -4", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 4, 
-          "content": {
-            "text": "The power of 10 in the standard form of 0.0006 is ?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "-4"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "4400000 can also be written as \\( 4.4 \\times 10^6 \\). Thus the power of 10 is 6", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 5, 
-          "content": {
-            "text": "The power of 10 in the standard form of 4400000 is ?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "6"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 96, 
-      "container": {
-        "content": {
-          "text": "Express the following in standard form:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          91, 
-          92, 
-          93, 
-          94, 
-          95, 
-          96
-        ], 
-        "hint": {
-          "text": "<div>\\(0.005 = 5.0 \\times 10^{-3} = 5 \\times 10^{-3}\\). </div><div>Here, the decimal point is shifted three places towards the right. Therefore, the exponent value of \\(10\\,\\) is \\(-3\\)</div><div>\\(500 = 5.00 \\times 10^{2} = 5 \\times 10^{2}\\). </div><div>Here, the decimal point is shifted two places towards the left. Therefore, the exponent value of \\(10\\,\\) is \\(2\\)</div>", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "\\((a^m)^n=a^{(m \\times n)}\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>Initial weight = 2kg</div><div>Its weight increases by a power of 2 each year.</div><div>Hence, the weight of the bear after two years will be \\((2^2)^2\\)</div><div>\\(=2^4\\)</div><div>\\(=16\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "A new born bear weighs 2 kg. How many kilograms might a two year old bear weigh if its weight increases by the power of 2 each year? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "16"
-          }, 
-          "type": 3, 
-          "unit": "kg"
-        }
-      ], 
-      "pk": 94, 
-      "container": {
-        "content": null, 
-        "subparts": [
-          51
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "To express a number in usual form, divide or multiply the value with the respective power of 10. For example, the usual form of \\(5 \\times 10^3\\,\\) is \\(5000\\). Depending on the exponent value of 10, the decimal point is shifted to the left or the right.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\( 1.5 \\times 10^2 \\)</div><div>\\( 1.5 \\times 10^2 = 1.5 \\times 100 = 150 \\)</div><div>Hence 150 is the usual form.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "\\( 1.5 \\times 10^{2} \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "15", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "1500", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "1.5", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              1, 
-              2, 
-              3, 
-              0
-            ], 
-            "correct": {
-              "text": "150", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": {
-            "text": "To express a number in usual form, divide or multiply the value with the respective power of 10. For example, the usual form of \\(5 \\times 10^{-4}\\,\\) is \\(0.0005\\). Depending on the exponent value of 10, the decimal point is shifted to the left or the right.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\( 4.27 \\times 10^{-2} \\)</div><div>\\( 4.27 \\times 10^{-2} = \\frac {4.27}{100} = 0.0427 \\)</div><div>Hence 0.0427 is the usual form.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "\\( 4.27 \\times 10^{-2} \\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "427", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "0.427", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "4.27", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              2, 
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": " 0.0427", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }
-      ], 
-      "pk": 97, 
-      "container": {
-        "content": {
-          "text": "Express the following in usual form:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          101, 
-          102
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "<div>Types of leaves collected \\(=32\\)</div><div>\\(32\\,\\)can be represented in exponential form with a base of \\(2\\,\\) as \\(2^5\\)</div>", 
             "img_url": null, 
             "img": null
@@ -651,9 +687,9 @@
             "use_dropdown_widget": false, 
             "order": [
               0, 
+              1, 
               3, 
-              2, 
-              1
+              2
             ], 
             "correct": {
               "text": "\\( 2^{5} \\)", 
@@ -681,13 +717,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>Consider RHS</div><div>\\(=(a\\times b)^{{13} \\times{20}}\\)</div><div>\\(=a^{260} \\times b^{260}\\)</div><div>\\( \\neq a^{13}\\times{b}^{20}\\)</div>", 
+            "text": "<div>Consider RHS</div><div>\\(=(a\\times b)^{{7} \\times{18}}\\)</div><div>\\(=a^{126} \\times b^{126}\\)</div><div>\\( \\neq a^{7}\\times{b}^{18}\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "\\(a^{13}\\times{b}^{20}=(a\\times b)^{{13} \\times{20}} \\)", 
+            "text": "\\(a^{7}\\times{b}^{18}=(a\\times b)^{{7} \\times{18}} \\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -719,13 +755,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>Consider LHS</div><div>\\(= \\frac {a^{8}}{a^{13}} \\)</div><div>\\(=a^{(8-13)}\\)</div><div>\\(=a^{(-5)}\\)</div><div>\\(\\neq \\frac{a^{8}}{13}\\)</div>", 
+            "text": "<div>Consider LHS</div><div>\\(= \\frac {a^{7}}{a^{15}} \\)</div><div>\\(=a^{(7-15)}\\)</div><div>\\(=a^{(-8)}\\)</div><div>\\(\\neq \\frac{a^{7}}{15}\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "\\( \\frac {a^{8}}{a^{13}} \\) = \\( \\frac {a^{8}}{13} \\)", 
+            "text": "\\( \\frac {a^{7}}{a^{15}} \\) = \\( \\frac {a^{7}}{15} \\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -763,7 +799,7 @@
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "\\( (-3)^{0} \\) is 1", 
+            "text": "\\( (-2)^{0} \\) is 1", 
             "img_url": null, 
             "img": null
           }, 
@@ -778,8 +814,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              0, 
-              1
+              1, 
+              0
             ], 
             "correct": {
               "text": "True", 
@@ -881,97 +917,17 @@
         ], 
         "hint": null
       }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "If the cells double itself every hour, in 5 hours it would have doubled itself 5 times, find this amount.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>Initial number cells \\(= 1\\)</div><div>The cells double itself every hour.</div><div>Hence, the number of cells after 5 hours will be \\(2^5 \\times 1\\)</div><div>\\(=32\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "The cells of a bacteria double itself every hour. How many cells will there be after 5 hours, if initially we start with 1 cell?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "32"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 95, 
-      "container": {
-        "content": null, 
-        "subparts": [
-          61
-        ], 
-        "hint": null
-      }
     }
   ], 
   "answers": [
     [
       {
         "correct": null, 
-        "value": null
-      }, 
-      {
-        "correct": null, 
         "choice": 1
       }, 
       {
         "correct": null, 
-        "choice": 3
-      }, 
-      {
-        "correct": null, 
-        "value": null
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "value": null
-      }, 
-      {
-        "correct": null, 
-        "value": null
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "choice": 3
-      }, 
-      {
-        "correct": null, 
-        "choice": 3
-      }, 
-      {
-        "correct": null, 
-        "choice": 3
-      }, 
-      {
-        "correct": null, 
-        "choice": 3
-      }, 
-      {
-        "correct": null, 
-        "value": null
-      }, 
-      {
-        "correct": null, 
-        "value": "0.000044"
+        "choice": 1
       }
     ], 
     [
@@ -983,11 +939,61 @@
     [
       {
         "correct": null, 
-        "choice": 1
+        "choice": 3
       }, 
       {
         "correct": null, 
         "choice": 3
+      }, 
+      {
+        "correct": null, 
+        "choice": 3
+      }, 
+      {
+        "correct": null, 
+        "choice": 3
+      }, 
+      {
+        "correct": null, 
+        "value": "-4"
+      }, 
+      {
+        "correct": null, 
+        "value": "6"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "32"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "1/4"
+      }, 
+      {
+        "correct": null, 
+        "value": "1/4"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "64"
+      }, 
+      {
+        "correct": null, 
+        "choice": 0
+      }, 
+      {
+        "correct": null, 
+        "choice": 3
+      }, 
+      {
+        "correct": null, 
+        "value": "100"
       }
     ], 
     [
@@ -1007,7 +1013,7 @@
       }, 
       {
         "correct": null, 
-        "choice": 0
+        "choice": 1
       }, 
       {
         "correct": null, 
@@ -1015,13 +1021,7 @@
       }, 
       {
         "correct": null, 
-        "choice": 0
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "value": null
+        "choice": 1
       }
     ]
   ]
