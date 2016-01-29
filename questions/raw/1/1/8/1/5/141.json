@@ -1,6 +1,6 @@
 {
   "hint": {
-    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero intergers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
+    "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> "
   }, 
   "solution": {
     "text": "<div>\\(\\frac{_{{3*j}}_t^3}{_{{2*j}}_t}\\)</div><div>Taking \\(_{j}_t\\,\\)common in the numerator and denominator,</div><div>\\(=\\frac{(3)t^2(_{j}_t)}{(2)(_{j}_t)}\\)</div><div>Dividing numerator and denominator by \\(_{j}_t,\\)</div><div>\\(=\\frac{3t^2}2\\)</div>"
