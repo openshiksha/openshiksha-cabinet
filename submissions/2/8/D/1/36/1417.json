@@ -1,0 +1,873 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Write the PRIME FACTOR form of both numbers.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\( j = 17 \\times 3 \\times 19, k = 3 \\times 19 \\times 7\\)</div><div>Thus, the highest common prime factor is 19</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "What is the highest common factor of \\(969\\) and \\(399\\) ?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "19"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 101, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          2
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(64x = 64 \\times x, 128 = 2 \\times 64 \\), hence, 64 is a common factor for both terms</div><div>Using distributive law,</div><div>\\(64x + 128 = 64(x+2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(64x+128\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(32(2x+4)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(1 \\times8192x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(192x\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(64(x+2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(26x = 26 \\times x, 78y = 3 \\times 26 \\times y \\), hence, 26 is a common factor for both terms</div><div>Using distributive law,</div><div>\\(26x + 78y = 26(x+3y)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(26x+78y\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(13(2x+6y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(1 \\times2028xy\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(104x+104y\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(26(x+3y)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(9xyz = 9x \\times yz,  18xy = 9x \\times {2y}, 27xz = 9x \\times {3z} \\), hence, 9\\(x\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\( 9xyz + 18xy + 27xz= 9x(yz+2y+3z)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(9xyz + 18xy + 27xz \\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(3x(3yz+6y+3z)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(9x(yz+y+z)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Factorisation not possible", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\(9x(yz+2y+3z)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(6x^2 = 2x^2 \\times 3,  14x^3 = 2x^2 \\times 7x, 26x^4 = 2x^2 \\times 13x^2 \\), hence, 2 \\(x^2\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\(6x^2 - 14x^3 + 26x^4 = 2x^2(3-7x + 13)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\(6x^2 - 14x^3 + 26x^4 \\) ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(x^2 \\left( 6-14x+26x^2\\right)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2x(3x-7x^2+13x^3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(x^2(3-7x+13x^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(2x^2(3-7x+13x^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(9a^2= 9a \\times a, 9ab = 9a \\times b, 9ac = 9a \\times c \\), hence, \\(9a\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\(-9a^2+9ab-9ac = 9a(-a+b-c)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\(-9a^2+9ab-9ac\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(9(-a^2+ab-ac)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(-9a(a+b-c)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(a(-9a+9b-9c)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(9a(-a+b-c)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 104, 
+      "container": {
+        "content": {
+          "text": "Factorise the following algebraic expressions into  irreducible factors.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          51, 
+          52, 
+          53, 
+          54, 
+          55
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "1 is neither prime nor composite.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "\\( 1764 = 3 \\times 3\\times 7\\times 7\\times 2 \\times 2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The correct list of all Prime Factors of \\(1764\\) is :", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(1,3,7,2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(3,7,1\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(7,2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(3,7,2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 100, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          1
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Consider that some terms may be the result of a multiplication and can be reorganized into their factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(3(x+y)(2x+3y)-3x^2-3x-3xy-3y\\)</div><div>\\(=3(x+y)(2x+3y)-3(x^2+x+xy+y)\\)</div><div>\\(=3(x+y)(2x+3y)-3(x+y)(x+1)\\)</div><div>\\(=3(x+y)(2x+3y-x-1)\\)</div><div>\\(=3(x+y)(x+3y-1)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(3(x+y)(2x+3y)-3x^2-3x-3xy-3y\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(3(x+y)(x-y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+y)(x+3y-1)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+y)(3x+9y-1)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(3(x+y)(x+3y-1)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 106, 
+      "container": {
+        "content": {
+          "text": "Factorise the following algebraic expressions into  irreducible factors.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          7
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Irreducible factors of an expression cannot be broken down further.Eg: For \\(7(x+3)\\), the irreducible factors are \\(7\\) and \\((x+3)\\). Think of it as prime factorisation of algebraic expressions.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "The irreducible factors of \\(2(x+20)x\\) are \\(2,(x+20)\\) and \\(x\\); as these cannot be broken down into further factors. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "What are the corect irreducible factors of the algebraic expression \\(2(x+20)x\\) :", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(2x^2, 40x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2x, (x+20)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2, x^2, 20x\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(2, (x+20), x\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 103, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          4
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Remember that the force equation has two factors(Mass and Acceleration) and that the mass factor has a greater absolute value.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Force \\(=x^3-2x^2y+8xy^2-16y^3\\)</div><div>\\(=x^2(x-2y)+8y^2(x-2y)\\)</div><div>\\(=(x^2+8y^2)(x-2y)=\\)Mass \\(\\times\\) Acceleration</div><div>Since mass has a larger absolute value,</div><div>Mass\\(=(x^2+8y^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>You are a junior scientist at the Indian Space Research Organisation(ISRO) and are working on a physics formula to predict the force on the space shuttle when it is climbing into the atmosphere.</div><div>You know that Force \\(=\\) Mass \\(\\times\\) Acceleration and you are also told that the equation for the force on the shuttle is Force \\(=x^3-2x^2y+8xy^2-16y^3\\).</div><div>Given that the mass is a larger value than the acceleration(in absolute terms), what is the equation for the mass?</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(x-2y\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(x^2+y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(x^2-8y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(x^2+8y^2\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 107, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          8
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "If the product of all terms results in the original expression, then they are all considered to be factors. (They need not be irreducible in this case)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<ul><li>\\( 4 \\times (ab) \\times c\\) is correct because \\( 4 \\times (ab)\\times c = 4abc\\)</li> <li> \\( \\frac {4}2 \\times 2ab \\times c\\) is correct because \\( \\frac {4}2 \\times 2ab \\times c = 4abc\\)  [Numerator and denominator are multiplied by the same number, i.e.\\(2\\)]</li> <li>\\( 4 \\times a \\times b \\times c\\) is correct because \\( 4 \\times a \\times b \\times c = 4abc\\) [Irreducible form of \\(4abc\\)]</li> <li>\\(1 \\times 4 \\times a \\times b \\times c\\) is correct because  \\( 1 \\times 4 \\times a \\times b \\times c = 4abc\\)</li></ul>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The term \\(4abc\\) expressed as a product of its factors is :", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 2, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(4 \\times (ab) \\times (bc) \\times (ca)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "order": [
+              2, 
+              0, 
+              1, 
+              4, 
+              3
+            ], 
+            "correct": [
+              {
+                "text": "\\( 4 \\times (ab) \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( \\frac {4}2 \\times 2ab \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 4\\times a \\times b \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(1 \\times 4 \\times a \\times b \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ]
+          }
+        }
+      ], 
+      "pk": 102, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          3
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Regroup the terms:</div><div>\\(39xy-26y-9x+6\\)</div><div>\\(=13y(3x-2)-3(3x-2)\\)</div><div>\\(=(13y-3)(3x-2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(39xy-26y+6-9x\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((13y+3)(3x-2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((13y-3)(3x+2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((13y-3)(2x-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((13y-3)(3x-2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Regroup the terms:</div><div>\\(=t^2+ty+2t+2y\\)</div><div>\\(=t(t+y)+2(t+y)\\)</div><div>\\(=(t+2)(t+y)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(t^2+2t+2y+ty\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((t+y)(2+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t+1)(t+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(t(t+2+2y)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((t+2)(t+y)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Regroup the terms:</div><div>\\(=119xy+17y-21x-3\\)</div><div>\\(=17y(7x+1)-3(7x+1)\\)</div><div>\\(=(17y-3)(7x+1)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(119xy-21x+17y-3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((17y+3)(7x-1)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((17y+1)(7x-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((17y-1)(7x+3)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((17y-3)(7x+1)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 105, 
+      "container": {
+        "content": {
+          "text": "Factorise the following algebraic expressions into  irreducible factors.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          61, 
+          62, 
+          63
+        ], 
+        "hint": null
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choices": []
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ]
+  ]
+}
