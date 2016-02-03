@@ -4,87 +4,18 @@
       "subparts": [
         {
           "hint": {
-            "text": "If the product of all terms results in the original expression, then they are all considered to be factors. (They need not be irreducible in this case)", 
+            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "solution": {
-            "text": "<ul><li>\\( 18 \\times (ab) \\times c\\) is correct because \\( 18 \\times (ab)\\times c = 18abc\\)</li> <li> \\( \\frac {18}2 \\times 2ab \\times c\\) is correct because \\( \\frac {18}2 \\times 2ab \\times c = 18abc\\)  [Numerator and denominator are multiplied by the same number, i.e.\\(2\\)]</li> <li>\\( 18 \\times a \\times b \\times c\\) is correct because \\( 18 \\times a \\times b \\times c = 18abc\\) [Irreducible form of \\(18abc\\)]</li> <li>\\(1 \\times 18 \\times a \\times b \\times c\\) is correct because  \\( 1 \\times 18 \\times a \\times b \\times c = 18abc\\)</li></ul>", 
+            "text": "<div>\\(60x = 60 \\times x, 120 = 2 \\times 60 \\), hence, 60 is a common factor for both terms</div><div>Using distributive law,</div><div>\\(60x + 120 = 60(x+2)\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "The term \\(18abc\\) expressed as a product of its factors is :", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 2, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\(18 \\times (ab) \\times (bc) \\times (ca)\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "order": [
-              3, 
-              4, 
-              1, 
-              0, 
-              2
-            ], 
-            "correct": [
-              {
-                "text": "\\( 18 \\times (ab) \\times c\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( \\frac {18}2 \\times 2ab \\times c\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 18\\times a \\times b \\times c\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(1 \\times 18 \\times a \\times b \\times c\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ]
-          }
-        }
-      ], 
-      "pk": 102, 
-      "container": {
-        "content": null, 
-        "subparts": [
-          3
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>Regroup the terms:</div><div>\\(60xy-40y-9x+6\\)</div><div>\\(=20y(3x-2)-3(3x-2)\\)</div><div>\\(=(20y-3)(3x-2)\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "\\(60xy-40y+6-9x\\)", 
+            "text": "\\(60x+120\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -92,17 +23,17 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\((20y+3)(3x-2)\\)", 
+                "text": "\\(30(2x+4)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\((20y-3)(3x+2)\\)", 
+                "text": "\\(1 \\times7200x\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\((20y-3)(2x-3)\\)", 
+                "text": "\\(180x\\)", 
                 "img_url": null, 
                 "img": null
               }
@@ -111,215 +42,11 @@
             "order": [
               0, 
               3, 
-              1, 
-              2
-            ], 
-            "correct": {
-              "text": "\\((20y-3)(3x-2)\\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": {
-            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>Regroup the terms:</div><div>\\(=t^2+ty+14t+14y\\)</div><div>\\(=t(t+y)+14(t+y)\\)</div><div>\\(=(t+14)(t+y)\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "\\(t^2+14t+14y+ty\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\((t+y)(14+y)\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\((t+1)(t+y)\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(t(t+14+2y)\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
               2, 
-              0, 
-              1, 
-              3
-            ], 
-            "correct": {
-              "text": "\\((t+14)(t+y)\\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": {
-            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>Regroup the terms:</div><div>\\(=65xy+13y-15x-3\\)</div><div>\\(=13y(5x+1)-3(5x+1)\\)</div><div>\\(=(13y-3)(5x+1)\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "\\(65xy-15x+13y-3\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\((13y+3)(5x-1)\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\((13y+1)(5x-3)\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\((13y-1)(5x+3)\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              0, 
-              3, 
               1
             ], 
             "correct": {
-              "text": "\\((13y-3)(5x+1)\\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }
-      ], 
-      "pk": 105, 
-      "container": {
-        "content": {
-          "text": "Factorise the following algebraic expressions into  irreducible factors.", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          61, 
-          62, 
-          63
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "Write the PRIME FACTOR form of both numbers.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\( j = 2 \\times 5 \\times 19, k = 5 \\times 19 \\times 11\\)</div><div>Thus, the highest common prime factor is 19</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "What is the highest common factor of \\(190\\) and \\(1045\\) ?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "19"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 101, 
-      "container": {
-        "content": null, 
-        "subparts": [
-          2
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "<div>Irreducible factors cannot be broken down further.</div><div>Eg: \\(x(2x+4y)\\) can still be further reduced to \\(2x(x+2y).\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\(12x = 12 \\times x, 24 = 2 \\times 12 \\), hence, 12 is a common factor for both terms</div><div>Using distributive law,</div><div>\\(12x + 24 = 12(x+2)\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "\\(12x+24\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\(6(2x+4)\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(1 \\times288x\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(36x\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              1, 
-              3, 
-              0, 
-              2
-            ], 
-            "correct": {
-              "text": "\\(12(x+2)\\)", 
+              "text": "\\(60(x+2)\\)", 
               "img_url": null, 
               "img": null
             }
@@ -332,13 +59,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(26x = 26 \\times x, 78y = 3 \\times 26 \\times y \\), hence, 26 is a common factor for both terms</div><div>Using distributive law,</div><div>\\(26x + 78y = 26(x+3y)\\)</div>", 
+            "text": "<div>\\(36x = 36 \\times x, 108y = 3 \\times 36 \\times y \\), hence, 36 is a common factor for both terms</div><div>Using distributive law,</div><div>\\(36x + 108y = 36(x+3y)\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "\\(26x+78y\\)", 
+            "text": "\\(36x+108y\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -346,17 +73,17 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(13(2x+6y)\\)", 
+                "text": "\\(18(2x+6y)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(1 \\times2028xy\\)", 
+                "text": "\\(1 \\times3888xy\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(104x+104y\\)", 
+                "text": "\\(144x+144y\\)", 
                 "img_url": null, 
                 "img": null
               }
@@ -369,7 +96,7 @@
               3
             ], 
             "correct": {
-              "text": "\\(26(x+3y)\\)", 
+              "text": "\\(36(x+3y)\\)", 
               "img_url": null, 
               "img": null
             }
@@ -382,13 +109,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(12xyz = 12x \\times yz,  24xy = 12x \\times {2y}, 36xz = 12x \\times {3z} \\), hence, 12\\(x\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\( 12xyz + 24xy + 36xz= 12x(yz+2y+3z)\\)</div>", 
+            "text": "<div>\\(33xyz = 33x \\times yz,  66xy = 33x \\times {2y}, 99xz = 33x \\times {3z} \\), hence, 33\\(x\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\( 33xyz + 66xy + 99xz= 33x(yz+2y+3z)\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "\\(12xyz + 24xy + 36xz \\)", 
+            "text": "\\(33xyz + 66xy + 99xz \\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -396,12 +123,12 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(4x(3yz+6y+3z)\\)", 
+                "text": "\\(11x(3yz+6y+3z)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(12x(yz+y+z)\\)", 
+                "text": "\\(33x(yz+y+z)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
@@ -413,13 +140,13 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              0, 
-              3, 
+              1, 
               2, 
-              1
+              0, 
+              3
             ], 
             "correct": {
-              "text": "\\(12x(yz+2y+3z)\\)", 
+              "text": "\\(33x(yz+2y+3z)\\)", 
               "img_url": null, 
               "img": null
             }
@@ -463,8 +190,8 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              3, 
               2, 
+              3, 
               1, 
               0
             ], 
@@ -482,13 +209,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(15a^2= 15a \\times a, 15ab = 15a \\times b, 15ac = 15a \\times c \\), hence, \\(15a\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\(-15a^2+15ab-15ac = 15a(-a+b-c)\\)</div>", 
+            "text": "<div>\\(18a^2= 18a \\times a, 18ab = 18a \\times b, 18ac = 18a \\times c \\), hence, \\(18a\\) is a common factor for all three terms.</div><div>Using distributive law,</div><div>\\(-18a^2+18ab-18ac = 18a(-a+b-c)\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 4, 
           "content": {
-            "text": "\\(-15a^2+15ab-15ac\\)", 
+            "text": "\\(-18a^2+18ab-18ac\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -496,17 +223,17 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(15(-a^2+ab-ac)\\)", 
+                "text": "\\(18(-a^2+ab-ac)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(-15a(a+b-c)\\)", 
+                "text": "\\(-18a(a+b-c)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(a(-15a+15b-15c)\\)", 
+                "text": "\\(a(-18a+18b-18c)\\)", 
                 "img_url": null, 
                 "img": null
               }
@@ -515,11 +242,11 @@
             "order": [
               1, 
               2, 
-              0, 
-              3
+              3, 
+              0
             ], 
             "correct": {
-              "text": "\\(15a(-a+b-c)\\)", 
+              "text": "\\(18a(-a+b-c)\\)", 
               "img_url": null, 
               "img": null
             }
@@ -547,18 +274,54 @@
       "subparts": [
         {
           "hint": {
-            "text": "1 is neither prime nor composite.", 
+            "text": "Write the PRIME FACTOR form of both numbers.", 
             "img_url": null, 
             "img": null
           }, 
           "solution": {
-            "text": "\\( 4900 = 7 \\times 7\\times 2\\times 2\\times 5 \\times 5\\)", 
+            "text": "<div>\\( j = 17 \\times 3 \\times 19, k = 3 \\times 19 \\times 7\\)</div><div>Thus, the highest common prime factor is 19</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "The correct list of all Prime Factors of \\(4900\\) is :", 
+            "text": "What is the highest common factor of \\(969\\) and \\(399\\) ?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "19"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 101, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          2
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Remember that the force equation has two factors(Mass and Acceleration) and that the mass factor has a greater absolute value.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Force \\(=x^3-2x^2y+6xy^2-12y^3\\)</div><div>\\(=x^2(x-2y)+6y^2(x-2y)\\)</div><div>\\(=(x^2+6y^2)(x-2y)=\\)Mass \\(\\times\\) Acceleration</div><div>Since mass has a larger absolute value,</div><div>Mass\\(=(x^2+6y^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>You are a junior scientist at the Indian Space Research Organisation(ISRO) and are working on a physics formula to predict the force on the space shuttle when it is climbing into the atmosphere.</div><div>You know that Force \\(=\\) Mass \\(\\times\\) Acceleration and you are also told that the equation for the force on the shuttle is Force \\(=x^3-2x^2y+6xy^2-12y^3\\).</div><div>Given that the mass is a larger value than the acceleration(in absolute terms), what is the equation for the mass?</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -566,41 +329,41 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(1,7,2,5\\)", 
+                "text": "\\(x-2y\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(7,2,1\\)", 
+                "text": "\\(x^2+y^2\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(2,5\\)", 
+                "text": "\\(x^2-6y^2\\)", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
-              0, 
               1, 
-              3
+              2, 
+              3, 
+              0
             ], 
             "correct": {
-              "text": "\\(7,2,5\\)", 
+              "text": "\\(x^2+6y^2\\)", 
               "img_url": null, 
               "img": null
             }
           }
         }
       ], 
-      "pk": 100, 
+      "pk": 107, 
       "container": {
         "content": null, 
         "subparts": [
-          1
+          8
         ], 
         "hint": null
       }
@@ -614,13 +377,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "The irreducible factors of \\(13(x+16)x\\) are \\(13,(x+16)\\) and \\(x\\); as these cannot be broken down into further factors. ", 
+            "text": "The irreducible factors of \\(17(x+18)x\\) are \\(17,(x+18)\\) and \\(x\\); as these cannot be broken down into further factors. ", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "What are the corect irreducible factors of the algebraic expression \\(13(x+16)x\\) :", 
+            "text": "What are the corect irreducible factors of the algebraic expression \\(17(x+18)x\\) :", 
             "img_url": null, 
             "img": null
           }, 
@@ -628,30 +391,30 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(13x^2, 208x\\)", 
+                "text": "\\(17x^2, 306x\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(13x, (x+16)\\)", 
+                "text": "\\(17x, (x+18)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(13, x^2, 16x\\)", 
+                "text": "\\(17, x^2, 18x\\)", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
+              0, 
               3, 
               1, 
-              0
+              2
             ], 
             "correct": {
-              "text": "\\(13, (x+16), x\\)", 
+              "text": "\\(17, (x+18), x\\)", 
               "img_url": null, 
               "img": null
             }
@@ -671,18 +434,87 @@
       "subparts": [
         {
           "hint": {
-            "text": "Consider that some terms may be the result of a multiplication and can be reorganized into their factors.", 
+            "text": "If the product of all terms results in the original expression, then they are all considered to be factors. (They need not be irreducible in this case)", 
             "img_url": null, 
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(13(x+y)(2x+3y)-13x^2-13x-13xy-13y\\)</div><div>\\(=13(x+y)(2x+3y)-13(x^2+x+xy+y)\\)</div><div>\\(=13(x+y)(2x+3y)-13(x+y)(x+1)\\)</div><div>\\(=13(x+y)(2x+3y-x-1)\\)</div><div>\\(=13(x+y)(x+3y-1)\\)</div>", 
+            "text": "<ul><li>\\( 24 \\times (ab) \\times c\\) is correct because \\( 24 \\times (ab)\\times c = 24abc\\)</li> <li> \\( \\frac {24}2 \\times 2ab \\times c\\) is correct because \\( \\frac {24}2 \\times 2ab \\times c = 24abc\\)  [Numerator and denominator are multiplied by the same number, i.e.\\(2\\)]</li> <li>\\( 24 \\times a \\times b \\times c\\) is correct because \\( 24 \\times a \\times b \\times c = 24abc\\) [Irreducible form of \\(24abc\\)]</li> <li>\\(1 \\times 24 \\times a \\times b \\times c\\) is correct because  \\( 1 \\times 24 \\times a \\times b \\times c = 24abc\\)</li></ul>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "\\(13(x+y)(2x+3y)-13x^2-13x-13xy-13y\\)", 
+            "text": "The term \\(24abc\\) expressed as a product of its factors is :", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 2, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(24 \\times (ab) \\times (bc) \\times (ca)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "order": [
+              4, 
+              0, 
+              2, 
+              1, 
+              3
+            ], 
+            "correct": [
+              {
+                "text": "\\( 24 \\times (ab) \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( \\frac {24}2 \\times 2ab \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 24\\times a \\times b \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(1 \\times 24 \\times a \\times b \\times c\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ]
+          }
+        }
+      ], 
+      "pk": 102, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          3
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Regroup the terms:</div><div>\\(51xy-34y-9x+6\\)</div><div>\\(=17y(3x-2)-3(3x-2)\\)</div><div>\\(=(17y-3)(3x-2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(51xy-34y+6-9x\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -690,7 +522,175 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(13(x+y)(x-y)\\)", 
+                "text": "\\((17y+3)(3x-2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((17y-3)(3x+2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((17y-3)(2x-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((17y-3)(3x-2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Regroup the terms:</div><div>\\(=t^2+ty+19t+19y\\)</div><div>\\(=t(t+y)+19(t+y)\\)</div><div>\\(=(t+19)(t+y)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(t^2+19t+19y+ty\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((t+y)(19+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t+1)(t+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(t(t+19+2y)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((t+19)(t+y)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "Notice that there are no common terms sometimes. Regroup(Rearrange) the terms and try and find the common factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Regroup the terms:</div><div>\\(=187xy+17y-33x-3\\)</div><div>\\(=17y(11x+1)-3(11x+1)\\)</div><div>\\(=(17y-3)(11x+1)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(187xy-33x+17y-3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((17y+3)(11x-1)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((17y+1)(11x-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((17y-1)(11x+3)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((17y-3)(11x+1)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 105, 
+      "container": {
+        "content": {
+          "text": "Factorise the following algebraic expressions into  irreducible factors.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          61, 
+          62, 
+          63
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Consider that some terms may be the result of a multiplication and can be reorganized into their factors.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(4(x+y)(2x+3y)-4x^2-4x-4xy-4y\\)</div><div>\\(=4(x+y)(2x+3y)-4(x^2+x+xy+y)\\)</div><div>\\(=4(x+y)(2x+3y)-4(x+y)(x+1)\\)</div><div>\\(=4(x+y)(2x+3y-x-1)\\)</div><div>\\(=4(x+y)(x+3y-1)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(4(x+y)(2x+3y)-4x^2-4x-4xy-4y\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(4(x+y)(x-y)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
@@ -700,20 +700,20 @@
                 "img": null
               }, 
               {
-                "text": "\\((x+y)(13x+39y-1)\\)", 
+                "text": "\\((x+y)(4x+12y-1)\\)", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
+              1, 
               0, 
-              3, 
               2, 
-              1
+              3
             ], 
             "correct": {
-              "text": "\\(13(x+y)(x+3y-1)\\)", 
+              "text": "\\(4(x+y)(x+3y-1)\\)", 
               "img_url": null, 
               "img": null
             }
@@ -737,18 +737,18 @@
       "subparts": [
         {
           "hint": {
-            "text": "Remember that the force equation has two factors(Mass and Acceleration) and that the mass factor has a greater absolute value.", 
+            "text": "1 is neither prime nor composite.", 
             "img_url": null, 
             "img": null
           }, 
           "solution": {
-            "text": "<div>Force \\(=x^3-2x^2y+4xy^2-8y^3\\)</div><div>\\(=x^2(x-2y)+4y^2(x-2y)\\)</div><div>\\(=(x^2+4y^2)(x-2y)=\\)Mass \\(\\times\\) Acceleration</div><div>Since mass has a larger absolute value,</div><div>Mass\\(=(x^2+4y^2)\\)</div>", 
+            "text": "\\( 53361 = 11 \\times 11\\times 3\\times 3\\times 7 \\times 7\\)", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<div>You are a junior scientist at the Indian Space Research Organisation(ISRO) and are working on a physics formula to predict the force on the space shuttle when it is climbing into the atmosphere.</div><div>You know that Force \\(=\\) Mass \\(\\times\\) Acceleration and you are also told that the equation for the force on the shuttle is Force \\(=x^3-2x^2y+4xy^2-8y^3\\).</div><div>Given that the mass is a larger value than the acceleration(in absolute terms), what is the equation for the mass?</div>", 
+            "text": "The correct list of all Prime Factors of \\(53361\\) is :", 
             "img_url": null, 
             "img": null
           }, 
@@ -756,41 +756,41 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(x-2y\\)", 
+                "text": "\\(1,11,3,7\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(x^2+y^2\\)", 
+                "text": "\\(11,3,1\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(x^2-4y^2\\)", 
+                "text": "\\(3,7\\)", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              0, 
               2, 
               1, 
+              0, 
               3
             ], 
             "correct": {
-              "text": "\\(x^2+4y^2\\)", 
+              "text": "\\(11,3,7\\)", 
               "img_url": null, 
               "img": null
             }
           }
         }
       ], 
-      "pk": 107, 
+      "pk": 100, 
       "container": {
         "content": null, 
         "subparts": [
-          8
+          1
         ], 
         "hint": null
       }
@@ -800,46 +800,15 @@
     [
       {
         "correct": null, 
-        "choices": [
-          0, 
-          2, 
-          3, 
-          4
-        ]
-      }
-    ], 
-    [
-      {
-        "correct": null, 
         "choice": 0
       }, 
       {
         "correct": null, 
         "choice": 1
-      }, 
-      {
-        "correct": null, 
-        "choice": 1
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "value": "95"
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "choice": 0
       }, 
       {
         "correct": null, 
         "choice": 2
-      }, 
-      {
-        "correct": null, 
-        "choice": 0
       }, 
       {
         "correct": null, 
@@ -847,6 +816,46 @@
       }, 
       {
         "correct": null, 
+        "choice": 3
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": "108"
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": 0
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": 3
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choices": [
+          2
+        ]
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": 2
+      }, 
+      {
+        "correct": null, 
+        "choice": 1
+      }, 
+      {
+        "correct": null, 
         "choice": 2
       }
     ], 
@@ -860,18 +869,6 @@
       {
         "correct": null, 
         "choice": 2
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "choice": 0
-      }
-    ], 
-    [
-      {
-        "correct": null, 
-        "choice": null
       }
     ]
   ]
