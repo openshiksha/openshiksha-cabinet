@@ -25,7 +25,8 @@ echo 'enabling delete dav method for dev testing'
 sed -i "s/dav_methods PUT/dav_methods PUT DELETE/" devops/nginx.conf
 
 echo 'switching the current repo to be the local cabinet'
-ln -s ${PWD} $HOME/hwcentral-cabinet
+rm $HOME/hwcentral-cabinet
+ln -s $(pwd -P) $HOME/hwcentral-cabinet
 
 echo 'Restarting nginx...'
 sudo nginx
