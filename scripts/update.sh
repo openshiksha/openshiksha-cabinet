@@ -25,7 +25,7 @@ echo 'enabling delete dav method for dev testing'
 sed -i "s/dav_methods PUT/dav_methods PUT DELETE/" devops/nginx.conf
 
 echo 'switching the current repo to be the local cabinet (if it isnt already)'
-if [ "$HOME/hwcentral-cabinet" != "${PWD}"]; then
+if [ "$HOME/hwcentral-cabinet" != "${PWD}" ]; then
     mv $HOME/hwcentral-cabinet $HOME/hwcentral-cabinet-qa
     mv ${PWD} $HOME/hwcentral-cabinet
 fi
