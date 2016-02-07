@@ -36,9 +36,9 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
+              1, 
               3, 
               2, 
-              1, 
               0
             ], 
             "correct": {
@@ -82,10 +82,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
-              3, 
+              1, 
               0, 
-              1
+              3, 
+              2
             ], 
             "correct": {
               "text": "Triangles", 
@@ -188,10 +188,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              1, 
               2, 
+              0, 
               3, 
-              0
+              1
             ], 
             "correct": {
               "text": "Sphere", 
@@ -229,9 +229,9 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              2, 
+              1, 
               0, 
-              1
+              2
             ], 
             "correct": {
               "text": "False", 
@@ -268,10 +268,10 @@
               }
             ], 
             "order": [
-              3, 
-              0, 
+              2, 
               1, 
-              2
+              0, 
+              3
             ], 
             "correct": [
               {
@@ -312,13 +312,33 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=10, V=12. </div><div> Thus 10+12-E=2 </div><div>E=10+12-2 </div><div>Thus the polyhedron has 20 edges.</div>", 
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=9, V=19. </div><div> Thus 9+19-E=2 </div><div>E=9+19-2 </div><div>Thus the polyhedron has 26 edges.</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "A polyhedron has 10 faces and 12 vertices, how many edges does it have? ", 
+            "text": "A polyhedron has 9 faces and 19 vertices, how many edges does it have? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "26"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=18, E=36. </div><div> Thus 18+V-36=2 </div><div> V=18+2 </div><div> Thus the polyhedron has 20 vertices.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Find the number of vertices of a polyhedron with 18 faces and 36 edges.", 
             "img_url": null, 
             "img": null
           }, 
@@ -332,39 +352,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=20, E=40. </div><div> Thus 20+V-40=2 </div><div> V=20+2 </div><div> Thus the polyhedron has 22 vertices.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "Find the number of vertices of a polyhedron with 20 faces and 40 edges.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "22"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=20, E=40.</div><div> Thus F+20-40=2 </div><div> F=20+2</div><div>Thus the polyhedron has 22 faces. </div>", 
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=12, E=24.</div><div> Thus F+12-24=2 </div><div> F=12+2</div><div>Thus the polyhedron has 14 faces. </div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "Find the number of faces of a polyhedron with 40 edges and 20 vertices", 
+            "text": "Find the number of faces of a polyhedron with 24 edges and 12 vertices", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "22"
+            "value": "14"
           }, 
           "type": 3, 
           "unit": null
@@ -372,19 +372,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=18. </div><div> Thus 18+18-E=2 </div><div> E=36-2</div><div> Hence, the polyhedron has 34 edges. </div>", 
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=10. </div><div> Thus 10+10-E=2 </div><div> E=20-2</div><div> Hence, the polyhedron has 18 edges. </div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 3, 
           "content": {
-            "text": "In a solid with faces=vertices=18, the number of edges is? ", 
+            "text": "In a solid with faces=vertices=10, the number of edges is? ", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "34"
+            "value": "18"
           }, 
           "type": 3, 
           "unit": null
@@ -417,10 +417,10 @@
               }
             ], 
             "order": [
-              1, 
+              3, 
               2, 
-              0, 
-              3
+              1, 
+              0
             ], 
             "correct": [
               {
@@ -459,19 +459,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>According to the scale, 1cm = 300km of actual distance.</div><div>Thus, 5 cm = 5 x 300 km of actual distance = 1500 km. </div>", 
+            "text": "<div>According to the scale, 1cm = 300km of actual distance.</div><div>Thus, 8 cm = 8 x 300 km of actual distance = 2400 km. </div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "The distance between Pune and Delhi is shown as 5 cm on a map. If the scale on the map is given as 1 cm = 300 km, what is the actual distance in km between Pune and Delhi according to the map? ", 
+            "text": "The distance between Pune and Delhi is shown as 8 cm on a map. If the scale on the map is given as 1 cm = 300 km, what is the actual distance in km between Pune and Delhi according to the map? ", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "1500"
+            "value": "2400"
           }, 
           "type": 3, 
           "unit": "Km"
@@ -510,10 +510,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              0, 
-              2, 
               3, 
-              1
+              1, 
+              0, 
+              2
             ], 
             "correct": {
               "text": "\\( 5: 10^6 \\)", 
@@ -525,19 +525,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> According to scale, 1 cm in the map = 13 m actual distance. </div><div> Thus, 1300 cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, 5m shown on map, actual distance = 5 x 1300 m = 6.5 km. </div>", 
+            "text": "<div> According to scale, 1 cm in the map = 21 m actual distance. </div><div> Thus, 2100 cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, 9m shown on map, actual distance = 9 x 2100 m = 18.9 km. </div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "The scale on a map is given as 1cm = 13m. Find the actual distance in km for 5 m shown on the map.", 
+            "text": "The scale on a map is given as 1cm = 21m. Find the actual distance in km for 9 m shown on the map.", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "6.5"
+            "value": "18.9"
           }, 
           "type": 3, 
           "unit": "Km"
@@ -616,8 +616,8 @@
             "order": [
               0, 
               3, 
-              2, 
-              1
+              1, 
+              2
             ], 
             "correct": {
               "text": "3:2", 
@@ -660,10 +660,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              0, 
+              2, 
               3, 
               1, 
-              2
+              0
             ], 
             "correct": {
               "text": "3:4", 
@@ -697,7 +697,7 @@
       "container": {
         "content": {
           "text": "The following is the map of a city.Answer the following questions based on the map: ", 
-          "img_url": "/secure-static/Y2hpbm1heV9rZXJoYWxrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMTYvaW1nLzUucG5nOjNJczRlaGhSYl9NWER5bDB6alNCdTVxbWM1bw/", 
+          "img_url": "/secure-static/cHJhdGhhbWVzaF9wYXJkZXNoaTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL2NvbnRhaW5lcnMvMS8xLzgvMS8xNi9pbWcvNS5wbmc6WWZDRTkyaG1PQ2dmTllVWGtYLVlnc0ZvRG9z/", 
           "img": "5.png"
         }, 
         "subparts": [
@@ -714,68 +714,63 @@
     [
       {
         "correct": null, 
-        "choice": 0
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 2
+        "choice": null
       }, 
       {
         "correct": null, 
-        "value": "18"
+        "value": null
       }, 
       {
         "correct": null, 
-        "choice": 2
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 3
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 2
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choices": [
-          2
-        ]
+        "choices": []
       }
     ], 
     [
       {
         "correct": null, 
-        "value": "20"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "22"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "22"
+        "value": null
       }, 
       {
         "correct": null, 
-        "value": "34"
+        "value": null
       }, 
       {
         "correct": null, 
-        "choices": [
-          0, 
-          2
-        ]
+        "choices": []
       }
     ], 
     [
       {
         "correct": null, 
-        "value": "1500"
+        "value": null
       }, 
       {
         "correct": null, 
-        "choice": 1
+        "choice": null
       }, 
       {
         "correct": null, 
@@ -785,19 +780,19 @@
     [
       {
         "correct": null, 
-        "value": "6"
+        "value": null
       }, 
       {
         "correct": null, 
-        "choice": 0
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 0
+        "choice": null
       }, 
       {
         "correct": null, 
-        "value": "8"
+        "value": null
       }
     ]
   ]
