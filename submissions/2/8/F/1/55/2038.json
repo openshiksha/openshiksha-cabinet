@@ -1,0 +1,1619 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(225a^2-16b^2\\)</div><div>\\(={(15a)}^2-{(4b)}^2\\)</div><div>\\(=(15a-4b)(15a+4b)\\qquad\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(225a^2-16b^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Cannot be factorised", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\({(15a-4b)}^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((30a-4b)(30a+4b)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((15a+4b)(15a-4b)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(t^2+(2 \\times 7\\times t)+{7}^2\\)</div><div>\\(={(t+7)}^2\\qquad\\)[Using identity \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=(t+7)(t+7)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(t^2+14t+49\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Cannot be factorised", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t+14)(t+14)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2(t+7)(t+7)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((t+7)(t+7)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(36c^2-64d^2\\)</div><div>\\(={(6c)}^2-{(8d)}^2\\)</div><div>\\(=(6c-8d)(6c+8d)\\qquad\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(36c^2-64d^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((6c+8d)(6c+8d)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\({(6c-8d)}^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((12c-8d)(12c+8d)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((6c-8d)(6c+8d)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(361x^2+y^2-38xy\\)</div><div>\\(=(19x)^2+y^2-38xy\\)</div><div>\\(=(19x-y)^2\\qquad\\)[Using identity \\(a^2+b^2-2ab=(a-b)^2\\)</div><div>\\(=(19x-y)(19x-y)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\(361x^2+y^2-38xy\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((19x+y)(19x+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((19x+y)(19x-y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Cannot be factorised", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((19x-y)(19x-y)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(x^2+81+18x\\)</div><div>\\(=x^2+(2\\times 9\\times x)+ (9)^2\\)</div><div>\\(=(x+9)^2\\qquad\\)[Using identity \\((a+b)^2=a^2+2ab+b^2\\)]</div><div>\\(=(x+9)(x+9)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\(x^2+81+18x\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x+9)(x-9)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+18)(x+18)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Cannot be factorised", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((x+9)(x+9)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(25a^2+289b^2-170ab\\)</div><div>\\(=(5a)^2+(17b)^2-(2 \\times {5a} \\times {17b})\\)</div><div>\\(=(5a-17b)^2\\qquad\\)[Using identity \\(x^2+y^2-2xy=(x-y)^2 \\)]</div><div>\\(=(5a-17b)(5a-17b)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "\\(25a^2+289b^2-170ab\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((5a+17b)(5a+17b)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((5a-17b)(5a+17b)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Cannot be factorised", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              2, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((5a-17b)(5a-17b)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 108, 
+      "container": {
+        "content": {
+          "text": "Factorise the following expressions : ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          91, 
+          92, 
+          93, 
+          94, 
+          95, 
+          96
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((t^2-12t)^2-1225\\)</div><div>\\(=(t^2-12t)^2-35^2\\)</div><div>Using identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(\\Rightarrow (t^2-12t)^2-35^2=(t^2-12t-35)(t^2-12t+35)\\)</div><div>Notice that \\(t^2-12t+35\\,\\) can be written as \\(t^2+(-5-7)t+(-5)(-7)\\)</div><div>\\(\\Rightarrow (t^2-12t-35)(t^2-12t+35)=(t^2-12t-35)(t^2+(-5-7)t+(-5)(-7))\\)</div><div>Using identity \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(=(t^2-12t-35)(t-5)(t-7)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\((t^2-12t)^2-1225\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((t^2-14)(t^2-10)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t^2-7)(t^2-5)(t^2-12t-35)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t^2-12t-35)^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((t^2-12t-35)(t-5)(t-7)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((3a+13y)^2-5(3a+13y)+6\\)</div><div>Let \\(x=3a+13y\\)</div><div>\\(=x^2-5x+6\\)</div><div>Notice that \\(x^2-5x+6\\,\\) can be written as \\(x^2+(-2-3)x+(-2)(-3)\\)</div><div>Using identity \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(=(x-2)(x-3)\\)</div><div>Now substitute \\(x\\,\\) for \\(3a+13y\\)</div><div>\\(=(3a+13y-2)(3a+13y-3)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\((3a+13y)^2-5(3a+13y)+6\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((3a-2)(13y-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(5(3a+13y)(3a+13y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((3a+13y+1)(3a+13y-6)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((3a+13y-2)(3a+13y-3)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 111, 
+      "container": {
+        "content": {
+          "text": "Factorise the following expressions : ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          121, 
+          122
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div>Try and use the method completing the perfect square</div><div>For example : </div><div>\\(a^2+8a+15\\)</div><div>\\(=a^2+8a+4^2-4^2+15\\,\\)[Adding and subtracting \\(4^2\\)]</div><div>\\(=a^2+(2)(a)(4)+4^2-1\\)</div><div>\\(=(a+4)^2-1\\)</div><div>Now use the identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=(a+4-1)(a+4+1)\\)</div><div>\\(=(a+3)(a+5)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(8a^2+64a+96\\)</div><div>\\(=8(a^2+8a+12)\\)</div><div>Now add and subtract \\(4^2\\)</div><div>\\(=8(a^2+(2)(a)(4)+4^2-4^2+12)\\)</div><div>Using identity \\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(=8((a+4)^2-16+12)\\)</div><div>\\(=8((a+4)^2-4)\\)</div><div>\\(=8((a+4)^2-2^2)\\)</div><div>Using identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=8(a+4-2)(a+4+2)\\)</div><div>\\(=8(a+2)(a+6)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(8a^2+64a+96\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((8a+2)(8a+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(8(a+3)(a+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((8a+3)(8a+4)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(8(a+2)(a+6)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Try and use the method completing the perfect square</div><div>For example : </div><div>\\(a^2+8a+15\\)</div><div>\\(=a^2+8a+4^2-4^2+15\\,\\)[Adding and subtracting \\(4^2\\)]</div><div>\\(=a^2+(2)(a)(4)+4^2-1\\)</div><div>\\(=(a+4)^2-1\\)</div><div>Now use the identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=(a+4-1)(a+4+1)\\)</div><div>\\(=(a+3)(a+5)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(11x^2-22x+\\frac{55}9\\)</div><div>\\(=11(x^2-2x+\\frac59)\\)</div><div>Adding and subracting \\(1^2\\)</div><div>\\(=11(x^2-2x+1^2-1^2+\\frac59)\\)</div><div>Using identity \\(a^2-2ab-b^2=(a-b)^2\\)</div><div>\\(=11((x-1)^2-\\frac49)\\)</div><div>\\(=11((x-1)^2-\\frac{2^2}{3^2})\\)</div><div>Using identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=11(x-1-\\frac23)(x-1+\\frac23)\\)</div><div>\\(=11(x-\\frac53)(x-\\frac13)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(11x^2-22x+\\frac{55}9\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((11x-9)(11x+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(11(x-\\frac53)(x+\\frac13)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(11(x-9)(x+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(11(x-\\frac53)(x-\\frac13)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Try and use the method completing the perfect square</div><div>For example : </div><div>\\(a^2+8a+15\\)</div><div>\\(=a^2+8a+4^2-4^2+15\\,\\)[Adding and subtracting \\(4^2\\)]</div><div>\\(=a^2+(2)(a)(4)+4^2-1\\)</div><div>\\(=(a+4)^2-1\\)</div><div>Now use the identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=(a+4-1)(a+4+1)\\)</div><div>\\(=(a+3)(a+5)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(-3t+18-6t^2\\)</div><div>\\(=6(-\\frac{t}2+3-t^2)\\)</div><div>\\(=-6(t^2+\\frac{t}2-3)\\)</div><div>Now add and subtract \\(\\left(\\frac14\\right)^2\\)</div><div>\\(=-6(t^2+\\frac{t}2+\\left(\\frac14\\right)^2-3-\\left(\\frac14\\right)^2)\\)</div><div>\\(=-6(t^2+(2)(\\frac14)(t)+\\left(\\frac14\\right)^2-3-\\frac1{16})\\)</div><div>\\(=-6((t+\\frac14)^2-\\frac{49}{16})\\)</div><div>\\(=-6((t+\\frac14)^2-\\left(\\frac74\\right)^2)\\)</div><div>Using identity \\(a^2-b^2=(a-b)(a+b)\\)</div><div>\\(=-6(t+\\frac14-\\frac74)(t+\\frac14+\\frac74)\\)</div><div>\\(=-6(t-\\frac32)(t+2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(-3t+18-6t^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((3t-3)(3t+2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(3(t^2-3)^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(3(t-2)(t+\\frac32)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              3, 
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(-6(t-\\frac32)(t+2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 112, 
+      "container": {
+        "content": {
+          "text": "Factorise the following expressions : ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          131, 
+          132, 
+          133
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\((1-2a-a^2)(1-2a+3a^2)+4a^4\\)</div><div>\\(=((1-2a+a^2)-2a^2)((1-2a+a^2)+2a^2)+4a^4 \\qquad\\)[Here \\((-a^2)\\) has been written as \\((a^2-2a^2)\\) and \\((3a^2)\\) has been written as \\((a^2+2a^2)\\)]</div><div>\\(=((1-2a+a^2)^2-(2a^2)^2)+4a^4 \\qquad\\)[Using \\((x+y)(x-y)=x^2-y^2\\)]</div><div>\\(=((1-a)^2)^2-4a^4+4a^4 \\qquad\\)[Using \\(x^2-2xy+y^2=(x-y)^2\\)]</div><div>\\(=(1-a)^4\\)</div><div>\\(=(1-a)(1-a)(1-a)(1-a)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\((1-2a-a^2)(1-2a+3a^2)+4a^4\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((1+a)(1+a)(1+a)(1+a)(2a+3)(2a+3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((1+a)(1+a)(1+a)(1+a)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Cannot be factorised", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((1-a)(1-a)(1-a)(1-a)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(1-x^2-2xy-y^2\\)</div><div>\\(=1-(x^2+2xy+y^2)\\)</div><div>\\(=1-(x+y)^2\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=1^2-(x+y)^2\\qquad\\)[Remember \\(1=1^2\\)]</div><div>\\(=(1+(x+y))(1-(x+y))\\qquad\\)[Using \\(a^2-b^2=(a+b)(a-b)\\)]</div><div>\\(=(1+x+y)(1-x-y)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(1-x^2-2xy-y^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x+y)(x-y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+y+1)(x+y-1)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+y+1)(x+y+1)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((1+x+y)(1-x-y)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(2x-32x^5\\)</div><div>\\(=2x(1-16x^4)\\)</div><div>\\(=2x(1-4x^2)(1+4x^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b).\\,\\)Here, \\(16x^4=(4x^2)^2\\)]</div><div>\\(=2x(1-2x)(1+2x)(1+4x^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b).\\,\\)Here, \\(4x^2=(2x)^2\\)]</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(2x-32x^5\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(2x(1-4x^2)(1+4x^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2x(1-2x^2)(1+2x^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2(1-2x+4x^2)(1+2x+4x^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(2x(1-2x)(1+2x)(1+4x^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(216x^3-2197y^3\\)</div><div>\\(=(6x)^3-(13y)^3\\)</div><div>\\(=(6x-13y) (36x^2+78xy+169y^2)\\qquad\\)[Using \\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\(216x^3-2197y^3\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((6x+13y) (36x^2-78xy+169y^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((6x-13y) (6x+78xy+13y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((6x+13y) (6x+78xy+13y)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((6x-13y) (36x^2+78xy+169y^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(6561t^4-(y+z)^4\\)</div><div>\\(=(81t^2)^2-((y+z)^2)^2\\)</div><div>\\(=(81t^2-(y+z)^2)(81t^2+(y+z)^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(9t-(y+z))(9t+(y+z))(81t^2+(y+z)^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(9t-y-z)(9t+y+z)(81t^2+(y+z)^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\(6561t^4-(y+z)^4\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((9t-y+z)(9t+y-z)(81t^2+(y+z)^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((9t-y-z)(9t+y+z)(81t^2-(y+z)^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((9t+y-z)(9t+y+z)(81t^2+(y+z)^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((9t-y-z)(9t+y+z)(81t^2+(y+z)^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(a^4-256b^4\\)</div><div>\\(=(a^2)^2-(16b^2)^2\\)</div><div>\\(=(a^2-16b^2)(a^2+16b^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(a-4b)(a+4b)(a^2+16b^2)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "\\(a^4-256b^4\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((a+4b)(a+4b)(a^2+16b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((a-4b)(a+4b)(a^2-16b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((a-4b)(a-4b)(a^2-16b^2)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((a-4b)(a+4b)(a^2+16b^2)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(1-24xy-(144x^2+y^2)\\)</div><div>\\(=1-(144x^2+24xy+y^2)\\)</div><div>\\(=1-(12x+y)^2\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=1^2-(12x+y)^2\\qquad\\)[Remember \\(1=1^2\\)]</div><div>\\(=(1-(12x+y))(1+(12x+y))\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(1-12x-y)(1+12x+y)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "\\(1-24xy-(144x^2+y^2)\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((1+12x-y)(1+12x+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((1+12x+y)(1+12x+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((1-12x-y)(1-12x+y)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((1-12x-y)(1+12x+y)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(17u^4+17u^2+17\\)</div><div>\\(=17(u^4+u^2+1)\\)</div><div>\\(=17(u^4+2u^2+1-u^2)\\qquad\\)[Adding and subtracting \\(u^2\\) ]</div><div>\\(=17((u^2+1)^2-u^2)\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=17(u^2+1-u)(u^2+1+u)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 7, 
+          "content": {
+            "text": "\\(17u^4+17u^2+17\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(17(u^2+1-u)(u^2+1-u)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(17(u^2-1-u)(u^2-1+u)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(17(u^2+1+u)(u^2+1+u)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              1, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(17(u^2+1-u)(u^2+1+u)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div><div>\\(a^3-b^3=(a-b)(a^2+ab+b^2)\\)</div><div>\\(a^3+b^3=(a+b)(a^2-ab+b^2)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(s^2+26s+(169-1)\\)</div><div>\\(=s^2+26s+169-1\\)</div><div>\\(=(s+13)^2-1^2\\qquad\\)[Using \\(a^2+2ab+b^2=(a+b)^2.\\,\\)Remember \\(1=1^2\\) ]</div><div>\\(=(s+13-1)(s+13+1)\\qquad\\)[Using \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=(s+12)(s+14)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 8, 
+          "content": {
+            "text": "\\(s^2+26s+(169-1)\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((s-12)(s+14)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((s+12)(s-14)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((s-12)(s-14)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((s+12)(s+14)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\((x+12)(x-15)+126\\)</div><div>\\(=x^2-15x+12x-180+126\\)</div><div>\\(=x^2-3x-180+126\\)</div><div>\\(=x^2-3x-54\\)</div><div>\\(=x^2+(6-9)x+(6)(-9)\\)</div><div>Using identity \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow x^2+(6-9)x+(6)(-9)=(x+6)(x-9)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 9, 
+          "content": {
+            "text": "\\((x+12)(x-15)+126\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x+6)(x-11)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+8)(x-8)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(x^2-4^2\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((x+6)(x-9)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 109, 
+      "container": {
+        "content": {
+          "text": "Factorise the following expressions : ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          101, 
+          102, 
+          103, 
+          104, 
+          105, 
+          106, 
+          107, 
+          108, 
+          109, 
+          110
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(x^2+8x+12\\)</div><div>Notice that \\(x^2+8x+12\\,\\)can be written as \\(x^2+(2+6)x+(2)(6)\\,\\) </div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow x^2+(2+6)x+(2)(6)=(x+2)(x+6)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(x^2+8x+12\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x+2)(x+7)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+1)(x-1)(12)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+2)(x-6)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              2, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "\\((x+2)(x+6)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(y^2+12y+20\\)</div><div>Notice that \\(y^2+12y+20\\,\\)can be written as \\(y^2+(2+10)y+(2)(10)\\,\\) </div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow y^2+(2+10)y+(2)(10)=(y+2)(y+10)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(y^2+12y+20\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((y+2)(y+9)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((y+1)(y-1)(20)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((y+3)(y+10)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\((y+2)(y+10)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(t^2+4t-32\\)</div><div>Notice that \\(t^2+4t-32\\,\\)can be written as \\(t^2+(8-4)t+8(-4)\\,\\) </div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow t^2+(8-4)t+8(-4)=(t+8)(t-4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(t^2+4t-32\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((t+8)(t+8)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t+8)(t-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t-8)(t+4)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((t+8)(t-4)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(s^2-2s-99\\)</div><div>Notice that \\(s^2-2s-99\\,\\)can be written as \\(s^2+(9-11)s+9(-11)\\,\\) </div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow s^2+(9-11)s+9(-11)=(s+9)(s-11)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\(s^2-2s-99\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((s+9)(s-10)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((s-9)(s-12)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((s-9)(s+11)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((s+9)(s-11)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(16t^2+56t+45\\)</div><div>Notice that \\(16t^2+56t+45\\,\\)can be written as \\((4t)^2+4t(14)+45\\)</div><div>\\(\\Rightarrow (4t)^2+4t(14)+45=(4t)^2+4t(9+5)+(9)(5)\\)</div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow(4t)^2+4t(9+5)+(9)(5)=(4t+9)(4t+5)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\(16t^2+56t+45\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((4t+9)(4t+10)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(4(t+9)(t-5)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t-9)(t+5)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((4t+9)(4t+5)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(16t^2-48t+27\\)</div><div>Notice that \\(16t^2-48t+27\\,\\)can be written as \\((4t)^2+4t(-12)+27\\)</div><div>\\(\\Rightarrow (4t)^2+4t(-12)+27=(4t)^2+4t(-9-3)+(-9)(-3)\\)</div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow(4t)^2+4t(-9-3)+(-9)(-3)=(4t-9)(4t-3)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "\\(16t^2-48t+27\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((4t+9)(4t+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(4(t+9)(t-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((t-9)(t-3)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              3, 
+              0
+            ], 
+            "correct": {
+              "text": "\\((4t-9)(4t-3)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Remember that \\((x+a)(x+b)=x^2+(a+b)x+ab\\)</div><div>For example:</div><div>\\(x^2+13x+36\\,\\)can be written as \\(x^2+(9+4)x+(9)(4)\\)</div><div>\\(\\Rightarrow x^2+13x+36=(x+9)(x+4)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(4s^2-28s-392\\)</div><div>Notice that \\(4s^2-28s-392\\,\\)can be written as \\(4(s^2-7s-98)\\)</div><div>\\(\\Rightarrow 4(s^2-7s-98)=4(s^2-(14-7)s-(7)(14))\\)</div><div>Using identity : \\(x^2+(a+b)x+ab=(x+a)(x+b)\\)</div><div>\\(\\Rightarrow 4(s^2-(14-7)s-(7)(14))=4(s+7)(s-14)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 6, 
+          "content": {
+            "text": "\\(4s^2-28s-392\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(4(s+7)(s-13)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((4s+7)(4s-14)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(4(s-7)(s+14)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(4(s+7)(s-14)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 110, 
+      "container": {
+        "content": {
+          "text": "Factorise the following expressions : ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          111, 
+          112, 
+          113, 
+          114, 
+          115, 
+          116, 
+          117
+        ], 
+        "hint": null
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ]
+  ]
+}
