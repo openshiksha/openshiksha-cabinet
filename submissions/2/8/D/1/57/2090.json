@@ -9,13 +9,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(\\frac{400x^3y^3z^3a^3b^3c^3+16x^2yx+120xy^2z+80xyz^2}{8xyz}\\)</div><div>Taking \\(8xyz\\,\\)common in the numerator,</div><div>\\(=\\frac{8xyz(50x^2y^2z^2a^3b^3c^3)+8xyz(2x)+8xyz(15y)+8xyz(10z)}{8xyz}\\)</div><div>Dividing numerator and denominator by \\(8xyz\\),</div><div>\\(=50x^2y^2z^2a^3b^3c^3+2x+15y+10z\\)</div>", 
+            "text": "<div>\\(\\frac{9t^3}{6t}\\)</div><div>Taking \\(3t\\,\\)common in the numerator and denominator,</div><div>\\(=\\frac{(3)t^2(3t)}{(2)(3t)}\\)</div><div>Dividing numerator and denominator by \\(3t,\\)</div><div>\\(=\\frac{3t^2}2\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "\\(\\frac{400x^3y^3z^3a^3b^3c^3+16x^2yz+120xy^2z+80xyz^2}{8xyz}\\)", 
+            "text": "\\(\\frac{9t^3}{6t}\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -23,30 +23,30 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(50xyza^3b^3c^3+2x+15y+10z\\)", 
+                "text": "\\(3t^2\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(50a^3b^3c^3+2x+15y+10z\\)", 
+                "text": "\\(\\frac{3t}2\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(50x^2y^2z^2+2x+15y+10z\\)", 
+                "text": "\\(\\frac{t^2}2\\)", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              1, 
+              3, 
               0, 
               2, 
-              3
+              1
             ], 
             "correct": {
-              "text": "\\(50x^2y^2z^2a^3b^3c^3+2x+15y+10z\\)", 
+              "text": "\\(\\frac{3t^2}2\\)", 
               "img_url": null, 
               "img": null
             }
@@ -59,13 +59,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(\\frac{6x^3y-8xy*4}{-xy}\\)</div><div>Taking \\(-xy\\,\\)common from the numerator,</div><div>\\(=\\frac{-xy(8y^3-6x^2)}{-xy}\\)</div><div>Dividing numerator and denominator by \\(-xy\\),</div><div>\\(=8y^3-6x^2\\)</div>", 
+            "text": "<div>\\(\\frac{-228x^4yz}{12x^2y}\\)</div><div>Taking \\(12x^2y\\,\\)common in the numerator and denominator,</div><div>\\(=\\frac{-19x^2z(12x^2y)}{(12x^2y)}\\)</div><div>Dividing numerator and denominator by \\(12x^2y,\\)</div><div>\\(=-19x^2z\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "\\(\\frac{6x^3y-8xy^4}{-xy}\\)", 
+            "text": "\\(\\frac{-228x^4yz}{12x^2y}\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -73,17 +73,67 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(8x^3-6y^2\\)", 
+                "text": "\\(\\frac{-19x^2}z\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(8y^2-6x^3\\)", 
+                "text": "\\(19xz\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(8xy^3-6x^2y\\)", 
+                "text": "\\(19x^2z\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              1, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(-19x^2z\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(\\frac{245x^2ac}{5x^4a}\\)</div><div>Taking \\(5x^2a\\,\\)common in the numerator and the denominator,</div><div>\\(=\\frac{49c(5x^2a)}{x^2(5x^2a)}\\)</div><div>Dividing numerator and denominator by \\(5x^2a,\\)</div><div>\\(=\\frac{49c}{x^2}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(\\frac{245x^2ac}{5x^4a}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(\\frac{49ac}{x^2}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(\\frac{49c}x\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(\\frac{49}{x^2}\\)", 
                 "img_url": null, 
                 "img": null
               }
@@ -91,12 +141,355 @@
             "use_dropdown_widget": false, 
             "order": [
               1, 
-              2, 
+              0, 
               3, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(\\frac{49c}{x^2}\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 113, 
+      "container": {
+        "content": {
+          "text": "Divide the following expressions : ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          141, 
+          142, 
+          143
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(15(x-2)\\)</div><div>\\(15x-(15\\times 2)\\)</div><div>\\(\\neq 15x-2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(15(x-2)=15x-2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Correct", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
               0
             ], 
             "correct": {
-              "text": "\\(8y^3-6x^2\\)", 
+              "text": "Incorrect", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Consider RHS</div><div>\\(=(4+19)xy\\)</div><div>\\(=4xy+19xy\\)</div><div>\\(\\neq 4x+19y\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(4x+19y=(4+19)xy\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Correct", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "Incorrect", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Consider LHS</div><div>\\(=13x+13x\\)</div><div>\\(=26x\\)</div><div>\\(\\neq 13x^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(13x+13x=13x^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Correct", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "Incorrect", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Consider LHS</div><div>\\(=(2-y)^2\\)</div><div>\\(=4-4y+y^2\\)</div><div>\\(\\neq 4-y^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "\\((2-y)^2=4-y^2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Correct", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "Incorrect", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Consider LHS</div><div>\\(=\\frac{15a^2}{15a^2}\\)</div><div>\\(=1\\)</div><div>\\(\\neq 0\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "\\(\\frac{15a^2}{15a^2}=0\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Correct", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "Incorrect", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Consider LHS</div><div>\\(=\\frac{5}{5x+10x}\\)</div><div>\\(=\\frac{5}{5(x+2x)}\\)</div><div>\\(=\\frac1{x+2x}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 5, 
+          "content": {
+            "text": "\\(\\frac{5}{5x+10x}=\\frac1{(x+2x)}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Incorrect", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "Correct", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 118, 
+      "container": {
+        "content": {
+          "text": "Categorise the following as correct or incorrect.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          191, 
+          192, 
+          193, 
+          194, 
+          195, 
+          196
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(\\frac{216x^3y^3z^3a^3b^3c^3+12x^2yx+54xy^2z+72xyz^2}{6xyz}\\)</div><div>Taking \\(6xyz\\,\\)common in the numerator,</div><div>\\(=\\frac{6xyz(36x^2y^2z^2a^3b^3c^3)+6xyz(2x)+6xyz(9y)+6xyz(12z)}{6xyz}\\)</div><div>Dividing numerator and denominator by \\(6xyz\\),</div><div>\\(=36x^2y^2z^2a^3b^3c^3+2x+9y+12z\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(\\frac{216x^3y^3z^3a^3b^3c^3+12x^2yz+54xy^2z+72xyz^2}{6xyz}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(36xyza^3b^3c^3+2x+9y+12z\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(36a^3b^3c^3+2x+9y+12z\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(36x^2y^2z^2+2x+9y+12z\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              0, 
+              2, 
+              3
+            ], 
+            "correct": {
+              "text": "\\(36x^2y^2z^2a^3b^3c^3+2x+9y+12z\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>\\(\\frac{5x^3y-16xy*4}{-xy}\\)</div><div>Taking \\(-xy\\,\\)common from the numerator,</div><div>\\(=\\frac{-xy(16y^3-5x^2)}{-xy}\\)</div><div>Dividing numerator and denominator by \\(-xy\\),</div><div>\\(=16y^3-5x^2\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(\\frac{5x^3y-16xy^4}{-xy}\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(16x^3-5y^2\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(16y^2-5x^3\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(16xy^3-5x^2y\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              0, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(16y^3-5x^2\\)", 
               "img_url": null, 
               "img": null
             }
@@ -140,10 +533,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
-              1, 
+              3, 
               0, 
-              3
+              2, 
+              1
             ], 
             "correct": {
               "text": "\\(\\frac{5a^3}3 + 3a^2 + \\frac{7a}3 + 1\\)", 
@@ -177,13 +570,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(\\frac{35x^2+(84-20)x-48}{7x-4}\\)</div><div>\\(=\\frac{35x^2+84x-20x-48}{7x-4}\\)</div><div>Taking \\(7x\\,\\) and \\(4\\) commmon,</div><div>\\(=\\frac{7x(5x+12)-4(5x+12)}{7x-4}\\)</div><div>\\(=\\frac{(7x-4)(5x+12)}{7x-4}\\)</div><div>Dividing the numerator and denominator by \\(7x-4\\),</div><div>\\(=5x+12\\)</div>", 
+            "text": "<div>\\(\\frac{25x^2+(60-20)x-48}{5x-4}\\)</div><div>\\(=\\frac{25x^2+60x-20x-48}{5x-4}\\)</div><div>Taking \\(5x\\,\\) and \\(4\\) commmon,</div><div>\\(=\\frac{5x(5x+12)-4(5x+12)}{5x-4}\\)</div><div>\\(=\\frac{(5x-4)(5x+12)}{5x-4}\\)</div><div>Dividing the numerator and denominator by \\(5x-4\\),</div><div>\\(=5x+12\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "\\(\\frac{35x^2+(84-20)x-48}{7x-4}\\)", 
+            "text": "\\(\\frac{25x^2+(60-20)x-48}{5x-4}\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -210,8 +603,8 @@
             "order": [
               3, 
               2, 
-              0, 
-              1
+              1, 
+              0
             ], 
             "correct": {
               "text": "\\(5x+12\\)", 
@@ -227,13 +620,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div>\\(\\frac{5t^4-5s^4}{t-s}\\)</div><div>Consider that LHS \\(=5t^4-5s^4\\)</div><div>\\(=5(t^4-s^4)\\)</div><div>\\(=5(t^2-s^2)(t^2+s^2)\\,\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=5(t-s)(t+s)(t^2+s^2)\\,\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>Therefore,</div><div>\\(\\frac{5t^4-5s^4}{t-s}\\)</div><div>\\(=\\frac{5(t-s)(t+s)(t^2+s^2)}{t-s}\\)</div><div>Dividing numerator and denominator by \\((t-s)\\),</div><div>\\(=5(t+s)(t^2+s^2)\\)</div>", 
+            "text": "<div>\\(\\frac{18t^4-18s^4}{t-s}\\)</div><div>Consider that LHS \\(=18t^4-18s^4\\)</div><div>\\(=18(t^4-s^4)\\)</div><div>\\(=18(t^2-s^2)(t^2+s^2)\\,\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>\\(=18(t-s)(t+s)(t^2+s^2)\\,\\)[Using identity \\(a^2-b^2=(a-b)(a+b)\\)]</div><div>Therefore,</div><div>\\(\\frac{18t^4-18s^4}{t-s}\\)</div><div>\\(=\\frac{18(t-s)(t+s)(t^2+s^2)}{t-s}\\)</div><div>Dividing numerator and denominator by \\((t-s)\\),</div><div>\\(=18(t+s)(t^2+s^2)\\)</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "\\(\\frac{5t^4-5s^4}{t-s}\\)", 
+            "text": "\\(\\frac{18t^4-18s^4}{t-s}\\)", 
             "img_url": null, 
             "img": null
           }, 
@@ -241,30 +634,30 @@
           "options": {
             "incorrect": [
               {
-                "text": "\\(5(t-s)(t^2+s^2)\\)", 
+                "text": "\\(18(t-s)(t^2+s^2)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(5(t+s)(t^2-s^2)\\)", 
+                "text": "\\(18(t+s)(t^2-s^2)\\)", 
                 "img_url": null, 
                 "img": null
               }, 
               {
-                "text": "\\(5(t-s)(t^2-s^2)\\)", 
+                "text": "\\(18(t-s)(t^2-s^2)\\)", 
                 "img_url": null, 
                 "img": null
               }
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              1, 
-              2, 
+              0, 
               3, 
-              0
+              1, 
+              2
             ], 
             "correct": {
-              "text": "\\(5(t+s)(t^2+s^2)\\)", 
+              "text": "\\(18(t+s)(t^2+s^2)\\)", 
               "img_url": null, 
               "img": null
             }
@@ -308,10 +701,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              1, 
-              3, 
               2, 
-              0
+              0, 
+              3, 
+              1
             ], 
             "correct": {
               "text": "\\(a^{4x}+b^{4y}-a^{2x}b^{2y}\\)", 
@@ -335,468 +728,75 @@
         ], 
         "hint": null
       }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\(20(x-2)\\)</div><div>\\(20x-(20\\times 2)\\)</div><div>\\(\\neq 20x-2\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "\\(20(x-2)=20x-2\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Correct", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": true, 
-            "order": [
-              0, 
-              1
-            ], 
-            "correct": {
-              "text": "Incorrect", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Consider RHS</div><div>\\(=(10+19)xy\\)</div><div>\\(=10xy+19xy\\)</div><div>\\(\\neq 10x+19y\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "\\(10x+19y=(10+19)xy\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Correct", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": true, 
-            "order": [
-              0, 
-              1
-            ], 
-            "correct": {
-              "text": "Incorrect", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Consider LHS</div><div>\\(=3x+3x\\)</div><div>\\(=6x\\)</div><div>\\(\\neq 3x^2\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "\\(3x+3x=3x^2\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Correct", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": true, 
-            "order": [
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": "Incorrect", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Consider LHS</div><div>\\(=(6-y)^2\\)</div><div>\\(=36-12y+y^2\\)</div><div>\\(\\neq 36-y^2\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "\\((6-y)^2=36-y^2\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Correct", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": true, 
-            "order": [
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": "Incorrect", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Consider LHS</div><div>\\(=\\frac{16a^2}{16a^2}\\)</div><div>\\(=1\\)</div><div>\\(\\neq 0\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 4, 
-          "content": {
-            "text": "\\(\\frac{16a^2}{16a^2}=0\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Correct", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": true, 
-            "order": [
-              0, 
-              1
-            ], 
-            "correct": {
-              "text": "Incorrect", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Consider LHS</div><div>\\(=\\frac{4}{4x+8x}\\)</div><div>\\(=\\frac{4}{4(x+2x)}\\)</div><div>\\(=\\frac1{x+2x}\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 5, 
-          "content": {
-            "text": "\\(\\frac{4}{4x+8x}=\\frac1{(x+2x)}\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Incorrect", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": true, 
-            "order": [
-              0, 
-              1
-            ], 
-            "correct": {
-              "text": "Correct", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }
-      ], 
-      "pk": 118, 
-      "container": {
-        "content": {
-          "text": "Categorise the following as correct or incorrect.", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          191, 
-          192, 
-          193, 
-          194, 
-          195, 
-          196
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\(\\frac{42t^3}{28t}\\)</div><div>Taking \\(14t\\,\\)common in the numerator and denominator,</div><div>\\(=\\frac{(3)t^2(14t)}{(2)(14t)}\\)</div><div>Dividing numerator and denominator by \\(14t,\\)</div><div>\\(=\\frac{3t^2}2\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "\\(\\frac{42t^3}{28t}\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\(3t^2\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(\\frac{3t}2\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(\\frac{t^2}2\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              1, 
-              2, 
-              0
-            ], 
-            "correct": {
-              "text": "\\(\\frac{3t^2}2\\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": {
-            "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\(\\frac{-209x^4yz}{11x^2y}\\)</div><div>Taking \\(11x^2y\\,\\)common in the numerator and denominator,</div><div>\\(=\\frac{-19x^2z(11x^2y)}{(11x^2y)}\\)</div><div>Dividing numerator and denominator by \\(11x^2y,\\)</div><div>\\(=-19x^2z\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "\\(\\frac{-209x^4yz}{11x^2y}\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\(\\frac{-19x^2}z\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(19xz\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(19x^2z\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              2, 
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": "\\(-19x^2z\\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": {
-            "text": "<div>Terms common to both the numerator and denominator can be cancelled.</div><div>For example : </div><div>\\(\\frac{x^3abc}{xab},\\,\\)where x, a, b, c are non-zero integers; can be expressed as</div><div>\\('x^2c'\\,\\)because \\('xab'\\,\\)is the common term for the numerator and denominator.</div> ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>\\(\\frac{336x^2ac}{6x^4a}\\)</div><div>Taking \\(6x^2a\\,\\)common in the numerator and the denominator,</div><div>\\(=\\frac{56c(6x^2a)}{x^2(6x^2a)}\\)</div><div>Dividing numerator and denominator by \\(6x^2a,\\)</div><div>\\(=\\frac{56c}{x^2}\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "\\(\\frac{336x^2ac}{6x^4a}\\)", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\(\\frac{56ac}{x^2}\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(\\frac{56c}x\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\(\\frac{56}{x^2}\\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              2, 
-              1, 
-              0
-            ], 
-            "correct": {
-              "text": "\\(\\frac{56c}{x^2}\\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }
-      ], 
-      "pk": 113, 
-      "container": {
-        "content": {
-          "text": "Divide the following expressions : ", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          141, 
-          142, 
-          143
-        ], 
-        "hint": null
-      }
     }
   ], 
   "answers": [
     [
       {
         "correct": null, 
-        "choice": 1
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 3
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 2
+        "choice": null
       }
     ], 
     [
       {
         "correct": null, 
-        "choice": 2
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 1
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 3
+        "choice": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
       }
     ], 
     [
       {
         "correct": null, 
-        "choice": 0
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 0
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 1
-      }, 
-      {
-        "correct": null, 
-        "choice": 1
-      }, 
-      {
-        "correct": null, 
-        "choice": 0
-      }, 
-      {
-        "correct": null, 
-        "choice": 0
+        "choice": null
       }
     ], 
     [
       {
         "correct": null, 
-        "choice": 3
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 3
+        "choice": null
       }, 
       {
         "correct": null, 
-        "choice": 1
+        "choice": null
       }
     ]
   ]
