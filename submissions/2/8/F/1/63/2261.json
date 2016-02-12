@@ -57,9 +57,9 @@
             "use_dropdown_widget": false, 
             "order": [
               0, 
-              2, 
+              3, 
               1, 
-              3
+              2
             ], 
             "correct": {
               "text": "3:2", 
@@ -102,10 +102,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
-              0, 
               3, 
-              1
+              1, 
+              2, 
+              0
             ], 
             "correct": {
               "text": "3:4", 
@@ -139,7 +139,7 @@
       "container": {
         "content": {
           "text": "The following is the map of a city.Answer the following questions based on the map: ", 
-          "img_url": "/secure-static/YXJseWVuZV9tYXRoZXc6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMTYvaW1nLzUucG5nOnRhVDBtTmlzSXljZGdxTkhWZVF2NnlJV0VyQQ/", 
+          "img_url": "/secure-static/cmV2YW50X2pvc2hpOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvY29udGFpbmVycy8xLzEvOC8xLzE2L2ltZy81LnBuZzp5OGs3OGNrMkFQV3dyMm1YWkFzLU1BYUUteTQ/", 
           "img": "5.png"
         }, 
         "subparts": [
@@ -156,183 +156,79 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>According to the scale, 1cm = 300km of actual distance.</div><div>Thus, 6 cm = 6 x 300 km of actual distance = 1800 km. </div>", 
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=5, V=11. </div><div> Thus 5+11-E=2 </div><div>E=5+11-2 </div><div>Thus the polyhedron has 14 edges.</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "The distance between Pune and Delhi is shown as 6 cm on a map. If the scale on the map is given as 1 cm = 300 km, what is the actual distance in km between Pune and Delhi according to the map? ", 
+            "text": "A polyhedron has 5 faces and 11 vertices, how many edges does it have? ", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "1800"
+            "value": "14"
           }, 
           "type": 3, 
-          "unit": "Km"
+          "unit": null
         }, 
         {
           "hint": null, 
           "solution": {
-            "text": "<div> 1 km = 100000 cm </div><div> Actual height= 8.800km = 8.800 x 100000 cm </div><div> Height on map = 4.4 cm </div><div> Scale= Height on map/Actual height = \\(4.4/(8.800 \\times 10^5)\\) = \\( 5: 10^6\\)</div>", 
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=9, E=18. </div><div> Thus 9+V-18=2 </div><div> V=9+2 </div><div> Thus the polyhedron has 11 vertices.</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "The actual height of Mount Everest is 8.800 km, and its height is 4.4 cm represented on a map. What is the scale used for the map?", 
+            "text": "Find the number of vertices of a polyhedron with 9 faces and 18 edges.", 
             "img_url": null, 
             "img": null
           }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\( 5:10^5 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 1: 10^6 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 5: 10^{7} \\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              1, 
-              0, 
-              2
-            ], 
-            "correct": {
-              "text": "\\( 5: 10^6 \\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
+          "answer": {
+            "tolerance": null, 
+            "value": "11"
+          }, 
+          "type": 3, 
+          "unit": null
         }, 
         {
           "hint": null, 
           "solution": {
-            "text": "<div> According to scale, 1 cm in the map = 10 m actual distance. </div><div> Thus, 1000 cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, 5m shown on map, actual distance = 5 x 1000 m = 5 km. </div>", 
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=20, E=40.</div><div> Thus F+20-40=2 </div><div> F=20+2</div><div>Thus the polyhedron has 22 faces. </div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "The scale on a map is given as 1cm = 10m. Find the actual distance in km for 5 m shown on the map.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "5"
-          }, 
-          "type": 3, 
-          "unit": "Km"
-        }
-      ], 
-      "pk": 284, 
-      "container": {
-        "content": {
-          "text": "Solve the following: ", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          60, 
-          61, 
-          62
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=20, V=17. </div><div> Thus 20+17-E=2 </div><div>E=20+17-2 </div><div>Thus the polyhedron has 35 edges.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "A polyhedron has 20 faces and 17 vertices, how many edges does it have? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "35"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=17, E=34. </div><div> Thus 17+V-34=2 </div><div> V=17+2 </div><div> Thus the polyhedron has 19 vertices.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "Find the number of vertices of a polyhedron with 17 faces and 34 edges.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "19"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=7, E=14.</div><div> Thus F+7-14=2 </div><div> F=7+2</div><div>Thus the polyhedron has 9 faces. </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "Find the number of faces of a polyhedron with 14 edges and 7 vertices", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "9"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=12. </div><div> Thus 12+12-E=2 </div><div> E=24-2</div><div> Hence, the polyhedron has 22 edges. </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "In a solid with faces=vertices=12, the number of edges is? ", 
+            "text": "Find the number of faces of a polyhedron with 40 edges and 20 vertices", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
             "value": "22"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=9. </div><div> Thus 9+9-E=2 </div><div> E=18-2</div><div> Hence, the polyhedron has 16 edges. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "In a solid with faces=vertices=9, the number of edges is? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "16"
           }, 
           "type": 3, 
           "unit": null
@@ -366,9 +262,9 @@
             ], 
             "order": [
               3, 
+              0, 
               1, 
-              2, 
-              0
+              2
             ], 
             "correct": [
               {
@@ -438,10 +334,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              1, 
               2, 
-              3, 
-              0
+              0, 
+              1, 
+              3
             ], 
             "correct": {
               "text": "Parallelograms", 
@@ -484,10 +380,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
               0, 
               3, 
-              1
+              1, 
+              2
             ], 
             "correct": {
               "text": "Triangles", 
@@ -545,8 +441,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              2, 
               1, 
+              2, 
               0
             ], 
             "correct": {
@@ -590,9 +486,9 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              0, 
-              3, 
               1, 
+              3, 
+              0, 
               2
             ], 
             "correct": {
@@ -631,9 +527,9 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              1, 
+              0, 
               2, 
-              0
+              1
             ], 
             "correct": {
               "text": "False", 
@@ -670,10 +566,10 @@
               }
             ], 
             "order": [
-              3, 
-              0, 
+              2, 
               1, 
-              2
+              3, 
+              0
             ], 
             "correct": [
               {
@@ -708,31 +604,121 @@
         ], 
         "hint": null
       }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to the scale, 1cm = 300km of actual distance.</div><div>Thus, 8 cm = 8 x 300 km of actual distance = 2400 km. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The distance between Pune and Delhi is shown as 8 cm on a map. If the scale on the map is given as 1 cm = 300 km, what is the actual distance in km between Pune and Delhi according to the map? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2400"
+          }, 
+          "type": 3, 
+          "unit": "Km"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> 1 km = 100000 cm </div><div> Actual height= 8.800km = 8.800 x 100000 cm </div><div> Height on map = 4.4 cm </div><div> Scale= Height on map/Actual height = \\(4.4/(8.800 \\times 10^5)\\) = \\( 5: 10^6\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "The actual height of Mount Everest is 8.800 km, and its height is 4.4 cm represented on a map. What is the scale used for the map?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\( 5:10^5 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 1: 10^6 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 5: 10^{7} \\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              0, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "\\( 5: 10^6 \\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> According to scale, 1 cm in the map = 30 m actual distance. </div><div> Thus, 3000 cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, 10m shown on map, actual distance = 10 x 3000 m = 30 km. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "The scale on a map is given as 1cm = 30m. Find the actual distance in km for 10 m shown on the map.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "30"
+          }, 
+          "type": 3, 
+          "unit": "Km"
+        }
+      ], 
+      "pk": 284, 
+      "container": {
+        "content": {
+          "text": "Solve the following: ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          60, 
+          61, 
+          62
+        ], 
+        "hint": null
+      }
     }
   ], 
   "answers": [
     [
       {
-        "correct": true, 
-        "value": "6"
-      }, 
-      {
-        "correct": false, 
-        "choice": 2
-      }, 
-      {
-        "correct": true, 
-        "choice": 1
-      }, 
-      {
-        "correct": true, 
-        "value": "8"
-      }
-    ], 
-    [
-      {
         "correct": false, 
         "value": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
       }, 
       {
         "correct": false, 
@@ -762,22 +748,17 @@
       }, 
       {
         "correct": false, 
-        "choices": [
-          0, 
-          1, 
-          2, 
-          3
-        ]
+        "choices": []
       }
     ], 
     [
       {
-        "correct": true, 
-        "choice": 3
+        "correct": false, 
+        "choice": null
       }, 
       {
-        "correct": true, 
-        "choice": 1
+        "correct": false, 
+        "choice": null
       }, 
       {
         "correct": false, 
@@ -789,7 +770,7 @@
       }, 
       {
         "correct": false, 
-        "choice": 2
+        "choice": null
       }, 
       {
         "correct": false, 
@@ -797,9 +778,21 @@
       }, 
       {
         "correct": false, 
-        "choices": [
-          1
-        ]
+        "choices": []
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
       }
     ]
   ]

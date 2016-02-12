@@ -5,408 +5,6 @@
         {
           "hint": null, 
           "solution": {
-            "text": "There are 6 parallelograms (gardens) in the city.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "The number of gardens in the city are:", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "6"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>There are 9 schools (triangles) and 6 gardens (parallelograms) in the city. </div><div>Thus ratio of schools to gardens = number of schools/number of gardens </div><div>=9/6=3/2=3:2 </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "The ratio of the number of schools to the number of gardens is: ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "2:3", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "1:3", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "3:1", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              0, 
-              2, 
-              1, 
-              3
-            ], 
-            "correct": {
-              "text": "3:2", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>There are 6 gardens (parallelograms) and 8 societies (triangles) in the city. </div><div>Thus ratio of gardens to societies = number of gardens/number of societies </div><div>=6/8=3/4=3:4 </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "The ratio of number of garden to the number of societies is:", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "4:3", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "2:3", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "3:2", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              0, 
-              3, 
-              1
-            ], 
-            "correct": {
-              "text": "3:4", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "There are 8 hexagons (societies) in the city.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "The number of societies in the city are: ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "8"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 283, 
-      "container": {
-        "content": {
-          "text": "The following is the map of a city.Answer the following questions based on the map: ", 
-          "img_url": "/secure-static/YXJseWVuZV9tYXRoZXc6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9jb250YWluZXJzLzEvMS84LzEvMTYvaW1nLzUucG5nOnRhVDBtTmlzSXljZGdxTkhWZVF2NnlJV0VyQQ/", 
-          "img": "5.png"
-        }, 
-        "subparts": [
-          50, 
-          51, 
-          52, 
-          53
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to the scale, 1cm = 300km of actual distance.</div><div>Thus, 6 cm = 6 x 300 km of actual distance = 1800 km. </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "The distance between Pune and Delhi is shown as 6 cm on a map. If the scale on the map is given as 1 cm = 300 km, what is the actual distance in km between Pune and Delhi according to the map? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "1800"
-          }, 
-          "type": 3, 
-          "unit": "Km"
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> 1 km = 100000 cm </div><div> Actual height= 8.800km = 8.800 x 100000 cm </div><div> Height on map = 4.4 cm </div><div> Scale= Height on map/Actual height = \\(4.4/(8.800 \\times 10^5)\\) = \\( 5: 10^6\\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "The actual height of Mount Everest is 8.800 km, and its height is 4.4 cm represented on a map. What is the scale used for the map?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "\\( 5:10^5 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 1: 10^6 \\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( 5: 10^{7} \\)", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              3, 
-              1, 
-              0, 
-              2
-            ], 
-            "correct": {
-              "text": "\\( 5: 10^6 \\)", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> According to scale, 1 cm in the map = 10 m actual distance. </div><div> Thus, 1000 cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, 5m shown on map, actual distance = 5 x 1000 m = 5 km. </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "The scale on a map is given as 1cm = 10m. Find the actual distance in km for 5 m shown on the map.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "5"
-          }, 
-          "type": 3, 
-          "unit": "Km"
-        }
-      ], 
-      "pk": 284, 
-      "container": {
-        "content": {
-          "text": "Solve the following: ", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          60, 
-          61, 
-          62
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=20, V=17. </div><div> Thus 20+17-E=2 </div><div>E=20+17-2 </div><div>Thus the polyhedron has 35 edges.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "A polyhedron has 20 faces and 17 vertices, how many edges does it have? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "35"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=17, E=34. </div><div> Thus 17+V-34=2 </div><div> V=17+2 </div><div> Thus the polyhedron has 19 vertices.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "Find the number of vertices of a polyhedron with 17 faces and 34 edges.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "19"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=7, E=14.</div><div> Thus F+7-14=2 </div><div> F=7+2</div><div>Thus the polyhedron has 9 faces. </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "Find the number of faces of a polyhedron with 14 edges and 7 vertices", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "9"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=12. </div><div> Thus 12+12-E=2 </div><div> E=24-2</div><div> Hence, the polyhedron has 22 edges. </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 3, 
-          "content": {
-            "text": "In a solid with faces=vertices=12, the number of edges is? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "22"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> If the solid satisfies Euler's Formula, then it is possible for it to be a polyhedron, otherwise it is not. </div><div>Thus for F=15, V=4, E=20, F+V-E=15+4-20=-1, it does not satisfy Euler's Formula and cannot be a polyhedron.</div><div>Similarly, F=14, V=8, E=11, F+V-E = 14+8-11=11, and it also is not a polyhedron.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 4, 
-          "content": {
-            "text": "Which of the following cannot be possible for a polyhedron?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 2, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "F=12, V=5, E=15", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "F=8, V=3, E=9", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "order": [
-              3, 
-              1, 
-              2, 
-              0
-            ], 
-            "correct": [
-              {
-                "text": "F=15, V=4, E=20", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "F=14, V=8, E=11", 
-                "img_url": null, 
-                "img": null
-              }
-            ]
-          }
-        }
-      ], 
-      "pk": 285, 
-      "container": {
-        "content": {
-          "text": "Solve:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          70, 
-          71, 
-          72, 
-          73, 
-          74
-        ], 
-        "hint": null
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "A prism is a polyhedron whose bottom and top faces (known as bases) are congruent polygons and faces known as lateral faces are parallelograms.", 
             "img_url": null, 
             "img": null
@@ -439,9 +37,9 @@
             "use_dropdown_widget": false, 
             "order": [
               1, 
+              0, 
               2, 
-              3, 
-              0
+              3
             ], 
             "correct": {
               "text": "Parallelograms", 
@@ -484,9 +82,9 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
-              0, 
               3, 
+              0, 
+              2, 
               1
             ], 
             "correct": {
@@ -591,9 +189,9 @@
             "use_dropdown_widget": false, 
             "order": [
               0, 
-              3, 
+              2, 
               1, 
-              2
+              3
             ], 
             "correct": {
               "text": "Sphere", 
@@ -631,9 +229,9 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
+              0, 
               1, 
-              2, 
-              0
+              2
             ], 
             "correct": {
               "text": "False", 
@@ -672,8 +270,8 @@
             "order": [
               3, 
               0, 
-              1, 
-              2
+              2, 
+              1
             ], 
             "correct": [
               {
@@ -708,25 +306,439 @@
         ], 
         "hint": null
       }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to the scale, 1cm = 300km of actual distance.</div><div>Thus, 8 cm = 8 x 300 km of actual distance = 2400 km. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The distance between Pune and Delhi is shown as 8 cm on a map. If the scale on the map is given as 1 cm = 300 km, what is the actual distance in km between Pune and Delhi according to the map? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2400"
+          }, 
+          "type": 3, 
+          "unit": "Km"
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> 1 km = 100000 cm </div><div> Actual height= 8.800km = 8.800 x 100000 cm </div><div> Height on map = 4.4 cm </div><div> Scale= Height on map/Actual height = \\(4.4/(8.800 \\times 10^5)\\) = \\( 5: 10^6\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "The actual height of Mount Everest is 8.800 km, and its height is 4.4 cm represented on a map. What is the scale used for the map?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\( 5:10^5 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 1: 10^6 \\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( 5: 10^{7} \\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\( 5: 10^6 \\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> According to scale, 1 cm in the map = 10 m actual distance. </div><div> Thus, 1000 cm = 1 cm on the map</div> <div> \\(\\Rightarrow \\) Therefore, 2m shown on map, actual distance = 2 x 1000 m = 2 km. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "The scale on a map is given as 1cm = 10m. Find the actual distance in km for 2 m shown on the map.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2"
+          }, 
+          "type": 3, 
+          "unit": "Km"
+        }
+      ], 
+      "pk": 284, 
+      "container": {
+        "content": {
+          "text": "Solve the following: ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          60, 
+          61, 
+          62
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=6, V=13. </div><div> Thus 6+13-E=2 </div><div>E=6+13-2 </div><div>Thus the polyhedron has 17 edges.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "A polyhedron has 6 faces and 13 vertices, how many edges does it have? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "17"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=17, E=34. </div><div> Thus 17+V-34=2 </div><div> V=17+2 </div><div> Thus the polyhedron has 19 vertices.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Find the number of vertices of a polyhedron with 17 faces and 34 edges.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "19"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=4, E=8.</div><div> Thus F+4-8=2 </div><div> F=4+2</div><div>Thus the polyhedron has 6 faces. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "Find the number of faces of a polyhedron with 8 edges and 4 vertices", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, F=V=4. </div><div> Thus 4+4-E=2 </div><div> E=8-2</div><div> Hence, the polyhedron has 6 edges. </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "In a solid with faces=vertices=4, the number of edges is? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> If the solid satisfies Euler's Formula, then it is possible for it to be a polyhedron, otherwise it is not. </div><div>Thus for F=15, V=4, E=20, F+V-E=15+4-20=-1, it does not satisfy Euler's Formula and cannot be a polyhedron.</div><div>Similarly, F=14, V=8, E=11, F+V-E = 14+8-11=11, and it also is not a polyhedron.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 4, 
+          "content": {
+            "text": "Which of the following cannot be possible for a polyhedron?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 2, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "F=12, V=5, E=15", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "F=8, V=3, E=9", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": [
+              {
+                "text": "F=15, V=4, E=20", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "F=14, V=8, E=11", 
+                "img_url": null, 
+                "img": null
+              }
+            ]
+          }
+        }
+      ], 
+      "pk": 285, 
+      "container": {
+        "content": {
+          "text": "Solve:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          70, 
+          71, 
+          72, 
+          73, 
+          74
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "There are 6 parallelograms (gardens) in the city.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The number of gardens in the city are:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "6"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>There are 9 schools (triangles) and 6 gardens (parallelograms) in the city. </div><div>Thus ratio of schools to gardens = number of schools/number of gardens </div><div>=9/6=3/2=3:2 </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "The ratio of the number of schools to the number of gardens is: ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "2:3", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "1:3", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "3:1", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              3, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "3:2", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>There are 6 gardens (parallelograms) and 8 societies (triangles) in the city. </div><div>Thus ratio of gardens to societies = number of gardens/number of societies </div><div>=6/8=3/4=3:4 </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "The ratio of number of garden to the number of societies is:", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "4:3", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "2:3", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "3:2", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              2, 
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "3:4", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "There are 8 hexagons (societies) in the city.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 3, 
+          "content": {
+            "text": "The number of societies in the city are: ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "8"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 283, 
+      "container": {
+        "content": {
+          "text": "The following is the map of a city.Answer the following questions based on the map: ", 
+          "img_url": "/secure-static/YWFydXNoaV92ZXJtYTpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL2NvbnRhaW5lcnMvMS8xLzgvMS8xNi9pbWcvNS5wbmc6WHpIQ0JGMENaMVFnejJ6Y053TFpJUE5DZktn/", 
+          "img": "5.png"
+        }, 
+        "subparts": [
+          50, 
+          51, 
+          52, 
+          53
+        ], 
+        "hint": null
+      }
     }
   ], 
   "answers": [
     [
       {
-        "correct": true, 
-        "value": "6"
+        "correct": false, 
+        "choice": null
       }, 
       {
         "correct": false, 
-        "choice": 2
+        "choice": null
       }, 
       {
-        "correct": true, 
-        "choice": 1
+        "correct": false, 
+        "value": null
       }, 
       {
-        "correct": true, 
-        "value": "8"
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choices": []
       }
     ], 
     [
@@ -762,23 +774,10 @@
       }, 
       {
         "correct": false, 
-        "choices": [
-          0, 
-          1, 
-          2, 
-          3
-        ]
+        "choices": []
       }
     ], 
     [
-      {
-        "correct": true, 
-        "choice": 3
-      }, 
-      {
-        "correct": true, 
-        "choice": 1
-      }, 
       {
         "correct": false, 
         "value": null
@@ -789,17 +788,11 @@
       }, 
       {
         "correct": false, 
-        "choice": 2
-      }, 
-      {
-        "correct": false, 
         "choice": null
       }, 
       {
         "correct": false, 
-        "choices": [
-          1
-        ]
+        "value": null
       }
     ]
   ]
