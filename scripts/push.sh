@@ -3,8 +3,8 @@
 # Usage: scripts/push.sh (from hwcentral-cabinet root dir)
 
 echo 'Reverting changes to nginx conf...'
-git reset devops/nginx.conf
-git checkout devops/nginx.conf
+git reset HEAD -- devops/nginx.conf
+git checkout -- devops/nginx.conf
 
 echo "Enter commit message: "
 read msg
