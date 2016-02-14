@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "On folding each square inwards, it forms a cube."
+  }, 
+  "content": {
+    "img": "3.1.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cuboid"
+      }, 
+      {
+        "text": "Triangular prism"
+      }, 
+      {
+        "text": "Square"
+      }
+    ], 
+    "correct": {
+      "text": "Cube"
+    }
+  }
+}

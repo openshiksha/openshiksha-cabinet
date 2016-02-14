@@ -1,0 +1,16 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges. </div><div> Here, V=_{k}_, E=_{{2*k}}_.</div><div> Thus F+_{k}_-_{{2*k}}_=2 </div><div> F=_{k}_+2</div><div>Thus the polyhedron has _{{k+2}}_ faces. </div>"
+  }, 
+  "content": {
+    "text": "Find the number of faces of a polyhedron with _{{2*k}}_ edges and _{k}_ vertices"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "answer": {
+    "value": "_{{k+2}}_"
+  }, 
+  "type": 3
+}

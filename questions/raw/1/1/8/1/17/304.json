@@ -1,0 +1,27 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "On folding the given rectangle circularly along the 2 circles, it forms a cylinder."
+  }, 
+  "content": {
+    "img": "3.5.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cuboid"
+      }, 
+      {
+        "text": "Square Prism"
+      }, 
+      {
+        "text": "Circle"
+      }
+    ], 
+    "correct": {
+      "text": "Cylinder"
+    }
+  }
+}

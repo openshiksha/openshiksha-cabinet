@@ -1,0 +1,47 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area to be Farmed = Area of Plot - Area of the House</div><div>\\(= ab - cd\\)</div><div>\\(= (_{j}_(_{k}_) - _{{k+10}}_(_{l}_)) m^2\\)</div><div>\\(= (_{{j*k}}_ - _{{(k+10)*l}}_) m^2\\)</div><div>\\(=_{{(j*k)-((k+10)*l)}}_ m^2\\)</div>"
+  }, 
+  "content": {
+    "text": "Arnav is a farmer looking to plough his land. He made a diagram of his house (grey colour) but forgot to mention the exact dimensions of the farm area (white colour). Arnav asks you to help him calculate the area that he needs to plough. Use the diagram below to help Arnav calculate the area he needs to plough. a = _{j}_ m, b = _{k}_ m, c = _{{k+10}}_ m, d = _{l}_ m", 
+    "img": "15.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            30, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            80, 
+            120
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(j*k)-((k+10)*l)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^2\\)"
+}

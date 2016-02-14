@@ -1,0 +1,37 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> Cost of one book =Total cost \\(\\div\\) Number of Books</div><div>\\(\\Rightarrow\\) Cost of one book = Rs. \\(\\frac {_{{j*k}}_}{_{{k}}_}\\)</div><div>Hence, Price of a single book= Rs. _{j}_</div>"
+  }, 
+  "content": {
+    "text": "Raghav bought a certain number of books for Rs. _{{j*k}}_. If he bought _{k}_ books, What was the price of a single book?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_", 
+    "unit": "Rs."
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

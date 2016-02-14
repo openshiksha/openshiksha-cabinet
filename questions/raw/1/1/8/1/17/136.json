@@ -1,0 +1,15 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>We know that the difference between the actual and predicted scores is the most in match 6</div><div>Point F1=(6,_{o1}_), Point F2=(6,_{o2}_)</div><div>Difference in scores=_{o1}_-_{o2}_</div><div>_{{o1-o2}}_</div>"
+  }, 
+  "content": {
+    "text": "What was the greatest difference in the predicted and actual scores in a single match?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{o1-o2}}_"
+  }, 
+  "type": 3, 
+  "unit": "runs"
+}

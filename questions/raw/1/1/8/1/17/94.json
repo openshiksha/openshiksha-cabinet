@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(_{{l**2}}_x^2+y^2-_{{2*l}}_xy\\)</div><div>\\(=(_{l}_x)^2+y^2-_{{2*l}}_xy\\)</div><div>\\(=(_{l}_x-y)^2\\qquad\\)[Using identity \\(a^2+b^2-2ab=(a-b)^2\\)</div><div>\\(=(_{l}_x-y)(_{l}_x-y)\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(_{{l**2}}_x^2+y^2-_{{2*l}}_xy\\)"
+  }, 
+  "variable_constraints": {
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{l}_x+y)(_{l}_x+y)\\)"
+      }, 
+      {
+        "text": "\\((_{l}_x+y)(_{l}_x-y)\\)"
+      }, 
+      {
+        "text": "Cannot be factorised"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{l}_x-y)(_{l}_x-y)\\)"
+    }
+  }
+}

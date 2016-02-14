@@ -39,7 +39,8 @@
     }
   }, 
   "answer": {
-    "value": "_{{trunc(Decimal(j+l)/Decimal(k), 2)}}_"
+    "tolerance": 0.01, 
+    "value": "_{{trunc(Decimal(j+l)/Decimal(k), 3)}}_"
   }, 
   "type": 3
 }

@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Lets say that \\( -(_{k}_)^{-2} \\) is multiplied by y to give \\( \\frac {1}{4 \\times _{k}_^{2}} \\)</div><div>Hence, \\( -(_{k}_)^{-2} \\times y = \\frac {1}{4 \\times _{k}_^2} \\)</div><div>\\( \\Rightarrow \\frac {-1}{_{k}_^2} \\times y = \\frac {1}{4 \\times _{k}_^2} \\)</div><div>Multiplying both sides by \\( (_{k}_)^{2} \\) we get,</div><div> \\( \\Rightarrow -1 \\times y = \\frac {1}{4} \\)</div><div> \\( \\Rightarrow y = \\frac {-1}{4}=-0.25 \\)</div>"
+  }, 
+  "content": {
+    "text": "By what number should \\( -(_{k}_)^{-2} \\)  be multiplied to get \\( \\frac {1}{4 \\times _{k}_^{2}} \\)? "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": -0.25
+  }, 
+  "type": 3
+}

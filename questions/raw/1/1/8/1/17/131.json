@@ -1,0 +1,145 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Observe carefully, the lines of the two graphs coincide at point E.</div><div> Therefore, the predicted score was same as the actual score in the 5th match.</div>"
+  }, 
+  "content": {
+    "text": "<div>A1=(1,_{j1}_), A2=(1,_{j2}_), B1=(2,_{k1}_), B2=(2,_{k2}_), C1=(3,_{l1}_), C2=(3,_{l2}_), D1=(4,_{m1}_), D2=(4,_{m2}_), E=(5,_{n}_), F1=(6,_{o1}_), F2=(6,_{o2}_), G1=(7,_{h1}_), G2=(7,_{h2}_)</div><div>In which match number was the predicted score the same as the actual score?</div>"
+  }, 
+  "variable_constraints": {
+    "h1": {
+      "range": {
+        "include": [
+          [
+            200, 
+            249
+          ]
+        ]
+      }
+    }, 
+    "h2": {
+      "range": {
+        "include": [
+          [
+            250, 
+            299
+          ]
+        ]
+      }
+    }, 
+    "m2": {
+      "range": {
+        "include": [
+          [
+            300, 
+            349
+          ]
+        ]
+      }
+    }, 
+    "j1": {
+      "range": {
+        "include": [
+          [
+            300, 
+            349
+          ]
+        ]
+      }
+    }, 
+    "j2": {
+      "range": {
+        "include": [
+          [
+            250, 
+            299
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            200, 
+            249
+          ]
+        ]
+      }
+    }, 
+    "k2": {
+      "range": {
+        "include": [
+          [
+            300, 
+            349
+          ]
+        ]
+      }
+    }, 
+    "k1": {
+      "range": {
+        "include": [
+          [
+            250, 
+            299
+          ]
+        ]
+      }
+    }, 
+    "l2": {
+      "range": {
+        "include": [
+          [
+            100, 
+            149
+          ]
+        ]
+      }
+    }, 
+    "l1": {
+      "range": {
+        "include": [
+          [
+            150, 
+            199
+          ]
+        ]
+      }
+    }, 
+    "m1": {
+      "range": {
+        "include": [
+          [
+            350, 
+            399
+          ]
+        ]
+      }
+    }, 
+    "o2": {
+      "range": {
+        "include": [
+          [
+            150, 
+            199
+          ]
+        ]
+      }
+    }, 
+    "o1": {
+      "range": {
+        "include": [
+          [
+            300, 
+            349
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 5
+  }, 
+  "type": 3
+}

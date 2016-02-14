@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "Consider that some terms may be the result of a multiplication and can be reorganized into their factors."
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_(x+y)(2x+3y)-_{j}_x^2-_{j}_x-_{j}_xy-_{j}_y\\)</div><div>\\(=_{j}_(x+y)(2x+3y)-_{j}_(x^2+x+xy+y)\\)</div><div>\\(=_{j}_(x+y)(2x+3y)-_{j}_(x+y)(x+1)\\)</div><div>\\(=_{j}_(x+y)(2x+3y-x-1)\\)</div><div>\\(=_{j}_(x+y)(x+3y-1)\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_(x+y)(2x+3y)-_{j}_x^2-_{j}_x-_{j}_xy-_{j}_y\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_(x+y)(x-y)\\)"
+      }, 
+      {
+        "text": "\\((x+y)(x+3y-1)\\)"
+      }, 
+      {
+        "text": "\\((x+y)(_{j}_x+_{{3*j}}_y-1)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_(x+y)(x+3y-1)\\)"
+    }
+  }
+}

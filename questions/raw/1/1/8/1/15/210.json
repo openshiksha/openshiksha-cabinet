@@ -18,21 +18,8 @@
       }
     }
   }, 
-  "type": 1, 
-  "options": {
-    "incorrect": [
-      {
-        "text": "_{j}_"
-      }, 
-      {
-        "text": "_{{3*j}}_"
-      }, 
-      {
-        "text": "_{{22*j}}_"
-      }
-    ], 
-    "correct": {
-      "text": "_{{12*j}}_"
-    }
-  }
+  "answer": {
+    "value": "_{{12*j}}_"
+  }, 
+  "type": 3
 }

@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "If the cells double itself every hour, in 5 hours it would have doubled itself 5 times, find this amount."
+  }, 
+  "solution": {
+    "text": "<div>Initial number cells \\(= _{j}_\\)</div><div>The cells double itself every hour.</div><div>Hence, the number of cells after \\(_{k}_\\) hours will be \\(2^{_{k}_} \\times _{j}_\\)</div><div>\\(=_{{2**k*j}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "The cells of an amoeba double itself every hour. How many cells will there be after \\(_{k}_\\) hours, if initially we start with \\(_{j}_\\) cell?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{2**k*j}}_"
+  }, 
+  "type": 3
+}

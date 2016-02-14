@@ -1,0 +1,31 @@
+{
+  "solution": {
+    "text": "<div>\\((_{j}_t^2 + _{k}_) (_{j}_t^2 + _{l}_)\\)</div><div>Using the identity: \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)</div><div>Where \\(x = _{j}_t^2\\), \\(a = _{k}_\\), \\(b = _{l}_\\)</div><div>= \\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\((_{j}_t^2 + _{k}_) (_{j}_t^2 + _{l}_)\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\) using identity \\((a+b)(a-b) = (a^2 - b^2)\\)"
+      }, 
+      {
+        "text": "\\(_{{j**2}}_t^4 + _{{k*l}}_t^2 + _{{k+l}}_\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
+      }, 
+      {
+        "text": "\\(_{j}_t^2 + _{{(k+l)*j}}_t + _{{k*l}}_\\) using identity \\((a+b)(a-b) = (a^2 - b^2)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j**2}}_t^4 + _{{(k+l)*j}}_t^2 + _{{k*l}}_\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
+    }
+  }
+}

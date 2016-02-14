@@ -1,0 +1,27 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "On folding each triangle inwards, it forms a square pyramid."
+  }, 
+  "content": {
+    "img": "3.4.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Triangular Pyramid"
+      }, 
+      {
+        "text": "Triangular Prism"
+      }, 
+      {
+        "text": "Square Prism"
+      }
+    ], 
+    "correct": {
+      "text": "Square Pyramid"
+    }
+  }
+}

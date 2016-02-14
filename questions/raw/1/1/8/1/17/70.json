@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>According to Euler's Formula, F+V-E=2 where F is the number of faces, V is the number of vertices and E is the number of edges.</div><div> Here, F=_{j}_, V=_{k}_. </div><div> Thus _{j}_+_{k}_-E=2 </div><div>E=_{j}_+_{k}_-2 </div><div>Thus the polyhedron has _{{j+k-2}}_ edges.</div>"
+  }, 
+  "content": {
+    "text": "A polyhedron has _{j}_ faces and _{k}_ vertices, how many edges does it have? "
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j+k-2}}_"
+  }, 
+  "type": 3
+}

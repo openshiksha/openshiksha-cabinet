@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "<div>\\((ab - bc) - (bc - ca) + (ca - ab)\\)</div><div>Answer:</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\((ab - bc) - (bc - ca) + (ca - ab)\\)</div><div>\\(= ab - bc - bc + ca + ca - ab\\)</div><div>\\(= ab - ab - bc - bc + ac + ac\\)</div><div>\\(= 2ac - 2bc\\)</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(2ac - bc - ab\\)"
+      }, 
+      {
+        "text": "\\(2ca - bc\\)"
+      }, 
+      {
+        "text": "\\(2ab - 2bc\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(2ac - 2bc\\) "
+    }
+  }
+}

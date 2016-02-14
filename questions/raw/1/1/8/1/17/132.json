@@ -1,0 +1,14 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>We know, the predicted and actual scores were the same in the 5th match. </div><div>Draw a perpendicular to the y-axis from point E. </div><div>This value reflects the score in that match which is _{n}_ runs</div>"
+  }, 
+  "content": {
+    "text": "Specify the score in the match where the actual score and predicted score were the same."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{n}_"
+  }, 
+  "type": 3
+}

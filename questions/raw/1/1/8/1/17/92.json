@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "<div>Remember that some algebraic expressions can be factorized using identities. These are some common identities : </div><div>\\(a^2+2ab+b^2=(a+b)^2\\)</div><div>\\(a^2-2ab+b^2=(a-b)^2\\)</div><div>\\(a^2-b^2=(a+b)(a-b)\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>\\(t^2+(2 \\times _{j}_\\times t)+{_{j}_}^2\\)</div><div>\\(={(t+_{j}_)}^2\\qquad\\)[Using identity \\(a^2+2ab+b^2=(a+b)^2\\)]</div><div>\\(=(t+_{j}_)(t+_{j}_)\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(t^2+_{{2*j}}_t+_{{j**2}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cannot be factorised"
+      }, 
+      {
+        "text": "\\((t+_{{2*j}}_)(t+_{{2*j}}_)\\)"
+      }, 
+      {
+        "text": "\\(2(t+_{j}_)(t+_{j}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((t+_{j}_)(t+_{j}_)\\)"
+    }
+  }
+}
