@@ -5,128 +5,6 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Can be represented as xy= k where k = 80.</div><div>? = \\(\\frac k{10} = \\frac {80}{10}\\)</div> <div>\\(\\Rightarrow\\) ?= 8</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/dW5uYXRpX2tvaGxpOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNi5wbmc6YmRGU2tJMXVIR0xNMEhTRnBjTGpEOG1UT0Vn/", 
-            "img": "6.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "8"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> Can be represented as xy= k where k = 325.</div><div>? = \\(\\frac k{1} = \\frac {325}{1}\\)</div> <div>\\(\\Rightarrow\\) ?= 325</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/dW5uYXRpX2tvaGxpOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNy5wbmc6Rzl0SElrQm9MdmdJMTVydHlVbzhFa1RsWnpB/", 
-            "img": "7.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "325"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> Can be represented as xy= k where k = 588.</div><div> ? = \\(\\frac k{2} = \\frac {588}{2}\\)</div> <div>\\(\\Rightarrow\\) ?= 294</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/dW5uYXRpX2tvaGxpOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvOC5wbmc6bWtCOWdReVl2TkVlN05GdHhmbTdyMzJKdjFF/", 
-            "img": "8.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "294"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 134, 
-      "container": {
-        "content": {
-          "text": "Fill the unknown quantity in the following tables considering X and Y are inversely proportional:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          25, 
-          26, 
-          27
-        ], 
-        "hint": {
-          "text": "Remember that any two quantities that can be represented as xy=k, where k is a proportionality constant are inversely proportional to each other.", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> Since the distance of the race is a constant = 1600 m </div><div> Therefore, we know the number of participants taking part and distance each participant runs are inversely proportional</div><div> Number of participants x distance each runs = total distance of race</div><div> 12  \\(\\times\\) Distance run by each participant = 1600</div><div> Distance run by each participant = \\( \\frac{1600}{12}\\)</div><div>\\(\\Rightarrow\\) Distance run by each participant = 133 m</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "A 1600 metre relay race, has 4 participants in each team. Due to bad organisation, 3 times the participants come from each school and the rules are changed such that now each team has 12 participants. How much distance does each participant run?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": 0.1, 
-            "value": "133"
-          }, 
-          "type": 3, 
-          "unit": "m"
-        }
-      ], 
-      "pk": 137, 
-      "container": {
-        "content": {
-          "text": "Answer the question below:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          33
-        ], 
-        "hint": {
-          "text": "The number of participants taking part and the distance each participant runs are inversely proportional.", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "<div>Yes</div><div>Can be represented as xy = k as field size is constant.</div><div> So, as the number of buffaloes (x) increases the number of days they take to finish grazing (y) decreases and vice versa </div><div> The two quantities are inversely proportional.</div>", 
             "img_url": null, 
             "img": null
@@ -148,8 +26,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              1, 
-              0
+              0, 
+              1
             ], 
             "correct": {
               "text": "Yes", 
@@ -182,8 +60,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              0, 
-              1
+              1, 
+              0
             ], 
             "correct": {
               "text": "No", 
@@ -216,8 +94,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              0, 
-              1
+              1, 
+              0
             ], 
             "correct": {
               "text": "Yes", 
@@ -250,8 +128,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              0, 
-              1
+              1, 
+              0
             ], 
             "correct": {
               "text": "Yes", 
@@ -286,25 +164,25 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Since the total number of workers = 20</div><div>Workers who leave the team = 10</div><div> Therefore, Workers left for the second time = 20- 10 = 10</div><div> Since the numbers of workers and number of days to finish the job are inversely proportional we get,</div><div>\\( 160  \\times 20\\) = Constant</div><div>\\(10  \\times \\) (No. of days to complete job second time) = Constant</div><div> Therefore,\\( 160 \\times 20 = 10 \\times \\) (No. of days to complete job second time) </div><div>Number of days to complete job second time =\\( \\frac {160 \\times  20}{10} \\)</div><div>\\(\\Rightarrow\\) Number of days to complete the job second time = 320</div>", 
+            "text": "<div> Since the distance of the race is a constant = 1200 m </div><div> Therefore, we know the number of participants taking part and distance each participant runs are inversely proportional</div><div> Number of participants x distance each runs = total distance of race</div><div> 12  \\(\\times\\) Distance run by each participant = 1200</div><div> Distance run by each participant = \\( \\frac{1200}{12}\\)</div><div>\\(\\Rightarrow\\) Distance run by each participant = 100 m</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "You are a contractor and are given a contract to pave a road. It takes you 20 trained workers and 160 days to finish the job. Unfortunately there is a problem and you must redo all the work again. 10 workers leave your team. How much time will it take the remaining to redo the work and complete the job for a second time?", 
-            "img_url": "/secure-static/dW5uYXRpX2tvaGxpOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvOS5wbmc6cUVnOVNLaFFxV1lieXFBR2puSzlWVUtULUJv/", 
-            "img": "9.png"
+            "text": "A 1200 metre relay race, has 4 participants in each team. Due to bad organisation, 3 times the participants come from each school and the rules are changed such that now each team has 12 participants. How much distance does each participant run?", 
+            "img_url": null, 
+            "img": null
           }, 
           "answer": {
-            "tolerance": null, 
-            "value": "320"
+            "tolerance": 0.1, 
+            "value": "100"
           }, 
           "type": 3, 
-          "unit": null
+          "unit": "m"
         }
       ], 
-      "pk": 135, 
+      "pk": 137, 
       "container": {
         "content": {
           "text": "Answer the question below:", 
@@ -312,10 +190,10 @@
           "img": null
         }, 
         "subparts": [
-          28
+          33
         ], 
         "hint": {
-          "text": "The total number of workers and the number of days to finish the job are inversely proportional", 
+          "text": "The number of participants taking part and the distance each participant runs are inversely proportional.", 
           "img_url": null, 
           "img": null
         }
@@ -326,19 +204,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since X and Y are inversely proportional XY = K</div><div>Therefore, K  =\\( 120 \\times 10 = 1200\\)</div><div> Hence, when x = \\(600\\)</div><div> y =\\( \\frac {1200}{600}\\)</div><div>\\(\\Rightarrow\\) y = 2</div>", 
+            "text": "<div> Since X and Y are inversely proportional XY = K</div><div>Therefore, K  =\\( 160 \\times 20 = 3200\\)</div><div> Hence, when x = \\(800\\)</div><div> y =\\( \\frac {3200}{800}\\)</div><div>\\(\\Rightarrow\\) y = 4</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "x= 120 when y = 10. Find y when x = 600.", 
+            "text": "x= 160 when y = 20. Find y when x = 800.", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "2"
+            "value": "4"
           }, 
           "type": 3, 
           "unit": null
@@ -346,13 +224,13 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Since X and Y are inversely proportional XY = K</div><div> Therefore, K  = \\( 6 \\times 48 = 288 \\)</div><div> Hence, when x = 2</div><div> y =\\( \\frac {288}{2}\\)</div><div>\\(\\Rightarrow\\) y= 144</div>", 
+            "text": "<div>Since X and Y are inversely proportional XY = K</div><div> Therefore, K  = \\( 30 \\times 48 = 1440 \\)</div><div> Hence, when x = 10</div><div> y =\\( \\frac {1440}{10}\\)</div><div>\\(\\Rightarrow\\) y= 144</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "x= 6 when y = 48. Find y when x = 2.", 
+            "text": "x= 30 when y = 48. Find y when x = 10.", 
             "img_url": null, 
             "img": null
           }, 
@@ -366,13 +244,13 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since X and Y are inversely proportional XY = K</div><div> Therefore, K  \\(= 1587 \\times  20 = 31740 \\)</div><div> Hence, when y \\(= 69\\)</div><div> x \\(= \\frac {31740}{69}\\)</div><div>\\(\\Rightarrow\\) x = 460</div>", 
+            "text": "<div> Since X and Y are inversely proportional XY = K</div><div> Therefore, K  \\(= 3174 \\times  20 = 63480 \\)</div><div> Hence, when y \\(= 138\\)</div><div> x \\(= \\frac {63480}{138}\\)</div><div>\\(\\Rightarrow\\) x = 460</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "x = 1587 when y = 20. Find x when y= 69", 
+            "text": "x = 3174 when y = 20. Find x when y= 138", 
             "img_url": null, 
             "img": null
           }, 
@@ -408,36 +286,36 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since Number of workers  and number of days are inversely proportional XY = K</div><div> Therefore, K  \\(= 1 \\times 30\\)</div><div>Now, 24 hours = 1 day</div><div>Therefore number of workers to complete job in one day \\(= \\frac K1 = \\frac {30}{1}\\)</div><div>\\(\\Rightarrow\\) Number of workers = 30</div>", 
+            "text": "<div>Since the total number of workers = 40</div><div>Workers who leave the team = 20</div><div> Therefore, Workers left for the second time = 40- 20 = 20</div><div> Since the numbers of workers and number of days to finish the job are inversely proportional we get,</div><div>\\( 160  \\times 40\\) = Constant</div><div>\\(20  \\times \\) (No. of days to complete job second time) = Constant</div><div> Therefore,\\( 160 \\times 40 = 20 \\times \\) (No. of days to complete job second time) </div><div>Number of days to complete job second time =\\( \\frac {160 \\times  40}{20} \\)</div><div>\\(\\Rightarrow\\) Number of days to complete the job second time = 320</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "One worker can complete a job in 30 days. How many workers will it take to complete the same job in 24 hours? ", 
-            "img_url": null, 
-            "img": null
+            "text": "You are a contractor and are given a contract to pave a road. It takes you 40 trained workers and 160 days to finish the job. Unfortunately there is a problem and you must redo all the work again. 20 workers leave your team. How much time will it take the remaining to redo the work and complete the job for a second time?", 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzkucG5nOnU4UVhHcFFSZXdDSzVJOFN0bzZxeWxiMzJSdw/", 
+            "img": "9.png"
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "30"
+            "value": "320"
           }, 
           "type": 3, 
           "unit": null
         }
       ], 
-      "pk": 140, 
+      "pk": 135, 
       "container": {
         "content": {
-          "text": "Answer the following question:", 
+          "text": "Answer the question below:", 
           "img_url": null, 
           "img": null
         }, 
         "subparts": [
-          40
+          28
         ], 
         "hint": {
-          "text": "The number of workers and the number of days are inversely proportional.", 
+          "text": "The total number of workers and the number of days to finish the job are inversely proportional", 
           "img_url": null, 
           "img": null
         }
@@ -448,19 +326,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since X and Y are inversely proportional XY = k</div><div>Therefore, \\(\\frac 1a \\times 360= 10 \\times a\\)</div><div>Hence, \\( a^2 = 36\\)</div><div>\\(\\Rightarrow\\) a = 6</div>", 
+            "text": "<div> Can be represented as xy= k where k = 80.</div><div>? = \\(\\frac k{10} = \\frac {80}{10}\\)</div> <div>\\(\\Rightarrow\\) ?= 8</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<div><table class = 'table table-bordered'><tbody><tr><td>X</td><td>\\(\\frac 1a\\)</td><td>10</td><td>b</td><td>80</td></tr><tr><td>Y</td><td> 360</td><td>a</td><td> 180</td><td>c</td></tr></tbody></table></div><div>From the table above, find out the value of a</div>", 
-            "img_url": null, 
-            "img": null
+            "text": null, 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzYucG5nOmhUaUVTWXlubzJxWTQzUS1oNWZqWHlKRl92TQ/", 
+            "img": "6.png"
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "6"
+            "value": "8"
           }, 
           "type": 3, 
           "unit": null
@@ -468,7 +346,89 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Since X and Y are inversely proportional XY = k</div><div> Therefore, b \\( \\times 180 = 10 \\times a\\)</div><div>From previous subpart, \\(a = 6\\)</div><div>b =\\( \\frac {60}{180}\\)</div><div>\\(\\Rightarrow\\) b = 0.3333333333333333333333333333</div>", 
+            "text": "<div> Can be represented as xy= k where k = 325.</div><div>? = \\(\\frac k{1} = \\frac {325}{1}\\)</div> <div>\\(\\Rightarrow\\) ?= 325</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzcucG5nOllPaDhGTUlyZWtac0xhOWR4cENtNkRkS214MA/", 
+            "img": "7.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "325"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> Can be represented as xy= k where k = 588.</div><div> ? = \\(\\frac k{2} = \\frac {588}{2}\\)</div> <div>\\(\\Rightarrow\\) ?= 294</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzgucG5nOi16MmNJVFN0U3FIZzJ1MmV0WVZPVGlHdjNUNA/", 
+            "img": "8.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "294"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 134, 
+      "container": {
+        "content": {
+          "text": "Fill the unknown quantity in the following tables considering X and Y are inversely proportional:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          25, 
+          26, 
+          27
+        ], 
+        "hint": {
+          "text": "Remember that any two quantities that can be represented as xy=k, where k is a proportionality constant are inversely proportional to each other.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> Since X and Y are inversely proportional XY = k</div><div>Therefore, \\(\\frac 1a \\times 1000= 10 \\times a\\)</div><div>Hence, \\( a^2 = 100\\)</div><div>\\(\\Rightarrow\\) a = 10</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div><table class = 'table table-bordered'><tbody><tr><td>X</td><td>\\(\\frac 1a\\)</td><td>10</td><td>b</td><td>80</td></tr><tr><td>Y</td><td> 1000</td><td>a</td><td> 500</td><td>c</td></tr></tbody></table></div><div>From the table above, find out the value of a</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "10"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Since X and Y are inversely proportional XY = k</div><div> Therefore, b \\( \\times 500 = 10 \\times a\\)</div><div>From previous subpart, \\(a = 10\\)</div><div>b =\\( \\frac {100}{500}\\)</div><div>\\(\\Rightarrow\\) b = 0.2</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -480,7 +440,7 @@
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "0.33"
+            "value": "0.2"
           }, 
           "type": 3, 
           "unit": null
@@ -488,7 +448,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Since X and Y are inversely proportional XY = k</div><div> Therefore, \\(80 \\times c = 10 \\times a\\)</div><div> From previous subpart, \\(a = 6\\)</div><div>\\( c = \\frac a8 = \\frac {6}{8}\\)</div><div>\\(\\Rightarrow\\) c= 0.75</div>", 
+            "text": "<div>Since X and Y are inversely proportional XY = k</div><div> Therefore, \\(80 \\times c = 10 \\times a\\)</div><div> From previous subpart, \\(a = 10\\)</div><div>\\( c = \\frac a8 = \\frac {10}{8}\\)</div><div>\\(\\Rightarrow\\) c= 1.25</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -500,7 +460,7 @@
           }, 
           "answer": {
             "tolerance": 0.01, 
-            "value": "0.75"
+            "value": "1.25"
           }, 
           "type": 3, 
           "unit": null
@@ -530,19 +490,59 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since Area is constant, Length and Breadth are inversely proportional. L \\(\\times\\) B = A = K</div><div>Therefore, taking area constant, K = 90 \\(\\times\\) 25  = 2250 cm\\(^2\\)</div><div> Hence, if Length = 50 cm</div><div>Breadth =\\( \\frac {2250}{50}\\)</div><div>\\(\\Rightarrow\\) Breadth = 45 cm</div>", 
+            "text": "<div> Since Number of workers  and number of days are inversely proportional XY = K</div><div> Therefore, K  \\(= 1 \\times 20\\)</div><div>Now, 24 hours = 1 day</div><div>Therefore number of workers to complete job in one day \\(= \\frac K1 = \\frac {20}{1}\\)</div><div>\\(\\Rightarrow\\) Number of workers = 20</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "The length and breadth of a given rectangle are 90 and 25 cm. Given that the area remains constant find the breadth of the rectangle when length is 50 cm.", 
+            "text": "One worker can complete a job in 20 days. How many workers will it take to complete the same job in 24 hours? ", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "45"
+            "value": "20"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 140, 
+      "container": {
+        "content": {
+          "text": "Answer the following question:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          40
+        ], 
+        "hint": {
+          "text": "The number of workers and the number of days are inversely proportional.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> Since Area is constant, Length and Breadth are inversely proportional. L \\(\\times\\) B = A = K</div><div>Therefore, taking area constant, K = 50 \\(\\times\\) 15  = 750 cm\\(^2\\)</div><div> Hence, if Length = 30 cm</div><div>Breadth =\\( \\frac {750}{30}\\)</div><div>\\(\\Rightarrow\\) Breadth = 25 cm</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The length and breadth of a given rectangle are 50 and 15 cm. Given that the area remains constant find the breadth of the rectangle when length is 30 cm.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "25"
           }, 
           "type": 3, 
           "unit": "cm"
@@ -554,13 +554,13 @@
             "img": null
           }, 
           "solution": {
-            "text": "<div> Since Volume is constant, the square of radius of cylinder and height are inversely proportional.</div><div> Pi \\(\\times\\) Radius\\(^2\\) \\(\\times\\) Height = Volume = k. Therefore \\( r^2 \\times h \\)= K [Pi is a constant]</div><div>Therefore, taking case 1,  \\(40^2 \\times 80 \\)= K</div><div> Hence, K= 128000</div><div> If Height= 20 cm</div><div>Radius\\(^2 = \\frac{K}{height}\\)</div><div> Radius\\(^2 = \\frac{128000}{20}\\)</div><div>\\(\\Rightarrow\\) Radius = 80 cm</div>", 
+            "text": "<div> Since Volume is constant, the square of radius of cylinder and height are inversely proportional.</div><div> Pi \\(\\times\\) Radius\\(^2\\) \\(\\times\\) Height = Volume = k. Therefore \\( r^2 \\times h \\)= K [Pi is a constant]</div><div>Therefore, taking case 1,  \\(40^2 \\times 200 \\)= K</div><div> Hence, K= 320000</div><div> If Height= 50 cm</div><div>Radius\\(^2 = \\frac{K}{height}\\)</div><div> Radius\\(^2 = \\frac{320000}{50}\\)</div><div>\\(\\Rightarrow\\) Radius = 80 cm</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 1, 
           "content": {
-            "text": "The volume of a right angle solid cylinder is constant. If the height of the cylinder is 80 and Radius is 40 cm. Find the radius of the cylinder when the height is 20 cm.", 
+            "text": "The volume of a right angle solid cylinder is constant. If the height of the cylinder is 200 and Radius is 40 cm. Find the radius of the cylinder when the height is 50 cm.", 
             "img_url": null, 
             "img": null
           }, 
@@ -574,19 +574,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Since distance between A and B is constant, speed and time are inversely proportional.</div><div> Speed \\(\\times\\) time = Distance = K</div><div> But first we convert all time to minutes. Therefore,</div> <div>1 hour = 60 min</div><div> Time taken by auto rickshaw = 360 min</div><div> Therefore now in case one, K = \\( 360 \\times 30\\)</div><div> K = 10800</div><div> In the case of the car, speed = 120 km/h </div><div>Therefore time taken = \\( \\frac {K}{120} = \\frac {10800}{120}\\)</div><div>\\(\\Rightarrow\\) Time taken by car = 90 min</div>", 
+            "text": "<div>Since distance between A and B is constant, speed and time are inversely proportional.</div><div> Speed \\(\\times\\) time = Distance = K</div><div> But first we convert all time to minutes. Therefore,</div> <div>1 hour = 60 min</div><div> Time taken by auto rickshaw = 300 min</div><div> Therefore now in case one, K = \\( 300 \\times 30\\)</div><div> K = 9000</div><div> In the case of the car, speed = 120 km/h </div><div>Therefore time taken = \\( \\frac {K}{120} = \\frac {9000}{120}\\)</div><div>\\(\\Rightarrow\\) Time taken by car = 75 min</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "An auto rickshaw travels between two places A and B in 6 hours at the constant speed of 30 km/h. If a car travels at constant speed of 120 km/h, How many minutes will it take from A to B?", 
+            "text": "An auto rickshaw travels between two places A and B in 5 hours at the constant speed of 30 km/h. If a car travels at constant speed of 120 km/h, How many minutes will it take from A to B?", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "90"
+            "value": "75"
           }, 
           "type": 3, 
           "unit": "min"
@@ -616,26 +616,6 @@
     [
       {
         "correct": false, 
-        "value": "2"
-      }, 
-      {
-        "correct": false, 
-        "value": null
-      }, 
-      {
-        "correct": false, 
-        "value": null
-      }
-    ], 
-    [
-      {
-        "correct": false, 
-        "value": null
-      }
-    ], 
-    [
-      {
-        "correct": false, 
         "choice": null
       }, 
       {
@@ -686,6 +666,26 @@
         "correct": false, 
         "value": null
       }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
       {
         "correct": false, 
         "value": null

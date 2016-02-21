@@ -60,8 +60,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              1, 
-              0
+              0, 
+              1
             ], 
             "correct": {
               "text": "Yes", 
@@ -164,46 +164,6 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> \\( \\frac{Number\\, of\\, words \\,in\\, hour}{Number \\, of \\, words\\, in \\, a \\,  minute} = 60 \\)</div><div>Therefore Number of words in a minute = \\( \\frac{30000}{60} \\)</div><div>\\( \\Rightarrow \\) Number of words in a minute = 500 </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "The gross words a minute (GWAM) is defined as the number of words a person can type in one minute. Given that you are the fastest typist in the world and can type 30000 words in one hour, what is your GWAM?", 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy8xLnBuZzpCeGw0dHd0X0xidHBjVDdGWEZheC1FR0d3VW8/", 
-            "img": "1.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "500"
-          }, 
-          "type": 3, 
-          "unit": "words"
-        }
-      ], 
-      "pk": 127, 
-      "container": {
-        "content": {
-          "text": "Answer the following question:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          8
-        ], 
-        "hint": {
-          "text": "1 Hour = 60 minutes", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "<div>\\( \\frac XY = k = \\frac 15\\)</div><div>? = \\( k \\times 10\\)</div><div>\\( \\Rightarrow \\) ? = 2</div>", 
             "img_url": null, 
             "img": null
@@ -211,7 +171,7 @@
           "subpart_index": 0, 
           "content": {
             "text": null, 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy8yLnBuZzpFeGtVNkpuc3hqN25jRHNYa19PNEdjOHBRM0k/", 
+            "img_url": "/secure-static/cHJpdGh2aV9rb2xsYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMi5wbmc6bkFtSWctR2tmcGgwNVdVdl94N2NHREpwbm9z/", 
             "img": "2.png"
           }, 
           "answer": {
@@ -231,7 +191,7 @@
           "subpart_index": 1, 
           "content": {
             "text": null, 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy8zLnBuZzpaZjBCbWpxR0RtNWlWd2tfcnJQWGRUcWdrU2M/", 
+            "img_url": "/secure-static/cHJpdGh2aV9rb2xsYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMy5wbmc6UDEyQTExbExjbWdXUS1TRXE0cElDUUNoMWl3/", 
             "img": "3.png"
           }, 
           "answer": {
@@ -251,7 +211,7 @@
           "subpart_index": 2, 
           "content": {
             "text": null, 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy80LnBuZzp3NE5EZGZNN0xTeEVMWEd3b3FpSU1CNzNuY0E/", 
+            "img_url": "/secure-static/cHJpdGh2aV9rb2xsYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNC5wbmc6dVRxSTdzNmVwc0EzaFF6VEJaMDFFbVZZZDR3/", 
             "img": "4.png"
           }, 
           "answer": {
@@ -286,19 +246,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{300}{3} \\)</div><div>Therefore total cost of ticket = \\( 1533 \\times \\frac{300}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. 153300</div>", 
+            "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{200}{3} \\)</div><div>Therefore total cost of ticket = \\( 1533 \\times \\frac{200}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. 102200</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "A plane ticket costs Rs. 300  per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman?", 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy81LnBuZzpVc2Q4Nnd1WWVZdW1RU1VPZTN4UjRZYzdHMEE/", 
+            "text": "A plane ticket costs Rs. 200  per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman?", 
+            "img_url": "/secure-static/cHJpdGh2aV9rb2xsYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNS5wbmc6R01kY0VBMmdSLU9veHFsZHFIVHJobTBraV9r/", 
             "img": "5.png"
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "153300"
+            "value": "102200"
           }, 
           "type": 3, 
           "unit": "Rupees"
@@ -316,6 +276,46 @@
         ], 
         "hint": {
           "text": "The cost of the plane ticket and distance travelled are directly proportional to each other", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> \\( \\frac{Number\\, of\\, words \\,in\\, hour}{Number \\, of \\, words\\, in \\, a \\,  minute} = 60 \\)</div><div>Therefore Number of words in a minute = \\( \\frac{30000}{60} \\)</div><div>\\( \\Rightarrow \\) Number of words in a minute = 500 </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The gross words a minute (GWAM) is defined as the number of words a person can type in one minute. Given that you are the fastest typist in the world and can type 30000 words in one hour, what is your GWAM?", 
+            "img_url": "/secure-static/cHJpdGh2aV9rb2xsYXJhOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMS5wbmc6bDhUSUgyVHFUTEVpanFlNlZaT1Z2c0d4SVow/", 
+            "img": "1.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "500"
+          }, 
+          "type": 3, 
+          "unit": "words"
+        }
+      ], 
+      "pk": 127, 
+      "container": {
+        "content": {
+          "text": "Answer the following question:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          8
+        ], 
+        "hint": {
+          "text": "1 Hour = 60 minutes", 
           "img_url": null, 
           "img": null
         }
@@ -357,8 +357,8 @@
             "use_dropdown_widget": false, 
             "order": [
               2, 
-              1, 
-              0
+              0, 
+              1
             ], 
             "correct": {
               "text": "None of the above", 
@@ -405,10 +405,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
               1, 
+              3, 
               0, 
-              3
+              2
             ], 
             "correct": {
               "text": "Directly Proportional", 
@@ -420,13 +420,13 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>\\( k = \\frac xy \\)</div><div> k = \\( \\frac{Total \\, price}  {Number \\, of\\, chocolates\\, bought} \\)</div><div>k = 8</div>", 
+            "text": "<div>\\( k = \\frac xy \\)</div><div> k = \\( \\frac{Total \\, price}  {Number \\, of\\, chocolates\\, bought} \\)</div><div>k = 10</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "The Price of a chocolate is 8. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ ", 
+            "text": "The Price of a chocolate is 10. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ ", 
             "img_url": null, 
             "img": null
           }, 
@@ -439,7 +439,7 @@
                 "img": null
               }, 
               {
-                "text": "\\( \\frac 1{8}\\)", 
+                "text": "\\( \\frac 1{10}\\)", 
                 "img_url": null, 
                 "img": null
               }, 
@@ -451,13 +451,13 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
+              2, 
               3, 
               0, 
-              1, 
-              2
+              1
             ], 
             "correct": {
-              "text": "8", 
+              "text": "10", 
               "img_url": null, 
               "img": null
             }
@@ -488,25 +488,25 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Cost of one chocolate =Total cost \\(\\div\\) Number of Chocolates</div><div> Cost of one chocolate = Rs. \\(\\frac {95}{20}\\)</div><div>\\(\\Rightarrow\\) Hence, Price of a single chocolate= Rs. 4.75</div>", 
+            "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((20) \\times (70) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= 1400</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "Given the total price of buying chocolates is 95 Rs and the number of chocolates bought is 20. What should be the Price of a single chocolate?", 
+            "text": "If \\(\\frac{Z}{Y} = 20, \\frac{Y}{X} = 70\\), what is the value of Z when X = 1? ", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "4.75"
+            "value": "1400"
           }, 
           "type": 3, 
           "unit": null
         }
       ], 
-      "pk": 131, 
+      "pk": 129, 
       "container": {
         "content": {
           "text": "Answer the following question:", 
@@ -514,10 +514,10 @@
           "img": null
         }, 
         "subparts": [
-          14
+          12
         ], 
         "hint": {
-          "text": "The total cost and the number of chocolates are directly proportional", 
+          "text": "Find relation between Z and X in terms of constants.", 
           "img_url": null, 
           "img": null
         }
@@ -528,19 +528,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since they are directly proportional.</div><div>\\( \\frac{No. \\, of\\, Km} {Total \\, fare} \\) = k</div> <div> k= \\(\\frac {a}{5} = \\frac {20}{a}\\)</div><div>\\( a^2 = 4 \\times 5^2\\)</div><div>\\(\\Rightarrow\\) Hence, a= 10</div>", 
+            "text": "<div> Since they are directly proportional.</div><div>\\( \\frac{No. \\, of\\, Km} {Total \\, fare} \\) = k</div> <div> k= \\(\\frac {a}{4} = \\frac {16}{a}\\)</div><div>\\( a^2 = 4 \\times 4^2\\)</div><div>\\(\\Rightarrow\\) Hence, a= 8</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<table class = 'table table-bordered'><thead><tr><th>No. of kilometers travelled by taxi</th><th>Total Fare</th></tr></thead><tbody><tr><td>a</td><td>5</td></tr><tr><td>20</td><td>a</td></tr><tr><td>24</td><td>b</td></tr><tr><td>c</td><td>10</td></tr></tbody></table><div>Find the value of a in the above table</div>", 
+            "text": "<table class = 'table table-bordered'><thead><tr><th>No. of kilometers travelled by taxi</th><th>Total Fare</th></tr></thead><tbody><tr><td>a</td><td>4</td></tr><tr><td>16</td><td>a</td></tr><tr><td>24</td><td>b</td></tr><tr><td>c</td><td>10</td></tr></tbody></table><div>Find the value of a in the above table</div>", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "10"
+            "value": "8"
           }, 
           "type": 3, 
           "unit": null
@@ -548,7 +548,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Similarly with b since they are directly proportional.</div><div>From first part we get \\( \\frac {a}{5} = k = 2\\)</div><div>Therefore, \\(\\frac {24}k = b\\)</div><div>\\(\\Rightarrow\\) Hence, b=12</div>", 
+            "text": "<div> Similarly with b since they are directly proportional.</div><div>From first part we get \\( \\frac {a}{4} = k = 2\\)</div><div>Therefore, \\(\\frac {24}k = b\\)</div><div>\\(\\Rightarrow\\) Hence, b=12</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -610,25 +610,25 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((10) \\times (20) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= 200</div>", 
+            "text": "<div> Cost of one chocolate =Total cost \\(\\div\\) Number of Chocolates</div><div> Cost of one chocolate = Rs. \\(\\frac {90}{20}\\)</div><div>\\(\\Rightarrow\\) Hence, Price of a single chocolate= Rs. 4.5</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "If \\(\\frac{Z}{Y} = 10, \\frac{Y}{X} = 20\\), what is the value of Z when X = 1? ", 
+            "text": "Given the total price of buying chocolates is 90 Rs and the number of chocolates bought is 20. What should be the Price of a single chocolate?", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "200"
+            "value": "4.5"
           }, 
           "type": 3, 
           "unit": null
         }
       ], 
-      "pk": 129, 
+      "pk": 131, 
       "container": {
         "content": {
           "text": "Answer the following question:", 
@@ -636,10 +636,10 @@
           "img": null
         }, 
         "subparts": [
-          12
+          14
         ], 
         "hint": {
-          "text": "Find relation between Z and X in terms of constants.", 
+          "text": "The total cost and the number of chocolates are directly proportional", 
           "img_url": null, 
           "img": null
         }
@@ -669,17 +669,17 @@
       {
         "correct": false, 
         "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
       }
     ], 
     [
-      {
-        "correct": false, 
-        "value": null
-      }, 
-      {
-        "correct": false, 
-        "value": null
-      }, 
       {
         "correct": false, 
         "value": null

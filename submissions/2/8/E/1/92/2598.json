@@ -5,290 +5,6 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since they are directly proportional.</div><div>\\( \\frac{No. \\, of\\, Km} {Total \\, fare} \\) = k</div> <div> k= \\(\\frac {a}{2} = \\frac {8}{a}\\)</div><div>\\( a^2 = 4 \\times 2^2\\)</div><div>\\(\\Rightarrow\\) Hence, a= 4</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "<table class = 'table table-bordered'><thead><tr><th>No. of kilometers travelled by taxi</th><th>Total Fare</th></tr></thead><tbody><tr><td>a</td><td>2</td></tr><tr><td>8</td><td>a</td></tr><tr><td>24</td><td>b</td></tr><tr><td>c</td><td>10</td></tr></tbody></table><div>Find the value of a in the above table</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "4"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> Similarly with b since they are directly proportional.</div><div>From first part we get \\( \\frac {a}{2} = k = 2\\)</div><div>Therefore, \\(\\frac {24}k = b\\)</div><div>\\(\\Rightarrow\\) Hence, b=12</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "Find the value of b in the table", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "12"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Similarly with c since they are directly proportional.</div><div> From previous subpart, k=2</div><div>Therefore, \\(\\frac ck = 10\\)</div><div> c = 10 \\(\\times\\) 2</div><div>\\(\\Rightarrow\\) c = 20</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "Find the value of c in the table", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "20"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 132, 
-      "container": {
-        "content": {
-          "text": "Analyse the table and answer the following questions, Given \\(\\frac{a}{4}\\) > 0.", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          15, 
-          16, 
-          17
-        ], 
-        "hint": {
-          "text": "<div>The kilometres travelled and the total fare are directly proportional. Therefore use x/y=k</div>", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((20) \\times (20) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= 400</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "If \\(\\frac{Z}{Y} = 20, \\frac{Y}{X} = 20\\), what is the value of Z when X = 1? ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "400"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 129, 
-      "container": {
-        "content": {
-          "text": "Answer the following question:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          12
-        ], 
-        "hint": {
-          "text": "Find relation between Z and X in terms of constants.", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": {
-            "text": "<div> Acceleration = Rate of change of speed </div><div> Speed  = \\( \\frac{distance}{time} \\)</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>None of the above</div><div> At constant acceleration, Speed is not a constant.</div><div>Therefore, \\( \\frac{distance}{time} \\neq \\) constant(k)</div><div> Hence, they are not directly proportional nor  are they constant.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "The quantities distance and time (t\\( \\neq \\) 0), when acceleration is a constant k,(k\\( \\neq \\) 0) are ___________. ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Directly proportional", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "Constant", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              1, 
-              0, 
-              2
-            ], 
-            "correct": {
-              "text": "None of the above", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": {
-            "text": "<div> Volume of cone = \\( \\frac{Pi \\times radius^2 \\times height}{3} \\) </div><div> Volume of cylinder = \\(Pi \\times radius^2 \\times height\\) </div> ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "solution": {
-            "text": "<div>Directly proportional</div><div>Can be represented as \\(\\frac xy= k.\\)</div><div>For same base radius and height, Volume of Cylinder \\(\\div\\) Volume of Cone = 3.(k)</div><div> \\( \\Rightarrow \\) Hence, they are directly proportional to each other.</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": "The relation between the volume of a cylinder and the volume of a cone with same base radius and same height are ________________.", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "Same", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "No relation", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "Reciprocal of each other", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              0, 
-              1, 
-              3
-            ], 
-            "correct": {
-              "text": "Directly Proportional", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\( k = \\frac xy \\)</div><div> k = \\( \\frac{Total \\, price}  {Number \\, of\\, chocolates\\, bought} \\)</div><div>k = 6</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": "The Price of a chocolate is 6. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ ", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "type": 1, 
-          "options": {
-            "incorrect": [
-              {
-                "text": "0", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "\\( \\frac 1{6}\\)", 
-                "img_url": null, 
-                "img": null
-              }, 
-              {
-                "text": "None of the above", 
-                "img_url": null, 
-                "img": null
-              }
-            ], 
-            "use_dropdown_widget": false, 
-            "order": [
-              2, 
-              1, 
-              3, 
-              0
-            ], 
-            "correct": {
-              "text": "6", 
-              "img_url": null, 
-              "img": null
-            }
-          }
-        }
-      ], 
-      "pk": 126, 
-      "container": {
-        "content": {
-          "text": "Fill in the blanks", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          5, 
-          6, 
-          7
-        ], 
-        "hint": {
-          "text": "Remember that any two quantities that can be represented as \\(\\frac{x}{y}\\)=k, where k is a proportionality constant are directly proportional to each other", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "<div> \\( \\frac{Number\\, of\\, words \\,in\\, hour}{Number \\, of \\, words\\, in \\, a \\,  minute} = 60 \\)</div><div>Therefore Number of words in a minute = \\( \\frac{24000}{60} \\)</div><div>\\( \\Rightarrow \\) Number of words in a minute = 400 </div>", 
             "img_url": null, 
             "img": null
@@ -296,7 +12,7 @@
           "subpart_index": 0, 
           "content": {
             "text": "The gross words a minute (GWAM) is defined as the number of words a person can type in one minute. Given that you are the fastest typist in the world and can type 24000 words in one hour, what is your GWAM?", 
-            "img_url": "/secure-static/cm9oaXRhX3BhdGlsOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMS5wbmc6S20yVnBoSG9BLUF2UVg4N2xtT3lHV0REcUpJ/", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMS5wbmc6akxkYWpldG1kaHE5QXVldUhmYTR3dF9FOUEw/", 
             "img": "1.png"
           }, 
           "answer": {
@@ -329,128 +45,6 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>\\( \\frac XY = k = \\frac 15\\)</div><div>? = \\( k \\times 10\\)</div><div>\\( \\Rightarrow \\) ? = 2</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/cm9oaXRhX3BhdGlsOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMi5wbmc6RkpzY01WTThvekN0cFlSWC1QWTFzX19xOVo0/", 
-            "img": "2.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "2"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\( \\frac XY = k = \\frac 1{25}\\)</div><div>\\( ? = \\frac{5}  {k}\\)</div><div>\\( \\Rightarrow \\) ? = 125</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/cm9oaXRhX3BhdGlsOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMy5wbmc6T1QzOUllTjB5MU56U0pBTDlmeE9wWC15S3dV/", 
-            "img": "3.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "125"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\(  \\frac XY = k = \\frac 13\\)</div><div>\\(  ? = \\frac{7}{k}\\)</div><div>\\( \\Rightarrow \\) ? = 21</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/cm9oaXRhX3BhdGlsOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNC5wbmc6VDNwZVVmcDBkejBUZzZRMnNBNFR1SDRhb2J3/", 
-            "img": "4.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "21"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 128, 
-      "container": {
-        "content": {
-          "text": "Put the missing values of ? in the following table if X AND Y are directly proportional: ", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          9, 
-          10, 
-          11
-        ], 
-        "hint": {
-          "text": "If X and Y are directly proportional, \\(\\frac{X}{Y}\\)=k (proportionality constant)", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> Cost of one chocolate =Total cost \\(\\div\\) Number of Chocolates</div><div> Cost of one chocolate = Rs. \\(\\frac {70}{10}\\)</div><div>\\(\\Rightarrow\\) Hence, Price of a single chocolate= Rs. 7</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "Given the total price of buying chocolates is 70 Rs and the number of chocolates bought is 10. What should be the Price of a single chocolate?", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "7"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 131, 
-      "container": {
-        "content": {
-          "text": "Answer the following question:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          14
-        ], 
-        "hint": {
-          "text": "The total cost and the number of chocolates are directly proportional", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
             "text": "<div>Yes</div><div>Can be represented as \\( \\frac xy = k \\) where \\( k = \\frac 1n \\)</div><div>Where n represents quantity of pens bought</div><div> As the cost of a pen(x) increases or decreases the total price(y) also increases or decreases respectively.</div><div> The two are directly proportional.</div>", 
             "img_url": null, 
             "img": null
@@ -472,8 +66,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              1, 
-              0
+              0, 
+              1
             ], 
             "correct": {
               "text": "Yes", 
@@ -610,6 +204,208 @@
         {
           "hint": null, 
           "solution": {
+            "text": "<div> Cost of one chocolate =Total cost \\(\\div\\) Number of Chocolates</div><div> Cost of one chocolate = Rs. \\(\\frac {75}{20}\\)</div><div>\\(\\Rightarrow\\) Hence, Price of a single chocolate= Rs. 3.75</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Given the total price of buying chocolates is 75 Rs and the number of chocolates bought is 20. What should be the Price of a single chocolate?", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "3.75"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 131, 
+      "container": {
+        "content": {
+          "text": "Answer the following question:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          14
+        ], 
+        "hint": {
+          "text": "The total cost and the number of chocolates are directly proportional", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "<div> Acceleration = Rate of change of speed </div><div> Speed  = \\( \\frac{distance}{time} \\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>None of the above</div><div> At constant acceleration, Speed is not a constant.</div><div>Therefore, \\( \\frac{distance}{time} \\neq \\) constant(k)</div><div> Hence, they are not directly proportional nor  are they constant.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The quantities distance and time (t\\( \\neq \\) 0), when acceleration is a constant k,(k\\( \\neq \\) 0) are ___________. ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Directly proportional", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Constant", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "None of the above", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": {
+            "text": "<div> Volume of cone = \\( \\frac{Pi \\times radius^2 \\times height}{3} \\) </div><div> Volume of cylinder = \\(Pi \\times radius^2 \\times height\\) </div> ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>Directly proportional</div><div>Can be represented as \\(\\frac xy= k.\\)</div><div>For same base radius and height, Volume of Cylinder \\(\\div\\) Volume of Cone = 3.(k)</div><div> \\( \\Rightarrow \\) Hence, they are directly proportional to each other.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "The relation between the volume of a cylinder and the volume of a cone with same base radius and same height are ________________.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Same", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "No relation", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "Reciprocal of each other", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "Directly Proportional", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\( k = \\frac xy \\)</div><div> k = \\( \\frac{Total \\, price}  {Number \\, of\\, chocolates\\, bought} \\)</div><div>k = 2</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "The Price of a chocolate is 2. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "0", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\( \\frac 1{2}\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "None of the above", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              2, 
+              0, 
+              3, 
+              1
+            ], 
+            "correct": {
+              "text": "2", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 126, 
+      "container": {
+        "content": {
+          "text": "Fill in the blanks", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          5, 
+          6, 
+          7
+        ], 
+        "hint": {
+          "text": "Remember that any two quantities that can be represented as \\(\\frac{x}{y}\\)=k, where k is a proportionality constant are directly proportional to each other", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
             "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{500}{3} \\)</div><div>Therefore total cost of ticket = \\( 1533 \\times \\frac{500}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. 255500</div>", 
             "img_url": null, 
             "img": null
@@ -617,7 +413,7 @@
           "subpart_index": 0, 
           "content": {
             "text": "A plane ticket costs Rs. 500  per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman?", 
-            "img_url": "/secure-static/cm9oaXRhX3BhdGlsOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNS5wbmc6bHpuMk05X0hWYzg1bWZScjd1MG52cWN4LWww/", 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNS5wbmc6QVJ1U0JCODI2UDBWWHVxMVU3c2h3N2Z1SVNB/", 
             "img": "5.png"
           }, 
           "answer": {
@@ -644,6 +440,210 @@
           "img": null
         }
       }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\( \\frac XY = k = \\frac 15\\)</div><div>? = \\( k \\times 10\\)</div><div>\\( \\Rightarrow \\) ? = 2</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMi5wbmc6MUx5U0h2RzlyeE5KZ1VoUHdRLWJqMkdtVUdZ/", 
+            "img": "2.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\( \\frac XY = k = \\frac 1{25}\\)</div><div>\\( ? = \\frac{5}  {k}\\)</div><div>\\( \\Rightarrow \\) ? = 125</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvMy5wbmc6LS1kYkludXp4ZzY1LVNfU3RWaVp6TGo5S1B3/", 
+            "img": "3.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "125"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(  \\frac XY = k = \\frac 13\\)</div><div>\\(  ? = \\frac{7}{k}\\)</div><div>\\( \\Rightarrow \\) ? = 21</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/aGltYW5zaHVfZ2lyYXNlOmh0dHA6Ly8xMC4xNzYuNy4yNTI6OTg3OC9xdWVzdGlvbnMvcmF3LzEvMS84LzEvNy9pbWcvNC5wbmc6dmp2N0JuOUJIWnR2NldFV2M4ZlFpNU5OaGo0/", 
+            "img": "4.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "21"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 128, 
+      "container": {
+        "content": {
+          "text": "Put the missing values of ? in the following table if X AND Y are directly proportional: ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          9, 
+          10, 
+          11
+        ], 
+        "hint": {
+          "text": "If X and Y are directly proportional, \\(\\frac{X}{Y}\\)=k (proportionality constant)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((30) \\times (20) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= 600</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "If \\(\\frac{Z}{Y} = 30, \\frac{Y}{X} = 20\\), what is the value of Z when X = 1? ", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "600"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 129, 
+      "container": {
+        "content": {
+          "text": "Answer the following question:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          12
+        ], 
+        "hint": {
+          "text": "Find relation between Z and X in terms of constants.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> Since they are directly proportional.</div><div>\\( \\frac{No. \\, of\\, Km} {Total \\, fare} \\) = k</div> <div> k= \\(\\frac {a}{2} = \\frac {8}{a}\\)</div><div>\\( a^2 = 4 \\times 2^2\\)</div><div>\\(\\Rightarrow\\) Hence, a= 4</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<table class = 'table table-bordered'><thead><tr><th>No. of kilometers travelled by taxi</th><th>Total Fare</th></tr></thead><tbody><tr><td>a</td><td>2</td></tr><tr><td>8</td><td>a</td></tr><tr><td>24</td><td>b</td></tr><tr><td>c</td><td>10</td></tr></tbody></table><div>Find the value of a in the above table</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "4"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> Similarly with b since they are directly proportional.</div><div>From first part we get \\( \\frac {a}{2} = k = 2\\)</div><div>Therefore, \\(\\frac {24}k = b\\)</div><div>\\(\\Rightarrow\\) Hence, b=12</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "Find the value of b in the table", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "12"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Similarly with c since they are directly proportional.</div><div> From previous subpart, k=2</div><div>Therefore, \\(\\frac ck = 10\\)</div><div> c = 10 \\(\\times\\) 2</div><div>\\(\\Rightarrow\\) c = 20</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "Find the value of c in the table", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "20"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 132, 
+      "container": {
+        "content": {
+          "text": "Analyse the table and answer the following questions, Given \\(\\frac{a}{4}\\) > 0.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          15, 
+          16, 
+          17
+        ], 
+        "hint": {
+          "text": "<div>The kilometres travelled and the total fare are directly proportional. Therefore use x/y=k</div>", 
+          "img_url": null, 
+          "img": null
+        }
+      }
     }
   ], 
   "answers": [
@@ -651,23 +651,13 @@
       {
         "correct": false, 
         "value": null
-      }, 
-      {
-        "correct": false, 
-        "value": null
-      }, 
-      {
-        "correct": false, 
-        "value": null
       }
     ], 
     [
       {
         "correct": false, 
-        "value": null
-      }
-    ], 
-    [
+        "choice": null
+      }, 
       {
         "correct": false, 
         "choice": null
@@ -690,6 +680,26 @@
     [
       {
         "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }, 
+      {
+        "correct": false, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
         "value": null
       }, 
       {
@@ -710,22 +720,12 @@
     [
       {
         "correct": false, 
-        "choice": null
+        "value": null
       }, 
       {
         "correct": false, 
-        "choice": null
+        "value": null
       }, 
-      {
-        "correct": false, 
-        "choice": null
-      }, 
-      {
-        "correct": false, 
-        "choice": null
-      }
-    ], 
-    [
       {
         "correct": false, 
         "value": null

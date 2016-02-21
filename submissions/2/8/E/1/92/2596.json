@@ -5,6 +5,46 @@
         {
           "hint": null, 
           "solution": {
+            "text": "<div> \\( \\frac{Number\\, of\\, words \\,in\\, hour}{Number \\, of \\, words\\, in \\, a \\,  minute} = 60 \\)</div><div>Therefore Number of words in a minute = \\( \\frac{36000}{60} \\)</div><div>\\( \\Rightarrow \\) Number of words in a minute = 600 </div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "The gross words a minute (GWAM) is defined as the number of words a person can type in one minute. Given that you are the fastest typist in the world and can type 36000 words in one hour, what is your GWAM?", 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzEucG5nOlE4VU9XU2dxY2ZabHVXLTJtMm50N1NSWjVJSQ/", 
+            "img": "1.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "600"
+          }, 
+          "type": 3, 
+          "unit": "words"
+        }
+      ], 
+      "pk": 127, 
+      "container": {
+        "content": {
+          "text": "Answer the following question:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          8
+        ], 
+        "hint": {
+          "text": "1 Hour = 60 minutes", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
             "text": "<div>Yes</div><div>Can be represented as \\( \\frac xy = k \\) where \\( k = \\frac 1n \\)</div><div>Where n represents quantity of pens bought</div><div> As the cost of a pen(x) increases or decreases the total price(y) also increases or decreases respectively.</div><div> The two are directly proportional.</div>", 
             "img_url": null, 
             "img": null
@@ -26,8 +66,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              1, 
-              0
+              0, 
+              1
             ], 
             "correct": {
               "text": "Yes", 
@@ -94,8 +134,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              0, 
-              1
+              1, 
+              0
             ], 
             "correct": {
               "text": "No", 
@@ -128,8 +168,8 @@
             ], 
             "use_dropdown_widget": true, 
             "order": [
-              1, 
-              0
+              0, 
+              1
             ], 
             "correct": {
               "text": "Yes", 
@@ -154,168 +194,6 @@
         ], 
         "hint": {
           "text": "Remember that any two quantities that can be represented as \\(\\frac{x}{y}\\)=k, where k is a proportionality constant are directly proportional to each other", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div> \\( \\frac{Number\\, of\\, words \\,in\\, hour}{Number \\, of \\, words\\, in \\, a \\,  minute} = 60 \\)</div><div>Therefore Number of words in a minute = \\( \\frac{30000}{60} \\)</div><div>\\( \\Rightarrow \\) Number of words in a minute = 500 </div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "The gross words a minute (GWAM) is defined as the number of words a person can type in one minute. Given that you are the fastest typist in the world and can type 30000 words in one hour, what is your GWAM?", 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy8xLnBuZzpCeGw0dHd0X0xidHBjVDdGWEZheC1FR0d3VW8/", 
-            "img": "1.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "500"
-          }, 
-          "type": 3, 
-          "unit": "words"
-        }
-      ], 
-      "pk": 127, 
-      "container": {
-        "content": {
-          "text": "Answer the following question:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          8
-        ], 
-        "hint": {
-          "text": "1 Hour = 60 minutes", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\( \\frac XY = k = \\frac 15\\)</div><div>? = \\( k \\times 10\\)</div><div>\\( \\Rightarrow \\) ? = 2</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy8yLnBuZzpFeGtVNkpuc3hqN25jRHNYa19PNEdjOHBRM0k/", 
-            "img": "2.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "2"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\( \\frac XY = k = \\frac 1{25}\\)</div><div>\\( ? = \\frac{5}  {k}\\)</div><div>\\( \\Rightarrow \\) ? = 125</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 1, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy8zLnBuZzpaZjBCbWpxR0RtNWlWd2tfcnJQWGRUcWdrU2M/", 
-            "img": "3.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "125"
-          }, 
-          "type": 3, 
-          "unit": null
-        }, 
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>\\(  \\frac XY = k = \\frac 13\\)</div><div>\\(  ? = \\frac{7}{k}\\)</div><div>\\( \\Rightarrow \\) ? = 21</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 2, 
-          "content": {
-            "text": null, 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy80LnBuZzp3NE5EZGZNN0xTeEVMWEd3b3FpSU1CNzNuY0E/", 
-            "img": "4.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "21"
-          }, 
-          "type": 3, 
-          "unit": null
-        }
-      ], 
-      "pk": 128, 
-      "container": {
-        "content": {
-          "text": "Put the missing values of ? in the following table if X AND Y are directly proportional: ", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          9, 
-          10, 
-          11
-        ], 
-        "hint": {
-          "text": "If X and Y are directly proportional, \\(\\frac{X}{Y}\\)=k (proportionality constant)", 
-          "img_url": null, 
-          "img": null
-        }
-      }
-    }, 
-    {
-      "subparts": [
-        {
-          "hint": null, 
-          "solution": {
-            "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{300}{3} \\)</div><div>Therefore total cost of ticket = \\( 1533 \\times \\frac{300}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. 153300</div>", 
-            "img_url": null, 
-            "img": null
-          }, 
-          "subpart_index": 0, 
-          "content": {
-            "text": "A plane ticket costs Rs. 300  per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman?", 
-            "img_url": "/secure-static/amlzaG51X2Rpd2FrYXI6aHR0cDovLzEwLjE3Ni43LjI1Mjo5ODc4L3F1ZXN0aW9ucy9yYXcvMS8xLzgvMS83L2ltZy81LnBuZzpVc2Q4Nnd1WWVZdW1RU1VPZTN4UjRZYzdHMEE/", 
-            "img": "5.png"
-          }, 
-          "answer": {
-            "tolerance": null, 
-            "value": "153300"
-          }, 
-          "type": 3, 
-          "unit": "Rupees"
-        }
-      ], 
-      "pk": 130, 
-      "container": {
-        "content": {
-          "text": "Answer the following question:", 
-          "img_url": null, 
-          "img": null
-        }, 
-        "subparts": [
-          13
-        ], 
-        "hint": {
-          "text": "The cost of the plane ticket and distance travelled are directly proportional to each other", 
           "img_url": null, 
           "img": null
         }
@@ -356,9 +234,9 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
+              0, 
               1, 
-              0
+              2
             ], 
             "correct": {
               "text": "None of the above", 
@@ -405,10 +283,10 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              2, 
-              1, 
+              3, 
               0, 
-              3
+              2, 
+              1
             ], 
             "correct": {
               "text": "Directly Proportional", 
@@ -420,13 +298,13 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div>\\( k = \\frac xy \\)</div><div> k = \\( \\frac{Total \\, price}  {Number \\, of\\, chocolates\\, bought} \\)</div><div>k = 8</div>", 
+            "text": "<div>\\( k = \\frac xy \\)</div><div> k = \\( \\frac{Total \\, price}  {Number \\, of\\, chocolates\\, bought} \\)</div><div>k = 6</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 2, 
           "content": {
-            "text": "The Price of a chocolate is 8. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ ", 
+            "text": "The Price of a chocolate is 6. The constant of proportionality (k) between the total price(x) and the number of chocolates bought(y) is ______ ", 
             "img_url": null, 
             "img": null
           }, 
@@ -439,7 +317,7 @@
                 "img": null
               }, 
               {
-                "text": "\\( \\frac 1{8}\\)", 
+                "text": "\\( \\frac 1{6}\\)", 
                 "img_url": null, 
                 "img": null
               }, 
@@ -451,13 +329,13 @@
             ], 
             "use_dropdown_widget": false, 
             "order": [
-              3, 
-              0, 
+              2, 
               1, 
-              2
+              3, 
+              0
             ], 
             "correct": {
-              "text": "8", 
+              "text": "6", 
               "img_url": null, 
               "img": null
             }
@@ -528,19 +406,59 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Since they are directly proportional.</div><div>\\( \\frac{No. \\, of\\, Km} {Total \\, fare} \\) = k</div> <div> k= \\(\\frac {a}{5} = \\frac {20}{a}\\)</div><div>\\( a^2 = 4 \\times 5^2\\)</div><div>\\(\\Rightarrow\\) Hence, a= 10</div>", 
+            "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{300}{3} \\)</div><div>Therefore total cost of ticket = \\( 1533 \\times \\frac{300}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. 153300</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "<table class = 'table table-bordered'><thead><tr><th>No. of kilometers travelled by taxi</th><th>Total Fare</th></tr></thead><tbody><tr><td>a</td><td>5</td></tr><tr><td>20</td><td>a</td></tr><tr><td>24</td><td>b</td></tr><tr><td>c</td><td>10</td></tr></tbody></table><div>Find the value of a in the above table</div>", 
+            "text": "A plane ticket costs Rs. 300  per every 3 Km travelled. Aman goes from Pune to Delhi which is at a distance of 1533 Km. how much does his plane ticket cost Aman?", 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzUucG5nOjdNZUllekhUcmZOSXNqSFJhMVJzOTVsSlJKQQ/", 
+            "img": "5.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "153300"
+          }, 
+          "type": 3, 
+          "unit": "Rupees"
+        }
+      ], 
+      "pk": 130, 
+      "container": {
+        "content": {
+          "text": "Answer the following question:", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          13
+        ], 
+        "hint": {
+          "text": "The cost of the plane ticket and distance travelled are directly proportional to each other", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div> Since they are directly proportional.</div><div>\\( \\frac{No. \\, of\\, Km} {Total \\, fare} \\) = k</div> <div> k= \\(\\frac {a}{1} = \\frac {4}{a}\\)</div><div>\\( a^2 = 4 \\times 1^2\\)</div><div>\\(\\Rightarrow\\) Hence, a= 2</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<table class = 'table table-bordered'><thead><tr><th>No. of kilometers travelled by taxi</th><th>Total Fare</th></tr></thead><tbody><tr><td>a</td><td>1</td></tr><tr><td>4</td><td>a</td></tr><tr><td>24</td><td>b</td></tr><tr><td>c</td><td>10</td></tr></tbody></table><div>Find the value of a in the above table</div>", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "10"
+            "value": "2"
           }, 
           "type": 3, 
           "unit": null
@@ -548,7 +466,7 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> Similarly with b since they are directly proportional.</div><div>From first part we get \\( \\frac {a}{5} = k = 2\\)</div><div>Therefore, \\(\\frac {24}k = b\\)</div><div>\\(\\Rightarrow\\) Hence, b=12</div>", 
+            "text": "<div> Similarly with b since they are directly proportional.</div><div>From first part we get \\( \\frac {a}{1} = k = 2\\)</div><div>Therefore, \\(\\frac {24}k = b\\)</div><div>\\(\\Rightarrow\\) Hence, b=12</div>", 
             "img_url": null, 
             "img": null
           }, 
@@ -610,19 +528,19 @@
         {
           "hint": null, 
           "solution": {
-            "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((10) \\times (20) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= 200</div>", 
+            "text": "<div> \\(\\frac{Z}{Y} \\times \\frac{Y}{X} = \\frac{Z}{X} \\)</div><div>Therefore, \\((40) \\times (40) = \\frac{Z}{X}\\)</div><div>At X= 1,</div><div>\\( \\frac{Z}{X} = Z \\)</div><div>Hence, Z= 1600</div>", 
             "img_url": null, 
             "img": null
           }, 
           "subpart_index": 0, 
           "content": {
-            "text": "If \\(\\frac{Z}{Y} = 10, \\frac{Y}{X} = 20\\), what is the value of Z when X = 1? ", 
+            "text": "If \\(\\frac{Z}{Y} = 40, \\frac{Y}{X} = 40\\), what is the value of Z when X = 1? ", 
             "img_url": null, 
             "img": null
           }, 
           "answer": {
             "tolerance": null, 
-            "value": "200"
+            "value": "1600"
           }, 
           "type": 3, 
           "unit": null
@@ -644,51 +562,113 @@
           "img": null
         }
       }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\( \\frac XY = k = \\frac 15\\)</div><div>? = \\( k \\times 10\\)</div><div>\\( \\Rightarrow \\) ? = 2</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzIucG5nOmxNNTRGNWhmTDVtMEFGc3d4WjVqNGo4b21ySQ/", 
+            "img": "2.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "2"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\( \\frac XY = k = \\frac 1{25}\\)</div><div>\\( ? = \\frac{5}  {k}\\)</div><div>\\( \\Rightarrow \\) ? = 125</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzMucG5nOjNyZDNUazBjbWxZS3JFZDJUQ1gzdHhrWnVGRQ/", 
+            "img": "3.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "125"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(  \\frac XY = k = \\frac 13\\)</div><div>\\(  ? = \\frac{7}{k}\\)</div><div>\\( \\Rightarrow \\) ? = 21</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": null, 
+            "img_url": "/secure-static/YW1leWFfY2hhbmRvcmthcjpodHRwOi8vMTAuMTc2LjcuMjUyOjk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvOC8xLzcvaW1nLzQucG5nOjgyVnZaRkhGUGppb1N4djk0WHlPd3hMRTF6OA/", 
+            "img": "4.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "21"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 128, 
+      "container": {
+        "content": {
+          "text": "Put the missing values of ? in the following table if X AND Y are directly proportional: ", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          9, 
+          10, 
+          11
+        ], 
+        "hint": {
+          "text": "If X and Y are directly proportional, \\(\\frac{X}{Y}\\)=k (proportionality constant)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
     }
   ], 
   "answers": [
     [
       {
         "correct": false, 
-        "choice": null
-      }, 
-      {
-        "correct": false, 
-        "choice": null
-      }, 
-      {
-        "correct": false, 
-        "choice": null
-      }, 
-      {
-        "correct": false, 
-        "choice": null
-      }
-    ], 
-    [
-      {
-        "correct": false, 
         "value": null
       }
     ], 
     [
       {
         "correct": false, 
-        "value": null
+        "choice": null
       }, 
       {
         "correct": false, 
-        "value": null
+        "choice": null
       }, 
       {
         "correct": false, 
-        "value": null
-      }
-    ], 
-    [
+        "choice": null
+      }, 
       {
         "correct": false, 
-        "value": null
+        "choice": null
       }
     ], 
     [
@@ -715,6 +695,12 @@
       {
         "correct": false, 
         "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
       }, 
       {
         "correct": false, 
@@ -726,6 +712,20 @@
       }
     ], 
     [
+      {
+        "correct": false, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": false, 
+        "value": null
+      }, 
+      {
+        "correct": false, 
+        "value": null
+      }, 
       {
         "correct": false, 
         "value": null
