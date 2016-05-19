@@ -18,8 +18,8 @@ echo 'updating the nginx conf to use current username'
 sed -i s/oasis/$USER/g devops/nginx.conf
 
 echo 'updating the cabinet endpoints for localhost setup'
-sed -i "s/allow 10.176.5.116/allow 127.0.0.1/" devops/nginx.conf
-sed -i "s/server_name 10.176.7.252/server_name localhost/" devops/nginx.conf
+sed -i "s/allow 10.130.32.9/allow 127.0.0.1/" devops/nginx.conf
+sed -i "s/server_name 10.130.32.37/server_name localhost/" devops/nginx.conf
 
 echo 'enabling delete dav method for dev testing'
 sed -i "s/dav_methods PUT/dav_methods PUT DELETE/" devops/nginx.conf
