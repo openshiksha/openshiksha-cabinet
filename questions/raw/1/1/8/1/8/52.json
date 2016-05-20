@@ -1,6 +1,6 @@
 {
   "hint": {
-    "text": "<div>The square of a number \\(x\\) can be represented as a sum of two consecutive integers as : </div><div>\\(x^2\\)</div><div>\\(=\\frac{x^2-1}2 + \\frac{x^2+1}2\\)</div><div></div>"
+    "text": "<div>The square of a number \\(x\\) can be represented as a sum of two consecutive integers as : </div><div>\\(x^2\\)</div><div>\\(=\\frac{x^2-1}2 + \\frac{x^2+1}2\\)</div>"
   }, 
   "solution": {
     "text": "<div>\\(_{j}_^2=_{{j**2}}_\\)</div><div>\\(=\\frac{_{j}_^2-1}2 + \\frac{_{j}_^2+1}2\\)</div><div>\\(=_{{(j**2-1)/2}}_+_{{(j**2+1)/2}}_\\)</div>"
