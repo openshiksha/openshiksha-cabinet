@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "Assume that after leaving the rope the stone travels in the direction of the tangent at point P"
+  }, 
+  "solution": {
+    "text": "<div>let O denote the position of Rohan</div><div>OC=_{{13*j}}_ is given </div><div>As PC is the tangent to the circle in which the rope rotates</div><div>line OP joining the centre to point P is perpendicular to PC</div><div>Also the length of OP=radius=_{{5*j}}_cm</div><div>therefore a right-angle triangle(OPC) is formed</div><div>By Pythagoras theorem we can find PC</div><div>PC=\\(\\sqrt {OC^2-OP^2}\\)</div><div>\\(\\Rightarrow PC =_{{12*j}}_\\,cm\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Rohan ties a stone at an end of a _{{5*j}}_cm rope and rotates the rope by holding it at the other end forming a circle in the horizontal plane.</div><div>After few rotation when the stone reaches to the point P in the circle, it accidently loosen it's grip and leaves the rope,</div><div>if the stone hits at point C on the wall,_{{13*j}}_cm away from Rohan,</div> <div>find the distance between point C and P</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{12*j}}_"
+  }, 
+  "type": 3
+}

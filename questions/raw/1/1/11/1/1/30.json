@@ -1,0 +1,48 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let the root of the quadratic equation be a and b.</div><div>According to the given condition,</div><div>\\(AM=\\frac{a+b}{2}=_{p}_\\)  i.e   \\(a+b=_{{2*p}}_\\)</div><div>\\(GM=(ab)^{\\frac{1}{2}}=_{q}_\\)  i.e   \\(ab=_{{q**2}}_\\)</div><div></div><div>The quadratic equation is given by</div><div>\\(x^2-x\\)(sum of roots)\\(+\\)(product of roots)=0</div><div>\\(x^2-x(a+b)+(ab)=0\\)</div><div>\\(x^2-_{{2*p}}_x+_{{q**2}}_=0\\)</div><div></div><div></div><div></div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "<div>If A.M. and G.M. of roots of a quadratic equation are _{p}_ and _{q}_, respectively, then obtain the quadratic equation.</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            2, 
+            11
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            10, 
+            250
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^2+_{{2*p}}_x+_{{q**2}}_=0\\)"
+      }, 
+      {
+        "text": "\\(x^2-_{{p}}_x+_{{q}}_=0\\)"
+      }, 
+      {
+        "text": "\\(x^2+_{{p}}_x+_{{q}}_=0\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2-_{{2*p}}_x+_{{q**2}}_=0\\)"
+    }
+  }
+}

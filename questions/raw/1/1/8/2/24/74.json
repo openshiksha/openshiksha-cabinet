@@ -1,0 +1,22 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "A female has two X chromosomes, while a male has one X and one Y chromosome."
+  }, 
+  "content": {
+    "text": "<div>Each person has two sex chromosomes.</div><div>A male has two X chromosomes, while a female has one X and one Y chromosome.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

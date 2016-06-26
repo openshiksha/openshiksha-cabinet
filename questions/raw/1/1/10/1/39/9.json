@@ -1,0 +1,85 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>We know that the diagonals of rectangle bisect each other.</div><div>So,</div><div>The coordinate of mid point of AC = coordinate of mid point of BD</div><div>i.e., (\\({_{i}_+_{{i+k}}_}\\over 2\\) , \\({_{j}_+y}\\over 2\\)) =  (\\({_{i}_+x}\\over 2\\) , \\({_{j}_+_{{j+l}}_}\\over 2\\))</div><div>i.e., (\\({_{{i+i+k}}_}\\over 2\\) , \\({_{j}_+y}\\over 2\\)) =  (\\({_{i}_+x}\\over 2\\) , \\({_{{j+l+j}}_}\\over 2\\))</div><div>So, \\({_{i}_+x}\\over 2\\) = \\({_{{i+i+k}}_}\\over 2\\) and \\({_{j}_+y}\\over 2\\) = \\({_{{j+l+j}}_}\\over 2\\)</div><div>So, _{i}_+x = _{{i+i+k}}_ and _{j}_+y = _{{j+l+j}}_</div><div>So, x = _{{i+k}}_ and y = _{{l+j}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>If the points A(_{i}_,_{j}_), B(x,_{j}_), C(_{{i+k}}_,y) and D(_{i}_,_{{j+l}}_) in order forms a rectangle, find the value of x and y.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            16
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            4, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            10, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{i+k+2}}_ and y = _{{l+j}}_"
+      }, 
+      {
+        "text": "x = _{{i+k}}_ and y = _{{l+j-2}}_"
+      }
+    ], 
+    "correct": {
+      "text": "x = _{{i+k}}_ and y = _{{l+j}}_"
+    }
+  }
+}

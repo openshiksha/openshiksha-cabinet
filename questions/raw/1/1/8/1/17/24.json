@@ -1,30 +1,38 @@
 {
+  "subpart_index": 0, 
   "solution": {
-    "text": "<div>\\((_{j}_x + _{k}_y)^2\\)</div><div>Using the identity: \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)</div><div>Where \\(a = _{j}_x\\), \\(b = _{k}_y\\)</div><div>\\(= _{{j**2}}_x^2 + _{{2*j*k}}_xy + _{{k**2}}_y^2\\)</div>"
+    "text": "The sum of all the exterior angles of any polygon is always \\(360^\\circ\\)"
   }, 
-  "subpart_index": 4, 
   "content": {
-    "text": "\\((_{j}_x + _{k}_y)^2\\)"
+    "text": "What is the sum of all exterior angles of a polygon having \\(_{j}_\\) sides?"
   }, 
   "variable_constraints": {
-    "k": {}, 
-    "j": {}
+    "j": {
+      "range": {
+        "include": [
+          [
+            7, 
+            19
+          ]
+        ]
+      }
+    }
   }, 
   "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "\\(_{{j**2}}_x^2 + _{{2*j*k}}_xy + _{k}_y^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"
+        "text": "\\(180^\\circ\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_x^2 + _{k}_y^2\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
+        "text": "\\(540^\\circ\\)"
       }, 
       {
-        "text": "\\(_{{j**2}}_x^2 + _{{j*k}}_xy + _{{k**2}}_y^2\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
+        "text": "None of these"
       }
     ], 
     "correct": {
-      "text": "\\(_{{j**2}}_x^2 + _{{2*j*k}}_xy + _{{k**2}}_y^2\\) using identity \\((a+b)^2 = (a^2 + b^2 + 2ab)\\)"
+      "text": "\\(360^\\circ\\)"
     }
   }
 }

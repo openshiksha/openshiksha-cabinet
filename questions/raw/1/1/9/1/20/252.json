@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>When the triangle is revolved about side \\(_{k}_\\) cm, a cone is formed with base radius \\(_{k}_\\) cm and height \\(_{j}_\\) cm.</div><div>Radiius, r\\(=_{k}_\\,cm\\)</div><div>Height, h\\(=_{j}_\\,cm\\)</div><div>Volume of the cone\\(=\\frac13 \\pi r^2h\\)</div><div>\\(=\\frac13 \\pi \\times _{k}_^2 \\times _{j}_\\)</div><div>\\(=_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "If the triangle is revolved about side \\(_{k}_\\)cm, find the volume of the solid formed."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

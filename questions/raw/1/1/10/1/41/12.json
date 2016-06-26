@@ -1,0 +1,50 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the number of male participants be x </div><div>And, the number of female participants be y</div><div>Then, according to the question:</div><div>x + y = _{{2*i}}_ ------(1)</div><div>And x + _{{2*j}}_ = y --------(2)</div><div>Simplifying the obtained pair of equations:</div><div> x + y = _{{2*i}}_ -------(3)</div><div> x - y = -_{{2*j}}_ ------(4)</div><div>Now, Finding 2 solutions of each equation to draw the graphs of the equations</div><div> x + y = _{{2*i}}_ -------(3)</div><div><table class='table table-bordered table-condensed'>  <tr>    <th> x </th>    <th> 0 </th>    <th> _{{2*i}}_ </th>  </tr>  <tr>    <td> y </td>    <td> _{{2*i}}_ </td>    <td> 0 </td>  </tr> </table></div><div> x - y = -_{{2*j}}_ ------(4)</div><div><table class='table table-bordered table-condensed'>  <tr>    <th> x </th>    <th> 0 </th>    <th> -_{{2*j}}_ </th>  </tr>  <tr>    <td> y </td>    <td> _{{2*j}}_ </td>    <td> 0 </td>  </tr> </table></div><div>Plot graph for obtained data:</div><div>Where M = (0,_{{2*i}}_), N = (_{{2*i}}_,0), O = (0,_{{2*j}}_) and P = (-_{{2*j}}_,0)</div><div>We observe that there is a point Q common to both the lines AB and CD.</div><div>So the solution of the pair of linear equation is x = _{{i-j}}_ , and y = _{{i+j}}_</div><div>Male = _{{i-j}}_ , and Female = _{{i+j}}_</div><div>Therefore,</div><div>\\(Male\\over female\\) = \\(_{{i-j}}_\\over _{{i+j}}_\\)</div>", 
+    "img": "12.png"
+  }, 
+  "content": {
+    "text": "<div>_{{2*i}}_ members of a society took part in an environmental awareness camp.If the number of the female participants is _{{2*j}}_ more than the number of male participants.Find the ratio of numbers of male to female participants by finding their numbers graphically.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            15, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            11
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{i-j-1}}_\\over _{{i+j+2}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{i-j+2}}_\\over _{{i+j}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{i-j}}_\\over _{{i+j-2}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{i-j}}_\\over _{{i+j}}_\\)"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Consider the given equation : \\(_{k}_x + _{j}_y = p\\)<br>Now, you are given that \\(x = _{n}_, y = _{l}_\\) is a solution to the equation so substitute the values of x and y and solve as shown below:<br><br>Therefore,<br>\\(_{k}_ * _{n}_ + _{j}_ * _{l}_ = p\\)<br>\\(\\implies p =  _{{k*n + j*l}}_\\)<br>"
+  }, 
+  "content": {
+    "text": "\\(_{k}_x + _{j}_y = p.\\qquad x = _{n}_, y = _{l}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k*n + j*l}}_"
+  }, 
+  "type": 3
+}

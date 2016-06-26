@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\frac{1}{\\sqrt{_{j}_}}\\)</div><div>Multiplying numerator and denominator by \\(\\sqrt{_{j}_}\\),</div><div>\\(\\frac{1}{\\sqrt{_{j}_}} \\times \\frac{\\sqrt{_{j}_}}{\\sqrt{_{j}_}}\\)</div><div>\\(=\\frac{\\sqrt{_{j}_}}{_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{1}{\\sqrt{_{j}_}}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\sqrt{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{j}_}{\\sqrt{_{j}_}}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{1}{_{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{\\sqrt{_{j}_}}{_{j}_}\\)"
+    }
+  }
+}

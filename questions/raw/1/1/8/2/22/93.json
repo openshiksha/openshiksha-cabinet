@@ -1,0 +1,38 @@
+{
+  "content": {
+    "text": "3. Kerosene"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Motor Fuel"
+      }, 
+      {
+        "text": "Fuel for heavy motor vehicles"
+      }, 
+      {
+        "text": "Vaseline"
+      }, 
+      {
+        "text": "Fuel for electric generators"
+      }, 
+      {
+        "text": "Lubrication"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Fuel for stove"
+      }, 
+      {
+        "text": "Fuel for lamps"
+      }, 
+      {
+        "text": "Fuel for jet aircrafts"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

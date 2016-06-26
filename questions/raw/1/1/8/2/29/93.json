@@ -1,0 +1,21 @@
+{
+  "content": {
+    "text": "<div>Select the appropriate pattern for the constellations mentioned below.</div><div>Orion ?</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "92.png"
+      }, 
+      {
+        "img": "94.png"
+      }
+    ], 
+    "correct": {
+      "img": "93.png"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

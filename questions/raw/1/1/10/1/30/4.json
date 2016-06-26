@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> We see that the Second term = a + d </div><div> \\(a_2=_{{j+k}}_\\)</div><div> The third term = a + 2*d </div><div> \\( a_3=_{{j+(2*k)}}_\\)</div><div> The 4th term = a + 3*d </div><div> \\( a_4=_{{j+(3*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Calculate the first four terms of the AP, when the first term(a) is _{j}_ and the common difference(d) is _{k}_. From the options given below tick on the 4th term in your calculated list:</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            -20, 
+            -1
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            -20, 
+            -1
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j+(3*(k+1))}}_"
+      }, 
+      {
+        "text": "_{{j+(3*(k-1))}}_"
+      }, 
+      {
+        "text": "_{{j+(3*(k-2))}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j+(3*k)}}_"
+    }
+  }
+}

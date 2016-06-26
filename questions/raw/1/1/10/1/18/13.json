@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>First to obtain \\(_{j}_x^3\\) we multiply the divisor\\((x^2+2x+1)\\) by _{j}_x</div><div>secondly to obtain \\(_{k}_x^2\\) we multiply the divisor\\((x^2+2x+1)\\) by _{k}_</div><div>\\(\\require{enclose}\\begin{array}{r}                    _{j}_x+_{k}_  \\\\[-3pt] x^2+2x+1\\enclose{longdiv}{_{j}_x^3 + _{{2*j+k}}_x^2 + _{{j+2*k}}_x+_{{k+l}}_} \\\\[-3pt]         \\underline{_{j}_x^3+_{{2*j}}_x^2+_{j}_x}\\phantom{2} \\\\[-3pt]                    _{k}_x^2+_{{2*k}}_x+_{{l+k}}_  \\\\[-3pt]         \\underline{_{k}_x^2+_{{2*k}}_x+_{k}_}\\phantom{2} \\\\[-3pt]                        _{l}_\\end{array}\\)</div><div>Therefore the remainder obtained _{l}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Divide \\(_{j}_x^3 + _{{2*j+k}}_x^2 + _{{j+2*k}}_x+_{{k+l}}_\\) by \\(x^2+2x+1\\)</div><div>What is the remainder obtained by the above division.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

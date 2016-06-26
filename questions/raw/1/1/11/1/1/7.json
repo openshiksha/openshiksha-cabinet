@@ -1,0 +1,20 @@
+{
+  "hint": {
+    "text": "<div>Compare the given \\(n^{th}\\) term equation with the general \\(n^{th}\\) term equation of A.P. is</div><div>\\(a_n=a+(n-1)d\\) </div>"
+  }, 
+  "solution": {
+    "text": "<div> \\(n^{th}\\) term of an A.P. is</div><div>\\(a_n=a+(n-1)d\\) </div><div>\\(a_n=(a-d)+nd\\) ....(1)</div><div>where \\(a\\) =first term and \\(d\\) =common difference of the A.P.</div><div>given that</div><div>\\( a_n= _{{p-q}}_ +_{q}_n\\)  ....(2)</div><div>Comparing equation (1) and (2)</div><div>d=_{q}_       (from the coefficient of n)</div><div>\\(a-d=_{{p-q}}_\\)   (from the constants)</div><div>\\(a=_{{p-q}}_+d\\)</div><div>\\(a=_{{p-q}}_+_{q}_\\)</div><div>\\(a=_{p}_\\)</div><div></div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>  Find the sum of the first term and the common difference of the A.P whose \\(n^{th}\\) term is \\( a_n= _{{p-q}}_ +_{q}_n\\) </div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}
+  }, 
+  "answer": {
+    "value": "_{{ p+q}}_"
+  }, 
+  "type": 3
+}

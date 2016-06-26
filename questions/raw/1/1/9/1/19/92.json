@@ -1,0 +1,63 @@
+{
+  "hint": {
+    "text": "Observe the decimal values."
+  }, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{j}_}{_{k}_} = _{{trunc(((j*Decimal(1))/k),k)}}_.....\\) and \\(\\frac{_{{j+1}}_}{_{k}_} = _{{trunc(((j+Decimal(1))/k),k)}}_.....\\)</div><div>Irrational numbers are non-terminating non-recurring.</div><div>Therefore, \\(_{{trunc((((j*Decimal(1))/k)+(Decimal(1)/(3*k))),k)}}_.....\\) and \\(_{{trunc((((j*Decimal(1))/k)+(Decimal(1)/(5*k))),k)}}_.....\\) are irrational numbers between \\(\\frac{_{j}_}{_{k}_}\\) and \\(\\frac{_{{j+1}}_}{_{k}_}\\)</div>\n"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(\\frac{_{j}_}{_{k}_}\\) and \\(\\frac{_{{j+1}}_}{_{k}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        17, 
+        19, 
+        19, 
+        19, 
+        17, 
+        17, 
+        19, 
+        17
+      ]
+    }, 
+    "j": {
+      "options": [
+        8, 
+        3, 
+        8, 
+        9, 
+        1, 
+        2, 
+        1, 
+        6
+      ]
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": " \\(_{{trunc((((j*Decimal(1))/k)+(Decimal(1)/(2*k))),k)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc((((j*Decimal(1))/k)+(Decimal(1)/(8*k))),k)}}_\\)"
+      }, 
+      {
+        "text": " \\(_{{trunc((((j*Decimal(1))/k)-(Decimal(1)/(4*k))),k)}}_.....\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc((((j*Decimal(1))/k)+(Decimal(2)/(k))),k)}}_.....\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{{trunc((((j*Decimal(1))/k)+(Decimal(1)/(3*k))),k)}}_.....\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc((((j*Decimal(1))/k)+(Decimal(1)/(5*k))),k)}}_.....\\)"
+      }
+    ]
+  }
+}

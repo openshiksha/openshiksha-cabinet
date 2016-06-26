@@ -1,0 +1,39 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>We have a combination of triangle and a circle</div><div>Area of the dotted region= Area of the circle + Area (PQRS)</div><div>Area of the dotted region= Area of the circle + [area of the triangle - area of the sector(ORS)]</div><div>As QOP is an equilateral triangle, all the angles of the triangle = \\(60^\\circ\\)</div><div>we get angle subtended by the sector ROS at the centre \\(=\\theta =\\angle QOP=60^\\circ\\)</div><div>Area of the sector = \\(\\pi \\times R^2 \\times \\frac{60}{360}= _{{trunc(pi_val*j*j/6,2)}}_\\)</div><div>Area of the equilateral triangle\\(=\\frac {\\sqrt 3}{4} \\times PO^2 \\Rightarrow_{{trunc(Decimal('1.732')*j*j,2)}}_\\)</div><div>Area of the circle\\(= _{{trunc(pi_val*j*j,2)}}_\\)</div><div>Area of the dotted region= Area of the circle + [area of the triangle - area of the sector(ORS)]</div><div>\\(\\Rightarrow dotted \\,area= _{{trunc(pi_val*j*j,2)}}_ + [_{{trunc(Decimal('1.732')*j*j,2)}}_ - _{{trunc(pi_val*j*j/6,2)}}_]\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*j+Decimal('1.732')*j*j-pi_val*j*j/6,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>OPQ is an equilateral triangle, find the area of the given figure if radius of the circle, R=_{j}_cm </div>", 
+    "img": "16.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*j*j+Decimal('1.414')*j*j-pi_val*j*j/6,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*j+Decimal('1.732')*j*j-pi_val*j*j/8,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*j+Decimal('1.732')*j*j-pi_val*j*j,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*j*j+Decimal('1.732')*j*j-pi_val*j*j/6,2)}}_"
+    }
+  }
+}

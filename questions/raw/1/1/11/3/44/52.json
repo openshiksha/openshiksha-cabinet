@@ -1,0 +1,24 @@
+{
+  "hint": {
+    "text": "Use the Second Law of Thermodynamics"
+  }, 
+  "solution": {
+    "text": "The Second Law of Thermodynamics gives a fundamental limitation to the efficiency of a heat engine and the co-efficient of performance of a refrigerator. In simple terms, it says that efficiency of a heat engine \\((\\eta)\\) can never be unity."
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Is the following statement true or false? <i>An ideal heat engine will have an efficiency \\((\\eta)\\) of 1</i>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

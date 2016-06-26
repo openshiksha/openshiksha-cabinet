@@ -1,0 +1,51 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{{j*k+1}}_}{_{k}_}=_{{trunc(((j*k+Decimal(1))/k),4)}}_\\)</div><div>\\(\\frac{_{{j*l+1}}_}{_{l}_}=_{{trunc(((j*l+Decimal(1))/l),4)}}_\\)</div><div>\\(\\frac{_{{j*k+1}}_}{_{l}_}=_{{trunc(((j*k+Decimal(1))/l),4)}}_\\)</div><div>\\(\\frac{_{{j*l+1}}_}{_{k}_}=_{{trunc(((j*l+Decimal(1))/k),4)}}_\\)</div><div>Therefore, the rational numbers \\(\\frac{_{{j*k+1}}_}{_{k}_}\\) and \\(\\frac{_{{j*l+1}}_}{_{l}_}\\) lie between \\(_{j}_\\) and \\(_{{j+1}}_\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_\\) and \\(_{{j+1}}_\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{_{{j*k+1}}_}{_{l}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j*l+1}}_}{_{k}_}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\frac{_{{j*k+1}}_}{_{k}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j*l+1}}_}{_{l}_}\\)"
+      }
+    ]
+  }
+}

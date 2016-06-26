@@ -1,0 +1,85 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the ratio be m : n</div><div>Now,</div><div>Using section formula as :</div><div> x = \\({m\\times _{{i+n}}_ + n\\times _{i}_}\\over {m + n} \\) , y = \\({m\\times _{{j+n}}_ + n\\times _{j}_}\\over {m + n} \\)</div><div>Here, x = _{{i+m}}_ and y = _{{j+m}}_</div><div>Therefore, </div><div> _{{i+m}}_ = \\({m\\times _{{i+n}}_ + n\\times _{i}_}\\over {m + n} \\) and _{{j+m}}_ = \\({m\\times _{{j+n}}_ + n\\times _{j}_}\\over {m + n} \\)</div><div>solving for x coordinate</div><div>i.e.,  _{{i+m}}_ = \\({m\\times _{{i+n}}_ + n\\times _{i}_}\\over {m + n}\\)</div><div>i.e.,  _{{i+m}}_m + _{{i+m}}_n = _{{i+n}}_m + _{i}_n</div> <div>i.e., - _{{i+m}}_m + _{{i+n}}_m = _{{i+m}}_n - _{i}_n</div> <div>i.e.,  _{{n-m}}_m = _{m}_n</div> <div>i.e., \\( m\\over n\\)  = \\(_{m}_\\over _{{n-m}}_\\)</div><div>i.e., m : n = _{m}_ : _{{n-m}}_</div><div>Verifying that whether this ratio satisfies the y-coordinate also,</div><div>i.e., _{{j+m}}_ = \\({m\\times _{{j+n}}_ + n\\times _{j}_}\\over {m + n} \\)</div><div>_{{j+m}}_ = \\({{m\\over n}\\times _{{j+n}}_ + _{j}_}\\over {{m\\over n} + 1} \\)</div><div>_{{j+m}}_ = \\({{_{m}_\\over _{{n-m}}_}\\times _{{j+n}}_ + _{j}_}\\over {{_{m}_\\over _{{n-m}}_} + 1} \\)</div><div>_{{j+m}}_ = \\({{_{{m*(j+n)}}_\\over _{{n-m}}_} + _{j}_}\\over {{_{m}_\\over _{{n-m}}_} + 1} \\)</div><div>_{{j+m}}_ = \\({{_{{m*(j+n)}}_} + _{{(n-m)*j}}_}\\over {{_{m}_} + _{{n-m}}_} \\)</div><div>_{{j+m}}_ = \\(_{{(m*(j+n))+((n-m)*j)}}_\\over _{{m+n-m}}_\\)</div><div> _{{j+m}}_ =  _{{j+m}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>In what ratio does the point (_{{i+m}}_,_{{j+m}}_) divides the line segment joining the points P(_{i}_,_{j}_) and Q(_{{i+n}}_,_{{j+n}}_)?</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            16, 
+            21
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            16, 
+            21
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            10, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{m}_\\over _{{n-m+1}}_\\)"
+      }, 
+      {
+        "text": "\\(_{m}_\\over _{{n-m-1}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{m}_\\over _{{n-m}}_\\)"
+    }
+  }
+}

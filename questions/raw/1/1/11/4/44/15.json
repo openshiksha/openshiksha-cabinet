@@ -1,0 +1,27 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "The First Law of Thermodynamics applies to the internal energy of an isolated system and states that the energy of the system is constant or \\(\\Delta U = q + w\\)."
+  }, 
+  "content": {
+    "text": "The First Law of Thermodynamics can be represented by \\(\\Delta U = q + w\\). Which of the following statements accurately describe the law?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "The energy of an isolated system varies with respect to external work"
+      }, 
+      {
+        "text": "The energy of an closed system is constant if q = 0"
+      }, 
+      {
+        "text": "The energy of a open system is only dependent on the value of w and q"
+      }
+    ], 
+    "correct": {
+      "text": "The energy of an isolated system is constant and \\(\\Delta U = 0\\)"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{j}_}{_{k}_}=_{{trunc((j*Decimal(1)/k),4)}}_\\)</div><div>\\(\\frac{_{{j+1}}_}{_{k}_}=_{{trunc(((j+Decimal(1))/k),4)}}_\\)</div><div>\\(\\frac{_{{j*l+3}}_}{_{{k*l}}_}=_{{trunc(((j*l+Decimal(3))/(k*l)),4)}}_\\)</div><div>\\(\\frac{_{{j*m+2}}_}{_{{k*m}}_}=_{{trunc(((j*m+Decimal(2))/(k*m)),4)}}_\\)</div><div>\\(\\frac{_{{j*l+3}}_}{_{{k*m}}_}=_{{trunc(((j*l+Decimal(3))/(k*m)),4)}}_\\)</div><div>\\(\\frac{_{{j*m+2}}_}{_{{k*l}}_}=_{{trunc(((j*m+Decimal(2))/(k*l)),4)}}_\\)</div><div>Therefore, the rational numbers \\(\\frac{_{{j*l+3}}_}{_{{k*l}}_}\\) and \\(\\frac{_{{j*m+2}}_}{_{{k*m}}_}\\) lie between \\(\\frac{_{j}_}{_{k}_}\\) and \\(\\frac{_{{j+1}}_}{_{k}_}\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{j}_}{_{k}_}\\) and \\(\\frac{_{{j+1}}_}{_{k}_}\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            7, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            4, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{_{{j*l+3}}_}{_{{k*m}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j*m+2}}_}{_{{k*l}}_}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\frac{_{{j*l+3}}_}{_{{k*l}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j*m+2}}_}{_{{k*m}}_}\\)"
+      }
+    ]
+  }
+}

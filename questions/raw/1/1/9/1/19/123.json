@@ -1,0 +1,32 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{j}_\\sqrt{_{{k*l}}_}}{_{m}_\\sqrt{_{l}_}}\\)</div><div>\\(=\\frac{_{j}_ \\sqrt{_{k}_} \\sqrt{_{l}_}}{_{m}_ \\sqrt{_{l}_}}\\)</div><div>\\(=\\frac{_{j}_ \\sqrt{_{k}_}}{_{m}_}\\)</div><div>\\(=_{{Fraction(j,m)}}_ \\sqrt{_{k}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "Divide \\(_{j}_\\sqrt{_{{k*l}}_}\\) by \\(_{m}_\\sqrt{_{l}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{Fraction(j,k)}}_\\sqrt{_{m}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{Fraction(k,m)}}_\\sqrt{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{Fraction(m,j)}}_\\sqrt{_{k}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{Fraction(j,m)}}_\\sqrt{_{k}_}\\)"
+    }
+  }
+}

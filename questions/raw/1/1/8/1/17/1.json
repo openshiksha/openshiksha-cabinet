@@ -1,4 +1,7 @@
 {
+  "hint": {
+    "text": "Look at the expressions and make a list of number of variables and constants. Then count the number of distinct variables."
+  }, 
   "solution": {
     "text": "<div>\\(_{j}_x\\). Correct. The only variable is x</div><div>\\(_{j}_x+_{k}_\\). Correct. The only variable is x</div><div>\\(_{j}_y + x\\). Incorrect. There are two variables here: x and y</div><div>\\(_{j}_t\\). Correct. The only variable is t</div><div>\\(_{j}_xy\\). Incorrect. There are two variables here: x and y</div><div>\\(_{j}_z\\). Correct. The only variable is z</div><div>\\(_{j}_p^2 + 5\\). Correct. The only variable is p </div><div>\\(_{j}_q^3\\). Correct. The only variable is q</div>"
   }, 

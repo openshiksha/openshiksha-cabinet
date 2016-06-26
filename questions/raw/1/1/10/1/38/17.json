@@ -1,0 +1,63 @@
+{
+  "hint": {
+    "text": "Terminating decimals can be identified without actually performing the long division"
+  }, 
+  "solution": {
+    "text": "<div>As per the theorem that says if x=\\(\\frac pq\\) be a rational number, such that the prime factorization of q is not of the form \\(2^n\\times 5^m\\).</div><div>Then, x has a decimal expansion which is non-terminating repeating.</div><div>So, we just need to check for the denominator(q) of the given fraction</div><div>if q is a factor of any prime number other 2 or 5 then it is non terminating</div><div>So we solve and get,\\(\\frac {_{l}_}{_{{pow(5,j)*pow(2,k)}}_}=\\frac {_{l}_}{5^_{j}_\\times 2^_{k}_}\\)</div> <div>similarly, \\(\\frac {_{l}_}{_{{pow(2,k)}}_}=\\frac {_{l}_}{5^0\\times 2^_{k}_}\\)</div><div>\\(\\frac {_{l}_}{_{{pow(5,j)}}_}=\\frac {_{l}_}{5^_{j}_\\times 2^0}\\)</div><div>But in one of the option ,\\(\\frac {_{l}_}{_{{pow(7,j)}}_}=\\frac {_{l}_}{7^_{j}_}\\)</div><div>\\(\\Rightarrow \\) this fraction cannot be represented as a terminating decimal</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>From the fractions given below choose the ones which can be represented in the form of a terminating decimal.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            500, 
+            5000
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {_{l}_}{_{{pow(7,j)}}_}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\frac {_{l}_}{_{{pow(5,j)*pow(2,k)}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{l}_}{_{{pow(2,k)}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{l}_}{_{{pow(5,j)}}_}\\)"
+      }
+    ]
+  }
+}

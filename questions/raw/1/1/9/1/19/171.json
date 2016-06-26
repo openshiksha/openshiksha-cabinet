@@ -1,0 +1,32 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{j}_^{\\frac{_{k}_}{_{l}_}}._{j}_^{\\frac{_{m}_}{_{l}_}}\\)</div><div>Since the base in both the terms is common, the exponents can be added.</div><div>\\(=_{j}_^{\\frac{_{k}_}{_{l}_}+\\frac{_{m}_}{_{l}_}}\\)</div><div>\\(=_{j}_^{\\frac{_{{k+m}}_}{_{l}_}}=_{j}_^{_{{Fraction(k+m,l)}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_^{\\frac{_{k}_}{_{l}_}}._{j}_^{\\frac{_{m}_}{_{l}_}}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_^{_{{Fraction(k-m,l)}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^{_{{Fraction(k*m,l)}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{j}_^{_{{Fraction(l,k+m)}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_^{_{{Fraction(k+m,l)}}_}\\)"
+    }
+  }
+}

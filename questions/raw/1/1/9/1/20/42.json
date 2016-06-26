@@ -1,0 +1,29 @@
+{
+  "hint": {
+    "text": "Determine the radius or height of the cylinder using its total surface area."
+  }, 
+  "solution": {
+    "text": "<div>Total surface area\\(=_{{2*22*j*((7*j)+(2*7*j))}}_cm^2\\)</div><div>\\(Radius=\\frac{Height}2\\Rightarrow h=2r\\)</div><div>Total surface area\\(=_{{2*22*j*((7*j)+(2*7*j))}}_\\)\\(=2\\pi r(r+h)\\)</div><div>\\(\\Rightarrow \\frac{_{{2*22*j*((7*j)+(2*7*j))}}_}{2 \\times \\pi}=r(r+2r)\\)</div><div>\\(\\Rightarrow \\frac{_{{2*22*j*((7*j)+(2*7*j))}}_}{2 \\times \\pi}=3r^2\\)</div><div>\\(\\Rightarrow \\frac{_{{2*22*j*((7*j)+(2*7*j))}}_}{2 \\times \\pi \\times 3}=r^2\\)</div><div>\\(\\Rightarrow r^2=\\frac{_{{7*j*((7*j)+(2*7*j))}}_}{3}=_{{Fraction(7*j*((7*j)+(2*7*j)),3)}}_\\)</div><div>\\(\\Rightarrow r=\\sqrt{_{{Fraction(7*j*((7*j)+(2*7*j)),3)}}_}=_{{sqrt(Fraction(7*j*((7*j)+(2*7*j)),3))}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "If the radius of a cylinder having total surface area \\(_{{2*22*j*((7*j)+(2*7*j))}}_cm^2\\) is half its height, find the radius."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{sqrt(Fraction(7*j*((7*j)+(2*7*j)),3))}}_"
+  }, 
+  "type": 3, 
+  "unit": "cm"
+}

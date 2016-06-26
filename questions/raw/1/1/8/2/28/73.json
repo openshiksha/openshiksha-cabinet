@@ -1,0 +1,33 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>The impression of an image persists at the retina for \\(\\frac1{16}^{th}\\) of a second.</div><div>Hence, the images of a still object must be flashed on the eye at a rate faster than 16 per second.</div>"
+  }, 
+  "content": {
+    "text": "If still images of a moving object are flashed on the eye at a rate of _{j}_ per second, then the eye perceives this object as moving."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

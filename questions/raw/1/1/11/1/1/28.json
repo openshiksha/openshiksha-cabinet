@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Here a = 2, r = 2 and n = _{p}_</div><div>Using the sum formula</div><div>\\(S_n=\\frac{a(r^n-1)}{r-1}\\)</div><div>\\we have</div><div>\\(S_n=2(2^{_{p}_}-1)=_{{2*((2**p)-1)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>  A person has 2 parents, 4 grandparents, 8 great grandparents, and so on.Find the number of his ancestors during the _{p}_ generations preceding his own.</div>"
+  }, 
+  "variable_constraints": {
+    "p": {
+      "range": {
+        "include": [
+          [
+            6, 
+            11
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{2*((2**p)-1)}}_"
+  }, 
+  "type": 3
+}

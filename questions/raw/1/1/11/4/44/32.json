@@ -1,0 +1,21 @@
+{
+  "hint": {
+    "text": "Remember that the enthalpy of vapourisation for 1 mol of water at 100\\(^\\circ \\) C and 1 bar is 40.66\\(\\frac{kJ}{mol}\\). Approximate the value of R to be \\(8.3 \\frac{J}{mol K}\\)"
+  }, 
+  "solution": {
+    "text": "\\(H_2O (l) \\rightarrow H_2O(g)\\)<br>\\(\\Delta H = \\Delta U + \\Delta n_gRT\\)<br>\\(\\implies \\Delta U = \\Delta H - \\Delta n_gRT\\)<br>Approximate the value of R to be \\(8.3 \\frac{J}{mol K}\\)<br><br>Molecular weight of \\(H_2O\\) is 18 \\(\\frac{grams}{mol}\\) \\(\\implies\\) Volume of \\(H_2O\\) given is \\(_{j}_\\) moles.<br><br>Substitute values from the above information and solve for 1 mole:<br>\\(\\Delta U_ {mol} = (40.7 - 1 \\times 8.3 \\times 373) \\frac{kJ}{mol}\\)<br>\\(\\implies \\Delta U_ {mol} = (40.66 - 3.096) \\frac{kJ}{mol}\\)<br>\\(\\implies \\Delta U_ {mol} = 37.564 \\frac{kJ}{mol}\\)<br><br>Now given that there are _{j}_ moles:<br>\\(\\Delta U_ {total} = 37.564 \\times _{j}_ kJ\\)\\(\\implies \\Delta U_ {total} = _{{37.564 * j}}_ kJ\\)"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Calculate how much heat must be supplied to evaporate _{{18*j}}_ <b>grams</b> of water at 100\\(^ \\circ \\) C and a pressure of 1 bar."
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.5, 
+    "value": "_{{37.564 * j}}_"
+  }, 
+  "type": 3, 
+  "unit": "kJ"
+}

@@ -1,0 +1,46 @@
+{
+  "content": {
+    "text": "Which of these planets shines brightest in the night sky?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "_{k}_"
+      }, 
+      {
+        "text": "_{l}_"
+      }
+    ], 
+    "correct": {
+      "text": "Venus"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 8, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "Earth", 
+        "Mars", 
+        "Saturn"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "Mercury", 
+        "Earth", 
+        "Earth"
+      ]
+    }, 
+    "l": {
+      "options": [
+        "Mars", 
+        "Jupiter", 
+        "Mars"
+      ]
+    }
+  }
+}

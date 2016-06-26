@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Cost of painting outer surface area\\(=\\,\\)Rs.\\(_{{trunc((2*pi_val*(j+2)**2*l),2)}}_\\)</div><div>\\(\\Rightarrow\\) Surface area \\(\\times\\) Rate \\(=_{{trunc((2*pi_val*(j+2)**2*l),2)}}_\\)</div><div>\\(\\Rightarrow 2 \\pi r_o^2 \\times _{l}_=_{{trunc((2*pi_val*(j+2)**2*l),2)}}_\\)</div><div>\\(\\Rightarrow r_o^2=\\frac{_{{trunc((2*pi_val*(j+2)**2*l),2)}}_}{2 \\pi \\times _{l}_}=_{{(j+2)**2}}_\\)</div><div>\\(\\Rightarrow r_o=_{{j+2}}_\\,m\\)</div><div>The outer radius of the dome is \\(_{{j+2}}_\\,m\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>find the outer radius of the dome.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{j+2}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m\\)"
+}

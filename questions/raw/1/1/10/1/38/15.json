@@ -1,0 +1,51 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>On simplifying \\(\\sqrt {_{{j*j}}_}+ \\sqrt {_{k}_}\\)</div><div>we get \\(=_{j}_+\\sqrt {_{k}_}\\)</div><div>_{j}_ is an integer and every integer is a rational number</div> <div>\\(\\sqrt {_{k}_}\\) can not be expressed as integer as we know square root of any prime number is not an integer</div><div>\\(\\sqrt {_{k}_}\\) is an irrational number</div><div>Now we know that sum or difference of any rational and irrational number is irrational.</div><div> hence \\(\\sqrt {_{{j*j}}_}+ \\sqrt {_{k}_}\\) is an irrational number</div><div>If any number is irrational , by definition it can not be expressed in the form of \\(\\frac ab\\) where \\(a\\) and \\(b\\) are comprime</div>"
+  }, 
+  "content": {
+    "text": "<div>Can we find a pair of coprime numbers \\(a\\) and \\(b\\) (b \\(\\neq \\) 0) such that  \\(\\sqrt {_{{j*j}}_}+ \\sqrt {_{k}_}=\\frac ab\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        41, 
+        37, 
+        31, 
+        29, 
+        23, 
+        19, 
+        17, 
+        13, 
+        11, 
+        7, 
+        5, 
+        3
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            14
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }, 
+      {
+        "text": "Can't say"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

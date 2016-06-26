@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Amount received by the daughter on the first day;\\(a= _{k}_\\)</div><div>increment in the amount received by the daughter;\\(d=_{k}_\\)</div><div> Let the cost of the scooty be X</div><div> Amount of money collected by his daughter is;\\(S_n=2X\\) in \\(n=_{l}_\\) days</div><div>using the formula \\(S_n=\\frac n2[2a+(n-1)d]\\)</div><div>Here a=d,</div><div>So \\(S_n=\\frac n2[(n+1)d]\\)</div><div>2X=_{{(Decimal('0.5')*l)*(2*(k)+(l-1)*(k))}}_</div><div>Cost of the scooty is X=_{{((Decimal('0.5')*l)*(2*(k)+(l-1)*(k)))/2}}_</div><div>let the days taken to collect X amount be t</div><div>\\(S_t=\\frac t2[(t+1)d]\\)</div><div>we know a=d, in this case</div><div>the quadratic in t becomes; \\(t^2*d+t*d-2X=0\\)</div><div>\\(t=0.5*(\\sqrt{_{{(((Decimal('0.5')*l)*(2*(k)+(l-1)*(k)))/k)*4}}_}-1)\\)</div><div>\\(t=_{{trunc(Decimal('0.5')*(sqrt((((Decimal('0.5')*l)*(2*(k)+(l-1)*(k)))/k)*4)-1),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A shopkeeper keeps some amount of his daily earning and gives the rest to his daughter to collect to buy a scooty.</div><div>The daughter observes that each day she is getting Rs _{k}_ more than the previous day. </div><div>The earnings of the shopkeeper increased at a constant rate</div><div>After _{l}_ days the daughter observes that she has collected twice the money required to purchase the scooty.</div><div>Find the minimum days after which the girl could have purchased the scooty.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal('0.5')*(sqrt((((Decimal('0.25')*l)*(2*(k)+(l-1)*(k)))/k)*4)-1),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal('0.5')*(sqrt((((Decimal('0.75')*l)*(2*(k)+(l-1)*(k)))/k)*4)-1),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal('0.5')*(sqrt((((Decimal('1.5')*l)*(2*(k)+(l-1)*(k)))/k)*4)-1),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal('0.5')*(sqrt((((Decimal('0.5')*l)*(2*(k)+(l-1)*(k)))/k)*4)-1),2)}}_"
+    }
+  }
+}

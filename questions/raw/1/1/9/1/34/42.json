@@ -1,0 +1,14 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Total Number of People with one electronic device : _{{(k+j+l)+(m+n+o)+(m+j+k-2)+(m+k)}}_<br>Total Number of people between the ages of 20 and 40 with one electronic device : _{{m+n+o}}_<br><br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore, the probability of the given individual being between the ages of 20 and 40:<br>\\( P(E) = \\frac{_{{m+n+o}}_}{_{{(k+j+l)+(m+n+o)+(m+j+k-2)+(m+k)}}_} = _{{Fraction((m+n+o),((k+j+l)+(m+n+o)+(m+j+k-2)+(m+k)))}}_\\)"
+  }, 
+  "content": {
+    "text": "You contact a random person from the group and that person tells you that they own exactly one electronic device. What is the probability that the person is between 20 and 40 years old? (Enter your answer as a simplified fraction)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{Decimal(m+n+o)/((k+j+l)+(m+n+o)+(m+j+k-2)+(m+k))}}_"
+  }, 
+  "type": 3
+}

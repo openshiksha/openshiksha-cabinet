@@ -1,0 +1,40 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>we know sin(45)=cos(45)=\\(1\\over \\sqrt 3\\)</div><div>we know for any angle between 0 to 45 degree </div><div>The value of sin \\(\\theta \\) is less than cos \\(\\theta \\)</div><div>For example cos(0)&gt;sin(0), cos(30)&gt;sin(30)</div><div>The value of sin \\(\\theta \\) increases as \\(\\theta \\) increases and the value of cos \\(\\theta \\) decreases as \\(\\theta \\) increases</div><div>at \\(\\theta \\) = 45 the values of sin \\(\\theta \\) and cos \\(\\theta \\) are equal</div><div> also as cos(90)=0 and tan \\(\\theta \\)=\\(sin \\theta\\over cos \\theta\\)=\\(\\frac 10\\) that is not defined</div>  <div> similarly as cos(90)=0 and sec \\(\\theta \\)=\\(1\\over cos \\theta\\)=\\(\\frac 10\\) that is not defined</div><div> and as sin(0)=0 and cot \\(\\theta\\)=\\(cos \\theta\\over sin \\theta\\)=\\(\\frac 10\\) that is not defined</div>"
+  }, 
+  "content": {
+    "text": "<div>From the options given below choose the correct ones</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            44
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "sin(A+B)=sinA+sinB"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "The value of cos_{j}_\\(^\\circ\\)-sin_{j}_\\(^\\circ\\) is always greater than 0"
+      }, 
+      {
+        "text": "cos(x)=sin(x) , ( for x=45\\(^\\circ\\))"
+      }, 
+      {
+        "text": "The values of , cot(0), tan(90) and sec(90) are 'Not Defined'"
+      }
+    ]
+  }
+}

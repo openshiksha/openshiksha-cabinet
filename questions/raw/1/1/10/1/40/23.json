@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\bigtriangleup \\)ABC ~ \\(\\bigtriangleup \\)PQR</div><div>\\(\\Rightarrow \\frac {AB}{PQ}=\\frac {BC}{QR}\\)</div><div>\\(\\Rightarrow \\frac {AB}{PQ}=\\frac {2\\times BD}{2\\times QS}=\\frac {BD}{QS}\\)</div><div> Also \\(\\angle ABC=\\angle PQR\\)</div><div>Now in triangle,\\(\\bigtriangleup \\)ABD and \\(\\bigtriangleup \\)PQS</div><div>we have \\(\\angle ABD=\\angle PQS\\) , \\(\\frac {AB}{PQ}=\\frac {BD}{QS}\\)</div><div>\\(\\Rightarrow \\bigtriangleup \\)ABD ~ \\(\\bigtriangleup \\)PQS</div><div>\\(\\Rightarrow \\frac {AD}{PS}=\\frac {AB}{PQ}\\)</div><div>We know, \\(\\frac {ar(ABC)}{ar(PQR)}=\\frac 1{_{{k*k}}_}=[\\frac {AB}{PQ}]^2=[\\frac {AD}{PS}]^2\\)</div><div>Hence \\(\\frac {AD}{PS}=\\frac 1{\\sqrt _{{k*k}}_}=\\frac 1{_{k}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Two triangles, \\(\\bigtriangleup \\)ABC ~ \\(\\bigtriangleup \\)PQR where QR=_{{2*j}}_cm.</div><div>It is given that lines from A and P intersect their opposite sides at D and S respectively such that BD=DC and QS=SR.</div> <div> If the areas of the two triangles are in the ratio \\(\\frac {ar(ABC)}{ar(PQR)}=\\frac 1{_{{k*k}}_}\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {AD}{PS} = \\frac 1{_{{k*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {PS}{AD} = \\frac 1{_{k}_}\\)"
+      }, 
+      {
+        "text": "None of these"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {AD}{PS} = \\frac 1{_{k}_}\\)"
+    }
+  }
+}

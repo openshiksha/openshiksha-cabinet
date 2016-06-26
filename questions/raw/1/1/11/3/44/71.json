@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "The Kelvin-Planck statement states that <b>no process is possible whose sole result is the absorption of heat from a reservoir and complete conversion of the heat into work.</b>"
+  }, 
+  "content": {
+    "text": "Kelvin-Planck statement"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No process is possible whose sole result is the transfer of heat from a colder object to a hotter object."
+      }, 
+      {
+        "text": "No process is possible whose sole result is the transfer of work from a colder object to a hotter object."
+      }, 
+      {
+        "text": "A carnot process is possible whose sole result is the transfer of heat from a colder object to a hotter object."
+      }
+    ], 
+    "correct": {
+      "text": "No process is possible whose sole result is the absorption of heat from a reservoir and complete conversion of the heat into work."
+    }
+  }
+}

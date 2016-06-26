@@ -1,0 +1,51 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>On simplifying \\(m=\\sqrt {_{{j*j}}_}\\times \\sqrt {_{k}_}\\)</div><div>we get \\(m=\\sqrt {_{{j*j}}_\\times _{k}_}=_{j}_\\times \\sqrt {_{k}_}\\)</div><div>_{j}_ is an integer and every integer is a rational number</div> <div>\\(\\sqrt {_{k}_}\\) can not be expressed as integer as we know square root of any prime number is not an integer</div><div>\\(\\sqrt {_{k}_}\\) is an irrational number</div><div>Now we know that the product of a non-zero rational and irrational number is irrational.</div><div> hence \\(m=\\sqrt {_{{j*j}}_}\\times \\sqrt {_{k}_}\\) is an irrational number</div>"
+  }, 
+  "content": {
+    "text": "<div>Comment on the rationality of \\(m=\\sqrt {_{{j*j}}_}\\times \\sqrt {_{k}_}\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        41, 
+        37, 
+        31, 
+        29, 
+        23, 
+        19, 
+        17, 
+        13, 
+        11, 
+        7, 
+        5, 
+        3
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            14
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(m=\\sqrt {_{{j*j}}_}\\times \\sqrt {_{k}_}\\)   is a rational number"
+      }, 
+      {
+        "text": "Can't say"
+      }
+    ], 
+    "correct": {
+      "text": "\\(m=\\sqrt {_{{j*j}}_}\\times \\sqrt {_{k}_}\\)  is an irrational number"
+    }
+  }
+}

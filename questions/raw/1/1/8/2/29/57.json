@@ -1,0 +1,49 @@
+{
+  "content": {
+    "text": "The following planets have no satellites of their own."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Earth"
+      }, 
+      {
+        "text": "Mars"
+      }, 
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "_{k}_"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Mercury"
+      }, 
+      {
+        "text": "Venus"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 6, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "Uranus", 
+        "Neptune", 
+        "Neptune", 
+        "Uranus"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "Jupiter", 
+        "Saturn", 
+        "Jupiter", 
+        "Saturn"
+      ]
+    }
+  }
+}

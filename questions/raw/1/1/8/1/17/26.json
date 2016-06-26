@@ -1,30 +1,36 @@
 {
+  "subpart_index": 0, 
   "solution": {
-    "text": "<div>\\((_{j}_x - _{k}_y)^2\\)</div><div>Using the identity: \\((a-b)^2 = (a^2 - 2ab + b^2)\\)</div><div>Where \\(a = _{j}_x, b = _{k}_y\\)</div><div>\\(= _{{j**2}}_x^2 - _{{2*k*j}}_xy + _{{k**2}}_y^2\\)</div>"
+    "text": "<div>MRP on the pair of shows\\(=\\)Rs. \\(_{{100*j}}_\\)</div><div>Discount on the pair of shoes \\(=_{k}_\\)%</div><div>Discount on the pair of shoes in rupees\\(=_{k}_\\)% \\(\\times\\) MRP</div><div>\\(=\\frac{_{k}_}{100} \\times _{{100*j}}_ = \\)Rs. \\(_{{k*j}}_\\)</div><div>Sale price of the pair of shoes\\(=\\)MRP \\(-\\) Discount</div><div>\\(=_{{100*j}}_-_{{k*j}}_\\)</div><div>\\(=\\)Rs. \\(_{{100*j-k*j}}_\\)</div>"
   }, 
-  "subpart_index": 3, 
   "content": {
-    "text": "\\((_{j}_x - _{k}_y)^2\\)"
+    "text": "<div>You walk into a store and see that your favourite pair of shoes have an MRP of Rs. \\(_{{100*j}}_\\).</div><div>The sign below them says that they are on sale at a \\(_{k}_\\)% discount.</div><div>How much will you \nhave to pay?</div>"
   }, 
   "variable_constraints": {
-    "k": {}, 
-    "j": {}
-  }, 
-  "type": 1, 
-  "options": {
-    "incorrect": [
-      {
-        "text": "\\(_{{j**2}}_x^2 - _{{k**2}}_y^2 + _{{2*k*j}}_xy\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
-      }, 
-      {
-        "text": "\\(_{{j**2}}_x^2 - _{{k*j}}_xy + _{{k**2}}_y^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)"
-      }, 
-      {
-        "text": "\\(_{{j**2}}_x^2 - _{{3*k*j}}_xy + _{{k*2}}_y^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)"
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            44
+          ]
+        ]
       }
-    ], 
-    "correct": {
-      "text": "\\(_{{j**2}}_x^2 - _{{2*k*j}}_xy + _{{k**2}}_y^2\\) using identity \\((a-b)^2 = (a^2 - 2ab + b^2)\\)"
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            9, 
+            44
+          ]
+        ]
+      }
     }
-  }
+  }, 
+  "answer": {
+    "value": "_{{100*j-k*j}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
 }

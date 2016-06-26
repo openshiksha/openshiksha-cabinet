@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We have, \\(x=-_{j}_\\) and \\(x=-_{k}_\\) are the zeroes of the equation.</div><div>\\(\\Rightarrow (x+_{j}_) \\) and \\( (x+_{k}_) \\) are the factors of the equations</div><div>Also,\\(\\Rightarrow (x+_{j}_) \\times (x+_{k}_) =x^2+_{{j+k}}_x+_{{j*k}}_\\) are the factors of the equations</div><div>To get other factors of the equation we divide \\(x^4+_{{j+k+l+m}}_x^3+_{{(l+m)*(k+j)+l*m+j*k}}_x^2+_{{(l+m)*j*k+l*m*(j+k)}}_x+_{{j*k*l*m}}_\\) by \\(x^2+_{{j+k}}_x+_{{j*k}}_\\)</div><div>\\(\\require{enclose}\\begin{array}{r}                    x^2+_{{l+m}}_x+_{{l*m}}_ \\\\[-3pt] x^2+_{{j+k}}_x+_{{j*k}}_\\enclose{longdiv}{x^4+_{{j+k+l+m}}_x^3+_{{(l+m)*(k+j)+l*m+j*k}}_x^2+_{{(l+m)*j*k+l*m*(j+k)}}_x+_{{j*k*l*m}}_} \\\\[-3pt]         \\underline{x^4+_{{j+k}}_x^3+_{{j*k}}_x^2\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,}\\phantom{2} \\\\[-3pt]                    _{{l+m}}_x^3+_{{(l+m)*(k+j)+l*m}}_x^2+_{{(l+m)*j*k+l*m*(j+k)}}_x+_{{j*k*l*m}}_   \\\\[-3pt]         \\underline{_{{l+m}}_x^3+_{{(l+m)*(j+k)}}_x^2+_{{(l+m)*j*k}}_x}\\phantom{2}\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\, \\\\[-3pt]        _{{l*m}}_x^2+_{{(k+j)*l*m}}_x+_{{j*k*l*m}}_   \\\\[-3pt]         \\underline{_{{l*m}}_x^2+_{{(k+j)*l*m}}_x+_{{j*k*l*m}}_}\\phantom{2} \\\\[-3pt]                         0\\,\\,\\,\\end{array}\\)</div><div>On dividing we get remainder as 0 and quotient as \\(x^2+_{{m+l}}_x+_{{l*m}}_\\)</div><div>Factorizing the above equation \\((x+_{l}_)(x+_{m}_)\\)</div><div>Hence the other two zeroes are, \\(x=-_{l}_\\) and \\(x=-_{m}_\\) and sum of the two zeroes \\(=-_{{l+m}}_\\) </div>"
+  }, 
+  "content": {
+    "text": "<div>If (-_{j}_) and (-_{k}_) are the zeroes of the equation \\(x^4+_{{j+k+l+m}}_x^3+_{{(l+m)*(k+j)+l*m+j*k}}_x^2+_{{(l+m)*j*k+l*m*(j+k)}}_x+_{{j*k*l*m}}_\\)</div><div>Find sum of the other two zeroes of the equation.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{-l-m}}_"
+  }, 
+  "type": 3
+}

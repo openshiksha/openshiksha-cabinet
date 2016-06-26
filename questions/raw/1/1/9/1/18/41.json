@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Substituting the value of \\(x=_{m}_\\,\\) in \\(_{j}_x^2 + _{k}_x-_{l}_\\), we get,</div><div>\\((_{j}_ \\times _{m}_^2) + (_{k}_ \\times _{m}_)- _{l}_\\)</div><div>\\(=_{{j*m*m}}_ + _{{k*m}}_ - _{l}_\\)</div><div>\\(=_{{(j*m*m) + (k*m) - (l)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x^2 + _{k}_x-_{l}_\\,\\) at \\(x=_{m}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{(j*m*m) + (k*m) - (l)}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Draw a line QS of length \\(_{k}_\\,cm\\).</div><div>We know, the diagonals of a rhombus are perpendicular bisectors of each other.</div><div>Construct its perpendicular bisector and let them meet at O.</div><div>Cut of \\(_{{j/Decimal(2)}}_\\,cm\\) lengths on either side of the drawn bisector.</div><div>You now get P and R.</div><div></div><div>Complete the rhombus by joining the points P, Q, R and S.</div><div>The length of each side in a rhombus is equal.</div><div>Measure the length of side PQ using a ruler as \\(_{{trunc((((j/Decimal(2))**2+(k/Decimal(2))**2)**(1/Decimal(2))),2)}}_\\,cm\\)</div>"
+  }, 
+  "content": {
+    "text": "Construct a rhombus PQRS where diagonal PR is \\(_{j}_\\,cm\\) and diagonal QS is \\(_{k}_\\,cm\\). Using a ruler, measure the length of the side of the rhombus. What is the length of the side?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            13
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc((((j/Decimal(2))**2+(k/Decimal(2))**2)**(1/Decimal(2))),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm\\)"
+}

@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Curved surface area of the tent\\(=_{{trunc((pi_val*k*j),2)}}_\\)sq.cm</div><div>Slant height of the tent,l\\(=_{j}_\\)cm</div><div>Curved surface area\\(=\\pi rl\\)</div><div>\\(\\Rightarrow _{{trunc((pi_val*k*j),2)}}_=\\pi \\times r \\times _{j}_\\)</div><div>\\(\\Rightarrow r = \\frac{_{{trunc((pi_val*k*j),2)}}_}{\\pi \\times _{j}_}\\)</div><div>\\(\\Rightarrow r= _{k}_\\)cm</div><div>Therefore, the radius of the tent is \\(_{k}_\\)cm.</div>"
+  }, 
+  "content": {
+    "text": "<div>The curved surface area of a conical tent made of canvas is \\(_{{trunc((pi_val*k*j),2)}}_\\)sq.cm. and its slant height is \\(_{j}_\\)cm. Find:</div><div>Radius of the tent?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{k}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm\\)"
+}

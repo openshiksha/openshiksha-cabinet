@@ -1,0 +1,68 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given equations are : </div><div> x + _{j}_y = _{k}_  -------(1)</div><div>_{i}_x - y = _{l}_   -------(2)</div><div>Multiply equation (2) by _{j}_ to make coefficient of y equal.</div><div>Then we get the equations:</div><div>x + _{j}_y = _{k}_  -------(3)</div><div>_{{j*i}}_x - _{j}_y = _{{j*l}}_   -------(4)</div><div>Add both the equations.</div><div>So, we get </div><div>(1+_{{j*i}}_)x + (_{j}_-_{j}_)y = _{k}_+_{{j*l}}_</div><div>i.e.,_{{i*j+1}}_x = _{{l*j+k}}_</div><div>i.e.,x = \\(_{{j*l+k}}_\\over _{{i*j+1}}_\\)</div><div>Now, Substitute the value of x in equation 1.</div><div>We get</div><div>\\(_{{l*j+k}}_\\over _{{i*j+1}}_\\) + _{j}_y = _{k}_</div><div> _{j}_y = _{k}_-\\(_{{l*j+k}}_\\over _{{i*j+1}}_\\)</div><div> _{j}_y = \\({_{{k*(i*j+1)}}_-_{{l*j+k}}_}\\over _{{i*j+1}}_\\)</div><div> y = \\({_{{k*(i*j+1)-(l*j+k)}}_}\\over _{{j*(i*j+1)}}_\\)</div><div>So, the solution required is: </div><div>x = \\(_{{l*j+k}}_\\over _{{i*j+1}}_\\) and y = \\({_{{k*(i*j+1)-(l*j+k)}}_}\\over _{{j*(i*j+1)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Solve the following equation by the elimination method. </div><div>x + _{j}_y = _{k}_ and _{i}_x - y = _{l}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = \\(_{{l*j+k+10}}_\\over _{{i*j+1}}_\\) and y = \\({_{{k*(i*j+1)-(l*j+k)}}_}\\over _{{j*(i*j+1)}}_\\)"
+      }, 
+      {
+        "text": "x = \\(_{{l*j+k}}_\\over _{{i*j+1}}_\\) and y = \\({_{{k*(i*j+2)-(l*j+k)}}_}\\over _{{j*(i*j+1)}}_\\)"
+      }, 
+      {
+        "text": "x = \\(_{{l*j+k-10}}_\\over _{{i*j}}_\\) and y = \\({_{{k*(i*j)-(l*j+k)}}_}\\over _{{j*(i*j+1)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "x = \\(_{{l*j+k}}_\\over _{{i*j+1}}_\\) and y = \\({_{{k*(i*j+1)-(l*j+k)}}_}\\over _{{j*(i*j+1)}}_\\)"
+    }
+  }
+}

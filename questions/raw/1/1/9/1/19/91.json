@@ -1,0 +1,34 @@
+{
+  "hint": {
+    "text": "Observe the decimal values."
+  }, 
+  "solution": {
+    "text": "<div>Irrational numbers are non-terminating non-recurring.</div><div>Therefore, \\(_{{j+0.3784582048}}_......\\) and \\(_{{j+0.9847510658}}_......\\) are irrational</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(_{j}_\\) and \\(_{{j+1}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j+0.3784582048}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{j+0.9847510658}}_\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{{j+0.3784582048}}_......\\)"
+      }, 
+      {
+        "text": "\\(_{{j+0.9847510658}}_......\\)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>No. of cards in a deck of playing cards \\(=52\\)</div><div>No. of jacks in a deck of playing cards \\(=4\\rightarrow\\) One for each suit</div><div>No. of queens in a deck of playing cards \\(=4\\rightarrow\\) One for each suit</div><div>Probability of getting \\(10\\) points=\\(\\frac{4+4}{52}\\)</div><div>\\(=\\frac{8}{52}\\)</div><div>\\(=\\frac{2}{13}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>You are playing a card game where you need to pick one random card from the deck of \\(52\\) cards.</div><div>You get \\(10\\) points if you pick a Queen or Jack and \\(20\\) points if you pick a King.</div><div>What is the probability of getting 10 points?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc((Decimal(2)/13),3)}}_"
+  }, 
+  "type": 3
+}

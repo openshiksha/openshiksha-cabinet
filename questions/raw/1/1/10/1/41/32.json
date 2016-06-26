@@ -1,0 +1,58 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the speed of car be x km/hr and the speed of train be y km/hr.</div><div>Then: </div><div>\\({_{{i*2}}_\\over x} + {_{{4*i}}_\\over y} = _{j}_\\) -----(1)</div><div>And,</div><div>\\({_{{3*i}}_\\over x} + {_{{i*3}}_\\over y} = _{j}_ + {_{m}_\\over 60}\\) -----(2)</div><div>\\({_{{3*i}}_\\over x} + {_{{i*3}}_\\over y} = _{{trunc((60*j+Decimal(m))/60,2)}}_\\) -----(2)</div><div>Let, p = \\({1\\over x}\\) and q = \\(1\\over y\\) </div><div>Then, equation (1) & (2) becomes:</div><div>\\(_{{i*2}}_p + _{{4*i}}_q = _{j}_\\) -----(3)</div><div>\\(_{{3*i}}_p + _{{i*3}}_q = _{{trunc((60*j+Decimal(m))/60,2)}}_\\) -----(4)</div><div>Now, multiplying equation (3) by 3 and equation (4) by 2</div><div>We get,</div><div>\\(_{{i*6}}_p + _{{12*i}}_q = _{{3*j}}_\\) -----(5)</div><div>\\(_{{6*i}}_p + _{{i*6}}_q = _{{trunc((60*j+Decimal(m))/30,2)}}_\\) -----(6)</div><div>Subtracting equation (6) from (5), we get</div><div>0p + _{{6*i}}_q = _{{3*j}}_ - _{{trunc((60*j+Decimal(m))/30,2)}}_</div><div>_{{6*i}}_q =_{{trunc((30*j-Decimal(m))/30,2)}}_</div><div>q =\\(_{{trunc((30*j-Decimal(m))/(30),2)}}_\\over_{{6*i}}_\\)</div><div>From equation (3)</div><div>\\(_{{2*i}}_p + _{{i*4}}_\\times {_{{trunc((30*j-Decimal(m))/(30),2)}}_\\over_{{6*i}}_}  = _{j}_\\) </div><div>\\(_{{2*i}}_p = _{j}_ - _{{i*4}}_\\times {_{{trunc((30*j-Decimal(m))/(30),2)}}_\\over_{{6*i}}_}\\) </div><div>\\(_{{2*i}}_p = _{j}_ - {_{{trunc((30*j-Decimal(m))/(30),2)}}_\\over 1.5}\\) </div><div>\\(_{{2*i}}_p = _{j}_ - _{{trunc((30*j-Decimal(m))/45,2)}}_\\) </div><div>\\(_{{2*i}}_p = _{{trunc((15*j+Decimal(m))/45,2)}}_\\) </div><div>\\(p = {_{{trunc((15*j+Decimal(m))/45,2)}}_\\over _{{2*i}}_}\\) </div><div>Since, p = \\(1\\over x\\) = \\({_{{trunc((15*j+Decimal(m))/45,2)}}_\\over _{{2*i}}_}\\)</div><div>i.e., x = \\(_{{2*i}}_\\over _{{trunc((15*j+Decimal(m))/45,2)}}_\\)</div><div>And, q = \\(1\\over y\\) = \\(_{{trunc((30*j-Decimal(m))/(30),2)}}_\\over_{{6*i}}_\\)</div><div>i.e.,  y = \\(_{{6*i}}_\\over _{{trunc((30*j-Decimal(m))/(30),2)}}_\\)</div><div>Therefore, Speed of train is \\(_{{6*i}}_\\over _{{trunc((30*j-Decimal(m))/(30),2)}}_\\) km/hr and speed of car is \\(_{{2*i}}_\\over _{{trunc((15*j+Decimal(m))/45,2)}}_\\) km\\hr</div>"
+  }, 
+  "content": {
+    "text": "<div>Rahul travels to his office which is _{{6*i}}_ km away from his home partly by car and partly by train.He takes _{j}_ hours if he travels _{{2*i}}_ km by car and remaining by train.If he travels _{{3*i}}_km by car and remaining by train he takes _{m}_ minutes longer.Find the speed of train and car separately. </div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            4, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            30, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "train = \\(_{{6*i+2}}_\\over _{{trunc((30*j-2-Decimal(m))/(30),2)}}_\\) km/hr and car = \\(_{{2*i}}_\\over _{{trunc((15*j+Decimal(m))/45,2)}}_\\) km\\hr"
+      }, 
+      {
+        "text": "train = \\(_{{6*i}}_\\over _{{trunc((30*j-Decimal(m))/(30),2)}}_\\) km/hr and car = \\(_{{2*i-2}}_\\over _{{trunc((15*j+2+Decimal(m))/45,2)}}_\\) km\\hr"
+      }, 
+      {
+        "text": "train = \\(_{{6*i-2}}_\\over _{{trunc((30*j+2-Decimal(m))/(30),2)}}_\\) km/hr and car = \\(_{{2*i+2}}_\\over _{{trunc((15*j+Decimal(m))/45,2)}}_\\) km\\hr"
+      }
+    ], 
+    "correct": {
+      "text": "train = \\(_{{6*i}}_\\over _{{trunc((30*j-Decimal(m))/(30),2)}}_\\) km/hr and car = \\(_{{2*i}}_\\over _{{trunc((15*j+Decimal(m))/45,2)}}_\\) km\\hr"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of cloth\\(=_{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))+l),3)}}_\\,cm^2\\)</div><div>Area of cloth lost in stitching and wastage\\(=_{l}_\\,cm^2\\)</div><div>Therefore, area of cloth available for making the hat\\(=_{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))+l),3)}}_-_{l}_\\)</div><div>\\(=_{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))),3)}}_\\,cm^2\\)</div><div>Therefore, CSA of hat\\(=_{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))),3)}}_\\,cm^2\\)</div><div>\\(\\Rightarrow \\pi rl=_{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))),3)}}_\\)</div><div>\\(\\Rightarrow \\pi \\times _{j}_ \\times l = _{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))),3)}}_\\)</div><div>\\(\\Rightarrow l=_{{trunc(((j**2+k**2)**Decimal(0.5)),3)}}_\\,cm\\)</div><div>We know, \\(l^2=r^2+h^2\\)</div><div>\\(\\Rightarrow h=\\sqrt{l^2-r^2}\\)</div><div>\\(\\Rightarrow h=\\sqrt{_{{trunc(((j**2+k**2)**Decimal(0.5)),3)}}_^2-_{j}_^2}\\)</div><div>\\(\\Rightarrow h=\\sqrt{_{{k**2}}_}\\)</div><div>\\(\\Rightarrow h=_{k}_\\,cm\\)</div><div>Volume of the hat\\(=\\frac13 \\pi r^2h\\)</div><div>\\(=\\frac13 \\pi \\times _{j}_^2 \\times _{k}_\\)</div><div>\\(=_{{trunc(((1/Decimal(3))*pi_val*j**2*k),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "Ahmed has a piece of cloth whose area is \\(_{{trunc((pi_val*j*((j**2+k**2)**Decimal(0.5))+l),3)}}_\\)sq.cm. He uses it to make a large conical hat of base radius \\(_{j}_\\) cm. Assuming that the stitching margins and wastage incurred is approximately \\(_{l}_\\) sq.cm, find the volume of the hat that can be made with it."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            15, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((1/Decimal(3))*pi_val*j**2*k),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

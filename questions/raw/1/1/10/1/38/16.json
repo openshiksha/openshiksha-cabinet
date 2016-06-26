@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>As per the theorem: all terminating rational number can be expressed in the form of \\(\\frac pq\\), where \\(q=5^m\\times 2^n\\)</div><div>Now we can write \\(_{{Decimal(l)/pow(10,j)}}_=\\frac {_{l}_}{10^_{j}_}\\)</div> <div>We can write \\(10^_{j}_=(5\\times 2)^_{j}_=5^_{j}_\\times 2^_{j}_\\)</div> <div>so,  \\(_{{Decimal(l)/pow(10,j)}}_=\\frac {_{l}_}{10^_{j}_}=\\frac {_{l}_}{5^_{j}_\\times 2^_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A rational number _{{Decimal(l)/pow(10,j)}}_ is represented in the form \\(\\frac {_{l}_}{5^a\\times 2^b}\\)</div><div>Find the value of \\(b\\)</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            500, 
+            5000
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 1, 
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

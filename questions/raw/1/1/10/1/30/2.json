@@ -1,0 +1,54 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>amount of money deposited(p) = _{j}_</div><div>compound interest(r) rate= _{k}_% per year.</div><div>amount of money accumulated(A) after t years can be calculated by using, \\(A=p*(1+(r*.01))^t\\)</div><div>To find the first number of the list we take \\(t=1\\) and  get \\(_{{j*(1+(k*0.01))}}_\\)</div><div>To find the second number of the list we take \\(t=2\\) and  get \\(_{{j*(1+(k*0.01))*(1+(k*0.01))}}_\\)</div><div>To find the third number of the list we take \\(t=3\\) and  get \\(_{{j*(1+(k*.01))*(1+(k*.01))*(1+(k*.01))}}_\\)</div><div>By taking difference of the two consecutive terms of the list \\(_{{j*(1+(k*.01))}}_,_{{j*(1+(k*.01))*(1+(k*.01))}}_,_{{j*(1+(k*.01))*(1+(k*.01))*(1+(k*.01))}}_\\)</div><div> We clearly see that \\(a_2-a_1\\) is not equal to \\(a_3-a_2\\)</div><div>Therefore this list doesn't form an AP</div>"
+  }, 
+  "content": {
+    "text": "<div> Ram deposited Rs _{j}_ at compound interest at _{k}_ % per annum. If the money in the account every year is taken to form a list of numbers, does the list forms an arithmetic progression.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        5, 
+        10, 
+        15, 
+        20
+      ]
+    }, 
+    "j": {
+      "options": [
+        100, 
+        200, 
+        300, 
+        400, 
+        500, 
+        600, 
+        700, 
+        800, 
+        900, 
+        1000, 
+        1100, 
+        1200, 
+        1300, 
+        1400, 
+        1500, 
+        1600, 
+        1700, 
+        1800, 
+        1900, 
+        2000
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

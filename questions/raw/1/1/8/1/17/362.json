@@ -1,0 +1,15 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>No. of cards in a deck of playing cards \\(=52\\)</div><div>No. of kings in a deck of playing cards \\(=4\\rightarrow\\) One for each suit</div><div>Probability of getting \\(20\\) points=\\(\\frac{4}{52}\\)</div><div>\\(=\\frac{1}{13}\\)</div>"
+  }, 
+  "content": {
+    "text": "What is the probability of getting \\(20\\) points?\n"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc((Decimal(1)/13),3)}}_"
+  }, 
+  "type": 3
+}

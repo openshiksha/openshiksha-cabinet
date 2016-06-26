@@ -1,0 +1,21 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The zero of \\(_{m}_x+_{n}_\\,\\) is \\(_{{Fraction (-n,m)}}_\\).</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(_{{Fraction (-n,m)}}_)=(_{j}_ \\times _{{Fraction (-n,m)}}_) - (_{k}_ \\times (_{{Fraction (-n,m)}}_)^3) + _{l}_\\)</div><div>\\(\\Rightarrow p(_{{Fraction (-n,m)}}_)=_{{j*Fraction(-n,m)}}_-(_{{k*Fraction(-n,m)*Fraction(-n,m)*Fraction(-n,m)}}_) + _{l}_\\)</div><div>\\(\\Rightarrow p(_{{Fraction(-n,m)}}_)=_{{j*Fraction(-n,m)-k*Fraction(-n,m)*Fraction(-n,m)*Fraction(-n,m) + l}}_\\)</div><div>Therefore, the remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(_{{j*Fraction(-n,m)-k*Fraction(-n,m)*Fraction(-n,m)*Fraction(-n,m) + l}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(p(x) = _{j}_x - _{k}_x^3 + _{l}_; g(x) = _{m}_x + _{n}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}, 
+    "n": {}
+  }, 
+  "answer": {
+    "tolerance": 0.005, 
+    "value": "_{{trunc(((-(Decimal(j)*n*(m**2))+(k*(n**3))+(l*(m**3)))/(m**3)),3)}}_"
+  }, 
+  "type": 3
+}

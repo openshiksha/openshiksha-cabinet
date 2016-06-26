@@ -1,0 +1,49 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\((_{j}_\\sqrt{_{j}_}-_{k}_\\sqrt{_{l}_})+(\\sqrt{_{j}_}+_{l}_\\sqrt{_{l}_})\\)</div><div>\\(=_{j}_\\sqrt{_{j}_}+\\sqrt{_{j}_}+_{l}_\\sqrt{_{l}_}-_{k}_\\sqrt{_{l}_}\\)</div><div>\\(=_{{j+1}}_\\sqrt{_{j}_}+_{{l-k}}_\\sqrt{_{l}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "Add \\(_{j}_\\sqrt{_{j}_}-_{k}_\\sqrt{_{l}_}\\) and \\(\\sqrt{_{j}_}+_{l}_\\sqrt{_{l}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j+1}}_\\sqrt{_{j}_}-_{{l-k}}_\\sqrt{_{l}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j+1}}_\\sqrt{_{j}_}+_{{l+k}}_\\sqrt{_{l}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j-1}}_\\sqrt{_{j}_}-_{{l+k}}_\\sqrt{_{l}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j+1}}_\\sqrt{_{j}_}+_{{l-k}}_\\sqrt{_{l}_}\\)"
+    }
+  }
+}

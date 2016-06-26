@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(a_1=_{j}_\\)</div><div>\\(a_2=_{{j+k}}_\\)</div><div>We know, \\(d=a_2-a_1\\)</div><div>\\(\\Rightarrow d=_{{j+k}}_-_{j}_\\)</div><div>\\(\\Rightarrow d=_{k}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the common difference of AP</div><div>_{j}_,_{{j+k}}_,_{{j+(2*k)}}_,.. ...</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

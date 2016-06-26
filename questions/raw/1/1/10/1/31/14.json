@@ -1,0 +1,36 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given that:\\(_{l}_tan_{j}_\\times tan_{k}_\\times tan_{{90-j}}_\\times tan_{{90-k}}_\\)</div><div>solving given equation</div><div>we can write : tan_{j}_ as cot(90-_{j}_)</div><div> similarly </div><div>tan_{k}_ as cot(90-_{k}_)</div><div>which gives : </div><div>Now the equation can be written as :\\(_{l}_cot_{{90-j}}_\\times cot_{{90-k}}_\\times tan_{{90-j}}_\\times tan_{{90-k}}_\\)</div><div> since, we know that : </div><div> cot(X) = \\(1 \\over tan(X) \\)</div><div>using this identity we can write the equation as follows : </div><div> _{l}_\\(1 \\over tan(_{{90-j}}_) \\)\\(\\times \\)\\(1 \\over tan(_{{90-k}}_) \\)\\(\\times \\)tan(_{{90-j}}_)\\(\\times \\)tan(_{{90-k}}_)</div><div>which is equal to _{l}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Evaluate the value of given equation:</div><div>\\(_{l}_tan_{j}_\\times tan_{k}_\\times tan_{{90-j}}_\\times tan_{{90-k}}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            8, 
+            72
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            12, 
+            75
+          ]
+        ]
+      }
+    }, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

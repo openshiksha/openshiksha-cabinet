@@ -1,0 +1,32 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let a be the first term and r be the common ratio of the G.P.</div><div>\\(a_1=a,a_2=ar,a_3=ar^2,a_4=ar^3\\)</div><div>By the given condition,</div><div>\\(a_3=a_1+_{{p*q**2 - p}}_=ar^2=a+_{{p*q**2 - p}}_\\) ........(1)</div><div>\\(a_2=a_4+_{{p*q - p*q**3}}_=ar=ar^3+_{{p*q - p*q**3}}_\\) ......(2)</div><div>From (1) and (2), we obtain</div><div>\\(a(r^2-1)=_{{p*q**2 - p}}_\\) ........(3)</div><div>\\(ar(1-r^2)=_{{p*q - p*q**3}}_\\) ..........(4)</div><div>Dividing (4) by (3), we obtain</div><div>\\(\\frac{ar(1-r^2)}{a(r^2-1)}=\\frac{_{{p*q - p*q**3}}_}{_{{p*q**2 - p}}_}\\)</div><div>r=_{q}_</div><div>Substituting the value of r in (1), we obtain</div><div>\\(_{{q**2}}_a=a+_{{p*q**2 - p}}_\\)</div><div>\\(_{{q**2-1}}_a=_{{p*q**2 - p}}_\\)</div><div>\\(a=_{p}_\\)</div><div>Thus, second term will be</div><div>\\(ar=_{{p*q}}_\\)</div><div></div>"
+  }, 
+  "content": {
+    "text": "<div>Find second term of a geometric progression in which third term is greater than the first term by _{{p*q**2 - p}}_ , and the second term is greater than the 4th by _{{p*q - p*q**3}}_ .</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "exclude": [
+          [
+            -1, 
+            1
+          ]
+        ], 
+        "include": [
+          [
+            -5, 
+            -2
+          ]
+        ]
+      }
+    }, 
+    "p": {}
+  }, 
+  "answer": {
+    "value": "_{{p*q}}_"
+  }, 
+  "type": 3
+}

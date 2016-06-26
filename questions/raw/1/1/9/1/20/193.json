@@ -1,0 +1,39 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Inner radius of pipe, \\(r_1=_{j}_\\,cm\\)</div><div>Outer radius of pipe, \\(r_2=_{k}_\\,cm\\)</div><div>Length of pipe, \\(h=_{l}_\\, cm\\)</div><div>Density of material of the pipe, \\(\\rho=_{m}_\\,\\frac{g}{cm^3}\\)</div><div>Volume of the pipe, \\(V=\\pi (r_2^2-r_1^2)h\\)</div><div>\\(=\\pi (_{k}_^2-_{j}_^2) \\times _{l}_\\)</div><div>\\(=_{{trunc((pi_val*(k**2-j**2)*l),3)}}_\\,cm^3\\)</div><div>Mass of the pipe\\(=\\)Volume \\(\\times\\) Density</div><div>\\(=V \\times \\rho\\)</div><div>\\(=_{{trunc((pi_val*(k**2-j**2)*l),3)}}_ \\times _{m}_\\)</div><div>\\(=_{{trunc((m*pi_val*(k**2-j**2)*l),3)}}_\\, gms\\)</div><div>\\(=_{{trunc(((m/Decimal(1000))*pi_val*(k**2-j**2)*l),3)}}_\\,kgs\\)</div>"
+  }, 
+  "content": {
+    "text": "Find the mass of a pipe with inner radius \\(_{j}_\\)cm, outer radius \\(_{k}_\\)cm and length \\(_{l}_\\)cm. Assume density of the material to be \\(_{m}_\\)g/cu.cm. "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc(((m/Decimal(1000))*pi_val*(k**2-j**2)*l),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "kgs"
+}

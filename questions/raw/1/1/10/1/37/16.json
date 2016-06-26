@@ -1,0 +1,32 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given equation is : </div><div>\\(2x^2 + _{{2*l}}_x + _{{l*l}}_ = 0\\)</div><div>Now, compare with the general equation </div><div> \\(ax^2 + bx + c = 0\\)</div><div>By comparing, we get :</div><div> a = 2 , b = _{{2*l}}_ and c = _{{l*l}}_</div><div>Quadratic formula is as follows:</div><div> x = \\({-b \\pm \\sqrt{b^2-4ac}}\\over 2a\\)</div><div>Check for \\((b^2-4ac)\\ge 0\\)</div><div>i.e.,\\(b^2-4ac\\) = \\(_{{2*l}}_^2 - 4\\times 2\\times _{{l*l}}_\\) = \\(_{{pow((2*l),2)}}_ - _{{8*l*l}}_\\) = _{{(pow((2*l),2))-(8*l*l)}}_</div><div>Since \\((b^2-4ac)\\le 0\\),</div><div>Thus, given equation doesn't have real roots.</div>"
+  }, 
+  "content": {
+    "text": "<div>Check, whether real roots exist for the following equation. \\(2x^2 + _{{2*l}}_x + _{{l*l}}_ = 0\\)</div>"
+  }, 
+  "variable_constraints": {
+    "l": {
+      "range": {
+        "include": [
+          [
+            12, 
+            62
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

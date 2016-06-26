@@ -1,0 +1,38 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Using Pythagoras theorem we find AB</div><div>AB=\\((_{{29*j}}_)^2-(_{{20*j}}_)^2=(AB)^2\\)</div><div>AB=\\(\\sqrt{(_{{29*j}}_-_{{20*j}}_)(_{{29*j}}_+_{{20*j}}_)}\\)</div><div>\\(AB=_{{21*j}}_\\)</div><div>We know, sinC=\\(perpendicualar\\over hypotenuse\\)</div><div>sinC=\\(_{{21*j}}_\\over _{{29*j}}_\\)</div><div>We know, cosC=\\(base\\over hypotenuse\\)</div><div>cosC=\\(_{{20*j}}_\\over _{{29*j}}_\\)</div><div>=\\(sin^2C+cos^2C\\)=\\(_{{20*j*20*j}}_\\over _{{29*j*29*j}}_\\)+\\(_{{21*21*j*j}}_\\over _{{29*j*j*29}}_\\)</div><div>therefore,\\(sin^2C+cos^2C\\)=1</div><div>Similarly by using formula,tanC=\\(perpendicualar\\over base\\)</div><div>tanC=\\(_{{21*j}}_\\over _{{20*j}}_\\)</div><div>secC=\\(1\\over cosC\\)</div><div>secC=\\(_{{29*j}}_\\over _{{20*j}}_\\)</div><div>by putting the values we get </div><div>\\(sec^2C-tan^2C=1\\)</div><div>Now since \\(sin^2C+cos^2C\\)=1 and \\(cos^2C\\) is not zero, so \\(sin^2C-cos^2C\\) is NOT Equal to 1</div>"
+  }, 
+  "content": {
+    "text": "<div>In a right angled triangle ABC, angle(ACB)=C.</div><div>If base(BC)=_{{j*20}}_ and hypotenuse(AC)=_{{j*29}}_,</div><div>Which of the following expressions will be equal to 1</div>", 
+    "img": "2.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(sin^2C-cos^2C\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(sin^2C+cos^2C\\)"
+      }, 
+      {
+        "text": "\\(sec^2C-tan^2C\\)"
+      }
+    ]
+  }
+}

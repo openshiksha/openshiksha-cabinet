@@ -1,0 +1,33 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> let us say boys at base level be \\(a_1=_{j}_\\)</div><div> we know that the decrement(d) in the number of boys is \\(d=-2\\)</div><div>Using the formula \\(a_n=a_1+(n-1)*d\\) where \\(a_n=2\\)</div><div>\\(2=_{j}_+(n-1)(-2)\\)</div><div>On solving we get n=_{{Decimal('0.5')*j}}_</div><div>The no. of levels in the formation is equal to \\(n =_{{Decimal('0.5')*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In a gymnastic formation _{j}_ boys sit in a row at the base level.</div><div>_{{j-2}}_ boys symmetrically sit on the shoulders of the boys at the base level.</div><div>Similary _{{j-4}}_ boys sit on the shoulders of these _{{j-2}}_ boys.</div><div>Boys sit in the same pattern forming a vertical triangle with 2 boys at the topmost level.</div><div>Considering the topmost level as the last level, find the number of levels in the gymnastic formation?</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        26, 
+        28, 
+        30, 
+        32, 
+        34, 
+        36, 
+        38, 
+        40, 
+        42, 
+        44, 
+        46, 
+        48, 
+        50, 
+        52
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*0.5}}_"
+  }, 
+  "type": 3
+}

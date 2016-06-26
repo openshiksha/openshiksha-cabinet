@@ -1,0 +1,26 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given pair of equations are:</div><div>_{i}_x - y = _{{3*i}}_ ------(1)</div><div>And _{{i*i}}_x - _{i}_y = _{{5*i}}_ --------(2)</div><div>Comparing with general pair of equations</div><div>We get,</div><div>i.e., \\(a_1 = _{i}_ , a_2 = _{{i*i}}_ , b_1 = -1 , b_2 = -_{i}_ , c_1 = -_{{3*i}}_ and c_2 = -_{{5*i}}_\\)</div><div>Here, </div><div>\\({a_1\\over a_2} = {b_1\\over b_2}\\neq {c_1\\over c_2}\\)</div><div>Hence, Given pair of linear equations are parallel.</div>"
+  }, 
+  "content": {
+    "text": "<div>On comparing the ratios \\({a_1\\over a_2}, {b_1\\over b_2} and {c_1\\over c_2}\\), find out whether the lines representing the following pairs of linear equations intersects at a point, are parallel or coincident.</div><div>_{i}_x - y = _{{3*i}}_ and _{{i*i}}_x - _{i}_y = _{{5*i}}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Intersect at a point"
+      }, 
+      {
+        "text": "Coincident"
+      }
+    ], 
+    "correct": {
+      "text": "Parallel"
+    }
+  }
+}

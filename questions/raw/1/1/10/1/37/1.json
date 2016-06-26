@@ -1,0 +1,42 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given equation : </div><div> \\((x+_{{l+k}}_)^3\\times (x-_{{l+(5*k)}}_) = (x-_{k}_)^2\\times (x+_{l}_)^2\\) </div><div>Solving this equation as follows:</div><div>First expand \\((x+_{{l+k}}_)^3\\) as \\(x^3 + _{{pow((l+k),3)}}_ + _{{3*(l+k)}}_x^2 + _{{3*(pow((l+k),2))}}_x\\)</div><div>Similarly, </div><div>\\((x-_{k}_)^2 = x^2 + _{{pow(k,2)}}_ - _{{2*k}}_x\\)</div><div>\\((x+_{l}_)^2 = x^2 + _{{pow(l,2)}}_ + _{{2*l}}_x\\)</div><div>Now, substituting these expanded for in given equation.</div><div>We get : </div><div>\\((x^3 + _{{pow((l+k),3)}}_ + _{{3*(l+k)}}_x^2 + _{{3*(pow((l+k),2))}}_x)\\times (x-_{{l+(5*k)}}_) = (x^2 + _{{pow(k,2)}}_ - _{{2*k}}_x)\\times (x^2 + _{{pow(l,2)}}_ + _{{2*l}}_x)\\)</div><div>Solving further we get : </div><div>\\(x^4 + _{{2*(l-k)}}_x^3  - _{{12*k*(l+k)}}_x^2 - _{{pow((l+k),2)*((2*l)+(13*k))}}_x - _{{(pow((l+k),3))*(l+(5*k))}}_ = x^4 + _{{2*(l-k)}}_x^3  - _{{-pow(l,2)-pow(k,2)+(4*k*l)}}_x^2 - _{{2*k*l*(l-k)}}_x + _{{(pow((l*k),2))}}_\\)</div><div>Since  \\(x^4\\) and \\(x^3\\) terms are getting cancelled from both side. </div><div>Hence given equation is quadratic equation</div>"
+  }, 
+  "content": {
+    "text": "<div>Check whether the given equation is quadratic equations.</div><div>\\((x+_{{l+k}}_)^3\\times (x-_{{l+(5*k)}}_) = (x-_{k}_)^2\\times (x+_{l}_)^2\\) </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            8, 
+            14
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

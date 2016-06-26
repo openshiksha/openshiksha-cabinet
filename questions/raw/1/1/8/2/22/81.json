@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "Oil is heavier than water."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "variable_constraints": {}
+}

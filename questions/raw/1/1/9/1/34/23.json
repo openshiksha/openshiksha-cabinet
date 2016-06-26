@@ -1,0 +1,37 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>In the given data, there are a total of 7 sacks.<br>Of that number, 3 sacks have a weight <b>greater than</b> _{j}_kg - (Sack Numbers 1,4 and 6).<br><br>We know that<br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore the Probability of the Event, P(E), of the chosen sack having weight greater than _{j}_ kg : \\(\\frac{3}{7}\\)</div>"
+  }, 
+  "content": {
+    "text": "You are given 7 <b>unmarked</b> sacks of rice and the following table. If you choose a sack at random, what is the probability that it weighs <b>more than</b> _{j}_ kg? (Enter the answer as a simplified fraction)<table class='table table-bordered table-condensed'><tr><th>Sack Number</th><th>Weight (kg)</th></tr><tr><td>1</td><td>_{{j+k}}_</td></tr><tr><td>2</td><td>_{{j-k}}_</td></tr><tr><td>3</td><td>_{{j-2*k}}_</td></tr><tr><td>4</td><td>_{{j+(k*0.3)}}_</td></tr><tr><td>5</td><td>_{{j-(k*1.2)}}_</td></tr><tr><td>6</td><td>_{{j+(k*0.4)}}_</td></tr><tr><td>7</td><td>_{j}_</td></tr></table>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            1, 
+            2
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( Decimal(3)/7, 2 )}}_"
+  }, 
+  "type": 3
+}

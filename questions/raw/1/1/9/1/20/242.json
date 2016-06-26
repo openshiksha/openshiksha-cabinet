@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>From part (i),</div><div>Radius of the cone, r\\(=_{k}_\\,cm\\)</div><div>Height of the cone, h\\(=_{j}_\\,cm\\)</div><div>Slant height of the cone, l\\(=\\sqrt{r^2+h^2}\\)</div><div>\\(=\\sqrt{_{k}_^2+_{j}_^2}\\)</div><div>\\(=\\sqrt{_{{k**2+j**2}}_}\\)</div><div>\\(\\Rightarrow l=_{{trunc(((k**2+j**2)**Decimal(0.5)),3)}}_\\,cm\\)</div>"
+  }, 
+  "content": {
+    "text": "The slant height of the cone."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((k**2+j**2)**Decimal(0.5)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm\\)"
+}

@@ -1,0 +1,58 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(x^3 - _{{j-k+l}}_x^2 - _{{j*k+k*l-j*l}}_x+_{{j*k*l}}_\\)</div><div>We shall now look at all the factors of \\(_{{j*k*l}}_\\)</div><div>By trial we find that \\(p(_{j}_)=_{{j**3}}_-_{{(j**2)*(j-k+l)}}_-_{{j*j*k+j*k*l-j*j*l}}_+_{{j*k*l}}_=0\\)</div><div>So,\\((x-_{j}_)\\,\\) is a factor of \\(p(x)\\).</div><div>Now, dividing \\(p(x)\\,\\) by \\((x-_{j}_)\\,\\) we get, </div><div>\\(p(x)=(x-_{j}_)(x^2-_{{l-k}}_x-_{{k*l}}_)\\)</div><div>Now, by splitting the middle term we have, \\(p(x)=(x-_{j}_)(x^2-_{l}_x+_{k}_x-_{{k*l}}_)\\)</div><div>\\(\\Rightarrow p(x)=(x-_{j}_)(x(x-_{l}_)+_{k}_(x-_{l}_))\\)</div><div>\\(\\Rightarrow p(x)=(x-_{j}_)(x-_{l}_)(x+_{k}_)\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(x^3 - _{{j-k+l}}_x^2 - _{{j*k+k*l-j*l}}_x+_{{j*k*l}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            9, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x-_{j}_)(x+_{l}_)(x+_{k}_)\\)"
+      }, 
+      {
+        "text": "\\((x-_{j}_)(x-_{l}_)(x-_{k}_)\\)"
+      }, 
+      {
+        "text": "\\((x+_{j}_)(x-_{l}_)(x+_{k}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((x-_{j}_)(x-_{l}_)(x+_{k}_)\\)"
+    }
+  }
+}

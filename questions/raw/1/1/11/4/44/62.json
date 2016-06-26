@@ -1,0 +1,49 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<b>Step One</b><br><ul><li>Flip equation A and divide it by a factor of 2, because we want \\(NH_3\\) as a reactant.</li><li>Flip equation B, because we need \\(CH_4\\) as a reactant.</li><li>Divide equation C by a factor of 2, because we want \\(HCN\\) as a product.</li></ul><b>Step Two - Revised Equations</b><br><ul><li>\\(NH_3(g) \\rightarrow \\frac{1}{2} N_2(g) + \\frac{3}{2}H_2(g) \\qquad \\Delta H =_{{j*0.5}}_ \\frac{kJ}{mol}\\)</li><li>\\(CH_4(g) \\rightarrow C(s) + 2H_2(g) \\qquad \\Delta H = _{k}_ \\frac{kJ}{mol}\\)</li><li>\\(\\frac{1}{2} H_2(g) + C(s) + \\frac{1}{2} N_2(g) \\rightarrow HCN(g) \\qquad \\Delta H = _{{l*0.5}}_ \\frac{kJ}{mol}\\)</li></ul><b>Step Three : Add the revised equations to get the desired one</b><br>\\(NH_3(g) + CH_4(g) + \\frac{1}{2} H_2(g) + C(s) + \\frac{1}{2} N_2(g)  \\rightarrow \\frac{1}{2} N_2(g) + \\frac{3}{2}H_2(g) + C(s) + 2H_2(g) + HCN(g)\\)<br>\\(\\implies CH_4(g) + NH_3(g) \\rightarrow HCN(g) + 3H_2(g)\\)<br><br><b>Step Four : Add the revised enthalpies</b><br>\\(\\implies \\Delta H = _{{j*0.5}}_ + _{k}_ + _{{l*0.5}}_ = _{{j*0.5+k+(0.5*l)}}_\\frac{kJ}{mol}\\)<br>"
+  }, 
+  "content": {
+    "text": "Calculate the enthalpy of change for the reaction below that is conducted at a certain temperature and pressure:<br> \\(CH_4(g) + NH_3(g) \\rightarrow HCN(g) + 3H_2(g)\\)<br><br>Given that the following reactions are conducted under the same conditions:\\(N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g) \\qquad \\Delta H = -_{j}_ \\frac{kJ}{mol} \\qquad (A)\\)<br>\\(C(s) + 2H_2(g) \\rightarrow CH_4(g) \\qquad \\Delta H = -_{k}_ \\frac{kJ}{mol} \\qquad (B)\\)<br>\\(H_2(g) + 2C(s) + N_2(g) \\rightarrow 2HCN(g) \\qquad \\Delta H = _{l}_ \\frac{kJ}{mol} \\qquad (C)\\)<br>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            70, 
+            79
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            88, 
+            95
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            268, 
+            278
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*0.5+k+(0.5*l)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac {kJ}{mol}\\)"
+}

@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Horse can travel in a circle of radius=length of the rope</div>   <div>\\(\\Rightarrow r=_{k}_\\)</div><div>\\(Now\\,area \\,of\\,a \\,sector=\\pi \\times r^2 \\times \\frac {\\theta}{360}\\)</div><div>In a squared shaped field\\(\\theta = 90^\\circ\\)</div><div>sector area\\(=\\frac {22}7\\times _{k}_^2 \\times \\frac {90}{360}\\)</div><div>\\(\\Rightarrow area=_{{trunc(pi_val*k*k*90/360,2)}}_\\)</div><div>grazing speed of the horse = \\(_{j}_m^2/min\\)</div><div>therefore, \\(time\\, taken=\\frac {area\\,grazed}{speed}=_{{trunc(pi_val*k*k/(4*j),2)}}_\\,minutes\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Horse is grazing in a square field at a rate of \\(_{j}_m^2/min\\)</div><div>If it is tied to a peg at one corner of the grass field of side _{{k*2}}_m by means of a _{k}_ m rope,</div><div>find the time taken by the horse to finish the maximum area it could graze</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*k*k/(5*j),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*k*(k+1)/(4*j),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*k*(k+2)/(4*j),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*k*k/(4*j),2)}}_"
+    }
+  }
+}

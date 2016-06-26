@@ -1,0 +1,68 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given number is :</div><div>_{{(pow(2,i))*(pow(3,j))*(pow(5,k))*(pow(11,l))}}_</div><div>Factorizing the given no. as follows:</div><div>_{{(pow(2,i))*(pow(3,j))*(pow(5,k))*(pow(11,l))}}_ = \\(2^_{i}_\\times _{{(pow(3,j))*(pow(5,k))*(pow(11,l))}}_\\)</div><div> _{{(pow(2,i))*(pow(3,j))*(pow(5,k))*(pow(11,l))}}_ = \\(2^_{i}_\\times 3^_{j}_\\times  _{{(pow(5,k))*(pow(11,l))}}_\\)</div><div> _{{(pow(2,i))*(pow(3,j))*(pow(5,k))*(pow(11,l))}}_ = \\(2^_{i}_\\times 3^_{j}_\\times 5^_{k}_\\times _{{pow(11,l)}}_\\)</div><div> _{{(pow(2,i))*(pow(3,j))*(pow(5,k))*(pow(11,l))}}_ = \\(2^_{i}_\\times 3^_{j}_\\times 5^_{k}_\\times 11^_{l}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Express the given number as a product of its prime factors:</div><div>_{{(pow(2,i))*(pow(3,j))*(pow(5,k))*(pow(11,l))}}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(2^_{{1+i}}_\\times 3^_{j}_\\times 5^_{k}_\\times 11^_{l}_\\)"
+      }, 
+      {
+        "text": "\\(2^_{i}_\\times 3^_{{1+j}}_\\times 5^_{k}_\\times 11^_{l}_\\)"
+      }, 
+      {
+        "text": "\\(2^_{i}_\\times 3^_{j}_\\times 5^_{{k+1}}_\\times 11^_{l}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(2^_{i}_\\times 3^_{j}_\\times 5^_{k}_\\times 11^_{l}_\\)"
+    }
+  }
+}

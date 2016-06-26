@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Equating the polynomial to \\(0\\),</div><div>\\(\\Rightarrow _{j}_x + _{k}_ = 0\\)</div><div>\\(\\Rightarrow _{j}_x=-_{k}_\\)</div>\\(\\Rightarrow x = \\frac {-_{k}_}{_{j}_}= _{{Fraction(-k,j)}}_\\)<div>Therefore, the zero of the polynomial \\(_{j}_x+_{k}_\\) is \\(_{{Fraction(-k,j)}}_\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x + _{k}_\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc((Decimal(-k)/j),5)}}_"
+  }, 
+  "type": 3
+}

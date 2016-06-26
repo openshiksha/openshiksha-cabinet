@@ -1,0 +1,22 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>given that st || qr </div><div>\\(\\Rightarrow \\angle pst = \\angle pqr\\) and \\(\\angle pts= \\angle prt\\)(corresponding angles)</div><div>Now in \\(\\bigtriangleup \\) pst and \\(\\bigtriangleup \\)pqr , we have</div><div>\\(\\angle pst = \\angle pqr\\) and \\(\\angle pts= \\angle prt\\)</div><div>Therefore by AA criteria,\\(\\bigtriangleup \\) pst ~ \\(\\bigtriangleup \\)pqr</div> <div>\\(\\Rightarrow \\frac {area(pst)}{area(pqr)}= [\\frac {pt}{pr}]^2\\)</div><div>now we can see, area(pqr)=area(pst)+area(qrts)</div><div>it can also be written as area(pqr)=\\(4\\times \\)area(pst) as \\(3 \\times \\)area(pst)=area(qrts) [given]</div><div>\\(\\Rightarrow \\frac {area(pst)}{area(pqr)}=\\frac 14= [\\frac {pt}{pr}]^2\\)</div><div>taking square root on both sides we get\\(\\frac 1{\\sqrt 4}=\\frac {pt}{pr}=\\frac 12\\)</div><div>\\(\\Rightarrow pr=2\\times pt\\Rightarrow pt+tr=2\\times pt\\)</div><div>\\(\\Rightarrow pt=tr=_{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure st || qr and the area of  quadrilateral (qrts) is three times area of \\(\\bigtriangleup \\)pst.</div><div>If tr=_{j}_cm, find the length of pt.</div>", 
+    "img": "18.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        50
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

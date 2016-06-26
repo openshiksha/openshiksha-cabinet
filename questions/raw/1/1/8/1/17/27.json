@@ -1,18 +1,15 @@
 {
-  "subpart_index": 1, 
+  "subpart_index": 0, 
   "solution": {
-    "text": "Surface Area of a cuboid = \\(2(ab + bc + ca) = 2 (_{{3*j*3*j*Decimal('0.5')}}_ + _{{3*j*Decimal('0.5')*j}}_ + _{{3*j*j}}_) = _{{2*((3*j*3*j*Decimal('0.5'))+(3*j*Decimal('0.5')*j)+(3*j*j))}}_ dm^2\\)"
+    "text": "<ol type='i'><li>Place a bar over every pair of digits starting from the one's digit.</li><li>Find the largest number whose square is less than or equal to the number under the left-most bar. Take the number as the divisor and the number under the left-most bar as the dividend. Divide and get the remainder i.e. \\(2\\) in this case.</li><li>Bring down the number under the next bar (i.e.\\(00\\)) to the right of the remainder. The new dividend is \\(200\\).</li><li>Double the divisor and enter it with a blank to its right.</li><li>Guess the largest possible digit to fill the blank which also becomes the new digit in the quotient such that when the new digit is multiplied to the new quotient the product is less than or equal to the dividend. In this case we see that \\(44 \\times 4 = 176\\). Get the remainder.</li><li>The remainder is \\(24\\). This shows that \\(24^2\\lt600\\).</li></ol><div>The next perfect square number is \\(25^2=625\\)</div><div>\\(25^2-600=625-600=25\\)</div><div>Hence, the shopkeeper needs 25 more apples for his desired arrangement.</div>", 
+    "img": "27.png"
   }, 
   "content": {
-    "text": "See the cuboid below, a=_{{3*j}}_ dm, b=_{{3*j*Decimal('0.5')}}_ dm, c=_{j}_ dm, Find its surface area", 
-    "img": "12.png"
+    "text": "A shopkeeper is arranging apples on his stall. To make the arrangement look good, he wants to arrange them in such a way that there are an equal number of rows and columns. He starts out with 600 apples. What is the minimum number of apples he needs to add to the arrangement to make an equal number of rows and columns?"
   }, 
-  "variable_constraints": {
-    "j": {}
-  }, 
+  "variable_constraints": {}, 
   "answer": {
-    "value": "_{{2*((3*j*3*j*Decimal('0.5'))+(3*j*Decimal('0.5')*j)+(3*j*j))}}_"
+    "value": 25
   }, 
-  "type": 3, 
-  "unit": "\\(dm^2\\)"
+  "type": 3
 }

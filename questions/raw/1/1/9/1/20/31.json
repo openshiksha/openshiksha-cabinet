@@ -1,0 +1,50 @@
+{
+  "hint": {
+    "text": "\\(1m^2=10000cm^2\\)"
+  }, 
+  "solution": {
+    "text": "<div>Surface area of box \\(=6 \\times side^2\\)</div><div>\\(=6 \\times _{{j*5}}_^2\\)</div><div>\\(=_{{6*j*j*25}}_cm^2\\)</div><div>Additional material required for overlapping \\(=_{k}_\\)% of surface area of the box\\(=_{{k/Decimal(100)}}_ \\times _{{6*j*j*25}}_=_{{(k/Decimal(100))*(6*j*j*25)}}_cm^2\\)</div><div>Quantity of cardboard required for a single box\\(=_{{6*j*j*25}}_+_{{(k/Decimal(100))*(6*j*j*25)}}_=_{{(6*j*j*25)+((k/Decimal(100))*(6*j*j*25))}}_cm^2\\)</div><div>Therefore, quantity of cardboard required for \\(_{l}_\\) boxes \\(=_{l}_ \\times _{{(6*j*j*25)+((k/Decimal(100))*(6*j*j*25))}}_=_{{l*((6*j*j*25)+((k/Decimal(100))*(6*j*j*25)))}}_cm^2\\)</div><div>Dividing total quantity by \\(10000\\),</div><div>\\(_{{l*((6*j*j*25)+((k/Decimal(100))*(6*j*j*25)))}}_cm^2=_{{(l/Decimal(10000))*((6*j*j*25)+((k/Decimal(100))*(6*j*j*25)))}}_m^2\\)</div><div>Therefore, cost of cardboard required for supplying \\(_{l}_\\) boxes is \\(_{{(l/Decimal(10000))*((6*j*j*25)+((k/Decimal(100))*(6*j*j*25)))}}_ \\times 450=_{{((l*450)/Decimal(10000))*((6*j*j*25)+((k/Decimal(100))*(6*j*j*25)))}}_\\)rupees</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A computer manufacturing company wants to place an order for making cardboard boxes for packing their computers. The box is in the form of a cube of side \\(_{{j*5}}_\\)cm. For all overlaps, \\(_{k}_\\)% of the total surface area is required extra.</div><div>If the cost of cardboard is Rs.\\(450\\) per sq.m., find the cost of cardboard required for supplying \\(_{l}_\\) boxes of the same kind.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            30, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 5, 
+    "value": "_{{((l*450)/Decimal(10000))*((6*j*j*25)+((k/Decimal(100))*(6*j*j*25)))}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

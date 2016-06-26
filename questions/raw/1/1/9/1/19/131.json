@@ -1,0 +1,22 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The product or quotient of two irrationals is not always irrational.</div><div>Eg: \\(\\sqrt5 \\times \\sqrt5 = 5\\), and \\(5\\) is a rational number.</div>"
+  }, 
+  "content": {
+    "text": "If we add, subtract, multiply or divide two irrationals, the result is always irrational."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

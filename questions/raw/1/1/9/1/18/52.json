@@ -1,0 +1,24 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Substituting the value of \\(x=\\frac {-1}{_{k}_}\\,\\) in \\(p(x) = _{{k**2}}_x^2 +1\\,\\), we get,</div><div>\\(p(\\frac{-1}{_{k}_}) = (_{{k**2}}_ \\times (\\frac{-1}{_{k}_})^2) +1\\)</div><div>\\(\\Rightarrow p(\\frac{-1}{_{k}_}) = (_{{k**2}}_ \\times \\frac{1}{_{{k**2}}_}) +1\\)</div><div>\\(\\Rightarrow p(\\frac{-1}{_{k}_}) = 1+1=2\\)</div><div>Therefore, \\(x=\\frac{-1}{_{k}_}\\,\\) is not a zero of the polynomial \\(p(x) = _{{k**2}}_x^2 +1\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(p(x) = _{{k**2}}_x^2 +1\\,\\) at \\(x = \\frac {-1}{_{k}_}\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

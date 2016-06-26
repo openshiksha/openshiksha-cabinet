@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Draw the base of the rectangle of length \\(_{k}_\\,cm\\).</div><div>On both ends, construct an angle of \\(90^\\circ\\).</div><div>Now, draw perpendicular from both ends of length \\(_{j}_\\,cm\\).</div><div>Join the two edges.</div><div>Finally, connect the diagonal points and measure the diagonal using a ruler.</div><div>The length of the diagonal should be \\(_{{trunc(((j**2+k**2)**(1/Decimal(2))),2)}}_\\,cm\\)</div>"
+  }, 
+  "content": {
+    "text": "Construct a rectangle with adjacent sides \\(_{j}_\\,cm\\) and \\(_{k}_\\,cm\\). Once constructed, use a ruler to measure the diagonal. What is the length of the diagonal?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            13
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.03, 
+    "value": "_{{trunc(((j**2+k**2)**(1/Decimal(2))),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm\\)"
+}

@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "img": "41.png"
+  }, 
+  "content": {
+    "text": "What do you think could be the reason for the reflected rays not being parallel?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Failure of the laws of reflection"
+      }, 
+      {
+        "text": "The reflecting surface is perfectly smooth"
+      }, 
+      {
+        "text": "Parallel rays behave abnormally after striking any surface"
+      }
+    ], 
+    "correct": {
+      "text": "Irregularities in the reflecting surface"
+    }
+  }
+}

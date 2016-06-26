@@ -1,0 +1,23 @@
+{
+  "hint": {
+    "text": "\\(1\\frac{m}{hr}=\\frac53 \\, \\frac{cm}{min}\\)"
+  }, 
+  "solution": {
+    "text": "<div>Height of passage,h\\(=_{j}_\\,cm\\)</div><div>Width of passage,w\\(=_{k}_\\,cm\\)</div><div>Rate of air flow,r\\(=_{l}_\\,\\frac{m}{hr}=_{{Fraction(l*5,3)}}_ \\, \\frac{cm}{min}\\)</div><div>Volume of air collected in \\(1\\) min\\(=h \\times w \\times r\\)</div><div>\\(=_{{Fraction(j*k*l*5,3)}}_\\,\\frac{cm^3}{min}\\)</div><div>Therefore, amount of compressed air collected in \\(_{m}_\\) minutes \\(=\\) Volume of air collected in \\(1\\) minute \\(\\times\\) Time</div><div>\\(=_{{Fraction(j*k*l*5,3)}}_ \\times _{m}_\\)</div><div>\\(=_{{trunc(((j*k*l*5*m)/Decimal(3)),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Compressed air is flowing through a passage of \\(_{j}_\\, cm\\) deep and \\(_{k}_\\, cm\\) wide at the rate of \\(_{l}_\\,\\frac{m}{hr}\\) into a large reservoir. How much air is collected in the reservoir after \\(_{m}_\\)minutes?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{trunc(((j*k*l*5*m)/Decimal(3)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

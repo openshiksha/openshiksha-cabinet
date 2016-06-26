@@ -1,0 +1,27 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>First, let us substitute the value of \\(x=\\frac {-_{k}_}{_{j}_}\\,\\) in \\(p(x) = (_{j}_x+_{k}_)(_{l}_x-_{m}_)\\,\\), we get,</div><div>\\(p(\\frac{-_{k}_}{_{j}_}) = ((_{j}_ \\times \\frac {-_{k}_}{_{j}_})+_{k}_)((_{l}_ \\times \\frac {-_{k}_}{_{j}_})-_{m}_)\\)</div><div>\\(\\Rightarrow p(\\frac{-_{k}_}{_{j}_}) = (_{k}_-_{k}_)((_{l}_ \\times \\frac {-_{k}_}{_{j}_})-_{m}_)\\)</div><div>\\(\\Rightarrow p(\\frac{-_{k}_}{_{j}_}) = 0 \\times ((_{l}_ \\times \\frac {-_{k}_}{_{j}_})-_{m}_)= 0\\)</div><div>Therefore, \\(x=\\frac{-_{k}_}{_{j}_}\\,\\) is a zero of the polynomial \\(p(x) = (_{j}_x+_{k}_)(_{l}_x-_{m}_)\\)</div><div>Similarly, Substitute the value of \\(x=\\frac {_{m}_}{_{l}_}\\,\\) in \\(p(x)\\),</div><div>The value of \\(p(x)\\,\\) obtained will be \\(0\\).</div><div>Thus, \\(x=\\frac{_{m}_}{_{l}_}\\,\\) is a zero of the polynomial \\(p(x) = (_{j}_x+_{k}_)(_{l}_x-_{m}_)\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(p(x) = (_{j}_x+_{k}_)(_{l}_x-_{m}_)\\,\\) at \\(x = \\frac {-_{k}_}{_{j}_}, \\frac{_{m}_}{_{l}_}\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

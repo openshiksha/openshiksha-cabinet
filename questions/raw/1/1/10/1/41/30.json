@@ -1,0 +1,74 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given pair of equations are:</div><div>_{j}_x + _{i}_y = _{{7*j}}_xy and _{i}_x + _{j}_y = _{{9*j}}_xy.</div><div>Divide by xy to get:</div><div>\\({_{i}_\\over x} + {_{j}_\\over y} = _{{7*j}}_\\) and \\({_{j}_\\over x} + {_{i}_\\over y} = _{{9*j}}_\\).</div><div>Put p = \\(1\\over x\\) and q = \\(1\\over y\\)</div><div>_{i}_p + _{j}_q - _{{7*j}}_ = 0 -------(1)</div><div>_{j}_p + _{i}_q - _{{9*j}}_ = 0 -------(2)</div><div>Applying cross multiplication method, we get:</div><div>\\({p\\over _{j}__{{-9*j}}_-_{i}__{{-7*j}}_} = {q\\over _{j}__{{-7*j}}_-_{i}__{{-9*j}}_} = {1\\over _{{i*i}}_-_{{j*j}}_} \\)</div><div>\\({p\\over _{{-9*j*j}}_-_{{-7*j*i}}_} = {q\\over _{{-7*j*j}}_-_{{-9*j*i}}_} = {1\\over _{{i*i}}_-_{{j*j}}_} \\)</div><div>\\({p\\over _{{-(9*j*j-7*j*i)}}_} = {q\\over _{{-(7*j*j-9*j*i)}}_} = {1\\over _{{i*i-j*j}}_} \\)</div><div> p = _{{trunc(-(9*j*Decimal(j)-7*j*i)/(i*i-j*j),2)}}_, q = _{{trunc(-(7*j*Decimal(j)-9*j*i)/(i*i-j*j),2)}}_</div><div> x = \\({1\\over p}\\) = _{{trunc(-(Decimal(i)*i-j*j)/(9*j*j-7*j*i),2)}}_,</div><div> y = \\({1\\over q}\\) = _{{trunc(-(i*i-j*j)/(7*j*Decimal(j)-9*j*i),2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Solve the following pair of equations by reducing them to a pair of linear equations:</div><div>_{j}_x + _{i}_y = _{{7*j}}_xy and _{i}_x + _{j}_y = _{{9*j}}_xy.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        9, 
+        4, 
+        8, 
+        6, 
+        12, 
+        5
+      ]
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        6, 
+        8, 
+        2, 
+        4, 
+        6, 
+        4, 
+        7, 
+        3, 
+        9
+      ]
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{trunc(-(Decimal(i)*i-j*j-5)/(9*j*j-7*j*i),2)}}_, y = _{{trunc(-(i*i-j*j)/(7*j*Decimal(j)-9*j*i),2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc(-(Decimal(i)*i-j*j)/(9*j*j-7*j*i),2)}}_, y = _{{trunc(-(i*i-j*j+5)/(7*j*Decimal(j)-9*j*i),2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc(-(Decimal(i)*i-j*j+5)/(9*j*j-7*j*i),2)}}_, y = _{{trunc(-(i*i-j*j-5)/(7*j*Decimal(j)-9*j*i),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "x = _{{trunc(-(Decimal(i)*i-j*j)/(9*j*j-7*j*i),2)}}_, y = _{{trunc(-(i*i-j*j)/(7*j*Decimal(j)-9*j*i),2)}}_"
+    }
+  }
+}

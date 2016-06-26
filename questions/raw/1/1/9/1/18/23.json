@@ -1,0 +1,37 @@
+{
+  "hint": {
+    "text": "Quadratic Polynomials have degree of \\(2\\)."
+  }, 
+  "solution": {
+    "text": "<div>The degree of the polynomial \\(4a + _{j}_a^2\\,\\) is \\(2.\\)</div><div>Hence, it is a quadratic polynomial.</div><div>The polynomials \\(a^4,\\, 2^t\\,\\) and \\(2\\,\\) have a degree other than \\(2\\).</div><div>\\(\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>Choose quadratic polynomials.</div><div>\\(t \\neq 2\\)</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(a^4\\)"
+      }, 
+      {
+        "text": "\\(2^t\\)"
+      }, 
+      {
+        "text": "\\(2\\)"
+      }, 
+      {
+        "text": "None of the above"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(4a + _{j}_a^2\\)"
+      }
+    ]
+  }
+}

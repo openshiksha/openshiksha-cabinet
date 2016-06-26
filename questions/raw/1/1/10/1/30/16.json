@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Using the formula \\(S_n=\\frac n2[2a+(n-1)d]\\)</div><div>\\(S__{l}_=\\frac _{l}_2[2a+_{{l-1}}_d]\\)</div><div>\\(S__{{l+1}}_=\\frac _{{l-1}}_2[2a+_{l}_d]\\)</div><div>We have to find\\(a__{{l+1}}_=a+_{l}_d\\)</div><div>We can observe \\(S__{{l+1}}_-S__{l}_=a+_{l}_d=a__{{l+1}}_\\)</div><div>Hence, \\(a__{{l+1}}_=_{{(Decimal('0.5')*(l+1))*(2*j+(l*k))-(Decimal('0.5')*l)*(2*j+(l-1)*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>The sum of first _{l}_ terms of an AP is \\(S__{l}_=_{{(Decimal('0.5')*l)*(2*j+(l-1)*k)}}_\\) and \\(S__{{l+1}}_=_{{(Decimal('0.5')*(l+1))*(2*j+(l*k))}}_.\\)</div><div>Find the _{{l+1}}_th term of this AP?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(Decimal('0.5')*(l+1))*(2*j+(l*k))-(Decimal('0.5')*l)*(2*j+(l-1)*k)}}_"
+  }, 
+  "type": 3
+}

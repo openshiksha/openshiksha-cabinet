@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>All rational numbers can be represented in the form of \\(\\frac{p}{q}\\)</div><div>For example, \\(\\frac12=0.5\\) which is terminating is a rational number. Also, \\(\\frac13=0.3333...\\) which is non-terminating recurring is a rational number.</div><div>For a number to be irrational, it has to be non-terminating non-recurring.</div>"
+  }, 
+  "content": {
+    "text": "Irrational numbers are always non-terminating non-recurring."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

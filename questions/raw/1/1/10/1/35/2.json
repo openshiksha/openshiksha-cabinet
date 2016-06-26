@@ -1,0 +1,33 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Here, the class size varies. Let us apply the assumed mean method.</div><div>Then, </div><div>we obtain the data as in Table: </div><div>\\begin{array}{c|lcr}Study hours & \\text{no.of students(fi)} & \\text{xi} & \\text{di=xi-3.5} & \\text{fidi} \\\\\\hline1-2 & _{i}_ & 1.5 & -2 & _{{i*(-2)}}_ \\\\2-3 & _{j}_ & 2.5 & -1 & _{{j*(-1)}}_ \\\\3-4 & _{k}_ & 3.5 & 0 & _{{k*0}}_ \\\\4-5 & _{l}_ & 4.5 & 1 & _{{l*1}}_ \\\\5-6 & _{m}_ & 5.5 & 2 & _{{m*2}}_ \\\\\\hline \\ Total & _{{i+j+k+l+m}}_ &  &  & _{{(i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2)}}_ \\\\\\hline \\end{array}</div><div>The sum of the values in the last column gives us \\sumfidi</div><div> So, </div><div>the mean x of the given data is given by;</div><div>  \\(\\bar x\\) = 3.5 + \\(\\Sigma fidi\\over \\Sigma fi\\) = 3.5 +\\(_{{(i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2)}}_\\over _{{i+j+k+l+m}}_\\) = _{{trunc(Decimal(3.5)+(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m)),5)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A survey was conducted to know how much hours students study at home.Following data was collected in the survey.Find the mean hours students study at home using Assumed mean methode.</div><div>\\begin{array}{c|lcr} Study hours & \\text{1-2} & \\text{2-3} & \\text{3-4} & \\text{4-5} & \\text{5-6} \\\\\\hline \\ No. of students & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\ \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(3.5)+(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+5+l+m)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(3.42)+(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(3.62)+(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m)),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal(3.5)+(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m)),3)}}_"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>by using Snell's law, \\(n_1\\times sin(30)=n_2\\times sin(r)\\)</div><div>\\(_{{j*2}}_\\times sin(30)=_{j}_\\times sin(r)\\)</div><div>we know sin(30)=\\(1\\over 2\\)</div><div>sin(r)=\\(_{{j*2}}_\\over 2\\times _{j}_\\)</div><div>sin(r)=1</div><div>r=90</div>"
+  }, 
+  "content": {
+    "text": "<div>When a ray of light passes from 1 medium to other the angle formed at the boundary of the two mediums with the normal is related by Snell's law</div><div>Given \\(n_1\\times sin(i)=n_2\\times sin(r)\\)(Snell's law), where \\(n_1\\)and \\(n_2\\) are the refractive index of medium1 and medium2.</div><div>If angle of incidence(i) is equal to 30 and \\(n_1\\) and \\(n_2\\) are _{{j*2}}_ and _{j}_ respectively.</div><div>Find the angle of refraction(r).</div>", 
+    "img": "10.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": 90
+  }, 
+  "type": 3
+}

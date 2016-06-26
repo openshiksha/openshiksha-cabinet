@@ -1,0 +1,22 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>We know that sound needs a medium to travel.</div><div>Therefore, the loudness of the sound decreases as we extract air from the vessel.</div><div>Had we extracted all the air from the vessel, the sound would stop completely.</div>"
+  }, 
+  "content": {
+    "text": "<div>Consider a closed vessel with a sound emitting source installed inside.</div><div>Now, if we slowly extract the air from the vessel, the loudness of the sound _____ .</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "increases"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "decreases"
+    }
+  }
+}

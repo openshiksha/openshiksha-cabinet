@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "<div>The frequency determines the shrillness or pitch of the sound.</div><div>If the frequency of vibration is higher, the sound has a _____ pitch.</div><div>The sound produced by a 2 year old kid is _____ pitched.</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "higher, low"
+      }, 
+      {
+        "text": "lower, low"
+      }, 
+      {
+        "text": "lower, high"
+      }
+    ], 
+    "correct": {
+      "text": "higher, high"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "variable_constraints": {}
+}

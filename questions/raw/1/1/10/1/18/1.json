@@ -1,0 +1,35 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Any expression is not a polynomial if it contains division by a variable.</div><div>Also a variable's exponents can only be 0,1,2,3,... etc. and can't have an infinite number of terms.</div><div>\\(\\frac 1{x^2+_{j}_x+_{k}_}\\), contains division by a variable</div><div>\\(\\sqrt x + _{j}_=x^{\\frac 12}+_{j}_\\), exponent cannot be a fraction </div><div>\\(_{k}_xy^{_{{-1*j}}_}\\),exponent cannot be a negative number</div><div>\\(x^{_{j}_}+x^{_{{j+k}}_}+x^{_{{j+2*k}}_}+x^{_{{j+3*k}}_}+x^{_{{j+4*k}}_}.......\\infty \\), cannot have infinite terms</div>"
+  }, 
+  "content": {
+    "text": "<div>From the expressions given below, select the one(s) which cannot be termed as a polynomial</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^2+_{j}_x+_{k}_\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\frac 1{x^2+_{j}_x+_{k}_}\\)"
+      }, 
+      {
+        "text": "\\(\\sqrt x + _{j}_\\)"
+      }, 
+      {
+        "text": "\\(_{k}_xy^{_{{-1*j}}_}\\)"
+      }, 
+      {
+        "text": "\\(x^{_{j}_}+x^{_{{j+k}}_}+x^{_{{j+2*k}}_}+x^{_{{j+3*k}}_}+x^{_{{j+4*k}}_}.......\\infty \\)"
+      }
+    ]
+  }
+}

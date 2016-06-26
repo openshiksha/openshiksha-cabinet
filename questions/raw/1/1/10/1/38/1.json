@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given numbers are :</div><div> _{{21*i}}_ and _{{163*i}}_</div><div>According to Euclid's division lemma:</div><div> c = dq + r</div><div>Step 1 : Since _{{163*i}}_ > _{{21*i}}_,</div><div>We apply the division lemma to _{{163*i}}_ and _{{21*i}}_</div><div>to get:</div><div>_{{163*i}}_ = \\(_{{21*i}}_\\times 7\\) + _{{16*i}}_</div><div>Step 2 : Since the remainder \\(_{{16*i}}_\\neq 0\\)</div><div>We apply the division lemma to :</div><div> _{{21*i}}_ and _{{16*i}}_</div><div> _{{21*i}}_ = \\(_{{16*i}}_\\times 1\\) + _{{5*i}}_</div><div>Step 3 : Applying lemma until remainder becomes zero.</div><div>We consider the new divisor _{{16*i}}_ and the new remainder _{{5*i}}_, and apply the division lemma to get:</div><div> _{{16*i}}_ = \\(_{{5*i}}_\\times 3\\) + _{i}_</div><div>Again, </div><div>We consider the new divisor _{{5*i}}_ and the new remainder _{i}_, and apply the division lemma to get:</div><div> _{{5*i}}_ = \\(_{i}_\\times 5\\) + 0</div><div>The remainder has now become zero, so our procedure stops.</div><div> Since the divisor at this stage is _{i}_, the HCF of _{{163*i}}_ and _{{21*i}}_ is _{i}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the HCF of _{{21*i}}_ and _{{163*i}}_ using Euclid's division algorithm.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            10, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{i}_"
+  }, 
+  "type": 3
+}

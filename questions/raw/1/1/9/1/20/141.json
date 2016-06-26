@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Inner diameter of hemisphere,\\(d_1=_{k}_\\)m\\(\\Rightarrow \\)Inner radius,\\(r_1=_{{k/Decimal(2)}}_\\)m</div><div>Thickness of hemispherical structure\\(=_{{j*10}}_\\)cm\\(=_{{j/Decimal(10)}}_\\)m</div><div>Outer radius of hemisphere,\\(r_2=r_1+\\,\\)thickness</div><div>\\(=_{{k/Decimal(2)}}_+_{{j/Decimal(10)}}_=_{{(k/Decimal(2))+(j/Decimal(10))}}_\\)m</div><div>Outer curved surface area of the hemisphere\\(=2\\pi r_2^2\\)</div><div>\\(=2\\pi \\times _{{(k/Decimal(2))+(j/Decimal(10))}}_^2\\)</div><div>\\(=_{{trunc((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2),3)}}_m^2\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A hollow hemispherical structure, \\(_{{j*10}}_\\)cm in thickness has an inner diameter of \\(_{k}_\\)m.</div><div>Find the outer curved surface area of the structure.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2),3)}}_"
+  }, 
+  "type": 3
+}

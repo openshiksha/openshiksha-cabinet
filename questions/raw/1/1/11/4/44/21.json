@@ -1,0 +1,49 @@
+{
+  "hint": {
+    "text": "Use the formula for an isothermal irreversible change"
+  }, 
+  "solution": {
+    "text": "For an isothermal irreversible change. \\(q =\\;- w = p_e(V_f - V_i)\\)<br>\\(\\implies q =\\;- w = 0\\;(_{l}_ - _{k}_)\\)<br>\\(\\implies q =\\;- w = 0\\) litre-atm"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "_{k}_ litres of an ideal gas at a pressure of _{j}_ atm expands isothermally into a vacuum until its total volume is _{l}_ litres. How much heat is absorbed and during the expansion?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            21, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3, 
+  "unit": "litre-atm"
+}

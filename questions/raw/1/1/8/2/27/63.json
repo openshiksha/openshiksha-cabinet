@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "The range of audible frequencies for a human ear is roughly from _____ to _____ ."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(20 \\,kHz\\), \\(20 \\,MHz\\)"
+      }, 
+      {
+        "text": "\\(20 \\,Hz\\), \\(20 \\,MHz\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(20 \\,Hz\\), \\(20000 \\,Hz\\)"
+      }, 
+      {
+        "text": "\\(20 \\,Hz\\), \\(20 \\,kHz\\)"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

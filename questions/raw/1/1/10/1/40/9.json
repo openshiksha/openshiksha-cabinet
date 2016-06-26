@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>As per the theorem if DE is parallel to BC</div><div>\\(\\Rightarrow \\frac xy =\\frac {x'}{y'}=\\frac {_{j}_}{_{k}_}\\)</div><div>\\(\\Rightarrow \\frac {x'}{y'} = \\frac {_{j}_}{_{k}_}\\Rightarrow x'=\\frac {_{{2*k}}_\\times _{j}_}{_{k}_}\\)</div><div>\\(\\Rightarrow x'=_{{2*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the \\(\\bigtriangleup \\) ABC, DE is parallel to BC.</div><div>find the value of x', if AD=x=_{j}_, BD=y=_{k}_, EC=y'=_{{2*k}}_.</div>", 
+    "img": "9.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{2*j}}_"
+  }, 
+  "type": 3
+}

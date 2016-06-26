@@ -1,0 +1,21 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>When an object is sliding on the floor, the contact points on its surface, do not get enough time to lock into the contact points on the floor.</div><div>Therefore, the sliding friction is less than the static friction.</div><div>\\(\\Rightarrow\\)Sliding friction \\(\\lt\\) Static friction</div><div></div>"
+  }, 
+  "content": {
+    "text": "Sliding friction __ Static friction"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\gt\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\lt\\)"
+    }
+  }
+}

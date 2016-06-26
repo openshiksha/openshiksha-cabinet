@@ -1,0 +1,38 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Let the cost of the cricket bat be denoted by the variable <b>p</b><br>Let the cost of the hockey stick be denoted by the variable <b>q</b><br>The question tells us that the cost of the bat is _{k}_ times more than the cost of the hockey stick.<br>Therefore, we can infer that p is _{k}_ times greater than q. Or, in other words : <b>p = _{k}_ q </b>"
+  }, 
+  "content": {
+    "text": "The cost of a cricket bat is _{k}_ times the cost of a hockey stick. (Assume the cost of the bat to be <b><i>p</i></b> and the cost of the hockey stick to be <b><i>q</i></b>)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "p = _{{k-1}}_q"
+      }, 
+      {
+        "text": "p = q + _{k}_"
+      }, 
+      {
+        "text": "q = _{k}_p"
+      }
+    ], 
+    "correct": {
+      "text": "p = _{k}_q"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "Natural numbers include \\(1,\\,2,\\,3\\,...\\) and integers include \\(-3,\\,-2,\\,-1,\\,0,\\,1,\\,2,\\,3,....\\,\\)"
+  }, 
+  "content": {
+    "text": "All natural numbers are integers."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Volume of the cylindrical tank \\(\\pi \\times R^2 \\times h=\\frac {22}7 \\times _{{5*j}}_^2 \\times _{{10*j}}_\\)</div><div>Now given Flow speed \\(v= _{j}_\\)cm per second and radius of the pipe(r)\\(=\\frac d2 =\\frac {_{{2*j}}_}2= _{j}_\\)cm</div><div>\\(\\Rightarrow\\) volume of water flowing through the pipe per second\\(=\\pi \\times r^2 \\times v\\)</div>    <div>let the time required to fill the tank be t sec</div><div>Amount of water flowing in t sec=\\(\\pi \\times r^2 \\times v\\times t\\)</div><div>equating the water flowing out of the pipe to the capacity of the tank we get</div><div>\\(\\Rightarrow \\frac {22}7 \\times _{{5*j}}_^2 \\times _{{10*j}}_=\\pi \\times _{j}_^2 \\times _{j}_\\times t\\)</div><div>\\(\\Rightarrow t= 250\\,seconds\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Raghu connects a pipe of diameter _{{2*j}}_cm to a cylindrical tank of height _{{10*j}}_cm and radius(R) _{{5*j}}_cm </div><div>If water flows through the pipe at a speed of _{j}_cm per second, find the time taken to fill the tank completely.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": 250
+  }, 
+  "type": 3
+}

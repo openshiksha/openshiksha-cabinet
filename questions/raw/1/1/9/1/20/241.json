@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Volume of the cone\\(=_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_\\,cm^3\\)</div><div>Height of the cone, h\\(=_{j}_\\,cm\\)</div><div>Volume of the cone\\(=\\frac13 \\pi r^2h\\)</div><div>\\(\\Rightarrow_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_=\\frac13 \\pi \\times r^2 \\times _{j}_\\)</div><div>\\(\\Rightarrow r^2=\\frac{_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_}{\\frac13 \\times \\pi \\times _{j}_}\\)</div><div>\\(\\Rightarrow r^2=_{{k**2}}_\\)</div><div>\\(\\Rightarrow r=_{k}_\\,cm\\)</div><div>Therefore, Diameter of the cone\\(=2r=2 \\times _{k}_=_{{2*k}}_\\,cm\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If the volume of a right circular cone of height \\(_{j}_\\,cm\\) is \\(_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_\\,cm^3\\), find:</div><div>The diameter of the cone.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{2*k}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm\\)"
+}

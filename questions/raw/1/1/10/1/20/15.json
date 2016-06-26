@@ -1,0 +1,17 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div> volume of hemispherical metallic toy=volume of the  cone</div><div>Now volume of the hemisphere\\(=\\frac 23 [\\pi \\times R^3]\\) radius of the cone=\\(_{{2*j}}_\\) </div><div>\\(\\Rightarrow \\frac 23 \\times \\frac {22}7 \\times _{{2*j}}_^3\\)</div><div>volume of the cone\\(=[ \\frac 13 \\times \\pi \\times r^2 \\times height]\\)</div><div>let the height of the cone = \\(h \\)</div><div>volume of the cone\\(=[ \\frac 13 \\times \\frac {22}7 \\times _{j}_^2 \\times h]\\)</div><div> Now the volume of the hemispherical toy = Volume of the cone</div><div>\\([ \\frac 13 \\times \\frac {22}7 \\times _{j}_^2 \\times h]=\\frac 23 \\times \\frac {22}7 \\times _{{2*j}}_^3\\)</div><div>\\(\\Rightarrow h=_{{16*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A metallic toy in the shape of a hemisphere is recast into the shape of a right circular cone.</div><div>If radius of the cone(r) is _{j}_ cm and radius of the hemisphere(R) is _{{2*j}}_ cm , find the height of the cone</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{16*j}}_"
+  }, 
+  "type": 3
+}

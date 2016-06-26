@@ -1,0 +1,33 @@
+{
+  "hint": {
+    "text": "The Zeroth Law states that when systems are in thermal equilibrium, they have the same temperature value. In which scenarios are the systems below in thermal equilibrium?"
+  }, 
+  "solution": {
+    "text": "In order for the systems to have the same temperature they must be in thermal equilibrium with each other. Adiabatic Walls are insulating and do not allow for the flow of heat, whereas Diathermic Walls and conducting and allow heat to flow between the adjacent systems until they are in equilibrium. Therefore:", 
+    "img": "5.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "In which of the following scenarios do the systems A, B and C have the same temperature at equilibrium given that \\(T_A \\neq T_B \\neq T_C\\) at \\(time = 0\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "1.png"
+      }, 
+      {
+        "img": "2.png"
+      }
+    ], 
+    "correct": [
+      {
+        "img": "3.png"
+      }, 
+      {
+        "img": "4.png"
+      }
+    ]
+  }
+}

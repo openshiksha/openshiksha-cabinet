@@ -1,0 +1,68 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given equations are : </div><div>_{i}_x = _{j}_y and _{i}_x - _{{2*j}}_y = _{l}_</div><div>Pick 1st equation and write y in terms of x as follows</div><div>i.e.,_{j}_y = _{i}_x</div><div>i.e.,y = \\(_{i}_x\\over _{j}_\\)</div><div>Now, Substitute the value of y in 2nd equation.</div><div>We get</div><div>_{i}_x - _{{2*j}}_(\\(_{i}_x\\over _{j}_\\)) = _{l}_</div><div>_{i}_x - (_{{2*i}}_x) = _{l}_</div><div>-_{i}_x = _{l}_</div><div>x = -\\(_{l}_\\over _{i}_\\)</div><div>Substituting this value of x in equation of y in terms of x</div><div>We get</div><div>y = \\({_{i}_\\times {-_{l}_\\over _{i}_}}\\over _{j}_\\)</div><div>y = \\(-_{l}_\\over _{j}_\\)</div><div>Therefore, x = -\\(_{l}_\\over _{i}_\\) and y = -\\(_{l}_\\over _{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Solve the following equation by the substitution method. </div><div>_{i}_x = _{j}_y and _{i}_x - _{{2*j}}_y = _{l}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            35
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = -\\(_{{l+3}}_\\over _{i}_\\) and y = -\\(_{l}_\\over _{j}_\\)"
+      }, 
+      {
+        "text": "x = -\\(_{l}_\\over _{i}_\\) and y = -\\(_{{l+3}}_\\over _{j}_\\)"
+      }, 
+      {
+        "text": "x = -\\(_{{l-3}}_\\over _{i}_\\) and y = -\\(_{{l-3}}_\\over _{j}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "x = -\\(_{l}_\\over _{i}_\\) and y = -\\(_{l}_\\over _{j}_\\)"
+    }
+  }
+}

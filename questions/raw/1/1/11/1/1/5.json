@@ -1,0 +1,39 @@
+{
+  "hint": {
+    "text": "Round of to \\(3^{rd} \\) decimal place"
+  }, 
+  "solution": {
+    "text": "<div> Substitute and solve \\(n^{th}\\) term for n=7.</div><div>\\(a_7=\\frac{ _{q}_^_{p}_}{2^_{p}_}=_{{trunc(Decimal(q**p)/(2**p),3)}}_ \\)</div>"
+  }, 
+  "subpart_index": 4, 
+  "content": {
+    "text": "<div>  Find \\(_{q}_^{th}\\) term in the sequence whose \\(n^{th}\\) term is \\( a_n= \\frac{ n^_{p}_}{2^_{p}_}\\) </div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.007, 
+    "value": "_{{trunc(Decimal(q**p)/(2**p),3)}}_ "
+  }, 
+  "type": 3
+}

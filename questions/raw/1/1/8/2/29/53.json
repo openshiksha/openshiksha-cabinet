@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "The planets which revolve around the Sun follow a definite path."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

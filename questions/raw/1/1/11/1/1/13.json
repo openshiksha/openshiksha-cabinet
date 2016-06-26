@@ -1,0 +1,45 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> The first Installment of INR _{p}_ can be considered as the first term of the A.P. \\(a_1 = _{p}_\\)<div></div>Increment in the installment is the common difference  \\(d=_{q}_\\)<div></div>n=_{r}_<div></div>The answer could be found using \\(n^{th}\\) formula <div></div>\\(a_n=a_1+(n-1)\\times d\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A man starts repaying a loan as first installment of INR _{p}_ . If he increases the installment by INR _{q}_ every month, what amount will he pay in the \\(_{r}_ ^{th}\\) installment? </div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            5, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            50, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            10, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{p+(r-1)*q}}_"
+  }, 
+  "type": 3
+}

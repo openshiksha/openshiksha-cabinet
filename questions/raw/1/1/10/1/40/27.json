@@ -1,0 +1,59 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given that:</div><div>Speed of the ball = _{k}_m/min</div><div>Time of the flight = _{i}_ min.</div><div>therefore, distance traveled by ball during the flight = \\(speed\\times time\\) = \\(_{k}_\\times _{i}_\\)</div><div>Therefore, </div><div> L = _{{k*i}}_</div><div> H = _{j}_</div><div> D = ?</div><div>Using Pythagoras Theorem we can write the following relations</div><div> \\(D^2 + H^2 = L^2\\)</div><div>Substituting value of H and L</div><div>We get,</div><div>\\(D^2 + _{j}_^2 = _{{i*k}}_^2\\)</div><div>\\(D^2 = _{{i*k}}_^2 - _{j}_^2\\)</div><div>\\(D^2 = _{{pow(i*k,2)}}_ - _{{j*j}}_\\)</div><div>\\(D^2 = _{{pow(i*k,2)-j*j}}_\\)</div><div>\\(D = \\sqrt{_{{pow(i*k,2)-j*j}}_}\\)</div><div>\\(D = {_{{trunc(pow((pow(i*k,2)-j*j),Decimal(0.5)),2)}}_}\\)</div><div>Thus, the ground distance of street light is _{{trunc(pow((pow(i*k,2)-j*j),Decimal(0.5)),2)}}_ m.</div>", 
+    "img": "27.png"
+  }, 
+  "content": {
+    "text": "<div>While playing cricket Kush hits the ball,it goes straight in the air and after _{i}_min strikes to the light bulb at the top of the pole and _{j}_ m above the ground.If the speed of the ball throughout the flight is constant at _{k}_m/min, Find the distance of the bottom of the light pole from Kush.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            5, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            18
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pow((pow(i*k,2)-250-j*j),Decimal(0.5)),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pow((pow(i*k,2)+200-j*j),Decimal(0.5)),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pow((pow(i*k,2)-180-j*j),Decimal(0.5)),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pow((pow(i*k,2)-j*j),Decimal(0.5)),2)}}_"
+    }
+  }
+}

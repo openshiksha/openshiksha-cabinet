@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The coefficient of \\(x^{_{{j/2}}_}\\,\\) in \\(x^{_{{j+13}}_} + 2x^{_{{j+1}}_} -_{k}_x^{_{{j/2}}_}+_{{j+5}}_\\,\\) is \\(-_{k}_\\).</div>"
+  }, 
+  "content": {
+    "text": "What is the coefficient of \\(x^{_{{j/2}}_}\\,\\) in \\(\\,x^{_{{j+13}}_} + 2x^{_{{j+1}}_} -_{k}_x^{_{{j/2}}_}+_{{j+5}}_\\)?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "-_{k}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,47 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>let \\(\\sqrt {_{j}_}\\) be a rational number</div><div>\\(\\Rightarrow \\sqrt {_{j}_}\\) can be represented as \\(\\frac ab\\), where a and b are coprime</div><div>\\(\\Rightarrow _{j}_=\\frac {a^2}{b^2}\\)</div><div>\\(\\Rightarrow _{j}_\\times b^2 =a^2\\)</div><div>\\(\\Rightarrow \\sqrt {_{j}_}\\times b = a\\) and \\(_{j}_\\) divides \\(a^2\\)</div><div> As _{j}_=p(say) is a prime number we can use the theorem that says, if p divides \\(a^2\\) it will also divide \\(a\\)</div><div>let c be the factor by which _{j}_ divides a</div><div>\\(\\Rightarrow _{j}_\\times c= a\\)</div><div>on putting the value of \\(a\\) we get, \\(_{j}_\\times c=\\sqrt {_{j}_}\\times b\\)</div><div>on squaring and solving we get, \\(_{j}_\\times c^2=b^2\\)</div><div>\\(\\Rightarrow _{j}_\\, divides \\,b^2\\)</div><div>from the previously mentioned theorem, we can say </div><div>\\(_{j}_ \\, divides\\, b \\)</div><div>This contradicts the assumption that \\(a\\) and \\(b\\) are coprime</div><div>therefore,\\( \\sqrt {_{j}_}\\) s an irrational number</div><div>On simplifying \\(t=\\sqrt {_{j}_}\\times \\sqrt {_{j}_}\\)</div><div>we get \\(t=\\sqrt {_{j}_\\times _{j}_}=_{j}_\\)</div><div>_{j}_ is an integer and every integer is a rational number</div>"
+  }, 
+  "content": {
+    "text": "<div>Find whether \\(\\sqrt _{j}_\\) is an irrational number or not.</div><div>Also comment about the rationality of \\(t=\\sqrt {_{j}_}\\times \\sqrt {_{j}_}\\)</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        7, 
+        11, 
+        13, 
+        17, 
+        19, 
+        23, 
+        29, 
+        31, 
+        37, 
+        41
+      ]
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "t is an irrational number"
+      }, 
+      {
+        "text": "\\(\\sqrt {_{j}_}\\) is a rational number"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\sqrt {_{j}_}\\) is an irrational number"
+      }, 
+      {
+        "text": "t is a rational number"
+      }
+    ]
+  }
+}

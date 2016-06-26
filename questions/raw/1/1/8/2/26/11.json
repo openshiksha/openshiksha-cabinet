@@ -1,0 +1,34 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "The force of friction always acts in a direction opposite to that of the applied force."
+  }, 
+  "content": {
+    "text": "If you apply force along the _{j}_, friction acts along the _____ ."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "left", 
+        "right"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "right", 
+        "left"
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{k}_"
+    }
+  }
+}

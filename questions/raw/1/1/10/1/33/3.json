@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>we know tangent intersect at 1 point so , t=1</div><div>maximum number of parallel tangents on a circle is m=2</div><div>therefore, _{j}_\\(\\times \\)t + _{k}_\\(\\times \\)m=_{j}_\\(\\times \\)1 + _{k}_\\(\\times \\)2=_{{j+k*2}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>find the value of _{j}_t+_{k}_m, if t is the number of point(s) at which a tangent intersects a circle and m is the maximum number of parallel tangents a circle can have</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j+k}}_"
+      }, 
+      {
+        "text": "_{{2*j+k*2}}_"
+      }, 
+      {
+        "text": "_{{2*j+k*3}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j+k*2}}_"
+    }
+  }
+}

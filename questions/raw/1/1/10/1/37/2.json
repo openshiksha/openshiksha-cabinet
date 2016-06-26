@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given equation : </div><div> \\((x+a)^2\\times (x-_{{l+k}}_) = (x+_{k}_)\\times (x-_{l}_)^2\\) </div><div>Solving this equation as follows:</div><div>First expand \\((x+a)^2\\) as \\(x^2 + 2ax +a^2\\)</div><div>Similarly, </div><div>\\((x-_{l}_)^2 = x^2 + _{{pow(l,2)}}_ - _{{2*l}}_x\\)</div><div>Now, substituting these expanded for in given equation.</div><div>We get : </div><div>\\((x^2 + 2ax +a^2)\\times (x-_{{l+k}}_) = (x+_{k}_)\\times (x^2 + _{{pow(l,2)}}_ - _{{2*l}}_x)\\)</div><div>Solving further we get : </div><div>\\(x^3 + (2a-_{{(l+k)}}_)x^2 + (a^2-_{{(l+k)*2}}_a)x - _{{l+k}}_a^2 = x^3 - _{{(2*l)-k}}_x^2 + _{{-(2*k*l)+pow(l,2)}}_x\\) + _{{k*l*l}}_</div><div>then</div><div>\\((2a-_{{(l+k)}}_)x^2 + (a^2-_{{(l+k)*2}}_a)x - _{{l+k}}_a^2 = -_{{(2*l)-k}}_x^2 + _{{-(2*k*l)+pow(l,2)}}_x\\) + _{{k*l*l}}_</div><div>\\(((2a-_{{(l+k)}}_)+_{{(2*l)-k}}_)x^2 + ((a^2-_{{(l+k)*2}}_a)-_{{-(2*k*l)+pow(l,2)}}_)x - ((_{{l+k}}_a^2)+_{{k*l*l}}_)\\) = 0</div><div>For this to be quadratic equation coefficient of \\(x^2\\) should not be equal to zero.</div><div>i.e., \\((2a-_{{(l+k)}}_)+_{{(2*l)-k}}_\\neq 0\\)</div><div>i.e., \\((2a-_{{(2*k)-l}}_)\\neq 0\\)</div><div>i.e., \\(2a\\neq _{{(2*k)-l}}_\\)</div><div>i.e., \\(a\\neq _{{((2*k)-Decimal(l))/2}}_\\)</div><div>Therefore, If a = _{{((2*k)-Decimal(l))/2}}_ then given equation can not be quadratic equation.</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the value of a, such that the given equation is not a quadratic equations.</div><div>\\((x+a)^2\\times (x-_{{l+k}}_) = (x+_{k}_)\\times (x-_{l}_)^2\\) </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            14, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(((2*k)+1)-Decimal(l))/2}}_"
+      }, 
+      {
+        "text": "_{{((2*k)-1-Decimal(l))/2}}_"
+      }, 
+      {
+        "text": "_{{((2*k)+2-Decimal(l))/2}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{((2*k)-Decimal(l))/2}}_"
+    }
+  }
+}

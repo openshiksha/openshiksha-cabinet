@@ -1,0 +1,45 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given equation is \\(2x^2 + _{k}_x + _{j}_\\) = 0</div><div>Comparing with \\(ax^2 + bx + c = 0\\)</div><div>We get, a = 2, b = _{k}_ and c = _{j}_</div><div>Now, we know :</div><div>i.e., Discriminant = \\(b^2-4ac\\)</div><div> i.e., \\(b^2-4ac\\) = \\(_{k}_^2 - 4\\times 2\\times _{j}_\\)</div><div>i.e., = _{{k*k}}_ - _{{8*j}}_</div><div>i.e., = _{{(k*k)-(8*j)}}_ </div><div>Since, \\(discriminant\\ge 0\\)</div><div>Thus,Given quadratic equation have two distinct real roots.</div>"
+  }, 
+  "content": {
+    "text": "<div>Comment on the nature of roots of the quadratic equation \\(2x^2 + _{k}_x + _{j}_\\) = 0. </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            26
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            14
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Two equal real roots"
+      }, 
+      {
+        "text": "No real roots"
+      }
+    ], 
+    "correct": {
+      "text": "Two distinct real roots"
+    }
+  }
+}

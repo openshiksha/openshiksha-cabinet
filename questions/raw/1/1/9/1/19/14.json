@@ -1,0 +1,22 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "There are infinitely many rational numbers between any two given rational numbers."
+  }, 
+  "content": {
+    "text": "There are only limited rational numbers between any two given rational numbers."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

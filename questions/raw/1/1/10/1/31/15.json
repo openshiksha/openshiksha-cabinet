@@ -1,0 +1,45 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Given equation: sec_{j}_\\(\\times\\)tan_{k}_</div><div>we can write : sec_{j}_ as cosec(90-_{j}_)</div><div> similarly </div><div>tan_{k}_ as cot(90-_{k}_)</div><div>which gives : </div><div>cosec_{{90-j}}_\\(\\times\\) cot_{{90-k}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Convert the given expression (sec_{j}_)\\(\\times\\)(tan_{k}_) in terms of trigonometric ratios of angles between 0 and 45.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            46, 
+            76
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            49, 
+            83
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "cosec_{{90-(k-2)}}_\\(\\times\\)cot_{{90-k}}_"
+      }, 
+      {
+        "text": "cosec_{{90-j}}_\\(\\times\\)cot_{{90-(j+2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "cosec_{{90-j}}_\\(\\times\\)cot_{{90-k}}_"
+    }
+  }
+}

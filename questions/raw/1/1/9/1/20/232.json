@@ -1,0 +1,37 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Diameter of the cone, d\\(=_{j}_\\,cm\\Rightarrow\\)Radius, r\\(=_{{j/Decimal(2)}}_\\,cm\\)</div><div>Slant height of the cone, l\\(=_{k}_\\,cm\\)</div><div>Height of cone, h\\(=\\sqrt{l^2-r^2}\\)</div><div>\\(=\\sqrt{_{{k**2}}_-_{{(j/Decimal(2))**2}}_}=\\sqrt{_{{(k**2)-(j/Decimal(2))**2}}_}=_{{trunc((((k**2)-(j/Decimal(2))**2)**Decimal(0.5)),3)}}_\\,cm\\)</div><div>Volume of the cone\\(=\\frac13 \\pi r^2h\\)</div><div>\\(=\\frac13 \\pi \\times _{{(j/Decimal(2))}}_^2 \\times _{{trunc((((k**2)-(j/Decimal(2))**2)**Decimal(0.5)),3)}}_\\)</div><div>\\(=_{{trunc(((1/Decimal(3))*pi_val*(j/Decimal(2))**2*(trunc((((k**2)-(j/Decimal(2))**2)**Decimal(0.5)),3))),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Diameter\\(=_{j}_\\,cm\\)</div><div>Slant height\\(=_{k}_\\,cm\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((1/Decimal(3))*pi_val*(j/Decimal(2))**2*(trunc((((k**2)-(j/Decimal(2))**2)**Decimal(0.5)),3))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

@@ -1,0 +1,36 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Original number of engineers = \\(_{{20*j}}_\\)</div><div>Engineers who leave the team = \\(_{{10*j}}_\\)</div><div> Therefore, engineers remaining = \\(_{{20*j}}_- _{{10*j}}_ = _{{10*j}}_\\)</div><div> Since the numbers of engineers and number of days to finish the job are inversely proportional, we get:</div><div>\\( _{{20*j}}_  \\times _{{32*k}}_ \\) = Constant</div><div>\\(_{{10*j}}_  \\times \\) (Nunber of days to create the website a second time) = Constant</div><div> Therefore,\\( _{{20*j}}_ \\times _{{32*k}}_ = _{{10*j}}_ \\times \\) (Nunber of days to create the website a second time) </div><div>Nunber of days to create the website a second time =\\( \\frac {_{{32*k}}_ \\times  _{{20*j}}_}{_{{10*j}}_} \\)</div><div>\\(\\Rightarrow\\) Nunber of days to create the website a second time = \\(_{{64*k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "You are the owner of a software company and are given a contract to create a website. It takes you \\(_{{20*j}}_\\) trained engineers and \\(_{{32*k}}_\\) days to finish the job. Unfortunately there is a problem and you must redo all the work again, but \\(_{{10*j}}_\\) engineers, disappointed with your management, leave your team. How much time will it take for the remaining engineers to recreate the website again?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{64*k}}_"
+  }, 
+  "type": 3, 
+  "unit": "Days"
+}

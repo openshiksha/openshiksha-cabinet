@@ -1,0 +1,58 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "For any two given points on a Cartesian plane, there is only one linear equation that can satisfy both their constraints. Therefore, the answer is <b>One</b>"
+  }, 
+  "content": {
+    "text": "What is the maximum number of lines that can pass through the points (_{j}_,_{k}_) and (_{k}_,-_{l}_)?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            200
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            0, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            0, 
+            100
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Two"
+      }, 
+      {
+        "text": "None of the above"
+      }, 
+      {
+        "text": "Four"
+      }
+    ], 
+    "correct": {
+      "text": "One"
+    }
+  }
+}

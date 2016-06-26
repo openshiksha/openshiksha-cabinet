@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "<div>Total cost of land = Cost of buying land + cost of tilling land</div>"
+  }, 
+  "solution": {
+    "text": "<div>Given that : </div><div>a = _{{6*j}}_, b = _{{8*j}}_ and c =_{{10*j}}_</div><div>By Heron's Formula :</div><div>Area = \\(\\sqrt {s(s-a)(s-b)(s-c)}\\)</div><div>Where, s = \\({a+b+c}\\over 2\\) = \\( _{{6*j}}_+_{{8*j}}_+_{{10*j}}_\\over 2\\) =  _{{(6*j+8*j+10*j)/2}}_ </div><div>Therefore, applying Heron's Formula :</div><div>Area = \\(\\sqrt{_{{12*j}}_(_{{12*j}}_-_{{6*j}}_)(_{{12*j}}_-_{{8*j}}_)(_{{12*j}}_-_{{10*j}}_)}\\)</div><div>Area = \\(\\sqrt{_{{12*j}}_(_{{6*j}}_)(_{{4*j}}_)(_{{2*j}}_)}\\)</div><div>Area = \\(\\sqrt{_{{24*24*j*j*j*j}}_}\\)</div><div>Area = _{{24*j*j}}_</div><div> Cost of tiling = Area of land\\(\\times \\)cost per metre</div><div>i.e.,  Cost of tiling = _{{24*j*j}}_\\(\\times \\)_{k}_</div><div>i.e.,  Cost of tiling = _{{24*j*j*k}}_</div><div>Total cost = cost of buying + cost of tiling</div><div>Total cost = _{{5000*k+3000*j}}_ + _{{24*j*j*k}}_</div><div>Total cost = _{{5000*k+3000*j+24*j*j*k}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A village farmer Rahul wants to buy a triangular piece of land of dimensions _{{6*j}}_, _{{8*j}}_ and _{{10*j}}_ m. After buying the land he realises it is not tilled and the cost of tilling is Rs. _{{10*k}}_ per square metre. If he bought the land for Rs. _{{5000*k+3000*j}}_, what is the total amount he spends on the land (including tilling)?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{5000*k+3000*j+24*j*j*k}}_"
+  }, 
+  "type": 3
+}

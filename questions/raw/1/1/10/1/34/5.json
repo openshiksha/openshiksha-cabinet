@@ -1,0 +1,48 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>Given that : </div><div>Number of dice thrown = _{i}_</div><div>Then,</div><div>The total number of elementary events associated to the random experiments of throwing four dice simultaneously is:</div><div> = \\(6^{_{i}_}\\) = _{{pow(6,i)}}_ </div><div> E(T) = _{{pow(6,i)}}_</div><div>Let S be the event that all dice show the _{j}_ on face.</div><div> S = {_{j}_,_{j}_,.............,_{j}_}</div><div> E(S) = 1</div><div>Hence required probability,</div><div> P(S) = \\(E(S)\\over E(T)\\)</div><div>\\(\\Rightarrow \\)\\(1\\over 6^_{i}_\\)</div> <div> P(S) = \\(1\\over _{{pow(6,i)}}_\\)</div> <div> P(S) = _{{trunc(Decimal('1')/pow(6,i),11)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>_{i}_ dice are thrown simultaneously. Find the probability that all of them show the _{j}_ on face.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            3, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(1\\over 7^_{i}_\\)"
+      }, 
+      {
+        "text": "\\(1\\over 6^_{{i+1}}_\\)"
+      }, 
+      {
+        "text": "\\(1\\over 6^_{{i-1}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(1\\over 6^_{i}_\\)"
+    }
+  }
+}

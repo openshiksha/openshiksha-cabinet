@@ -1,0 +1,25 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_^{\\frac32}\\)</div><div>\\(=(\\sqrt{_{{j**2}}_})^3\\)</div><div>\\(=_{j}_^3\\)</div><div>\\(=_{{j**3}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{{j**2}}_^{\\frac32}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j**3}}_"
+  }, 
+  "type": 3
+}

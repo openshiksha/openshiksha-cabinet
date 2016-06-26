@@ -1,0 +1,80 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\(\\sqrt{_{j}_}\\) is common in the numerator and the denominator.</div><div>Therefore, \\(\\sqrt{_{j}_}\\) can be cancelled and we are left with \\(\\frac{_{k}_}{_{l}_}\\) which is in the form of \\(\\frac{p}{q}\\)</div><div>Therefore, \\(\\frac{_{k}_\\sqrt{_{j}_}}{_{l}_\\sqrt{_{j}_}}\\) is a rational number.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{k}_\\sqrt{_{j}_}}{_{l}_\\sqrt{_{j}_}}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        5, 
+        6, 
+        7, 
+        1, 
+        2, 
+        3, 
+        11, 
+        12, 
+        13, 
+        19, 
+        18, 
+        17, 
+        4, 
+        8, 
+        9
+      ]
+    }, 
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        6, 
+        7, 
+        8, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        17, 
+        18, 
+        19
+      ]
+    }, 
+    "l": {
+      "options": [
+        13, 
+        19, 
+        18, 
+        17, 
+        4, 
+        8, 
+        9, 
+        10, 
+        5, 
+        6, 
+        7, 
+        1, 
+        2, 
+        3, 
+        11
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Irrational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Rational"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given statement is not true because the angles other than right angle are not necessarily equal.</div>"
+  }, 
+  "content": {
+    "text": "<div>Comment on the following statement:</div><div>'All the right angled triangles are similar'.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }, 
+      {
+        "text": "Insufficient data"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

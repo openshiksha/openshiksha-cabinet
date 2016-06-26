@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>cosA=\\(BC\\over AC\\)=\\(b_1\\over h_1\\)(say)</div><div>cosP=\\(PQ\\over PR\\)=\\(b_2\\over h_2\\)(say)</div><div>it is given, cosA=cosP</div><div>\\(b_1\\over h_1\\)=\\(b_2\\over h_2\\)</div><div>\\(b_1\\over b_2\\)=\\(h_1\\over h_2\\)=k(say)</div><div>using Pythagoras, we get \\(BC\\over QR\\)=\\(p_1\\over p_2\\)=\\(\\sqrt{h_1^2-b_1^2}\\over \\sqrt{h_2^2-b_2^2}\\)</div><div>putting \\(b_1=b_2k\\) and \\(h_1=h_2k\\)</div><div>we get \\(p_1\\over p_2\\)=k</div><div>\\(b_1\\over b_2\\)=\\(h_1\\over h_2\\)=\\(p_1\\over p_2\\)</div><div>So by, SSS similarity criteria; triangle(ABC)~triangle(PQR)</div><div>this implies that angle(A)=angle(P)</div>"
+  }, 
+  "content": {
+    "text": "<div>Triangle(ABC) and triangle(PQR) are right-angled at B and Q respectively.</div><div>It is also given that cosA=cosP</div><div>From the options given below, choose the correct options</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "None of the above"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "angle(A)=angle(P)"
+      }, 
+      {
+        "text": "triangle(ABC)~triangle(PQR)"
+      }
+    ]
+  }
+}

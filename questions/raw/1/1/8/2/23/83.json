@@ -1,0 +1,32 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Tadpole is the larval stage in the life-cycle of a frog.</div><div>Tadpole is the common name for larva.</div>"
+  }, 
+  "content": {
+    "text": "(ii) Frog"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Egg - Larva - Tadpole - Frog"
+      }, 
+      {
+        "text": "Larva - Egg - Tadpole - Frog"
+      }, 
+      {
+        "text": "Tadpole - Egg - Larva - Frog"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Egg - Larva - Frog"
+      }, 
+      {
+        "text": "Egg - Tadpole - Frog"
+      }
+    ]
+  }
+}

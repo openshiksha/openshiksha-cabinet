@@ -1,0 +1,56 @@
+{
+  "hint": {
+    "text": "<div>Use tan30 = 0.577</div><div>Use tan45 = 1</div><div>Use tan60 = 1.732</div>"
+  }, 
+  "solution": {
+    "text": "<div>First let us draw a simple diagram to represent the problem. Here AB represents the height of tower, CB is the distance of the point from the tower and \\(\\angle\\) ACB is the angle of elevation.We need to determine the height of the tower, i.e.,AB.</div><div>Given that : </div><div>Height of the building AB = _{i}_ m. </div><div>Angle of inclination ACB = _{j}_ degrees </div><div>To solve the problem, we choose the trigonometric ratio tan _{j}_\\(^\\circ\\) (or cot _{j}_\\(^\\circ\\)), as the ratio involves AB and BC.</div><div>Now,   tan(_{j}_) = \\(AB\\over BC\\)</div><div> substituting value of AB </div><div> i.e.,    tan(_{j}_) = \\(_{i}_\\over BC\\)</div><div> i.e.,    BC = \\(_{i}_\\over _{k}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A police man is trained to fire a bullet at _{j}_ degrees from horizontal.Once he had to shoot a criminal sitting on the top of a _{i}_ m. high building.If the police man stands d distance away from the bottom of the building, find value of d so that the bullet hits the criminal.Neglect the height of police man and criminal.</div>", 
+    "img": "1.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            200, 
+            400
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        0.577, 
+        1, 
+        1.732
+      ]
+    }, 
+    "j": {
+      "options": [
+        30, 
+        45, 
+        60
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "BC = \\(_{{i+6}}_\\over _{k}_\\)"
+      }, 
+      {
+        "text": "BC = \\(_{i}_\\over _{{2*k}}_\\)"
+      }, 
+      {
+        "text": "BC = \\(_{{i+1}}_\\over _{{k+1}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "BC = \\(_{i}_\\over _{k}_\\)"
+    }
+  }
+}

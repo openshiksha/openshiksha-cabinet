@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of the tent =4 \\(\\times \\) area of the \\(\\bigtriangleup \\) PQR</div> <div>\\(\\bigtriangleup \\) PQR we have PQ=PR=_{{5*j}}_ and QR=_{{6*j}}_ (given)</div><div>By using Heron's formula, area of PQR = \\(\\sqrt {s(s-a_1)(s-b_1)(s-c_1)}\\) where \\(a_1\\),\\(b_1\\),\\(c_1\\) are the sides of the triangle and \\(s=\\frac {a_1+b_1+c_1}2 \\)  </div><div>Here \\(PQ=a_1=_{{5*j}}_\\),\\(PR=b_1=_{{5*j}}_\\) and \\(QR=c_1=_{{6*j}}_\\) so \\(s=\\frac {_{{5*j}}_+_{{5*j}}_+_{{6*j}}_}2=_{{8*j}}_\\)</div><div>Therefore, area \\(\\bigtriangleup \\) PQR= \\(\\sqrt {_{{8*j}}_(_{{8*j}}_-_{{5*j}}_)(_{{8*j}}_-_{{5*j}}_)(_{{8*j}}_-_{{6*j}}_)} = \\sqrt {_{{8*j*(8*j-5*j)*(8*j-5*j)*(8*j-6*j)}}_}=_{{j*j*12}}_\\)</div><div>Hence area of the tent = 4 \\(\\times \\) area of the \\(\\bigtriangleup \\) PQRc= 4\\(\\times \\) _{{j*j*12}}_</div><div>\\(\\Rightarrow _{{j*j*48}}_\\, m^2\\)</div><div>Now total cost of the canvas = rate \\(\\times \\) area of the tent</div><div> rate of Rs. _{k}_ per \\(m^2\\)</div><div> total cost of the canvas=\\( _{k}_\\times _{{j*j*48}}_\\)</div><div>\\(\\Rightarrow Rs\\,_{{k*j*j*48}}_ \\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A square-based tent is being made using 4 isosceles triangles of equal dimensions with slant height _{{5*j}}_m and bottom edge is _{{6*j}}_m</div><div>If the canvas for the tent is purchased at a rate of Rs. _{k}_ per \\(m^2\\), then find the total cost of the canvas used to make the tent.</div>", 
+    "img": "9.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{k*j*j*48}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rs."
+}

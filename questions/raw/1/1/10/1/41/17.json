@@ -1,0 +1,68 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let the present age of Anil be x years,</div><div>And,</div><div>Present age of sunil be y years.</div> <div>Then, before _{j}_ year:</div><div>Anil's age = x - _{j}_years</div><div>Sunil's age = y - _{j}_years</div><div>Therefore,</div><div>x + y = _{k}_</div><div>And,</div><div>x - _{j}_ =_{i}_(y - _{j}_)</div><div>Solving these equations:</div><div>i.e. x = _{k}_ - y</div><div>_{k}_ - y - _{j}_ = _{i}_(y - _{j}_)</div><div>_{{k-j}}_ - y = _{i}_y - _{{i*j}}_</div><div>_{{k-j}}_+_{{i*j}}_ = _{{i+1}}_y</div><div> y = \\(_{{k-j+(i*j)}}_\\over _{{i+1}}_\\)</div><div> x = _{k}_ - \\(_{{k-j+(i*j)}}_\\over _{{i+1}}_\\)</div><div> x = \\({_{{k*(i+1)}}_-_{{k-j+(i*j)}}_}\\over _{{i+1}}_\\)</div><div> x = \\(_{{(k*(i+1))-(k-j+(i*j))}}_\\over _{{i+1}}_\\)</div><div>Thus, Present age of Anil = \\(_{{(k*(i+1))-(k-j+(i*j))}}_\\over _{{i+1}}_\\)years and Sunil = \\(_{{k-j+(i*j)}}_\\over _{{i+1}}_\\)years</div>"
+  }, 
+  "content": {
+    "text": "<div>Sum of the present ages of Sunil and Anil is _{k}_ years. _{j}_years ago Anil's age was _{i}_times of Sunil's age.Find their present age.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            40, 
+            60
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            35, 
+            45
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Anil = \\(_{{(k*(i+1+1))-(k-j+(i*j))}}_\\over _{{i+1}}_\\)years and Sunil = \\(_{{k-j+(i*j)}}_\\over _{{i+1}}_\\)years"
+      }, 
+      {
+        "text": "Anil = \\(_{{(k*(i+1))-(k-j+(i*j))}}_\\over _{{i+1}}_\\)years and Sunil = \\(_{{k-j-10+(i*j)}}_\\over _{{i+1}}_\\)years"
+      }, 
+      {
+        "text": "Anil = \\(_{{(k*(i+1-1))-(k-j+(i*j))}}_\\over _{{i+1}}_\\)years and Sunil = \\(_{{k-j+10+(i*j)}}_\\over _{{i+1}}_\\)years"
+      }
+    ], 
+    "correct": {
+      "text": "Anil = \\(_{{(k*(i+1))-(k-j+(i*j))}}_\\over _{{i+1}}_\\)years and Sunil = \\(_{{k-j+(i*j)}}_\\over _{{i+1}}_\\)years"
+    }
+  }
+}

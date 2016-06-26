@@ -1,0 +1,26 @@
+{
+  "content": {
+    "text": "From the information provided in the number line above, what is the value of C + B? "
+  }, 
+  "solution": {
+    "text": "<div>C = _{{5*j}}_, B = _{{-(4*j)}}_.</div><div>Thus, \\(C + B = _{{5*j}}_ + _{{-(4*j)}}_ = _{j}_\\)</div>"
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(11*j)}}_"
+      }, 
+      {
+        "text": "_{{(9*j)}}_"
+      }, 
+      {
+        "text": "-_{j}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_"
+    }
+  }
+}

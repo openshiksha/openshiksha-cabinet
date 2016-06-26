@@ -1,0 +1,26 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The first number that is divisible by _{k}_ in the deck is _{k}_</div><div>Second number is _{{k*2}}_</div><div>the last number will be _{{j/k}}_</div><div>this series of cards to be removed forms an AP</div><div>where \\(a_1=_{k}_\\) and \\(d=_{k}_\\)</div><div>to find the total number of terms in this AP we find the position of the last term _{{(j/k)*k}}_</div><div>\\(a_n=a_1+(n-1)d\\)</div><div>\\(_{{(j/k)*k}}_=_{k}_+(n-1)*_{k}_\\)</div><div>\\((_{{(j/k)*k}}_-_{k}_)/_{k}_+1=n\\)</div><div>\\(n=_{{(j/k)-1}}_+1\\)</div><div>\\(n=_{{j/k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A deck of cards contains _{j}_ cards. A unique number from 1 to _{j}_ is written on each card.</div> <div>Gopal hates all the numbers which are divisible by _{k}_</div> <div>So he removes all such cards from the deck.</div><div>How many cards are removed from the deck.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            100, 
+            120
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j/k}}_"
+  }, 
+  "type": 3
+}

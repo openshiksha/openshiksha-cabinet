@@ -1,0 +1,35 @@
+{
+  "content": {
+    "text": "<div>Natural gas is :</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "highly polluting"
+      }, 
+      {
+        "text": "not safe to be transported through pipes"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "less polluting"
+      }, 
+      {
+        "text": "a cleaner fuel"
+      }, 
+      {
+        "text": "easily transported through pipes"
+      }, 
+      {
+        "text": "used as fuel for vehicles"
+      }, 
+      {
+        "text": "used for power generation"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 0, 
+  "variable_constraints": {}
+}

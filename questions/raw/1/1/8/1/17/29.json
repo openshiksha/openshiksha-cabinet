@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Value of each exterior angle \\(=_{{360/j}}_^\\circ\\)</div><div>We know, sum of all the exterior angles in a regular polygon \\(=360^\\circ\\)</div><div>Also, Number of sides in a regular polygon \\(=\\) Number of exterior angles.</div><div>Therefore, number of sides in a regular polygon with each exterior angle as \\(_{{360/j}}_^\\circ = \\frac{360}{_{{360/j}}_}=_{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "How many sides does a regular polygon have if the value of each exterior angle is \\(_{{360/j}}_^\\circ\\)?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        5, 
+        6, 
+        9, 
+        10, 
+        12, 
+        15, 
+        30
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

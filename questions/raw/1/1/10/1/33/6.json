@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We know that tangent cannot be drawn from a point inside a circle, so \\(n_m=0\\)</div><div>Also, we know that 1 tangent can only be drawn from a point on a circle, so \\(n_p=1\\)</div><div>2 tangent can be drawn from an external point, so \\(n_c=2\\)</div><div>putting values in the given equation  \\(_{j}_\\times n_m+_{k}_\\times n_p+_{l}_\\times n_c\\).</div><div>\\(\\Rightarrow _{j}_\\times (0)+_{k}_\\times (1)+_{l}_\\times (2)=_{{k+2*l}}_\\).</div>"
+  }, 
+  "content": {
+    "text": "<div>If \\(n_m\\), \\(n_p\\) and \\(n_c\\) are the maximum number of tangent(s) possible to be drawn on the circle from the point m, p and c repectively.</div><div>Then find the value of \\(_{j}_\\times n_m+_{k}_\\times n_p+_{l}_\\times n_c\\).</div>", 
+    "img": "6.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*l}}_"
+      }, 
+      {
+        "text": "_{{2*k+2*l}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{k+2*l}}_"
+    }
+  }
+}

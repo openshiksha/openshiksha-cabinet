@@ -1,0 +1,50 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let a be the first term and r be the common ratio of the G.P.</div><div>a=_{p}_</div><div>it is known that, \\(a_n=ar^{n-1}\\)</div><div>\\(a_2=ar^1=_{p}_r\\)</div><div>\\(_{{p*q}}_=_{p}_r\\)</div><div>\\(r=_{q}_\\)</div><div>For getting the sum till \\(n^{th}\\) term)</div><div>\\(S_n=\\frac{a(1-r^n)}{1-r}\\)</div><div>Substituting given values and solving to get answer </div><div>\\(S_n=_{{(p*(1-q**r))/(1-q)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find sum of _{r}_ number of terms of the G.P. _{{p , p*q , p*q**2 }}_.</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "options": [
+        0.5, 
+        -0.5, 
+        0.2, 
+        -0.2, 
+        1.5, 
+        2, 
+        -2
+      ]
+    }, 
+    "p": {}, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(p*(2-q**r))/(1-q)}}_"
+      }, 
+      {
+        "text": "_{{(p*(2-q**r))/(q-1)}}_"
+      }, 
+      {
+        "text": "_{{(p*(1-q**r))/(q-1)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(p*(1-q**r))/(1-q)}}_"
+    }
+  }
+}

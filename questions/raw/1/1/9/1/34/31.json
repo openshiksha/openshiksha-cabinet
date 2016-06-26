@@ -1,0 +1,14 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Use the Basic Counting Principle:<br>In total there are <b>900</b> three digit numbers (100 to 999)<br><br>Consider that you can chose the hundreds digit ( * _ _ ) in 9 ways - (1,2,3,4,5,6,7,8,9)<br><br>The tens digit ( _ * _ ) has 10 possibilities - (<b>0</b>,1,2,3,4,5,6,7,8,9). However, there is only one way to select it such that you get a zero digit.<br><br>Similarly units digit ( _ _ * ) has 10 possibilities - (<b>0</b>,1,2,3,4,5,6,7,8,9). However, there is only one way to select it such that you get a zero digit.<br><br>Therefore, in total, you have 9 ways of selecting the hundreds digit, one way of selecting the tens digit and one way of selecting the units digit. Thus, total number of three digit numbers with <b>two zero digits</b> in them is \\(9 * 1 * 1 = 9\\)<br><br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore, the probability that the number has <b>two zero digits</b> is:<br>\\(P(E) = \\frac{9}{900} = \\frac{1}{100} = 0.01\\)"
+  }, 
+  "content": {
+    "text": "What is the probability that the number has <b>two zero digits</b>? (Enter your answer as a decimal number)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": 0.01
+  }, 
+  "type": 3
+}

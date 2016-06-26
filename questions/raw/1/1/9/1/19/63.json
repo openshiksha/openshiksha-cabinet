@@ -1,0 +1,28 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Observe carefully. The remainder becomes zero.</div>", 
+    "img": "63.png"
+  }, 
+  "content": {
+    "text": "\\(\\frac{230}{25}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(9.2929292......\\)"
+      }, 
+      {
+        "text": "\\(9.02\\)"
+      }, 
+      {
+        "text": "\\(9.222......\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(9.2\\)"
+    }
+  }
+}

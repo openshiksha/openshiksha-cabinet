@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let \\(p(x)=x^2 - _{{j+k}}_x + _{{j*k}}_\\).</div><div>Now if \\(p(x)=(x-a)(x-b)\\),</div><div>We can say that \\(a \\times b = _{{j*k}}_\\)</div><div>To find the factors of \\(p(x)\\,\\) we must find the factors of \\(_{{j*k}}_\\).</div><div>\\(_{{j*k}}_=_{j}_ \\times _{k}_\\)</div><div>Now, \\(p(_{j}_)=_{j}_^2 - (_{{j+k}}_ \\times _{j}_) + _{{j*k}}_=_{{(j**2) -((j+k)*j) + (j*k)}}_\\)</div><div>Also, \\(p(_{k}_)=_{k}_^2 - (_{{j+k}}_ \\times _{k}_) + _{{j*k}}_=_{{(k**2) -((j+k)*k) + (j*k)}}_\\)</div><div>Therefore, \\((x-_{j}_)\\,\\) and \\((x-_{k}_)\\,\\) are the factors of \\(p(x)\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(x^2 - _{{j+k}}_x + _{{j*k}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x-_{j}_)(x+_{k}_)\\)"
+      }, 
+      {
+        "text": "\\((x+_{j}_)(x-_{k}_)\\)"
+      }, 
+      {
+        "text": "\\((x+_{j}_)(x+_{k}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((x-_{j}_)(x-_{k}_)\\)"
+    }
+  }
+}

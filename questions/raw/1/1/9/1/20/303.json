@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "Note that the dome is hollow."
+  }, 
+  "solution": {
+    "text": "<div>From part (i),</div><div>Inner radius of the dome, \\(r_i=_{j}_\\,m\\)</div><div>From part (ii),</div><div>Outer radius of the dome, \\(r_o=_{{j+2}}_\\,m\\)</div><div>Volume of the dome, \\(V=\\frac23 \\pi (r_o^3-r_i^3)\\)</div><div>\\(=\\frac23 \\pi (_{{j+2}}_^3-_{j}_^3)\\)</div><div>\\(=_{{trunc(((2/Decimal(3))*pi_val*((j+2)**3-j**3)),3)}}_\\,m^3\\)</div><div>Therefore, volume of material required for constructing the dome is \\(_{{trunc(((2/Decimal(3))*pi_val*((j+2)**3-j**3)),3)}}_\\,m^3\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>find the volume of material required for constructing the dome.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((2/Decimal(3))*pi_val*((j+2)**3-j**3)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^3\\)"
+}

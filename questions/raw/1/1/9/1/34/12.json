@@ -1,0 +1,26 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "In the given set, there are eight elements but only three (_{j}_) that match our given requirement. We know that<br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br>Therefore the Probability of the Event, P(E), of choosing the number _{j}_ is : \\(\\frac{3}{8}\\) = 0.375"
+  }, 
+  "content": {
+    "text": "What is the probability of choosing the number _{j}_ from the following set - { _{{j-k}}_ , _{{j-1}}_, _{j}_ , _{{j-2*k}}_ , _{j}_, _{j}_, _{{j+3*k}}_, _{{j+2*k}}_ }"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            21, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0.375
+  }, 
+  "type": 3
+}

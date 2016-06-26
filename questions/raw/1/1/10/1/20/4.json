@@ -1,0 +1,39 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>TSA of the utensil= TSA of a cylinder - area of the circle cut out + CSA of a cone</div><div>CSA of the cone is given by \\(\\pi \\times r \\times l\\)</div><div>\\(=\\sqrt {h^2+R^2}=\\sqrt {h^2+R^2}=\\sqrt {_{{3*j}}_^2+_{{4*j}}_^2}=_{{5*j}}_\\)</div><div>therefore area of a cut out cone=\\(\\pi \\times _{{3*j}}_ \\times _{{5*j}}_=_{{trunc(pi_val*j*j*15,2)}}_\\)</div><div>Now total surface area of a cylinder=\\(2 \\times \\pi \\times r \\times h + \\pi \\times r^2 \\)</div><div>Height of the cube=\\(h=_{{4*j}}_\\)</div><div>Therefore area of the cylinder=\\(2 \\times \\pi \\times _{{6*j}}_ \\times h + \\pi \\times _{{6*j}}_^2\\)</div><div>\\(\\Rightarrow _{{trunc(2*pi_val*6*j*4*j,2)}}_ + _{{trunc(pi_val*j*j*36,2)}}_=_{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*36,2)}}_\\)</div><div>area of the cut out circle on the top face=\\(\\pi \\times R^2=_{{trunc(pi_val*j*j*9,2)}}_\\)</div><div>TSA of the utensil=\\(_{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*36,2)}}_ + _{{trunc(pi_val*j*j*15,2)}}_ - _{{trunc(pi_val*j*j*9,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*36+pi_val*j*j*15-pi_val*j*j*9,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A _{{4*j}}_cm long kulfi maker utensil is made by removing a conical portion out from a cylinder as shown in the figure,</div><div>the value of radius(2R) of the cylinder=_{{6*j}}_cm find the surface area of the utensil.(neglect the area of the bottom surface of the cylinder)</div>", 
+    "img": "4.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*36+pi_val*j*j*15,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*15-pi_val*j*j*9,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*15+pi_val*j*j*15-pi_val*j*j*9,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(2*pi_val*6*j*4*j+pi_val*j*j*36+pi_val*j*j*15-pi_val*j*j*9,2)}}_"
+    }
+  }
+}

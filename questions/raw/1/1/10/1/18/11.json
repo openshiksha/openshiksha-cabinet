@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>given that sum of the roots is greater than zeros but the product of roots is lesser than zero</div><div>\\(\\Rightarrow \\alpha +\\beta\\gt\\)0 and \\(\\alpha\\times \\beta\\lt\\)0</div><div>If \\(\\alpha\\times \\beta\\lt\\)0 \\(\\Rightarrow \\)one root is negative and other is positive because \\((+) \\times (-) = (-)\\)</div><div>let us say \\(\\alpha\\) is positive and \\(\\beta \\) is negative</div><div>\\(\\Rightarrow \\) the point where the curve intersects the positive x axis is \\(\\alpha \\) and where it cuts the negative x axis is \\(\\beta \\)</div><div>Now \\(\\alpha +\\beta\\)>0, so \\(\\alpha \\) is greater than than \\(\\beta \\)</div><div>\\(\\Rightarrow \\) the curve will cut the positive x axis at a greater distance from the origin than the distance at which it will cut the negative x-axis</div><div>Hence the number 3 graph is only suitable</div>"
+  }, 
+  "content": {
+    "text": "<div>\\(\\alpha \\) and \\(\\beta \\) are the zeros of a quadratic equation whose sum of the zeros is greater than 0 but the product of zeros is lesser than 0.</div><div>From the given graphs choose the one(s) which are suitable to satisfy the above condition.</div>", 
+    "img": "11.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "graph 3 and graph 1"
+      }, 
+      {
+        "text": "graph 2"
+      }, 
+      {
+        "text": "graph 4"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "graph 3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hint": {
+    "text": "cot(90-x) = tan(x)"
+  }, 
+  "solution": {
+    "text": "<div>Given that tan_{j}_A = cot(_{k}_A-_{l}_) </div><div>Now write tan_{j}_A as cot (90-_{j}_A)</div><div>compare the angle on both sides</div><div>90-_{j}_A = _{k}_A-_{l}_</div><div>bring _{l}_ on left side and _{j}_A on right side</div><div>which gives 90+_{l}_ = _{k}_A+_{j}_A</div><div>taking A out on right side </div><div>90+_{l}_ = A(_{k}_+_{j}_)</div><div>finally which will give value of A as:</div><div> A = \\((90+_{l}_)\\over (_{k}_+_{j}_)\\)</div><div> A = \\(_{{90+l}}_\\over _{{k+j}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Determine the value of A</div><div>if tan_{j}_A = cot(_{k}_A-_{l}_)</div><div>considering that _{j}_A is an acute angle</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            22, 
+            77
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "A = \\(_{{90+l}}_\\over _{{(6*k)+j}}_\\)"
+      }, 
+      {
+        "text": "A = \\(_{{90+l}}_\\over _{{k+(2*j)}}_\\)"
+      }, 
+      {
+        "text": "A = \\(_{{90+l}}_\\over _{{k+(8*j)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "A = \\(_{{90+l}}_\\over _{{k+j}}_\\)"
+    }
+  }
+}

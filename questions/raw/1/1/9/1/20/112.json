@@ -1,0 +1,37 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Width of canvas material,w\\(=_{j}_\\)m</div><div>Total length of canvas required for one tent,l\\(=_{{trunc((pi_val*(l/Decimal(j))*(k**2+l**2)**Decimal(0.5)+Decimal(0.5)),2)}}_\\)m</div><div>Quantity of canvas used for making one tent\\(=l \\times w\\)</div><div>\\(=_{{trunc((pi_val*(l/Decimal(j))*(k**2+l**2)**Decimal(0.5)+Decimal(0.5)),2)}}_ \\times _{j}_=_{{trunc((j*(pi_val*(l/Decimal(j))*((k**2+l**2)**Decimal(0.5))+Decimal(0.5))),2)}}_m^2\\)</div><div>Therefore, quantity of canvas required for making \\(_{m}_\\) such tents\\(=_{{trunc((j*(pi_val*(l/Decimal(j))*((k**2+l**2)**Decimal(0.5))+Decimal(0.5))),2)}}_ \\times _{m}_=_{{trunc((m*j*(pi_val*(l/Decimal(j))*((k**2+l**2)**Decimal(0.5))+Decimal(0.5))),2)}}_m^2\\)</div><div>Now, cost of canvas required for making \\(_{m}_\\) tents\\(=\\)quantity of material \\(\\times\\) rate</div><div>\\(=_{{trunc((m*j*(pi_val*(l/Decimal(j))*((k**2+l**2)**Decimal(0.5))+Decimal(0.5))),2)}}_ \\times _{n}_\\)</div><div>\\(=\\)Rs. \\(_{{trunc((Decimal(str(n))*m*j*(pi_val*(l/Decimal(j))*((k**2+l**2)**Decimal(0.5))+Decimal(0.5))),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Cost of canvas required to make \\(_{m}_\\) such tents, if cost of \\(1\\)sq.m canvas is Rs.\\(_{n}_\\)."
+  }, 
+  "variable_constraints": {
+    "m": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 10, 
+    "value": "_{{trunc((Decimal(str(n))*m*j*(pi_val*(l/Decimal(j))*((k**2+l**2)**Decimal(0.5))+Decimal(0.5))),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

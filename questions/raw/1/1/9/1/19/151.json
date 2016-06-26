@@ -1,0 +1,58 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\((_{j}_ + \\sqrt{_{k}_})(_{l}_ + \\sqrt{_{j}_})\\)</div><div>\\(=(_{j}_ \\times _{l}_)+(_{j}_ \\times \\sqrt{_{j}_})+(_{l}_ \\times \\sqrt{_{k}_})+(\\sqrt{_{k}_} \\times \\sqrt{_{j}_})\\)</div><div>\\(=(_{{j*l}}_)+(_{j}_\\sqrt{_{j}_})+(_{l}_\\sqrt{_{k}_})+(\\sqrt{_{{j*k}}_})\\)</div><div>\\(=_{{j*l}}_+_{j}_\\sqrt{_{j}_}+_{l}_\\sqrt{_{k}_}+\\sqrt{_{{j*k}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((_{j}_ + \\sqrt{_{k}_})(_{l}_ + \\sqrt{_{j}_})\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            8, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j*k}}_+_{j}_\\sqrt{_{j}_}+_{l}_\\sqrt{_{k}_}+\\sqrt{_{{j*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j*l}}_+_{j}_\\sqrt{_{k}_}+_{l}_\\sqrt{_{k}_}+\\sqrt{_{{j*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j*l}}_+_{j}_\\sqrt{_{j}_}+_{l}_\\sqrt{_{j}_}+\\sqrt{_{{j*k}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j*l}}_+_{j}_\\sqrt{_{j}_}+_{l}_\\sqrt{_{k}_}+\\sqrt{_{{j*k}}_}\\)"
+    }
+  }
+}

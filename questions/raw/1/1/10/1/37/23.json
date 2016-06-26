@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the number of mangoes younger brother have be x</div><div>Then, elder brother will have x - _{j}_ mangoes.</div><div>Therefore,</div><div>\\(Product = x\\times (x-_{j}_)\\)</div><div>i.e., \\(_{{2*j*j}}_ = x\\times (x-_{j}_)\\)</div><div>i.e., \\(_{{2*j*j}}_ = x^2 - _{j}_x\\)</div><div>i.e.,  \\(x^2 - _{j}_x -_{{2*j*j}}_ = 0 \\)</div><div>i.e., Comparing with \\(ax^2 + bx + c = 0\\)</div><div>We get, a = 1, b = -_{j}_ and c = -_{{2*j*j}}_</div><div>Now, Check the discriminant</div><div>i.e., \\(b^2 - 4ac = (-_{j}_)^2 - 4\\times 1\\times (-_{{2*j*j}}_)\\)</div><div>i.e., = _{{j*j}}_ + _{{8*j*j}}_</div><div>i.e., = _{{9*j*j}}_</div><div>Since \\((b^2 - 4ac)\\ge 0\\)</div><div>Therefore, it is possible to distribute mangoes among the brothers.</div><div>Now solving the obtained equation to find the value of x.</div><div> x = \\(_{j}_\\pm \\sqrt{_{{9*j*j}}_}\\over 2\\)</div><div> x = \\(_{j}_\\pm _{{3*j}}_\\over 2\\)</div><div> x = \\(_{j}_ + _{{3*j}}_\\over 2\\) and x = \\(_{j}_ - _{{3*j}}_\\over 2\\)</div><div> x = \\(_{{4*j}}_\\over 2\\) and x = \\(-_{{2*j}}_\\over 2\\)</div><div> x = _{{2*j}}_ and x = -_{{1*j}}_</div><div>Since x is number of mangoes, it can not be negative.</div><div>Thus, younger brother will get _{{2*j}}_ mangoes.</div>"
+  }, 
+  "content": {
+    "text": "<div>Is it possible to distribute certain number of mangoes among two brothers, such that elder brother gets _{j}_ mangoes less than his younger brother. Also the product of the numbers of mangoes they will get is _{{2*j*j}}_.If yes, find how many mangoes will the younger brother get. </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            26, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes , _{{(2*j)+2}}_"
+      }, 
+      {
+        "text": "Yes , _{{(2*j)-2}}_"
+      }, 
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": {
+      "text": "Yes , _{{2*j}}_"
+    }
+  }
+}

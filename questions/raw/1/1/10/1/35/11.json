@@ -1,0 +1,78 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>To calculate the median height, we need to find the class intervals and their corresponding frequencies.</div><div>Also, cumulative frequency.</div><div>As follows: </div><div>\\begin{array}{c|lcr} Height(in\\,m) & \\text{frequency} & \\text{Cumulative frequency} \\\\ \\hline \\ 0-30 & _{i}_ & _{i}_ \\\\ \\hline \\ 30-60 & _{j}_ & _{{i+j}}_ \\\\ \\hline \\ 60-90 & _{k}_ & _{{i+j+k}}_ \\\\ \\hline \\ 90-120 & _{l}_ & _{{i+j+k+l}}_ \\\\ \\hline \\ 120-150 & _{m}_ & _{{i+j+k+l+m}}_ \\\\ \\hline \\end{array}</div><div>Now</div><div>n = _{{i+j+k+l+m}}_</div><div> So,</div><div> \\(n\\over 2\\) = \\(_{{i+j+k+l+m}}_\\over 2\\) = _{{(Decimal(i)+j+k+l+m)/2}}_</div><div>This observation lies in the class 30-60.</div><div> Then,</div><div>l (the lower limit) = 30,</div><div>cf (the cumulative frequency of the class preceding 30 - 60) = _{i}_,</div><div>f (the frequency of the median class 30 - 60) = _{j}_,</div><div>h (the class size) = 30.</div><div>Median = l +\\({{({n\\over 2} - cf})\\over {f}}\\)*h</div><div>Median = 30 +\\({{({_{{i+j+k+l+m}}_\\over 2} - _{i}_})\\over _{j}_}\\)*30</div><div>Median = 30 +\\({({_{{(i+j+k+l+m)/2}}_ - _{i}_})\\over _{j}_}\\)*30</div><div>Median = 30 +\\({({_{{((i+j+k+l+m)/2)-(i)}}_})\\over _{j}_}\\)*30</div><div>Median = 30 +(_{{trunc((((Decimal(i)+j+k+l+m)/2)-(i))/j,3)}}_)*30</div><div>Median = 30 +_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i))/j)*30,3)}}_</div><div>Median = _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i))/j)*30,3)+30}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A survey regarding the heights (in m) of _{{i+j+k+l+m}}_ buildings of a town was conducted and the following data was obtained:</div><div>\\begin{array}{c|lcr} Height(in\\,m) & \\text{frequency} \\\\ \\hline \\ less\\,than 30 & _{i}_ \\\\ \\hline \\ less\\,than\\,60 & _{{i+j}}_ \\\\ \\hline \\ less\\,than\\,90 & _{{i+j+k}}_ \\\\ \\hline \\ less\\,than\\,120 & _{{i+j+k+l}}_ \\\\ \\hline \\ less\\,than\\,150 & _{{i+j+k+l+m}}_ \\\\ \\hline \\end{array}</div><div>Find the median height.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            32, 
+            36
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i))/j)*30,3)+33}}_"
+      }, 
+      {
+        "text": "_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i))/j)*30,3)+28}}_"
+      }, 
+      {
+        "text": "_{{trunc(((((Decimal(i)+j+k+l+3+m)/2)-(i))/j)*30,3)+30}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i))/j)*30,3)+30}}_"
+    }
+  }
+}

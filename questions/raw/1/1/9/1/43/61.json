@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "There are an infinite number of possible line equations that pass through any point on a Cartesian plane. Therefore, the answer is <b>None of the above</b>"
+  }, 
+  "content": {
+    "text": "What is the maximum number of lines that pass through the point (_{j}_,_{k}_)?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            0, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            0, 
+            200
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "One"
+      }, 
+      {
+        "text": "Two"
+      }, 
+      {
+        "text": "Four"
+      }
+    ], 
+    "correct": {
+      "text": "None of the above"
+    }
+  }
+}

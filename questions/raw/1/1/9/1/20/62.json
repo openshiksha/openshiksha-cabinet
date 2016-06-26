@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Surface area of the wall\\(=_{{trunc(((2/Decimal(10000))*pi_val*(j/Decimal(2))*k*l),3)}}_m^2\\)</div><div>Cost of painting the wall \\(=\\) Surface area of the wall \\(\\times\\) rate</div><div>\\(=_{{trunc(((2/Decimal(10000))*pi_val*(j/Decimal(2))*k*l),3)}}_ \\times 250\\)</div><div>\\(=_{{trunc(((2/Decimal(10000))*pi_val*(j/Decimal(2))*k*l*250),3)}}_\\) rupees</div>"
+  }, 
+  "content": {
+    "text": "Find the cost of painting the wall at Rs.\\(250\\) per sq.m."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 3, 
+    "value": "_{{trunc(((2/Decimal(10000))*pi_val*(j/Decimal(2))*k*l*250),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

@@ -1,0 +1,39 @@
+{
+  "hint": {
+    "text": "Polynomials in three variable have \\(3\\,\\) different variables."
+  }, 
+  "solution": {
+    "text": "<div>\\(x^{_{j}_} + y^{_{k}_} + z + _{l}_\\,\\) has three variables \\(x,\\,y\\,\\) and \\(z.\\)</div><div>\\(_{k}_p^{_{j}_} + _{l}_q^{_{k}_} + _{j}_r^{_{l}_}\\,\\) also has three variables \\(p,\\,q\\,\\) and \\(r.\\)</div><div>\\(t^{_{{j+3}}_}+t\\,\\) and \\(_{j}_a^{_{m}_} + _{k}_b^{_{n}_} + _{l}_b^{_{o}_}\\,\\) have only one and two variables respectively.</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Choose polynomials in three variables."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}, 
+    "o": {}, 
+    "n": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(t^{_{{j+3}}_}+t\\)"
+      }, 
+      {
+        "text": "\\(_{j}_a^{_{m}_} + _{k}_b^{_{n}_} + _{l}_b^{_{o}_}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(x^{_{j}_} + y^{_{k}_} + z + _{l}_\\)"
+      }, 
+      {
+        "text": "\\(_{k}_p^{_{j}_} + _{l}_q^{_{k}_} + _{j}_r^{_{l}_}\\)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given vertices are: A(_{i}_,_{j}_), B(_{k}_,_{l}_) and C(m,_{n}_).</div><div>Since the given points are collinear, the area of the triangle formed by them must be 0</div><div>Now Using following formula:</div><div>Area = \\({1\\over 2}\\times (x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2))\\)</div><div>i.e., 0 = \\({1\\over 2}\\times (_{i}_(_{l}_-_{n}_)+_{k}_(_{n}_-_{j}_)+m(_{j}_-_{l}_))\\)</div><div>i.e., 0 = \\({1\\over 2}\\times (_{i}_(_{{l-n}}_)+_{k}_(_{{n-j}}_)+m(_{{j-l}}_))\\)</div><div>i.e., 0 = \\({1\\over 2}\\times (_{{i*(l-n)}}_+_{{k*(n-j)}}_+_{{(j-l)}}_m)\\)</div><div>i.e., 0 = \\({1\\over 2}\\times (_{{(i*(l-n))+(k*(n-j))}}_+_{{(j-l)}}_m)\\)</div><div>i.e., _{{-(j-l)}}_m = _{{(i*(l-n))+(k*(n-j))}}_</div><div> i.e., m = _{{trunc(-((Decimal(i)*(l-n))+(k*(n-j)))/(j-l),2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the value of m such that following points are collinear: </div><div>A(_{i}_,_{j}_), B(_{k}_,_{l}_) and C(m,_{n}_).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            12, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            12, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            19, 
+            24
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            19, 
+            24
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(-((Decimal(i)*(l-n))+(k*(n-j-2)))/(j-l),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(-((Decimal(i)*(l-n+2))+(k*(n-j)))/(j-l),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(-((Decimal(i)*(l-n))+(k*(n-j)))/(j-l),2)}}_"
+    }
+  }
+}

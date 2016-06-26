@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>let the length of the stick be l</div><div>radius of larger tyre, R=_{{j*25}}_, and that of smaller tyre, r=_{{24*j}}_</div><div> The stick is tangent to the smaller circle and chord to the larger circle</div><div>this implies line joining the contact of the tangent to the center is \\(\\perp\\) to the stick and bisects it</div><div>So, two right angle triangles can be seen </div><div>Using Pythagoras on a triangle we have</div><div>we have \\(\\frac l2\\)=\\(\\sqrt {R^2-r^2}\\)</div><div>we have \\(\\frac l2\\)=\\(\\sqrt {_{{j*25}}_^2-_{{j*24}}_^2}\\)</div><div>\\(\\Rightarrow \\frac l2\\)=\\(\\sqrt {_{j}_^2(25^2-24^2)}\\)</div><div>\\(\\Rightarrow \\frac l2\\)=\\(_{{7*j}}_\\)</div><div>Length of stick l=2*_{{7*j}}_=_{{2*7*j}}_cm</div>"
+  }, 
+  "content": {
+    "text": "<div>In a tyres' shop tyre of a kid's cycle of radius _{{24*j}}_cm is resting on a wooden stick.</div><div>Length of the wooden stick is such that it fits in a tyre of _{{j*25}}_cm radius as shown in the figure</div><div>Find the length of the wooden stick placed between the two concentric tyres</div>", 
+    "img": "8.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{2*7*j}}_"
+  }, 
+  "type": 3, 
+  "unit": "cm"
+}

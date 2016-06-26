@@ -1,0 +1,16 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Curved surface area of the tent\\(=_{{trunc((pi_val*l*(k**2+l**2)**Decimal(0.5)),2)}}_m^2\\)</div><div>Rate of painting\\(=\\)Rs.\\(10\\) per \\(0.5\\)sq.m.\\(=\\)Rs.\\(20\\) per sq.m.</div><div>Cost of painting each tent\\(=\\) Curved surface area of the tent \\(\\times\\) rate of painting</div><div>\\(=_{{trunc((pi_val*l*(k**2+l**2)**Decimal(0.5)),2)}}_ \\times 20\\)</div><div>\\(=\\)Rs.\\(_{{trunc((pi_val*20*l*(k**2+l**2)**Decimal(0.5)),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Cost of painting each tent from the outside if cost of painting is Rs.\\(10\\) per \\(0.5\\)sq.m."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 5, 
+    "value": "_{{trunc((pi_val*20*l*(k**2+l**2)**Decimal(0.5)),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

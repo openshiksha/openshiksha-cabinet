@@ -1,0 +1,29 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>In similar triangles all the angles are equal</div><div>>i.e., \\(\\angle A = \\angle A'\\)</div><div>>i.e., \\(\\angle B = \\angle B'\\)</div><div>>i.e., \\(\\angle C = \\angle C'\\)</div><div>Hence, \\(\\angle A\\over \\angle A'\\) = \\(\\angle B\\over \\angle B'\\)</div><div>Similarly, In similar triangles ratios of sides are equal</div><div>\\(BC\\over B'C'\\) = \\(AB\\over A'B'\\)</div><div>But not necessarily sides are equal</div>"
+  }, 
+  "content": {
+    "text": "<div>For two similar triangle ABC and A'B'C', Which of the following statements are true?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "AB = A'B'"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\angle A = \\angle A'\\)"
+      }, 
+      {
+        "text": "\\(BC\\over B'C'\\) = \\(AB\\over A'B'\\)"
+      }, 
+      {
+        "text": "\\(\\angle A\\over \\angle A'\\) = \\(\\angle B\\over \\angle B'\\)"
+      }
+    ]
+  }
+}

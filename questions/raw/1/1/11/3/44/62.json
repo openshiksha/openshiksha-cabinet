@@ -1,0 +1,38 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Temperature inside cold reservoir) = _{j}_ C = _{{j+273}}_ K <br>Temperature inside hot reservoir) = _{k}_ C = _{{k+273}}_ K <br>Coefficient of performance\\((\\alpha) = \\frac {T_1}{T_2-T_1} = _{{trunc(Decimal( (j+273)/ (k-j)),2)}}_ \\)<br>"
+  }, 
+  "content": {
+    "text": "A refrigerator has to maintain an inside temperature of  _{j}_ C. If temperature outside is _{k}_ C, what is the coefficient of performance? (include up to 2 decimal places in your answer if necessary)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            20, 
+            35
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(Decimal( (j+273)/ (k-j)),2)}}_"
+  }, 
+  "type": 3
+}

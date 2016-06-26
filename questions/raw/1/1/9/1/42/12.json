@@ -1,0 +1,43 @@
+{
+  "hint": {
+    "text": "<div>Try converting all the variables in terms of one single variable.</div>"
+  }, 
+  "solution": {
+    "text": "<div>Given that :</div><div>z is _{{2*k}}_ times of x, thus z = _{{2*k}}_x</div><div>Similarly, y = _{k}_x</div><div>Therefore, We get the dimension as :</div><div>i.e., a = 2x, b = _{{2*k}}_x and c = _{{2*k}}_x</div><div>We know : </div><div>Semi-perimeter, s = \\(a+b+c\\over 2\\)</div><div>i.e, s = _{{((2+2*k+2*k)/2)*j}}_ = \\(2x + _{{2*k}}_x + _{{2*k}}_x\\over 2\\)</div><div>i.e,\\(_{{2+4*k}}_x\\) = _{{(2+4*k)*j}}_</div><div>i.e., x = _{j}_</div><div>So we get the dimensions of the triangle as :</div><div> a = _{{2*j}}_, b = _{{2*k*j}}_ and c = _{{2*k*j}}_</div><div>Using Heron's formula : </div><div>Area = \\(\\sqrt{s(s-a)(s-b)(s-c)}\\)</div><div>Area = \\(\\sqrt{_{{(2+4*k)*j/2}}_(_{{(2+4*k)*j/2}}_-_{{2*j}}_)(_{{(2+4*k)*j/2}}_-_{{2*j*k}}_)(_{{(2+4*k)*j/2}}_-_{{2*j*k}}_)}\\)</div><div>Area = \\(\\sqrt{_{{(1+2*k)*j}}_(_{{(-1+2*k)*j}}_)(_{j}_)(_{j}_)}\\)</div><div>Area = _{{j*j}}_\\(\\sqrt{_{{4*k*k-1}}_}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Pramod, an engineer wants to design a solar panel as shown below with dimension 2x, 2y and z m, such that z is _{{2*k}}_ times of x and x is \\(1\\over _{k}_\\) times of y. If the semi-perimeter is equal to _{{((2+2*k+2*k)/2)*j}}_ m, find the area the panel.</div>", 
+    "img": "12.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Area = _{{j*j*2}}_\\(\\sqrt{_{{4*k*k-10}}_}\\)"
+      }, 
+      {
+        "text": "Area = _{{j*j}}_\\(\\sqrt{_{{4*k*k+10}}_}\\)"
+      }, 
+      {
+        "text": "Area = _{{j*j/2}}_\\(\\sqrt{_{{4*k*k-1}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "Area = _{{j*j}}_\\(\\sqrt{_{{4*k*k-1}}_}\\)"
+    }
+  }
+}

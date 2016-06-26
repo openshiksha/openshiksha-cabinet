@@ -1,0 +1,20 @@
+{
+  "hint": {
+    "text": "If a point lies on the graph of an equation it is a solution to that equation."
+  }, 
+  "solution": {
+    "text": "If a point lies on the graph of an equation it is a solution to that equation.<br>Therefore, we are given that \\((_{j}_, _{{k*j+3}}_)\\) is a solution to \\(y = px + 3\\).<br>Now substitute the values of \\(x = _{j}_\\) and \\(y = _{{k*j+3}}_\\) into the given equation.<br>\\(y = px + 3\\)<br>\\(\\implies  _{{k*j+3}}_ = p * _{j}_ + 3 \\)<br>\\(\\implies  p = \\frac{_{{k*j+3}}_ - 3}{ _{j}_}\\)<br>\\(\\implies  p = _{k}_\\)"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "If the point \\((_{j}_, _{{k*j+3}}_)\\) lies on the graph of the equation \\(y = px + 3\\), find the value of p."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

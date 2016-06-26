@@ -1,30 +1,45 @@
 {
+  "subpart_index": 0, 
   "solution": {
-    "text": "<div>\\((_{j}_x - _{k}_y^2) (_{j}_x + _{k}_y^2)\\)</div><div>Using the identity: \\((a+b)(a-b) = a^2 - b^2\\)</div><div>Where \\(a = _{j}_x\\), \\(b = _{k}_y^2\\)</div><div>\\(= _{{j**2}}_x^2 - _{{k**2}}_y^4\\)</div>"
+    "text": "<div>Let the number Ram is thinking of be \\(x\\).</div><div>Therefore,</div><div>\\(_{j}_x+_{k}_=_{{j+1}}_x-_{{l-k}}_\\)</div><div>\\(\\Rightarrow _{{j+1}}_x-_{j}_x=_{k}_+_{{l-k}}_\\)</div><div>\\(\\Rightarrow x=_{l}_\\)</div><div>The number Ram is thinking of is \\(_{l}_\\)</div>"
   }, 
-  "subpart_index": 6, 
   "content": {
-    "text": "\\((_{j}_x - _{k}_y^2) (_{j}_x + _{k}_y^2)\\)"
+    "text": "Ram is thinking of a number. If it is multiplied by \\(_{j}_\\) and then added with \\(_{k}_\\), the result is \\(_{{l-k}}_\\) less than \\(_{{j+1}}_\\) times the number. What number is ram thinking of? "
   }, 
   "variable_constraints": {
-    "k": {}, 
-    "j": {}
-  }, 
-  "type": 1, 
-  "options": {
-    "incorrect": [
-      {
-        "text": "\\(_{{j**2}}_x^2 - _{{k**2}}_y^2\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)"
-      }, 
-      {
-        "text": "\\(_{{j**2}}_x^2 - _{{2*(k**2)*(j**2)}}_xy^2 - _{{k**2}}_y^4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
-      }, 
-      {
-        "text": "\\(_{{j**2}}_x^2 - _{{(k+1)**2}}_y^4\\) using identity \\((x+a)(x+b) = x^2 + (a+b)x + ab\\)"
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
       }
-    ], 
-    "correct": {
-      "text": "\\(_{{j**2}}_x^2 - _{{k**2}}_y^4\\) using identity \\((a+b)(a-b) = a^2 - b^2\\)"
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            13, 
+            26
+          ]
+        ]
+      }
     }
-  }
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
 }

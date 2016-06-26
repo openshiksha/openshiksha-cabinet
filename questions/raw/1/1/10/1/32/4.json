@@ -1,0 +1,56 @@
+{
+  "hint": {
+    "text": "<div>You may take : </div><div>cos(10) =0.985,</div><div>cos(20) =0.939,</div><div>cos(30) =0.866</div>"
+  }, 
+  "solution": {
+    "text": "<div>In the given figure we have to find out new height which is equal to H2.</div><div>Given that : </div><div>Initial height of the building H1 = _{i}_</div><div>Angle A = _{k}_\\(^\\circ\\).</div><div>Since, building tilted only no damage occur</div><div>hence, </div><div> H1 = L.</div><div>Also, from similarity</div><div>angle A = angle B</div><div>Now, using trigonometry ratio</div><div> cos(B) = \\(H2\\over L\\)</div><div> cos(_{k}_) = \\(H2\\over _{i}_\\)</div><div>i.e., H2 = cos(_{k}_)*_{i}_</div><div>i.e., H2 = _{{m*i}}_</div><div>So, the net height of the building is _{{m*i}}_</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "<div>There was a _{i}_ m high building in Pune. In an earthquake the building got tilted by an angle of _{k}_\\(^\\circ\\).find out the new height of the building.</div>", 
+    "img": "4.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            40, 
+            70
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        10, 
+        20, 
+        30
+      ]
+    }, 
+    "m": {
+      "options": [
+        0.985, 
+        0.939, 
+        0.866
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(m*i)+.76}}_"
+      }, 
+      {
+        "text": "_{{(m*i)+2}}_"
+      }, 
+      {
+        "text": "_{{(m*i)-0.5}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{m*i}}_"
+    }
+  }
+}

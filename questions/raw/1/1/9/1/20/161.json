@@ -1,0 +1,22 @@
+{
+  "hint": {
+    "text": "\\(1\\,m^3=1000\\,litres\\)"
+  }, 
+  "solution": {
+    "text": "<div>Length of reservoir \\(=_{j}_\\)m</div><div>Width of reservoir \\(=_{k}_\\)m</div><div>Depth of reservoir \\(=_{l}_\\)m</div><div>Volume of reservoir \\(=_{j}_m \\times _{k}_m \\times _{l}_m\\)</div><div>\\(=_{{j*k*l}}_\\,m^3\\)</div><div>\\(=_{{j*k*l*1000}}_\\,litres\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A cuboidal water storage reservoir is \\(_{j}_\\)m long, \\(_{k}_\\)m wide and \\(_{l}_\\)m deep.</div><div>How many litres of water can it store?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{j*k*l*1000}}_"
+  }, 
+  "type": 3, 
+  "unit": "litres"
+}

@@ -1,0 +1,51 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Amount of water in the tank at _{k}_ am is _{{j*0.5}}_ litres</div><div>duration of outflow to be considered is \\(_{{k+3}}_\\,am-_{k}_\\,am\\,=3 hours\\)</div><div> rate of discharge of water = \\(_{l}_\\,litres\\,per\\,hour\\)</div><div> As the decrement in the amount of water is constant(d)= -\\(_{l}_\\)</div><div>so, the water in the tank after each hour will form an AP</div> <div>The first term as \\(a_1=_{{0.5*j}}_\\,and\\,d=-_{l}_\\)</div><div>Now the water in the tank after 3 hours(n=4) is= \\(a_1-3d\\)</div><div>\\(_{{0.5*j}}_-_{{(3*l)}}_=_{{(0.5*j)-(3*l)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A tank with a capacity of _{j}_ litres is half filled with water.</div><div>At _{k}_ am someone turns the outlet valve on </div><div>The water starts to spill out from the tank at a rate of _{l}_ litres per hour. </div><div>How much water is left in the tank at _{{k+3}}_ am. </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        100, 
+        200, 
+        300, 
+        400, 
+        500, 
+        600, 
+        700, 
+        800, 
+        900
+      ]
+    }, 
+    "l": {
+      "options": [
+        10, 
+        20, 
+        30, 
+        40, 
+        50, 
+        60, 
+        70, 
+        80, 
+        90
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{(0.5*j)-(3*l)}}_"
+  }, 
+  "type": 3
+}

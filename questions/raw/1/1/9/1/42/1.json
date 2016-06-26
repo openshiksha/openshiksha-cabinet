@@ -1,0 +1,49 @@
+{
+  "hint": {
+    "text": "<div>Remember the area of the triangle can be calculated in two ways.</div>"
+  }, 
+  "solution": {
+    "text": "<div>We know :</div><div>Area of triangle = \\({1\\over 2}\\times height\\times base\\)</div><div>Since triangle ABC and PQR both are right angled triangle, thus using above formula we have:</div><div>Area of ABC = \\({1\\over 2}\\times height\\times base\\)</div><div>i.e, Area of ABC = \\({1\\over 2}\\times a\\times b\\)</div><div>i.e, Area of ABC = \\({1\\over 2}\\times _{i}_\\times _{j}_\\)</div><div>i.e, Area of ABC = \\(_{{trunc(Decimal(i)*j/2,2)}}_\\)</div><div>Similarly,</div><div>Area of PQR = \\({1\\over 2}\\times height\\times base\\)</div><div>i.e, Area of PQR = \\({1\\over 2}\\times p\\times q\\)</div><div>i.e, Area of PQR = \\({1\\over 2}\\times _{k}_\\times _{{2*i}}_\\)</div><div>i.e, Area of PQR = \\(_{{i*k}}_\\)</div><div>Thus,</div><div>Sum of the areas = \\(_{{trunc(Decimal(i)*j/2,2)}}_\\)+\\(_{{i*k}}_\\) = _{{trunc(Decimal(i)*j/2,2)+(i*k)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Find sum of the areas of the triangles shown in figure.</div><div>Where in triangle ABC, a = _{i}_ and b = _{j}_ and in triangle PQR p = _{k}_ and q = _{{2*i}}_</div>", 
+    "img": "1.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{trunc(Decimal(i)*j/2,2)+(i*k)}}_"
+  }, 
+  "type": 3
+}

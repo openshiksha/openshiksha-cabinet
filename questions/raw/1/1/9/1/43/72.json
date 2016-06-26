@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "You previously found that the governing equation for the taxi fare is:<br>\\(Money \\; (Fare) = _{k}_ + Distance \\; Travelled * _{j}_\\)<br><br>Therefore, if your hotel is  km away, the fare will be : <br>\\(Fare = _{k}_ + _{l}_ * _{j}_\\)<br>\\(\\implies Fare = _{{k + (l*j)}}_\\)"
+  }, 
+  "content": {
+    "text": "You look up the location of your hotel and find that you are _{l}_ km away. Based on the equation you calculated above, how many units of money do you need to spend to reach your location?"
+  }, 
+  "variable_constraints": {
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            35
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k + (l*j)}}_"
+  }, 
+  "type": 3
+}

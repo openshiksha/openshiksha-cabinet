@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "<div> Total interior angle of a polygon is<div></div>\\((n-2)\\times 180\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Consider the smallest angle _{{(((n-2)*180)/n)-(((n-1)*p)/2)}}_\\(^o\\) as first term (\\(a_1\\)) and the difference between two consecutive interior angles \\(_{p}_ ^o\\) as common difference (\\(d\\)) of an A.P. .<div></div>Let \\(n\\) = number of sides.<div></div>then<div></div>Equate total interior angle formula of a polygon with total sum of the A.P.<div></div> i.e.<div></div>\\((n-2)\\times 180= \\frac{n}{2}\\times(2a_1+(n-1)d)\\)<div></div>Solving this equation you will get<div></div>\\(n=_{n}_\\).</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>The difference between any two consecutive interior angles of a polygon is \\(_{p}_ ^o\\). If the smallest angle is _{{(((n-2)*180)/n)-(((n-1)*p)/2)}}_\\(^o\\) find the number of sides of the polygon. </div>"
+  }, 
+  "variable_constraints": {
+    "p": {
+      "range": {
+        "include": [
+          [
+            4, 
+            90
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            4, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{n}_"
+  }, 
+  "type": 3
+}

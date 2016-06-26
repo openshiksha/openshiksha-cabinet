@@ -1,0 +1,38 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "For the first, adiabatic process:<br>Net work done (W) = _{j}_ J <br>Since it's an adiabatic process:<br>\\(\\Delta Q = 0 \\implies \\Delta W = -\\;_{j}_\\) J (Since the work is done on the system)<br><br>From the First Law of Thermodynamics: \\(\\Delta Q = \\Delta U + \\Delta W\\)<br>\\(\\implies \\Delta U = \\Delta Q - \\Delta W = - (- _{j}_) = _{j}_ \\;J\\)<br><br>In the second scenario the change in internal energy is the same since the state (B) is the same and the systems are identical.<br><br>The net heat absorbed \\((\\Delta Q)\\) = _{k}_ J<br>Therefore, \\(\\Delta W = \\Delta Q - \\Delta U\\)\\(\\implies \\Delta W = _{k}_ - _{j}_\\)<br>\\(\\implies \\Delta W = _{{k - j}}_\\) Joules"
+  }, 
+  "content": {
+    "text": "A system of Hydrogen gas is transformed adiabatically from an equilibrium state A to another equilibrium state B, requiring _{j}_ J of work to be done on the system. An identical system is taken from state A to B via a different process in which the net heat absorbed by the system is _{k}_ J. What is the work done by the system on the surroundings in the latter case ?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            21, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k - j}}_"
+  }, 
+  "type": 3, 
+  "unit": "J"
+}

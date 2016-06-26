@@ -1,0 +1,22 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let us consider \\(\\sqrt5 \\times 2 = 2 \\sqrt5\\).</div><div>\\(\\sqrt5\\) is non-terminating non-recurring.</div><div>Multiplying \\(2\\) and \\(\\sqrt5\\) will also give us a non-terminating non-recurring number which is irrational.</div>"
+  }, 
+  "content": {
+    "text": "The product or quotient of a non-zero rational number and an irrational number is rational."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

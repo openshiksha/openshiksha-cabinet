@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "Arrange the forces due to rolling, static and sliding friction in decreasing order."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "static friction \\(\\gt\\) rolling friction \\(\\gt\\) sliding friction"
+      }, 
+      {
+        "text": "rolling friction \\(\\gt\\) sliding friction \\(\\gt\\) static friction"
+      }, 
+      {
+        "text": "sliding friction \\(\\gt\\) static friction \\(\\gt\\) rolling friction"
+      }
+    ], 
+    "correct": {
+      "text": "static friction \\(\\gt\\) sliding friction \\(\\gt\\) rolling friction"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 7, 
+  "variable_constraints": {}
+}

@@ -1,0 +1,38 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We have to find the probability of getting a number less than _{i}_ on a single throw of a die.</div><div>All possible outcomes = {1,2,3,4,5,6} </div><div>So, Total number of outcomes = 6 </div><div>now,</div><div>Let, E be the event 'getting a number less than _{i}_'</div><div>So, the number of outcomes favourable to E is _{{i-1}}_</div><div>Therefore,</div><div>P(E) = \\(_{{i-1}}_\\over 6\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the probability of getting a number less than _{i}_ on a single throw of a die.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            1, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{i+1}}_\\over 6\\)"
+      }, 
+      {
+        "text": "\\(_{i}_\\over 6\\)"
+      }, 
+      {
+        "text": "\\(_{{i-2}}_\\over 6\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{i-1}}_\\over 6\\)"
+    }
+  }
+}

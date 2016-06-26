@@ -1,10 +1,10 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{_{{5*j}}_}{3} \\)</div><div>Therefore total cost of ticket = \\( 1350 \\times \\frac{_{{5*j}}_}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. _{{2250*j}}_</div>"
+    "text": "<div>Total cost of ticket = No of kilometres travelled \\(\\times\\) price per km</div> <div>Price per km = Rs. \\(\\frac{_{{5*j}}_}{3} \\)</div><div>Therefore total cost of ticket = \\( 1350 \\times \\frac{_{{5*j}}_}{3} \\)  </div><div>\\(\\Rightarrow\\)Total cost of ticket= Rs. \\(_{{2250*j}}_\\)</div>"
   }, 
   "content": {
-    "text": "A train ticket costs Rs. _{{5*j}}_  per every 3 Km travelled. Adnan goes from Mumbai to Agra which is at a distance of 1350 Km. how much does his train ticket cost?"
+    "text": "A train ticket costs Rs.\\( _{{5*j}}_\\)  per every \\(3\\) km travelled. Adnan goes from Mumbai to Agra which is at a distance of \\(1350\\) km. how much does his train ticket cost?"
   }, 
   "variable_constraints": {
     "j": {

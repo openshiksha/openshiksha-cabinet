@@ -1,0 +1,24 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Draw a right angled triangle with its perpendicular sides of length \\(1\\) unit each.</div><div>Now by using Pythagoras theorem,</div><div>Length of hypotenuse \\(=\\sqrt{1^2+1^2}=\\sqrt2\\).</div><div>Using a compass with center O and radius OB, draw an arc that intersects with the number line at point A.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\sqrt2\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "5-1-2.png"
+      }, 
+      {
+        "img": "5-1-3.png"
+      }
+    ], 
+    "correct": {
+      "img": "5-1-1.png"
+    }
+  }
+}

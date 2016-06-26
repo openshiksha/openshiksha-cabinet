@@ -1,0 +1,39 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>By observing the figure, clearly we can see that top 2 portions are segment corresponding to the chords AB and AC</div><div>For both the segments angle subtended at the centre = 90\\(^\\circ\\) and radius=R</div><div>We draw a line from O to AC , let's say it intersects at T</div><div>Now area (top right segment)\\(=\\pi \\times R^2\\times \\frac {\\theta}{360}-area(OAC)\\)</div><div>Similarly, area(top left segment)\\(=\\pi \\times R^2\\times \\frac {\\theta}{360}-area(OAB)\\)</div><div>area of both segments= \\(2\\times [\\pi \\times R^2\\times \\frac {90}{360}]-[area(OAB)+area(OAC)\\)</div><div>area of both segments=\\( 2\\times _{{trunc(pi_val*j*j/4,2)}}_-[area(ABC)\\)</div><div>\\(_{{trunc(pi_val*j*j*2,2)}}_-[\\frac 12 \\times (2R) \\times R]\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*2*j-(j*j),2)}}_\\)</div><div>Area of the shaded region in the bottom half= area (sector corresponding to chord BC) - area \\(\\bigtriangleup \\) CBD</div><div>area (sector corresponding to chord BC)=\\(\\frac 12 \\times \\pi R^2=_{{trunc(pi_val*j*j/2,2)}}_\\)</div><div>For area of\\(\\bigtriangleup\\) BCD we know perpendicular from point D on BC is \\(\\frac R2 \\Rightarrow OD=_{{Decimal('0.5')*j}}_\\)</div><div>We have BC=diameter=2R</div><div>area of\\(\\bigtriangleup BCD =\\frac 12 \\times (2R) \\times \\frac {R}2\\)</div><div>\\(\\Rightarrow area \\bigtriangleup = _{{Decimal('0.5')*j*j}}_\\)</div><div>Area of the shaded region in the bottom half= \\(_{{trunc(pi_val*j*j/2,2)}}_ - _{{Decimal('0.5')*j*j}}_\\)</div><div>\\(\\Rightarrow bottom\\,area=_{{trunc(pi_val*j*j/2-Decimal('0.5')*j*j,2)}}_\\)</div><div>Area of the complete shaded region=Area of the top 2 segments + area (shaded region in the bottom half)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*2*j-(j*j),2)}}_+_{{trunc(pi_val*j*j/2-Decimal('0.5')*j*j,2)}}_\\)</div><div>Shaded region \\(=_{{trunc(pi_val*j*2*j-(j*j)+pi_val*j*j/2-Decimal('0.5')*j*j,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If R is the radius of the circle=_{j}_cm, find the area of the shaded region of the given figure</div>", 
+    "img": "14.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*j*2*j+pi_val*j*j/2-Decimal('0.5')*j*j,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*2*j-Decimal('0.5')*j*j,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*2*j+pi_val*j*j/2,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*j*2*j-(j*j)+pi_val*j*j/2-Decimal('0.5')*j*j,2)}}_"
+    }
+  }
+}

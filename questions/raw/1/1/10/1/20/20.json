@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>TSA of the bucket= CSA of the frustum + area of the base of the bucket</div><div>CSA of a frustum of a cone is \\(\\pi \\times l \\times [r+R] \\) where \\(l=\\sqrt {h^2+(R^2-r^2)}\\)</div><div>putting the values, \\(h=_{{4*j}}_,r=_{j}_,R=_{{4*j}}_\\)</div><div>we get,\\(\\frac {22}7 \\times (_{j}_+_{{4*j}}_) \\times \\sqrt {_{{4*j}}_^2+[_{{4*j}}_^2 - _{j}_^2]} \\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*5*j*5*j,2)}}_\\)</div><div>area of the bottom face=\\(\\pi \\times r^2= _{{trunc(j*j*pi_val,2)}}_\\)</div><div>Therefore , TSA\\(=_{{trunc(j*j*pi_val,2)}}_+_{{trunc(pi_val*5*j*5*j,2)}}_=_{{trunc(pi_val*(5*j*5*j+j*j),2)}}_\\)</div><div>cost of the sheet= TSA Bucket\\(\\times \\) rate = _{{trunc(pi_val*(5*j*5*j+j*j),2)}}_\\(\\times \\)_{l}_</div><div>\\(\\Rightarrow _{{trunc(pi_val*(5*j*5*j+j*j)*l,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A bucket is in the shape of a frustum of a cone having the radius of its two circular faces as _{j}_ cm and _{{4*j}}_ cm and the vertical height of the bucket is _{{4*j}}_ cm</div><div>If the rate of the metal sheet is  _{l}_ \\(Rs/cm^2\\), find the total cost of the sheet required to manufacture the bucket</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*(4*j*5*j+j*j)*l,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*4*j*5*j*l,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*5*j*5*j*l,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*(5*j*5*j+j*j)*l,2)}}_"
+    }
+  }
+}

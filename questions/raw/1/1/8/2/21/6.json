@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div><b>Diabetes</b>-It is a hereditary disease</div><div><b>Cancer</b>-It is caused due to environmental conditions, radiations, tobacco etc. This disease does not spread from an infected person to a healthy person through the air, water, food or physical.</div><div><b>Tuberculosis</b>-This disease can be spread from an infected person to a healthy person through air, water, food or physical contact.</div><div><b>Asthma</b>-It is caused due to respiratory infections, air pollutants and smoke. Hence this disease is not a communicable disease.</div>"
+  }, 
+  "content": {
+    "text": "which of the following is a communicable disease"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cancer"
+      }, 
+      {
+        "text": "Diabetes"
+      }, 
+      {
+        "text": "Asthma"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Tuberculosis"
+    }
+  }
+}

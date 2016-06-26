@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Volume of reservoir \\(=_{{j*k*l*1000}}_\\,litres\\)</div><div>Volume is to be increased by \\(_{{m*10000}}_\\,litres\\).</div><div>New Volume\\(=_{{j*k*l*1000}}_+_{{m*10000}}_=_{{j*k*l*1000+(m*10000)}}_\\,litres\\)</div><div>\\(=_{{j*k*l+m*10}}_\\,m^3\\)</div><div>New Volume\\(=l \\times b \\times h_2\\)</div><div>\\(\\Rightarrow _{{j*k*l+m*10}}_=_{j}_ \\times _{k}_ \\times h_2\\)</div><div>\\(\\Rightarrow\\)New depth of reservoir, \\(h_2 = \\frac{_{{j*k*l+m*10}}_}{_{j}_ \\times _{k}_}\\)</div><div>New depth of reservoir \\(=_{{trunc(((j*k*l+m*10)/(Decimal(j)*k)),3)}}_\\,m\\)</div>"
+  }, 
+  "content": {
+    "text": "In order to increase the storage capacity by \\(_{{m*10000}}_\\,litres\\), what should be the new depth of the reservoir?"
+  }, 
+  "variable_constraints": {
+    "m": {}
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((j*k*l+m*10)/(Decimal(j)*k)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m\\)"
+}

@@ -1,0 +1,27 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>It is given that \\(_{j}_\\times(perimenter)=_{k}_\\times(area)\\)</div><div>\\(\\Rightarrow_{j}_\\times(2\\times \\pi r)=_{k}_\\times(\\pi r^2)\\)</div><div>On solving we get, \\(2\\times_{j}_\\over_{k}_\\)</div><div>\\(\\Rightarrow r=_{{trunc(Decimal('2')*j/k,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If the _{j}_times perimeter and _{k}_ times area of a circle are numerically equal</div><div>then find the radius of the circle</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal('2')*j/(k+1),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal('2')*j/(k-1),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal('2')*j/k,2)}}_"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>circumference= \\(2*\\pi*r\\) where r is the radius of the circle and  \\(\\pi =\\frac {22}7\\)</div><div>Therefore circumference of the circle with \\(r_1=_{j}_, Circum_1=2*\\pi*r_1\\)</div><div>Similarly for the other circle, \\( Circum_2=2*\\pi*r_2\\)</div><div>therefore the desired \\(circumference= circum_1+circum_2\\)</div><div>\\(cirmum=2*\\frac {22}7*(_{j}_+_{k}_)\\)</div><div>Now let the radius of the desired circle be r</div><div>We have \\(circum=2*\\pi*r_=2*\\frac {22}7*(_{j}_+_{k}_)\\)</div><div>On solving we get r=_{j}_+_{k}_=_{{j+k}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>The radius of 2 circles are _{j}_cm and _{k}_cm</div><div>find the radius of a circle whose circumference is equal to the sum of the circumferences of the two circles.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j+k+1}}_"
+      }, 
+      {
+        "text": "_{{j+k+2}}_"
+      }, 
+      {
+        "text": "_{{j+k-1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j+k}}_"
+    }
+  }
+}

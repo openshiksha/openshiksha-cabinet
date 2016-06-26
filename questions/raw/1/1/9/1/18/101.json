@@ -1,0 +1,22 @@
+{
+  "hint": {
+    "text": "Use Remainder Theorem."
+  }, 
+  "solution": {
+    "text": "<div>The zero of \\(x+_{j}_\\,\\) is \\(-_{j}_\\)</div><div>Substituting the zero of \\(g(x)\\,\\) in \\(p(x)\\) should give a remainder \\(0\\,\\) as \\(g(x)\\,\\) is a factor of \\(p(x)\\)</div><div>\\(p(-_{j}_)=(_{k}_ \\times (-_{j}_)^3)-(_{l}_ \\times (-_{j}_)^2) + (_{m}_ \\times (-_{j}_)) - a=0\\)</div><div>\\(\\Rightarrow _{{-k*j*j*j}}_-_{{l*j*j}}_-_{{m*j}}_-a=0\\)</div><div>\\(\\Rightarrow _{{-k*j*j*j - l*j*j -m*j}}_=a\\)</div><div>Therefore, \\(a=_{{-k*j*j*j - l*j*j -m*j}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Find the value of \\(a\\,\\) if \\(x+_{j}_\\,\\) is a factor of \\(_{k}_x^3-_{l}_x^2+_{m}_x-a\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{-k*j*j*j - l*j*j -m*j}}_"
+  }, 
+  "type": 3
+}

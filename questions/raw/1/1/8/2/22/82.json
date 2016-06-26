@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "Oil and gas are easily mixed with water."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

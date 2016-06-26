@@ -1,0 +1,68 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let \\(\\angle B\\) be x</div><div>Then, \\(\\angle A\\) will be 4x</div><div>\\(\\angle C\\) = \\(_{k}_^{\\circ}\\)</div><div>We know that the sum of all angles of triangle is \\(180^{\\circ}\\).</div><div>i.e., \\(\\angle A + \\angle B + \\angle C = 180^{\\circ}\\)</div><div>i.e., \\(\\angle A + \\angle B + _{k}_^{\\circ} = 180^{\\circ}\\)</div><div>i.e., \\(\\angle A + \\angle B = 180^{\\circ}-_{k}_^{\\circ}\\)</div><div>i.e., \\(\\angle A + \\angle B = _{{180-k}}_^{\\circ}\\)</div><div>i.e., \\(4x + x = _{{180-k}}_^{\\circ}\\)</div><div>i.e., \\(5x = _{{180-k}}_^{\\circ}\\)</div><div>i.e., \\(x = _{{trunc((180-Decimal(k))/5,2)}}_^{\\circ}\\)</div><div>Therefore \\(\\angle B = _{{trunc((180-Decimal(k))/5,2)}}_^{\\circ}\\)</div><div>And, \\(\\angle A = _{{trunc(((180-Decimal(k))/5)*4,2)}}_^{\\circ}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In a triangle \\(\\angle C\\) is  \\(_{k}_^{\\circ}\\) and \\(\\angle A \\) is 4 times of \\(\\angle B\\).</div><div>Find \\(\\angle A \\) and \\(\\angle B\\).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            35
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\angle B = _{{trunc((170-Decimal(k))/5,2)}}_^{\\circ}\\) And, \\(\\angle A = _{{trunc(((Decimal(182.5)-Decimal(k))/5)*4,2)}}_^{\\circ}\\)"
+      }, 
+      {
+        "text": "\\(\\angle B = _{{trunc((190-Decimal(k))/5,2)}}_^{\\circ}\\) And, \\(\\angle A = _{{trunc(((Decimal(177.5)-Decimal(k))/5)*4,2)}}_^{\\circ}\\)"
+      }, 
+      {
+        "text": "\\(\\angle B = _{{trunc((184-Decimal(k))/5,2)}}_^{\\circ}\\) And, \\(\\angle A = _{{trunc(((179-Decimal(k))/5)*4,2)}}_^{\\circ}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\angle B = _{{trunc((180-Decimal(k))/5,2)}}_^{\\circ}\\) And, \\(\\angle A = _{{trunc(((180-Decimal(k))/5)*4,2)}}_^{\\circ}\\)"
+    }
+  }
+}

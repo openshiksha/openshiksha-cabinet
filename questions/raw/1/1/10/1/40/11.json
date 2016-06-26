@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>draw OT parallel to AB</div><div>By using the theorem we can say, in \\(\\bigtriangleup \\) DAB \\(\\frac {AO}{OD}=\\frac {Bt}{Dt}\\)</div><div> Now in \\(\\bigtriangleup \\)BCD, \\(\\frac {OB}{OC}=\\frac {Bt}{Dt}\\)</div><div>equating the two equations we get</div><div>\\(\\frac {OA}{DO}=\\frac {OB}{OC} \\Rightarrow \\frac {OA}{OB}= \\frac {OD}{OC}\\)</div><div>it is given that \\(\\frac {AO}{OB}=\\frac {_{j}_}{_{{j+2}}_}\\)</div><div>therefore, \\(\\frac {OD}{OC}=\\frac {_{j}_}{_{{j+2}}_}\\)</div>", 
+    "img": "11.1.png"
+  }, 
+  "content": {
+    "text": "<div>The diagonals of a quadrilateral ABCD intersect each other at the point O</div><div>Given that \\(\\frac {AO}{OB}=\\frac {_{j}_}{_{{j+2}}_}\\) and AB is parallel to CD.</div><div>Choose the correct statements from the options given below.</div>", 
+    "img": "11.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {OD}{OC}=\\frac {_{{j+2}}_}{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {OB}{OA}=\\frac {OD}{OC}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\frac {OD}{OC}=\\frac {_{j}_}{_{{j+2}}_}\\)"
+      }, 
+      {
+        "text": "Quadrilateral ABCD is a trapezium"
+      }, 
+      {
+        "text": "\\(\\frac {OA}{OB}=\\frac {OD}{OC}\\)"
+      }
+    ]
+  }
+}

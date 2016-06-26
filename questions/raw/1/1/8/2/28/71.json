@@ -1,0 +1,22 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The impression of an image does not vanish immediately from the retina.</div><div>It persists there for \\(\\frac1{16}^{th}\\) of a second.</div>"
+  }, 
+  "content": {
+    "text": "The impression of an image vanishes immediately from the retina."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

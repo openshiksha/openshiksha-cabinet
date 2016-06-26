@@ -1,0 +1,66 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the money Rakshit had be x.</div><div>Then the money Raunak had = x + _{i}_.</div><div>Money left with Rakshit, when he spent _{k}_ rupees for lunch = x - _{k}_</div><div>similarly </div><div>Money left with Raunak, when he spent _{j}_ rupees for lunch = x + _{i}_ - _{j}_ = x + _{{i-j}}_</div><div>Therefore,</div><div>Their product =\\((x - _{k}_)\\times (x + _{{i-j}}_)\\)</div><div> i.e.,= \\(x^2 -_{k}_x + _{{i-j}}_x - _{{k*(i-j)}}_\\)</div><div> i.e.,= \\(x^2 +_{{-k+i-j}}_x - _{{k*(i-j)}}_\\)</div><div>Given that product = _{l}_</div><div>So,</div><div>i.e., \\(x^2 +_{{-k+i-j}}_x - _{{k*(i-j)}}_\\) = _{l}_</div><div>i.e., \\(x^2 +_{{-k+i-j}}_x - _{{(k*(i-j))+l}}_\\) = 0</div>"
+  }, 
+  "content": {
+    "text": "<div>Raunak had _{i}_ rupees more than Rakshit. If Raunak spent _{j}_ rupees and Rakshit spent _{k}_ rupees for lunch.Then the product of the money they had after lunch is _{l}_  rupees.Represent this situation in the form of quadratic equation. </div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            120, 
+            300
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            40, 
+            80
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            60, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "options": [
+        12000, 
+        8000, 
+        9000, 
+        11000
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^2 +_{{-k+i-j}}_x - _{{(k*(i-j))+l+100}}_\\) = 0"
+      }, 
+      {
+        "text": "\\(x^2 +_{{-k+i-j+3}}_x - _{{(k*(i-j))+l}}_\\) = 0"
+      }, 
+      {
+        "text": "\\(x^2 +_{{-k+i-j-4}}_x - _{{(k*(i-j))+l}}_\\) = 0"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2 +_{{-k+i-j}}_x - _{{(k*(i-j))+l}}_\\) = 0"
+    }
+  }
+}

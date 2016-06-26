@@ -1,0 +1,66 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "In the given data, there are a total of _{{j+k+l+n+o+l+o+l+n+l+j+l+k+l+l+j+k+n+o}}_ students surveyed.<br>Of that number, _{{j+k}}_ students have a birthday in November<br><br>We know that<br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore the Probability of the Event, P(E), of Rajiv having a birthday in November is : \\(\\frac{_{{j+k}}_}{_{{j+k+l+n+o+l+o+l+n+l+j+l+k+l+l+j+k+n+o}}_}\\) = \\(_{{Fraction((j+k),(j+k+l+n+o+l+o+l+n+l+j+l+k+l+l+j+k+n+o))}}_\\)"
+  }, 
+  "content": {
+    "text": "<div>Your friend Rajiv hands you the table below which is a report of data from all the students in his class. Based on the data, what is the probability that he was born in November? (Enter the answer as a simplified fraction)</div><table class='table table-condensed table-bordered'><tr><th>Birth Month</th><th>Number of Students</th></tr><tr><td>January</td><td>_{j}_</td></tr><tr><td>February</td><td>_{k}_</td></tr><tr><td>March</td><td>_{l}_</td></tr><tr><td>April</td><td>_{n}_</td></tr><tr><td>May</td><td>_{o}_</td></tr><tr><td>June</td><td>_{{l+o}}_</td></tr><tr><td>July</td><td>_{{l+n}}_</td></tr><tr><td>August</td><td>_{{l+j}}_</td></tr><tr><td>September</td><td>_{{l+k}}_</td></tr><tr><td>October</td><td>_{{l+l}}_</td></tr><tr><td>November</td><td>_{{j+k}}_</td></tr><tr><td>December</td><td>_{{n+o}}_</td></tr></table>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            7, 
+            16
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            6, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            4, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            5, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            6, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc( Decimal(j+k)/(j+k+l+n+o+l+o+l+n+l+j+l+k+l+l+j+k+n+o), 2 )}}_"
+  }, 
+  "type": 3
+}

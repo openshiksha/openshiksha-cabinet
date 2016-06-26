@@ -1,0 +1,47 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Base radius of each pillar, r\\(=_{k}_\\,m\\)</div><div>Height of each pillar, h\\(=_{l}_\\,m\\)</div><div>No. of pillars, n\\(=_{j}_\\)</div><div>Volume of each pillar\\(=\\pi r^2h\\)</div><div>\\(=\\pi \\times _{k}_^2 \\times _{l}_\\)</div><div>\\(=_{{trunc((pi_val*k**2*l),3)}}_\\,m^3\\)</div><div>Amount of concrete mixture required\\(=\\)Volume of each pillar \\(\\times\\) No. of pillars</div><div>\\(=_{{trunc((pi_val*k**2*l),3)}}_ \\times _{j}_\\)</div><div>\\(=_{{trunc((pi_val*k**2*l*j),3)}}_\\,m^3\\)</div>"
+  }, 
+  "content": {
+    "text": "In ancient roman empire, a king constructed \\(_{j}_\\) huge pillars at his residence. If each pillar had a base radius of \\(_{k}_\\)m and height \\(_{l}_\\)m, how much concrete mixture would be required?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            30, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc((pi_val*k**2*l*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^3\\)"
+}

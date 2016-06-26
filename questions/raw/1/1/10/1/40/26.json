@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let PR be the rope and PQ be the pole as shown in figure.</div><div>Also, PQ = height of pole = _{{4*i}}_ m</div><div>And, QR = base distance = _{{3*i}}_ m</div><div>From Pythagoras Theorem, we have : </div><div>\\( PQ^2 + QR^2 = PR^2\\)</div><div>\\( PR^2 = (_{{4*i}}_)^2 + (_{{3*i}}_)^2\\)</div><div>\\( PR^2 = _{{pow((4*i),2)}}_ + _{{pow((3*i),2)}}_\\)</div><div>\\( PR^2 = _{{pow((4*i),2)+pow((3*i),2)}}_\\)</div><div>\\( PR = \\sqrt {_{{pow((4*i),2)+pow((3*i),2)}}_}\\)</div><div>\\( PR =  _{{5*i}}_\\)</div>", 
+    "img": "26.png"
+  }, 
+  "content": {
+    "text": "<div>One end of a rope is tied at the top of a pole and other end at _{{3*i}}_ m away from the bottom of the pole on the ground to provide stability to the pole.If the height of the pole is _{{4*i}}_ m and it is making an angle of 90 degrees with the ground. Find the minimum length of the rope required.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{5*i}}_"
+  }, 
+  "type": 3
+}

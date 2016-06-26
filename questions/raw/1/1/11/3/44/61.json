@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Efficiency of a heat engine \\((\\eta) = \\frac {W}{Q_1} = \\frac {_{j}_ \\times 10^{_{k}_}}{_{l}_ \\times 10^{_{{k+1}}_}}\\)<br>\\(\\implies \\eta = _{{trunc(Decimal((j/l) / 10),3)}}_\\)"
+  }, 
+  "content": {
+    "text": "An engine produces \\(_{j}_ \\times 10^{_{k}_}\\) Joules of work per minute and services \\(_{l}_ \\times 10^{_{{k+1}}_}\\) Joules of heat per minute from its boiler. What is the efficiency of the engine? (Include up to 3 decimal places in your answer if necessary)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.001, 
+    "value": "_{{trunc(Decimal((j/l) / 10),3)}}_"
+  }, 
+  "type": 3
+}

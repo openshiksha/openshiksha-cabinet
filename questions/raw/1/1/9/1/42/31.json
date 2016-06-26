@@ -1,0 +1,48 @@
+{
+  "hint": {
+    "text": "Use Pythagoras theorem"
+  }, 
+  "solution": {
+    "text": "<div>Since triangle BCD is right angled triangle, thus using Pythagoras we have:</div><div>\\(CD^2 = BC^2 + BD^2\\)</div><div>\\(BD^2 = CD^2 - BC^2 = d^2 - c^2 = _{{5*j}}_^2 - _{{3*j}}_^2 = _{{4*j}}_^2 \\)</div><div>Thus, BD = _{{4*j}}_</div><div>Now we know that :</div><div>i.e, Area of DBC = \\({1\\over 2}\\times base\\times height\\)</div><div>i.e, Area of DBC = \\({1\\over 2}\\times _{{3*j}}_\\times _{{4*j}}_\\)</div><div>i.e, Area of DBC = \\(_{{6*j*j}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Given that a = _{i}_, b = _{{i-4*j}}_, c = _{{3*j}}_ and d = _{{5*j}}_</div><div>If \\(\\angle\\) DBC = \\(90^\\circ\\), Find the area of \\(\\triangle\\)DBC.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            34, 
+            39
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{6*j*j}}_"
+  }, 
+  "type": 3
+}

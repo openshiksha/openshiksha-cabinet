@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Volume of the earth from the digging = volume of the well</div><div>volume of the well\\(=\\pi \\times r^2 \\times h\\)</div><div>\\(\\Rightarrow \\frac {22}7 \\times _{{7*j}}_^2 \\times _{{24*j*24}}_\\)</div><div>Let the height of the platform be H</div><div>Volume of the platform \\(=\\pi \\times H \\times [outer\\, radius^2 - inner\\,radius^2]=\\pi \\times H \\times (R^2 - r^2)\\)</div><div>\\(\\Rightarrow \\frac {22}7 \\times H \\times (_{{25*j}}_^2-_{{7*j}}_^2)\\)</div><div>Now equating the volumes of platform and well we get</div><div>\\(\\Rightarrow \\frac {22}7 \\times _{{7*j}}_^2 \\times _{{24*j*24}}_=\\frac {22}7 \\times H \\times (_{{25*j}}_^2-_{{7*j}}_^2)\\)</div><div>\\(\\Rightarrow H\\)=\\(_{{7*j}}_^2\\times_{{24*j*24}}_ \\over _{{25*j}}_^2 - _{{7*j}}_^2\\)\\(\\Rightarrow \\)\\( _{{7*j}}_^2\\times_{{24*j*24}}_ \\over _{j}_^2(25^2 - 7^2)\\)\\(\\Rightarrow \\)\\( _{{7*j}}_^2\\times_{{24*j*24}}_ \\over _{j}_^2(24^2)\\)</div><div>\\(\\Rightarrow H = _{{49*j}}_cm\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A _{{24*j*24}}_ cm deep well with radius _{{7*j}}_ cm is dug</div><div>The earth from digging is evenly spread out to form a platform.</div><div>Outer radius of the platform is _{{25*j}}_cm and it's shape is shown in the figure.</div><div>Find the height of the platform.</div>", 
+    "img": "16.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 1, 
+    "value": "_{{49*j}}_"
+  }, 
+  "type": 3, 
+  "unit": "cm"
+}

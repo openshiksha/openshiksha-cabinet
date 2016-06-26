@@ -1,0 +1,22 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "If the water in which the tadpoles are growing does not contain sufficient iodine, the tadpoles cannot become adults."
+  }, 
+  "content": {
+    "text": "The tadpoles will grow into adults despite the deficiency of this product in water."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

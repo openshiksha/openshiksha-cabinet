@@ -1,0 +1,21 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> volume of metallic toy = Volume of the hemisphere + volume of the  cone</div><div>Now volume of the hemisphere\\(=\\frac 23 [\\pi \\times r^3]\\) radius of the cone=\\(_{j}_\\) </div><div>\\(\\Rightarrow \\frac 23 \\times \\frac {22}7 \\times _{j}_^3=_{{trunc(2*pi_val*j*j*j/3,2)}}_\\)</div><div>volume of the cone on top the hemisphere\\(=[ \\frac 13 \\times \\pi \\times r^2 \\times height]\\)</div><div>height of the cone = height of the toy - height of the hemisphere= _{k}_</div><div>volume of the cone\\(=[ \\frac 13 \\times \\frac {22}7 \\times _{j}_^2 \\times _{k}_]= _{{trunc(pi_val*j*j*k/3,2)}}_\\)</div><div> Now the volume of the toy\\(=_{{trunc(pi_val*j*j*k/3,2)}}_ + _{{trunc(2*pi_val*j*j*j/3,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*j*k/3+2*pi_val*j*j*j/3,2)}}_cm^3\\)</div><div>mass of the toy =  mass of 1 \\(cm^3\\) of  metal \\(\\times \\) volume of the toy </div><div>\\(\\Rightarrow _{l}_ \\times _{{trunc(pi_val*j*j*k/3+2*pi_val*j*j*j/3,2)}}_ = _{{trunc(l*(pi_val*j*j*k/3+2*pi_val*j*j*j/3),2)}}_g \\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A metallic toy is in the shape of a hemisphere surmounted by a right circular cone</div><div>If H is _{{j+k}}_cm and radius of the cone is _{j}_ cm then find the mass of the toy,</div><div>given that 1\\(cm^3\\) of the metal has approximately _{l}_g mass.</div>", 
+    "img": "10.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc(l*(pi_val*j*j*k/3+2*pi_val*j*j*j/3),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "grams"
+}

@@ -1,0 +1,78 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Here, the class size varies, and the xi's are large. Let us apply the direct method.</div><div>Then, </div><div>we obtain the data as in Table: </div><div>\\begin{array}{c|lcr}Expenditure & \\text{no.of students(fi)} & \\text{xi} & \\text{fixi} & \\text{cumulative frequency} \\\\\\hline 100-200 & _{i}_ & 150 & _{{i*150}}_ & _{i}_ \\\\ 200-300 & _{j}_ & 250 & _{{j*250}}_ & _{{j+i}}_ \\\\ 300-400 & _{k}_ & 350 & _{{k*350}}_ & _{{i+j+k}}_ \\\\ 400-500 & _{l}_ & 450 & _{{l*450}}_ & _{{i+j+k+l}}_ \\\\ 500-600 & _{m}_ & 550 & _{{m*550}}_ & _{{i+j+k+l+m}}_ \\\\ \\hline  Total & _{{i+j+k+l+m}}_ &  & _{{(i*150)+(j*250)+(k*350)+(l*450)+(m*550)}}_ \\\\\\hline\\end{array}</div><div>The sum of the values in the last column gives us \\sum fixi</div><div> So, </div><div>the mean x of the given data is given by;</div><div>  \\(\\bar x\\) = \\(\\Sigma fixi\\over \\Sigma fi\\) = \\(_{{(i*150)+(j*250)+(k*350)+(l*450)+(m*550)}}_\\over _{{i+j+k+l+m}}_\\) = _{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),5)}}_</div><div>Now calculating median:</div><div>n = _{{i+j+k+l+m}}_</div><div> So,</div><div> \\(n\\over 2\\) = \\(_{{i+j+k+l+m}}_\\over 2\\) = _{{(Decimal(i)+j+k+l+m)/2}}_</div><div>This observation lies in the class 300-400.</div><div> Then,</div><div>l (the lower limit) = 300,</div><div>cf (the cumulative frequency of the class preceding 300 - 400) = _{{i+j}}_,</div><div>f (the frequency of the median class 300 - 400) = _{k}_,</div><div>h (the class size) = 100.</div><div>Median = l +\\({{({n\\over 2} - cf})\\over {f}}\\)*h</div><div>Median =300 +\\({{({_{{i+j+k+l+m}}_\\over 2} - _{{i+j}}_})\\over _{k}_}\\)*100</div><div>Median = 300 +\\({({_{{(i+j+k+l+m)/2}}_ - _{{i+j}}_})\\over _{k}_}\\)*100</div><div>Median = 300 +\\({({_{{((i+j+k+l+m)/2)-(i+j)}}_})\\over _{k}_}\\)*100</div><div>Median = 300 +(_{{trunc((((Decimal(i)+j+k+l+m)/2)-(i+j))/k,5)}}_)*100</div><div>Median = 300 +_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)}}_</div><div>Median = _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300}}_</div><div>Now,</div><div>For mode, Applying following formula</div><div>3 Median = Mode + 2 Mean</div><div>\\(3\\times _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300}}_\\) = Mode + \\(2\\times _{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_\\)</div><div>_{{(trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3}}_ = Mode + _{{(trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3))*2}}_</div><div> Mode = _{{(trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3}}_-_{{(trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3))*2}}_</div><div> Mode = _{{((trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3)-((trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3))*2)}}_</div><div>Median = _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300}}_</div><div>Mean = _{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>The following distribution shows the daily expenditure of college students. Find the mean, median and mode of the given data.</div><div>\\begin{array}{c|lcr}Daily\\,Expenditure & \\text{100-200} & \\text{200-300} & \\text{300-400} & \\text{400-500} & \\text{500-600} \\\\No. of\\,students & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            18, 
+            22
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_ , _{{trunc(((((Decimal(i)+j+k+l+m+6)/2)-(i+j))/k)*100,3)+300}}_ , _{{((trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3)-((trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3))*2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((i*150)+(j*250)+(k*250)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_ , _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300}}_ , _{{((trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3)-((trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3))*2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_ , _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300}}_ , _{{((trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3)-((trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+2+m),3))*2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_ , _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300}}_ , _{{((trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*100,3)+300)*3)-((trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3))*2)}}_"
+    }
+  }
+}

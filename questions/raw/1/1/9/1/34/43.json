@@ -1,0 +1,14 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Total Number of people between the ages of 40 and 60 years: _{{m+k+l+m+j+k-2+m+j+k+n+k}}_<br>Total Number of people between the ages of 40 and 60 with two electronic devices : _{{m+j}}_<br><br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore, the probability of the given individual having two electronic devices:<br>\\( P(E) = \\frac{_{{m+j}}_}{_{{m+k+l+m+j+k-2+m+j+k+n+k}}_} = _{{Fraction((m+j),(m+k+l+m+j+k-2+m+j+k+n+k))}}_\\)"
+  }, 
+  "content": {
+    "text": "What is the probability that a person between 40 and 60 years old has two electronic devices? (Enter your answer as a simplified fraction)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{Decimal(m+j)/(m+k+l+m+j+k-2+m+j+k+n+k)}}_"
+  }, 
+  "type": 3
+}

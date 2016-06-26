@@ -1,0 +1,38 @@
+{
+  "content": {
+    "text": "Some viviparous animals are :"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "frog"
+      }, 
+      {
+        "text": "lizard"
+      }, 
+      {
+        "text": "crow"
+      }, 
+      {
+        "text": "hen"
+      }, 
+      {
+        "text": "butterfly"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "dog"
+      }, 
+      {
+        "text": "cat"
+      }, 
+      {
+        "text": "cow"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

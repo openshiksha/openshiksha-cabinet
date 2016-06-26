@@ -1,0 +1,59 @@
+{
+  "hint": {
+    "text": "Calculate volume of the two cylindrical items."
+  }, 
+  "solution": {
+    "text": "<div>Radius of cylindrical utensil, R\\(=_{{l*j}}_\\,cm\\)</div><div>Height of cylindrical utensil, H\\(=_{{m*k}}_\\,cm\\)</div><div>Radius of cylindrical jug, r\\(=_{j}_\\,cm\\)</div><div>Height of cylindrical jug, h\\(=_{k}_\\,cm\\)</div><div>Volume of cylindrical utentil\\(=\\pi R^2H\\)</div><div>\\(=\\pi \\times _{{l*j}}_^2 \\times _{{m*k}}_\\)</div><div>\\(=_{{trunc((pi_val*l*l*j*j*m*k),3)}}_\\,cm^3\\)</div><div>Volume of cylindrical jug\\(=\\pi r^2h\\)</div><div>\\(=\\pi \\times _{j}_^2 \\times _{k}_\\)</div><div>\\(=_{{trunc((pi_val*j*j*k),3)}}_\\,cm^3\\)</div><div>No. of jugs supplied\\(=\\frac{volume\\,of\\,cylindrical\\,utensil}{volume\\,of\\,cylindrical\\,jug}\\)</div><div>\\(=\\frac{_{{trunc((pi_val*l*l*j*j*m*k),3)}}_}{_{{trunc((pi_val*j*j*k),3)}}_}\\)</div><div>\\(=_{{l*l*m}}_\\)</div><div>Daily turnover\\(=\\)No. of jugs supplied \\(\\times\\) Price of each jug</div><div>\\(=_{{l*l*m}}_ \\times 50\\)</div><div>\\(=\\)Rs.\\(_{{l*l*m*50}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A local tea provider supplies evening tea to all the offices in his surrounding area. He cooks the tea in a cylindrical utensil of base radius \\(_{{l*j}}_\\)cm and height \\(_{{m*k}}_\\)cm. The tea is then filled in smaller cylindrical jugs of radius \\(_{j}_\\) cm and height \\(_{k}_\\)cm for distribution. What is the providers daily turnover if he sells the tea at Rs. \\(50\\) per jug."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            15, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{l*l*m*50}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

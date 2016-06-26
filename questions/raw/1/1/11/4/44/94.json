@@ -1,0 +1,38 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "The positive enthalpy change in the first reaction indicates that heat is absorbed during the process and that product C is at a higher energy state than the reactants. Similarly, the negative enthalpy change in the second reaction indicates that heat is evolved during the process and that D is more stable than C."
+  }, 
+  "content": {
+    "text": "Consider the following equations:<br>\\(A + B \\rightarrow C \\qquad \\Delta_r H^\\circleddash = _{j}_ \\frac {kJ}{mol} \\)<br>\\(C + A \\rightarrow D \\qquad \\Delta_r H^\\circleddash = - _{k}_ \\frac {kJ}{mol} \\)<br>Based on the information given above, which of the following statements are true?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Heat is evolved during the formation of C"
+      }, 
+      {
+        "text": "Heat is absorbed during the formation of D"
+      }, 
+      {
+        "text": "C is thermodynamically more stable than D"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Heat is evolved during the formation of D"
+      }, 
+      {
+        "text": "D is thermodynamically more stable than C"
+      }, 
+      {
+        "text": "Heat is absorbed during the formation of C"
+      }
+    ]
+  }
+}

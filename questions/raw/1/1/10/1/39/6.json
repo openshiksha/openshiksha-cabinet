@@ -1,0 +1,50 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given points are : P=(_{i}_,_{j}_), Q=(_{k}_,_{l}_) and R(x , y).</div><div>It is given that these points forms a equilateral triangle.</div><div> Thus distance between all three points should be equal.</div><div>Therefore, </div><div>Equating distance PR and QR.</div><div>i.e., PR = QR</div><div>So, \\(PR^2 = QR^2\\)</div><div>i.e.,\\((_{i}_-x)^2 + (_{j}_-y)^2\\) = \\((_{k}_-x)^2 + (_{l}_-y)^2\\)</div><div>i.e.,\\((_{i}_^2+x^2-_{{2*i}}_x)+(_{j}_^2+y^2-_{{2*j}}_y)\\)=\\((_{k}_^2+x^2-_{{2*k}}_x)+(_{l}_^2+y^2-_{{2*l}}_y)\\)</div><div>\\(_{{pow(i,2)}}_+x^2-_{{2*i}}_x+_{{pow(j,2)}}_+y^2-_{{2*j}}_y = _{{pow(k,2)}}_+x^2-_{{2*k}}_x+_{{pow(j,2)}}_+y^2-_{{2*l}}_y\\)</div><div>_{{pow(i,2)}}_ + _{{pow(j,2)}}_ - _{{pow(k,2)}}_ - _{{pow(l,2)}}_ = _{{2*i}}_x + _{{2*j}}_y - _{{2*k}}_x - _{{2*l}}_y</div><div>_{{pow(i,2)+pow(j,2)-pow(k,2)-pow(l,2)}}_ = _{{2*i-k*2}}_x + _{{2*j-2*l}}_y </div><div>_{{2*i-k*2}}_x + _{{2*j-2*l}}_y = _{{pow(i,2)+pow(j,2)-pow(k,2)-pow(l,2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the linear relation between x and y such that the points (x , y), (_{i}_,_{j}_) and (_{k}_,_{l}_) forms a equilateral triangle.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            22, 
+            33
+          ]
+        ]
+      }
+    }, 
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            22, 
+            34
+          ]
+        ]
+      }
+    }, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*i-k*2}}_x + _{{2*j-3*l}}_y = _{{pow(i,2)+pow(j,2)-pow(k,2)-pow(l,2)}}_"
+      }, 
+      {
+        "text": "_{{3*i-k*2}}_x + _{{2*j-2*l}}_y = _{{pow(i,2)+pow(j,2)-pow(k,2)-pow(l,2)}}_"
+      }, 
+      {
+        "text": "_{{2*i-k*2}}_x + _{{2*j-2*l}}_y = _{{pow(i,2)+31+pow(j,2)-pow(k,2)-pow(l,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{2*i-k*2}}_x + _{{2*j-2*l}}_y = _{{pow(i,2)+pow(j,2)-pow(k,2)-pow(l,2)}}_"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> volume of air inside the model = Volume of the cylinder + volume of the  cones</div><div>Now volume of the cylinder\\(=[\\pi \\times r^2\\times l]\\) radius of the cylinder=\\(_{k}_\\) and l=_{j}_</div><div>\\(\\Rightarrow \\frac {22}7 \\times _{k}_^2 \\times _{j}_=_{{trunc(pi_val*k*k*j,2)}}_\\)</div><div>volume of the cones on the sides the cylinders\\(=2\\times [ \\frac 13 \\times \\pi \\times r^2 \\times height]\\)</div><div>height of the cylinders = height of the cone= _{j}_</div><div>volume of the cones\\(= 2\\times [ \\frac 13 \\times \\frac {22}7 \\times _{k}_^2 \\times _{j}_]= _{{trunc(2*pi_val*k*k*j/3,2)}}_\\)</div><div> Now the volume of air inside the model\\(=_{{trunc(pi_val*k*k*j,2)}}_ + _{{trunc(2*pi_val*k*k*j/3,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*k*k*j+2*pi_val*k*k*j/3,2)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A science model was shaped like a cylinder with two similar cones attached at its two ends.</div><div>If the height of the cylinder and one of the cone is equal to _{j}_ cm and radius of the cylinder is _{k}_cm, find the volume of air inside this model.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc(pi_val*k*k*j+2*pi_val*k*k*j/3,2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

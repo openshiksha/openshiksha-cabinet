@@ -1,0 +1,58 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given that : </div><div>No. of students applied from III-Year = _{i}_</div><div>No. of students applied from II-Year = _{j}_</div><div>No. of students applied from I-Year = _{k}_</div><div>Total No. of the student applied = _{i}_+_{j}_+_{k}_</div><div>Total No. of the student applied = _{{i+j+k}}_</div><div>Now,</div><div>Possibilities that a III-Year's name will be chosen E(III) = 3\\(\\times\\)_{i}_ </div><div>i.e., E(III) = _{{3*i}}_</div><div>Similarly, </div><div> E(II) = _{{2*j}}_</div><div> E(I) = _{{1*k}}_</div><div>So, total possibilities: </div><div>i.e., E(T) =  E(II)+E(II)+E(I)</div><div>i.e., E(T) =  _{{3*i}}_+_{{2*j}}_+_{{1*k}}_</div><div>i.e., E(T) =  _{{(3*i)+(2*j)+(1*k)}}_</div><div>hence,</div><div>Possibilities that a III-Year's name will be chosen</div><div>P(III) = \\(E(III)\\over E(T)\\)</div><div>P(III) = \\(_{{3*i}}_\\over _{{(3*i)+(2*j)+(1*k)}}_\\)</div><div>P(III) = _{{trunc((3*i)/((3*i)+(2*Decimal(j))+(1*k)),5)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A special lottery is to be held to select a student who will live in the only deluxe room in a hostel. There are _{i}_ III-Year, _{j}_ II-Year and _{k}_ I-Year students who applied.</div><div>Each III-Year's name is placed in the lottery 3 times; each II-Year's name, 2 times and I-Year's name, 1 time. What is the probability that a III-Year's name will be chosen?</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            70, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            40, 
+            70
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc((3*i)/((3*i)+(2*Decimal(j))+(2*k)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((3*i)/((3*i)+(1*Decimal(j))+(1*k)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((3*i)/((2*i)+(3*Decimal(j))+(2*k)),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc((3*i)/((3*i)+(2*Decimal(j))+(1*k)),3)}}_"
+    }
+  }
+}

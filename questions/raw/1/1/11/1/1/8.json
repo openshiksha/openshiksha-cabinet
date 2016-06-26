@@ -1,0 +1,53 @@
+{
+  "hint": {
+    "text": "<div>Use \\(n^{th}\\) term equation of A.P. is</div><div>\\(a_n=a+(n-1)d\\) </div><div>to find the a and d from given terms and then use them to find \\(n^{th}\\) term</div>"
+  }, 
+  "solution": {
+    "text": "<div>a=_{p}_</div><div> \\(n^{th}\\) term of an A.P. is</div><div>\\(a_n=a+(n-1)d\\) </div><div>\\(a_2=a+(2-1)d=_{{p+q}}_\\)</div><div>\\(a+d=_{{p+q}}_\\)</div><div>\\(d=_{{p+q}}_-a=_{{p+q}}_-_{p}_=_{q}_\\)</div><div>i.e. \\(a=_{p}_\\) and \\(d=_{q}_\\) , using them in nth term equation</div><div>\\(a_n=_{p}_+(n-1)_{q}_\\) </div><div>therefore</div><div>\\(a_ {_{s}_}=_{p}_+(_{s}_-1)_{q}_\\) </div><div>\\(a_ {_{s}_}=_{p}_+(_{{s-1}}_)_{q}_\\) </div><div>\\(a_ {_{s}_}=_{{p+((s-1)*q)}}_\\) </div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>  Find the sum of the \\(_{s}_^{th}\\) term the A.P. \\(_{p}_  ,  _{{p+q}}_   ,  _{{p+2*q}}_  , \\ldots \\) </div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -15, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            2, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "s": {
+      "range": {
+        "include": [
+          [
+            5, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{p+((s-1)*q)}}_"
+  }, 
+  "type": 3
+}

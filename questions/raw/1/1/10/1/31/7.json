@@ -1,0 +1,16 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>side opposite to angle(p)=_{{12*j}}_cm=perpendicular</div><div>tanP=\\(perpendicular\\over base\\)</div><div>Angle(P)=30 degree, tan(30)=\\(1\\over \\sqrt3\\)</div><div>therefore, base=\\(_{{12*j}}_\\sqrt3\\)</div><div>sin(p)=\\(perpendicular\\over hypotenuse\\)</div><div>sin(30)=\\(\\frac 12\\)=\\(_{{12*j}}_\\over hypotenuse\\)</div><div>hence the longest side, hypotenuse=\\(_{{12*j*2}}_cm\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In a triangle PQR right-angled at Q, it is given that the side opposite to the angle(P)=30 is _{{12*j}}_cm.</div><div>Find the longest side of the triangle.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{12*j*2}}_"
+  }, 
+  "type": 3
+}

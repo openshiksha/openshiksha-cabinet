@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Cost to paint CSA of the cylinder\\(=\\)Rs.\\(_{{trunc((2*pi_val*k*j*l),2)}}_\\)</div><div>Rate of painting\\(=\\)Rs.\\(_{l}_\\) per sq.m.</div><div>Length of cylinder, h\\(=_{j}_\\,m\\)</div><div>Now,</div><div>Cost to paint CSA=CSA \\(\\times\\) Rate</div><div>\\(\\Rightarrow _{{trunc((2*pi_val*k*j*l),2)}}_=\\)CSA \\(\\times _{l}_\\)</div><div>\\(\\Rightarrow\\) CSA \\(=_{{trunc((2*pi_val*k*j),3)}}_\\,m^2\\)</div><div>We know, CSA\\(=2\\pi rh\\)</div><div>\\(\\Rightarrow _{{trunc((2*pi_val*k*j),3)}}_=2 \\times \\pi r \\times _{j}_\\)</div><div>\\(\\Rightarrow r = \\frac{_{{trunc((2*pi_val*k*j),3)}}_}{2 \\times \\pi \\times _{j}_}\\)</div><div>\\(\\Rightarrow r = _{k}_\\,m\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>It costs Rs.\\(_{{trunc((2*pi_val*k*j*l),2)}}_\\) to paint the curved surface area of a cylindrical object of length \\(_{j}_\\,m\\) at a rate of Rs.\\(_{l}_\\) per sq.m. Find:</div><div>The radius of the base.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{k}_"
+  }, 
+  "type": 3, 
+  "unit": "m"
+}

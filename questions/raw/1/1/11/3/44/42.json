@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Initial volume of the system (inside the cylinder) = \\(V_1\\)<br>Final volume of the system = \\(V_2\\)<br>Initial pressure of the system = \\(P_1\\)<br>Final pressure of the system = \\(P_2\\)<br>Ratio of specific heats \\((\\gamma)\\) = 1.66<br><br>Since the process is adiabatic:<br>\\(P_1 V_1^{\\gamma} =  P_2 V_2^{\\gamma}\\)<br>Final volume is reduced by a factor of _{j}_. Therefore:<br>\\(V_2 = \\frac {V_1}{_{j}_}\\)<br><br>\\(\\implies P_1 V_1^{\\gamma} =  P_2 (\\frac {V_1}{_{j}_})^{\\gamma}\\)\\(\\implies \\frac {P_2}{P_1} = \\frac {V_1^{\\gamma}}{(\\frac {V_1}{_{j}_})^{\\gamma}} = (_{j}_)^{\\gamma} = (_{j}_)^{1.66} = _{{trunc(Decimal(j**1.66),2)}}_\\)<br><br>Hence, the pressure increases by a factor of _{{trunc(Decimal(j**1.66),2)}}_."
+  }, 
+  "content": {
+    "text": "A cylinder with a movable piston contains _{k}_ moles of helium at standard temperature and pressure. The walls of the cylinder and the piston can be treated as adiabatic. By what factor does the pressure of the gas increase if the gas is compressed by a factor of _{j}_? (Note that the ratio of specific heats for helium \\((\\gamma)\\) = 1.66)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(Decimal(j**1.66),2)}}_"
+  }, 
+  "type": 3
+}

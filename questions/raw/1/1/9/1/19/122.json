@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(_{j}_\\sqrt{_{k}_} \\times _{l}_\\sqrt{_{k}_}\\)</div><div>\\(=_{j}_ \\times _{l}_ \\times \\sqrt{_{k}_} \\times \\sqrt{_{k}_}\\)</div><div>\\(=_{{j*l}}_ \\times _{k}_\\)</div><div>\\(=_{{j*k*l}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Multiply \\(_{j}_\\sqrt{_{k}_}\\) by \\(_{l}_\\sqrt{_{k}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{j*k*l}}_"
+  }, 
+  "type": 3
+}

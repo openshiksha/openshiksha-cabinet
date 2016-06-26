@@ -1,0 +1,29 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Since all angles are always \\(60^{\\circ}\\) in similar triangles hence they are always similar</div><div>In rectangle all angles are equal but ratios of sides may not be equal.</div><div>Two congruent figures are always similar but two similar figures may or may not be congruent.</div>"
+  }, 
+  "content": {
+    "text": "<div>Which of the following statements are true.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "All similar figures are congruent."
+      }, 
+      {
+        "text": "All rectangles are similar."
+      }
+    ], 
+    "correct": [
+      {
+        "text": "All congruent figures are similar."
+      }, 
+      {
+        "text": "All equilateral triangles are similar."
+      }
+    ]
+  }
+}

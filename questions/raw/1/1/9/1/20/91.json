@@ -1,0 +1,40 @@
+{
+  "hint": {
+    "text": "Find slant height using pythagoras theorem."
+  }, 
+  "solution": {
+    "text": "<div>Height of cone,h \\(=_{j}_\\)cm</div><div>Diameter of cone,d \\(=_{k}_\\)cm\\(\\Rightarrow\\)Radius,r\\(=_{{k/Decimal(2)}}_\\)cm</div><div>Slant height,l\\(=\\sqrt{h^2+r^2}=\\sqrt{_{j}_^2+_{{k/Decimal(2)}}_^2}=_{{trunc(((j**2+(k/Decimal(2))**2)**Decimal(0.5)),3)}}_\\)cm</div><div>Curved surface area\\(=\\pi rl\\)</div><div>\\(=\\pi \\times _{{k/Decimal(2)}}_ \\times _{{trunc(((j**2+(k/Decimal(2))**2)**Decimal(0.5)),3)}}_\\)</div><div>\\(=_{{trunc((pi_val*(k/Decimal(2))*(j**2+(k/Decimal(2))**2)**Decimal(0.5)),3)}}_\\,cm^2\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>The height of a cone is \\(_{j}_\\)cm and its diameter is \\(_{k}_\\)cm. Find:</div><div>The curved surface area of the cone.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.5, 
+    "value": "_{{trunc((pi_val*(k/Decimal(2))*(j**2+(k/Decimal(2))**2)**Decimal(0.5)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

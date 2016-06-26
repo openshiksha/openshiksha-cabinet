@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We can say the TSA of a Capsule= CSA of cylinder + CSA of the two hemispheres</div><div>CSA of a hemisphere is given by \\(2 \\times \\pi \\times r^2\\)</div><div>we have diameter of the hemisphere=_{{k*2}}_=2r\\(\\Rightarrow \\) r=_{k}_</div><div>therefore area of a hemisphere=\\(2 \\times \\pi \\times _{k}_^2=_{{trunc(2*pi_val*k*k,2)}}_\\)</div><div>Now area of a cylinder=\\(2\\times \\pi \\times r \\times h\\)</div><div>height of the cylinder(h)=\\(total\\, height\\, -\\,2r=_{j}_\\)</div><div>Therefore area of the cylinder=\\(2\\times \\pi \\times _{k}_ \\times _{j}_\\)</div><div>\\(\\Rightarrow _{{trunc(2*pi_val*k*j,2)}}_\\)</div><div>TSA of a Capsule= CSA of cylinder + CSA of the two hemispheres=\\(_{{trunc(2*pi_val*k*j,2)}}_+ 2 \\times [_{{trunc(2*pi_val*k*k,2)}}_]\\)</div><div>\\(\\Rightarrow _{{trunc(2*pi_val*k*j+4*pi_val*k*k,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the surface area of a medicine capsule if it's total height is _{{j+k+k}}_cm and diameter is _{{2*k}}_cm</div><div>Shape of the capsule is given in the figure</div>", 
+    "img": "1.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 1, 
+    "value": "_{{trunc(2*pi_val*k*j+4*pi_val*k*k,2)}}_"
+  }, 
+  "type": 3
+}

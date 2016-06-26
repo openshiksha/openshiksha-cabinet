@@ -1,0 +1,22 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>The decimal expansion of \\(\\pi\\) is non-terminating non-recurring.</div><div>\\(\\pi=3.141592653589793238....\\)</div><div>Thus, \\(\\pi\\) is an irrational number.</div><div>Remember that we take \\(\\frac{22}7\\) as an approximate value for \\(\\pi\\), but \\(\\pi \\neq \\frac{22}7\\).</div>"
+  }, 
+  "content": {
+    "text": "\\(\\pi\\) is a rational number."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

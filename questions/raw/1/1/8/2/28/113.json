@@ -1,0 +1,29 @@
+{
+  "content": {
+    "text": "Each character in the Braille systems represents :"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "A group of words"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "A letter"
+      }, 
+      {
+        "text": "A combination of letters"
+      }, 
+      {
+        "text": "A common word"
+      }, 
+      {
+        "text": "A grammatical sign"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

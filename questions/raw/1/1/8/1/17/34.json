@@ -1,0 +1,24 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The square of an odd number is always odd.</div><div>For example : \\(13^2=169\\)</div>"
+  }, 
+  "content": {
+    "text": "The square of an odd number is:"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Even"
+      }, 
+      {
+        "text": "Odd or Even"
+      }
+    ], 
+    "correct": {
+      "text": "Odd"
+    }
+  }
+}

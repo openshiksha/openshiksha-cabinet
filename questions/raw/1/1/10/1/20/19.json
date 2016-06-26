@@ -1,0 +1,32 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Volume of a frustum of a cone is \\(\\frac {\\pi}3 \\times H \\times [r^2 + R^2 + rR] \\)</div><div>putting the values, H=_{k}_,r=_{{3*j}}_,R=_{{5*j}}_</div><div>we get,\\(\\frac {22}{7\\times 3} \\times _{k}_ \\times [_{{3*j}}_^2 + _{{5*j}}_^2 + _{{15*j*j}}_] \\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*k*(9*j*j+25*j*j+15*j*j)/3,2)}}_\\)</div><div>Mass of the oil= volume\\(\\times \\) density = _{{trunc(pi_val*k*(9*j*j+25*j*j+15*j*j)/3,2)}}_\\(\\times \\)_{l}_</div><div>\\(\\Rightarrow _{{trunc(pi_val*k*l*(9*j*j+25*j*j+15*j*j)/3,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Oil is heated in the vessel shown in the figure.</div><div>It is in the shape of a frustum of a cone having the radius of its two circular faces as _{{j*3}}_ cm and _{{5*j}}_ cm and the vertical height of the container is _{k}_ cm</div><div>If the density of oil is _{l}_ \\(g/cm^3\\), find the mass of the oil in the container</div>", 
+    "img": "19.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*k*(9*j*j+25*j*j+15*j*j)/3,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*l*(9*j*j+25*j*j+15*j*j)/3,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*k*l*(9*j*j+25*j*j+15*j*j),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*k*l*(9*j*j+25*j*j+15*j*j)/3,2)}}_"
+    }
+  }
+}

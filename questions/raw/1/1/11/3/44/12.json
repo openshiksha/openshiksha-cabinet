@@ -1,0 +1,35 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "The value of a state variable depends only on the particular state, not on the path used toarrive at that state. Based on that definition, we can characterize the following:<ul><li>State variables : Pressure, Volume, Temperature, Internal Energy</li><li>Not state variables : Heat, Work, </li></ul>"
+  }, 
+  "content": {
+    "text": "Which of the following are following are thermodynamic state variables?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Heat (Q)"
+      }, 
+      {
+        "text": "Work (W)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Pressure (P)"
+      }, 
+      {
+        "text": "Volume (V)"
+      }, 
+      {
+        "text": "Temperature (T)"
+      }, 
+      {
+        "text": "Internal Energy (U)"
+      }
+    ]
+  }
+}

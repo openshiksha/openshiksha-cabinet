@@ -1,0 +1,76 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{j}_(_{n}_-x)+_{  k}_(x+_{m}_)}{1+_{l}_x}=_{o}_\\)</div><div>\\(\\Rightarrow _{j}_(_{n}_-x)+_{  k}_(x+_{m}_)=_{o}_(1+_{l}_x)\\)</div><div>\\(\\Rightarrow _{{j*n}}_-_{j}_x+_{k}_x+_{{k*m}}_=_{o}_+_{{o*l}}_x\\)</div><div>\\(\\Rightarrow _{{j*n+k*m-o}}_=_{{o*l+j-k}}_x\\)</div><div>\\(\\Rightarrow x = \\frac{_{{j*n+k*m-o}}_}{_{{o*l+j-k}}_}\\)</div><div>\\(\\Rightarrow x=_{{Fraction(j*n+k*m-o,o*l+j-k)}}_\\)</div><div>\\(=_{{trunc(((Decimal(j)*n+k*m-o)/(o*l+j-k)),3)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the value of \\(x\\).</div><div>\\(\\frac{_{j}_(_{n}_-x)+_{  k}_(x+_{m}_)}{1+_{l}_x}=_{o}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            3, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            3, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            3, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((Decimal(j)*n+k*m-o)/(o*l+j-k)),3)}}_"
+  }, 
+  "type": 3
+}

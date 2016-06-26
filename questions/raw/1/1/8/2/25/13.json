@@ -1,0 +1,19 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>When two forces act in the same direction on an object, the net force is equivalent to the sum of the two forces.</div><div>Net force \\(=_{j}_+_{k}_\\)</div><div>\\(\\Rightarrow\\)Net force\\(=_{{j+k}}_N\\)</div>", 
+    "img": "13.png"
+  }, 
+  "content": {
+    "text": "If two forces, \\(_{j}_N\\) and \\(_{k}_N\\), act in the same direction on an object, the net force acting on the object is?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j+k}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(N\\)"
+}

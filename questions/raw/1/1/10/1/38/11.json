@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>By definition of a rational number , we know that any number</div><div>that can be represented in the form of \\(\\frac pq\\) is called a rational number , where q is not equal to zero</div><div>If we take _{{trunc(Decimal(10)/3,6)}}_, it is a number that has the digits at the decimal place repeating after constant interval</div><div>this can be written in the form of \\(\\frac pq\\) as \\(\\frac {10}3\\)</div><div>Also if we take 2.125 it can be written in the form of \\(\\frac pq \\) as \\(\\frac {17}8\\), that is a rational number</div><div>so we can say all the numbers whose decimal digits terminates after a finite number is a rational number</div><div>By definition of a rational number \\(\\frac 24\\) also represents a rational number</div> <div>although to represent this number on number line we take it's equivalent rational number \\(\\frac 12\\) </div>"
+  }, 
+  "content": {
+    "text": "<div>Which of the following statements regarding rational number are correct:</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "digits at decimal places of a rational number is non repeating and non terminating"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Rational numbers terminates after constant number of decimal places"
+      }, 
+      {
+        "text": "If in a number, digits at the decimal places repeats after regular interval, the number is a rational number."
+      }, 
+      {
+        "text": "\\(\\frac pq\\) represents a rational number even if p and q have a common factor"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given that \\(_{k}_cos_{j}_\\over sin_{{90-j}}_\\) </div><div>now write : cos_{j}_ as cos(90-_{{90-j}}_)</div><div>which gives : </div><div>\\(_{k}_cos(90-_{{90-j}}_)\\over sin(_{{90-j}}_)\\)</div><div>We know cos(90-\\(\\theta \\))=sin\\(\\theta \\)</div><div>therefore, \\(_{k}_sin(_{{90-j}}_)\\over sin(_{{90-j}}_)\\)</div><div> which is equal to _{k}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Evaluate:</div><div>\\(_{k}_cos_{j}_\\over sin(_{{90-j}}_)\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            6, 
+            82
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{k}_"
+  }, 
+  "type": 3
+}

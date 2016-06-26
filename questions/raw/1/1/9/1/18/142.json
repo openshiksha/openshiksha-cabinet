@@ -1,0 +1,65 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{{j**2}}_}{_{{k**2}}_}x^2 - \\frac{_{{l**2}}_}{_{{m**2}}_}y^2\\)</div><div>\\(=(\\frac{_{j}_}{_{k}_}x)^2-(\\frac{_{l}_}{_{m}_}y)^2\\)</div><div>Comparing the given expression with \\(a^2-b^2,\\,\\)we observe that \\(a=(\\frac{_{j}_}{_{k}_}x),\\,b=(\\frac{_{l}_}{_{m}_}y)\\).</div><div>Using identity, \\((\\frac{_{j}_}{_{k}_}x)^2-(\\frac{_{l}_}{_{m}_}y)^2 = (\\frac{_{j}_}{_{k}_}x+\\frac{_{l}_}{_{m}_}y)(\\frac{_{j}_}{_{k}_}x-\\frac{_{l}_}{_{m}_}y)\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{{j**2}}_}{_{{k**2}}_}x^2 - \\frac{_{{l**2}}_}{_{{m**2}}_}y^2\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            11, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((\\frac{_{j}_}{_{k}_}x+\\frac{_{l}_}{_{m}_}y)(\\frac{_{j}_}{_{k}_}x+\\frac{_{l}_}{_{m}_}y)\\)"
+      }, 
+      {
+        "text": "\\((\\frac{_{j}_}{_{k}_}x-\\frac{_{l}_}{_{m}_}y)(\\frac{_{j}_}{_{k}_}x-\\frac{_{l}_}{_{m}_}y)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((\\frac{_{j}_}{_{k}_}x+\\frac{_{l}_}{_{m}_}y)(\\frac{_{j}_}{_{k}_}x-\\frac{_{l}_}{_{m}_}y)\\)"
+    }
+  }
+}

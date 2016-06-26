@@ -1,0 +1,48 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Given that : </div><div>Numbers of Red balls = _{i}_</div><div>Let R be the event 'drawing a red ball'</div><div>So, P(R) is the probability of drawing red ball</div><div>and</div><div>Let B be the event 'drawing a blue ball'</div><div>So, P(B) is the probability of drawing blue ball</div><div>Now, </div><div>According to the question, we know :</div><div>i.e., P(R) = _{j}_P(B)------eq.(1)</div><div>Also, we know that the sum of the probability of all cases is equal to one</div><div>i.e.,  P(R) + P(B) = 1-----eq.(2)</div><div>Solving eq.(1) and eq(2)</div><div>i.e., _{j}_P(B) + P(B) = 1</div><div>take P(B) common,</div><div>i.e., P(B)(_{j}_+1) = 1</div><div>i.e., P(B)_{{j+1}}_ = 1</div><div>i.e., P(B) = \\(1\\over _{{j+1}}_\\)</div><div>i.e., P(B) = _{{trunc(1/(Decimal(j)+1),5)}}_ ---- eq.(3)</div><div>Now, </div><div>Let assume there are x number of blue balls in the bag</div><div>Then, the probability of drawing blue ball is: </div><div> P(B) = \\(x\\over x+_{i}_\\) ------eq.(4)</div><div>Equating values of P(B) from eq.(3) & eq.(4)</div><div>we get : \\(x\\over x+_{i}_\\) = _{{trunc(1/(Decimal(j)+1),5)}}_</div><div>Solving above equation :</div><div> x = \\(_{{trunc(1/(Decimal(j)+1),5)}}_*_{i}_\\over (1-_{{trunc(1/(Decimal(j)+1),5)}}_)\\)</div><div> x = _{{trunc(((1/(Decimal(j)+1))*i)/(1-(1/(Decimal(j)+1))),5)}}_ </div>"
+  }, 
+  "content": {
+    "text": "<div>A bag contains _{i}_ red ball and some blue balls.It is given that probability of drawing red ball is _{j}_ times that of a blue ball.Find the number of blue balls</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((1/(Decimal(j)+1))*i)/(1-(1/(Decimal(j)+2))),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((1/(Decimal(j)+2))*i)/(1-(1/(Decimal(j)+1))),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((2/(Decimal(j)+1))*i)/(1-(1/(Decimal(j)-1))),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((1/(Decimal(j)+1))*i)/(1-(1/(Decimal(j)+1))),2)}}_"
+    }
+  }
+}

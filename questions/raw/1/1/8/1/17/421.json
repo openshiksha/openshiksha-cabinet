@@ -1,0 +1,38 @@
+{
+  "solution": {
+    "text": "<div>B is 4 units to the LEFT of zero. Hence, \\(B = -4 \\times \\frac C5 = -4 \\times _{j}_ = _{{-(4*j)}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "On the number line shown above, C = _{{5*j}}_. What will be the value of B ?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "-_{{5*j}}_"
+      }, 
+      {
+        "text": "-_{{(5*j)-1}}_"
+      }, 
+      {
+        "text": "-_{{(4*j)+1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "-_{{(4*j)}}_"
+    }
+  }
+}

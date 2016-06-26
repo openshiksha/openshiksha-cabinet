@@ -1,0 +1,39 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Radius of the circle with diameter=D, \\(R=\\frac D2=_{{j*12}}_\\)</div><div>Similarly Radius of the circle with diameter d=\\(r=\\frac d2=_{{j*5}}_\\)</div><div>Area of the shaded region=\\(\\pi*r^2+\\pi*R^2\\)</div><div>Now let us say the radius of the new circle with area equal to the shaded region be R</div><div>so,\\(\\pi*R'^2=\\pi(R^2+r^2)\\)</div><div>\\(\\Rightarrow R'^2=(R^2+r^2)\\)</div><div>\\(R'=\\sqrt {_{{j*12}}_^2+_{{j*5}}_^2}\\)</div><div>\\(R'=_{{j*13}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the radius of the circle whose area is equal to area of the shaded region in the given figure.</div><div>(D=_{{2*j*12}}_ and d=_{{2*j*5}}_)</div>", 
+    "img": "2.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j*14}}_"
+      }, 
+      {
+        "text": "_{{j*15}}_"
+      }, 
+      {
+        "text": "_{{j*16}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{j*13}}_"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>This sequence is not a G.P. However, it can be changed to G.P. by writingthe terms as </div><div>\\(S_n= _{q}_+_{q}__{q}_+_{q}__{q}__{q}_+...\\)</div><div>\\(S_n=\\frac{_{q}_}{9}[9+99+999+9999+...]\\)</div><div>\\(S_n=\\frac{_{q}_}{9}[(10-1)+(10^2-1)+(10^3-1)+....(10^n-1)]\\)</div><div>\\(S_n=\\frac{_{q}_}{9}[(10+10^2+10^3+...+10^n-1)-(1+1+1+...+1)]\\)</div><div>\\(S_n=\\frac{_{q}_}{9}[\\frac{10(10^n-1)}{10-1}-n]\\)</div><div>\\(S_n=\\frac{_{q}_}{9}[\\frac{10(10^n-1)}{9}-n]\\)</div><div>\\(S_n=\\frac{_{{q*10}}_}{81}(10^n-1)-\\frac{_{q}_}{9}n]\\)</div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "<div>Find the sum to n terms of the sequence _{q}_ , _{q}__{q}_ , _{q}__{q}__{q}_ , _{q}__{q}__{q}__{q}_ ?</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            1, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(S_n=\\frac{_{{q}}_}{9}(10^n-1)-\\frac{_{q}_}{9}n]\\)"
+      }, 
+      {
+        "text": "\\(S_n=\\frac{_{{q*10}}_}{81}(10^n-1)-\\frac{_{q}_}{9}]\\)"
+      }, 
+      {
+        "text": "\\(S_n=\\frac{_{{q*10}}_}{81}(10^n-1)+\\frac{_{q}_}{9}n]\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(S_n=\\frac{_{{q*10}}_}{81}(10^n-1)-\\frac{_{q}_}{9}n]\\)"
+    }
+  }
+}

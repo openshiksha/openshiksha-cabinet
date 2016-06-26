@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>It can be imagined that 'second' hand of a clock sweeps a circle in 60 seconds</div><div>\\(\\Rightarrow 60sec=360^\\circ \\Rightarrow angle\\, swept\\, in\\, 1\\, sec=\\frac {360}{60}\\)</div><div>angle swept in \\(_{j}_sec=_{j}_\\times \\frac {360}{60}=_{{6*j}}_^\\circ\\)</div><div>radius= hand length = _{k}_cm</div> <div>\\(\\Rightarrow r=_{k}_\\)</div><div>\\(Now\\,area \\,of\\,a \\,sector=\\pi \\times r^2 \\times \\frac {\\theta}{360}\\)</div><div>sector area\\(=\\frac {22}7\\times _{k}_^2 \\times \\frac {_{{6*j}}_}{360}\\)</div><div>\\(\\Rightarrow area=_{{trunc(pi_val*k*k*6*j/360,2)}}_cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the area swept by the 'second' hand of a clock in _{j}_seconds.</div><div>Length of the 'second' hand of the clock is _{k}_cm</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            60
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(pi_val*k*k*2*j/360,2)}}_cm^2\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(pi_val*k*k*3*j/360,2)}}_cm^2\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(pi_val*k*k*8*j/360,2)}}_cm^2\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(pi_val*k*k*6*j/360,2)}}_cm^2\\)"
+    }
+  }
+}

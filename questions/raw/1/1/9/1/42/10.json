@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "<div>Opposite sides of a parallelogram are equal.</div>"
+  }, 
+  "solution": {
+    "text": "<div>we know that diagonal of parallelogram divides it in two triangles of equal areas</div><div>Therefore, area of parallelogram = 2\\(\\times \\)area of triangle</div><div>Area of triangle by heron's formula :</div><div>Area = \\(\\sqrt {s(s-a)(s-b)(s-c)}\\)</div><div>Here, a = _{{3*j}}_, b = _{{4*j}}_ , c = _{{5*j}}_ and s = _{{6*j}}_</div><div>Therefore applying heron's formula as :</div><div>Area = \\(\\sqrt {_{{6*j}}_(_{{6*j}}_-_{{3*j}}_)(_{{6*j}}_-_{{4*j}}_)(_{{6*j}}_-_{{5*j}}_)}\\)</div><div>Area = \\(\\sqrt {_{{6*j}}_(_{{3*j}}_)(_{{2*j}}_)(_{{1*j}}_)}\\)</div><div>Area = _{{6*j*j}}_</div><div>Hence, Area of the parallelogram = 2\\(\\times\\)_{{6*j*j}}_</div><div>i.e., Area of the parallelogram = _{{12*j*j}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Suppose the two adjacent sides of a parallelogram _{{3*j}}_ cm and _{{4*j}}_ cm and the diagonal measures _{{5*j}}_ cm, what is the area of the parallelogram?</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{12*j*j}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,55 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "Consider the given equation : \\(_{k}_x + _{j}_y - 2p = 0\\)<br>\\(\\implies _{k}_x + _{j}_y = 2p\\)<br>Now, you are given that \\(x = _{n}_, y = _{l}_\\) is a solution to the equation so substitute the values of x and y and solve as shown below:<br><br>\\(_{k}_ * _{n}_ + _{j}_ * _{l}_ =  2p\\)<br>\\(\\implies p =  _{{Decimal(k*n + j*l)/2}}_\\)<br>"
+  }, 
+  "content": {
+    "text": "\\(_{k}_x + _{j}_y - 2p = 0.\\qquad x = _{n}_, y = _{l}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(k*n + j*l)/2}}_"
+  }, 
+  "type": 3
+}

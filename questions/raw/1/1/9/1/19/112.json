@@ -1,0 +1,42 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The square root of all numbers except perfect squares is irrational and the sum of a rational and an irrational number is an irrational number.</div><div>Therefore, \\(\\sqrt{_{j}_}+_{j}_\\) is irrational.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\sqrt{_{j}_}+_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        6, 
+        7, 
+        8, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        17, 
+        18, 
+        19
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Irrational"
+    }
+  }
+}

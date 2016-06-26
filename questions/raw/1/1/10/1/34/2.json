@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given that : </div><div>Total no. of cards are put in a box = _{{2*i}}_</div><div>So, In one draw,</div><div>possible outcomes = {1,2,3,4,......._{{2*i}}_}</div><div>Total no. of outcomes = _{{2*i}}_</div><div>Let F be the event 'number of cards is divisible by 2'</div><div>Outcomes favourable to the event F are 2,4,6,8...._{{2*i}}_</div><div>So, the number of outcomes favourable to F is _{i}_</div><div>Therefore,</div><div>P(F) = \\(_{i}_\\over _{{2*i}}_\\)</div><div>P(F) = 0.5</div>"
+  }, 
+  "content": {
+    "text": "<div>_{{2*i}}_ cards numbered from 1 to _{{2*i}}_are put in a box and mixed thoroughly and than one person is asked to draw a card from the box.Find the probability that the number on card is divisible by 2.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            45
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0.5
+  }, 
+  "type": 3
+}

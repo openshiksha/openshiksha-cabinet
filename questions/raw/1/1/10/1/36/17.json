@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>By carefully observing the given figure we can identify</div><div>area of the shaded region= area(region A) + area(region B) + area(region C)+ area(region D)</div><div> area [A+c]= Area(PQRS)- [area (semicircle O'')+ area (semicircle O)]</div><div>Area of the square PQRS = \\(side^2= _{{j*j}}_\\)</div><div>area [A+C]=\\(_{{j*j}}_-[\\frac 12 \\times \\pi \\times (\\frac {SR}2)^2+ \\frac 12 \\times \\pi \\times (\\frac {PQ}2)^2] \\)</div><div>so area  [A+C]=_{{trunc(4*j*j-pi_val*j*j,2)}}_</div><div>Similarly area [B+D]=Area(PQRS)- [area (semicircle O')+ area (semicircle O''')]</div><div>area[D+B]=_{{trunc(4*j*j-pi_val*j*j,2)}}_</div><div>therefore, area of the shaded region=area[A+B+C+D]</div><div>\\(\\Rightarrow _{{trunc(4*j*j-pi_val*j*j,2)}}_ + _{{trunc(4*j*j-pi_val*j*j,2)}}_=_{{trunc(2*(4*j*j-pi_val*j*j),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A square of side length=_{{2*j}}_cm, contains four semi-circles inside it</div> <div>If their centres lie at the midmoint of the sides of the square, find the area of the shaded region</div>", 
+    "img": "17.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc(2*(4*j*j-pi_val*j*j),2)}}_"
+  }, 
+  "type": 3
+}

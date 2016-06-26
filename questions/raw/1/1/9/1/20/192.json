@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Curved surface area of a cylinder\\(=_{{trunc((pi_val*2*2*j*j),3)}}_\\,cm^2\\)</div><div>Radius\\(=2 \\times\\)Height\\(\\Rightarrow r=2h\\)</div><div>CSA of cylinder\\(=2\\pi rh=_{{trunc((pi_val*2*2*j*j),3)}}_\\)</div><div>\\(\\Rightarrow rh=\\frac{_{{trunc((pi_val*2*2*j*j),3)}}_}{2\\pi}\\)</div><div>\\(\\Rightarrow 2h^2=_{{2*j*j}}_\\)</div><div>\\(\\Rightarrow h=_{j}_\\,cm\\)</div><div>Therefore, \\(r=2h=2\\times _{j}_=_{{2*j}}_\\,cm\\)</div><div>Volume of the cylinder\\(=\\pi r^2h\\)</div><div>\\(=\\pi \\times _{{2*j}}_^2 \\times _{j}_\\)</div><div>\\(=_{{trunc((pi_val*4*j**3),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "If the curved surface area of a cylinder is \\(_{{trunc((pi_val*2*2*j*j),3)}}_\\)sq.cm and radius is twice the height, what is its volume?"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc((pi_val*4*j**3),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

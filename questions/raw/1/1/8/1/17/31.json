@@ -1,29 +1,39 @@
 {
-  "subpart_index": 2, 
+  "subpart_index": 0, 
   "solution": {
-    "text": "Surface Area of a cylinder = \\(2 \\times \\pi \\times r \\times(r + h) = _{{(j*22)*((j*7*Decimal('0.5'))+k)}}_ cm^2\\)"
+    "text": "<div>Volume of a cuboid = \\(l \\times b \\times h\\)</div><div>\\(=_{{j*k}}_ \\times _{{j*k*l}}_ \\times _{{j*k}}_\\)</div><div>\\(=_{j}_ \\times _{k}_ \\times _{j}_ \\times _{k}_ \\times _{l}_ \\times _{j}_ \\times _{k}_\\)</div><div>\\(=_{j}_ \\times _{j}_ \\times _{j}_ \\times _{k}_ \\times _{k}_ \\times _{k}_ \\times _{l}_\\)</div><div>Since the factor \\(_{l}_\\) appears only once on factorisation, we require \\(_{l}_ \\times _{l}_\\) i.e. \\(_{{l**2}}_\\) such cuboids to make it a perfect cube.</div>"
   }, 
   "content": {
-    "text": "In the cylinder below, diameter=_{{7*j}}_ cm, h=_{k}_ cm, find its surface area", 
-    "img": "13.png"
+    "text": "Find the number of cuboids required of dimension \\(_{{j*k}}_cm \\times _{{j*k*l}}_cm \\times _{{j*k}}_cm\\) to form a perfect cube."
   }, 
   "variable_constraints": {
-    "k": {}, 
+    "k": {
+      "options": [
+        5, 
+        7, 
+        3, 
+        2
+      ]
+    }, 
     "j": {
-      "range": {
-        "include": [
-          [
-            1, 
-            7
-          ]
-        ]
-      }
+      "options": [
+        2, 
+        3, 
+        5, 
+        7
+      ]
+    }, 
+    "l": {
+      "options": [
+        11, 
+        13, 
+        17, 
+        19
+      ]
     }
   }, 
   "answer": {
-    "tolerance": 0.5, 
-    "value": "_{{(j*22)*((j*7*Decimal('0.5'))+k)}}_"
+    "value": "_{{l**2}}_"
   }, 
-  "type": 3, 
-  "unit": "\\(cm^2\\)"
+  "type": 3
 }

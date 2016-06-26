@@ -1,0 +1,40 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given quadratic equation is : \\(_{j}_x^2 - _{{(k*j)+l}}_x + _{{l*k}}_ = 0\\)</div><div>Let us first split the middle term -_{{(k*j)+l}}_x as -_{{k*j}}_x and -_{l}_x </div><div>[because \\((-_{{k*j}}_x) \\times (-_{l}_x) = _{{k*l*j}}_x^2 = _{j}_x^2\\times _{{k*l}}_\\)]</div><div>So, </div><div> \\(_{j}_x^2 - _{{(k*j)+l}}_x + _{{l*k}}_ = 0\\) </div><div>\\(_{j}_x^2 - _{{j*k}}_x - _{l}_x + _{{l*k}}_ = 0\\)</div> <div>\\(_{j}_x(x - _{k}_)- _{l}_(x - _{k}_) = 0\\)</div><div>\\((x-_{k}_)(_{j}_x-_{l}_) = 0\\)</div><div>Now,</div><div>\\(_{j}_x^2 - _{{(k*j)+l}}_x + _{{l*k}}_ = 0\\) can be written as (x - _{k}_)(_{j}_x-_{l}_) = 0.</div><div>So, the value of x for which (x-_{k}_)(_{j}_x-_{l}_) = 0,</div><div>i.e., either x - _{k}_ = 0 or _{j}_x - _{l}_ = 0.</div><div>Now,</div><div>x - _{k}_ = 0 gives x = _{k}_ and _{j}_x - _{l}_ = 0 gives x = \\(_{l}_\\over _{j}_\\)</div><div>So, x = _{k}_ and x = _{{trunc(Decimal(l)/j,2)}}_ are the roots of given quadratic equation.</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the roots of the equation \\(_{j}_x^2 - _{{(j*k)+l}}_x + _{{l*k}}_ = 0\\), by factorisation.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{k}_ , _{{trunc(Decimal(l+1)/j,2)}}_"
+      }, 
+      {
+        "text": "_{k}_ , _{{trunc(Decimal(l-1)/j,2)}}_"
+      }, 
+      {
+        "text": "_{{k+1}}_ , _{{trunc(Decimal(l)/j,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{k}_ , _{{trunc(Decimal(l)/j,2)}}_"
+    }
+  }
+}

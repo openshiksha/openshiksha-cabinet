@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given pair of equations are:</div><div>_{i}_x + y = _{{3*i}}_ ------(1)</div><div>And x - _{i}_y = _{{5*i}}_ --------(2)</div><div>Finding 2 solutions of each equation to draw the graphs of the equations</div><div><table class='table table-bordered table-condensed'>  <tr>    <th> x </th>    <th> 0 </th>    <th> 3 </th>    <th> - </th>    <th> x </th>    <th> 0 </th>    <th> _{{5*i}}_ </th>  </tr>  <tr>    <td> y </td>    <td> _{{3*i}}_ </td>    <td> 0 </td>    <td> - </td>    <td> y </td>    <td> -5 </td>    <td> 0 </td>  </tr> </table></div><div>Plot graph for obtained data:</div><div>Where m = _{{3*i}}_ and n = _{{5*i}}_</div><div>We observe that there is a point P common to both the lines AB and CD.</div><div>So the solution of the pair of linear equation is x = _{{trunc((3*i*i+5*Decimal(i))/(i*i+1),2)}}_ and y = _{{trunc((3*Decimal(i)-5*i*i)/(i*i+1),2)}}_</div>", 
+    "img": "7.png"
+  }, 
+  "content": {
+    "text": "<div>Solve the following pair of linear equations graphically.</div><div>_{i}_x + y = _{{3*i}}_ and x - _{i}_y = _{{5*i}}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{trunc((3*i*i+8+5*Decimal(i))/(i*i+1),2)}}_ and y = _{{trunc((3*Decimal(i)-5*i*i)/(i*i+1),2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc((3*i*i+5*Decimal(i))/(i*i+1),2)}}_ and y = _{{trunc((3*Decimal(i)-8-5*i*i)/(i*i+1),2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc((3*i*i-8+5*Decimal(i))/(i*i+1),2)}}_ and y = _{{trunc((3*Decimal(i)+8-5*i*i)/(i*i+1),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "x = _{{trunc((3*i*i+5*Decimal(i))/(i*i+1),2)}}_ and y = _{{trunc((3*Decimal(i)-5*i*i)/(i*i+1),2)}}_"
+    }
+  }
+}

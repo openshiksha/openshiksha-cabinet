@@ -1,10 +1,13 @@
 {
+  "hint": {
+    "text": "If no metal is wasted, both objects will have the same volume."
+  }, 
   "subpart_index": 0, 
   "solution": {
-    "text": "<div>Volume of cylinder \\(= \\pi r^2 \\times h = \\pi \\times _{k}_^2 \\times _{j}_ = _{{trunc( pi_val*(k**2)*j, 2 )}}_ cm^3\\)</div><div>Volume of new cuboid = \\(lbh\\) = Volume of cylinder</div><div>Therefore, \\(lbh = _{{trunc( pi_val*(k**2)*j, 2 )}}_ cm^3\\)</div><div>\\(\\Rightarrow _{l}_ \\times _{m}_ \\times h = _{{trunc( pi_val*(k**2)*j, 2 )}}_ cm^3\\)</div><div>\\(\\Rightarrow h = \\frac {_{{trunc( pi_val*(k**2)*j, 2 )}}_}{_{l}_ \\times _{m}_} = _{{trunc( (pi_val*(k**2)*j)/(l*m), 2 )}}_\\)</div><div>The new cuboid is _{{trunc( (pi_val*(k**2)*j)/(l*m), 2 )}}_ cm tall</div>"
+    "text": "<div>Volume of cylinder \\(= \\pi r^2 \\times h = \\pi \\times _{k}_^2 \\times _{j}_ = _{{trunc( pi_val*(k**2)*j, 2 )}}_ cm^3\\)</div><div>Volume of new cuboid = \\(lbh\\) = Volume of cylinder</div><div>Therefore, \\(lbh = _{{trunc( pi_val*(k**2)*j, 2 )}}_ cm^3\\)</div><div>\\(\\Rightarrow _{l}_ \\times _{m}_ \\times h = _{{trunc( pi_val*(k**2)*j, 2 )}}_ cm^3\\)</div><div>\\(\\Rightarrow h = \\frac {_{{trunc( pi_val*(k**2)*j, 2 )}}_}{_{l}_ \\times _{m}_} = _{{trunc( (pi_val*(k**2)*j)/(l*m), 2 )}}_\\)</div><div>The new cuboid is \\(_{{trunc( (pi_val*(k**2)*j)/(l*m), 2 )}}_\\) cm tall</div>"
   }, 
   "content": {
-    "text": "A metal cylinder of height _{j}_ cm and radius _{k}_ cm is melted and reshaped into a cuboid of length _{l}_ cm and breadth _{m}_ cm. No metal was wasted during this process. How tall is the new cuboid?"
+    "text": "A metal cylinder of height \\(_{j}_\\) cm and radius \\(_{k}_\\) cm is melted and reshaped into a cuboid of length \\(_{l}_\\) cm and breadth \\(_{m}_\\) cm. No metal was wasted during this process. How tall is the new cuboid?"
   }, 
   "variable_constraints": {
     "k": {

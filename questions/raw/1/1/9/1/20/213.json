@@ -1,0 +1,16 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Length of cylinder, h\\(=_{j}_\\,m\\)</div><div>Radius of cylinder, r\\(=_{k}_\\,m\\)</div><div>Volume of cylinder, V \\(=\\pi r^2h\\)</div><div>\\(=\\pi \\times _{k}_^2 \\times _{j}_\\)</div><div>\\(=_{{trunc((pi_val*k**2*j),3)}}_\\,m^3\\)</div>"
+  }, 
+  "content": {
+    "text": "The volume of the cylinder."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc((pi_val*k**2*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^3\\)"
+}

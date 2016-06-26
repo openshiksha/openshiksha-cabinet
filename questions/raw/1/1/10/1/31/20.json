@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>by multiplying \\(sec^2\\theta\\) to the expression in the bracket</div><div>we get,\\(_{{j*l}}_(sec^2\\theta-sec^2\\theta\\times sin^2\\theta)+_{{2*k*l}}_\\over _{j}_+_{{2*k}}_(sec^2\\theta-sec^2\\theta\\times sin^2\\theta)\\)</div><div>We know, \\(sec\\theta=1\\over cos\\theta\\) and \\(sin\\theta\\over cos\\theta\\)=\\(tan\\theta\\) and \\(sec^2\\theta-tan^2\\theta=1\\) </div><div>therefore we have, \\(_{{j*l}}_\\times(1)+_{{2*k*l}}_\\over _{j}_+_{{2*k}}_\\times(1)\\)</div><div>\\(_{{j*l}}_+_{{2*k*l}}_\\over _{j}_+_{{2*k}}_\\)=\\(_{{l}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Simplify the expression given below by using the identity \\(sec^2\\theta-tan^2\\theta=1\\)</div><div>\\(_{{j*l}}_sec^2\\theta(1-sin^2\\theta)+_{{2*k*l}}_\\over _{j}_+_{{2*k}}_sec^2\\theta(1-sin^2\\theta)\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

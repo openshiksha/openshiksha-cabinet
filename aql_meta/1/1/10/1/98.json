@@ -1,0 +1,3 @@
+{
+  "revision": "<h1>Relationship between zeroes and coefficients of a polynomial</h1><ol><li>To factorize a quadratic polynomial(\\(ax^2+bx+c\\)) by splitting the middle term, we need to split the middle term '\\(bx\\)' as a sum of two terms, whose product is \\(c\\times ax^2\\).</li> <li>If \\(\\alpha \\) and \\(\\beta \\) are the zeroes of a quadratic equation \\(ax^2+bx+c\\) then \\(\\alpha + \\beta = \\frac {-b}a\\) and \\(\\alpha \\times \\beta = \\frac ca\\)</li><li>If \\(\\alpha \\) , \\(\beta \\) and \\(\\gamma \\) are the zeroes of a cubic equation \\(ax^3+bx^2+cx+d\\) then \\(\\alpha + \\beta + \\gamma = \\frac {-b}a\\) , \\(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = \\frac ca\\) and \\(\\alpha \\times \\beta \\times \\gamma=\\frac{-d}a\\)</li></ol>"
+}

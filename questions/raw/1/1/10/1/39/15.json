@@ -1,0 +1,105 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given vertices are: A(_{i}_,_{j}_), B(_{k}_,_{l}_), C(_{m}_,_{n}_) and D(_{o}_,_{p}_).</div><div>In the given quadrilateral join B and D. which will give two triangles ABD and BCD</div><div>Therefore, area of quadrilateral = area of ABD + area of BCD.</div><div>Now Using following formula:</div><div>Area of ABD = \\({1\\over 2}\\times (x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2))\\)</div><div>i.e., Area of ABD = \\({1\\over 2}\\times (_{i}_(_{l}_-_{p}_)+_{k}_(_{p}_-_{j}_)+_{o}_(_{j}_-_{l}_))\\)</div><div>i.e., Area of ABD = \\({1\\over 2}\\times (_{i}_(_{{l-p}}_)+_{k}_(_{{p-j}}_)+_{o}_(_{{j-l}}_))\\)</div><div>i.e.,Area of ABD = \\({1\\over 2}\\times (_{{i*(l-p)}}_+_{{k*(p-j)}}_+_{{(j-l)*o}}_)\\)</div><div>i.e., Area of ABD = \\({1\\over 2}\\times (_{{(i*(l-p))+(k*(p-j))+((j-l)*o)}}_)\\)</div><div>i.e., Area of ABD = _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))/2,2)}}_</div> <div>Similarly,</div><div>i.e., Area of BCD = \\({1\\over 2}\\times (_{k}_(_{n}_-_{p}_)+_{m}_(_{p}_-_{l}_)+_{o}_(_{l}_-_{n}_))\\)</div><div>i.e., Area of BCD = \\({1\\over 2}\\times (_{k}_(_{{n-p}}_)+_{m}_(_{{p-l}}_)+_{o}_(_{{l-n}}_))\\)</div><div>i.e.,Area of BCD = \\({1\\over 2}\\times (_{{k*(n-p)}}_+_{{m*(p-l)}}_+_{{(l-n)*o}}_)\\)</div><div>i.e., Area of BCD = \\({1\\over 2}\\times (_{{(k*(n-p))+(m*(p-l))+((l-n)*o)}}_)\\)</div><div>i.e., Area of BCD = _{{trunc(((Decimal(k)*(n-p))+(m*(p-l))+((l-n)*o))/2,2)}}_</div> <div>Therefore,</div><div>Area of ABCD = _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))/2,2)}}_ + _{{trunc(((Decimal(k)*(n-p))+(m*(p-l))+((l-n)*o))/2,2)}}_</div><div>Area of ABCD = _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))/2,2)+trunc(((Decimal(k)*(n-p))+(m*(p-l))+((l-n)*o))/2,2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the area of quadrilateral whose vertices are in following order :  </div><div>A(_{i}_,_{j}_), B(_{k}_,_{l}_), C(_{m}_,_{n}_) and D(_{o}_,_{p}_).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            14, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l-2)*o))/2,2)+trunc(((Decimal(k)*(n-p))+(m*(p-l))+((l-n)*o))/2,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((Decimal(i)*(l-p+2))+(k*(p-j))+((j-l)*o))/2,2)+trunc(((Decimal(k)*(n-p))+(m*(p-l))+((l-n)*o))/2,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))/2,2)+trunc(((Decimal(k)*(n-p))+(m*(p-l))+((l-n)*o))/2,2)}}_"
+    }
+  }
+}

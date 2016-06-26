@@ -1,0 +1,26 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>By using Pythagoras theorem, \\((BC)^2=_{{j*13}}_^2-_{{j*12}}_^2\\)</div><div>\\(BC=_{{5*j}}_\\)</div><div>Now we can find tan(c)=\\(AB\\over BC\\)=\\(_{{j*12}}_\\over _{{j*5}}_\\)</div><div>tan(a)=\\(BC\\over AB\\)=\\(_{{j*5}}_\\over _{{j*12}}_\\)</div><div>similarly cot(a)=\\(1\\over tan(a)\\)=\\(1\\over _{{j*5}}_/_{{j*12}}_\\)</div><div>Hence, tan(c)-cot(a)=0</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the value of \\(tan(c)-cot(a)\\), where a=angle(CAB) and c=angle(BCA).</div>  <div>The dimensions of the right angled triangle ABC are:</div><div>AB=_{{12*j}}_cm, AC=_{{13*j}}_cm</div>", 
+    "img": "4.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "<div>Use Pythagoras theorem to obtain quadratic equation.</div><div>Use quadratic formula to solve obtained quadratic equation</div>"
+  }, 
+  "solution": {
+    "text": "<div>Let the base of the triangle be x.</div><div>Then, the perpendicular be x + _{k}_</div><div>And, hypotenuse be x + _{{2*k}}_</div><div>So, according to Pythagoras theorem</div><div>i.e., \\(hypotenuse^2 = base^2 + perpendicular^2\\)</div><div>Therefore, </div><div>i.e., \\((x + _{{2*k}}_)^2 = x^2 + (x + _{k}_)^2\\)</div><div>i.e., \\(x^2 + _{{4*k}}_x + _{{4*k*k}}_= x^2 + x^2 + _{{2*k}}_x + _{{k*k}}_\\)</div><div>i.e., \\(x^2 - _{{2*k}}_x - _{{3*k*k}}_= 0\\)</div><div>i.e., \\(x^2 - _{{3*k}}_x + _{{1*k}}_x - _{{3*k*k}}_= 0\\)</div><div>i.e., \\(x(x - _{{3*k}}_) + _{{1*k}}_(x - _{{3*k}}_)= 0\\)</div><div>i.e., \\((x - _{{3*k}}_)\\times (x + _{{1*k}}_)= 0\\)</div><div>i.e., x - _{{3*k}}_=0 or x + _{{1*k}}_= 0</div><div>i.e., x = _{{3*k}}_ or x = -_{{1*k}}_</div><div>Since, x is a side of triangle, it can not be negative</div><div>Hence, </div><div>Base of triangle = _{{3*k}}_</div><div>Then, perpendicular = _{{3*k}}_ + _{k}_ = _{{4*k}}_</div><div>And, hypotenuse = _{{3*k}}_ + _{{2*k}}_ = _{{5*k}}_</div><div>Therefore, sum of the sides = _{{12*k}}_</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>In a given right angle triangle, hypotenuse is _{{2*k}}_ metres more than the base and perpendicular is _{k}_ metres more than the base.Find the sum of sides of the triangle.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "answer": {
+    "value": "_{{12*k}}_"
+  }, 
+  "type": 3
+}

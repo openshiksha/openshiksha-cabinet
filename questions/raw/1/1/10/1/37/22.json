@@ -1,0 +1,50 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Given quadratic equation :</div><div>\\(x^2 + kx + _{{k*k}}_ = 0\\)</div><div>For having two equal roots, discriminant of the given quadratic equation should be equal to zero.</div><div>Therefore, calculating the discriminant</div><div>Comparing given equation with general equation:</div><div>i.e., a = 1 , b = k and c = _{{k*k}}_</div><div>discriminant = \\(b^2 - 4ac\\) = \\(k^2 - 4\\times 1\\times _{{k*k}}_\\) = 0</div><div>i.e., \\(k^2 - _{{4*k*k}}_\\) = 0</div><div>i.e., \\(k^2 = _{{4*k*k}}_\\) </div><div>i.e., \\(k = \\pm _{{2*k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the value of k such that following quadratic equation have two equal roots.</div><div>\\(x^2 + kx + _{{k*k}}_ = 0\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            26, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(2*k)+2}}_"
+      }, 
+      {
+        "text": "-_{{(2*k)+2}}_"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "_{{2*k}}_"
+      }, 
+      {
+        "text": "-_{{2*k}}_"
+      }
+    ]
+  }
+}

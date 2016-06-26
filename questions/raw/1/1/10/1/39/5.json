@@ -1,0 +1,45 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given points are : </div><div>A = (_{i}_,0), B = (0,_{j}_), C = (_{i}_,_{j}_)</div><div>Akash is at origin O = (0, 0)</div><div>Using the distance formula we have distance of all the tree from Akash: </div><div>\\(OA = \\sqrt {(_{i}_ - 0)^2 + (0 - 0)^2} = \\sqrt {(_{i}_)^2 + (0)^2} = \\sqrt {_{{pow(i,2)}}_ + (0)}\\) = _{i}_</div><div>\\(OB = \\sqrt {(0 - 0)^2 + (_{j}_ - 0)^2} = \\sqrt {(0)^2 + (_{j}_)^2} = \\sqrt {0 + _{{pow(j,2)}}_}\\) = _{j}_</div><div>\\(OC = \\sqrt {(_{i}_-0)^2 + (_{j}_-0)^2} = \\sqrt {(-_{i}_)^2 + (_{j}_)^2} = \\sqrt {_{{pow(i,2)}}_ + _{{pow(j,2)}}_} = \\sqrt {_{{pow(i,2)+pow(j,2)}}_}\\)</div><div>Here, \\(OA \\lt OB \\lt OC\\)</div><div>Therefore, Tree A is nearest to Akash.</div>"
+  }, 
+  "content": {
+    "text": "<div>Akash went to a garden, where he saw three trees of mango at different points. If he is at origin then the trees are at A,B and C,where A = (_{i}_,0), B = (0,_{j}_), C = (_{i}_,_{j}_)</div><div>Find the tree that is nearest to him.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            4, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            24
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Tree at C"
+      }, 
+      {
+        "text": "Tree at B"
+      }
+    ], 
+    "correct": {
+      "text": "Tree at A"
+    }
+  }
+}

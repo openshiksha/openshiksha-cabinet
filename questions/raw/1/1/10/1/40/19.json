@@ -1,0 +1,58 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given that:</div><div>Area of \\(\\Delta ABC\\) = _{j}_ sq.units,</div><div>Area of \\(\\Delta PQR\\) = _{i}_ sq.units,</div><div>And AC = _{k}_ units</div><div>By Theorem 6.6, we have,</div><div>\\(Area(\\Delta ABC)\\over Area(\\Delta PQR)\\) = \\(AC^2\\over PR^2\\)</div><div>i.e., \\(_{j}_\\over _{i}_\\) = \\(_{k}_^2\\over PR^2\\)</div><div>i.e., \\(PR^2 = {{_{{k*k}}_\\times _{i}_}\\over _{j}_}\\)</div><div>i.e., \\(PR^2 = _{{trunc(Decimal(k)*k*i/j,2)}}_\\)</div><div>i.e., \\(PR = \\sqrt{_{{trunc(Decimal(k)*k*i/j,2)}}_}\\)</div><div>i.e., \\(PR = {_{{trunc(pow((k*k*i/j),Decimal(0.5)),2)}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Areas of two similar triangle, \\(\\Delta ABC\\) and \\(\\Delta PQR\\) are given as _{j}_ sq.units and _{i}_ sq. units respectively.</div><div>If AC = _{k}_ units, find PR.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            32, 
+            43
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(PR = {_{{trunc(pow((k*k*i/j),Decimal(0.55)),2)}}_}\\)"
+      }, 
+      {
+        "text": "\\(PR = {_{{trunc(pow((k*k*i/j),Decimal(0.45)),2)}}_}\\)"
+      }, 
+      {
+        "text": "\\(PR = {_{{trunc(pow((k*k*i*2/j),Decimal(0.5)),2)}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(PR = {_{{trunc(pow((k*k*i/j),Decimal(0.5)),2)}}_}\\)"
+    }
+  }
+}

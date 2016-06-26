@@ -1,0 +1,33 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>To find if a polynomial is a factor of another polynomial</div><div>We divide the polynomial and check if the remainder obtained is 0</div><div>\\(\\require{enclose}\\begin{array}{r}                    x+_{l}_  \\\\[-3pt] x^2+_{j}_x+_{k}_\\enclose{longdiv}{x^3 + _{{j+l}}_x^2 + _{{k+l*j}}_x + _{{l*k}}_} \\\\[-3pt]         \\underline{x^3+_{j}_x^2+_{k}_x\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,\\,}\\phantom{2} \\\\[-3pt]                    _{l}_x^2+_{{l*j}}_x+_{{k*l}}_   \\\\[-3pt]         \\underline{_{l}_x^2+_{{l*j}}_x+_{{l*k}}_}\\phantom{2} \\\\[-3pt]                         0\\,\\,\\,\\end{array}\\)</div><div>We get the remainder as 0 , therefore \\(x+_{l}_\\) is a factor of \\(x^3 + _{{j+l}}_x^2 + _{{k+l*j}}_x + _{{l*k}}_ \\)</div><div>also \\((x+_{l}_)\\times x^2+_{j}_x+_{k}_= x^3 + _{{j+l}}_x^2 + _{{k+l*j}}_x + _{{l*k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find whether \\(x^2+_{j}_x+_{k}_\\) is a factor of \\(x^3 + _{{j+l}}_x^2 + _{{k+l*j}}_x + _{{l*k}}_ \\) or not.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((x+_{{l+1}}_)\\times x^2+_{j}_x+_{k}_ =x^3 + _{{j+l}}_x^2 + _{{k+l*j}}_x + _{{l*k}}_ \\)"
+      }, 
+      {
+        "text": "No"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Yes"
+      }, 
+      {
+        "text": "\\((x+_{l}_)\\times x^2+_{j}_x+_{k}_ =x^3 + _{{j+l}}_x^2 + _{{k+l*j}}_x + _{{l*k}}_ \\)"
+      }
+    ]
+  }
+}

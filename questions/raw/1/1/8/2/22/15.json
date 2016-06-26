@@ -1,0 +1,38 @@
+{
+  "content": {
+    "text": "Some exhaustible resources are :"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Air"
+      }, 
+      {
+        "text": "Sunlight"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Forests"
+      }, 
+      {
+        "text": "Wildlife"
+      }, 
+      {
+        "text": "Minerals"
+      }, 
+      {
+        "text": "Coal"
+      }, 
+      {
+        "text": "Petroleum"
+      }, 
+      {
+        "text": "Natural gas"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 4, 
+  "variable_constraints": {}
+}

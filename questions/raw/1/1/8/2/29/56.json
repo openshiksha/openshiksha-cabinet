@@ -1,0 +1,46 @@
+{
+  "content": {
+    "text": "Select the smallest planet in our Solar System."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "_{k}_"
+      }, 
+      {
+        "text": "_{l}_"
+      }
+    ], 
+    "correct": {
+      "text": "Mercury"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 5, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "Earth", 
+        "Mars", 
+        "Neptune"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "Venus", 
+        "Earth", 
+        "Saturn"
+      ]
+    }, 
+    "l": {
+      "options": [
+        "Mars", 
+        "Jupiter", 
+        "Mars"
+      ]
+    }
+  }
+}

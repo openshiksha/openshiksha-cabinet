@@ -1,0 +1,33 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Here, the class size varies. Let us apply the assumed mean method.</div><div>Then, </div><div>we obtain the data as in Table: </div><div>\\begin{array}{c|lcr}Concentration & \\text{no.of localities(fi)} & \\text{xi} & \\text{di=xi-.75} & \\text{fidi} \\\\\\hline0-.3 & _{i}_ & 0.15 & -.6 & _{{trunc(i*Decimal(-.6),4)}}_ \\\\.3-.6 & _{j}_ & 0.45 & -.3 & _{{trunc(j*Decimal(-.3),4)}}_ \\\\.6-.9 & _{k}_ & 0.75 & 0 & _{{k*0}}_ \\\\.9-1.2 & _{l}_ & 1.05 & .3 & _{{trunc(l*Decimal(.3),4)}}_ \\\\1.2-1.5 & _{m}_ & 1.35 & .6 & _{{trunc(m*Decimal(.6),4)}}_ \\\\\\hline Total & _{{i+j+k+l+m}}_ &  &  & _{{trunc((i*Decimal(-.6))+(j*Decimal(-.3))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)),4)}}_ \\\\ \\hline \\end{array}</div><div>The sum of the values in the last column gives us \\sum fidi</div><div> So, </div><div>the mean x of the given data is given by;</div><div>  \\(\\bar x\\) = .75 + \\(\\Sigma fidi\\over \\Sigma fi\\) = .75 +\\(_{{trunc((i*Decimal(-.6))+(j*Decimal(-.3))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)),4)}}_\\over _{{i+j+k+l+m}}_\\) = _{{trunc(Decimal(.75)+(((i*Decimal(-.6))+(j*Decimal(-.3))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)))/(Decimal(i)+j+k+l+m)),5)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A survey was conducted to find out the concentration of CO2 in the air.Following data was collected at different localities in Pune through the survey.Find the mean concentration of CO2 in the air in Pune.</div><div>\\begin{array}{c|lcr} Concentration & \\text{0-.3} & \\text{.3-.6} & \\text{.6-.9} & \\text{.9-1.2} & \\text{1.2-1.5} \\\\ \\hline \\ Localities & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\  \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(.79)+(((i*Decimal(-.69))+(j*Decimal(-.3))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)))/(Decimal(i)+j+k+l+m)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(.72)+(((i*Decimal(-.6))+(j*Decimal(-.39))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)))/(Decimal(i)+j+k+l+m)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(.75)+(((i*Decimal(-.6))+(j*Decimal(-.4))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)))/(Decimal(i)+j+k+l+m)),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal(.75)+(((i*Decimal(-.6))+(j*Decimal(-.3))+(k*0)+(l*Decimal(.3))+(m*Decimal(.6)))/(Decimal(i)+j+k+l+m)),3)}}_"
+    }
+  }
+}

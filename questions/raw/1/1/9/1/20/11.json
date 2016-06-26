@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Length\\(=_{j}_cm\\)</div><div>Breadth\\(=_{k}_cm\\)</div><div>height\\(=_{l}_cm\\)</div><div>Surface area\\(=2(lb + bh + hl)\\) </div><div>\\(=2((_{j}_ \\times _{k}_)+(_{k}_ \\times _{l}_)+(_{l}_ \\times _{j}_))\\)</div><div>\\(=2(_{{j*k}}_+_{{k*l}}_+_{{l*j}}_)\\)</div><div>\\(=_{{2*(j*k+k*l+l*j)}}_cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "A cuboid of dimensions \\(_{j}_cm\\), \\(_{k}_cm\\) and \\(_{l}_cm\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{2*(j*k+k*l+l*j)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

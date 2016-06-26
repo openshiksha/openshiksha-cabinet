@@ -1,0 +1,51 @@
+{
+  "hint": {
+    "text": "\\(\\Delta_r G^\\circleddash =\\;- 2.303\\;RT\\;log K\\). Assume \\(R = 8.314 \\frac {J}{K\\;mol}\\)"
+  }, 
+  "solution": {
+    "text": "\\(\\Delta_r G^\\circleddash =\\;- 2.303\\;RT\\;log K\\). Note that T is in Kelvin.<br>\\(\\implies \\Delta_r G^\\circleddash =\\;- 2.303 \\times 8.314 \\times _{temp}_ \\times log (1 \\times 10^{- _{ksup}_})\\)<br>\\(\\implies \\Delta_r G^\\circleddash =\\;_{{trunc(Decimal(2.303 * 8.314 * temp * ksup),2)}}_ \\frac {J}{mol}\\)<br>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Calculate \\(\\Delta _r G^\\circleddash\\) for a given reaction \\((A + _{k}_B \\rightarrow C)\\) at \\(_{{temp-273.15}}_ ^{\\circ} C\\) given that the \\(K_p\\) is \\(1 \\times 10^ {-_{ksup}_}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            11
+          ]
+        ]
+      }
+    }, 
+    "ksup": {
+      "range": {
+        "include": [
+          [
+            11, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "temp": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            280, 
+            380
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(Decimal(2.303 * 8.314 * temp * ksup),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac {J}{mol}\\)"
+}

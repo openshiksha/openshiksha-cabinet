@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>find the \\(n^{th}\\) term and use </div><div>Then find \\(S_n\\) using following identities </div><div>\\(\\sum_1^n(n)=\\frac{n(n+1)}{2}\\)</div><div>\\(\\sum_1^n(n^2)=\\frac{n(n+1)(2n+1)}{6}\\)</div><div></div><div></div>"
+  }, 
+  "solution": {
+    "text": "<div>The \\(n^{th}\\) term of in the given question is</div><div>\\(a_n= (n+_{q}_)\\times(_{p}_n+1 )\\)</div><div>\\(a_n= _{p}_n^2+_{{p*q+1}}_n+_{q}_\\)</div><div>now summing this from 1 to n we will get the sum</div><div>\\(S_n=\\sum_1^n a_n= \\sum_1^n(_{p}_n^2+_{{p*q+1}}_n+_{q}_)\\)</div><div>\\(S_n=_{p}_\\sum_1^n(n^2)+_{{p*q+1}}_\\sum_1^n(n)+_{q}_\\sum_1^n(1)\\) .....(1)</div><div>also we know</div><div>\\(\\sum_1^n(1)=n\\)</div><div>\\(\\sum_1^n(n)=\\frac{n(n+1)}{2}\\)</div><div>\\(\\sum_1^n(n^2)=\\frac{n(n+1)(2n+1)}{6}\\)</div><div>substitution this in equation (1), we will get</div><div>\\(S_n=_{p}_\\frac{n(n+1)(2n+1)}{6}+_{{p*q+1}}_\\frac{n(n+1)}{2}+_{q}_n\\)</div><div>Now putting n=_{s}_</div><div>\\(S_ {_{s}_}=_{p}_\\frac{_{{s*(s+1)*(2*s+1)}}_}{6}+_{{p*q+1}}_\\frac{_{{s*(s+1)}}_}{2}+_{q}_\\times_{s}_\\)</div><div>\\(S_ {_{s}_}=_{{(p*s*(s+1)*(2*s+1))/6}}_+_{{(((p*q)+1)*s*(s+1))/2}}_+_{{q*s}}_\\)</div><div>\\(S_ {_{s}_}=_{{((p*s*(s+1)*(2*s+1))/6)+((((p*q)+1)*s*(s+1))/2)+(q*s)}}_\\)</div><div></div><div></div><div></div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Find the sum to _{s}_ terms of the series \\( (_{{1+q}}_)\\times(_{{p+1}}_ ) + (_{{2+q}}_)\\times(_{{2*p+1}}_) + (_{{3+q}}_)\\times(_{{3*p+1}}_) + (_{{4+q}}_)\\times(_{{4*p+1}}_) + \\cdot \\cdot \\cdot\\) </div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}, 
+    "s": {
+      "range": {
+        "include": [
+          [
+            6, 
+            13
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{((p*s*(s+1)*(2*s+1))/6)+((((p*q)+1)*s*(s+1))/2)+(q*s)}}_"
+  }, 
+  "type": 3
+}

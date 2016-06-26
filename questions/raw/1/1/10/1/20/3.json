@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>TSA of the arena= SA of 5 faces of a cube - area of the circle cut out + CSA of a hemisphere</div><div>CSA of the hemisphere is given by \\(2 \\times \\pi \\times r^2\\)</div><div>we have diameter of the hemisphere=side of the cube=_{j}_\\(\\Rightarrow\\)r=\\(\\frac {_{j}_}2=_{{Decimal('0.5')*j}}_\\)</div><div>therefore area of a hemisphere=\\(2 \\times \\pi \\times _{{Decimal('0.5')*j}}_^2=_{{trunc(2*pi_val*Decimal('0.25')*j*j,2)}}_\\)</div><div>Now area of a cuboid=\\(5 \\times side^2\\)</div><div>side of the cube=\\(s=_{j}_\\)</div><div>Therefore area of the cube=\\(5 \\times _{j}_^2\\)</div><div>\\(\\Rightarrow _{{5*j*j}}_\\)</div><div>area of the circle on the top face=\\(\\pi \\times r^2=_{{trunc(pi_val*Decimal('0.25')*j*j,2)}}_\\)</div><div>TSA of the arena= SA of the cube - area of the circle cut out + CSA of a hemisphere=\\(_{{5*j*j}}_-_{{trunc(pi_val*Decimal('0.25')*j*j,2)}}_+_{{trunc(pi_val*Decimal('0.25')*j*j*2,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(5*j*j-pi_val*Decimal('0.25')*j*j+pi_val*Decimal('0.25')*j*j*2,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>The shape of a hemisphere and a cube are used to make a  skating arena as shown in figure.</div><div>If side of the cube is _{j}_metres and diameter of the  hemispherical depression cut out is equal to the side of the cube,</div><div>find the total surface area of this arena.(neglect the area of the bottom surface of the cube)</div>", 
+    "img": "3.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(6*j*j-pi_val*Decimal('0.5')*j*j+pi_val*Decimal('0.25')*j*j*2,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(4*j*j-pi_val*Decimal('0.25')*j*j+pi_val*Decimal('0.25')*j*j*2,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(6*j*j-pi_val*Decimal('0.25')*j*j+pi_val*j*j*2,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(5*j*j-pi_val*Decimal('0.25')*j*j+pi_val*Decimal('0.25')*j*j*2,2)}}_"
+    }
+  }
+}

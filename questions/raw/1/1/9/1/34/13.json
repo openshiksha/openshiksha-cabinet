@@ -1,0 +1,26 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "In the given set, there are seven elements but none that match our given requirement. We know that<br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br>Therefore the Probability of the Event, P(E), of choosing the number _{j}_ is : \\(\\frac{0}{7}\\) = 0"
+  }, 
+  "content": {
+    "text": "What is the probability of choosing the number _{{j-1}}_ from the following set - { _{{j-k}}_ , _{{j-2}}_, _{{j+1}}_ , _{{j+1}}_, _{j}_, _{{j+3*k}}_, _{{j+2*k}}_ }"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            21, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

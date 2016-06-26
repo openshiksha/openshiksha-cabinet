@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We begin by using the formula \\((a+b)^2=a^2+b^2+2ab\\)</div><div>L.H.S becomes:\\(_{{j*j}}_sin^2\\theta+_{{k*k}}_cosec^2\\theta+2\\times\\)_{j}_\\(\\times\\)_{k}_\\(\\times\\)sin\\(\\theta \\times cosec\\theta+_{{j*j}}_cos^2\\theta+_{{k*k}}_sec^2\\theta\\)+2\\(\\times\\)_{j}_\\(\\times\\)_{k}_\\(\\timescos\\theta \\times sec\\theta \\)</div><div>we know sec\\( \\theta \\)=\\(1\\over cos\\theta\\) and cosec\\(\\theta \\)=\\(1\\over sin\\theta\\)</div><div>so L.H.S. becomes: \\(_{{j*j}}_(cos^2\\theta+sin^2\\theta)+2 \\times\\)_{{j}}_\\(\\times\\)_{{k}}_+2\\(\\times\\)_{{j}}_\\(\\times\\)_{{k}}_+_{{k*k}}_\\((cosec^2\\theta+sec^2\\theta)\\)</div><div>now we know \\(cos^2\\theta+sin^2\\theta=1\\,, cosec^2\\theta=1+cot^2\\theta\\, and\\, sec^2\\theta=1+ tan^2\\theta\\)</div><div>therefore, L.H.S becomes \\(_{{k*k}}_(1+tan^2\\theta+1+cot^2\\theta)+_{{j*j}}_+4\\times _{{j*k}}_\\)</div><div>\\(_{{(4*j*k)+(2*k*k)+(j*j)}}_+_{{2*k*k}}_tan^2\\theta+_{{2*k*k}}_cot^2\\theta\\)</div><div>by comparing with R.H.S we can say, t=\\(_{{(4*j*k)+(2*k*k)+(j*j)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given expression find the value of \\(t\\).</div><div>\\((_{j}_sin\\theta+_{k}_cosec\\theta)^2 + (_{j}_cos\\theta+_{k}_sec\\theta)^2=t+_{{k*k}}_tan^2\\theta+_{{2*k*k}}_cot^2\\theta\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(2*j*k)+(2*k*k)+(j*j)}}_"
+      }, 
+      {
+        "text": "_{{(3*j*k)+(j*j)}}_"
+      }, 
+      {
+        "text": "_{{(2*j*k)+(k*k)+(j*j)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(4*j*k)+(2*k*k)+(j*j)}}_"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Take the common multiple of x.</div>"
+  }, 
+  "solution": {
+    "text": "<div>Let the common multiple be x.</div><div>Therefore, the sides are as follows:</div><div>i.e., a = 5x , b = 8x and c = 5x</div><div>We know :</div><div>Perimeter = sum of all sides</div><div>Therefore, perimeter = 5x + 8x + 5x = 18x</div><div>i.e.,_{{18*j}}_ = 18x </div><div>i.e., x = _{j}_</div><div>Hence, a = _{{5*j}}_, b = _{{8*j}}_ and c = _{{5*j}}_</div><div>Thus, s = \\(a+b+c\\over 2\\) = \\(_{{5*j}}_+_{{8*j}}_+_{{5*j}}_\\over 2\\) = _{{9*j}}_</div><div>Now,  applying Heron's formula:</div><div>i.e., Area of triangle = \\(\\sqrt{s(s-a)(s-b)(s-c)}\\)</div><div>i.e., Area of triangle = \\(\\sqrt{_{{9*j}}_\\times _{{4*j}}_\\times _{{1*j}}_\\times _{{4*j}}_}\\)</div><div>i.e., Area of triangle = \\(\\sqrt{_{{9*j*4*j*j*4*j}}_}\\)</div><div>i.e., Area of triangle = _{{4*3*j*j}}_</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "<div>The ratio of the sides of a triangle are 5:8:5 and the perimeter of the triangle is _{{18*j}}_ cm. Find the area of the triangle.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{4*3*j*j}}_"
+  }, 
+  "type": 3
+}

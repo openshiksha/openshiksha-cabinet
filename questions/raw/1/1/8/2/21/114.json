@@ -1,0 +1,28 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "Cholera is an infection of the small intestine by some strains of the bacterium Vibrio cholerae"
+  }, 
+  "content": {
+    "text": "Cholera"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Virus"
+      }, 
+      {
+        "text": "Protozoa"
+      }, 
+      {
+        "text": "Fungi"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Bacteria"
+    }
+  }
+}

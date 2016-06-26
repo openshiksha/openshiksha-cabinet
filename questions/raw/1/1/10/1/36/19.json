@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of the track=area of the semicircular path + area of the parallel path</div><div>Area of the semicircular path=\\( 2\\times [\\frac 12 \\times \\pi \\times (2r)^2- \\frac 12 \\times \\pi \\times (r)^2\\)</div><div>\\(\\Rightarrow _{{trunc(3*pi_val*k*k,2)}}_\\)</div><div>We can see, parallel path is in arectangular shape with length=4r and breadth=r</div><div>area of the parallel path=\\(2\\times [(4r)\\times (r)]\\)</div><div>\\(\\Rightarrow _{{2*4*k*k}}_\\)</div><div>So, area of the track=_{{trunc(3*pi_val*k*k,2)+2*4*k*k}}_\\(m^2\\)</div><div>Cost to build the track=\\(_{{trunc(3*pi_val*k*k,2)+2*4*k*k}}_\\times _{j}_\\)</div><div>\\(\\Rightarrow Rs. _{{(trunc(3*pi_val*k*k,2)+2*4*k*k)*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Calculate the cost to build a track at a rate of Rs_{j}_per \\(m^2\\)</div><div>The shape and dimensions of the track are given in the figure.(r=_{k}_metres)</div>", 
+    "img": "19.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{(trunc(3*pi_val*k*k,2)+2*4*k*k)*j}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Observe carefully. The decimal value in the quotient repeats itself after \\(857142\\) and the remainder never becomes zero.</div>", 
+    "img": "61.png"
+  }, 
+  "content": {
+    "text": "\\(\\frac{13}{7}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(1.0857142857142..........\\)"
+      }, 
+      {
+        "text": "\\(1.888888..........\\)"
+      }, 
+      {
+        "text": "\\(1.857142\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(1.857142857142..........\\)"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>volume of pen stand = volume of the cuboid - volume of the 3 cones</div><div>volume of the cuboid=\\(l\\times b \\times h\\), where \\(l\\) is length, \\(b\\) is width and \\(h\\) is height </div><div>\\(\\Rightarrow \\) Volume of the cuboid\\(=_{{2*k}}_ \\times _{{4*k}}_ \\times _{k}_=_{{8*k*k*k}}_\\)</div><div>Now volume of the cone\\(=\\frac 13 \\times[\\pi \\times r^2 \\times height]\\) radius, R of the cone=\\(_{{Decimal('0.5')*k}}_\\) and height \\(= _{k}_ \\)</div><div>\\(\\Rightarrow \\frac 13 \\times \\frac {22}7 \\times _{{Decimal('0.5')*k}}_^2 \\times _{k}_=_{{trunc(pi_val*k*k*k/12,2)}}_\\)</div><div>Volume of the 3 cones=\\(3\\times _{{trunc(pi_val*k*k*k/12,2)}}_=_{{trunc(3*pi_val*k*k*k/12,2)}}_\\)</div> <div>Volume of the wooden pen stand\\(=_{{8*k*k*k}}_ -_{{trunc(3*pi_val*k*k*k/12,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(8*k*k*k-3*pi_val*k*k*k/12,2)}}_\\,cm^3\\)</div><div>Now we know \\(mass=Density \\times volume=_{j}_\\times _{{trunc(8*k*k*k-3*pi_val*k*k*k/12,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(j*(8*k*k*k-3*pi_val*k*k*k/12),2)}}_\\, g \\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the mass of the wooden pen stand having 3 conical depressions of height equal to the height of the cuboid</div><div>Dimensions of the cuboid: length= _{{4*k}}_cm, height= _{k}_cm and  width= _{{2*k}}_cm</div><div>Density of the wood is _{j}_g per \\(cm^3\\)and value of R is \\(_{{Decimal('0.5')*k}}_\\, cm\\)</div>", 
+    "img": "12.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(j*(4*k*k*k-3*pi_val*k*k*k/12),2)}}_\\,g\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(j*(5*k*k*k-3*pi_val*k*k*k/12),2)}}_\\,g\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(j*(7*k*k*k-3*pi_val*k*k*k/12),2)}}_\\,g\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(j*(8*k*k*k-3*pi_val*k*k*k/12),2)}}_\\,g\\)"
+    }
+  }
+}

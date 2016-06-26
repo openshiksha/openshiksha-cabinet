@@ -1,0 +1,25 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<table class='table table-bordered table-condensed table-striped'><thead><tr><th>Plant Disease</th><th>Microorganism</th></tr></thead><tbody><tr><td>Yellow vein mosaic of okra</td><td>Virus</td></tr><tr><td>Citrus Canker</td><td>Bacteria</td></tr><tr><td>Rust of wheat</td><td>Fungi</td></tr></tbody></table>"
+  }, 
+  "content": {
+    "text": "Fungi"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Citrus Canker"
+      }, 
+      {
+        "text": "Yellow vein mosaic of okra(bhindi)"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Rust of wheat"
+    }
+  }
+}

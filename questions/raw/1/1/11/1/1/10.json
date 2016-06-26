@@ -1,0 +1,50 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Common difference of the A.P. is</div><div>\\(d= a_2 - a_1 =a_3 - a_2= _{q}_\\)</div><div>if Sum of n terms is \\(S_n\\)</div><div>\\(S_n=\\frac{n}{2}\\times (2a_1+(n-1)\\times d)\\)</div><div>Manipulating this equation we get</div><div>\\(n^2d+(2a_1-d)n-2S_n=0\\)</div><div>Solving this quadratic equation we get n = _{r}_</div>"
+  }, 
+  "content": {
+    "text": "<div>How many terms of the A.P.\\( _{p}_ , _{{p+q}}_ , _{{p+2*q}}_ , . . \\) are needed to give the sum _{{(r*(2*p+(r-1)*q))/2}}_</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -6, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            -10, 
+            -10
+          ]
+        ]
+      }
+    }, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            1, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{r}}_"
+  }, 
+  "type": 3
+}

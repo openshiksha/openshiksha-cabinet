@@ -1,0 +1,68 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\(_{j}_^{\\frac{_{k}_}{_{l}_}}._{m}_^{\\frac{_{k}_}{_{l}_}}\\)</div><div>Since the exponent in both the terms is common, the base can be multiplied.</div><div>\\(=_{{j*m}}_^{\\frac{_{k}_}{_{l}_}}\\)</div><div>\\(=_{{j*m}}_^{_{{Fraction(k,l)}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_^{\\frac{_{k}_}{_{l}_}}._{m}_^{\\frac{_{k}_}{_{l}_}}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j+m}}_^{_{{Fraction(k,l)}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j-m}}_^{_{{Fraction(k,l)}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j*m}}_^{_{{Fraction(2*k,l)}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j*m}}_^{_{{Fraction(k,l)}}_}\\)"
+    }
+  }
+}

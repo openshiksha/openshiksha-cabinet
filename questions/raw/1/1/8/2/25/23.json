@@ -1,0 +1,22 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Consider an example where you are given the task of pushing a wall.</div><div>Even though you apply as much force as you can, the wall doesn't move.</div><div>Thus, the application of a force doesn't always results in a change in the state of motion of an object.</div>"
+  }, 
+  "content": {
+    "text": "The application of a force will always result in a change in the state of motion of the object."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

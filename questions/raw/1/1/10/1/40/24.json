@@ -1,0 +1,35 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given that:</div><div>\\(\\angle A\\) = \\(90^{\\circ}\\)</div><div>AB = _{{3*i}}_ units , AC = _{{4*i}}_ units</div><div>Since, Given triangle is a right angle triangle, it will follow Pythagoras Theorem as follows:</div><div>\\(BC^2 = AB^2 + AC^2\\)</div><div>i.e., \\(BC^2 = _{{3*i}}_^2 + _{{4*i}}_^2\\)</div><div>i.e., \\(BC^2 = _{{pow(3*i,2)}}_ + _{{pow(4*i,2)}}_\\)</div><div>i.e., \\(BC^2 = _{{pow(3*i,2)+pow(4*i,2)}}_\\)</div><div>i.e., \\(BC = \\sqrt{_{{pow(3*i,2)+pow(4*i,2)}}_}\\)</div><div>i.e., \\(BC = _{{5*i}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>\\(\\Delta ABC\\) is right angled at A.If AB = _{{3*i}}_ units and AC = _{{4*i}}_ units,then find BC.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            4, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(BC = _{{5*i+10}}_\\)"
+      }, 
+      {
+        "text": "\\(BC = _{{5*i-10}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(BC = _{{5*i}}_\\)"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "The roar of a tiger is _____ pitched."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "high"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "low"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

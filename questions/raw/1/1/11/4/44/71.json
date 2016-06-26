@@ -1,0 +1,43 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "The total enthalpy change is the sum of the following:<br><ul><li>Energy change involved in transforming _{j}_ moles of water at _{k}_\\(^\\circ\\)C to _{j}_ moles of water at 0\\(^\\circ\\) C</li><li>Energy change involved in transforming _{j}_ moles of water at 0\\(^\\circ\\)C to _{j}_ moles of ice at 0\\(^\\circ\\) C</li><li>Energy change involved in transforming _{j}_ moles of ice at 0\\(^\\circ \\) C to _{j}_ moles of ice at -_{l}_\\(^\\circ\\) C</li></ul>Note that \\(\\Delta H_ {freeze} = (-1 \\times \\Delta H_ {fus})\\)<br>Also remember to convert \\(\\Delta H_ {freeze}\\) to units of \\(\\frac{J}{mol}\\)<br>Therefore, the total enthalpy change is :<br>\\(\\Delta H = No. of\\;Moles \\times (C_ {p'} \\times \\Delta T_1 + (-1 \\times \\Delta H_ {fus} \\times 1000) + C_ {p''} \\times \\Delta T_2)\\)<br>\\(\\Delta H = _{j}_ \\times (75.3 \\times (-_{k}_) + 6030 + 36.8 \\times (-_{l}_))\\)<br>\\(\\implies \\Delta H = -_{{j*((75.3 * k) + 6030 + (36.8 * l))}}_ \\frac{J}{mol}\\)<br>\\(\\implies \\Delta H = -_{{j*((75.3 * k) + 6030 + (36.8 * l))*0.001}}_ \\frac{kJ}{mol}\\)"
+  }, 
+  "content": {
+    "text": "What is the enthalpy change on freezing _{j}_ moles of water at _{k}_\\(^\\circ \\) C to ice at negative _{l}_\\(^\\circ\\) C? Use the following data:<br>\\(\\Delta_ {fus}H = 6.03 \\frac {kJ}{mol} at\\;0^{\\circ}C\\)<br>\\(C_p (H_2O (l)) = C_ {p'}= 75.3 \\frac{J}{mol\\;K}\\)<br>\\(C_p (H_2O (s))= C_ {p''} = 36.8 \\frac{J}{mol\\;K}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            10
+          ]
+        ], 
+        "include": [
+          [
+            3, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "-_{{j*((75.3 * k) + 6030 + (36.8 * l))*0.001}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac{kJ}{mol}\\)"
+}

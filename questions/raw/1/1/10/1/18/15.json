@@ -1,0 +1,33 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>We know, Dividend = Divisor \\(\\times \\) Quotient + Remainder </div><div>\\(\\Rightarrow \\frac {Dividend - Remainder}{Quotient}= Divisor\\)</div><div>So we divide \\(_{{j*l}}_x^3+_{{j+k*l}}_x^2+_{{j*m+k+1}}_x+_{{k*m+n}}_-_{n}_-x\\) by \\(_{j}_x+_{k}_\\)</div><div>First to obtain \\(_{{j*l}}_x^3\\) we multiply  \\((_{j}_x+_{k}_)\\) by \\(_{l}_x^2\\)</div><div>secondly to obtain \\(_{j}_x^2\\) we multiply \\((_{j}_x+_{k}_)\\) by \\(x\\)</div><div>finally to obtain \\(_{{j*m}}_x\\) we multiply \\((_{j}_x+_{k}_)\\) by _{m}_</div><div>\\(\\require{enclose}\\begin{array}{r}                    _{l}_x^2+x+_{m}_  \\\\[-3pt] _{j}_x+_{k}_\\enclose{longdiv}{_{{j*l}}_x^3+_{{j+k*l}}_x^2+_{{j*m+k}}_x+_{{k*m}}_} \\\\[-3pt]         \\underline{_{{j*l}}_x^3+_{{k*l}}_x^2}\\phantom{2} \\\\[-3pt]                    _{j}_x^2+_{{j*m+k}}_x  \\\\[-3pt]         \\underline{_{j}_x^2+_{k}_x}\\phantom{2} \\\\[-3pt]                        _{{j*m}}_x+_{{k*m}}_  \\\\[-3pt]         \\underline{_{{j*m}}_x+_{{k*m}}_}\\phantom{2} \\\\[-3pt]                        0\\end{array}\\)</div><div>hence \\(g(x)=_{l}_x^2+x+_{m}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>On dividing \\(_{{j*l}}_x^3+_{{j+k*l}}_x^2+_{{j*m+k+1}}_x+_{{k*m+n}}_\\) by a polynomial \\(g(x)\\),</div><div>,the quotient and remainder were \\(_{j}_x+_{k}_\\) and \\(_{n}_+x\\), respectively.</div> <div>Find the polynomial g(x).</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}, 
+    "n": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{l}_x^2+x+_{{m+1}}_ \\)"
+      }, 
+      {
+        "text": "\\(_{l}_x^2+x+_{{m+2}}_ \\)"
+      }, 
+      {
+        "text": "\\(_{l}_x^2+x+_{{m-1}}_ \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{l}_x^2+x+_{m}_ \\)"
+    }
+  }
+}

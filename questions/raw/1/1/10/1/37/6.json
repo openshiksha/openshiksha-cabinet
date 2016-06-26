@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given quadratic equation is : \\(x^2 + _{{k-l}}_x - _{{l*k}}_ = 0\\)</div><div>Let us first split the middle term _{{k-l}}_x as _{k}_x and -_{l}_x </div><div>[because \\((_{k}_x) \\times (-_{l}_x) = -_{{k*l}}_x^2 = (x^2) \\times (-_{{k*l}}_)\\)]</div><div>So, </div><div> \\(x^2 + _{{k-l}}_x - _{{l*k}}_ = 0\\) </div><div>\\(x^2 + _{k}_x - _{l}_x - _{{l*k}}_ = 0\\)</div> <div>\\(x(x + _{k}_)- _{l}_(x + _{k}_) = 0\\)</div><div>\\((x + _{k}_)(x - _{l}_) = 0\\)</div><div>Now,</div><div>\\(x^2 + _{{k-l}}_x - _{{l*k}}_ = 0\\) can be written as (x + _{k}_)(x - _{l}_) = 0.</div><div>So, the value of x for which (x + _{k}_)(x - _{l}_) = 0,</div><div>i.e., either x + _{k}_ = 0 or x - _{l}_ = 0.</div><div>Now,</div><div>x + _{k}_ = 0 gives x = -_{k}_ and x - _{l}_ = 0 gives x = _{l}_</div><div>So, x = -_{k}_ and x = _{l}_ are the roots of given quadratic equation.</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the roots of the equation \\(x^2 + _{{k-l}}_x - _{{l*k}}_ = 0\\), by factorisation.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "-_{{k+1}}_ , _{{l+1}}_"
+      }, 
+      {
+        "text": "-_{{k-2}}_ , _{{l-2}}_"
+      }, 
+      {
+        "text": "-_{{k+2}}_ , _{{l+2}}_"
+      }
+    ], 
+    "correct": {
+      "text": "-_{k}_ , _{l}_"
+    }
+  }
+}

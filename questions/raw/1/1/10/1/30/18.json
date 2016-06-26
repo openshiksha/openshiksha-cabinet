@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(a=_{j}_\\), \\(n=_{l}_\\) and \\(d=_{k}_\\)</div><div> using the formula \\(S_n=\\frac n2[2a+(n-1)d]\\)</div><div>\\(S_n=_{{(Decimal('0.5')*l)*(2*j+(l-1)*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In a school, students are imposed a penalty for delay in the submission of library books:</div><div>Penalty for the first day is Rs _{j}_, for the second day Rs _{{j+k}}_ and similarly the penalty for each succeeding day being Rs _{k}_ more than previous day.</div> <div>Govind has delayed the submission of his book by _{l}_ days. </div><div> How much money he has to pay as penalty to the school library?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(Decimal('0.5')*l)*(2*j+l*k)}}_"
+      }, 
+      {
+        "text": "_{{(Decimal('0.5')*l)*(2*j+(l-2)*k)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(Decimal('0.5')*l)*(2*j+(l-1)*k)}}_"
+    }
+  }
+}

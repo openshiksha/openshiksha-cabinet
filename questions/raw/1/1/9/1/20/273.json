@@ -1,0 +1,41 @@
+{
+  "hint": {
+    "text": "Take note that the sphere is hollow."
+  }, 
+  "solution": {
+    "text": "<div>Density of material, \\(\\rho=_{j}_\\,\\frac{kg}{m^3}\\)</div><div>Inner diameter, \\(d_1=_{k}_\\,m\\)</div><div>\\(\\Rightarrow\\) Inner radius, \\(r_1=_{{k/Decimal(2)}}_\\,m\\)</div><div>Thickness, \\(t=_{l}_\\,cm\\)</div><div>Outer radius, \\(r_2=r_1+t=_{{k/Decimal(2)}}_+_{{trunc((l*Decimal(0.01)),2)}}_=_{{trunc((k/Decimal(2)+l*Decimal(0.01)),2)}}_\\,m\\)</div><div>Volume of the object, \\(V=\\frac43 \\pi (r_2^3-r_1^3)\\)</div><div>\\(=\\frac43 \\pi (_{{trunc((k/Decimal(2)+l*Decimal(0.01)),2)}}_^3-_{{k/Decimal(2)}}_^3)\\)</div><div>\\(=\\frac43 \\pi (_{{trunc(((k/Decimal(2)+l*Decimal(0.01))**3),3)}}_-_{{(k/Decimal(2))**3}}_)\\)</div><div>\\(\\Rightarrow V=_{{trunc(((Decimal(4)/3)*pi_val*(((k/Decimal(2)+l*Decimal(0.01))**3)-((k/Decimal(2))**3))),3)}}_\\,m^3\\)</div><div>Mass of the object, \\(M=V \\times \\rho\\)</div><div>\\(\\Rightarrow M=_{{trunc(((Decimal(4)/3)*pi_val*(((k/Decimal(2)+l*Decimal(0.01))**3)-((k/Decimal(2))**3))),3)}}_ \\times _{j}_\\)</div><div>\\(\\Rightarrow M=_{{trunc(((Decimal(4)/3)*pi_val*(((k/Decimal(2)+l*Decimal(0.01))**3)-((k/Decimal(2))**3))*j),3)}}_\\,kg\\)</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "The mass of a spherical object of material density \\(_{j}_\\,\\frac{kg}{m^3}\\) with inner diameter \\(_{k}_\\,m\\) and  \\(_{l}_\\,cm\\) thickness."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc(((Decimal(4)/3)*pi_val*(((k/Decimal(2)+l*Decimal(0.01))**3)-((k/Decimal(2))**3))*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(kg\\)"
+}

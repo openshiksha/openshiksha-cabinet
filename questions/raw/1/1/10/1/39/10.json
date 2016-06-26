@@ -1,0 +1,68 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given Coordinates of boy's hostel B = (_{i}_,_{j}_) and girl's hostel G = (_{k}_,_{l}_).</div><div>And, the ratio is = 2 : 1  </div><div>Let the coordinates of food court be (x,y)</div><div>Then, using section formula, we get : </div><div> x = \\({_{i}_ + 2\\times _{k}_}\\over 2+1\\) , y = \\({_{j}_ + 2\\times _{l}_}\\over 2+1\\)</div><div> x = \\({_{i}_ + _{{2*k}}_}\\over 3\\) , y = \\({_{j}_ + _{{2*l}}_}\\over 3\\)</div><div> x = \\({_{{i+(2*k)}}_}\\over 3\\) , y = \\(_{{j+(2*l)}}_\\over 3\\)</div><div>Therefore, the coordinates of the court are as follows:</div><div> x = \\({_{{i+(2*k)}}_}\\over 3\\) , y = \\(_{{j+(2*l)}}_\\over 3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A civil engineer has to design a food court between boy's and girl's hostels in such a way that distance of the food court from boy's hostel is twice of the distance from girl's hostel.</div><div>Coordinates of the boy's hostel and girl's hostel are as follows : Boys(_{i}_,_{j}_) and Girls(_{k}_,_{l}_).Find the coordinates of the food court.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            14, 
+            22
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            14, 
+            22
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = \\({_{{i+(2*k)}}_}\\over 3\\) , y = \\(_{{j+2+(2*l)}}_\\over 3\\)"
+      }, 
+      {
+        "text": "x = \\({_{{i+2+(2*k)}}_}\\over 3\\) , y = \\(_{{j+(2*l)}}_\\over 3\\)"
+      }, 
+      {
+        "text": "x = \\({_{{i-2+(2*k)}}_}\\over 3\\) , y = \\(_{{j+2+(2*l)}}_\\over 3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "x = \\({_{{i+(2*k)}}_}\\over 3\\) , y = \\(_{{j+(2*l)}}_\\over 3\\)"
+    }
+  }
+}

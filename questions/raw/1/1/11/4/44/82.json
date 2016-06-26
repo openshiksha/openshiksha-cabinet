@@ -1,0 +1,72 @@
+{
+  "hint": {
+    "text": "Remember that \\(\\Delta_r S_ {surr} = - \\frac { \\Delta _r H_T}{T}\\)"
+  }, 
+  "solution": {
+    "text": "The spontaneity of a reaction is decided based on the total entropy change or \\(\\Delta_r S_ {total}\\) not by \\(\\Delta_r S_ {sys}\\) <br>\\(\\Delta_r S_ {total} = \\Delta_r S_ {sys} + \\Delta_r S_ {surr}\\)<br>Also \\(\\Delta_r S_ {surr} = - \\frac { \\Delta _r H_T}{T}\\)<br>Therefore, \\(\\Delta_r S_ {surr} = - \\frac {- _{m}_ \\times 10^3}{_{i}_}\\) = \\(_{{trunc(Decimal(m) * 1000 / i, 2)}}_ \\frac{J}{K\\;mol}\\)<br><br>\\(\\implies \\Delta_r S_ {total} = - _{l}_ + _{{trunc(Decimal(m) * 1000 / i, 2)}}_\\)<br>\\(\\implies \\Delta_r S_ {total} = _{{trunc((Decimal(m) * 1000 / i)-Decimal(l),2)}}_\\)<br><br>Since the total entropy change for this reaction is positive, it is spontaneous."
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "The reaction \\((A \\rightarrow _{k}_ B)\\) has a \\(\\Delta S_ {sys} = -_{l}_ \\frac{J}{K\\;mol}\\) at _{i}_ K but is still spontaneous. <b>Why is that?</b> Note that \\((\\Delta _r H_ {_{i}_K} = - _{m}_ * 10^3 \\frac{J}{mol})\\)"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            270, 
+            330
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            1001, 
+            1999
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            400, 
+            600
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "The total enthalpy change for this reaction is positive"
+      }, 
+      {
+        "text": "The entropy change for the surroundings is negative"
+      }, 
+      {
+        "text": "The change in Gibbs energy is positive"
+      }
+    ], 
+    "correct": {
+      "text": "The total entropy change for this reaction is positive"
+    }
+  }
+}

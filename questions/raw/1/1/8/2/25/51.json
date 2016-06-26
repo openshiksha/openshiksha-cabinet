@@ -1,0 +1,22 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Before being hit, the ball was in a state of rest and its speed was zero.</div><div>The applied force causes the ball to move towards the goal.</div><div>Thus, causing a change in its state of motion.</div>"
+  }, 
+  "content": {
+    "text": "While kicking the ball, the force exerted by the footballer causes a change in _____ of the football."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "shape"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "state of motion"
+    }
+  }
+}

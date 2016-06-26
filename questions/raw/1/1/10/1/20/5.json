@@ -1,0 +1,31 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>TSA of the box= SA of 5 faces of a cuboid + [area of side semicircular faces of the cylinder] + CSA of the half cylinder</div><div>CSA of the half cylinder is given by \\(\\pi \\times r \\times h\\)</div><div>Cylinder is are placed on the cuboid,\\(\\Rightarrow 2\\times radius(r) = width\\,of\\,cuboid\\Rightarrow r=_{{6*j}}_\\)</div> <div>and length of the cylinder = length of the cuboid = _{{24*j}}_</div><div>therefore area of a half cylinder=\\([\\pi \\times _{{6*j}}_ \\times _{{24*j}}_]=_{{trunc(pi_val*j*j*144,2)}}_\\)</div><div>Therefore area of 5 faces of a cuboid=\\( 2\\times (lh+bh) + lb\\)</div><div>\\(\\Rightarrow _{{2*24*j*4*j+2*12*j*4*j+12*j*24*j}}_\\)</div><div>area of the circles on the side faces=\\([\\pi \\times r^2=_{{trunc(pi_val*j*j*36,2)}}_]\\)</div><div>TSA of the box= SA of 5 faces of a cuboid + [area of the side faces of the cylinder] + CSA of the half cylinder</div><div>\\(\\Rightarrow _{{2*24*j*4*j+2*12*j*4*j+12*j*24*j}}_ + _{{trunc(pi_val*j*j*36,2)}}_ + _{{trunc(pi_val*j*j*144,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(2*24*j*4*j+2*12*j*4*j+12*j*24*j+pi_val*j*j*36+pi_val*j*j*144,2)}}_\\)</div><div>Cost of painting at a rate of Rs_{k}_ per \\(cm^2\\)=\\(_{k}_\\times _{{trunc(2*24*j*4*j+2*12*j*4*j+12*j*24*j+pi_val*j*j*36+pi_val*j*j*144,2)}}_=Rs\\,_{{trunc(k*(2*24*j*4*j+2*12*j*4*j+12*j*24*j+pi_val*j*j*36+pi_val*j*j*144),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Rishab manufactures boxes which are in the shape of a cuboid surmounted by a half cylinder.</div><div>The dimensions of the cuboid are:height(h) = _{{4*j}}_ , length(l) = _{{24*j}}_ , width(b)=_{{12*j}}_</div><div>Find the cost of painting the outer surface of the box at a rate of Rs_{k}_ per \\(cm^2\\)</div>", 
+    "img": "5.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc((k-1)*(2*24*j*4*j+2*12*j*4*j+12*j*24*j+pi_val*j*j*36+pi_val*j*j*144),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc((k+1)*(2*24*j*4*j+2*12*j*4*j+12*j*24*j+pi_val*j*j*36+pi_val*j*j*144),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(2*24*j*4*j+2*12*j*4*j+12*j*24*j-pi_val*j*j*36+pi_val*j*j*144,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(k*(2*24*j*4*j+2*12*j*4*j+12*j*24*j+pi_val*j*j*36+pi_val*j*j*144),2)}}_"
+    }
+  }
+}

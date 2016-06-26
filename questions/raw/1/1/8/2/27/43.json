@@ -1,0 +1,46 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Loudness of sound \\(=_{k}_\\) dB</div><div>Amplitude of vibration \\(=_{j}_\\) cm</div><div>Factor by which amplitude increases \\(= _{l}_\\)</div><div>We already know, Loudness \\(=\\) Amplitude\\(^2\\).</div><div>Therefore, the loudness of sound corresponding to the new amplitude of vibration \\(=_{l}_^2 \\times _{k}_\\)</div><div>\\(=_{{l**2}}_ \\times _{k}_=_{{l**2*k}}_\\)</div><div>New loudness of sound \\(=_{{l**2*k}}_\\) dB</div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "If the loudness of sound for a \\(_{j}_\\) cm amplitude of vibration is \\(_{k}_\\) dB, what will be the loudness of sound if the amplitude increases by \\(_{l}_\\) times?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{l**2*k}}_"
+  }, 
+  "type": 3, 
+  "unit": "dB"
+}

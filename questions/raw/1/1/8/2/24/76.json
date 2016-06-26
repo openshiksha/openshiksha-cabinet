@@ -1,0 +1,25 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>When a sperm containing X chromosome fertilises theegg, the zygote would have two X chromosomes and develop into a female child.</div><div>If the sperm contributes a Y chromosome to the egg at fertilisation, the zygote would develop into a male child.</div>"
+  }, 
+  "content": {
+    "text": "<div>We know, the gametes have only one set of chromosomes.</div><div>When a sperm containing _{j}_ chromosome fertilises the egg, the zygote would develop into a _____ child.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "female", 
+        "male"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "X", 
+        "Y"
+      ]
+    }
+  }, 
+  "answer": "_{k}_", 
+  "type": 4
+}

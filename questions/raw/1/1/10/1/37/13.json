@@ -1,0 +1,50 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given equation : \\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_ = 0\\)</div><div>Now,</div><div>Follow the process as follows:</div><div>\\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_\\) = \\(x^2 - _{l}_x - _{l}_x + _{{l*l}}_ - _{{l*l}}_ + _{{(l*l)-(k*k)}}_\\)</div><div>i.e., \\(x(x - _{l}_) - _{l}_(x - _{l}_) -_{{k*k}}_ \\)</div><div>i.e., \\((x - _{l}_)\\times (x - _{l}_) -_{{k*k}}_ \\)</div><div>i.e., \\((x - _{l}_)^2 -_{{k*k}}_ \\)</div><div>\\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_ = (x - _{l}_)^2 -_{{k*k}}_ = 0\\)</div><div>i.e., \\((x - _{l}_)^2 = _{{k*k}}_\\)</div><div>i.e., \\((x - _{l}_) = \\pm_{k}_\\)</div><div>i.e., x = _{l}_ + _{k}_ and x = _{l}_ - _{k}_</div><div>i.e., x = _{{l+k}}_ and x = _{{l-k}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the roots of \\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_ = 0\\) by the method of completing the square.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            32, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{l+k+3}}_ , _{{l-k-3}}_"
+      }, 
+      {
+        "text": "_{{l-k-3}}_ , _{{l+k+3}}_"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "_{{l+k}}_ , _{{l-k}}_"
+      }, 
+      {
+        "text": "_{{l-k}}_ , _{{l+k}}_"
+      }
+    ]
+  }
+}

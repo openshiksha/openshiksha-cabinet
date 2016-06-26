@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "<div>Determine the third side and then the area.</div>"
+  }, 
+  "solution": {
+    "text": "<div>We know :</div><div>Perimeter = sum of all sides</div><div>Therefore, Third side = perimeter - sum of two sides</div><div>i.e., Third side = _{{44*j}}_ - (_{{11*j}}_+_{{20*j}}_) = _{{44*j-(11*j+20*j)}}_</div><div>Hence, a = _{{11*j}}_, b = _{{20*j}}_ and c = _{{13*j}}_</div><div>Thus, s = \\(a+b+c\\over 2\\) = \\(_{{11*j}}_+_{{20*j}}_+_{{13*j}}_\\over 2\\) = _{{22*j}}_</div><div>Now,  applying Heron's formula:</div><div>i.e., Area of triangle = \\(\\sqrt{s(s-a)(s-b)(s-c)}\\)</div><div>i.e., Area of triangle = \\(\\sqrt{_{{22*j}}_\\times _{{11*j}}_\\times _{{2*j}}_\\times _{{9*j}}_}\\)</div><div>i.e., Area of triangle = \\(\\sqrt{_{{11*2*j*11*j*2*j*9*j}}_}\\)</div><div>i.e., Area of triangle = _{{11*2*3*j*j}}_</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>Find the area of a triangle whose two sides are _{{11*j}}_ and _{{20*j}}_ cm and perimeter is _{{44*j}}_ cm. </div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{11*2*3*j*j}}_"
+  }, 
+  "type": 3
+}

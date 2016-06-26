@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The secretion of sebaceous glands, also known as oil glands, increases after puberty.</div><div>Hence, some adolescents may suffer from acne.</div>"
+  }, 
+  "content": {
+    "text": "Adolescents may suffer from acne due to _____ ."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "increased secretion of adrenal glands"
+      }, 
+      {
+        "text": "increased secretion of pituitary glands"
+      }, 
+      {
+        "text": "increased secretion of thyroid glands"
+      }
+    ], 
+    "correct": {
+      "text": "increased secretion of sebaceous glands"
+    }
+  }
+}

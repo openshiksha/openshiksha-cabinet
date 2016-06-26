@@ -1,0 +1,88 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>To calculate the median, we need to find the cumulative frequency.</div><div>As follows: </div><div>\\begin{array}{c|lcr} interval & \\text{frequency} & \\text{Cumulative frequency} \\\\ \\hline \\ 0-10 & _{i}_ & _{i}_ \\\\ \\hline \\ 10-20 & _{j}_ & _{{i+j}}_ \\\\ \\hline \\ 20-30 & _{k}_ & _{{i+j+k}}_ \\\\ \\hline \\ 30-40 & x & _{{i+j+k}}_+x \\\\ \\hline \\ 40-50 & _{m}_ & _{{i+j+k+m}}_+x \\\\ \\hline \\ 50-60 & y & _{{i+j+k+m}}_+x+y \\\\ \\hline \\ 60-70 & _{l}_ & _{{i+j+k+l+m}}_+x+y \\\\ \\hline \\end{array}</div><div>It is given that n = _{{i+j+k+l+m+12}}_So, _{{i+j+k+l+m}}_ + x + y = _{{i+j+k+l+m+12}}_,</div><div> i.e., x + y = 12 ------ (1)</div><div>The median is 44, which lies in the class (40 - 50)</div><div>So, l = 40, f = _{m}_, cf = _{{i+j+k}}_+x  , h = 10</div><div>Using formula:</div><div>Median = l +\\({{({n\\over 2} - cf})\\over {f}}\\)*h</div><div>Median = 40 +\\({{({_{{i+j+k+l+m+12}}_\\over 2} - (_{{i+j+k}}_+x)})\\over _{m}_}\\)*10</div><div>Median = 40 +\\({({_{{(i+j+k+l+m+12)/2}}_ - (_{{i+j+k}}_+x)})\\over _{m}_}\\)*10</div><div>Median = 40 +\\({({_{{((i+j+k+l+m+12)/2)-(i+j+k)}}_-x})\\over _{m}_}\\)*10</div><div>44 = 40 +\\({({_{{((i+j+k+l+m+12)/2)-(i+j+k)}}_-x})\\over _{m}_}\\)*10</div><div>_{{44-40}}_ = \\({({_{{((i+j+k+l+m+12)/2)-(i+j+k)}}_-x})\\over _{m}_}\\)*10</div><div>_{{Decimal(44-40)/10}}_ = \\({({_{{((i+j+k+l+m+12)/2)-(i+j+k)}}_-x})\\over _{m}_}\\)</div><div>_{{(Decimal(44-40)/10)*m}}_ = \\({({_{{((i+j+k+l+m+12)/2)-(i+j+k)}}_-x})}\\)</div><div>x = _{{(((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m)}}_ </div><div>Round off the value of x.</div><div>x = _{{trunc((((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_ </div><div> x + y = 12</div><div> _{{trunc((((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_ + y = 12</div><div> y = 12 - _{{trunc((((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_</div><div> y =  _{{12-(trunc((((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0))}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>The median of the following data is 44. Find the values of x and y, if the total frequency is _{{i+j+k+l+m+12}}_.</div><div>\\begin{array}{c|lcr} interval & \\text{frequency} \\\\ \\hline \\ 0-10 & _{i}_ \\\\ \\hline \\ 10-20 & _{j}_ \\\\ \\hline \\ 20-30 & _{k}_ \\\\ \\hline \\ 30-40 & x \\\\ \\hline \\ 40-50 & _{m}_ \\\\ \\hline \\ 50-60 & y \\\\ \\hline \\ 60-70 & _{l}_ \\\\ \\hline \\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "options": [
+        "2", 
+        "4", 
+        "6", 
+        "4", 
+        "2", 
+        "4", 
+        "6", 
+        "4"
+      ]
+    }, 
+    "k": {
+      "options": [
+        "2", 
+        "6", 
+        "8", 
+        "4", 
+        "2", 
+        "4", 
+        "8", 
+        "4"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "4", 
+        "2", 
+        "6", 
+        "4", 
+        "6", 
+        "8", 
+        "4", 
+        "2"
+      ]
+    }, 
+    "m": {
+      "options": [
+        "36", 
+        "38", 
+        "36", 
+        "36", 
+        "38", 
+        "36", 
+        "38", 
+        "36"
+      ]
+    }, 
+    "l": {
+      "options": [
+        "8", 
+        "4", 
+        "2", 
+        "6", 
+        "8", 
+        "4", 
+        "6", 
+        "2"
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc((((i+j+k+l+m+15)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_ , _{{12-(trunc((((i+j+k+l+m+15)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0))}}_"
+      }, 
+      {
+        "text": "_{{trunc((((i+j+k+l+m+9)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_ , _{{12-(trunc((((i+j+k+l+m+9)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0))}}_"
+      }, 
+      {
+        "text": "_{{trunc((((i+j+k+l+m+18)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_ , _{{12-(trunc((((i+j+k+l+m+18)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0))}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc((((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0)}}_ , _{{12-(trunc((((i+j+k+l+m+12)/2)-(i+j+k))-((Decimal(44-40)/10)*m),0))}}_"
+    }
+  }
+}

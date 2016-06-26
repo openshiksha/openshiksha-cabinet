@@ -1,0 +1,33 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let </div><div>\\(a_a\\) = first term of first A.P</div><div>\\(b_a\\) = Common difference of first A.P</div><div>\\(a_b\\) = first term of Second A.P</div><div>\\(d_b\\) = Common difference of second A.P</div><div>Let Sum of both A.P. s be \\(S_a\\) and \\(S_b\\) respectively, then</div><div> \\(S_a:S_b=2a_a+(n-1)d_a:2a_b+(n-1)d_b\\)</div><div> Ratio of \\(n^{th}\\) terms of two A.P.s will be</div><div>\\(A_a:A_b= a_a+(n^l-1)d_a:a_b+(n^l-1)d_b\\)</div><div> Where \\(n^l\\) is given in the question = _{t}_ </div><div></div><div>Multiplying denominator and numerator with 2</div><div>\\(A_a:A_b= 2a_a+(2n^l-2)d_a:2a_b+(2n^l-2)d_b\\)</div><div> also given</div><div>\\(S_a:S_b=2a_a+(n-1)d_a:2a_b+(n-1)d_b=_{p}_n+_{q}_ : _{r}_n+_{s}_\\)</div><div> Equating above ratios \\(A_a^l:A_b^l=S_a:S_b\\) we get n</div><div>\\(2n^l-2=n-1\\)</div><div> Solving above equation</div><div>\\(n=2n^l-1=_{{2*t-1}}_\\)</div><div>Substituting the value of n into the ratio of sums to get the final answer</div><div>\\(A_a:A_b=\\frac{_{{p*(2*t-1)+q}}_}{_{{r*(2*t-1)+s}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>The sum of n terms of two A.P. are in the ratio \\(_{p}_n+_{q}_ : _{r}_n+_{s}_\\). Find the ratio of their \\(_{t}_^{th}\\) term. </div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}, 
+    "s": {}, 
+    "r": {}, 
+    "t": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{_{{p*(2*t)+q}}_}{_{{r*(2*t)+s}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{p*(t-1)+q}}_}{_{{r*(t-1)+s}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{p*(2*t+1)+q}}_}{_{{r*(2*t+1)+s}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{_{{p*(2*t-1)+q}}_}{_{{r*(2*t-1)+s}}_}\\)"
+    }
+  }
+}

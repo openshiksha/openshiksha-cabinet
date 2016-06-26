@@ -1,0 +1,29 @@
+{
+  "hint": {
+    "text": "For an equation: \\(aA(g) + bB(g) \\rightleftharpoons cC(g) + dD(g)\\)<br>Equilibrium Constant \\((K_p) = \\frac {(P_C)^c + (P_D)^d}{(P_A)^a + (P_B)^b}\\). Where P is the partial pressure of each gas.<br>Also note that Partial Pressure of an individual gas (say A) = Mole Fraction of A X Total Pressure<br>"
+  }, 
+  "solution": {
+    "text": "First calculate the mole fractions:<br>\\(x_  {N_2O_4} = \\frac {1 - _{{0.2 + (temp-298)*0.01}}_}{1 + _{{0.2 + (temp-298)*0.01}}_}\\) and \\(x_  {NO_2} = \\frac {2 * _{{0.2 + (temp-298)*0.01}}_}{1 + _{{0.2 + (temp-298)*0.01}}_}\\)<br><br>Partial Pressure of an individual gas = Mole Fraction of gas X Total Pressure. Therefore, partial pressure is: <br>\\(P_  {N_2O_4} = \\frac {1 - _{{0.2 + (temp-298)*0.01}}_}{1 + _{{0.2 + (temp-298)*0.01}}_} * 1 \\;atm\\) and \\(P_  {NO_2} = \\frac {2 * _{{0.2 + (temp-298)*0.01}}_}{1 + _{{0.2 + (temp-298)*0.01}}_} * 1\\;atm\\)<br><br>\\(P_  {N_2O_4} = _{{trunc(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))),3)}}_ \\;atm\\) and \\(P_  {NO_2} = _{{trunc(Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))),3)}}_ \\;atm\\)<br><br>Now, the equilibrium constant \\(K_p\\) is given by:<br>\\( K_p = \\frac {(P_ {NO_2})^2}{(P_ {N_2O_2})}\\)<br>\\(\\implies K_p = \\frac {(_{{trunc(Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))),3)}}_)^2}{(_{{trunc(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))),3)}}_)}\\)<br>\\(\\implies K_p = _{{trunc((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))),3)}}_\\)"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "The degree of dissociation \\((\\alpha)\\) at _{temp}_ K and 1 atmosphere of pressure is _{{0.2 + (temp-298)*0.01}}_. Calculate the equilibrium constant (K)"
+  }, 
+  "variable_constraints": {
+    "temp": {
+      "range": {
+        "include": [
+          [
+            298, 
+            333
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))),3)}}_"
+  }, 
+  "type": 3
+}

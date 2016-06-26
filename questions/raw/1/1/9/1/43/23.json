@@ -1,0 +1,45 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "The given equation can be represented as \\(_{k}_x + _{j}_y + 0 = 0\\) (in the format of <b>\\(ax + by + c = 0\\) </b>)<br>Where<br>\\(a = _{k}_\\)<br>\\(b = _{j}_\\)<br>\\(c = 0\\)"
+  }, 
+  "content": {
+    "text": "<b>\\(_{k}_x + _{j}_y = 0\\)</b> Find \\(c\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            90
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            70
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

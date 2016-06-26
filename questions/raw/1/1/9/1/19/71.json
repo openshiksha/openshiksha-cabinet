@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{{(j*k*l*m+241)/Decimal(1000)}}_\\)</div><div>Multiplying and dividing by \\(1000\\) to shift all numbers to the left of the decimal point,</div><div>\\(=\\frac{_{{(j*k*l*m+241)/Decimal(1000)}}_ \\times 1000}{1000}\\)</div><div>\\(=\\frac{_{{(j*k*l*m+241)}}_}{1000}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{{(j*k*l*m+241)/Decimal(1000)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{(j*k*l*m+241)}}_/1000"
+  }, 
+  "type": 3
+}

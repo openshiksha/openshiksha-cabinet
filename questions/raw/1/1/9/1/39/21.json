@@ -1,0 +1,108 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Given that the coordinates are _{{j-10}}_ and _{{10-k}}_, we know that the required point is _{{j-10}}_ units away from the y axis and _{{10-k}}_ units away from the x axis. The only point that matches that criteria is the yellow marker as shown below.<br><br><svg width='500px' height='500px' viewBox='0 0 500 500'><line x1='250' y1='0' x2='250' y2='500' style='stroke:rgb(0,0,0);stroke-width:2' /><line x1='0' y1='250' x2='500' y2='250' style='stroke:rgb(0,0,0);stroke-width:2' /><line x1='25' y1='0' x2='25' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='50' y1='0' x2='50' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='75' y1='0' x2='75' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='100' y1='0' x2='100' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='125' y1='0' x2='125' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='150' y1='0' x2='150' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='175' y1='0' x2='175' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='200' y1='0' x2='200' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='225' y1='0' x2='225' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='275' y1='0' x2='275' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='300' y1='0' x2='300' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='325' y1='0' x2='325' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='350' y1='0' x2='350' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='375' y1='0' x2='375' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='400' y1='0' x2='400' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='425' y1='0' x2='425' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='450' y1='0' x2='450' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='475' y1='0' x2='475' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='25' x2='500' y2='25' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='50' x2='500' y2='50' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='75' x2='500' y2='75' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='100' x2='500' y2='100' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='125' x2='500' y2='125' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='150' x2='500' y2='150' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='175' x2='500' y2='175' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='200' x2='500' y2='200' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='225' x2='500' y2='225' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='275' x2='500' y2='275' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='300' x2='500' y2='300' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='325' x2='500' y2='325' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='350' x2='500' y2='350' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='375' x2='500' y2='375' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='400' x2='500' y2='400' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='425' x2='500' y2='425' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='450' x2='500' y2='450' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='475' x2='500' y2='475' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='_{{j*25}}_' y1='250' x2='_{{j*25}}_' y2='_{{k*25}}_' style='stroke:rgb(255,0,0);stroke-width:2' /><line x1='_{{j*25}}_' y1='_{{k*25}}_' x2='250' y2='_{{k*25}}_' style='stroke:rgb(255,0,0);stroke-width:2' /><text x='15' y='270' fill='red'>-9</text><circle cx='25' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='115' y='270' fill='red'>-5</text><circle cx='125' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='470' y='270' fill='red'>9</text><circle cx='475' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='370' y='270' fill='red'>5</text><circle cx='375' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='230' y='30' fill='red'>9</text><circle cx='250' cy='25' r='4' stroke='black' stroke-width='1' fill='black' /><text x='225' y='480' fill='red'>-9</text><circle cx='250' cy='475' r='4' stroke='black' stroke-width='1' fill='black' /><text x='225' y='380' fill='red'>-5</text><circle cx='250' cy='375' r='4' stroke='black' stroke-width='1' fill='black' /><text x='230' y='130' fill='red'>5</text><circle cx='250' cy='125' r='4' stroke='black' stroke-width='1' fill='black' /><text x='230' y='130' fill='red'>5</text><circle cx='250' cy='125' r='4' stroke='black' stroke-width='1' fill='black' /><circle cx='_{{j*25}}_' cy='_{{k*25}}_' r='8' stroke='black' stroke-width='2' fill='yellow' /><circle cx='_{{l*25}}_' cy='_{{m*25}}_' r='8' stroke='black' stroke-width='2' fill='green' /><circle cx='_{{n*25}}_' cy='_{{o*25}}_' r='8' stroke='black' stroke-width='2' fill='blue' /><circle cx='_{{p*25}}_' cy='_{{q*25}}_' r='8' stroke='black' stroke-width='2' fill='red' /></svg>"
+  }, 
+  "content": {
+    "text": "<b>Coordinates : _{{j-10}}_,_{{10-k}}_</b><br><svg width='500px' height='500px' viewBox='0 0 500 500'><line x1='250' y1='0' x2='250' y2='500' style='stroke:rgb(0,0,0);stroke-width:2' /><line x1='0' y1='250' x2='500' y2='250' style='stroke:rgb(0,0,0);stroke-width:2' /><line x1='25' y1='0' x2='25' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='50' y1='0' x2='50' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='75' y1='0' x2='75' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='100' y1='0' x2='100' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='125' y1='0' x2='125' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='150' y1='0' x2='150' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='175' y1='0' x2='175' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='200' y1='0' x2='200' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='225' y1='0' x2='225' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='275' y1='0' x2='275' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='300' y1='0' x2='300' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='325' y1='0' x2='325' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='350' y1='0' x2='350' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='375' y1='0' x2='375' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='400' y1='0' x2='400' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='425' y1='0' x2='425' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='450' y1='0' x2='450' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='475' y1='0' x2='475' y2='500' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='25' x2='500' y2='25' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='50' x2='500' y2='50' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='75' x2='500' y2='75' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='100' x2='500' y2='100' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='125' x2='500' y2='125' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='150' x2='500' y2='150' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='175' x2='500' y2='175' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='200' x2='500' y2='200' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='225' x2='500' y2='225' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='275' x2='500' y2='275' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='300' x2='500' y2='300' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='325' x2='500' y2='325' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='350' x2='500' y2='350' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='375' x2='500' y2='375' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='400' x2='500' y2='400' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='425' x2='500' y2='425' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='450' x2='500' y2='450' style='stroke:rgb(150,150,150);stroke-width:1' /><line x1='0' y1='475' x2='500' y2='475' style='stroke:rgb(150,150,150);stroke-width:1' /><text x='15' y='270' fill='red'>-9</text><circle cx='25' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='115' y='270' fill='red'>-5</text><circle cx='125' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='470' y='270' fill='red'>9</text><circle cx='475' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='370' y='270' fill='red'>5</text><circle cx='375' cy='250' r='4' stroke='black' stroke-width='1' fill='black' /><text x='230' y='30' fill='red'>9</text><circle cx='250' cy='25' r='4' stroke='black' stroke-width='1' fill='black' /><text x='225' y='480' fill='red'>-9</text><circle cx='250' cy='475' r='4' stroke='black' stroke-width='1' fill='black' /><text x='225' y='380' fill='red'>-5</text><circle cx='250' cy='375' r='4' stroke='black' stroke-width='1' fill='black' /><text x='230' y='130' fill='red'>5</text><circle cx='250' cy='125' r='4' stroke='black' stroke-width='1' fill='black' /><text x='230' y='130' fill='red'>5</text><circle cx='250' cy='125' r='4' stroke='black' stroke-width='1' fill='black' /><circle cx='_{{j*25}}_' cy='_{{k*25}}_' r='8' stroke='black' stroke-width='2' fill='yellow' /><circle cx='_{{l*25}}_' cy='_{{m*25}}_' r='8' stroke='black' stroke-width='2' fill='green' /><circle cx='_{{n*25}}_' cy='_{{o*25}}_' r='8' stroke='black' stroke-width='2' fill='blue' /><circle cx='_{{p*25}}_' cy='_{{q*25}}_' r='8' stroke='black' stroke-width='2' fill='red' /></svg>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            1, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            1, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "q": {
+      "range": {
+        "include": [
+          [
+            1, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Blue"
+      }, 
+      {
+        "text": "Red"
+      }, 
+      {
+        "text": "Green"
+      }
+    ], 
+    "correct": {
+      "text": "Yellow"
+    }
+  }
+}

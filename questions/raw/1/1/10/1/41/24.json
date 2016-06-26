@@ -1,0 +1,67 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given pair of equations are:</div><div>_{i}_x + ky = _{{7*i}}_ and _{j}_x + _{i}_y = _{{2*j}}_.</div><div>_{i}_x + ky - _{{7*i}}_ = 0 -------(1)</div><div>_{j}_x + _{i}_y - _{{2*j}}_ = 0 -------(2)</div><div>Comparing with general equations, we get:</div><div>\\(a_1 = _{i}_ ,a_2 = _{j}_ ,b_1 = k ,b_2 = _{i}_ ,c_1 = -_{{7*i}}_, c_2 = -_{{2*j}}_\\)</div><div>For no solution following is the criteria:</div><div>i.e., \\({a_1\\over a_2} = {b_1\\over b_2} \\neq {c_1\\over c_2}\\)</div><div>i.e., \\({_{i}_\\over _{j}_} = {k\\over _{i}_} \\neq {_{{7*i}}_\\over _{{2*j}}_}\\)</div><div>i.e., \\({_{i}_\\over _{j}_} = {k\\over _{i}_}\\)</div><div>i.e., \\(k = {_{{i*i}}_\\over _{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the value of k for which following pair of equation has  no solution.</div><div>_{i}_x + ky = _{{7*i}}_ and _{j}_x + _{i}_y = _{{2*j}}_.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        9, 
+        4, 
+        8, 
+        6
+      ]
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        6, 
+        8, 
+        2, 
+        4, 
+        6, 
+        4, 
+        7
+      ]
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(k = {_{{i*i-1}}_\\over _{j}_}\\)"
+      }, 
+      {
+        "text": "\\(k = {_{{i*i+1}}_\\over _{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(k = {_{{i*i}}_\\over _{j}_}\\)"
+    }
+  }
+}

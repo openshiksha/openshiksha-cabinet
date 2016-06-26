@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the number of shirts Stitched today be x.</div><div>Therefore, the amount he earned (in rupees) per shirt today = x - _{i}_</div><div>So,</div><div>The total amount he earned (in rupees) today = \\(x\\times (x-_{i}_)\\)</div><div>Today he earned _{k}_ rupees</div><div>Therefore, \\(x\\times (x-_{i}_) = _{k}_\\)</div><div>i.e., \\(x^2 - _{i}_x = _{k}_\\)</div><div>i.e., \\(x^2 - _{i}_x - _{k}_ = 0\\)</div><div>Therefore, the number of shirts stitched today satisfies the quadratic equation :</div><div>\\(x^2 - _{i}_x - _{k}_ = 0\\)</div><div>which is the required representation of the problem mathematically.</div>"
+  }, 
+  "content": {
+    "text": "<div> Represent the following situation mathematically:</div><div>A tailor stitches certain numbers of shirts in a day.He earns on each shirt _{i}_ rupees less than the number of shirts stitched in a day. Today he earned _{k}_ rupees.Find the number of shirts he stitched today.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            40, 
+            80
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            400, 
+            600
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^2 - _{{i+4}}_x - _{k}_ = 0\\)"
+      }, 
+      {
+        "text": "\\(x^2 - _{i}_x - _{{k+50}}_ = 0\\)"
+      }, 
+      {
+        "text": "\\(x^2 - _{{i-4}}_x - _{k}_ = 0\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2 - _{i}_x- _{k}_ = 0\\)"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>In some machines, it may not be advisable to use oil as a lubricant.</div><div>In such cases, an air cushion is used between moving parts to reduce friction.</div>"
+  }, 
+  "content": {
+    "text": "An air cushion cannot be used as a lubricant between two moving parts."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

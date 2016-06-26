@@ -1,0 +1,29 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\((x-_{j}_)(x-_{j}_)\\)</div><div>\\(=(x-_{j}_)^2\\)</div><div>Using identity\\((a-b)^2\\), </div><div>\\((x-_{j}_)^2=x^2-2(_{j}_)x+_{j}_^2\\)</div><div>\\(=x^2-_{{2*j}}_x+_{{j**2}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((x-_{j}_)(x-_{j}_)\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^2+_{{2*j}}_x-_{{j**2}}_\\)"
+      }, 
+      {
+        "text": "\\(x^2+_{{2*j}}_x+_{{j**2}}_\\)"
+      }, 
+      {
+        "text": "\\(x^2-_{{2*j}}_x-_{{j**2}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2-_{{2*j}}_x+_{{j**2}}_\\)"
+    }
+  }
+}

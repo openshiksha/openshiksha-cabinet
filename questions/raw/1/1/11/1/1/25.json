@@ -1,0 +1,42 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Inserting n numbers between any numbers a and b makes b the \\(n+2^{th}\\) term </div><div>i.e.  \\(b=ar^{(n+2)-1}=ar^{n+1}\\)</div><div>Where r is the common difference of the new G.P.</div><div>\\(r=(\\frac{b}{a})^{\\frac{1}{n+1}}\\)</div><div>therefore the second term will be </div><div>\\(a_2=ar=a(\\frac{b}{a})^{\\frac{1}{n+1}}\\)</div><div>\\(a_2=_{{p*q}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div> Find the 2nd term of the G.P formed when you insert _{p}_ numbers between _{q}_ and _{{q*r**(p+1)}}_ .</div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "r": {
+      "range": {
+        "exclude": [
+          [
+            -1, 
+            1
+          ]
+        ], 
+        "include": [
+          [
+            -5, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{p*q}}_"
+  }, 
+  "type": 3
+}

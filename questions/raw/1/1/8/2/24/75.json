@@ -1,0 +1,22 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>The sex chromosomes of a male are one X and one Y chromosome.</div><div>When a sperm containing X chromosome fertilises the egg, the zygote would have two X chromosomes and develop into a female child.</div><div>If the sperm contributes a Y chromosome to the egg at fertilisation, the zygote would develop into a male child.</div><div>Thus, the sex chromosome of the father determines the sex of the unborn baby</div>"
+  }, 
+  "content": {
+    "text": "The sex chromosome of the mother determines the sex of the unborn baby."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

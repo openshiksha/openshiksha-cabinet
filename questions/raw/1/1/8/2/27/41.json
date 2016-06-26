@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Loudness of sound is proportional to the square of the amplitude of the vibration producing the sound.</div><div>Therefore, Loudness \\(=\\) Amplitude\\(^2\\)</div>"
+  }, 
+  "content": {
+    "text": "The relationship between loudness of a sound and amplitude of vibration is given by :"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Amplitude \\(=\\) Loudness\\(^2\\)"
+      }, 
+      {
+        "text": "Loudness \\(=2 \\,\\times\\) Amplitude"
+      }, 
+      {
+        "text": "Amplitude \\(=2 \\,\\times\\) Loudness"
+      }
+    ], 
+    "correct": {
+      "text": "Loudness \\(=\\) Amplitude\\(^2\\)"
+    }
+  }
+}

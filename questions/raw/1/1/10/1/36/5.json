@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Cost of the Construction of boundary=\\((rate_1)\\times(perimeter)\\)</div><div>so the perimeter= \\(_{{trunc(pi_val*2*j*k,2)}}_\\over _{k}_\\)</div><div>\\(\\Rightarrow 2\\times \\pi r=_{{trunc(pi_val*2*j,2)}}_\\)</div><div>\\(\\Rightarrow\\) r=\\(_{{trunc(pi_val*2*j,2)}}_\\times 7\\over {2\\times 22}\\)</div><div>\\(\\Rightarrow r=_{j}_\\)</div><div>Area of the field=\\(\\pi r^2=_{{trunc(pi_val*j*j,2)}}_\\)</div><div>Cost of cultivating=\\(area\\times rate_1=_{{trunc(pi_val*j*j,2)}}_\\times _{l}_\\)</div><div>\\(\\Rightarrow cost=Rs\\,_{{trunc(pi_val*j*j*l,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>The cost of construction of the boundary in a cricket field at a rate of Rs _{k}_/metre is _{{trunc(pi_val*2*j*k,2)}}_. </div><div>Find the cost of cultivating grass in the field at a rate of Rs_{l}_/\\(m^2\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*j*j*(l+1),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*j*(l-1),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*j*j*l,2)}}_"
+    }
+  }
+}

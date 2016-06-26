@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Volume of the cylindrical wire = volume of the sphere</div><div>Now volume of the cylinder\\(=[\\pi \\times r^2\\times l]\\), let the radius of the cylinder= r and \\(l\\)=_{{27*j}}_</div><div>\\(\\Rightarrow \\frac {22}7 \\times r^2 \\times _{{27*j}}_\\)</div><div>volume of the sphere \\(=[\\frac 43 \\times \\pi \\times R^3]\\)</div><div>radius of the sphere= _{j}_</div><div>volume of the sphere\\(= [ \\frac 43 \\times \\frac {22}7 \\times _{j}_^3]\\)</div><div>therefore on equating we get, \\([ \\frac 43 \\times \\frac {22}7 \\times _{j}_^3]=\\frac {22}7 \\times r^2 \\times _{{27*j}}_\\)</div><div>\\(\\Rightarrow r=_{{trunc(Decimal('2')*j/9,2)}}_ \\Rightarrow thickness=2\\times r=_{{trunc(Decimal('4')*j/9,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the thickness of the _{{27*j}}_cm cylindrical wire drawn from a sphere of radius(R)=_{j}_cm</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{trunc(Decimal('4')*j/9,2)}}_"
+  }, 
+  "type": 3
+}

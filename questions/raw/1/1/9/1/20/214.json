@@ -1,0 +1,16 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>From part (iii),</div><div>Volume of cylinder, V \\(=_{{trunc((pi_val*k**2*j),3)}}_\\,m^3\\)</div><div>Density, \\(\\rho=_{m}_\\,\\frac{kg}{cm^3}\\)</div><div>Mass of the cylinder\\(=\\)Volume\\(\\times\\)Density</div><div>\\(=_{{trunc((pi_val*k**2*j),3)}}_ \\times _{m}_\\)</div><div>\\(=_{{trunc((pi_val*k**2*j*m),2)}}_\\,kg\\)</div>"
+  }, 
+  "content": {
+    "text": "Mass of the cylinder if its density is \\(_{m}_\\) kg per cu.m. "
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.5, 
+    "value": "_{{trunc((pi_val*k**2*j*m),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(kg\\)"
+}

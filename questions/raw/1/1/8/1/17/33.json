@@ -1,0 +1,47 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Sum\\(=\\)Rs. P</div><div>Time, T\\(=_{j}_\\) years</div><div>Rate of interest, R\\(=_{k}_\\)%</div><div>Difference between interest\\(=\\)Rs. \\(_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_\\)</div><div>Thus,</div><div>Amount after compound interest \\(-\\) Amount after simple interest \\(=\\) Rs. \\(_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_\\)</div><div>\\(\\Rightarrow P\\left(1+\\frac{R}{100}\\right)^T-\\left(P+\\frac{P \\times R \\times T}{100}\\right)=_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_\\)</div><div>\\(\\Rightarrow P \\left[ \\left(\\frac{100+_{k}_}{100}\\right)^_{j}_-1-\\left(\\frac{_{k}_ \\times _{j}_}{100}\\right)\\right]=_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_\\)</div><div>\\(\\Rightarrow P [_{{trunc((((100+k)/Decimal(100))**j-((j*k)/Decimal(100))-1),4)}}_]=_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_\\)</div><div>\\(\\Rightarrow\\) P\\(=\\frac{_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_}{_{{trunc((((100+k)/Decimal(100))**j-((j*k)/Decimal(100))-1),4)}}_}=\\) Rs. \\(_{l}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Tina's mother gives her a sum of money for her birthday and decides to put it into a bank for her. The bank offers two plans, a compound interest plan and a simple interest plan. Tina's mother tells her that the difference between the compound interest, compounded annually and the simple interest in the sum for \\(_{j}_\\) years at \\(_{k}_\\)% per annum is Rs.\\(_{{trunc(((((100+k)/Decimal(100))**j-((j*k)/(Decimal(100)))-1)*l),4)}}_\\). What is the sum?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            5, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            100, 
+            500
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 5, 
+    "value": "_{l}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

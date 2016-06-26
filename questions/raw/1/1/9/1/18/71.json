@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": "Rearrange the terms in the dividend and divisor in order of degree.."
+  }, 
+  "solution": {
+    "text": "<div>First rearrange the terms in the divisor in order of degree : \\(2x^2+4x-3\\)</div><div>Now perform long division as follows : </div>", 
+    "img": "7.png"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Divide the polynomial \\(p(x)=8x^4-10x^2+30x-3\\,\\) by \\(g(x)=2x^2-3+4x\\). What is the remainder?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(62x+48\\)"
+      }, 
+      {
+        "text": "\\(62x-48\\)"
+      }, 
+      {
+        "text": "\\(-62x-48\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(-62x+48\\)"
+    }
+  }
+}

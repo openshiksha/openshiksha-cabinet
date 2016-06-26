@@ -1,0 +1,24 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>Irregularities between two surfaces lock into one another.</div><div>When we attempt to move any surface, we have to apply a force to overcome interlocking.</div><div>On rough surfaces, there are a large number of irregularities.</div><div>Therefore, the force of friction is greater.</div>"
+  }, 
+  "content": {
+    "text": "The force of friction is greater when a rough surface is involved because _____ ."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "the interlocking between the two surfaces is minimal"
+      }, 
+      {
+        "text": "there are fewer irregularities"
+      }
+    ], 
+    "correct": {
+      "text": "there are a larger number of irregularities"
+    }
+  }
+}

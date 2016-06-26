@@ -1,0 +1,43 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\sqrt{ _{j}_}\\)</div><div>\\(=_{{j**0.5}}_....\\)</div><div>\\(_{{j**0.5}}_....\\) is a non-terminating non-recurring decimal expansion. Therefore, \\(\\sqrt {_{j}_}\\) is an irrational number.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\sqrt {_{j}_}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        6, 
+        7, 
+        8, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        17, 
+        18, 
+        19, 
+        20
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Irrational"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>First to obtain \\(_{k}_x^2\\) we multiply the divisor\\((_{k}_x+_{l}_)\\) by x</div><div>secondly to obtain \\(_{{k*j}}_x\\) we multiply the divisor\\((_{k}_x+_{l}_)\\) by _{j}_</div><div>\\(\\require{enclose}\\begin{array}{r}                    x+_{j}_  \\\\[-3pt] _{k}_x+_{l}_\\enclose{longdiv}{_{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_} \\\\[-3pt]         \\underline{_{k}_x^2+_{l}_x}\\phantom{2} \\\\[-3pt]                    _{{j*k}}_x+_{{l*j+m}}_  \\\\[-3pt]         \\underline{_{{j*k}}_x+_{{l*j}}_}\\phantom{2} \\\\[-3pt]                        _{m}_\\end{array}\\)</div><div>Therefore  Dividend = Divisor \\(\\times \\) Quotient + Remainder </div><div>\\(\\Rightarrow _{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_\\) =\\((x+_{j}_) \\times (_{k}_x+_{l}_)+_{m}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Divide \\(_{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_\\) by \\(_{k}_x+_{l}_\\)</div><div>Choose the option in which the division algorithm is correctly verified</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_\\) =\\((x+_{j}_) \\times (_{k}_x+_{l}_)+_{{m+3}}_\\)"
+      }, 
+      {
+        "text": "\\(_{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_\\)=\\((x+_{j}_) \\times (_{k}_x+_{l}_)+_{{m+2}}_\\)"
+      }, 
+      {
+        "text": "\\(_{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_\\) =\\((x+_{j}_) \\times (_{k}_x+_{l}_)+_{{m+1}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{k}_x^2 + _{{k*j+l}}_x + _{{l*j+m}}_\\) =\\((x+_{j}_) \\times (_{k}_x+_{l}_)+_{m}_\\)"
+    }
+  }
+}

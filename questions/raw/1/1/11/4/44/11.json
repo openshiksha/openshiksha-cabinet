@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "A <b>state function</b> is a thermodynamic quantity whose value only depends on the present state. The value of a state function is independent of the history of the system."
+  }, 
+  "solution": {
+    "text": "A <b>state function</b> is a thermodynamic quantity whose value only depends on the present state. The value of a state function is independent of the history of the system.<br>In the quantities below:<br><ul><li>Internal Energy (U), Temperature (T), Pressure (P) and Enthalpy (H) are state functions since they don't depend on the path or history of the system.</li> <li>Heat (Q) and Work (W) are not state functions since they change depending on the path or history of the system regardless of whether the final state is equivalent.</li> </ul>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Select the <b>state functions</b> in the options given below. There may be more than one correct answer."
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Heat (Q)"
+      }, 
+      {
+        "text": "Work (W)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Internal Energy (U)"
+      }, 
+      {
+        "text": "Enthalpy (H)"
+      }, 
+      {
+        "text": "Pressure (P)"
+      }, 
+      {
+        "text": "Temperature (T)"
+      }
+    ]
+  }
+}

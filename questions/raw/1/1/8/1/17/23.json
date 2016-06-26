@@ -1,18 +1,58 @@
 {
   "subpart_index": 0, 
   "solution": {
-    "text": "Surface Area of a cube = \\(6 \\times length^2 = _{{(j**2)*6}}_ cm^2\\)"
+    "text": "<div>Let \\(x\\) be subtracted from \\(-\\frac{_{j}_}{_{l}_}\\) to get \\(-_{k}_\\)</div><div>\\(\\Rightarrow -\\frac{_{j}_}{_{l}_} -x = -_{k}_\\)</div><div>\\(\\Rightarrow x= _{k}_ - \\frac{_{j}_}{_{l}_}\\)</div><div>\\(\\Rightarrow x = \\frac{_{{k*l-j}}_}{_{l}_} = _{{Fraction(k*l-j,l)}}_\\)</div>"
   }, 
   "content": {
-    "text": "See the cube below, a=_{j}_ cm, Find its surface area", 
-    "img": "11.png"
+    "text": "What should be subtracted from \\(-\\frac{_{j}_}{_{l}_}\\) to get \\(-_{k}_\\)?"
   }, 
   "variable_constraints": {
-    "j": {}
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            7, 
+            11
+          ]
+        ]
+      }
+    }
   }, 
-  "answer": {
-    "value": "_{{6*(j**2)}}_"
-  }, 
-  "type": 3, 
-  "unit": "\\(cm^2\\)"
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{Fraction(-(k*l)-j,l)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{Fraction(k*l+j,l)}}_\\)"
+      }, 
+      {
+        "text": "None of the above"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{Fraction(k*l-j,l)}}_\\)"
+    }
+  }
 }

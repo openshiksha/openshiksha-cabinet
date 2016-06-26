@@ -1,0 +1,27 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Curved surface area of the tent\\(=_{{trunc((pi_val*k*j),2)}}_\\)sq.cm</div><div>Cost of \\(1cm^2\\) of canvas\\(=\\)Rs.\\(_{l}_\\)</div><div>Therefore, cost of canvas\\(=\\)Curves surface area \\(\\times\\) cost</div><div>\\(=_{{trunc((pi_val*k*j),2)}}_ \\times _{l}_\\)</div><div>\\(=\\)Rs.\\(\\,_{{trunc((pi_val*k*j*l),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "Cost of canvas if \\(1cm^2\\) of canvas is Rs.\\(_{l}_\\)?"
+  }, 
+  "variable_constraints": {
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc((pi_val*k*j*l),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

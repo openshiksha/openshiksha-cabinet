@@ -1,0 +1,16 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Consider each second's velocity as the terms of a sequence. Then \\(a_1 = _{p}_ \\) at 0 sec , \\( a_2=_{{p+10}}_  \\) at 1 sec and \\( a_3=_{{p+20}}_\\) at 2 sec. The deference between each term is \\( a_2 - a_1 = a_3-a_2=10  \\). Therefore \\( a_4= a_3 + 10= _{{p+30}}_ \\) at 3 sec , \\( a_5=a_4 + 10 = _{{p+40}}_  \\) at 4 sec.</div>"
+  }, 
+  "content": {
+    "text": "<div>Imagine you threw a coin to the wishing well at a velocity of _{p}_ m/s. If the coin's velocity after first and second seconds are _{{p+10}}_ m/s and _{{p+20}}_ m/s respectively, what will the speed of coin be after 4 seconds (Assume its a free fall).</div>"
+  }, 
+  "variable_constraints": {
+    "p": {}
+  }, 
+  "answer": {
+    "value": "_{{p+40}}_"
+  }, 
+  "type": 3
+}

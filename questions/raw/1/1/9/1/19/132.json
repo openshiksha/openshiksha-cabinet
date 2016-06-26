@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let us consider \\(\\sqrt5 - 2\\).</div><div>\\(\\sqrt5\\) is non-terminating non-recurring.</div><div>Subtracting \\(2\\) from \\(\\sqrt5\\) will also give us a non-terminating non-recurring number which is irrational.</div>"
+  }, 
+  "content": {
+    "text": "The sum or difference of a rational number and an irrational number is irrational."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

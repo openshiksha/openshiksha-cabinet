@@ -1,0 +1,38 @@
+{
+  "subpart_index": 7, 
+  "solution": {
+    "text": "<div>If two forces are acting on an object in opposite directions, the net force acting on the object is the difference between the two forces.</div><div>Therefore, the net force will be zero only if the two forces are equal.</div><div>Thus, the net force will be zero when the two forces acting on the object are \\(_{j}_N\\) and \\(_{j}_N\\) OR \\(_{k}_N\\) and \\(_{k}_N\\).</div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "The net force on an object is zero, if the two forces acting on it in opposite directions are ?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}, 
+    "n": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{l}_N\\) and \\(_{m}_N\\)"
+      }, 
+      {
+        "text": "\\(_{m}_N\\) and \\(_{n}_N\\)"
+      }, 
+      {
+        "text": "\\(_{n}_N\\) and \\(_{l}_N\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{j}_N\\) and \\(_{j}_N\\)"
+      }, 
+      {
+        "text": "\\(_{k}_N\\) and \\(_{k}_N\\)"
+      }
+    ]
+  }
+}

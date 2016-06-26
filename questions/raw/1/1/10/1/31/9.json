@@ -1,0 +1,31 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>we know cos(30)=\\(\\sqrt 3\\over 2\\)</div><div>we know cosec(60)=\\(2\\over \\sqrt 3\\)</div><div>we know cot(45)= 1 </div><div>we know sin(30)=\\( 1\\over 2\\)</div><div>putting the values in the expression we get</div><div>\\({{_{j}_\\times 3\\over 4}+{_{k}_\\times 4\\over 3}-{_{l}_}}\\over 1\\)</div><div>_{{trunc(Decimal(j)*3/4,2)}}_+_{{trunc(Decimal(k)*4/3,2)}}_-_{l}_</div><div>_{{trunc((Decimal(j)*3/4)+(Decimal(k)*4/3)-l,2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Solve and find the value of the expression given below</div><div>\\(_{j}_cos^2(30)+_{k}_cosec^2(60)-_{l}_cot^2(45)\\over sin^2(30) + cos^2(30)\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{Decimal('0.25')*(j*3)+ Decimal('0.33')*(k*4)}}_"
+      }, 
+      {
+        "text": "_{{Decimal('0.25')*(j*3)+ Decimal('0.33')*(k*4)-(2*l)}}_"
+      }, 
+      {
+        "text": "_{{Decimal('0.25')*(j*3)+ Decimal('0.33')*(k*4)-l+1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "<div>_{{trunc((Decimal(j)*3/4)+(Decimal(k)*4/3)-l,2)}}_</div>"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Observe the pie chart carefully.</div><div>We can see that,</div><div>Ravi spent only \\(9\\)% of the pocket money on transport</div>"
+  }, 
+  "content": {
+    "text": "On what did he spend the least money?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Clothes"
+      }, 
+      {
+        "text": "Savings"
+      }, 
+      {
+        "text": "Food"
+      }
+    ], 
+    "correct": {
+      "text": "Transport"
+    }
+  }
+}

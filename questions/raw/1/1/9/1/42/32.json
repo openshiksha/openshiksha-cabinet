@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Now,</div><div>AB = AD + DB = _{{i-4*j}}_ + _{{4*j}}_ = _{i}_</div><div>Since AE = EB = BA = _{i}_</div><div>Hence, AEB is an equilateral triangle</div>"
+  }, 
+  "content": {
+    "text": "<div>Using the information given in the first part,</div><div>What type of triangle is ABE?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Isosceles triangle"
+      }, 
+      {
+        "text": "None of the Above"
+      }, 
+      {
+        "text": "Scalene triangle"
+      }
+    ], 
+    "correct": {
+      "text": "Equilateral triangle"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Slant height of the tent,l\\(=_{j}_\\)cm</div><div>Radius of the tent,r\\(=_{k}_\\)cm</div><div>\\(l^2=r^2+h^2\\)</div><div>\\(\\Rightarrow h=\\sqrt{l^2-r^2}\\)</div><div>\\(\\Rightarrow h=\\sqrt{_{j}_^2-_{k}_^2}\\)</div><div>\\(\\Rightarrow h=_{{trunc(((j**2-k**2)**Decimal(0.5)),2)}}_\\)cm</div><div>Therefore, height of the tent is \\(_{{trunc(((j**2-k**2)**Decimal(0.5)),2)}}_\\)cm.</div>"
+  }, 
+  "content": {
+    "text": "Height of the tent?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((j**2-k**2)**Decimal(0.5)),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm\\)"
+}

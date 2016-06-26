@@ -1,0 +1,67 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Height of pipe,h \\(=_{j}_\\)cm</div><div>Diameter of pipe,d \\(=_{k}_\\)cm\\(\\Rightarrow\\)Radius,r\\(=_{{k/Decimal(2)}}_\\)cm</div><div>Margin to be given for folding at the top and bottom\\(=_{l}_\\)cm</div><div>Total margin\\(=_{l}_ \\times 2 = _{{2*l}}_\\)cm</div><div>No. of pipes to be covered,n\\(=_{m}_\\)</div><div>Cost of vinyl sheet\\(=\\)Rs.\\(_{n}_\\) per sq.cm.</div><div>Quantity of vinyl sheet required to cover a single pipe\\(=2\\pi r(h + \\,total\\,margin)\\)</div><div>\\(=2\\pi \\times _{{k/Decimal(2)}}_ \\times (_{j}_+_{{2*l}}_)\\)</div><div>\\(=_{{trunc((2*pi_val*(k/Decimal(2))*(j+(2*l))),3)}}_cm^2\\)</div><div>Quantity of vinyl sheet required for \\(_{m}_\\) pipes\\(=_{{trunc((2*pi_val*(k/Decimal(2))*(j+(2*l))),3)}}_ \\times _{m}_\\)</div><div>\\(=_{{trunc((m*2*pi_val*(k/Decimal(2))*(j+(2*l))),3)}}_cm^2\\)</div><div>Therefore, cost of vinyl sheet for covering all pipes\\(=_{{trunc((m*2*pi_val*(k/Decimal(2))*(j+(2*l))),3)}}_ \\times _{n}_\\)</div><div>\\(=\\)Rs.\\(_{{trunc((n*m*2*pi_val*(k/Decimal(2))*(j+(2*l))),3)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "A cylindrical pipe of height \\(_{j}_\\)cm and diameter \\(_{k}_\\)cm is to be covered with a layer of vinyl sheet on the outside. A margin of \\(_{l}_\\)cm is to be given for folding at the top and the bottom. What is the cost of vinyl sheet required for covering \\(_{m}_\\) such pipes at Rs.\\(_{n}_\\) per sq.cm."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            30, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 3, 
+    "value": "_{{trunc((n*m*2*pi_val*(k/Decimal(2))*(j+(2*l))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

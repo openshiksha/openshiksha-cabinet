@@ -1,0 +1,24 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Draw a right angled triangle with its perpendicular sides of length \\(2\\) units and \\(1\\) unit respectively.</div><div>Now by using Pythagoras theorem,</div><div>Length of hypotenuse \\(=\\sqrt{2^2+1^2}=\\sqrt5\\).</div><div>Construct BC of unit length perpendicular to OB.</div><div>Using Pythagoras theorem,</div><div>Length of hypotenuse \\(=\\sqrt{(\\sqrt5)^2+1^2}=\\sqrt6\\).</div><div>Using a compass with center O and radius OC, draw an arc that intersects with the number line at point A.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\sqrt6\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "5-2-2.png"
+      }, 
+      {
+        "img": "5-2-3.png"
+      }
+    ], 
+    "correct": {
+      "img": "5-2-1.png"
+    }
+  }
+}

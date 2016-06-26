@@ -1,0 +1,31 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>given that k=\\(\\frac {44}7\\)</div><div>on dividing we get, k=\\(_{{trunc(2*Decimal(22)/Decimal(7),12)}}_\\)</div><div>We see that at the decimal place 285714 is repeating</div><div>Hence we can say K is a rational number</div>"
+  }, 
+  "content": {
+    "text": "<div>If radius of a circle is _{j}_cm it's circumference is measured to be _{{trunc(2*pi_val*j,6)}}_</div><div>if the radius is _{{j+2}}_cm it's circumference is _{{trunc(2*pi_val*(j+2),6)}}_cm</div><div>we see that circumference is proportional to the radius of the circle</div><div>using the given data it was found that k is the proportionality constant\\(=\\frac {44}7\\).</div><div>find the decimal value of k and choose the correct statements</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "In the value of k, the digits at decimal places are not repeating"
+      }, 
+      {
+        "text": "k is an irrational number"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "k is a rational number"
+      }, 
+      {
+        "text": "value of k =_{{trunc(2*Decimal(22)/Decimal(7),6)}}_"
+      }
+    ]
+  }
+}

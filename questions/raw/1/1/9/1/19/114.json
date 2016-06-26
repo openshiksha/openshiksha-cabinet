@@ -1,0 +1,24 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\(\\pi\\) is an irrational number.</div><div>The difference between an irrational and a rational number is irrational.</div><div>Therefore, \\(\\pi - _{j}_\\) is irrational.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\pi - _{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Irrational"
+    }
+  }
+}

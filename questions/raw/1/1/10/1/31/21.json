@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given expression : </div><div> _{i}_cos(A) + _{j}_cosec(A)</div><div>write cos(A) as \\(1\\over sec(A)\\)</div><div>now we know sec(A) = \\(\\sqrt {1+tan^2(A)}\\) and </div><div>cosec(A) = \\(\\sqrt {1+cot^2(A)}\\)</div><div>which gives :</div><div>\\(_{i}_\\over \\sqrt {1+tan^2(A)}\\)+_{j}_\\(\\sqrt {1+cot^2(A)}\\)</div><div>now write cot(A) as \\(1\\over tan(A)\\)</div><div>i.e.,  \\(_{i}_\\over \\sqrt {1+tan^2(A)}\\)+_{j}_\\(\\sqrt {1+{1\\over tan^2(A)}}\\)</div><div>i.e.,  \\(_{i}_\\over \\sqrt {1+tan^2(A)}\\)+_{j}_\\(\\sqrt {tan^2(A)+1\\over tan^2(A)}\\)</div><div>i.e.,  \\(_{i}_\\over \\sqrt {1+tan^2(A)}\\)+_{j}_\\(\\sqrt {tan^2(A)+1}\\over tan(A)\\)</div><div>i.e., \\(_{i}_tan(A)+_{j}_(1+tan^2(A))\\over tan(A)*\\sqrt {(1+tan^2(A))}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div> Write the given expression _{i}_cos(A) + _{j}_cosec(A) in terms of tan(A).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{i}_tan(A)+_{{j+6}}_(1+tan^2(A))\\over tan(A)*\\sqrt {(1+tan^2(A))}\\)"
+      }, 
+      {
+        "text": "\\(_{{i+2}}_tan(A)+_{j}_(1+tan^2(A))\\over tan(A)*\\sqrt {(1+tan^2(A))}\\)"
+      }, 
+      {
+        "text": "\\(_{{2*i}}_tan(A)+_{j}_(1+tan^2(A))\\over tan(A)*\\sqrt {(1+tan^2(A))}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{i}_tan(A)+_{j}_(1+tan^2(A))\\over tan(A)*\\sqrt {(1+tan^2(A))}\\)"
+    }
+  }
+}

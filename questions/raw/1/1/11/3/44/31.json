@@ -1,0 +1,52 @@
+{
+  "hint": {
+    "text": "Specific Heat of water = 4.2 \\(\\frac {J}{g\\;C}\\)"
+  }, 
+  "solution": {
+    "text": "Rate of flow : _{k}_ \\(\\frac {litre}{min}\\)<br>Initial Temp \\(T_1\\) = _{temp1}_\\(^\\circ\\)C<br>Final Temp \\(T_2\\) = _{temp2}_\\(^\\circ\\)C<br><br>\\(\\Delta T = T_2 - T_1 = _{temp2}_ - _{temp1}_ = _{{temp2 - temp1}}_^\\circ C\\)<br><br>Mass of water flowing through the pipe per min (m) = \\(_{k}_ \\frac {litre}{min} = _{{k*1000}}_ \\frac {g}{min}\\)<br>Specific Heat of water (c) = 4.2 \\(\\frac {J}{g\\;C}\\)<br>Therefore, total heat required = \\(\\Delta Q = m \\times c \\times \\Delta T = _{{k*1000}}_ \\times 4.2 \\times  _{{temp2 - temp1}}_\\)<br>\\(= _{{k*1000 * 4.2 * (temp2 - temp1)}}_ \\frac{J}{min}\\)<br><br>Rate of gas required \\(= \\frac {_{{k*1000 * 4.2 * (temp2 - temp1)}}_}{_{heat}_ \\times 10^4} = _{{trunc(Decimal(k*0.1 * 4.2 * (temp2 - temp1)/heat),2)}}_ \\frac {g}{min}\\)"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A water heater warms water flowing through a conductive pipe at the rate of _{k}_ litres per minute from _{temp1}_\\(^\\circ \\)C to _{temp2}_\\(^ \\circ \\)C. The heater operates on a gas burner, with a heat of combustion of _{heat}_\\( \\times 10^4 \\;\\frac {J}{g}\\). At what rate is the gas consumed?"
+  }, 
+  "variable_constraints": {
+    "temp2": {
+      "range": {
+        "include": [
+          [
+            40, 
+            70
+          ]
+        ]
+      }
+    }, 
+    "k": {}, 
+    "heat": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "temp1": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(Decimal(k*0.1 * 4.2 * (temp2 - temp1)/heat),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac {g}{min}\\)"
+}

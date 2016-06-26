@@ -1,0 +1,76 @@
+{
+  "hint": {
+    "text": "<div>You may take \\(\\sqrt 3\\) = 1.732 &</div><div>You may take \\(\\sqrt 2\\) = 1.414 &</div>"
+  }, 
+  "solution": {
+    "text": "<div>: In given figure the Arpit wants to touch Ashwin's kite.</div><div>Given that : </div><div>Height of kite flying above the groud H1 = _{l}_ m.</div><div>Angle of elevation A = _{k}_\\(^\\circ\\) </div><div>To find out the angle at which Arpit is flying kite we need to find out either length of the string used by him or horizontal distance of his kite from him.</div><div>So, we will find out the horizontal distance</div><div>Since, we know the length of string(L1) and angle(A) at which Ashwin is flying kite</div><div>So, applying trigonometry ratio we can find the horizontal distance D2 </div><div>i.e., cos(A) = \\(D2\\over L1\\)</div><div>i.e., cos(_{k}_) = \\(D2\\over _{j}_\\)</div><div>i.e., cos(_{k}_)\\(\\times\\)_{j}_ = D2</div><div>i.e., D2 = _{{m*j}}_</div><div>Now, </div><div>D3 = D2 - D1</div><div>i.e., D3 = _{{(m*j)-i}}_</div><div>Finally, </div><div>tan(B) = \\(H1\\over D3\\)</div><div>i.e., tan(B) = \\(_{l}_\\over _{{(m*j)-i}}_\\)</div><div>i.e., tan(B) = _{{l/((m*j)-i)}}_</div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>Ashwin is flying a kite on the rooftop of his house.His kite is flying at an angle of _{k}_\\(^\\circ\\) from horizontal , and length of the string used by him is _{j}_ m.Arpit is standing _{i}_ m away from him on the ground as shown in the figure.Find the tan of the angle at which Arpit should fly his kite so that his kite can reach Ashwin's kite flying at a height of _{l}_ m. above the ground.</div>", 
+    "img": "3.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            5, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        30, 
+        45, 
+        60
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            40, 
+            60
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "options": [
+        0.866, 
+        0.707, 
+        0.5
+      ]
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            50, 
+            60
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "tan(B) = _{{l/((m*j)-i+2)}}_"
+      }, 
+      {
+        "text": "tan(B) = _{{2*l/((m*j)-i)}}_"
+      }, 
+      {
+        "text": "tan(B) = _{{l/((2*m*j)-i)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "tan(B) = _{{l/((m*j)-i)}}_"
+    }
+  }
+}

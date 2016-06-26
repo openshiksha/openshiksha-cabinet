@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "Remember : The rim of the hemisphere is also to be painted."
+  }, 
+  "solution": {
+    "text": "<div>Inner radius of hemisphere,\\(r_1=_{{k/Decimal(2)}}_\\)m</div><div>Outer radius of hemisphere,\\(=_{{(k/Decimal(2))+(j/Decimal(10))}}_\\)m</div><div>Outer curved surface area of the hemisphere\\(=_{{trunc((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2),3)}}_m^2\\)</div><div>Inner curved surface area of the hemisphere\\(=2\\pi r_1^2\\)</div><div>\\(=2\\pi \\times _{{k/Decimal(2)}}_^2\\)</div><div>\\(=_{{trunc((2*pi_val*(k/Decimal(2))**2),3)}}_m^2\\)</div><div>Area of rim\\(=\\pi(r_2^2-r_1^2)\\)</div><div>\\(=\\pi (_{{(k/Decimal(2))+(j/Decimal(10))}}_^2-_{{k/Decimal(2)}}_^2)\\)</div><div>\\(=_{{trunc((pi_val*(((k/Decimal(2))+(j/Decimal(10)))**2-(k/Decimal(2))**2)),3)}}_m^2\\)</div><div>Total area to be painted\\(=\\)outer curved surface area \\(+\\) inner curved surface area \\(+\\) area of rim</div><div>\\(=_{{trunc((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2),3)}}_+_{{trunc((2*pi_val*(k/Decimal(2))**2),3)}}_+_{{trunc((pi_val*(((k/Decimal(2))+(j/Decimal(10)))**2-(k/Decimal(2))**2)),3)}}_\\)</div><div>\\(=_{{trunc(((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2)+(2*pi_val*(k/Decimal(2))**2)+(pi_val*(((k/Decimal(2))+(j/Decimal(10)))**2-(k/Decimal(2))**2))),3)}}_\\)</div><div>Therefore, total cost of painting \\(=\\) total area \\(\\times\\) rate of painting</div><div>\\(=_{{trunc(((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2)+(2*pi_val*(k/Decimal(2))**2)+(pi_val*(((k/Decimal(2))+(j/Decimal(10)))**2-(k/Decimal(2))**2))),3)}}_ \\times 25\\)</div><div>\\(=\\)Rs.\\(_{{trunc(25*((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2)+(2*pi_val*(k/Decimal(2))**2)+(pi_val*(((k/Decimal(2))+(j/Decimal(10)))**2-(k/Decimal(2))**2))),3)}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Find the cost of painting all the surface, if the cost of painting is Rs.\\(25\\) per sq.m.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(25*((2*pi_val*((k/Decimal(2))+(j/Decimal(10)))**2)+(2*pi_val*(k/Decimal(2))**2)+(pi_val*(((k/Decimal(2))+(j/Decimal(10)))**2-(k/Decimal(2))**2))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

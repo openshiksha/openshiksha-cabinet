@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Side of larger cube,\\(a=_{{j*k}}_\\,cm\\)</div><div>Volume of larger cube\\(=a^3=_{{(j*k)**3}}_\\,cm^3\\)</div><div>The cube is cut into \\(_{{k**3}}_\\) smaller cubes of equal volume.</div><div>Volume of smaller cube\\(=\\frac{_{{(j*k)**3}}_}{_{{k**3}}_}\\)</div><div>\\(=_{{j**3}}_\\,cm^3\\)</div><div>Side of smaller cube\\(=\\sqrt[3]{_{{j**3}}_}\\)</div><div>\\(=_{j}_\\,cm\\)</div>"
+  }, 
+  "content": {
+    "text": "A solid cube of side \\(_{{j*k}}_\\)cm is cut into \\(_{{k**3}}_\\) cubes of equal volume. What is the side of the new cube?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3, 
+  "unit": "cm"
+}

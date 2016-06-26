@@ -1,0 +1,31 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> We should have a constant difference </div><div> For a list calculate the difference of any 2 consecutive terms</div><div>\\(a_2=_{{j+k}}_ \\) and \\( a_1=_{j}_\\) we get \\(d=_{k}_\\)</div><div>for next numbers \\(a_3=_{{j+(k*2)}}_\\) and \\(\\,a_2=_{{j+k}}_\\) we get \\(d=_{{(j+(2*k))-(j+k)}}_\\) </div><div>The list is an AP when the difference of any two consecutive number is same, in the above case \\(_{k}_\\).</div>"
+  }, 
+  "content": {
+    "text": "<div>Which of the following list of numbers does form an AP?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}, 
+    "o": {}, 
+    "n": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{l}_,_{{l+m}}_,_{{l+(2*(m+2))}}_,_{{l+(3*(m+3))}}_\\)"
+      }, 
+      {
+        "text": "\\(_{n}_,_{{n+m}}_,_{{n+(2*(o-1))}}_,_{{n+(3*(o-2))}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_,_{{j+k}}_,_{{j+(2*k)}}_,_{{j+(3*k)}}_,....\\)"
+    }
+  }
+}

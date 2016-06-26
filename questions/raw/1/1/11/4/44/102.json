@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "\\(\\Delta _rG^\\circleddash = -2.303 * R * T * log_ {10}(K_p)\\). Assume \\(R = 8.314 \\frac {J}{K\\;mol}\\)"
+  }, 
+  "solution": {
+    "text": "We know \\(K_p = _{{trunc((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))),3)}}_\\)<br><br>\\(\\Delta _rG^\\circleddash = -2.303 * R * T * log_ {10}(K_p)\\)<br>\\(\\implies \\Delta _rG^\\circleddash = -2.303 * 8.314 * _{temp}_ * log_ {10} (_{{trunc((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))),3)}}_)\\)<br>\\(\\implies \\Delta _rG^\\circleddash = -2.303 * 8.314 * _{temp}_ * _{{trunc(log10((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))),4)}}_\\)<br>\\(\\implies \\Delta _rG^\\circleddash = _{{trunc(Decimal(-2.303) * Decimal(8.314) * Decimal(temp) * log10((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))),3)}}_ \\frac {J}{mol}\\)<br>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Having calculated \\(K_p\\) in the previous part, now calculate the standard free energy change \\(\\Delta _rG^\\circleddash\\) at this temperature and pressure."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(Decimal(-2.303) * Decimal(8.314) * Decimal(temp) * log10((Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01)))*Decimal((2* (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))/(Decimal((1- (0.2 + (temp-298)*0.01)) / (1+ (0.2 + (temp-298)*0.01))))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac {J}{mol}\\)"
+}

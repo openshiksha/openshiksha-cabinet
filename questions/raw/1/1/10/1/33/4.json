@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>we know secant intersect at 2 point so , l=2</div><div>largest secant is the diameter of the circle, length= 2r = n = 2\\(\\times \\)_{l}_</div><div>therefore, _{j}_\\(\\times\\)l + _{k}_\\(\\times \\)n=_{{(j*2)+(k*l*2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>find the value of _{j}_l+_{k}_n, if l is maximum the number of point(s) at which a secant can intersect a circle and n is the largest possible length covered by any secant inside a circle of radius _{l}_cm</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(j*2)+2*l*(k+1)}}_"
+      }, 
+      {
+        "text": "_{{(j*2)+(k*(l+1)*2)}}_"
+      }, 
+      {
+        "text": "_{{2*j+k*3*l}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(j*2)+(k*l*2)}}_"
+    }
+  }
+}

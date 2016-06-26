@@ -1,0 +1,35 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Intensive properties do not depend on the size of the system and remain the same if, for example, only half the system is considered. Therefore:<ul><li>Intensive Properties : Pressure, Temperature, Density</li><li>Extensive Properties : Internal Energy, Volume, Mass </li></ul>"
+  }, 
+  "content": {
+    "text": "Which of the following are intensive properties?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Internal Energy (U)"
+      }, 
+      {
+        "text": "Volume (V)"
+      }, 
+      {
+        "text": "Mass (M)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Pressure (P)"
+      }, 
+      {
+        "text": "Temperature (T)"
+      }, 
+      {
+        "text": "Density \\((\\rho)\\)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Total Number of People Surveyed : _{{(k+j+l-2 + k+j+l+k+j+k+l+k)+(m+n+o-2+m+n+o+m+n+m+l+k+1)+(m+k+l+m+j+k-2+m+j+k+n+k)+(m+k+l+j+m+k+m+k-2+m+k-1)}}_<br>Total Number of people between the ages of 20 and 40 surveyed : _{{m+n+o-2+m+n+o+m+n+m+l+k+1}}_<br><br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore, the probability of choosing an individual between the ages of 20 and 40:<br>\\( P(E) = \\frac{_{{m+n+o-2+m+n+o+m+n+m+l+k+1}}_}{_{{(k+j+l-2 + k+j+l+k+j+k+l+k)+(m+n+o-2+m+n+o+m+n+m+l+k+1)+(m+k+l+m+j+k-2+m+j+k+n+k)+(m+k+l+j+m+k+m+k-2+m+k-1)}}_} = _{{Fraction((m+n+o-2+m+n+o+m+n+m+l+k+1),((k+j+l-2 + k+j+l+k+j+k+l+k)+(m+n+o-2+m+n+o+m+n+m+l+k+1)+(m+k+l+m+j+k-2+m+j+k+n+k)+(m+k+l+j+m+k+m+k-2+m+k-1)))}}_\\)"
+  }, 
+  "content": {
+    "text": "<div>Total Number of People Surveyed : _{{(k+j+l-2 + k+j+l+k+j+k+l+k)+(m+n+o-2+m+n+o+m+n+m+l+k+1)+(m+k+l+m+j+k-2+m+j+k+n+k)+(m+k+l+j+m+k+m+k-2+m+k-1)}}_</div><table class='table table-condensed table-bordered'><tr><th rowspan='2'>Age</th><th colspan='5'>Number of electronic devices</th></tr><tr><td>None</td><td>One</td><td>Two</td><td>Three</td><td>Four</td></tr><tr><td>0-20</td><td>_{{k+j+l-2}}_</td><td>_{{k+j+l}}_</td><td>_{{k+j}}_</td><td>_{{k+l}}_</td><td>_{{k}}_</td></tr><tr><td>20-40</td><td>_{{m+n+o-2}}_</td><td>_{{m+n+o}}_</td><td>_{{m+n}}_</td><td>_{{m+l}}_</td><td>_{{k+1}}_</td></tr><tr><td>40-60</td><td>_{{m+k+l}}_</td><td>_{{m+j+k-2}}_</td><td>_{{m+j}}_</td><td>_{{k+n}}_</td><td>_{k}_</td></tr><tr><td>60 +</td><td>_{{m+k+l+j}}_</td><td>_{{m+k}}_</td><td>_{{m+k-2}}_</td><td>_{{m}}_</td><td>_{{k-1}}_</td></tr></table><div>Suppose a person from the group is chosen at random, what is the probability that they are between the ages of 20 and 40? (Enter your answer as a simplified fraction)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            0, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(m+n+o-2+m+n+o+m+n+m+l+k+1)/((k+j+l-2 + k+j+l+k+j+k+l+k)+(m+n+o-2+m+n+o+m+n+m+l+k+1)+(m+k+l+m+j+k-2+m+j+k+n+k)+(m+k+l+j+m+k+m+k-2+m+k-1))}}_"
+  }, 
+  "type": 3
+}

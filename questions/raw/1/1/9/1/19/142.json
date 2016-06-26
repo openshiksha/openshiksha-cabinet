@@ -1,0 +1,24 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Mark the distance \\(7.2\\) units from a fixed point A on a given line to obtain a point O such that AO \\(=7.2\\) units</div><div>From O, mark a distance of \\(1\\) unit and mark the new point as B.</div><div>Find the mid-point of AB and mark that point as C.</div><div>Draw a semicircle with centre C and radius CB.</div><div>Draw a line perpendicular to AB passing through O and intersecting the semicircle at D.</div><div>Then OD = \\(\\sqrt{7.2}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\sqrt{7.2}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "14-2-2.png"
+      }, 
+      {
+        "img": "14-2-3.png"
+      }
+    ], 
+    "correct": {
+      "img": "14-2-1.png"
+    }
+  }
+}

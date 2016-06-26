@@ -1,0 +1,39 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Given that:</div><div>Area of \\(\\Delta ABO\\) = _{i}_ sq.units,</div><div>AO:OD = 1:2</div><div>i.e., \\(AO\\over OD\\) = \\(1\\over 2\\)</div><div>From the figure it can be seen that, \\(\\Delta ABO\\) and \\(\\Delta DCO\\) are similar triangles.</div><div>Therefore,</div><div>By Theorem 6.6, we have,</div><div>\\(Area(\\Delta ABO)\\over Area(\\Delta DCO)\\) = \\(AO^2\\over DO^2\\)</div><div>\\(Area(\\Delta ABO)\\over Area(\\Delta DCO)\\) = \\(({AO\\over DO})^2\\)</div><div>i.e., \\(_{i}_\\over Area(\\Delta DCO)\\) = \\(({1\\over 2})^2\\)</div><div>i.e., \\(_{i}_\\over Area(\\Delta DCO)\\) = \\(1\\over 4\\)</div><div>i.e., \\(Area(\\Delta DCO)\\) = _{{4*i}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure, if area of \\(\\Delta ABO\\) is _{i}_sq. units, and BC divides AD at O in 1:2 ratio.Find the area of \\(\\Delta DCO\\) </div>", 
+    "img": "21.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            8, 
+            58
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{i}_"
+      }, 
+      {
+        "text": "_{{2*i}}_"
+      }, 
+      {
+        "text": "_{{5*i}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{4*i}}_"
+    }
+  }
+}

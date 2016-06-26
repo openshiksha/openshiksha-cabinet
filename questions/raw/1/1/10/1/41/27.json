@@ -1,0 +1,67 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given pair of equations are:</div><div>_{i}_x + _{j}_y = _{{7*j}}_ and _{{3*i}}_x + _{{3*j}}_y = _{{9*j}}_.</div><div>_{i}_x + _{j}_y - _{{7*j}}_ = 0 -------(1)</div><div>_{{3*i}}_x + _{{3*j}}_y - _{{9*j}}_ = 0 -------(2)</div><div>Comparing with general equations, we get:</div><div>\\(a_1 = _{i}_ ,a_2 = _{{3*i}}_ ,b_1 = _{j}_ ,b_2 = _{{3*j}}_ ,c_1 = -_{{7*j}}_, c_2 = -_{{9*j}}_\\)</div><div>Here:</div><div>i.e., \\({a_1\\over a_2} = {b_1\\over b_2} = {1\\over 3}, {c_1\\over c_2} = {7\\over 9}\\)</div><div>i.e., \\({a_1\\over a_2} = {b_1\\over b_2} \\neq {c_1\\over c_2}\\)</div><div>Hence, given pair of lines have no solution, which means that they are parallel lines</div>"
+  }, 
+  "content": {
+    "text": "<div>Following are the pair of equation of two lines.Comment whether they are parallel, coincident or intersecting lines.</div><div>_{i}_x + _{j}_y = _{{7*j}}_ and _{{3*i}}_x + _{{3*j}}_y = _{{9*j}}_.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        9, 
+        4, 
+        8, 
+        6
+      ]
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        6, 
+        8, 
+        2, 
+        4, 
+        6, 
+        4, 
+        7
+      ]
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Intersecting lines"
+      }, 
+      {
+        "text": "Coincident lines"
+      }
+    ], 
+    "correct": {
+      "text": "Parallel lines"
+    }
+  }
+}

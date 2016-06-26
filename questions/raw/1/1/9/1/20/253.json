@@ -1,0 +1,16 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Volume of the cone formed when the triangle is revolved about side \\(_{j}_\\,cm, V_1=_{{trunc(((1/Decimal(3))*pi_val*j**2*k),3)}}_\\,cm^3\\) </div><div>Volume of the cone formed when the triangle is revolved about side \\(_{k}_\\,cm, V_2=_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_\\,cm^3\\) </div><div>Difference between the two volume \\(=V_2-V_1\\)</div><div>\\(=_{{trunc(((1/Decimal(3))*pi_val*k**2*j),3)}}_-_{{trunc(((1/Decimal(3))*pi_val*j**2*k),3)}}_\\)</div><div>\\(=_{{trunc(((1/Decimal(3))*pi_val*j*k*(k-j)),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "What is the difference between the two volumes?"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc(((1/Decimal(3))*pi_val*j*k*(k-j)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

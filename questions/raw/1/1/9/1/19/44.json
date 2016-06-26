@@ -1,0 +1,24 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>\\(0._{j}_0_{j}_00_{j}_000_{j}_0000_{j}_.....\\)</div><div>The given number is non-terminating non-recurring.</div><div>Therefore, \\(0._{j}_0_{j}_00_{j}_000_{j}_0000_{j}_.....\\) is an irrational number.</div>"
+  }, 
+  "content": {
+    "text": "\\(0._{j}_0_{j}_00_{j}_000_{j}_0000_{j}_.....\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Irrational"
+    }
+  }
+}

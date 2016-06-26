@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "Multiply the given term by \\(10\\)."
+  }, 
+  "solution": {
+    "text": "<div>Let \\(x=0._{j}__{j}__{j}__{j}_.....\\)</div><div>Multiplying both sides by \\(10\\),</div><div>\\(\\Rightarrow 10x = _{j}_._{j}__{j}__{j}__{j}_.....\\)</div><div>\\(\\Rightarrow 10x = _{j}_ + x\\)</div><div>\\(\\Rightarrow 10x-x = _{j}_\\)</div><div>\\(\\Rightarrow 9x = _{j}_\\)</div><div>\\(x=\\frac{_{j}_}{9}=_{{Fraction(j,9)}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(0._{j}__{j}__{j}__{j}_.....\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(j)/9}}_"
+  }, 
+  "type": 3
+}

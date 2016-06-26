@@ -1,0 +1,73 @@
+{
+  "hint": {
+    "text": "Assume the value of \\(\\pi\\) to be \\(\\frac{22}{7}\\)"
+  }, 
+  "solution": {
+    "text": "Consider the given equation : \\(\\frac{_{{n*7}}_}{11} x + _{j}_y = _{{(j*l) + 2*n}}_\\)<br>Now, for each given ordered pair, substitute the values of x and y and check if it satisfies the equation.<br>For instance:<br>\\((\\pi, _{l}_)\\) implies \\(x = \\pi\\) and \\(y = _{l}_\\)<br>Substituting the values into the given equation on the Left Hand Side (LHS), we get<br>\\(\\frac{_{{n*7}}_}{11} * \\pi + _{j}_ * _{l}_ \\)<br>\\(= _{{(j*l) + 2*n}}_\\)<br>\\(= RHS\\)<br>Hence \\((\\pi, _{l}_)\\) is a solution for the given equation.<br><br>Similarly, \\((_{{Fraction(11 * ((j*l) + 2*n),(n*7))}}_, 0)\\) is also a solution for the given equation but \\((_{{Fraction(11 * ((j*l) + n),(n*7))}}_, 0)\\) and \\((\\pi, _{{l+1}}_)\\) are not."
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "\\(\\frac{_{{n*7}}_}{11} x + _{j}_y = _{{(j*l) + 2*n}}_\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{{Fraction(11 * ((j*l) + n),(n*7))}}_, 0)\\)"
+      }, 
+      {
+        "text": "\\((\\pi, _{{l+1}}_)\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\((\\pi, _{l}_)\\)"
+      }, 
+      {
+        "text": "\\((_{{Fraction(11 * ((j*l) + 2*n),(n*7))}}_, 0)\\)"
+      }
+    ]
+  }
+}

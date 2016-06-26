@@ -1,0 +1,42 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The square root of all numbers except perfect squares is irrational and the product of a rational and an irrational number is irrational.</div><div>Therefore, \\(_{j}_\\sqrt_{j}_\\) is irrational.</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_\\sqrt_{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        6, 
+        7, 
+        8, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        17, 
+        18, 
+        19
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Irrational"
+    }
+  }
+}

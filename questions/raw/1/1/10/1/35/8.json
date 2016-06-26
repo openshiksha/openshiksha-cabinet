@@ -1,0 +1,42 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Here, the class size varies. Let us apply the step-deviation method.</div><div>Then, </div><div>We obtain the data as in Table: </div><div>\\begin{array}{c|lcr}Marks & \\text{no.of students(fi)} & \\text{xi} & \\text{ui=\\(xi-50\\over 20\\)} & \\text{fiui} \\\\\\hline0-20 & _{i}_ & 10 & -2 & _{{i*(-2)}}_ \\\\20-40 & _{j}_ & 30 & -1 & _{{j*(-1)}}_ \\\\40-60 & _{k}_ & 50 & 0 & _{{k*0}}_ \\\\60-80 & _{l}_ & 70 & 1 & _{{l*1}}_ \\\\80-100 & _{m}_ & 90 & 2 & _{{m*2}}_ \\\\\\hline Total & _{{i+j+k+l+m}}_ &  &  & _{{(i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2)}}_ \\\\ \\hline\\end{array}</div><div>The sum of the values in the last column gives us \\sum fiui</div><div> So, </div><div>the mean x of the given data is given by;</div><div>  \\(\\bar x\\) = 50 + 20*\\(\\Sigma fiui\\over \\Sigma fi\\) = 50 + 20*\\(_{{(i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2)}}_\\over _{{i+j+k+l+m}}_\\) = _{{trunc(50+(20*(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m))),5)}}_</div><div>Now, for calculating Mode</div><div>Here the maximum class frequency is _{l}_,</div><div>And, </div><div>The class corresponding to this frequency is 60 - 80.</div><div>So, the modal class is 60 - 80.</div><div>Now </div><div>Modal class = 60 - 80, lower limit (l ) of modal class = 60,</div><div> class size (h) = 20</div><div>frequency ( \\(f_1\\) ) of the modal class = _{l}_,</div><div>frequency ( \\(f_0\\) ) of class preceding the modal class = _{k}_,</div><div>frequency ( \\(f_2\\) ) of class succeeding the modal class = _{m}_. </div><div>Now, let us substitute these values in the formula :</div><div> Mode = l + (\\((f_1-f_0)\\over (2*f_1-f_0-f_2)\\))*h</div><div> Mode = 60 + (\\((_{l}_-_{k}_)\\over (2*_{l}_-_{k}_-_{m}_)\\))*20</div><div> Mode = 60 + \\(_{{l-k}}_\\over _{{(2*l)-m-k}}_\\)*20</div><div> Mode = 60 + (_{{trunc((Decimal(l)-k)/((2*l)-m-k),3)}}_)*20</div><div> Mode = 60 + (_{{trunc(((Decimal(l)-k)/((2*l)-m-k))*20,3)}}_)</div><div> Mode = _{{trunc((60+((Decimal(l)-k)/((2*l)-m-k))*20),3)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Following data of the marks scored by the students in an examination was collected.Find the mean and mode of marks scored.</div><div>\\begin{array}{c|lcr} Marks & \\text{0-20} & \\text{20-40} & \\text{40-60} & \\text{60-80} & \\text{80-100} \\\\\\hline \\ No. of students & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\ \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            22, 
+            28
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(50.2)+(20*(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m+1))),3)}}_ , _{{trunc((63+((Decimal(l)-k)/((2*l)-m-k))*20),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(49.6)+(20*(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m-1))),3)}}_ , _{{trunc((60+((Decimal(l)-k)/((2*l)-m-k))*20),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(50+(20*(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m))),3)}}_ , _{{trunc((57+((Decimal(l)-k)/((2*l)-m-k-2))*20),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(50+(20*(((i*(-2))+(j*(-1))+(k*0)+(l*1)+(m*2))/(Decimal(i)+j+k+l+m))),3)}}_ , _{{trunc((60+((Decimal(l)-k)/((2*l)-m-k))*20),3)}}_"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "<div>Stars twinkle but planets do not.</div><div>Planets do not have light of their own.</div><div>They merely reflect the sunlight that falls on them.</div>"
+  }, 
+  "content": {
+    "text": "Star and planets twinkle."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

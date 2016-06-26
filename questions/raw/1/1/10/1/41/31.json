@@ -1,0 +1,68 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the time taken by a man be x and by a woman be y</div><div>Then: </div><div>Work done in one day by a man = \\(1\\over x\\) </div><div>Similarly, by a woman = \\(1\\over y\\)</div><div>Now according to question : </div><div>\\(_{k}_({_{i}_\\over x} + {_{j}_\\over y}) = 1\\)</div><div>And, _{l}_\\(({_{{i+3}}_\\over x} + {_{{j*2}}_\\over y}) = 1\\).</div><div>\\(({_{i}_\\over x} + {_{j}_\\over y}) = {1\\over _{k}_}\\) ------(1)</div><div>\\(({_{{i+3}}_\\over x} + {_{{j*2}}_\\over y}) = {1\\over _{l}_}\\) ------(2)</div><div>Put p = \\(1\\over x\\) and q = \\(1\\over y\\)</div><div>_{i}_p + _{j}_q = \\({1\\over _{k}_}\\) -------(3)</div><div>_{{i+3}}_p + _{{j*2}}_q = \\({1\\over _{l}_}\\) -------(4)</div><div>Multiply equation (1) by 2 to make coefficient of y equal</div><div>_{{2*i}}_p + _{{2*j}}_q = \\({2\\over _{k}_}\\) -------(5)</div><div>Now subtract equation (4) from equation (5)</div><div>We get,</div><div>_{{i-3}}_p + _{{2*j-2*j}}_q = \\({2\\over _{k}_} - {1\\over _{l}_}\\)</div><div>_{{i-3}}_p = \\(_{{2*l-k}}_\\over _{{k*l}}_\\)</div><div>p = \\(_{{2*l-k}}_\\over _{{k*l*(i-3)}}_\\)</div><div>Putting p = \\(_{{2*l-k}}_\\over _{{k*l*(i-3)}}_\\) in equation (3), we get</div><div>_{i}_\\(_{{2*l-k}}_\\over _{{k*l*(i-3)}}_\\) + _{j}_q = \\({1\\over _{k}_}\\) </div><div>\\(_{{(2*l-k)*i}}_\\over _{{k*l*(i-3)}}_\\) + _{j}_q = \\({1\\over _{k}_}\\) </div><div>_{j}_q = \\({1\\over _{k}_}\\) - \\(_{{(2*l-k)*i}}_\\over _{{k*l*(i-3)}}_\\)</div><div>_{j}_q = \\({_{{l*(i-3)}}_-_{{(2*l-k)*i}}_}\\over _{{k*l*(i-3)}}_\\)</div><div>q = \\({_{{l*(i-3)-(2*l-k)*i}}_}\\over _{{k*l*j*(i-3)}}_\\)</div><div>Now, p = \\(1\\over x\\) = \\(_{{2*l-k}}_\\over _{{k*l*(i-3)}}_\\)</div> <div> x = \\(_{{k*l*(i-3)}}_\\over _{{2*l-k}}_\\)</div><div> x = \\(_{{trunc((Decimal(k)*l*(i-3))/(2*l-k),2)}}_\\)</div><div>And, q = \\(1\\over y\\) = \\({_{{l*(i-3)-(2*l-k)*i}}_}\\over _{{k*l*j*(i-3)}}_\\)</div><div> y = \\(_{{k*l*j*(i-3)}}_\\over {_{{l*(i-3)-(2*l-k)*i}}_}\\)</div><div> y = \\(_{{trunc((Decimal(k)*l*j*(i-3))/(l*(i-3)-(2*l-k)*i),2)}}_\\)</div><div>Thus,1 man alone can assemble the car in \\(_{{trunc((Decimal(k)*l*(i-3))/(2*l-k),2)}}_\\) days and 1 woman alone can do it in \\(_{{trunc((Decimal(k)*l*j*(i-3))/(l*(i-3)-(2*l-k)*i),2)}}_\\) days.</div>"
+  }, 
+  "content": {
+    "text": "<div>_{i}_ men and _{j}_ women can together assemble a car in _{k}_ days, while _{{i+3}}_ men and _{{2*j}}_ women can assemble it in _{l}_ days. Find the time taken by 1 woman alone to finish the work, and also that taken by 1 man alone. </div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            4, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        32, 
+        33, 
+        34, 
+        35, 
+        33, 
+        32
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "options": [
+        17, 
+        18, 
+        19, 
+        20, 
+        18, 
+        17
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "man=\\(_{{trunc((Decimal(k)*l*(i-3))/(2*l-k+2),2)}}_\\) days and woman =\\(_{{trunc((Decimal(k)*l*j*(i-3))/(l*(i-3)-(2*l-k)*i),2)}}_\\) days"
+      }, 
+      {
+        "text": "man=\\(_{{trunc((Decimal(k)*l*(i-3))/(2*l-k),2)}}_\\) days and woman =\\(_{{trunc((Decimal(k)*l*j*(i-3+5))/(l*(i-3)-(2*l-k)*i),2)}}_\\) days"
+      }, 
+      {
+        "text": "man=\\(_{{trunc((Decimal(k)*l*(i-3+3))/(2*l-k),2)}}_\\) days and woman =\\(_{{trunc((Decimal(k)*l*j*(i-3))/(l*(i-3)-(2*l-k-2)*i),2)}}_\\) days"
+      }
+    ], 
+    "correct": {
+      "text": "man=\\(_{{trunc((Decimal(k)*l*(i-3))/(2*l-k),2)}}_\\) days and woman =\\(_{{trunc((Decimal(k)*l*j*(i-3))/(l*(i-3)-(2*l-k)*i),2)}}_\\) days"
+    }
+  }
+}

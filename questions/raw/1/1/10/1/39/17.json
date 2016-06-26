@@ -1,0 +1,105 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given vertices are: O(_{i}_,_{j}_), B(_{k}_,_{l}_) and C(_{o}_,_{p}_).</div><div>Since, all slices are similar and pizza contains 6 slices</div><div>Therefore, area of the pizza = \\(6\\times {Area of one slice}\\).</div><div>Now Using following formula:</div><div>Area of OBC = \\({1\\over 2}\\times (x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2))\\)</div><div>i.e., Area of OBC = \\({1\\over 2}\\times (_{i}_(_{l}_-_{p}_)+_{k}_(_{p}_-_{j}_)+_{o}_(_{j}_-_{l}_))\\)</div><div>i.e., Area of OBC = \\({1\\over 2}\\times (_{i}_(_{{l-p}}_)+_{k}_(_{{p-j}}_)+_{o}_(_{{j-l}}_))\\)</div><div>i.e.,Area of OBC = \\({1\\over 2}\\times (_{{i*(l-p)}}_+_{{k*(p-j)}}_+_{{(j-l)*o}}_)\\)</div><div>i.e., Area of OBC = \\({1\\over 2}\\times (_{{(i*(l-p))+(k*(p-j))+((j-l)*o)}}_)\\)</div><div>i.e., Area of OBC = _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))/2,2)}}_</div> <div>Thus, area of the pizza = \\(6\\times _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))/2,2)}}_\\)</div><div>i.e., Area = _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))*3,2)}}_ square unit.</div>"
+  }, 
+  "content": {
+    "text": "<div>A hexagonal shaped pizza contains 6 slices, each of them are similar.Once a mathematician went to eat pizza and while waiting for the pizza he drew coordinate axis on the table, and when pizza was delivered to him, he took a slice of pizza and put it on the table and he noted down the coordinates of all three vertices of that pizza slice as follows : O(_{i}_,_{j}_), B(_{k}_,_{l}_) and C(_{o}_,_{p}_). Find the area of the pizza.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            14, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((Decimal(i)*(l-p+3))+(k*(p-j))+((j-l)*o))*3,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((Decimal(i)*(l-p))+(k*(p-j-1))+((j-l)*o))*3,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))*3,2)}}_"
+    }
+  }
+}

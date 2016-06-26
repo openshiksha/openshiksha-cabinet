@@ -1,0 +1,43 @@
+{
+  "hint": {
+    "text": "<div>Arithmetic mean (A) is a number between two numbers a and b such that the sequence formed a,A,b will be in A.P.</div><div>i.e. common difference (d)=A-a=b-A </div>"
+  }, 
+  "solution": {
+    "text": "<div>As mentioned in Hint </div><div>Inserting A.M.(A) between two numbers a and b will make the newly formed sequence  \\(a,A,b\\)  in A.P.</div><div>therefore</div><div>the common difference of the A.P. will be</div><div>\\(d=A-a=b-A\\)</div><div>\\(A-a=b-A\\)</div><div>\\(2A=b+a\\)</div><div>\\(A=\\frac{a+b}{2}\\)</div><div>\\(A=_{{(p+q)/2}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Find the arithmetic mean (A.M.) of the numbers _{p}_  and _{q}_?</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            51, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "exclude": [
+          [
+            0
+          ]
+        ], 
+        "include": [
+          [
+            -50, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal(p+q)/2}}_"
+  }, 
+  "type": 3
+}

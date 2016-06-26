@@ -1,0 +1,45 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "The given equation can be represented as \\(-_{k}_x + \\frac{y}{_{j}_} + _{{l-3}}_ = 0\\) (in the format of <b>\\(ax + by + c = 0\\) </b>)<br><br>Where<br>\\(a = -_{k}_\\)<br>\\(b = \\frac{1}{_{j}_}\\)<br>\\(c = _{{l-3}}_\\)"
+  }, 
+  "content": {
+    "text": "<b>\\(-_{k}_x + \\frac{y}{_{j}_} + _{l}_ = 3\\)</b> Find \\(c\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            90
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            70
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{l-3}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,47 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given numbers are :</div><div> _{{((16*j)+7)*i}}_ and _{{((7*j)+3)*i}}_</div><div>According to Euclid's division lemma:</div><div> c = dq + r</div><div>Step 1 : Since _{{((16*j)+7)*i}}_ > _{{((7*j)+3)*i}}_,</div><div>We apply the division lemma to _{{((16*j)+7)*i}}_ and _{{((7*j)+3)*i}}_</div><div>to get:</div><div>_{{((16*j)+7)*i}}_ = \\(_{{((7*j)+3)*i}}_\\times 2\\) + _{{((2*j)+1)*i}}_</div><div>Step 2 : Since the remainder \\(_{{((2*j)+1)*i}}_\\neq 0\\)</div><div>We apply the division lemma to :</div><div> _{{((7*j)+3)*i}}_ and _{{((2*j)+1)*i}}_</div><div> _{{((7*j)+3)*i}}_ = \\(_{{((2*j)+1)*i}}_\\times 3\\) + _{{j*i}}_</div><div>Step 3 : Applying lemma until remainder becomes zero.</div><div>We consider the new divisor _{{((2*j)+1)*i}}_ and the new remainder _{{j*i}}_, and apply the division lemma to get:</div><div> _{{((2*j)+1)*i}}_ = \\(_{{j*i}}_\\times 2\\) + _{i}_</div><div>Again, </div><div>We consider the new divisor _{{j*i}}_ and the new remainder _{i}_, and apply the division lemma to get:</div><div> _{{j*i}}_ = \\(_{i}_\\times _{j}_\\) + 0</div><div>The remainder has now become zero, so our procedure stops.</div><div> Since the divisor at this stage is _{i}_, the HCF of _{{163*i}}_ and _{{21*i}}_ is _{i}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the HCF of _{{((16*j)+7)*i}}_ and _{{((7*j)+3)*i}}_ using Euclid's division algorithm.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            6, 
+            46
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        1, 
+        4, 
+        6, 
+        5, 
+        7
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{i+1}}_"
+      }, 
+      {
+        "text": "_{{i-1}}_"
+      }, 
+      {
+        "text": "_{{i+2}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{i}_"
+    }
+  }
+}

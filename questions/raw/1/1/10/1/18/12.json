@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>given that product of the roots is greater than zeros and sum of the roots is lesser than zero</div><div>\\(\\Rightarrow \\alpha +\\beta\\lt\\)0 and \\(\\alpha\\times \\beta\\gt\\)0</div><div>If \\(\\alpha\\times \\beta\\gt\\)0 \\(\\Rightarrow \\)both the roots are negative and or both are positive because either \\((+) \\times (+) = (+)\\) or \\((-) \\times (-) = (-)\\)</div><div> \\(\\Rightarrow \\) graph number 3 is not at all suitable</div>  <div>Now \\(\\alpha +\\beta\\lt\\)0, \\(\\Rightarrow \\) so at least one the zeros is negative </div><div>Combining the 2 conditions obtained we can say that both the zeros are negative.</div><div>\\(\\Rightarrow \\) the curve will cut the negative x-axis twice</div><div>Hence the number 2 and 4 graph are suitable</div>"
+  }, 
+  "content": {
+    "text": "<div>\\(\\alpha \\) and \\(\\beta \\) are the zeros of a quadratic equation whose product of the zeros is greater than 0 but sum of the zeros is lesser than 0.</div><div>From the given graphs choose the one(s) which are suitable to satisfy the above condition.</div>", 
+    "img": "12.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "graph 3 and graph 1"
+      }, 
+      {
+        "text": "graph 1"
+      }, 
+      {
+        "text": "graph 3"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "graph 2 and graph 4"
+      }
+    ]
+  }
+}

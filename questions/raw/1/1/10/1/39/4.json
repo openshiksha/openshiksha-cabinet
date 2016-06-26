@@ -1,0 +1,57 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given points are : </div><div>P = (_{i}_,_{j}_), Q = (_{{i+k}}_,_{j}_), R = (_{{i+k}}_,_{{j+l}}_), S = (_{i}_,_{{j+l}}_)</div><div>Using the distance formula we have : </div><div>\\(PQ = \\sqrt {(_{{i+k}}_ - _{i}_)^2 + (_{j}_ - _{j}_)^2} = \\sqrt {(_{k}_)^2 + (0)^2} = \\sqrt {_{{pow(k,2)}}_ + (0)}\\) = _{k}_</div><div>\\(QR = \\sqrt {(_{{i+k}}_ - _{{k+i}}_)^2 + (_{j}_ - _{{j+l}}_)^2} = \\sqrt {(0)^2 + (-_{l}_)^2} = \\sqrt {0 + _{{pow(l,2)}}_}\\) = _{l}_</div><div>\\(RS = \\sqrt {(_{i}_-_{{i+k}}_)^2 + (_{{l+j}}_ - _{{j+l}}_)^2} = \\sqrt {(-_{k}_)^2 + (0)^2} = \\sqrt {_{{pow(k,2)}}_ + (0)}\\) = _{k}_</div><div>\\(SP = \\sqrt {(_{i}_ - _{i}_)^2 + (_{{j+l}}_ - _{j}_)^2} = \\sqrt {(0)^2 + (_{l}_)^2} = \\sqrt {0 + _{{pow(l,2)}}_}\\) = _{l}_</div><div>\\(PR = \\sqrt {(_{{i+k}}_ - _{i}_)^2 + (_{{j+l}}_ - _{j}_)^2} = \\sqrt {(_{k}_)^2 + (_{l}_)^2} = \\sqrt {_{{pow(k,2)}}_ + _{{pow(l,2)}}_}\\) = _{m}_</div><div>\\(QS = \\sqrt {(_{i}_-_{{i+k}}_)^2 + (_{j}_-_{{j+l}}_)^2} = \\sqrt {(-_{k}_)^2 + (-_{l}_)^2} = \\sqrt {_{{pow(k,2)}}_ + _{{pow(l,2)}}_}\\) = _{m}_</div><div>Here you can see that \\(PQ + QR \\neq PR\\)</div><div>Thus, Rahul was right that they are forming quadrilateral. </div><div>Since PQ = RS and QR = SP</div><div>This quadrilateral can be either rectangle or parallelogram or rhombus or square. </div><div>Since all 4 sides are not equal that is why it can't be square or rhombus.</div><div>But, you can see diagonals PR = QS.</div><div>Hence it is a rectangle</div>"
+  }, 
+  "content": {
+    "text": "<div>While playing cricket Rahul observes that he and three other  fielders are forming a quadrilateral, but he is confused about which type of quadrilateral they are forming.Help him in finding the type of quadrilateral.Position of four of them in sequence are given as : (_{i}_,_{j}_), (_{{i+k}}_,_{j}_), (_{{i+k}}_,_{{j+l}}_), (_{i}_,_{{j+l}}_)</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {
+      "options": [
+        3, 
+        8, 
+        5, 
+        4, 
+        6
+      ]
+    }, 
+    "j": {}, 
+    "m": {
+      "options": [
+        5, 
+        10, 
+        13, 
+        8.944, 
+        7.211
+      ]
+    }, 
+    "l": {
+      "options": [
+        4, 
+        6, 
+        12, 
+        8, 
+        4
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Square"
+      }, 
+      {
+        "text": "Rhombus"
+      }, 
+      {
+        "text": "Trapezium"
+      }
+    ], 
+    "correct": {
+      "text": "Rectangle"
+    }
+  }
+}

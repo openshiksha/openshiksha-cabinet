@@ -1,0 +1,17 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Amount spent by Ravi on clothes\\(=\\)Rs.\\(_{{j*100}}_\\)</div><div>From the pie chart,</div><div>Ravi spent \\(32\\)% of his pocket money on clothes.</div><div>Let Ravi's pocket money be \\(x\\).</div><div>\\(\\Rightarrow \\frac{32}{100} \\times x=_{{j*100}}_\\)</div><div>\\(\\Rightarrow x=\\frac{_{{j*100}}_ \\times 100}{32}\\)</div><div>\\(x=_{{(j*100*100)/(Decimal(32))}}_\\)</div><div>From the pie chart,</div><div>Ravi spent \\(27\\)% of his pocket money on video games.</div><div>Amount spent by Ravi on video games\\(=\\frac{27}{100} \\times _{{(j*100*100)/(Decimal(32))}}_\\)</div><div>\\(=\\)Rs.\\(_{{(27*100*j)/(Decimal(32))}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "If he spent Rs.\\(_{{j*100}}_\\) on clothes, how much did he spend on videogames?"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{(27*100*j)/(Decimal(32))}}_"
+  }, 
+  "type": 3, 
+  "unit": "Rupees"
+}

@@ -1,0 +1,33 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Let say \\(_{{j+(3*k)+l}}_\\) be the nth term of this AP</div><div> We know \\(a_n=a_1\\,+\\,(n-1)*d\\)</div><div> \\(_{{j+(3*k)+l}}_ = _{j}_ + (n-1)*_{k}_\\)</div><div> \\(_{{j+(3*k)+l}}_ = n*_{k}_ + _{{j-k}}_\\)</div><div> n =  \\(_{{j+(3*k)+l-k-j}}_\\over _{k}_\\)</div><div> n should be an integer only then \\(_{{j+(3*k)+l}}_\\) is a term of the given list.</div>"
+  }, 
+  "content": {
+    "text": "<div> Check whether _{{j+(3*k)+l}}_ is a term of the list of numbers</div><div>\\(_{j}_,_{{j+k}}_,_{{j+(2*k)}}_,_{{j+(3*k)}}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            71
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

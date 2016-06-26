@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "For an isothermal reversible expansion of an ideal gas, the work done on the <b>system by the surroundings</b> is given by<br>\\(w = - n \\times R \\times T \\times ln (\\frac {V2}{V1}) \\)<br>We can use the relationship below from the ideal gas equation during an isothermal process to calculate \\(\\frac {V_2}{V_1}\\):\\(\\frac{P_1}{P_2} = \\frac{V_2}{V_1}\\)<br> \\(\\implies \\frac{V_2}{V_1} = \\frac {_{p1}_}{_{p2}_} = _{{trunc((Decimal(p1)/p2),3)}}_\\)<br><br>Now substitute the value in the equation for work:<br>\\(w = - n \\times  R \\times T \\times ln (\\frac {V2}{V1}) \\)<br>\\(w = - _{k}_ \\times 8.314 \\times _{temp}_ \\times ln (_{{trunc((Decimal(p1)/p2),3)}}_) \\)<br>\\(w = - _{k}_ \\times 8.314 \\times _{temp}_ \\times ln (_{{trunc((Decimal(p1)/p2),3)}}_) \\)<br>\\(w = _{{trunc((k * Decimal('-0.001') * Decimal('8.314') * temp * ln(Decimal(p1)/p2)),3)}}_ \\;kJ\\)<br>"
+  }, 
+  "content": {
+    "text": "_{k}_ moles of an ideal gas are compressed isothermally at _{temp}_ K from _{p1}_ atm to _{p2}_ atm. Calculate the work done <b>on the system by the surroundings</b>.(Calculate upto two decimal places)"
+  }, 
+  "variable_constraints": {
+    "p2": {
+      "range": {
+        "include": [
+          [
+            80, 
+            400
+          ]
+        ]
+      }
+    }, 
+    "k": {}, 
+    "p1": {}, 
+    "temp": {
+      "range": {
+        "include": [
+          [
+            260, 
+            360
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc((k * Decimal('-0.001') * Decimal('8.314') * temp * ln(Decimal(p1)/p2)),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "kJ"
+}

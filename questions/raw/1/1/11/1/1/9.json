@@ -1,0 +1,73 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Sum of any AP will be \\( S_n=\\frac{n}{2}\\times(2a_1+(n-1)\\times d)\\)</div><div> \\( S_n=\\frac{n}{2}\\times(a_1+(a_1+(n-1)\\times d))\\)</div><div>\\( S_n=\\frac{n}{2}\\times(a_1+a_n)\\)</div><div>here \\(a_1=_{p}_\\) and \\(a_n=_{q}_\\)</div><div>Since both are odd numbers</div><div>n=\\( \\frac{a_n-a_1}{2} +1\\)</div><div>Thus\\( S_n=\\frac{a_n-a_1 +2}{4}\\times(a_1+a_n)\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the sum of odd integers from _{p}_ to _{q}_. </div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "options": [
+        1001, 
+        1003, 
+        1005, 
+        1007, 
+        1009, 
+        1011, 
+        1013, 
+        1015, 
+        1017, 
+        1019, 
+        1021, 
+        1023, 
+        1025, 
+        1027, 
+        1029, 
+        1031, 
+        1033, 
+        1035, 
+        1037, 
+        1039, 
+        1041, 
+        1043, 
+        1045, 
+        1047, 
+        1049
+      ]
+    }, 
+    "p": {
+      "options": [
+        1, 
+        3, 
+        5, 
+        7, 
+        9, 
+        11, 
+        13, 
+        15, 
+        17, 
+        19, 
+        21, 
+        23, 
+        25, 
+        27, 
+        29, 
+        31, 
+        33, 
+        35, 
+        37, 
+        39, 
+        41, 
+        43, 
+        45, 
+        47, 
+        49
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{((q-p+2)*(p+q))/4}}_"
+  }, 
+  "type": 3
+}

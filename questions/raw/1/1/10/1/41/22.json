@@ -1,0 +1,68 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the cost of each pen be x,</div><div>And, cost of each pencil be y.</div><div>Then,</div><div>According to question:</div><div> _{j}_x + _{i}_y = _{k}_  -------(1)</div><div> _{i}_x + _{j}_y = _{l}_  -------(2)</div><div>Multiply equation(1) by _{j}_ and equation (2) by _{i}_ to make coefficient of y equal.</div><div>Then we get the equations:</div><div>_{{j*j}}_x + _{{i*j}}_y = _{{j*k}}_  -------(3)</div><div>_{{i*i}}_x + _{{i*j}}_y = _{{i*l}}_   -------(4)</div><div>Subtract equations(1) from equation (2).</div><div>So, we get </div><div>(_{{i*i}}_-_{{j*j}}_)x + (_{{i*j}}_-_{{i*j}}_)y = -_{{k*j}}_+_{{i*l}}_</div><div>i.e.,_{{i*i-j*j}}_x = _{{l*i-k*j}}_</div><div>i.e.,x = \\(_{{i*l-k*j}}_\\over _{{i*i-j*j}}_\\)</div><div>i.e.,x = _{{trunc((Decimal(i)*l-k*j)/(i*i-j*j),2)}}_</div><div>Now, Substitute the value of x in equation 1.</div><div>We get</div><div>\\({_{{(l*i-k*j)}}_\\times _{j}_}\\over _{{i*i-j*j}}_\\) + _{i}_y = _{k}_</div><div> _{i}_y = _{k}_-\\(_{{j*(l*i-k*j)}}_\\over _{{i*i-j*j}}_\\)</div><div> _{i}_y = \\({_{{k*(i*i-j*j)}}_-_{{j*(l*i-k*j)}}_}\\over _{{i*i-j*j}}_\\)</div><div> y = \\({_{{k*(i*i-j*j)-(j*(l*i-k*j))}}_}\\over _{{i*(i*i-j*j)}}_\\)</div><div> y = _{{trunc((Decimal(k)*(i*i-j*j)-(j*(l*i-k*j)))/(i*(i*i-j*j)),2)}}_</div><div>So, the solution required is: </div><div> x = _{{trunc((Decimal(i)*l-k*j)/(i*i-j*j),2)}}_ and y = _{{trunc((Decimal(k)*(i*i-j*j)-(j*(l*i-k*j)))/(i*(i*i-j*j)),2)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A teacher buys _{j}_ pens and _{i}_ pencils for Rs _{k}_.Later she buys  and  _{i}_ pens and _{j}_ pencils for Rs _{l}_.Find the cost of each pen and each pencil.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "options": [
+        2, 
+        3, 
+        6, 
+        8, 
+        4, 
+        7
+      ]
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        4, 
+        5, 
+        7, 
+        9, 
+        6, 
+        3
+      ]
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{trunc((Decimal(i)*l-k*j)/(i*i-j*j-2),2)}}_ and y = _{{trunc((Decimal(k)*(i*i-j*j)-(j*(l*i-k*j)))/(i*(i*i-j*j)),2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc((Decimal(i)*l-k*j)/(i*i-j*j),2)}}_ and y = _{{trunc((Decimal(k)*(i*i-j*j+2)-(j*(l*i-k*j)))/(i*(i*i-j*j)),2)}}_"
+      }, 
+      {
+        "text": "x = _{{trunc((Decimal(i)*l-k*j)/(i*i-j*j+2),2)}}_ and y = _{{trunc((Decimal(k)*(i*i-j*j-2)-(j*(l*i-k*j)))/(i*(i*i-j*j)),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "x = _{{trunc((Decimal(i)*l-k*j)/(i*i-j*j),2)}}_ and y = _{{trunc((Decimal(k)*(i*i-j*j)-(j*(l*i-k*j)))/(i*(i*i-j*j)),2)}}_"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "Poliomyelitis, often called polio or infantile paralysis, is an infectious disease caused by the poliovirus"
+  }, 
+  "content": {
+    "text": "Polio"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Bacteria"
+      }, 
+      {
+        "text": "Protozoa"
+      }, 
+      {
+        "text": "Fungi"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Virus"
+    }
+  }
+}

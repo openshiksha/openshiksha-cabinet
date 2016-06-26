@@ -1,0 +1,48 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given that : </div><div>Numbers of male candidates = _{i}_</div><div>Numbers of female candidates = _{j}_ </div><div>Total numbers of candidates = _{{i+j}}_</div><div>If M is an event that a male candidate is selected,</div><div>Than, </div><div> P(M) = \\(_{i}_\\over _{{i+j}}_\\)</div><div> P(M) = _{{trunc(Decimal(i)/(i+j),5)}}_</div><div>Since, </div><div>We know that there are two possibilities either male candidate is selected or female candidate is selected.</div><div>So, sum of the probability of the both cases should be equal to 1</div><div> Now, </div><div>If F is an event that a female candidate is selected,</div><div>Hence,</div><div>i.e., P(M) + P(F) = 1</div><div>i.e. P(F) = 1 - P(M)</div><div> P(F) = 1 - _{{trunc(Decimal(i)/(i+j),5)}}_</div><div> P(F) = _{{trunc(1-(Decimal(i)/(i+j)),5)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>In a company, _{i}_ number of males and _{j}_ number of females applied for a post.Find out the probability that a male candidate is selected for that post.Also find out the probability that a female candidate is selected.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(i)/(i+j+4),3)}}_ ,_{{trunc(1-(Decimal(i)/(i+j+4)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(i)/(i+j-4),3)}}_ ,_{{trunc(1-(Decimal(i)/(i+j-4)),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(i)/(i+j+1),3)}}_ ,_{{trunc(1-(Decimal(i)/(i+j+1)),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal(i)/(i+j),3)}}_ ,_{{trunc(1-(Decimal(i)/(i+j)),3)}}_"
+    }
+  }
+}

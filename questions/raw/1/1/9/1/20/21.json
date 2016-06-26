@@ -1,0 +1,46 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Length\\(_{j}_ft\\), Breadth\\(=_{k}_ft\\), Height\\(=_{l}_ft\\)</div><div>Surface area of bathroom floor\\(=Length \\times Breadth\\)</div><div>\\(=_{j}_ \\times _{k}_\\)</div><div>\\(=_{{j*k}}_ sq.ft.\\)</div><div>Surface area of a single tile\\(=1 \\times 1 = 1 sq.ft.\\)</div><div>Therefore, no. of tiles required \\(= \\frac{Surface\\,area\\,of\\,the\\,floor}{Surface\\,area\\,of\\,a\\,single\\,tile}\\)</div><div>\\(=\\frac{_{{j*k}}_}{1}=_{{j*k}}_\\) tiles</div>"
+  }, 
+  "content": {
+    "text": "<div>The length, breadth and height of a bathroom are \\(_{j}_ft\\), \\(_{k}_ft\\) and \\(_{l}_ft\\) respectively. Karan wants to renovate his bathroom by installing glass panes on all four walls, repaint the ceiling and fix new tiles on the floor.</div><div>How many square tiles of side \\(1ft\\) will he require to redo the flooring?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            8, 
+            13
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            12, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*k}}_"
+  }, 
+  "type": 3, 
+  "unit": "tiles"
+}

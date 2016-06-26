@@ -1,0 +1,28 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(\\frac {AE}{EB} =\\frac {Ah}{hC}\\)</div><div>From the theorem that says  If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side</div><div>\\(\\Rightarrow \\) EH is parallel to BC</div><div>\\(\\Rightarrow \\angle AEF = \\angle EBC\\) (corresponding angles)</div><div>given that \\(\\angle AEF = \\angle ACB \\)</div><div>Therefore \\(\\angle EBC = \\angle hCB \\Rightarrow AB=AC\\)</div><div>Hence \\(\\bigtriangleup\\) ABC is an isosceles triangle.</div>"
+  }, 
+  "content": {
+    "text": "<div>If \\(\\angle AEF = \\angle ACB \\) and \\(\\frac {AE}{EB} =\\frac {Ah}{hC}\\)</div><div>From the ones given below choose the correct options.</div>", 
+    "img": "10.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\bigtriangleup \\) ABC is not an isosceles triangle"
+      }, 
+      {
+        "text": "\\(Ah \\neq hC \\)"
+      }, 
+      {
+        "text": "\\(EB \\neq hC \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\bigtriangleup \\) ABC is an isosceles triangle"
+    }
+  }
+}

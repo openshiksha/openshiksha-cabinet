@@ -1,0 +1,21 @@
+{
+  "hint": {
+    "text": "All sides of a rhombus are equal"
+  }, 
+  "solution": {
+    "text": "<div>For Rhombus we have, ab=bc=cd=da=L=_{{10*j}}_</div><div>Area of the Rhombus(abcd) = area of the \\(\\bigtriangleup \\) abc +   \\(\\bigtriangleup \\) adc </div><div>So for \\(\\bigtriangleup \\) abc, we have ab=bc=_{{10*j}}_ and D=_{{16*j}}_ (given)</div><div>By using Heron's formula, area of abc = \\(\\sqrt {s(s-a_1)(s-b_1)(s-c_1)}\\) where \\(a_1\\),\\(b_1\\),\\(c_1\\) are the sides of the triangle and \\(s=\\frac {a_1+b_1+c_1}2 \\)  </div><div>Here \\(ab=a_1=_{{10*j}}_\\),\\(bc=b_1=_{{10*j}}_\\) and \\(ca=c_1=_{{16*j}}_\\) so \\(s=\\frac {_{{10*j}}_+_{{10*j}}_+_{{16*j}}_}2=_{{18*j}}_\\)</div><div>Therefore, area \\(\\bigtriangleup \\) abc= \\(\\sqrt {_{{18*j}}_(_{{18*j}}_-_{{10*j}}_)(_{{18*j}}_-_{{10*j}}_)(_{{18*j}}_-_{{16*j}}_)} = \\sqrt {_{{18*j*(18*j-10*j)*(18*j-10*j)*(18*j-16*j)}}_}=_{{72*j*j}}_\\)</div><div>Similarly for \\(\\bigtriangleup \\) adc we have ad=dc=_{{10*j}}_ and D=_{{8*j}}_ (given)</div><div>By using Heron's formula, area of abc = \\(\\sqrt {s(s-a_1)(s-b_1)(s-c_1)}\\) where \\(a_1\\),\\(b_1\\),\\(c_1\\) are the sides of the triangle and \\(s=\\frac {a_1+b_1+c_1}2 \\)  </div><div>Here \\(ad=a_1=_{{10*j}}_\\),\\(dc=b_1=_{{10*j}}_\\) and \\(ca=c_1=_{{8*j}}_\\) so \\(s=\\frac {_{{10*j}}_+_{{10*j}}_+_{{8*j}}_}2=_{{14*j}}_\\)</div><div>Therefore, area \\(\\bigtriangleup \\) adc= \\(\\sqrt {_{{18*j}}_(_{{18*j}}_-_{{10*j}}_)(_{{18*j}}_-_{{10*j}}_)(_{{18*j}}_-_{{16*j}}_)} = \\sqrt {_{{18*j*(18*j-10*j)*(18*j-10*j)*(18*j-16*j)}}_}=_{{j*j*72}}_\\)</div><div>Hence area of the Rhombus abcd = area of the \\(\\bigtriangleup \\) abc +   \\(\\bigtriangleup \\) adc=  _{{j*j*72}}_ + _{{j*j*72}}_</div><div>\\(\\Rightarrow _{{j*j*144}}_\\, m^2\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>In the Rhombus shown in the figure, L=_{{10*j}}_ m and D=_{{16*j}}_ m</div>", 
+    "img": "7.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j*j*144}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^2\\)"
+}

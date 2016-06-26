@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Diameter of the hemisphere, d\\(=_{j}_\\,cm\\Rightarrow\\)Radius of hemisphere, r\\(=_{{j/Decimal(2)}}_\\,cm\\)</div><div>The amount of fluid displaced by a hemispherical solid is equal to its volume.</div><div>Volume of the hemisphere\\(=\\frac23 \\pi r^3\\)</div><div>\\(=\\frac23 \\pi \\times _{{j/Decimal(2)}}_^3\\)</div><div>\\(=_{{trunc(((2/Decimal(3))*pi_val*(j/Decimal(2))**3),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "The amount of fluid displaced by a hemispherical solid of diameter \\(_{j}_\\)cm."
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(((2/Decimal(3))*pi_val*(j/Decimal(2))**3),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

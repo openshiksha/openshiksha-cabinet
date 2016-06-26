@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "<div>Sometimes, particularly in old age, eyesight becomes foggy.</div><div>This defect in the eye is due to _____ .</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "The pupil becoming smaller in size"
+      }, 
+      {
+        "text": "The optic nerve not tranferring signals to the brain effectively"
+      }, 
+      {
+        "text": "The retina developing more blind spots"
+      }
+    ], 
+    "correct": {
+      "text": "The eye lens becoming cloudy"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "variable_constraints": {}
+}

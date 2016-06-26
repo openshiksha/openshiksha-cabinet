@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "Remember that enthalpy is an extensive property."
+  }, 
+  "solution": {
+    "text": "Use the standard enthalpies of formation to calculate the enthalpy of change for the reaction as follows:<br>\\(\\Delta_rH^\\circleddash = \\sum \\Delta_fH^\\circleddash_ {products} - \\sum \\Delta_fH^\\circleddash_ {reactants}\\)<br>\\(\\implies \\Delta_rH^\\circleddash = ((_{{2*k}}_ \\times -393.509) + (_{{3*k}}_ \\times -285.83)) - (_{k}_ \\times -277.69) = - _{{((2*k*(393.509)) + (3*k*(285.83))) - (k*(277.69))}}_ \\frac{kJ}{mol}\\)<br><br>The unit for \\(\\Delta_rH^\\circleddash\\) is \\(\\frac{kJ}{mol}\\), which stands for per mole of reaction. We define the mole of reaction based on how we balance the chemical equation."
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(_{k}_C_2H_5OH(l) + _{{3*k}}_O_2 (g) \\rightarrow _{{2*k}}_CO_2 (g) + _{{3*k}}_H_2O(l)\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.5, 
+    "value": "-_{{((2*k*(393.509)) + (3*k*(285.83))) - (k*(277.69))}}_"
+  }, 
+  "type": 3, 
+  "unit": "kJ"
+}

@@ -1,0 +1,36 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let us draw a diagram as per the data given in the problem</div><div> Now AB is the chord of a circle, AB=_{{trunc(j*Decimal('1.732'),2)}}_</div><div>We know, OC is the perpendicular bisector on AB, so \\(CB=\\frac {AB}2 =_{{j*Decimal('1.732')/2}}_\\)</div><div>Now in right angle triangle OCB we have OB=r</div><div>\\(sin\\frac {\\theta}2=\\frac {CB}r\\Rightarrow r=\\frac{_{{j*Decimal('1.732')/2}}_}{sin\\frac {\\theta}2}\\)</div><div>Now from the arc length ADB we can calculate the radius</div><div>arc length=\\(2\\times \\pi \\times r\\times \\frac {\\theta}{360}\\)=_{{trunc(2*pi_val*j/3,2)}}_</div><div>\\(\\Rightarrow r=\\frac{_{{j*Decimal('1.732')/2}}_}{sin\\frac {\\theta}2}\\), we get</div><div>\\(\\Rightarrow 2\\times \\pi \\times \\frac{_{{j*Decimal('1.732')/2}}_}{sin\\frac {\\theta}2}\\times\\frac {\\theta}{360}\\)=_{{trunc(2*pi_val*j/3,2)}}_</div><div>by putting \\(\\theta \\) values from the options we get, \\(\\theta=120^\\circ\\)</div>", 
+    "img": "9.png"
+  }, 
+  "content": {
+    "text": "<div>Length of the chord of a circle is _{{trunc(j*Decimal('1.732'),2)}}_ and length of the corresponding arc is _{{trunc(2*pi_val*j/3,2)}}_</div><div>Choose the angle subtended by the arc at the centre</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\theta=60^\\circ\\)"
+      }, 
+      {
+        "text": "\\(\\theta=30^\\circ\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\theta=120^\\circ\\)"
+    }
+  }
+}

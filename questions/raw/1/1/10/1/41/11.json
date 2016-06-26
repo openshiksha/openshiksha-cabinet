@@ -1,0 +1,32 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the present age of Ram be x years</div><div>And, the present age of Shyam be y years</div><div>Then, according to the question:</div><div>x = y +_{i}_------(1)</div><div>And x - _{j}_ =  _{k}_(y - _{j}_) --------(2)</div><div>Simplifying the obtained pair of equations:</div><div> x - y = _{i}_ -------(3)</div><div> x - _{k}_y = _{{-k*j+j}}_ ------(4)</div><div>Now, Finding 2 solutions of each equation to draw the graphs of the equations</div><div> x - y = _{i}_ -------(3)</div><div><table class='table table-bordered table-condensed'>  <tr>    <th> x </th>    <th> 0 </th>    <th> _{i}_ </th>  </tr>  <tr>    <td> y </td>    <td> -_{i}_ </td>    <td> 0 </td>  </tr>  </table></div><div> x - _{k}_y = _{{-k*j+j}}_ ------(4)</div><div><table class='table table-bordered table-condensed'>  <tr>    <th> x </th>    <th> 0 </th>    <th> _{{j*(1-k)}}_ </th>  </tr>  <tr>    <td> y </td>    <td> _{{trunc((Decimal(k)-1)*j/k,2)}}_ </td>    <td> 0 </td>  </tr></table></div><div>Plot graph for obtained data:</div><div>Where M = (0,-_{i}_), N = (_{i}_,0), O = (0,_{{trunc((Decimal(k)-1)*j/k,2)}}_) and P = (_{{j*(1-k)}}_,0)</div><div>We observe that there is a point Q common to both the lines AB and CD.</div><div>So the solution of the pair of linear equation is x = _{{trunc((Decimal(k)*i+k*j-j)/(k-1),2)}}_years , and y = _{{trunc((Decimal(i)+k*j-j)/(k-1),2)}}_years</div>", 
+    "img": "11.png"
+  }, 
+  "content": {
+    "text": "<div>Ram is _{i}_ years older than Shyam and _{j}_ years ago his age was _{k}_times of Shyam's age.Find their present ages graphically.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Ram = _{{trunc((Decimal(k)*i+k*j-j)/(k-1),2)}}_years , and Shyam = _{{trunc((Decimal(i)+k*j-j+12)/(k-1),2)}}_years"
+      }, 
+      {
+        "text": "Ram = _{{trunc((Decimal(k)*i+k*j-j-12)/(k-1),2)}}_years , and Shyam = _{{trunc((Decimal(i)+k*j-j)/(k-1),2)}}_years"
+      }, 
+      {
+        "text": "Ram = _{{trunc((Decimal(k)*i+k*j-j+12)/(k-1),2)}}_years , and Shyam = _{{trunc((Decimal(i)+k*j-j-12)/(k-1),2)}}_years"
+      }
+    ], 
+    "correct": {
+      "text": "Ram = _{{trunc((Decimal(k)*i+k*j-j)/(k-1),2)}}_years , and Shyam = _{{trunc((Decimal(i)+k*j-j)/(k-1),2)}}_years"
+    }
+  }
+}

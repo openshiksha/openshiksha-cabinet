@@ -1,0 +1,20 @@
+{
+  "hint": {
+    "text": "\\(100cm=1m\\)"
+  }, 
+  "solution": {
+    "text": "<div>side\\(=_{{j*10}}_cm=_{{j/Decimal(10)}}_m\\)</div><div>Surface area\\(=6 \\times side^2\\)</div><div>\\(=6 \\times _{{j/Decimal(10)}}_^2\\)</div><div>\\(=6 \\times _{{(j*j)/Decimal(100)}}_\\)</div><div>\\(=_{{(6*j*j)/Decimal(100)}}_m^2\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "A cube of side \\(_{{j*10}}_cm\\) in \\(m^2\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{(6*j*j)/Decimal(100)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^2\\)"
+}

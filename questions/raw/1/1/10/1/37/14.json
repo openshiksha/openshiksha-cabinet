@@ -1,0 +1,45 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given equation : \\(3x^2 - _{{6*l}}_x + _{{(l*l*3)-(k*k*3)}}_ = 0\\)</div><div>Note that the coefficient of \\(x^2\\) is not a perfect square. So, we divide the equation throughout by 3 to get:</div><div>\\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_ = 0\\)</div><div>Now,</div><div>Follow the process as follows:</div><div>\\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_\\) = \\((x)^2 - _{l}_x - _{l}_x + _{{l*l}}_ - _{{l*l}}_ + _{{(l*l)-(k*k)}}_\\)</div><div>i.e., \\(x(x - _{l}_) - _{l}_(x - _{l}_) -_{{k*k}}_ \\)</div><div>i.e., \\((x - _{l}_)\\times (x - _{l}_) -_{{k*k}}_ \\)</div><div>i.e., \\((x - _{l}_)^2 -_{{k*k}}_ \\)</div><div>\\(x^2 - _{{2*l}}_x + _{{(l*l)-(k*k)}}_ = (x - _{l}_)^2 -_{{k*k}}_ = 0\\)</div><div>i.e., \\((x - _{l}_)^2 = _{{k*k}}_\\)</div><div>i.e., \\((x - _{l}_) = \\pm_{k}_\\)</div><div>i.e., x = _{l}_ + _{k}_=_{{l+k}}_ and x = _{l}_ - _{k}_=_{{l-k}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the roots of \\(3x^2 - _{{6*l}}_x + _{{(3*l*l)-(k*k*3)}}_ = 0\\) by the method of completing the square.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            32, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{l+k}}_ , _{{l-k+4}}_"
+      }, 
+      {
+        "text": "_{{l+k-2}}_ , _{{l-k}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{l+k}}_ , _{{l-k}}_"
+    }
+  }
+}

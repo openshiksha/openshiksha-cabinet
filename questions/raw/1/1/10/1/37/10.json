@@ -1,0 +1,25 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let the Ajay's present age be x.</div><div>Then the Ajay's father's present age be x + _{i}_</div><div>After 3 years:</div><div>Ajay's age will be = x + 3</div><div>His father's age will be = x + _{i}_ + 3 = x + _{{i+3}}_</div><div>Therefore,</div><div>Their product = \\((x+3)\\times (x+_{{i+3}}_)\\)</div><div>i.e., _{{2*i*i}}_ = \\((x+3)\\times (x+_{{i+3}}_)\\)</div><div>i.e., _{{2*i*i}}_ = \\((x+3)\\times (x+3+_{i}_)\\)</div><div>Let x+3 = t</div><div>Then,</div><div>i.e., _{{2*i*i}}_ = \\(t\\times (t+_{i}_)\\)</div><div>i.e., _{{2*i*i}}_ = \\(t^2 + _{i}_t\\)</div><div>i.e., \\(t^2 + _{i}_t - _{{2*i*i}}_ = 0\\)</div><div>i.e., \\(t^2 + _{{2*i}}_t - _{i}_t - _{{2*i*i}}_ = 0\\)</div><div>i.e., \\(t(t + _{{2*i}}_) - _{i}_(t + _{{2*i}}_) = 0\\)</div><div>i.e., (t = -_{{2*i}}_) and (t = _{i}_) </div><div>Therefore, x = -_{{(2*i)+3}}_ and x = _{{i-3}}_</div><div>Since x is the age of Ajay, it can not be negative</div><div>Thus, the age of Ajay is _{{i-3}}_ years and his father's age = _{{i+i-3}}_ </div><div>Therefore,</div><div>Sum of their ages = _{{i-3}}_ + _{{i+i-3}}_ = _{{i-3+i+i-3}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Ajay's father is _{i}_ years older than him. The product of their ages (in years) 3 years from now will be _{{2*i*i}}_. Find  the sum of their present ages.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            24, 
+            44
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{i-3+i+i-3}}_"
+  }, 
+  "type": 3
+}

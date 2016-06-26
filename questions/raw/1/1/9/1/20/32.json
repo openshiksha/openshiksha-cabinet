@@ -1,0 +1,18 @@
+{
+  "hint": {
+    "text": "\\(1m=100cm\\)"
+  }, 
+  "solution": {
+    "text": "<div>Length of an edge of a box  \\(=_{{j*5}}_cm\\)</div><div>Total number of edges \\(=12\\)</div><div>Therefore, tape needed to fix all the edges of a single box\\(=12 \\times _{{j*5}}_\\)</div><div>\\(=_{{12*j*5}}_cm=_{{(60/Decimal(100))*j}}_m\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "If all the edges are held together by tape, how much tape is needed for all the edges of a single box? (in metres)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{(60/Decimal(100))*j}}_"
+  }, 
+  "type": 3, 
+  "unit": "metres"
+}

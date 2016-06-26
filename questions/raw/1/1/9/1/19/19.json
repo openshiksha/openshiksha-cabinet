@@ -1,0 +1,42 @@
+{
+  "subpart_index": 8, 
+  "solution": {
+    "text": "\\(\\sqrt{_{j}_}=_{{j**0.5}}_.....\\,\\) which is non-terminating non-recurring."
+  }, 
+  "content": {
+    "text": "\\(\\sqrt{_{j}_}\\) is irrational."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        6, 
+        7, 
+        8, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        17, 
+        18, 
+        19, 
+        20
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

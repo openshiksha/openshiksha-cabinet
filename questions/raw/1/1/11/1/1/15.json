@@ -1,0 +1,46 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>This is a G.P. with <div></div>first term     \\(a_1=\\frac{_{p}_}{2}\\)<div></div>Common ratio   \\(r=\\frac{a_2}{a_1}=\\frac{1}{2}\\)<div></div>Therefore the \\(n^{th}\\) term will be<div></div>\\(a_n=a_1 \\times r^n\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the \\(_{r}_^{th}\\) term of the G.P. \\(\\frac{_{p}_}{2} ,\\frac{_{p}_}{4},\\frac{_{p}_}{8}, ...\\) </div>"
+  }, 
+  "variable_constraints": {
+    "p": {
+      "options": [
+        3, 
+        5, 
+        7, 
+        9
+      ]
+    }, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            4, 
+            11
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{_{p}_}{_{{2**(r+1)}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{p}_}{_{{2**(r-1)}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{p*p}}_}{_{{2**(r)}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{_{p}_}{_{{2**r}}_}\\)"
+    }
+  }
+}

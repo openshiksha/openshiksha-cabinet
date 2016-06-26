@@ -1,0 +1,27 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Area of the shaded region=area of the larger circle - area of the smaller circle</div><div>area of the larger circle=\\(\\pi R^2=\\pi \\times_{{5*j}}_^2\\)</div> <div>area of the smaller circle=\\(\\pi r^2=\\pi \\times_{{4*j}}_^2\\)</div> <div>area of the shaded region=\\(\\frac {22}7 \\times(_{{5*j}}_^2-_{{4*j}}_^2)\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*3*j*3,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Two concentric circles of radius R=_{{5*j}}_and r=_{{4*j}}_ are given</div><div>Find the area of the shaded region</div>", 
+    "img": "3.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc(pi_val*j*3*j*3,2)}}_"
+  }, 
+  "type": 3
+}

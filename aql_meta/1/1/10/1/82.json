@@ -1,0 +1,3 @@
+{
+  "revision": "<h1>Median of Grouped Data</h1><ol><h3>Formula: </h3><ol><li>Find cumulative frequency.</li><li>The class whose cumulative frequency is greater than (and nearest to) \\(n\\over 2\\)\u22c5 This is called the median class.</li><li> Median = l +\\({{({n\\over 2} - cf})\\over {f}}\\)*h</li><h4>Where, </h4><ol><h4> l = lower limit of the median class,</h4><h4> h = size of the class interval (assuming all class sizes to be equal),</h4><h4> f = frequency of the median class,</h4><h4> cf = cumulative frequency of the class preceding the median class,</h4><h4> n = numbers of observation.</h4></ol><li> Also, 3 median = mode + 2 mean</li>"
+}

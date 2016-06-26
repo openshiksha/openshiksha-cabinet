@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The first term of the G.P is a and the \\(_{r}_^{th}\\) term is b</div><div>Let  \\(_{r}_=n\\)</div><div>The G.P. is \\(a,ar,ar^2,ar^3,...,ar^{n-1}\\)</div><div>where \\(r\\) is the common ratio and \\(ar^{n-1}=b\\)</div><div>P=Product of n terms</div><div>\\(P=a\\times ar \\times ar^2 \\times ..... \\times ar^{n-1} \\)</div><div>\\(P=(a\\times a  \\times ... \\times a) (r \\times r^2 \\times ..... \\times r^{n-1} )\\)</div><div>\\(P=a^n r^{1+2+..+(n-1)}\\)</div><div>Here \\(1+2+..+(n-1)\\) is an A.P.</div><div>Therefore,</div><div>\\(1+2+..+(n-1)=\\frac{n-1}{2}[2+((n-1)-1)]\\)</div><div>\\(1+2+..+(n-1)=n\\frac{n-1}{2}\\)</div><div>i.e.</div><div>\\(P=a^nr^{n\\frac{n-1}{2}}\\)</div><div>also \\(P^2=a^{2n}r^{n(n-1)}\\).........(1)</div><div>now seeing on the R.H.S</div><div>\\(a\\times b=a \\times ar^{n-1}\\)</div><div>\\(a\\times b=a^2r^{n-1}\\)...........(2)</div><div>Given </div><div>\\(P^2=(a\\times b)^x\\)</div><div>Substituting equation (1) and (2) </div><div>\\(a^{2n}r^{n(n-1)}=a^{2x}r^{x(n-1)}\\)</div><div>Comparing the powers of a and r separately on L.H.S and R.H.S</div><div>\\(2n=2x\\)</div><div>\\(n(n-1)=x(n-1)\\)</div><div>from above 2 equations it is clear that x = n = _{r}_</div>"
+  }, 
+  "content": {
+    "text": "<div>If the first and the \\(_{r}_^{th}\\) term of a G.P are a and b respectively, \\(P\\) is the product of _{r}_ terms and \\(P^2=(a\\times b)^x\\). Find x?</div>"
+  }, 
+  "variable_constraints": {
+    "r": {}
+  }, 
+  "answer": {
+    "value": "_{r}_"
+  }, 
+  "type": 3
+}

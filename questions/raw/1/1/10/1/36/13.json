@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>By observing the figure carefully we can see that top and bottom portions are segments of a circle with centre O</div><div>\\(\\Rightarrow r_1=OC\\, and \\,r_2=OA\\)</div><div>As ABCD is a square, by using Pythagoras we can get AC</div><div>\\(AC=\\sqrt {AB^2+BC^2}=\\sqrt {2\\times AB^2}= \\sqrt 2\\times AB\\)</div><div>Now we know at the point of intersection the diagonals bisect each other</div><div>So, OC=OA\\(\\Rightarrow OC=\\frac {AC}2\\Rightarrow OC=\\frac {\\sqrt 2\\times AB}2=\\frac {AB}{\\sqrt 2}\\)</div><div>\\(\\Rightarrow OC=OA=r=_{{trunc(j/Decimal('1.414'),2)}}_\\)</div><div>Now area top and bottom portion = \\(2\\times [\\frac {90}{360}\\times \\pi \\times r^2- area(\\bigtriangleup AOD)]= 2\\times _{{trunc(Decimal('0.25')*pi_val*j*j/2,2)}}_-2\\times area(\\bigtriangleup AOD)\\)</div><div>\\(\\Rightarrow _{{trunc(Decimal('0.25')*pi_val*j*j,2)}}_-[2\\times \\bigtriangleup AOD]\\)</div><div>Now, \\(\\bigtriangleup OAB \\cong \\bigtriangleup ODC \\Rightarrow area\\,of \\bigtriangleup OAB = \\bigtriangleup ODC \\)</div><div>Area of the shaded region= Area(top segment) + Area(bottom segment) + area\\(\\bigtriangleup \\) OCD + area\\(\\bigtriangleup \\)OAB)</div><div>Area of the shaded region=\\(2 \\times _{{trunc(Decimal('0.25')*pi_val*j*j/2,2)}}_-[2\\times \\bigtriangleup AOD]+ 2\\times [\\bigtriangleup ODC]\\) </div><div> Hence area of the shaded region _{{trunc(Decimal('0.25')*pi_val*j*j,2)}}_ </div>"
+  }, 
+  "content": {
+    "text": "<div>ABCD is a square of side=_{j}_cm and O is the point of intersection of it's diagonals</div> <div>If O is also the centre of the arcs AD and BC, find the area of the shaded portion in the given figure</div>", 
+    "img": "13.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal('0.35')*pi_val*j*j,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal('0.5')*pi_val*j*j,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal('0.45')*pi_val*j*j,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal('0.25')*pi_val*j*j,2)}}_"
+    }
+  }
+}

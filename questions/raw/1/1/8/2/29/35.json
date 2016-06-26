@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "_____ is the nearest star from us."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Pole Star"
+      }, 
+      {
+        "text": "Alpha centauri"
+      }, 
+      {
+        "text": "Orion"
+      }
+    ], 
+    "correct": {
+      "text": "Sun"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 4, 
+  "variable_constraints": {}
+}

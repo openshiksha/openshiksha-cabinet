@@ -1,0 +1,17 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>we can clearly imagine that the triangle with base as palm tree and bigger triangle with base as tower are similar</div><div>let the height of the palm tree be \\(h\\) </div><div>as triangles are similar we can write, \\(\\frac hH=\\frac lL\\)</div><div>Putting \\( L=_{{3*k}}_ , l=_{k}_, H= _{{6*j}}_\\), we get</div><div>\\(\\frac h{_{{6*j}}_}=\\frac {_{k}_}{_{{3*k}}_}\\)</div><div>\\(\\Rightarrow _{{6*j}}_\\times \\frac 13=h\\)</div><div>hence,\\(h=_{{2*j}}_ \\)m</div>"
+  }, 
+  "content": {
+    "text": "<div>A tower of _{{6*j}}_m height casts a shadow of _{{3*k}}_.</div><div>At the same time if a palm tree casts a shadow of _{k}_metres, find the height of the palm tree</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{2*j}}_"
+  }, 
+  "type": 3
+}

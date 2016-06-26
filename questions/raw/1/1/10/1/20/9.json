@@ -1,0 +1,41 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> volume of juice inside the glass = Volume of the cylinder - volume of the  hemisphere</div><div>Now volume of the cylinder\\(=[\\pi \\times r^2\\times l]\\), radius of the cylinder=\\(_{j}_\\) and \\(l\\)=_{{2*j}}_</div><div>\\(\\Rightarrow \\frac {22}7 \\times _{j}_^2 \\times _{{2*j}}_=_{{trunc(pi_val*j*j*2*j,2)}}_\\)</div><div>volume of the hemisphere at the bottom of the cylinders\\(=[ \\frac 23 \\times \\pi \\times r^3]\\)</div><div>radius of the cylinders = radius of the hemisphere= _{j}_</div><div>volume of the hemisphere\\(= [ \\frac 23 \\times \\frac {22}7 \\times _{j}_^3]= _{{trunc(2*pi_val*j*j*j/3,2)}}_\\)</div><div> Now the volume of juice inside the glass\\(=_{{trunc(pi_val*j*j*2*j,2)}}_ - _{{trunc(2*pi_val*j*j*j/3,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*j*2*j-2*pi_val*j*j*j/3,2)}}_\\,cm^3\\)</div><div>Total volume of juice sold = number of glasses \\(\\times \\) volume of juice in a glass</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*j*2*j-2*pi_val*j*j*j/3,2)}}_ \\times _{l}_ = _{{trunc(l*(pi_val*j*j*2*j-2*pi_val*j*j*j/3),2)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A juice vendor solds _{l}_ glasses of juice in a day. </div><div>In each glass has a raised portion in the shape of a hemisphere.</div><div>If in the given figure H denotes _{{2*j}}_ cm and D denotes _{{2*j}}_ cm then find the total volume of juice he sells in a day</div>", 
+    "img": "9.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            80
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(pi_val*j*j*2*j-2*pi_val*j*j*j/3,2)}}_\\,cm^3\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(l*(pi_val*j*(j+1)*j-2*pi_val*j*j*j/3),2)}}_\\,cm^3\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(l*(pi_val*j*(j+2)*j-2*pi_val*j*j*j/3),2)}}_\\,cm^3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(l*(pi_val*j*j*2*j-2*pi_val*j*j*j/3),2)}}_\\,cm^3\\)"
+    }
+  }
+}

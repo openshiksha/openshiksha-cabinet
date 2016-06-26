@@ -1,0 +1,27 @@
+{
+  "subpart_index": 5, 
+  "solution": {
+    "text": "Since the system allows heat to flow in, it must have thermally conductive walls. Since it is a closed system, the internal energy is given by the formula:<br> \\(\\Delta U = q + w \\).\\(\\implies \\Delta U = q + 0 \\).\\(\\implies \\Delta U = q\\)."
+  }, 
+  "content": {
+    "text": "Express the following statement as a formula - 'No work is done on the closed system, but <b>q</b> amount of heat is added to the system from the surroundings.' What type of wall does the system have?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\Delta U = q\\;- w\\). Adiabatic Walls"
+      }, 
+      {
+        "text": "\\(\\Delta U =  - q + 0\\). Thermally Conductive Walls"
+      }, 
+      {
+        "text": "\\(\\Delta U =  q + 0\\). Adiabatic Walls"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\Delta U = q \\).  Thermally Conductive Walls"
+    }
+  }
+}

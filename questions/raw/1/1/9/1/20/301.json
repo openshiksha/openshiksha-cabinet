@@ -1,0 +1,40 @@
+{
+  "hint": {
+    "text": "Cost of painting \\(=\\) Surface area \\(\\times\\) Rate of painting"
+  }, 
+  "solution": {
+    "text": "<div>Cost of painting inner surface area\\(=\\,\\)Rs.\\(_{{trunc((2*pi_val*j**2*l),2)}}_\\)</div><div>\\(\\Rightarrow\\) Surface area \\(\\times\\) Rate \\(=_{{trunc((2*pi_val*j**2*l),2)}}_\\)</div><div>\\(\\Rightarrow 2 \\pi r_i^2 \\times _{l}_=_{{trunc((2*pi_val*j**2*l),2)}}_\\)</div><div>\\(\\Rightarrow r_i^2=\\frac{_{{trunc((2*pi_val*j**2*l),2)}}_}{2 \\pi \\times _{l}_}=_{{j**2}}_\\)</div><div>\\(\\Rightarrow r_i=_{j}_\\,m\\)</div><div>The inner radius of the dome is \\(_{j}_\\,m\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A dome of a building is in the form of a hemisphere. The cost of painting the inner surface area and the outer surface area is Rs.\\(_{{trunc((2*pi_val*j**2*l),2)}}_\\) and Rs.\\(_{{trunc((2*pi_val*(j+2)**2*l),2)}}_\\) respectively. If the cost of painting is Rs.\\(_{l}_\\) per sq.m.,</div><div>find the inner radius of the dome.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{j}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m\\)"
+}

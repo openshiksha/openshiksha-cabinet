@@ -1,0 +1,39 @@
+{
+  "hint": {
+    "text": "Join OB to form a quadrilateral OBCA."
+  }, 
+  "solution": {
+    "text": "<div>For a quadrilateral \\(\\angle\\)ACB + \\(\\angle\\)CBO  + \\(\\angle\\)BOA +\\(\\angle\\)OAC = 360\\(^\\circ\\)</div><div>BC and AC are tangents to the circle</div><div>\\(\\Rightarrow\\) \\(\\angle\\)CBO =  \\(\\angle\\)OAC = 90\\(^\\circ\\)</div><div>therefore, \\(\\angle\\)ACB + \\(\\angle\\)BOA = 360\\(^\\circ\\) - 180\\(^\\circ\\)</div><div>\\(\\angle\\)ACB=_{{2*j}}_\\(^\\circ\\) (given)</div> <div>hence, \\(\\angle\\)BOA = 180\\(^\\circ\\)- \\(\\angle\\)ACB </div><div> Now in the triangle(OAB), we have sides, OA=OB=radius</div><div>\\(\\Rightarrow\\)\\(\\angle\\)OAB=\\(\\angle\\)OBA</div> <div>For any triangle, \\(\\angle\\)OAB+\\(\\angle\\)OBA+\\(\\angle\\)BOA=180\\(^\\circ\\)</div><div>Putting \\(\\angle\\)OBA=\\(\\angle\\)OAB and \\(\\angle\\)BOA =180\\(^\\circ\\)-\\(\\angle\\)ACB  in the above equation</div><div>we get 2\\(\\times\\)\\(\\angle\\)OAB=180\\(^\\circ\\)- 180\\(^\\circ\\)+\\(\\angle\\)ACB= \\(\\angle\\)ACB</div><div>\\(\\Rightarrow\\) \\(\\angle\\)OAB=\\(\\frac {\\angle ACB}2=\\frac {_{{2*j}}_}2=_{j}_^\\circ\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>In the given figure, two tangents are drawn from the point C</div><div>If \\(\\angle\\) ACB=_{{2*j}}_\\(^\\circ\\), find the value of \\(\\angle\\) OAB</div>", 
+    "img": "9.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*j}}_\\(^\\circ\\)"
+      }, 
+      {
+        "text": "_{{2*(j+1)}}_\\(^\\circ\\)"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_\\(^\\circ\\)"
+    }
+  }
+}

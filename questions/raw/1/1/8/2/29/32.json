@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "The Sun is also a star."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

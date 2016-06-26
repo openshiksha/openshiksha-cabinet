@@ -1,0 +1,25 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the number of the plots be x.</div><div>Therefore,</div><div>Length of each plot = x m</div><div>And, width of each plot = (2x - _{j}_)m</div><div>So, the area of rectangular = \\(length\\times width\\)</div><div>i.e., \\(Area = x\\times (2x - _{j}_)\\)</div><div>Therefore,</div><div>i.e., \\(_{{pow(j,2)}}_ = x\\times (2x - _{j}_)\\)</div><div>i.e., \\(2x^2 - _{j}_x = _{{pow(j,2)}}_\\)</div><div>i.e., \\(2x^2 - _{j}_x - _{{pow(j,2)}}_ = 0\\)</div><div>Therefore, the number of plots satisfies the quadratic equation :</div><div>\\(2x^2 - _{j}_x - _{{pow(j,2)}}_ = 0\\)</div><div>Now solving this quadratic equation to find the number of plots, using factorisation.</div><div>i.e.,\\(2x^2 - _{j}_x - _{{pow(j,2)}}_ = 0\\)</div><div>i.e., \\(2x^2 - _{{2*j}}_x + _{j}_x - _{{pow(j,2)}}_ = 0\\)</div><div>i.e., \\(2x(x-_{j}_) - _{j}_(x-_{j}_)\\) = 0</div><div>i.e., \\((x-_{j}_)\\times (2x-_{j}_)\\) = 0</div><div>i.e., \\((x-_{j}_)=0\\) and \\((2x-_{j}_)=0\\)</div><div>i.e., x = _{j}_ and x = \\(_{j}_\\over 2\\)</div><div>Since, Length and width should be more than zero</div><div>Thus, </div><div> length = _{j}_m and width = _{j}_m</div><div>Therefore, length+width = _{{2*j}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Ramu has a big land, he wants to divide it in a certain number of rectangular plots, such that the length of each plot(in metres) is equal to the number of plots and width is _{j}_ less than  twice the number of plots, and the area of each plot is _{{pow(j,2)}}_\\(m^2\\). Find the sum of length and width.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            20, 
+            80
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{2*j}}_"
+  }, 
+  "type": 3
+}

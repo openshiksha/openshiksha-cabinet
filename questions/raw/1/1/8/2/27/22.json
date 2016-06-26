@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Sound needs a medium to travel.</div><div>Thus, it cannot travel through a vacuum.</div>"
+  }, 
+  "content": {
+    "text": "Sound can travel though vacuum."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

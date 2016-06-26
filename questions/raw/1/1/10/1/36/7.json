@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Area of the segment = area of the sector(pqs) - area of the \\(\\bigtriangleup \\) opq </div><div>Now area of the sector =\\(\\pi \\times r^2 \\times \\frac {60}{360}\\)</div><div>Now area of the sector =\\(_{{trunc(pi_val*k*k*1/6,2)}}_\\)</div><div>To find the area of \\(\\bigtriangleup\\) opq, we draw a perpendicular on pq</div><div>We know that op=oq and \\(\\angle \\) otp=\\(\\angle \\) otq=\\(90^\\circ\\) so \\(\\bigtriangleup \\) opt \\(\\cong \\) \\(\\bigtriangleup \\) otq</div><div>\\(\\Rightarrow pt=tq\\)</div><div>In right angle triangle(opt) we have sin\\(30^\\circ=\\frac {pt}r=0.5\\Rightarrow pq=2 \\times pt=_{k}_\\)</div><div>similarly cos\\(30^\\circ=\\frac {ot}r\\Rightarrow ot=_{{Decimal('0.866')*k}}_\\)</div><div>area of the \\(\\bigtriangleup opq = \\frac 12 \\times pq \\times ot=_{{(Decimal('0.5')*k*Decimal('0.866')*k)}}_\\)</div><div>area of the segment =_{{trunc(pi_val*k*k*1/6,2)}}_ - _{{trunc(Decimal('0.5')*k*Decimal('0.866')*k,2)}}_</div><div>\\(\\Rightarrow _{{trunc(pi_val*k*k*1/6-(Decimal('0.5')*k*Decimal('0.866')*k),2)}}_\\)</div>", 
+    "img": "7.1.png"
+  }, 
+  "content": {
+    "text": "<div>Find the area of the segment formed by a chord that subtends an angle of \\(c=60^\\circ\\) at the centre.</div><div>Radius of the circle is _{k}_metres</div>", 
+    "img": "7.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*k*k*1/6-(Decimal('0.5')*k*Decimal('0.732')*k),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*k*k*1/6-(Decimal('0.5')*k*Decimal('0.5')*k),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*k*k*1/6-(Decimal('0.5')*k*Decimal('0.866')*k),2)}}_"
+    }
+  }
+}

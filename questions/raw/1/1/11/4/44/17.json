@@ -1,0 +1,44 @@
+{
+  "hint": {
+    "text": "An extensive property is a property whose value depends on the quantity or size of matter present in the system whereas an intensive property is a property whose value <b>does not</b> depend on the quantity or size of matter present in the system"
+  }, 
+  "solution": {
+    "text": "An extensive property is a property whose value depends on the quantity or size of matter present in the system whereas an intensive property is a property whose value <b>does not</b> depend on the quantity or size of matter present in the system. Based on that definition, the following properties can be categorized: <ul><li>Extensive Properties : Heat Capacity, Mass, Volume, Enthalpy</li><li>Intensive Properties : Temperature, Pressure, Density, Molar Heat Capacity</li></ul>"
+  }, 
+  "subpart_index": 6, 
+  "content": {
+    "text": "Select the <b>intensive properties</b> from the following list:"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Heat Capacity"
+      }, 
+      {
+        "text": "Mass"
+      }, 
+      {
+        "text": "Volume"
+      }, 
+      {
+        "text": "Enthalpy"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Temperature"
+      }, 
+      {
+        "text": "Density"
+      }, 
+      {
+        "text": "Pressure"
+      }, 
+      {
+        "text": "Molar Heat Capacity"
+      }
+    ]
+  }
+}

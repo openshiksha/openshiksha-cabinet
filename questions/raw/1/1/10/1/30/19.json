@@ -1,0 +1,40 @@
+{
+  "hint": {
+    "text": "In running back and forth between any two points, the total distance covered is 2 times the distance between the points."
+  }, 
+  "solution": {
+    "text": "<div>Taking the distance covered in running back and forth between initial position and marker1 as \\(a_1=2*_{j}_\\)</div><div>distance between consecutive markers is _{k}_</div><div>increase in the distance covered in the second round; \\(d=2*_{k}_\\)</div><div>\\(a=_{{2*j}}_\\), \\(n=_{l}_\\) and \\(d=_{{2*k}}_\\)</div><div> using the formula \\(S_n=\\frac n2[2a+(n-1)d]\\)</div><div>\\(S_n=_{{(Decimal('0.5')*l)*(2*(j*2)+(l-1)*(k*2))}}_\\)</div><div>The total distance covered between initial position and _{l}_ markers is _{{(Decimal('0.5')*l)*(2*(j*2)+(l-1)*(k*2))}}_ metres </div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>In shuttle run drill, a player requires to run back and forth between initial position and markers.</div><div>The 1st marker is placed at _{j}_metres from the initial position, second at _{{j+k}}_metres, 3rd at _{{j+(k*2)}}_metres,and so on. </div><div>If there are _{l}_ such markers in this drill, find the total distance a player runs between initial position and markers?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(Decimal('0.5')*l)*(2*j+(l-1)*(k*2))}}_"
+      }, 
+      {
+        "text": "_{{(Decimal('0.5')*l)*(2*(j*2)+(l-1)*k)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{(Decimal('0.5')*l)*(2*(j*2)+(l-1)*(k*2))}}_"
+    }
+  }
+}

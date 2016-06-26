@@ -1,0 +1,33 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Here, the class size varies, and the xi's are large. Let us apply the direct method.</div><div>Then, </div><div>we obtain the data as in Table: </div><div>\\begin{array}{c|lcr}Expenditure & \\text{no.of students(fi)} & \\text{xi} & \\text{fixi} \\\\\\hline100-200 & _{i}_ & 150 & _{{i*150}}_ \\\\200-300 & _{j}_ & 250 & _{{j*250}}_ \\\\300-400 & _{k}_ & 350 & _{{k*350}}_ \\\\400-500 & _{l}_ & 450 & _{{l*450}}_ \\\\500-600 & _{m}_ & 550 & _{{m*550}}_ \\\\\\hline \\ Total & _{{i+j+k+l+m}}_ &  & _{{(i*150)+(j*250)+(k*350)+(l*450)+(m*550)}}_ \\\\\\hline\\end{array}</div><div>The sum of the values in the last column gives us \\sum fixi</div><div> So, </div><div>the mean x of the given data is given by;</div><div>  \\(\\bar x\\) = \\(\\Sigma fixi\\over \\Sigma fi\\) = \\(_{{(i*150)+(j*250)+(k*350)+(l*450)+(m*550)}}_\\over _{{i+j+k+l+m}}_\\) = _{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),5)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>The following distribution shows the daily expenditure of students of a school. Find the mean daily expenditure of students of the school using the direct method</div><div>\\begin{array}{c|lcr}Daily Expenditure & \\text{100-200} & \\text{200-300} & \\text{300-400} & \\text{400-500} & \\text{500-600} \\\\No. of students & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((i*150)+(j*350)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((i*150)+(j*250)+(k*250)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(((i*150)+(j*250)+(k*365)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((i*150)+(j*250)+(k*350)+(l*450)+(m*550))/(Decimal(i)+j+k+l+m),3)}}_"
+    }
+  }
+}

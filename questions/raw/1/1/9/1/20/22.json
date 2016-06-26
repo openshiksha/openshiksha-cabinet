@@ -1,0 +1,15 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Surface area of ceiling\\(=\\)Length \\(\\times\\) Breadth</div><div>\\(=_{j}_ \\times _{k}_\\)</div><div>\\(=_{{j*k}}_ sq.ft.\\)</div><div>Rate of painting per sq.ft.\\(=\\) Rs.\\(20\\)</div><div>Therefore, total painting cost\\(=\\)Surface area of ceiling \\(\\times\\) Rate of painting</div><div>\\(=_{{j*k}}_ \\times 20 = _{{j*k*20}}_\\) rupees</div>"
+  }, 
+  "content": {
+    "text": "<div>What will be the total cost of painting the ceiling at Rs.\\(20\\) per sq.ft.?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "value": "_{{j*k*20}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

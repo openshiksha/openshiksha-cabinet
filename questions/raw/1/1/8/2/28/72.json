@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "For how long does the impression of an image persist at the retina?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(16\\) seconds"
+      }, 
+      {
+        "text": "\\(\\frac1{24}^{th}\\) of a second"
+      }, 
+      {
+        "text": "\\(24\\) seconds"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac1{16}^{th}\\) of a second"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

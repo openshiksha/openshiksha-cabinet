@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Height of cylinder, h\\(=_{j}_\\,cm\\)</div><div>Diameter of cylinder, d\\(=_{k}_\\,cm\\Rightarrow\\)Radius of cylinder, r\\(=_{{k/Decimal(2)}}_\\,cm\\)</div><div>Volume of cylinder\\(=\\pi r^2h\\)</div><div>\\(=\\pi \\times _{{k/Decimal(2)}}_^2 \\times _{j}_\\)</div><div>\\(=_{{trunc((pi_val*(k/Decimal(2))**2*j),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "Find the volume of a cylinder of height \\(_{j}_\\,cm\\) and diameter \\(_{k}_\\,cm\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc((pi_val*(k/Decimal(2))**2*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

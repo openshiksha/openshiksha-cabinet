@@ -1,0 +1,48 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given equation : </div><div>\\((x+_{k}_)\\times (x-_{l}_) = 0\\) </div><div>Solving this equation as follows:</div><div>\\(x^2 + _{k}_x - _{l}_x - _{l}_\\times _{k}_\\) = 0</div><div>\\(x^2 - _{{l-k}}_x - _{{l*k}}_ = 0\\)</div><div>Now comparing this equation with a\\(x^2\\) + b\\(x\\) + c = 0</div><div>we get </div><div> a = 1 , b = -_{{l-k}}_ , c = -_{{l*k}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>For the given equation find the value of a,b,and c. where a,b and c are real numbers,and satisfying a\\(x^2\\) + b\\(x\\) + c = 0.</div><div>\\((x+_{k}_)\\times (x-_{l}_) = 0\\) </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            14, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "a = 1 , b = -_{{l-k}}_ , c = -_{{(l*k)+2}}_"
+      }, 
+      {
+        "text": "a = 1 , b = -_{{l-k-2}}_ , c = -_{{l*k}}_"
+      }, 
+      {
+        "text": "a = 1 , b = -_{{l-k+1}}_ , c = -_{{(l*k)-1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "a = 1 , b = -_{{l-k}}_ , c = -_{{l*k}}_"
+    }
+  }
+}

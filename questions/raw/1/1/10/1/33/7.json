@@ -1,0 +1,29 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> \\(QT_1\\) and \\(QT_2\\) are tangents on the circle</div><div> this implies \\(QT_1 \\perp OT_1\\) and \\(QT_2 \\perp OT_2\\)</div><div>So, \\(QT_1O\\) and \\(QT_2O\\) are right angle triangles</div><div>Using Pythagoras on triangle \\(QT_1O\\) we have</div><div>we have \\(QT_1\\)=\\(\\sqrt {QO^2-OT_1^2}\\)</div><div>we have \\(QT_1\\)=\\(\\sqrt {_{{j*5}}_^2-_{{j*3}}_^2}\\)</div><div>\\(\\Rightarrow QT_1\\)=\\(\\sqrt {_{j}_^2(5^2-3^2)}\\)</div><div>\\(\\Rightarrow QT_1=_{{4*j}}_\\)</div><div>Using Pythagoras on triangle \\(QT_2O\\) we have</div><div>we have \\(QT_2\\)=\\(\\sqrt {QO^2-OT_2^2}\\)</div><div>we see that as \\(OT_2\\)=\\(OT_1\\)=radius of the circle</div><div>\\(\\Rightarrow QT_2=QT_1\\)</div><div>\\(QT_1+QT_2\\)= 2\\(\\times QT_1\\)= _{{2*j*4}}_cm</div><div> \\(\\angle OQT_1 = \\angle OQT_2\\) because \\(\\triangle QT_1O \\cong \\triangle QT_2O\\)</div>", 
+    "img": "7.png"
+  }, 
+  "content": {
+    "text": "<div>From an external point Q two tangents are drawn on the circle of radius _{{3*j}}_cm.</div><div>length of line joining Q with the centre of the circle, OQ=_{{5*j}}_cm</div><div>The two tangents touch the circle at points \\(T_1\\) and \\(T_2\\)</div><div>Choose the correct options</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\angle OQT_1\\) is not equal to  \\(\\angle OQT_2\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "The sum of lengths of the tangents, \\(QT_1+QT_2\\)= _{{2*j*4}}_cm"
+      }, 
+      {
+        "text": "\\(QT_1=QT_2\\)"
+      }
+    ]
+  }
+}

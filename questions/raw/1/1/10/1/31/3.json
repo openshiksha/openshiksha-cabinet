@@ -1,0 +1,36 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Longest line= AC = AB + _{{j}}_</div><div>By using Pythagoras theorem, \\((AB+_{j}_)^2=AB^2+_{{j*7}}_^2\\)</div><div>\\(2*_{{j}}_*AB+_{j}_^2=_{{7*j}}_^2\\)</div><div>\\(AB=_{{j*24}}_\\)</div><div>\\(AC=_{{j*24}}_+_{j}_\\)</div><div>\\(AC=_{{j*25}}_\\)</div><div>Now we can find cosA=\\(AB\\over AC\\)=\\(_{{j*24}}_\\over _{{j*25}}_\\)</div><div>similarly sinA=\\(BC\\over AC\\)=\\(_{{j*7}}_\\over _{{j*25}}_\\)</div><div>So, cosA-sinA=\\(_{{17*j}}_\\over _{{j*25}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In a right angle triangle the smallest side is _{{j*7}}_cm long.</div><div>If the longest side is _{{j}}_ units more than the third side(AB),</div><div>find the value of \\(cosA-sinA\\)</div>", 
+    "img": "3.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{24*j}}_\\over _{{j*25}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{31*j}}_\\over _{{j*25}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{17*j}}_\\over _{{j*25}}_\\)"
+    }
+  }
+}

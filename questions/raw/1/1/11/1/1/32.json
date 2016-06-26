@@ -1,0 +1,38 @@
+{
+  "hint": {
+    "text": "<div>find the \\(n^{th}\\) term and use </div><div>Then find \\(S_n\\) using following identities </div><div>\\(\\sum_1^n(n)=\\frac{n(n+1)}{2}\\)</div><div>\\(\\sum_1^n(n^2)=\\frac{n(n+1)(2n+1)}{6}\\)</div><div>\\(\\sum_1^n(n^3)=\\frac{\\left(n(n+1)\\right)^2}{4}\\)</div><div></div><div></div>"
+  }, 
+  "solution": {
+    "text": "<div>The \\(n^{th}\\) term of in the given question is</div><div>\\(a_n= n(_{p}_+n)^2\\)</div><div>\\(a_n= n^3+_{{2*p}}_n^2+_{{p**2}}_n\\)</div><div>now summing this from 1 to n we will get the sum</div><div>\\(S_n=\\sum_1^n a_n= \\sum_1^n(n^3+_{{2*p}}_n^2+_{{p**2}}_n)\\)</div><div>\\(S_n=\\sum_1^n(n^3)+_{{2*p}}_\\sum_1^n(n^2)+_{{p**2}}_\\sum_1^n(n)\\) .....(1)</div><div>also we know</div><div>\\(\\sum_1^n(1)=n\\)</div><div>\\(\\sum_1^n(n)=\\frac{n(n+1)}{2}\\)</div><div>\\(\\sum_1^n(n^2)=\\frac{n(n+1)(2n+1)}{6}\\)</div><div>\\(\\sum_1^n(n^3)=\\frac{\\left(n(n+1)\\right)^2}{4}\\)</div><div>substitution this in equation (1), we will get</div><div>\\(S_n=\\frac{\\left(n(n+1)\\right)^2}{4}+_{{2*p}}_\\frac{n(n+1)(2n+1)}{6}+_{{p**2}}_\\frac{n(n+1)}{2}\\) </div><div>Now putting n=_{s}_</div><div>\\(S_ {_{s}_}=\\frac{_{{(s*(s+1))**2}}_}{4}+_{{2*p}}_\\frac{_{{s*(s+1)*(2*s+1)}}_}{6}+_{{p**2}}_\\frac{_{{s*(s+1)}}_}{2}\\) </div><div>\\(S_ {_{s}_}=_{{((s*(s+1))**2)/4}}_+_{{(2*p*s*(s+1)*(2*s+1))/6}}_+_{{((p**2)*s*(s+1))/2}}_ \\)</div><div>\\(S_ {_{s}_}=_{{(((s*(s+1))**2)/4)+((2*p*s*(s+1)*(2*s+1))/6)+(((p**2)*s*(s+1))/2)}}_ \\)</div><div></div><div></div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Find the sum to _{s}_ terms of the series \\( 1(_{{(p+1)}}_^2) +2(_{{(p+2)}}_^2) + 3(_{{(p+3)}}_^2) + 4(_{{(p+4)}}_^2) +\\cdot \\cdot \\cdot\\) </div>"
+  }, 
+  "variable_constraints": {
+    "p": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "s": {
+      "range": {
+        "include": [
+          [
+            6, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(((s*(s+1))**2)/4)+((2*p*s*(s+1)*(2*s+1))/6)+(((p**2)*s*(s+1))/2)}}_"
+  }, 
+  "type": 3
+}

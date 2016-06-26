@@ -1,0 +1,22 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>The moon receives light from the Sun and reflects it.</div><div>That's how we see the moon.</div><div>Therefore, it is an illuminated object and not a luminous object.</div>"
+  }, 
+  "content": {
+    "text": "The moon is a luminous object."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

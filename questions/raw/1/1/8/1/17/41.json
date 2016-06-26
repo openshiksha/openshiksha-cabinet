@@ -1,30 +1,28 @@
 {
+  "subpart_index": 0, 
   "solution": {
-    "text": "<div>\\((_{j}_ab^2 - c^2) - (_{k}_c^2 - ca + a^2) - (2a^2 - ab)\\)</div><div>\\(= _{j}_ab^2 - c^2 - _{k}_c^2 + ca - a^2 - 2a^2 + ab\\)</div><div>\\(= _{j}_ab^2 + ab - c^2 - _{k}_c^2 + ca - a^2 - 2a^2\\)</div><div>\\(= _{j}_ab^2 + ab - _{{(1+k)}}_c^2 + ca - (1+2)a^2\\)</div><div>\\(= _{j}_ab^2 + ab - _{{(1+k)}}_c^2 + ca - 3a^2\\)</div>"
+    "text": "<div>Observe the graph carefully.</div><div>The number of students lying in a particular range of marks in the table must correspond to that in the graph.</div>"
   }, 
-  "subpart_index": 1, 
   "content": {
-    "text": "<div>\\((_{j}_ab^2 - c^2) - (_{k}_c^2 - ca + a^2) - (2a^2 - ab)\\)</div><div>Answer:</div>"
+    "text": "Which of these Histograms represent the below data?", 
+    "img": "41.png"
   }, 
-  "variable_constraints": {
-    "k": {}, 
-    "j": {}
-  }, 
+  "variable_constraints": {}, 
   "type": 1, 
   "options": {
     "incorrect": [
       {
-        "text": "\\(_{j}_ab^2 + ab - _{{1-k}}_c^2 bc + ca - 3a^2\\)"
+        "img": "411.png"
       }, 
       {
-        "text": "\\(_{j}_ab^2 - ab - _{{1+k}}_c^2 + ca  - a^2\\)"
+        "img": "413.png"
       }, 
       {
-        "text": "\\(_{{j+1}}_ab^2 - _{{1+k}}_c^2 + ca - 3a^2\\)"
+        "img": "414.png"
       }
     ], 
     "correct": {
-      "text": "\\(_{j}_ab^2 + ab - _{{1+k}}_c^2 + ca - 3a^2\\) "
+      "img": "412.png"
     }
   }
 }

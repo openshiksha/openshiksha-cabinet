@@ -1,0 +1,24 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Substituting the value of \\(x=-1\\,\\) in \\(p(x) = _{j}_x^3 + _{j}_\\,\\), we get,</div><div>\\(p(-1) = (_{j}_ \\times (-1)^3) + _{j}_\\)</div><div>\\(\\Rightarrow p(-1) = _{j}_-_{j}_\\)</div><div>\\(\\Rightarrow p(-1) = 0\\)</div><div>Therefore, \\(x=-1\\,\\) is a zero of the polynomial \\(p(x) = _{j}_x^3+_{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(p(x) = _{j}_x^3 + _{j}_\\) at \\(x = -1\\)."
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

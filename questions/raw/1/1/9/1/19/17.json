@@ -1,0 +1,22 @@
+{
+  "subpart_index": 6, 
+  "solution": {
+    "text": "Negative integers \\(-1,\\,-2,-3,...\\,\\) are not whole numbers. "
+  }, 
+  "content": {
+    "text": "All integers are whole numbers."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

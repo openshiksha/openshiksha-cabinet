@@ -1,0 +1,36 @@
+{
+  "hint": {
+    "text": "Cubic Polynomials have degree of \\(3\\)."
+  }, 
+  "solution": {
+    "text": "<div>The degree of the polynomials \\(_{k}_t^3 +_{l}_t + 9\\,\\) and \\(_{j}_x^3\\,\\) is \\(3\\).</div><div>Hence, they are cubic polynomials.</div><div>The polynomials \\(3^y + y\\,\\) has degree \\(y\\).</div>"
+  }, 
+  "subpart_index": 3, 
+  "content": {
+    "text": "<div>Choose cubic polynomials.</div><div>\\(y \\neq 3\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "None of the above"
+      }, 
+      {
+        "text": "\\(3^y + y\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{k}_t^3 +_{l}_t + 9\\)"
+      }, 
+      {
+        "text": "\\(_{j}_x^3\\)"
+      }
+    ]
+  }
+}

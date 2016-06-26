@@ -1,0 +1,28 @@
+{
+  "hint": {
+    "text": "Use Remainder Theorem."
+  }, 
+  "solution": {
+    "text": "<div>The zero of \\(_{j}_+_{k}_x\\,\\) is \\(_{{Fraction (-j,k)}}_\\).</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(_{{Fraction (-j,k)}}_)=(_{j}_ \\times (_{{Fraction (-j,k)}}_)^3) + (_{k}_ \\times (_{{Fraction (-j,k)}}_)^2)\\)</div><div>\\(\\Rightarrow p(_{{Fraction (-j,k)}}_)=_{{j*Fraction(-j,k)*Fraction(-j,k)*Fraction(-j,k)}}_+(_{{k*Fraction(-j,k)*Fraction(-j,k)}}_)\\)</div><div>\\(\\Rightarrow p(_{{Fraction(-j,k)}}_)=_{{j*Fraction(-j,k)*Fraction(-j,k)*Fraction(-j,k)-k*Fraction(-j,k)*Fraction(-j,k)}}_\\)</div><div>The remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(_{{j*Fraction(-j,k)*Fraction(-j,k)*Fraction(-j,k)-k*Fraction(-j,k)*Fraction(-j,k)}}_\\)</div><div>Therefore,  \\(_{j}_+_{k}_x\\,\\) is not a factor of \\(_{j}_x^3+_{k}_x^2\\).</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "Examine whether \\(_{j}_+_{k}_x\\,\\) is a factor of \\(_{j}_x^3+_{k}_x^2\\)."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

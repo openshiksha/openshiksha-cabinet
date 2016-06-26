@@ -1,0 +1,78 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Here the maximum class frequency is _{j}_,</div><div>And, </div><div>The class corresponding to this frequency is 250 - 400.</div><div>So, the modal class is 250 - 400.</div><div>Now </div><div>Modal class = 250 - 400, lower limit (l ) of modal class = 250,</div><div> class size (h) = 150</div><div>frequency ( \\(f_1\\) ) of the modal class = _{j}_,</div><div>frequency ( \\(f_0\\) ) of class preceding the modal class = _{i}_,</div><div>frequency ( \\(f_2\\) ) of class succeeding the modal class = _{k}_. </div><div>Now, let us substitute these values in the formula :</div><div> Mode = l + (\\((f_1-f_0)\\over (2*f_1-f_0-f_2)\\))*h</div><div> Mode = 250 + (\\((_{j}_-_{i}_)\\over (2*_{j}_-_{i}_-_{k}_)\\))*150</div><div> Mode = 250 + \\(_{{j-i}}_\\over _{{(2*j)-i-k}}_\\)*150</div><div> Mode = 250 + (_{{trunc((Decimal(j)-i)/((2*j)-i-k),3)}}_)*150</div><div> Mode = 250 + (_{{trunc(((Decimal(j)-i)/((2*j)-i-k))*150,3)}}_)</div><div> Mode = _{{trunc((250+((Decimal(j)-i)/((2*j)-i-k))*150),3)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A Survey was done to find out the no. of people died due to accident in Delhi for _{{i+j+k+l+m}}_ years.Following table contains the data collected by the survey.Find the mode of given data.</div><div>\\begin{array}{c|lcr} No. of deaths & \\text{100-250} & \\text{250-400} & \\text{400-550} & \\text{550-700} & \\text{700-850} \\\\ \\hline \\ No. of years & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\ \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            8, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            18, 
+            24
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            8, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc((256+((Decimal(j)-i)/((2*j)-i-k))*150),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((242+((Decimal(j)-i)/((2*j)-i-k))*150),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((254+((Decimal(j)-i)/((2*j)-i-k))*150),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc((250+((Decimal(j)-i)/((2*j)-i-k))*150),3)}}_"
+    }
+  }
+}

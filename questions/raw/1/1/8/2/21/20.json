@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Cholera is an infectious disease that causes severe watery diarrhoea, which can lead to dehydration and even death if untreated. It is caused by eating food or drinking water contaminated with a bacterium called Vibrio Cholerae."
+  }, 
+  "content": {
+    "text": "Cholera"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Air"
+      }, 
+      {
+        "text": "Contact"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Water"
+      }, 
+      {
+        "text": "Food"
+      }
+    ]
+  }
+}

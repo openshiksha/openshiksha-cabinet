@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>As AB is tangent the to the circle </div><div>line OC joining the centre to point C is perpendicular to AB</div><div>Also the length of OC=radius=_{{4*k}}_ and OD is _{{k*5}}_</div><div>therefore a right-angle triangle(OCD) is formed</div><div>By Pythagoras theorem we can find CD</div><div>\\(CD=\\sqrt {OD^2-OC^2}=\\sqrt {_{{5*k}}_^2-_{{4*k}}_^2}\\)</div><div>\\(\\Rightarrow CD =_{{3*k}}_\\)</div> <div> and _{j}_\\(\\times\\)CD=_{{j*3*k}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Line AB is tangent to a circle of radius=_{{k*4}}_cm at point C.</div><div>Another line passing through the centre O cuts the line AB at D such that OD is _{{k*5}}_.</div><div>Find the value of _{j}_*CD</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{k*j*4}}_"
+      }, 
+      {
+        "text": "_{{j*3*j}}_"
+      }, 
+      {
+        "text": "_{{k*3*(j+1)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{k*3*j}}_"
+    }
+  }
+}

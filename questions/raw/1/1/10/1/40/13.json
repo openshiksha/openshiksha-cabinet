@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div> We know \\(\\angle pqr=\\angle rts=90^{\\circ }\\) [right angle triangle</div><div>also, \\(qr\\times rt= st \\times qp\\Rightarrow \\frac {qr}{st}=\\frac {qp}{rt}\\) [given]</div><div>So by SAS similarity criteria, \\(\\bigtriangleup \\) rqp ~ \\(\\bigtriangleup \\) str</div><div>\\(\\Rightarrow \\frac {qr}{st}=\\frac {rp}{sr}\\Rightarrow qr\\times sr= rp \\times st\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure \\(qr\\times rt= st \\times qp\\).</div><div>From the options given below choose the correct statements</div>", 
+    "img": "13.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {qr}{st}=\\frac {sr}{rp}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(pq\\times sr= rp \\times tr\\)"
+      }, 
+      {
+        "text": "\\(\\bigtriangleup \\) rqp ~ \\(\\bigtriangleup \\) str"
+      }, 
+      {
+        "text": "\\(\\frac {qr}{st}=\\frac {rp}{sr}\\)"
+      }
+    ]
+  }
+}

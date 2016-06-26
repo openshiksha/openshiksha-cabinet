@@ -1,0 +1,25 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>Given figure contains two picture of different sizes of the same building</div><div>Thus, they are similar</div>"
+  }, 
+  "content": {
+    "text": "<div>State whether following figures are similar or not: </div>", 
+    "img": "5.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "No"
+      }, 
+      {
+        "text": "Insufficient information"
+      }
+    ], 
+    "correct": {
+      "text": "Yes"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "hint": {
+    "text": "<div>Given first term and common difference, use the general \\(n^{th}\\) term equation of A.P. </div><div>\\(a_n=a+(n-1)d\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>General \\(n^{th}\\) term of an A.P.</div><div>\\(a_n=a+(n-1)d\\)</div><div>Given</div><div>a=_{p}_  ,  d=_{q}_  and  n=_{s}_</div><div>substitution values into \\(n^{th}\\) term equation </div><div>\\(a_ _{s}_=_{p}_+(_{s}_-1)_{q}_\\)</div><div>\\(a_ _{s}_=_{p}_ +(_{{s-1}}_)_{q}_\\)</div><div>\\(a_ _{s}_=_{{p+(s-1)*q}}_\\)</div><div></div><div></div><div></div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Find the _{s}_\\(^{th}\\) term of an A.P. whose first term and common difference are _{p}_  and _{q}_ ,respectively </div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}, 
+    "s": {}
+  }, 
+  "answer": {
+    "value": "_{{p+(s-1)*q}}_"
+  }, 
+  "type": 3
+}

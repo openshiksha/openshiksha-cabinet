@@ -1,0 +1,40 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let a be the first term and r be the common ratio of the G.P.<div></div>a=_{p}_<div></div>it is known that, \\(a_n=ar^{n-1}\\)<div></div>\\(a_4=ar^3=_{p}_r^3\\)<div></div>\\(a_2=ar^1=_{p}_r\\)<div></div>According to given conditions<div></div>\\(_{p}_r^3=[_{p}_r]^2\\)<div></div>\\(_{p}_r^3=_{{p**2}}_r^2\\)<div></div>\\(r=_{p}_\\)<div></div>\\(a__{q}_=ar^{_{{q-1}}_}=_{{p**q}}_\\)<div></div>Thus, Seventh term is of the G.P. is _{{p**q}}_<div></div><div></div><div></div></div>"
+  }, 
+  "content": {
+    "text": "<div>The \\(4^{th}\\) term of a G.P is square of its second term, and the first term is _{p}_. Find its _{q}_\\(^{th}\\) term.</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "exclude": [
+          [
+            4
+          ]
+        ], 
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{p**q}}_"
+  }, 
+  "type": 3
+}

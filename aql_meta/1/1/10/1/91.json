@@ -1,0 +1,3 @@
+{
+  "revision": "<h1>Euclid's Division Lemma</h1><ol><li>For given positive integers a and b, there exist unique integers q and r satisfying :</li><h3>\\(a = bq + r,\\) \\(0\\le r \\lt b\\)</h3><h1>Euclid's Division Algorithm</h1><li>It is used to obtain the HCF of two positive integers, say a and b \\(a\\gt b\\)</li><h4>Following are the steps:</h4><h4>Step 1 : Apply Euclid's division lemma, to a and b.To find q and r such that a = bq + r.</h4><h4>Step 2 : If \\(r = 0\\), b is the HCF of a and b.If \\(r\\neq 0\\), apply the lemma to b and r.</h4><h4>Step 3 : Continue the process till the reminder is zero.The divisor at this stage will be the required HCF.</h4>"
+}

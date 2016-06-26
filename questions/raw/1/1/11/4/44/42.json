@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": "Assume that \\(R = 8.3 \\frac{J}{mol\\;K}\\)"
+  }, 
+  "solution": {
+    "text": "In the reaction above, we know that:<br>\\(\\Delta U_ {mole} = - _{j}_\\frac{kJ}{mol}\\)<br>Also note that \\(25 C = 298 K\\)<br><br>We know that \\(\\Delta H = \\Delta U + n_gRT \\)<br>\\(\\Delta n_g = \\sum\\) (Moles of Gaseous Reactant) - \\(\\sum\\) (Moles of Gaseous Product)<br>\\(\\implies \\Delta n_g = 1-2 = -1\\) <br><br>Thus, Enthalpy Change per mole \\((\\Delta H_ {mole})\\) for the reaction = \\(\\Delta U_ {mole} - 1 * 0.0083 * 298\\) = \\(- _{{j + (0.0083*298)}}_\\;\\frac{kJ}{mol}\\)"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "The following reaction is conducted in a calorimeter at a pressure of 1 atm and a temperature of 25 C.<br><br>\\(C(s) + 2H_2(g) \\rightarrow CH_4(g)\\)<br><br>During the reaction, the \\(\\Delta U_ {mole}\\) was found to be \\(-_{j}_ \\frac {kJ}{mol}\\). What is the <b>enthalpy change</b> per mole for the above reaction at 25 C and 1 atmosphere?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            70, 
+            90
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "-_{{j + (0.0083*298)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac{kJ}{mol}\\)"
+}

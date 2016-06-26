@@ -1,0 +1,49 @@
+{
+  "hint": {
+    "text": "Use the formula for an isothermal <b>reversible</b> change and note that \\(q=-w\\). Find the value of q."
+  }, 
+  "solution": {
+    "text": "For an isothermal <b>reversible</b> change. \\(q =\\;- w = 2.303 \\times n \\times R \\times T \\times log \\frac{V_f}{V_i}\\)<br>Note that \\(nRT = P_1 \\times V_1 = _{j}_\\)<br>\\(\\implies q =\\;- w = 2.303 \\times _{j}_ \\times log \\frac{_{{10*k}}_ }{_{k}_}\\)<br>\\(\\implies q =\\;- w = 2.303 \\times _{j}_ \\times 1\\)<br>\\(\\implies q =\\;- w = _{{j*2.303}}_\\) litre-atm"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "_{k}_ litres of an ideal gas at a pressure of _{j}_ atm expands <b>reversibly</b> and isothermally against a external pressure of 1 atm until its total volume is _{{10*k}}_ litres. How much heat is absorbed and during the expansion? (Write the answer accurate to three decimal places)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            21, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j*2.303}}_"
+  }, 
+  "type": 3, 
+  "unit": "litre-atm"
+}

@@ -1,0 +1,49 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<b>Step One</b><br><ul><li>Leave equation A untouched.</li><li>Flip equation B, because we need \\(CS_2\\) as a reactant.</li><li>Multiply equation C by a factor of 2, because we want \\(2SO_2\\) as a product.</li></ul><b>Step Two - Revised Equations</b><br><ul><li>\\(C(s) + O_2(g) \\rightarrow CO_2(g) \\qquad \\Delta H = -_{j}_ \\frac{kJ}{mol}\\)</li><li>\\(CS_2(l) \\rightarrow C(s) + 2S(s) \\qquad \\Delta H = - _{l}_ \\frac{kJ}{mol}\\)</li><li>\\(2S(s) + 2O_2(g) \\rightarrow 2SO_2(g) \\qquad \\Delta H = - _{{2*k}}_ \\frac{kJ}{mol}\\)</li></ul><b>Step Three : Add the revised equations to get the desired one</b><br>\\(C(s) + O_2(g) + CS_2(l) + 2S(s) + 2O_2(g)  \\rightarrow CO_2(g) + C(s) + 2S(s) + 2SO_2(g)\\)<br>\\(\\implies CS_2(l) + 3O_2(g) \\rightarrow CO_2(g) + 2SO_2(g)\\)<br><br><b>Step Four : Add the revised enthalpies</b><br>\\(\\implies \\Delta H = -_{j}_ - _{l}_ - _{{2*k}}_ = - _{{j+l+(2*k)}}_\\frac{kJ}{mol}\\)<br>"
+  }, 
+  "content": {
+    "text": "Calculate the enthalpy of change for the reaction below that is conducted at a certain temperature and pressure:<br> \\(CS_2(l) + 3O_2(g) \\rightarrow CO_2(g) + 2SO_2(g)\\)<br><br>Given that the following reactions are conducted under the same conditions:\\(C(s) + O_2(g) \\rightarrow CO_2(g) \\qquad \\Delta H = -_{j}_ \\frac{kJ}{mol} \\qquad (A)\\)<br>\\(C(s) + 2S(s) \\rightarrow CS_2(l) \\qquad \\Delta H = _{l}_ \\frac{kJ}{mol} \\qquad (B)\\)<br>\\(S(s) + O_2(g) \\rightarrow SO_2(g) \\qquad \\Delta H = - _{k}_ \\frac{kJ}{mol} \\qquad (C)\\)<br>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            291, 
+            299
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            390, 
+            400
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            85, 
+            90
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "-_{{j+l+(2*k)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac {kJ}{mol}\\)"
+}

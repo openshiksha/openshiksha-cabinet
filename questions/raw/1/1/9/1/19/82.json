@@ -1,0 +1,47 @@
+{
+  "hint": {
+    "text": "Multiply the given term by \\(100\\)."
+  }, 
+  "solution": {
+    "text": "<div>Let \\(x=0.3_{j}__{k}__{j}__{k}__{j}__{k}__{j}__{k}_.....\\)</div><div>Multiplying both sides by \\(100\\),</div><div>\\(\\Rightarrow 100x = 3_{j}_._{k}__{j}__{k}__{j}__{k}__{j}__{k}_.....\\)</div><div>\\(\\Rightarrow 100x = 3_{j}_._{{k-3}}_ + x\\)</div><div>\\(\\Rightarrow 100x-x = 3_{j}_._{{k-3}}_\\)</div><div>\\(\\Rightarrow 99x = 3_{j}_._{{k-3}}_\\)</div><div>\\(\\Rightarrow 990x = 3_{j}__{{k-3}}_\\)</div><div>\\(x=\\frac{3_{j}__{{k-3}}_}{990}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "\\(0.3_{j}__{k}__{j}__{k}__{j}__{k}__{j}__{k}_.....\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        6, 
+        7, 
+        8, 
+        9
+      ]
+    }, 
+    "j": {
+      "options": [
+        1, 
+        2, 
+        4, 
+        5
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac{3_{j}__{k}_}{1000}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{3_{j}__{k}_}{990}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{3_{j}__{{k-3}}_}{1000}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{3_{j}__{{k-3}}_}{990}\\)"
+    }
+  }
+}

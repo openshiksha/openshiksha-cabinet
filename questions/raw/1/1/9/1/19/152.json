@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\((_{j}_ + \\sqrt{_{j}_})(_{j}_ + \\sqrt{_{j}_})\\)</div><div>\\(=(_{j}_ \\times _{j}_)+(_{j}_ \\times \\sqrt{_{j}_})+(_{j}_ \\times \\sqrt{_{j}_})+(\\sqrt{_{j}_} \\times \\sqrt{_{j}_})\\)</div><div>\\(=(_{{j*j}}_)+(_{j}_\\sqrt{_{j}_})+(_{j}_\\sqrt{_{j}_})+(\\sqrt{_{{j*j}}_})\\)</div><div>\\(=_{{j*j}}_+_{{2*j}}_\\sqrt{_{j}_}+_{j}_\\)</div><div>\\(=_{{j*j+j}}_+_{{2*j}}_\\sqrt{_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((_{j}_ + \\sqrt{_{j}_})(_{j}_ + \\sqrt{_{j}_})\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "options": [
+        2, 
+        3, 
+        5, 
+        6, 
+        7, 
+        8, 
+        10, 
+        11, 
+        12, 
+        13, 
+        14, 
+        15, 
+        17, 
+        18, 
+        19, 
+        20
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j*j+j}}_+_{j}_\\sqrt{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j*j}}_+_{{2*j}}_\\sqrt{_{j}_}+\\sqrt{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j*j+j}}_-_{{2*j}}_\\sqrt{_{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j*j+j}}_+_{{2*j}}_\\sqrt{_{j}_}\\)"
+    }
+  }
+}

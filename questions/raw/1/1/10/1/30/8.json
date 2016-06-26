@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Firstly we calculate the difference of two consecutive terms</div><div>we have difference, \\(d=_{k}_\\)</div><div>we know the value of the first term i.e \\(a_1=_{j}_\\,\\)and\\(\\, n=_{l}_\\)</div><div> Using the Formula \\(a_n=a_1\\,+\\,(n-1)*d\\)</div><div>We have \\(a__{l}_=_{j}_+(_{l}_-1)*_{k}_=_{{j +((l-1)*k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div> Find the _{l}_th term of an AP </div><div> \\(_{j}_,_{{j+k}}_,_{{j+(k*2)}}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            4, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j +((l-1)*k)}}_"
+  }, 
+  "type": 3
+}

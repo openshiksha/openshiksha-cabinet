@@ -1,0 +1,74 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Here the maximum class frequency is _{k}_,</div><div>And, </div><div>The class corresponding to this frequency is 30 - 40.</div><div>So, the modal class is 30 - 40.</div><div>Now </div><div>Modal class = 30 - 40, lower limit (l ) of modal class = 30,</div><div> class size (h) = 10</div><div>frequency ( \\(f_1\\) ) of the modal class = _{k}_,</div><div>frequency ( \\(f_0\\) ) of class preceding the modal class = _{j}_,</div><div>frequency ( \\(f_2\\) ) of class succeeding the modal class = _{l}_. </div><div>Now, let us substitute these values in the formula :</div><div> Mode = l + (\\((f_1-f_0)\\over (2*f_1-f_0-f_2)\\))*h</div><div> Mode = 30 + (\\((_{k}_-_{j}_)\\over (2*_{k}_-_{j}_-_{l}_)\\))*10</div><div> Mode = 30 + \\(_{{k-j}}_\\over _{{(2*k)-j-l}}_\\)*10</div><div> Mode = 30 + (_{{trunc((Decimal(k)-j)/((2*k)-j-l),3)}}_)*10</div><div> Mode = 30 + (_{{trunc(((Decimal(k)-j)/((2*k)-j-l))*10,3)}}_)</div><div> Mode = _{{trunc((30+((Decimal(k)-j)/((2*k)-j-l))*10),3)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A Society's guard noted down the no. of cars leaving the society everyday for _{{i+j+k+l+m}}_ days.Following table contains the data collected by the guard.Find the mode of given data.</div><div>\\begin{array}{c|lcr} No. of cars & \\text{10-20} & \\text{20-30} & \\text{30-40} & \\text{40-50} & \\text{50-60} \\\\ \\hline \\ Days & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\ \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "options": [
+        2, 
+        10
+      ]
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc((32+((Decimal(k)-j)/((2*k)-j-l))*10),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((28+((Decimal(k)-j)/((2*k)-j-l))*10),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((33+((Decimal(k)-j)/((2*k)-j-l))*10),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc((30+((Decimal(k)-j)/((2*k)-j-l))*10),3)}}_"
+    }
+  }
+}

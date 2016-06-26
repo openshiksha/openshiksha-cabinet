@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(x=_{j}_^\\circ,\\,y=_{j}_^\\circ,\\,z=_{k}_^\\circ,\\,\\)</div><div>\\(\\angle BCA=_{k}_^\\circ\\)</div><div>Now, \\(\\angle BCA=\\angle CAD=_{k}_^\\circ \\rightarrow\\)[alternate interior angles]</div><div>\\(\\)</div><div>Alternately,</div><div>In \\(\\triangle ABC,\\)</div><div>\\(\\angle A + \\angle B + \\angle C=180^\\circ\\)</div><div>\\(\\Rightarrow \\angle A +_{j}_+_{k}_=180\\)</div><div>\\(\\Rightarrow \\angle A=_{{180-j-k}}_^\\circ\\)</div><div>We know, EAD is a straight line.</div><div>Therefore, \\(\\angle EAB + \\angle BAC + \\angle CAD=180^\\circ\\)</div><div>\\(\\Rightarrow _{j}_ + _{{180-j-k}}_ + \\angle CAD=180\\)</div><div>\\(\\Rightarrow \\angle CAD=_{k}_^\\circ\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure, ABCD is a parallelogram.</div><div>\\(x=_{j}_^\\circ,\\,y=_{j}_^\\circ,\\,z=_{k}_^\\circ,\\,\\)</div><div>What is the value of the angle CAD?</div>", 
+    "img": "44.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            41, 
+            60
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 1
+  }, 
+  "type": 3, 
+  "unit": "degrees"
+}

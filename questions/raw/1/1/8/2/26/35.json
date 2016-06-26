@@ -1,0 +1,22 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>Friction can never be entirely eliminated.</div><div>No surface is perfectly smooth. Some irregularities are always there.</div>"
+  }, 
+  "content": {
+    "text": "Friction can be reduced to zero by polishing the surfaces or using large quantities of lubricant."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

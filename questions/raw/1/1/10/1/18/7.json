@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>To find the value of the expression \\(2\\times \\alpha + \\beta\\) we have to find the zeros of the quadratic equation</div><div>factorizing the equation we get</div><div>\\(_{{j*j}}_x^2 - _{{j*k}}_x - _{{j*k}}_x + k^2\\)</div><div>\\(_{j}_x(_{j}_x-_{k}_) - _{k}_(_{j}_x-_{k}_)\\)</div><div>\\(\\Rightarrow (_{j}_x-_{k}_)(_{j}_x-_{k}_)=(_{j}_x-_{k}_)^2\\)</div><div>\\(\\Rightarrow \\alpha=\\frac {_{k}_}{_{j}_}\\, and \\,\\beta=\\frac {_{k}_}{_{j}_}\\)</div><div>Hence the value of \\(2\\times \\alpha + \\beta = 2\\times \\frac {_{k}_}{_{j}_} + \\frac {_{k}_}{_{j}_}\\)</div><div>\\(\\Rightarrow 3\\times \\frac {_{k}_}{_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If \\(\\alpha \\) and \\(\\beta \\) are the zeros of the given polynomial \\(f(x)=_{{j*j}}_x^2-_{{2*j*k}}_x+_{{k*k}}_\\)</div><div>Find the value of the expression \\((2\\times \\alpha) + \\beta\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(2\\times \\frac {_{k}_}{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{k}_}{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(4\\times \\frac {_{k}_}{_{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(3\\times \\frac {_{k}_}{_{j}_}\\)"
+    }
+  }
+}

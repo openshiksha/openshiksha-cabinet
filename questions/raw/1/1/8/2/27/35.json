@@ -1,0 +1,18 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>The number of oscillations per second is called the frequency of oscillation.</div><div>Number of oscillations in \\(\\frac1{_{k}_}\\)th of a second \\(=_{j}_\\)</div><div>Therefore, number of oscillations in one second \\(=_{k}_ \\times _{j}_\\)</div><div>\\(=_{{j*k}}_\\)</div><div>Therefore, frequency of the object \\(=_{{j*k}}_\\,Hz\\)</div>"
+  }, 
+  "content": {
+    "text": "If an object oscillates \\(_{j}_\\) times in \\(\\frac1{_{k}_}\\)th of a second, what is its frequency?"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j*k}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(Hz\\)"
+}

@@ -1,0 +1,48 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>\\(_{{j**3}}_x^3-_{{k**3}}_y^3-_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)</div><div>Comparing with identity \\((a+b)^3\\)</div><div>\\(=(_{j}_x)^3-(_{k}_y)^3-3(_{j}_x)^2(_{k}_y)+3(_{j}_x)(_{k}_y)^2\\)</div><div>\\(=(_{j}_x-_{k}_y)^3\\)</div><div>\\(=(_{j}_x-_{k}_y)(_{j}_x-_{k}_y)(_{j}_x-_{k}_y)\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Factorize : </div><div>\\(_{{j**3}}_x^3-_{{k**3}}_y^3-_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_x+_{k}_y)(_{j}_x-_{k}_y)(_{j}_x-_{k}_y)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_x+_{k}_y)(_{j}_x+_{k}_y)(_{j}_x-_{k}_y)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_x+_{k}_y)(_{j}_x+_{k}_y)(_{j}_x+_{k}_y)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_x-_{k}_y)(_{j}_x-_{k}_y)(_{j}_x-_{k}_y)\\)"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Area of the wrapper= TSA of the ice cream</div><div>We can say the TSA of a ice cream= CSA of cylinder + CSA of the (scoop)hemispheres</div><div>CSA of the hemisphere is given by \\(2 \\times \\pi \\times r^2\\)</div><div>we have radius(r) of the hemisphere=radius of the cone=_{k}_</div><div>therefore area of a hemisphere=\\(2 \\times \\pi \\times _{k}_^2=_{{trunc(2*pi_val*k*k,2)}}_\\)</div><div>Now area of a cone=\\(\\pi \\times r \\times l\\)</div><div>slant height of the cone=\\(l=_{j}_\\)</div><div>Therefore area of the cone=\\(\\pi \\times _{k}_ \\times _{j}_\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*k*j,2)}}_\\)</div><div>TSA of a Capsule= CSA of cone + CSA of the hemispheres=\\(_{{trunc(pi_val*k*j,2)}}_+ _{{trunc(2*pi_val*k*k,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*k*j+2*pi_val*k*k,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>An ice cream is manufactured by placing a scoop of cream on top of a waffle cone of radius _{k}_ and slant height _{j}_.</div><div>The shape of the ice cream is shown in the figure, calculate the area of the wrapper required to cover it</div>", 
+    "img": "2.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(2*pi_val*k*j+4*pi_val*k*k,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(2*pi_val*k*j+5*pi_val*k*k,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(2*pi_val*k*j+2*pi_val*k*k,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*k*j+2*pi_val*k*k,2)}}_"
+    }
+  }
+}

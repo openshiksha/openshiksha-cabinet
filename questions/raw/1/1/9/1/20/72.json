@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Height of barrel, h \\(=_{j}_\\)m</div><div>Diameter of barrel, d \\(=_{k}_\\)m</div><div>\\(\\Rightarrow\\) Radius, r \\(=_{{Fraction(k,2)}}_=_{{k/Decimal(2)}}_\\)m</div><div>Total surface area of barrel \\(_{{trunc((2*pi_val*(k/Decimal(2))*(j+(k/Decimal(2)))),3)}}_m^2\\)</div><div>Quantity of metal actually used\\(=\\)total surface area of barrel \\(+\\,_{l}_\\)% of total surface area</div><div>\\(=_{{1+(l/Decimal(100))}}_ \\times\\) total surface area</div><div>\\(=_{{1+(l/Decimal(100))}}_ \\times _{{trunc((2*pi_val*(k/Decimal(2))*(j+(k/Decimal(2)))),3)}}_\\)</div><div>\\(=_{{trunc(((1+(l/Decimal(100)))*2*pi_val*(k/Decimal(2))*(j+(k/Decimal(2)))),3)}}_m^2\\)</div>"
+  }, 
+  "content": {
+    "text": "How much metal was actually used, if \\(_{l}_\\)% of the metal actually used was wasted in making the barrel."
+  }, 
+  "variable_constraints": {
+    "l": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": "_{{trunc(((1+(l/Decimal(100)))*2*pi_val*(k/Decimal(2))*(j+(k/Decimal(2)))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^2\\)"
+}

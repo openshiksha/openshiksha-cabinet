@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "<div>List in increasing order, the surfaces you will achieve better grip on while walking.</div><div>Marble floor, Tar road, Ice.</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Ice, Tar road, Marble Floor"
+      }, 
+      {
+        "text": "Tar road, Marble floor, Ice"
+      }, 
+      {
+        "text": "Marble Floor, Ice, Tar road"
+      }
+    ], 
+    "correct": {
+      "text": "Ice, Marble floor, Tar Road"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 3, 
+  "variable_constraints": {}
+}

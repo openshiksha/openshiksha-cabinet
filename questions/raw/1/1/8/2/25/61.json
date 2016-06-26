@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "Pressing a foam cushion placed on a chair with your hand."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Change in state of motion"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Change in shape"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "variable_constraints": {}
+}

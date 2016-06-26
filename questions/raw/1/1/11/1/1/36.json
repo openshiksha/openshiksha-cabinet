@@ -1,0 +1,49 @@
+{
+  "hint": {
+    "text": "Consider_{q}_ as the first term and _{r}_ as the (_{p}_+2)\\(^{th}\\) term. Round the answer to 3 decimal places."
+  }, 
+  "solution": {
+    "text": "<div> To find the common difference between two numbers \\(a\\) and \\(b\\) so as to insert \\(m\\) numbers between them to form an A.P. use the below formula<div></div>common difference  \\(d= \\frac{b-a}{m+1}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Find the common difference of th A.P. formed if you insert _{p}_ numbers between _{q}_ and _{r}_ ?</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            -10, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            15, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.02, 
+    "value": "_{{trunc(Decimal(r-q)/(p+1),3)}}_"
+  }, 
+  "type": 3
+}

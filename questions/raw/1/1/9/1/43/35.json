@@ -1,0 +1,70 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "Consider the given equation : \\(_{{j*n}}_x + _{{j}}_y = _{{(j*l) + 2*j*n}}_\\)<br>Now, for each ordered pair, substitute the values of x and y and check if it satisfies the equation.<br>For instance:<br>\\((2, _{l}_)\\) implies \\(x = 2\\) and \\(y = _{l}_\\)<br>Substituting the values into the given equation on the Left Hand Side (LHS), we get<br>\\(_{{j*n}}_ * 2 + _{{j}}_ * _{l}_\\)<br>\\(= _{{(j*l) + 2*j*n}}_\\)<br>\\(= RHS\\)<br>Hence \\((2, _{l}_)\\) is a solution for the given equation.<br><br>Similarly, \\((5, _{{l-3*n}}_)\\) is also a solution for the given equation but \\((3, _{{l-n-1}}_)\\) and \\((2, _{{l-1}}_)\\) are not."
+  }, 
+  "content": {
+    "text": "\\(_{{j*n}}_x + _{{j}}_y = _{{(j*l) + 2*j*n}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((3, _{{l-n-1}}_)\\)"
+      }, 
+      {
+        "text": "\\((2, _{{l-1}}_)\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\((2, _{l}_)\\)"
+      }, 
+      {
+        "text": "\\((5, _{{l-3*n}}_)\\)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "content": {
+    "text": "A"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Cornea"
+      }, 
+      {
+        "text": "Optic nerve"
+      }, 
+      {
+        "text": "Iris"
+      }, 
+      {
+        "text": "Retina"
+      }, 
+      {
+        "text": "Lens"
+      }
+    ], 
+    "correct": {
+      "text": "Pupil"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

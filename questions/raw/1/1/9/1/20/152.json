@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "<div>Determine the number of small cubes required to build a Rubik's cube using the image shown.</div><div>Assume that there is no empty space between two small cubes.</div>"
+  }, 
+  "solution": {
+    "text": "<div>From the image we can conclude that the Rubik's cube is built using \\(27\\) smaller cubes.</div><div>Length of the side of each small cube ,\\(a=_{j}_\\) cm</div><div>Volume of each small cube \\(=a^3\\)</div><div>\\(=_{j}_^3\\)</div><div>\\(=_{{j**3}}_\\,cm^3\\)</div><div>Volume of the Rubik's cube \\(=27 \\times \\) Volume of each small cube</div><div>\\(=27 \\times _{{j**3}}_\\)</div><div>\\(=_{{27*j**3}}_\\,cm^3\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "If the edge of each small cube in a Rubik's cube is \\(_{j}_\\) cm, what is the volume of the Rubik's cube?", 
+    "img": "152.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{27*j**3}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

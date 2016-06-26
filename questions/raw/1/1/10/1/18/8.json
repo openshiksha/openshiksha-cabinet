@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>we have to find the zeros of the quadratic equation</div><div>factorizing the equation we get</div><div>\\(_{j}_x^2 + _{{j*5}}_x + _{{j*2}}_x + _{{10*j}}_\\)</div><div>\\(_{j}_x(x+5) + _{{2*j}}_(x+5)\\)</div><div>\\(\\Rightarrow (_{j}_x+_{{2*j}}_)(x+5)\\)</div><div>\\(\\Rightarrow \\alpha=\\frac {_{{-2*j}}_}{_{j}_}=-2\\, and \\,\\beta=-5\\)</div><div>Hence the value of \\(\\alpha + \\beta =-2+(-5)=-7\\)</div><div>\\(-7=\\frac {-b}a=\\frac {_{{-7*j}}_}{_{j}_}\\)</div> <div>Similarly \\(\\alpha \\times \\beta =-2\\times (-5)=10\\)</div><div>\\(10=\\frac ca=\\frac {_{{10*j}}_}{_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the zeros of the given polynomial \\(f(x)=_{j}_x^2+_{{7*j}}_x+_{{10*j}}_\\)</div><div>select the correct relations between the zeros and the coefficients from the options given below</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\alpha=-3\\,\\beta=-4, \\alpha+\\beta=\\frac {-b}a = \\frac {_{{-7*j}}_}{_{j}_}=-7\\)"
+      }, 
+      {
+        "text": "\\(\\alpha=-3\\,\\beta=-4, \\alpha\\times \\beta=\\frac ca = \\frac {_{{10*j}}_}{_{j}_}=10\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\alpha=-2\\,\\beta=-5, \\alpha+\\beta=\\frac {-b}a = \\frac {_{{-7*j}}_}{_{j}_}=-7\\)"
+      }, 
+      {
+        "text": "\\(\\alpha=-2\\,\\beta=-5, \\alpha\\times \\beta=\\frac ca = \\frac {_{{10*j}}_}{_{j}_}=10\\)"
+      }
+    ]
+  }
+}

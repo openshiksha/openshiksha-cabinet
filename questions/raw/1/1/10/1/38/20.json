@@ -1,0 +1,46 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>As per the theorem that says if x=\\(\\frac pq\\) be a rational number where p and q are coprime, such that the prime factorization of q is of the form \\(2^n\\times 5^m\\).</div><div>Then, x has a decimal expansion which is terminating.</div><div>So, we just need to check for the denominator(q) of the given fraction</div><div>if q is a factor of only prime number 2 or 5 then it will be terminating and will be entered in the computer</div><div>So we solve and get,\\(\\frac {_{{j+4}}_}{_{{16*k}}_}=\\frac {_{{j+4}}_}{_{k}_\\times 2^4}\\)</div> <div>similarly, \\(\\frac {_{{j+3}}_}{_{{25*k}}_}=\\frac {_{{j+3}}_}{5^2\\times _{k}_}\\)</div><div>also \\(\\frac {_{{j+7}}_}{_{{20*k}}_}=\\frac {_{{j*7}}_}{5\\times 2^2 \\times _{k}_}\\)</div><div>But in other the ratios ,denominators contain prime factors other than 2 and 5</div>"
+  }, 
+  "content": {
+    "text": "<div>School administration enters attendance record of the students of classes 1st to 8th in a computer.</div><div>The ratios of students present in the class to the total enrolled students are as follows: \\(\\frac {_{{j+1}}_}{_{{13*k}}_},\\frac {_{{j+2}}_}{_{{14*k}}_},\\frac {_{{j+3}}_}{_{{25*k}}_},\\frac {_{{j+4}}_}{_{{16*k}}_},\\frac {_{{j+5}}_}{_{{17*k}}_},\\frac {_{{j+5}}_}{_{{18*k}}_},\\frac {23}{41},\\frac {_{{j+7}}_}{_{{20*k}}_}\\)</div><div>It was later noticed that only those fractions that resulted into a terminating decimal number were entered and others were discarded</div><div>From the options given below, choose the ratios which were successfully entered into the computer</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        2, 
+        5
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            28
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {23}{41}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\frac {_{{j+3}}_}{_{{25*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{j+4}}_}{_{{16*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{j+7}}_}{_{{20*k}}_}\\)"
+      }
+    ]
+  }
+}

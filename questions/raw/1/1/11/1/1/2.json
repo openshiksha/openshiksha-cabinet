@@ -1,0 +1,34 @@
+{
+  "hint": {
+    "text": "<div> Substitute and solve the n^th term for n=1,2,3,4,5 </div>"
+  }, 
+  "solution": {
+    "text": "<div> Substitute and solve the n^th term for n=1,2,3,4,5 </div><div>\\( a_1= \\frac{_{p}_\\times 1-_{q}_}{_{r}_}=_{{Fraction(p*1-q,r)}}_ =_{{trunc(Decimal(p*1-q)/(r),3)}}_\\)</div><div>\\( a_2= \\frac{_{p}_\\times 2-_{q}_}{_{r}_}=_{{Fraction(p*2-q,r)}}_ =_{{trunc(Decimal(p*2-q)/(r),3)}}_\\)</div><div>\\( a_3= \\frac{_{p}_\\times 3-_{q}_}{_{r}_}=_{{Fraction(p*3-q,r)}}_ =_{{trunc(Decimal(p*3-q)/(r),3)}}_ \\)</div><div>\\( a_4= \\frac{_{p}_\\times 4-_{q}_}{_{r}_}=_{{Fraction(p*4-q,r)}}_ = _{{trunc(Decimal(p*4-q)/(r),3)}}_ \\)</div><div>\\( a_5= \\frac{_{p}_\\times 5-_{q}_}{_{r}_}=_{{Fraction(p*5-q,r)}}_ = _{{trunc(Decimal(p*5-q)/(r),3)}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Find first five terms of the sequence whose n^th term is\\( a_n= \\frac{_{p}_\\times n-_{q}_}{_{r}_}\\)</div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}, 
+    "r": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(Decimal(p*1-q)/(2*r),3)}}_  ,  _{{trunc(Decimal(p*2-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*3-q)/(r*2),3)}}_  ,  _{{trunc(Decimal(p*4)/(r),3)}}_  ,  _{{trunc(Decimal(p*5-q)/(r),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(p*1-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*2-q)/(r*2),3)}}_  ,  _{{trunc(Decimal(p*3-q)/(r*2),3)}}_  ,  _{{trunc(Decimal(p*4+q)/(r),3)}}_  ,  _{{trunc(Decimal(p*5)/(r),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(p*1-q)/(2*r),3)}}_  ,  _{{trunc(Decimal(p*2-q)/(r*2),3)}}_  ,  _{{trunc(Decimal(p*3-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*4)/(r),3)}}_  ,  _{{trunc(Decimal(p*5)/(r),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(Decimal(p*1-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*2-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*3-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*4-q)/(r),3)}}_  ,  _{{trunc(Decimal(p*5-q)/(r),3)}}_"
+    }
+  }
+}

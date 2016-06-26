@@ -1,0 +1,26 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given coordinates are:</div><div>Ram's house RH = (_{i}_,_{j}_),</div><div>Shyam's house SH = (_{{i+3*k}}_,_{{j+3*l}}_)</div><div>And,</div><div>School S = (_{{i+k}}_,_{{j+l}}_).</div><div>Let the ratio be r : s</div><div>Then, by the section formula we have:</div><div> (_{{i+k}}_ = \\({s\\times _{i}_ + r\\times _{{i+3*k}}_}\\over r+s\\)) , (_{{j+l}}_ = \\({s\\times _{j}_ + r\\times _{{j+3*l}}_}\\over r+s\\))</div><div>Solving, (_{{i+k}}_ = \\({s\\times _{i}_ + r\\times _{{i+3*k}}_}\\over r+s\\))</div><div>i.e.,  _{{i+k}}_ = \\({{s\\over r} \\times _{i}_ + _{{i+3*k}}_}\\over {s\\over r} + 1\\)</div><div>i.e.,  \\(_{{i+k}}_\\times ({s\\over r} + 1)\\) = \\({{s\\over r} \\times _{i}_ + _{{i+3*k}}_} \\)</div><div>i.e.,  _{{(i+k)}}_\\(s\\over r\\) + _{{(i+k)}}_ = _{i}_\\(s\\over r\\) + _{{i+3*k}}_</div><div>i.e.,  _{{(i+k)}}_\\(s\\over r\\) - _{i}_\\(s\\over r\\) = _{{i+3*k}}_ -  _{{(i+k)}}_</div><div>i.e.,  _{k}_\\(s\\over r\\) = _{{2*k}}_</div><div>i.e.,  \\(s\\over r\\) = 2</div><div>Verifying the obtained result for y coordinate:</div><div>(_{{j+l}}_ = \\({s\\times _{j}_ + r\\times _{{j+3*l}}_}\\over r+s\\))</div><div>_{{j+l}}_ = \\({{s\\over r}\\times _{j}_ + _{{j+3*l}}_}\\over {s\\over r} + 1\\)</div><div>_{{j+l}}_ = \\({2\\times _{j}_ + _{{j+3*l}}_}\\over 2 + 1\\)</div><div>_{{j+l}}_ = \\({_{{2*j}}_ + _{{j+3*l}}_}\\over 3\\)</div><div>_{{j+l}}_ = \\({_{{(2*j)+(j+3*l)}}_}\\over 3\\)</div><div>_{{j+l}}_ = _{{j+l}}_</div><div>Hense, s : r = 2 : 1</div>"
+  }, 
+  "content": {
+    "text": "<div>Two students Ram and Shyam are arguing about the distance of their houses from the school, Ram says that his home is twice as far as Shyam's home from the school and Shyam says that his home is twice as far as Ram's home from the school. Given are the coordinates of their houses and school. Find who is right.</div><div>Given coordinates are as follows : Ram(_{i}_,_{j}_) , Shyam(_{{i+3*k}}_,_{{j+3*l}}_) and school(_{{i+k}}_,_{{j+l}}_).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}, 
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Ram"
+      }
+    ], 
+    "correct": {
+      "text": "Shyam"
+    }
+  }
+}

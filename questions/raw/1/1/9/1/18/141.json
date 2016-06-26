@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_x^2 + _{{2*j*k}}_xy + _{{k**2}}_y^2\\)</div><div>Here, you can see that \\(_{{j**2}}_x^2=(_{j}_x)^2,\\,_{{k**2}}_y^2=(_{k}_y)^2,\\,_{{2*j*k}}_xy=2 \\times _{j}_x \\times _{k}_y\\)</div><div>Comparing the given expression with \\(a^2+2ab+b^2,\\,\\)we observe that \\(a=_{j}_x,\\,b=_{k}_y\\).</div><div>Using identity, \\(_{{j**2}}_x^2 + _{{2*j*k}}_xy + _{{k**2}}_y^2 = (_{j}_x+_{k}_y)^2\\)</div><div>\\((_{j}_x+_{k}_y)(_{j}_x+_{k}_y)\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{{j**2}}_x^2 + _{{2*j*k}}_xy + _{{k**2}}_y^2\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_x+_{k}_y)(_{j}_x-_{k}_y)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_x-_{k}_y)(_{j}_x+_{k}_y)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_x-_{k}_y)(_{j}_x-_{k}_y)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_x+_{k}_y)(_{j}_x+_{k}_y)\\)"
+    }
+  }
+}

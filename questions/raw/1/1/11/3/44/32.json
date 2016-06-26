@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Mass of Nitrogen \\((m) = _{k}_ kg = _{{1000*k}}_\\) g<br>Rise in Temperature \\((\\Delta T) = _{j}_^ \\circ C\\)<br>Molecular Mass of \\(N_2 (M) = \\) 28 g<br>\\(R = 8.3 \\frac{J}{mol\\;K}\\)<br>Number of moles \\((n) = \\frac {m}{M} = \\frac{_{{1000*k}}_}{28} = _{{1000*k/28}}_\\)<br><br>\\(C_p = \\frac {7}{2} \\times R = _{{3.5 * 8.3}}_\\)<br><br>\\(\\Delta Q = n \\times C_p \\times \\Delta T = _{{1000*k/28}}_  \\times 29.05 \\times _{j}_ = _{{1000*29.05 * j * k/28}}_\\) J <br>The amount of heat that needs to be supplied : \\(_{{1000*29.05 * j * k/28}}_\\) J"
+  }, 
+  "content": {
+    "text": "What amount of heat must be supplied to _{k}_ kg of nitrogen at room temperature to raise its temperature by _{j}_ \\(^\\circ\\) C at constant pressure ? The molecular mass of \\(N_2 = 28 g ; R = 8.3 \\frac{J}{mol\\;K} ; C_p = \\frac {7}{2} \\times R\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{1000*29.05 * j * k/28}}_"
+  }, 
+  "type": 3, 
+  "unit": "J"
+}

@@ -1,0 +1,50 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "\\(\\Delta_r G^\\circleddash =\\;- 2.303\\;RT\\;log K\\)<br>\\(\\implies log K = \\frac {\\Delta_r G^\\circleddash}{- 2.303\\;RT}\\)<br>\\(\\implies log K = \\frac {- _{gibbs}_ \\times 10^3}{- 2.303 \\times 8.314 \\times _{temp}_}\\)<br>\\(\\implies log K = _{{ trunc(Decimal((gibbs*1000)/(2.303*8.314*temp)),3)}}_\\)<br>\\(\\implies K = antilog(_{{ trunc(Decimal((gibbs*1000)/(2.303*8.314*temp)),3)}}_)\\)<br>"
+  }, 
+  "content": {
+    "text": "Calculate the equilibrium constant \\(K_p\\) for a reaction at \\(_{temp}_\\) K given that the \\(\\Delta _r G^\\circleddash = -_{gibbs}_ \\frac {kJ}{mol}\\)"
+  }, 
+  "variable_constraints": {
+    "gibbs": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            8, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "temp": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            280, 
+            380
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\implies K = log(_{{ trunc(Decimal((gibbs*1000)/(2.303*8.314*temp)),3)}}_)\\)"
+      }, 
+      {
+        "text": "\\(\\implies K = antilog(_{{ trunc(Decimal((gibbs)/(2.303*8.314*temp)),3)}}_)\\)"
+      }, 
+      {
+        "text": "\\(\\implies K = antilog(_{{ trunc(Decimal((gibbs*1000)/(8.314*temp)),3)}}_)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\implies K = antilog(_{{ trunc(Decimal((gibbs*1000)/(2.303*8.314*temp)),3)}}_)\\)"
+    }
+  }
+}

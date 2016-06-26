@@ -1,0 +1,68 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the price of apples be Rs x per kg.</div><div>And, the price of mangoes be Rs y per kg.</div><div>Then, the price of _{i}_kg apples = _{i}_x and price of _{j}_kg mangoes = _{j}_y</div><div>Therefore, </div><div>_{i}_x + _{j}_y = _{k}_</div><div>Similarly, for today:</div><div>_{j}_x + _{i}_y = _{l}_</div><div>Solving these pair of equation by substitution method.</div><div>x = \\({_{k}_ - _{j}_y}\\over _{i}_\\)</div><div>_{j}_(\\({_{k}_ - _{j}_y}\\over _{i}_\\)) + _{i}_y = _{l}_</div><div>_{j}_(_{k}_ - _{j}_y) + _{{i*i}}_y = _{{i*l}}_</div><div>_{{j*k}}_ - _{{j*j}}_y + _{{i*i}}_y = _{{i*l}}_</div><div>_{{-j*j+i*i}}_y = _{{i*l}}_-_{{j*k}}_ </div><div>_{{-j*j+i*i}}_y = _{{i*l-j*k}}_ </div><div>y = _{{trunc((Decimal(i)*l-j*k)/(i*i-j*j),2)}}_ </div><div>x = \\({_{k}_ - _{j}_\\times  _{{trunc((Decimal(i)*l-j*k)/(i*i-j*j),2)}}_}\\over _{i}_\\)</div><div>x = \\({_{k}_ - _{{trunc(((Decimal(i)*l-j*k)/(i*i-j*j))*j,2)}}_}\\over _{i}_\\)</div><div>x = \\({_{{trunc((k-((Decimal(i)*l-j*k)/(i*i-j*j))*j),2)}}_}\\over _{i}_\\)</div><div>x = _{{trunc((k-((Decimal(i)*l-j*k)/(i*i-j*j))*j)/i,2)}}_</div><div>Price of apples = Rs_{{trunc((k-((Decimal(i)*l-j*k)/(i*i-j*j))*j)/i,2)}}_\\kg and mangoes = Rs_{{trunc((Decimal(i)*l-j*k)/(i*i-j*j),2)}}_\\kg </div>"
+  }, 
+  "content": {
+    "text": "<div>Yesterday, Prachi bought _{i}_kg apples and _{j}_kg mangoes for Rs _{k}_ Today she buys _{j}_kg apples and _{i}_ kg mangoes for Rs _{l}_.Find the price of apples and mangoes per kg.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            8, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            25, 
+            35
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            35, 
+            45
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Apple = Rs_{{trunc((k-((Decimal(i)*l-j*k-30)/(i*i-j*j))*j)/i,2)}}_\\kg and Mangoes = Rs_{{trunc((Decimal(i)*l-j*k)/(i*i-j*j),2)}}_\\kg"
+      }, 
+      {
+        "text": "Apple = Rs_{{trunc((k-((Decimal(i)*l-j*k)/(i*i-j*j))*j)/i,2)}}_\\kg and Mangoes = Rs_{{trunc((Decimal(i)*l-j*k-20)/(i*i-j*j),2)}}_\\kg"
+      }, 
+      {
+        "text": "Apple = Rs_{{trunc((k-((Decimal(i)*l-j*k+30)/(i*i-j*j))*j)/i,2)}}_\\kg and Mangoes = Rs_{{trunc((Decimal(i)*l-j*k+20)/(i*i-j*j),2)}}_\\kg"
+      }
+    ], 
+    "correct": {
+      "text": "Apple = Rs_{{trunc((k-((Decimal(i)*l-j*k)/(i*i-j*j))*j)/i,2)}}_\\kg and Mangoes = Rs_{{trunc((Decimal(i)*l-j*k)/(i*i-j*j),2)}}_\\kg"
+    }
+  }
+}

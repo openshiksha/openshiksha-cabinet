@@ -1,0 +1,35 @@
+{
+  "hint": {
+    "text": "<div>Take second term as \\(a\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Let \\(\\frac{a}{r},a,ar\\) be the first three terms of the G.P</div><div>\\( \\frac{a}{r} + a + ar =_{{p + p*q + p*q**2 }}_ .......(1)\\)<div></div>\\((\\frac{a}{r})(a)(ar)=_{{(p**3)*(q**3) }}_ .......(2)\\)</div><div>From (2), we obtain</div><div>\\(a^3=_{{(p**3)*(q**3) }}_\\)</div><div>=> \\(a=_{{p*q}}_\\)</div><div>Substituting a = 1 in equation (1), we obtain </div><div>\\(\\frac{_{{p*q}}_}{r} + _{{p*q}}_ + _{{p*q}}_r =_{{p + p*q + p*q**2 }}_\\)</div><div>\\(_{{p*q}}_ + _{{p*q}}_r + _{{p*q}}_r^2 =_{{p + p*q + p*q**2 }}_r\\) </div><div>\\(_{{p*q}}_ + _{{p*q}}_r + _{{p*q}}_r^2 -_{{p + p*q + p*q**2 }}_r=0\\) </div><div>\\(_{{p*q}}_r^2  - _{{p  + p*q**2 }}_r + _{{p*q}}_=0\\) </div><div>Solving this we will get the common ratio</div><div>\\(r = _{q}_ ,\\frac{1}{_{q}_}\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>Sum of first 3 terms of a G.P. is _{{p + p*q + p*q**2 }}_ and their product is _{{(p**3)*(q**3) }}_. Find the common ratio.</div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{q**2}}_"
+      }, 
+      {
+        "text": "\\(\\frac{1}{_{{q**2}}_}\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "_{q}_"
+      }, 
+      {
+        "text": "\\(\\frac{1}{_{q}_}\\)"
+      }
+    ]
+  }
+}

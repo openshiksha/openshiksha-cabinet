@@ -1,0 +1,73 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Here, the class size varies, and the xi's are large. Let us apply the direct method.</div><div>Then, </div><div>we obtain the data as in Table: </div><div>\\begin{array}{c|lcr}Salary & \\text{no.of employees(fi)} & \\text{xi} & \\text{fixi} \\\\\\hline1000-3000 & _{i}_ & 2000 & _{{i*2000}}_ \\\\3000-5000 & _{j}_ & 4000 & _{{j*4000}}_ \\\\5000-7000 & f & 6000 & f*6000 \\\\7000-9000 & _{l}_ & 8000 & _{{l*8000}}_ \\\\ \\hline Total & _{{i+j+l}}_+f &  & _{{(i*2000)+(j*4000)+(l*8000)}}_+6000f \\\\\\hline\\end{array}</div><div>The sum of the values in the last column gives us \\sum fixi</div><div> So, </div><div>the mean x of the given data is given by;</div><div>  \\(\\bar x\\) = \\(\\Sigma fixi\\over \\Sigma fi\\) = \\(_{{(i*2000)+(j*4000)+(l*8000)}}_+6000f\\over _{{i+j+l}}_+f\\) = _{m}_</div><div>_{{(i*2000)+(j*4000)+(l*8000)}}_+6000f = _{m}_*(_{{i+j+l}}_+f)</div><div>_{{(i*2000)+(j*4000)+(l*8000)}}_+6000f = _{{m*(i+j+l)}}_+_{m}_f</div><div>6000f-_{m}_f = _{{m*(i+j+l)}}_-_{{(i*2000)+(j*4000)+(l*8000)}}_</div><div>_{{6000-m}}_f = _{{(m*(i+j+l))-((i*2000)+(j*4000)+(l*8000))}}_</div><div> f = _{{trunc(((m*(Decimal(i)+j+l))-((i*2000)+(j*4000)+(l*8000)))/(6000-m),2)}}_</div><div>it can not be fractional so, rounding off</div><div>f = _{{((((2*m*(i+j+l))-((2*i*2000)+(2*j*4000)+(2*l*8000)))/(6000-m))+1)/2}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Following table gives the information about the monthly salary of employees of a company.The mean salary is Rs. _{m}_.Find the missing frequency f.</div><div>\\begin{array}{c|lcr} Salary & \\text{1000-3000} & \\text{3000-5000} & \\text{5000-7000} & \\text{7000-9000} \\\\ \\hline \\ No. of employees & _{i}_ & _{j}_ & f & _{l}_ \\\\ \\hline\\end{array}</div><div>Round off the obtained answer</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            8, 
+            16
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            4800, 
+            5400
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "options": [
+        1
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{((((2*m*(i+j+l))-((2*i*2000)+(2*j*4000)+(2*l*8000)))/(6000-m))+3)/2}}_"
+      }, 
+      {
+        "text": "_{{((((2*m*(i+j+l))-((2*i*2000)+(2*j*4000)+(2*l*8000)))/(6000-m))-1)/2}}_"
+      }, 
+      {
+        "text": "_{{((((2*m*(i+j+l))-((2*i*2000)+(2*j*4000)+(2*l*8000)))/(6000-m))+-3)/2}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{((((2*m*(i+j+l))-((2*i*2000)+(2*j*4000)+(2*l*8000)))/(6000-m))+1)/2}}_"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Asteroids revolve around the Sun."
+  }, 
+  "content": {
+    "text": "These small objects revolve around Mars and Jupiter."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "True"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "False"
+    }
+  }
+}

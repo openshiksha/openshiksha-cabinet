@@ -1,0 +1,37 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>multiplying _{j}_cosec\\(\\theta +_{j}_cot\\theta\\) inside the squared bracket in the numerator and denominator</div><div>\\({[(_{j}_cosec\\theta-_{j}_cot\\theta)\\times(_{j}_cosec\\theta+_{j}_cot\\theta)]^2\\over (_{j}_cosec\\theta+_{j}_cot\\theta)^2}\\times(1+cos\\theta)\\over _{k}_-_{k}_cos\\theta\\)</div><div>using the identity \\(cosec^2+cot^2=1\\) we can simplify</div><div>\\(_{j}_^4\\times(1+cos\\theta)\\over (_{j}_cosec\\theta+_{j}_cot\\theta)^2\\times(_{k}_-_{k}_cos\\theta)\\)</div><div>we know cosec\\(\\theta \\)=\\(1\\over sin\\theta\\)and cot\\(\\theta \\)=\\(cos\\theta\\over sin\\theta\\)</div><div>\\([_{j}_\\times sin\\theta]^2*(1+cos\\theta)\\over (1+cos\\theta)^2\\times(_{k}_-_{k}_cos\\theta)\\)</div><div>writing \\(sin^2\\theta=1-cos^2\\theta\\) we get</div><div>\\([_{j}_\\times(1-cos^2\\theta)]^2\\times(1+cos\\theta)\\over (1+cos\\theta)^2\\times(_{k}_-_{k}_cos\\theta)\\)=\\(_{{j*j}}_\\over _{k}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>\\((_{j}_cosec\\theta -_{j}_cot\\theta)^2\\times(1+cos\\theta)\\over _{k}_-_{k}_cos\\theta\\), simplify the given expression</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        3, 
+        5, 
+        7, 
+        11
+      ]
+    }, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{j}_\\over _{k}_\\)"
+      }, 
+      {
+        "text": "\\(_{{k*j}}_\\over _{k}_\\)"
+      }, 
+      {
+        "text": "\\(_{{k*k}}_\\over _{j}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j*j}}_\\over _{k}_\\)"
+    }
+  }
+}

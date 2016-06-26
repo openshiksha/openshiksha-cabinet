@@ -1,0 +1,24 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\(\\frac{_{j}_}{_{{j+3}}_}\\)</div><div>The given term is in the form of \\(\\frac{p}{q}\\).</div><div>Therefore, \\(\\frac{_{j}_}{_{{j+3}}_}\\) is a rational number.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{_{j}_}{_{{j+3}}_}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Irrational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Rational"
+    }
+  }
+}

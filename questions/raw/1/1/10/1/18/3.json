@@ -1,0 +1,30 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>A real number k is said to be a zero of a polynomial f(x), if f(k) = 0</div><div>We have to use hit and trial method by taking values of k from the  options</div><div>we say k=\\(\\frac {_{k}_}{_{j}_}\\) we get</div><div>\\(f(\\frac {_{k}_}{_{j}_})=_{{j*j}}_(\\frac {_{k}_}{_{j}_})^2-_{{2*j*k}}_\\times \\frac {_{k}_}{_{j}_}+_{{k*k}}_\\)</div><div>\\(\\Rightarrow f(\\frac {_{k}_}{_{j}_})=0\\)</div><div>Therefore, \\(\\frac {_{k}_}{_{j}_}\\) is the zero of the given polynomial</div>"
+  }, 
+  "content": {
+    "text": "<div>From the given options, choose the zero of the polynomial \\(f(x)=_{{j*j}}_x^2-_{{2*j*k}}_x+_{{k*k}}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {_{{1+k}}_}{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{2*k}}_}{_{j}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{k-1}}_}{_{j}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {_{k}_}{_{j}_}\\)"
+    }
+  }
+}

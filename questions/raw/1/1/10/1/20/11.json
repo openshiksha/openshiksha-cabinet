@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>volume of fluid inside the box = volume of the box - volume of the 100 spheres</div><div>volume of the box = volume of the cuboid=\\(l\\times b \\times h\\), where \\(l\\) is length, \\(b\\) is width and \\(h\\) is height </div><div>\\(\\Rightarrow \\) Volume of the cuboid\\(=_{{20*k}}_ \\times _{{4*k}}_ \\times _{{10*k}}_=_{{800*k*k*k}}_\\)</div><div>Now volume of the sphere\\(=\\frac 43 \\times[\\pi \\times r^3]\\) where radius(r) of the sphere=\\(_{k}_\\)</div><div>\\(\\Rightarrow \\frac 43 \\times \\frac {22}7 \\times _{k}_^3=_{{trunc(pi_val*k*k*k*4/3,2)}}_\\)</div><div>Volume of the 100 rasgullas=\\(100\\times _{{trunc(pi_val*k*k*k*4/3,2)}}_=_{{trunc(100*pi_val*k*k*k*4/3,2)}}_\\)</div> <div>Volume of the fluid\\(=_{{800*k*k*k}}_ -_{{trunc(100*pi_val*k*k*k*4/3,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(800*k*k*k-100*pi_val*k*k*k*4/3,2)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A factory packs rasgullas in a cuboidal box of length= _{{10*k}}_cm, width= _{{4*k}}_cm and  height= _{{20*k}}_cm</div><div>The rasgullas are in the shape of a sphere of radius _{k}_cm.</div><div>If the boxes are packed with 100 rasgullas and the complete box is filled with a sweet fluid</div><div>Find the volume of the fluid in the box</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc(800*k*k*k-100*pi_val*k*k*k*4/3,2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

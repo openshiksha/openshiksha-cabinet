@@ -1,0 +1,40 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>As the vertical height is not given it better not to use the formula to find the CSA of the frustum</div><div> We can extend the slant height of the construct a cone</div><div>We now have two cones bigger cone that contains the frustum and extended smaller cone </div><div>Let the slant height of smaller cone be P, so slant height of the bigger cone becomes (P+x)</div><div>CSA frustum= CSA of bigger cone - CSA of smaller cone= \\(\\pi \\times R \\times (P+x) - \\pi \\times r \\times P\\)</div><div>Now to find the value of P we can use similarity of triangles</div><div>Taking a section of the extended cone we see smaller cone is similar to the bigger cone</div><div>therefore, \\(\\frac P{P+x} =\\frac rR\\)</div><div>\\(\\Rightarrow R\\times P=(P+x)\\times r \\Rightarrow P= \\frac {xr}{R-r}\\)</div><div>\\(\\Rightarrow P=_{{trunc(Decimal(j)*l/(k-j),2)}}_\\)</div><div>now CSA of the frustrum =\\(\\pi \\times [_{k}_\\times (_{{trunc(Decimal(j)*l/(k-j),2)}}_+_{l}_)-_{j}_ \\times (_{{trunc(Decimal(j)*l/(k-j),2)}}_)]\\) </div><div>\\(\\Rightarrow _{{trunc(pi_val*(k*(j*l/(k-j)+l)-j*j*l/(k-j)),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the curved surface area of a frustum of a cone.</div><div>The slant height of the cone(not the frustrum) is x=_{l}_ cm</div><div>The diameters of the circular faces are _{{2*j}}_ and _{{2*k}}_</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            22, 
+            41
+          ]
+        ]
+      }
+    }, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*((k+1)*(j*l/(k-j)+l)-j*j*l/(k-j)),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*(k*(j*l/(k-j)+l)-j*l/(k-j)),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal('3.1')*(k*(j*l/(k-j)+l)-j*l/(k-j)),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*(k*(j*l/(k-j)+l)-j*j*l/(k-j)),2)}}_"
+    }
+  }
+}

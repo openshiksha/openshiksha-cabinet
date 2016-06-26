@@ -1,0 +1,80 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the angles be \\(_{j}_x\\), \\(_{k}_x\\), \\(_{l}_x\\) and \\(_{m}_x\\).</div><div>The sums of all the interior angles in a quadrilateral is \\(360^\\circ\\).</div><div>Therefore, \\(_{j}_x + _{k}_x + _{l}_x + _{m}_x = 360^\\circ\\)</div><div>\\(\\Rightarrow _{{j+k+l+m}}_x=360^\\circ\\)</div><div>\\(\\Rightarrow x=\\frac{360}{_{{j+k+l+m}}_}=_{{Fraction(360,j+k+l+m)}}_\\)</div><div>Therfore, the angles are:</div><div>\\(_{j}_x=_{{(360*j)/(j+k+l+m)}}_^\\circ\\)</div><div>\\(_{k}_x=_{{(360*k)/(j+k+l+m)}}_^\\circ\\)</div><div>\\(_{l}_x=_{{(360*l)/(j+k+l+m)}}_^\\circ\\)</div><div>\\(_{m}_x=_{{(360*m)/(j+k+l+m)}}_^\\circ\\)</div>"
+  }, 
+  "content": {
+    "text": "Angles of a quadrilateral are in the ratio \\(_{j}_:_{k}_:_{l}_:_{m}_\\). Find their values."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        3, 
+        4, 
+        3, 
+        3, 
+        2, 
+        5, 
+        3, 
+        2, 
+        4
+      ]
+    }, 
+    "j": {
+      "options": [
+        5, 
+        3, 
+        6, 
+        1, 
+        3, 
+        3, 
+        1, 
+        1, 
+        1
+      ]
+    }, 
+    "m": {
+      "options": [
+        11, 
+        10, 
+        11, 
+        9, 
+        10, 
+        9, 
+        8, 
+        12, 
+        10
+      ]
+    }, 
+    "l": {
+      "options": [
+        11, 
+        7, 
+        10, 
+        11, 
+        9, 
+        7, 
+        8, 
+        9, 
+        9
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{(360*j)/(j+k+l+m)}}_^\\circ, _{{(360*k)/(j+k+l+m)}}_^\\circ, _{{(360*l)/(j+k+l+m)}}_^\\circ, _{{(360*k)/(j+k+l+m)}}_^\\circ\\)"
+      }, 
+      {
+        "text": "\\(_{{(360*j)/(j+k+l+m)}}_^\\circ, _{{(360*j)/(j+k+l+m)}}_^\\circ, _{{(360*l)/(j+k+l+m)}}_^\\circ, _{{(360*m)/(j+k+l+m)}}_^\\circ\\)"
+      }, 
+      {
+        "text": "None of these"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{(360*j)/(j+k+l+m)}}_^\\circ, _{{(360*k)/(j+k+l+m)}}_^\\circ, _{{(360*l)/(j+k+l+m)}}_^\\circ, _{{(360*m)/(j+k+l+m)}}_^\\circ\\)"
+    }
+  }
+}

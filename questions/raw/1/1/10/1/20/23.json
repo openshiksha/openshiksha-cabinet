@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Firstly we need to draw the figure that will be formed by the revolution of a right angle triangle about its hypotenuse</div><div>We can see two cones , let us say that name the sides as shown in the figure.</div><div>From the right angle triangle(PQR) we calculate the value \\(PR=\\sqrt {pq^2+QR^2}= \\sqrt {_{{3*j}}_^2+_{{4*j}}_^2}=_{{5*j}}_\\)</div><div>So, sin \\(\\theta =\\frac {QR}{PR} \\) , cos \\(\\theta = \\frac {PQ}{PR} \\)</div><div>sin \\(\\theta =\\frac {_{{3*j}}_}{_{{5*j}}_}=\\frac 35\\)</div><div>cos \\(\\theta =\\frac {_{{4*j}}_}{_{{5*j}}_}=\\frac 45\\)</div><div>Now on revolving the triangle we can see that the \\(r_1=r_2=PQ\\,sin\\theta \\)</div><div>\\(\\Rightarrow PQ\\,sin\\theta = _{{4*j}}_\\times \\frac 35=\\frac {_{{12*j}}_}5\\)</div><div>Now, \\(h_1=PQ cos\\theta = _{{4*j}}_\\times \\frac 45=\\frac {_{{16*j}}_}5\\)</div><div>and \\(h_2=QR \\,cos (90-\\theta) =QR\\, sin\\theta = _{{3*j}}_\\times \\frac 35=\\frac {_{{9*j}}_}5\\)</div><div>Now we have ,\\(r_1=r_2=\\frac {_{{12*j}}_}5,\\,h_1=\\frac {_{{16*j}}_}5,\\,h_2=\\frac {_{{9*j}}_}5\\)</div><div>volume of the cones= \\( \\frac 13 \\times \\pi \\times r_1^2 \\times (h_1+h_2)\\)</div><div>on putting the values we get, </div><div>\\(\\Rightarrow _{{trunc(pi_val*12*j*j*12*j/15,2)}}_\\)</div>", 
+    "img": "23.png"
+  }, 
+  "content": {
+    "text": "<div>A right-angled triangle, whose sides are _{{3*j}}_ cm and _{{4*j}}_ cm (other than hypotenuse) is made to revolve about its hypotenuse.</div> <div>Find the volume of the double cone so formed.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 1, 
+    "value": "_{{trunc(pi_val*12*j*j*12*j/15,2)}}_"
+  }, 
+  "type": 3
+}

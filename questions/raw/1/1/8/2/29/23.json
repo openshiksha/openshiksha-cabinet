@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "The moon completes ____ rotation on its axis as it completes ____ revolution around the Earth."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "two , one"
+      }, 
+      {
+        "text": "one , two"
+      }, 
+      {
+        "text": "three , one"
+      }
+    ], 
+    "correct": {
+      "text": "one , one"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

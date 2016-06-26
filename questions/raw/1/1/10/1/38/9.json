@@ -1,0 +1,55 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Days after Ajay will visit India = _{{(pow(2,i))*(pow(5,j))*(pow(7,k))}}_</div><div>And,</div><div>Days after Gaurav will visit India = _{{(pow(2,(i+2)))*(pow(3,k))*(pow(5,(j+2)))}}_</div><div>To find out the number of days after, they will meet.We need to find the LCM of the days, after which they can visit India.</div><div>So, first factorizing both numbers as follows:</div><div>Ajay = \\(2^{_{i}_}\\times 5^{_{j}_}\\times 7^{_{k}_}\\)</div><div>Gaurav = \\(2^{_{{i+2}}_}\\times 3^{_{k}_}\\times 5^{_{{j+2}}_}\\)</div><div>Therefore,</div><div> LCM = \\(2^{_{{i+2}}_}\\times 3^{_{k}_}\\times 5^{_{{j+2}}_}\\times 7^{_{k}_}\\)</div><div> LCM = _{{(pow(2,(i+2)))*(pow(3,k))*(pow(5,(j+2)))*(pow(7,k))}}_</div><div>Hence they will meet again after _{{(pow(2,(i+2)))*(pow(3,k))*(pow(5,(j+2)))*(pow(7,k))}}_ days</div>"
+  }, 
+  "content": {
+    "text": "<div>Two friends Ajay and Gaurav are going abroad for studies. Ajay is going to Canada and Gaurav is going to Germany.According to their academic program Ajay can visit India after every _{{(pow(2,i))*(pow(5,j))*(pow(7,k))}}_ days and for Gaurav it is _{{(pow(2,(i+2)))*(pow(3,k))*(pow(5,(j+2)))}}_ days. They both left India on the same day.After how many days will they meet again in India? </div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            1, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1, 
+            3
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(pow(2,(i+2)))*(pow(3,k))*(pow(5,(j+2)))*(pow(7,k))}}_"
+  }, 
+  "type": 3
+}

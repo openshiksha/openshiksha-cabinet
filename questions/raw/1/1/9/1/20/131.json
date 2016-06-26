@@ -1,0 +1,38 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Diameter of cricket ball,\\(r=\\frac1{_{j}_} \\times\\) diameter of the large sphere,\\(R\\).</div><div>\\(\\Rightarrow R=_{j}_r\\)</div><div>Surface area of cricket ball\\(=4\\pi r^2\\)</div><div>Surface area of the large sphere\\(=4\\pi R^2\\)</div><div>\\(=4\\pi (_{j}_r)^2\\)</div><div>\\(=_{{4*j**2}}_\\pi r^2\\)</div>Ratio of the surface area of the cricket ball to that of the sphere\\(=\\frac{4\\pi r^2}{_{{4*j**2}}_\\pi r^2}=\\frac1{_{{j**2}}_}\\)"
+  }, 
+  "content": {
+    "text": "The diameter of a cricket ball is approximately \\(\\frac1{_{j}_}\\) the diameter of a large sphere. Find the ratio of their surface areas."
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac1{_{{(j+1)**2}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac1{_{{(j-1)**2}}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac1{_{{(j+2)**2}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac1{_{{j**2}}_}\\)"
+    }
+  }
+}

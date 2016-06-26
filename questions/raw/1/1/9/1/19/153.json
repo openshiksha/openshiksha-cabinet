@@ -1,0 +1,58 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\((\\sqrt{_{j}_} - \\sqrt{_{k}_})^2\\)</div><div>\\(=(\\sqrt{_{j}_})^2+(\\sqrt{_{k}_})^2-2 \\times \\sqrt{_{j}_}\\sqrt{_{k}_}\\)</div><div>\\(=_{j}_+_{k}_-2 \\sqrt{_{{j*k}}_}\\)</div><div>\\(=_{{j+k}}_-2 \\sqrt{_{{j*k}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((\\sqrt{_{j}_} - \\sqrt{_{k}_})^2\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "exclude": [
+          [
+            16
+          ]
+        ], 
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "exclude": [
+          [
+            4
+          ]
+        ], 
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j+k}}_+2 \\sqrt{_{{j*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j-k}}_-2 \\sqrt{_{{j*k}}_}\\)"
+      }, 
+      {
+        "text": "\\(_{{j+k}}_-\\sqrt{_{{2*j*k}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j+k}}_-2 \\sqrt{_{{j*k}}_}\\)"
+    }
+  }
+}

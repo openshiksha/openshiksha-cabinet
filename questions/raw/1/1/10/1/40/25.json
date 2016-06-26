@@ -1,0 +1,50 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Check if given sides satisfy Pythagoras Theorem</div><div>Square all the side and check whether sum of the square two side is equal to square of third side or not</div><div>Foe example</div><div> _{{3*i}}_, _{{5*i}}_, _{{4*i}}_ :</div><div> \\(_{{3*i}}_^2, _{{5*i}}_^2,  _{{4*i}}_^2\\)</div><div>_{{pow((3*i),2)}}_ , _{{pow((5*i),2)}}_ , _{{pow((4*i),2)}}_</div><div>Now, we can see that in this case, sum of two is equal to third.</div><div>i.e., _{{pow((4*i),2)}}_ + _{{pow((3*i),2)}}_ = _{{pow((5*i),2)}}_</div><div>Similarly check others</div>"
+  }, 
+  "content": {
+    "text": "<div>Sides of triangles are given below. Determine which of them are right angle triangle</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            1, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            13
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*i}}_, _{{4*j}}_, _{{8*i}}_"
+      }, 
+      {
+        "text": "_{{4*i}}_, _{{2*j}}_, _{{6*j}}_"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "_{{3*i}}_, _{{5*i}}_, _{{4*i}}_"
+      }, 
+      {
+        "text": "_{{12*j}}_, _{{13*j}}_, _{{5*j}}_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>If p(x) is a polynomial in x, the highest power of x in p(x) is called the degree of the polynomial p(x)</div><div>Just by looking at the expression \\(_{j}_x^{_{{l-1}}_}+x^{_{l}_}+_{k}_\\) , the highest power is _{l}_</div> <div>Therefore we can say the polynomial is of degree _{l}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the degree of the given polynomial :\\(f(x)=_{j}_x^{_{{l-1}}_}+x^{_{l}_}+_{k}_\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{l}_"
+  }, 
+  "type": 3
+}

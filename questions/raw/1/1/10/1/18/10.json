@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>let the equation be of the form \\(ax^3+bx^2+cx+d\\)</div><div>we have been given \\( \\alpha + \\beta +\\gamma = _{{j+k+l}}_=\\frac {-b}a\\) , \\(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha  = _{{j*k+k*l+l*j}}_=\\frac ca\\) and \\(\\alpha\\times \\beta\\times \\gamma=_{{j*k*l}}_=\\frac {-d}a\\)</div><div>Now if we take a=1, we can get a solution b=_{{-(j+k+l)}}_ , c=_{{j*k+k*l+l*j}}_ and d=_{{-(j*k*l)}}_</div><div>therefore the equation becomes \\(x^3-_{{j+k+l}}_x^2+_{{j*k+k*l+l*j}}_x-_{{j*k*l}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the cubic equation if sum of the zeros of a cubic equation _{{j+k+l}}_,</div> <div>product of the zeros taken two at a times is _{{j*k+k*l+l*j}}_ and product of the 3 roots is _{{j*k*l}}_</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^3-_{{j+k+l}}_x^2+_{{j*k*l}}_x-_{{j*k+k*l+l*j}}_\\)"
+      }, 
+      {
+        "text": "\\(2x^3-_{{j+k+l}}_x^2+_{{j*k*l}}_x-_{{j*k+k*l+l*j}}_\\)"
+      }, 
+      {
+        "text": "\\(2x^3-_{{j+k+l}}_x^2+_{{j*k+k*l+l*j}}_x-_{{j*k*l}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^3-_{{j+k+l}}_x^2+_{{j*k+k*l+l*j}}_x-_{{j*k*l}}_\\)"
+    }
+  }
+}

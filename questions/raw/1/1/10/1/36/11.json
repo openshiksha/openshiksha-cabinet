@@ -1,0 +1,28 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>As the circle circumscribes the hexagon, the sides of the hexagon are chords of the circle</div><div>If we consider the chord AB and join A and B to O we get a triangle</div><div>We know angle subtended by any side of a hexagon at it's centre is \\(60^\\circ\\)</div><div>Also, in \\(\\bigtriangleup\\)OAB , OA=OB=radius </div><div>\\(\\Rightarrow \\angle OAB=\\angle OBA \\,and\\, as \\angle AOB=60^\\circ\\)</div><div>\\(\\Rightarrow \\angle OAB=\\angle OBA=60^\\circ\\Rightarrow \\bigtriangleup AOB\\, is\\,an\\,equilateral\\,triangle \\)</div><div>\\(\\Rightarrow AB=OA=OB=radius=_{j}_\\)</div> <div>The area hanging off the table= 6\\(\\times \\)area of the segment formed by the chord AB</div><div>Area of the segment = area of the sector(ACB) - area of the \\(\\bigtriangleup \\) AOB </div><div>Now area of the sector =\\(\\pi \\times r^2 \\times \\frac {60}{360}\\)</div><div>Now area of the sector =\\(_{{trunc(pi_val*j*j*1/6,2)}}_\\)</div><div>To find the area of \\(\\bigtriangleup\\) AOB, we draw a perpendicular on OD</div><div>We know that OA=OB and \\(\\angle \\) ODB=\\(\\angle \\) ODA=\\(90^\\circ\\) so \\(\\bigtriangleup \\) AOD \\(\\cong \\) \\(\\bigtriangleup \\) BOD</div><div>\\(\\Rightarrow BD=AD=\\frac {AB}2=_{{Decimal('0.5')*j}}_\\)</div><div>In right angle triangle(AOD) we have cos\\(30^\\circ=\\frac {OD}r\\Rightarrow OD=_{{Decimal('0.866')*j}}_\\)</div><div>area of the \\(\\bigtriangleup OAD = \\frac 12 \\times AD \\times OD=_{{(Decimal('0.5')*j*Decimal('0.866')*j)}}_\\)</div><div>area of the segment _{{trunc(pi_val*j*j*1/6-(Decimal('0.5')*j*Decimal('0.866')*j),2)}}_</div><div>The area hanging off the table= 6\\(\\times \\)area of the segment= _{{trunc((pi_val*j*j*1/6-(Decimal('0.5')*j*Decimal('0.866')*j))*6,2)}}_</div>", 
+    "img": "11.1.png"
+  }, 
+  "content": {
+    "text": "<div>A table is in the shape of a hexagon as shown in the figure.</div><div>If it's table cloth is in the shape of a circle of radius _{j}_ cm that circumscribes the table.</div><div>Find the area of the cloth hanging off the table.</div>", 
+    "img": "11.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc((pi_val*j*j*1/6-(Decimal('0.5')*j*Decimal('0.866')*j))*6,2)}}_"
+  }, 
+  "type": 3
+}

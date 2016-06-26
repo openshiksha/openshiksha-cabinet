@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The zero of \\(x-_{m}_\\,\\) is \\(_{m}_\\)</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(_{m}_)=(_{j}_ \\times _{m}_^2) + (_{k}_ \\times _{m}_) - _{l}_\\)</div><div>\\(\\Rightarrow p(_{m}_)=_{{j*m*m}}_+_{{k*m}}_ - _{l}_\\)</div><div>\\(\\Rightarrow p(_{m}_)=_{{j*m*m+k*m - l}}_\\)</div><div>Therefore, the remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(_{{j*m*m+k*m - l}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(p(x) = _{j}_x^2 + _{k}_x - _{l}_; g(x) = x - _{m}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "value": "_{{j*m*m+k*m - l}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,62 @@
+{
+  "hint": {
+    "text": "<div>You may take \\(\\sqrt 3\\) = 1.732 </div>"
+  }, 
+  "solution": {
+    "text": "<div>In the given figure,we have to find the height H of the plane.</div><div>Speed of the plane V = _{l}_km/s.</div><div>Time gape T = _{j}_sec.</div><div>Firstly we need to find out the horizontal distance of the plane from Akshit</div><div> So,   Using trigonometry ratio </div><div>i.e.,  tan(A) = \\(H\\over L\\)</div><div>i.e.,  tan(_{k}_) = \\(H\\over L\\)</div><div>i.e.,  \\(H\\over L\\) = _{i}_ </div><div>i.e.,  L = \\(H\\over _{i}_\\)</div><div>Similarly, horizontal distance of plane after _{j}_ sec</div><div> tan(60) = \\(H\\over L2\\)</div><div>i.e.,  \\(H\\over L2\\) = 1.732 </div><div>i.e.,  L2 = \\(H\\over 1.732\\)</div><div>Now, </div><div>we know the speed (V) of plane so we can find out the distance L1 traveled by plane in _{j}_sec as : </div><div> L1 = V*_{j}_ km</div><div> L1 = _{l}_*_{j}_ km</div><div> L1 = _{{l*j}}_ km</div><div>From the figure : </div><div>       L1 = L - L2 </div><div>i.e.,  _{{l*j}}_=\\(H\\over _{i}_\\) - \\(H\\over 1.732\\)</div><div>i.e.,  H = \\((_{{l*j}}_*_{i}_*1.732)\\over (1.732- _{i}_)\\)</div><div> i.e., H = \\(_{{l*j*i*1.732}}_\\over _{{1.732-i}}_\\)</div><div>       H = _{{(l*j*i*1.732)/(1.732-i)}}_</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Akshit is sitting under a tree and watching a plane going from east to west.He spotted the plane when he was looking at an angle of _{k}_\\(^\\circ\\) from horizontal. He again spotted the same plane after _{j}_sec at an angle of 60\\(^\\circ\\).Find the height at which plane is flying.Speed of the plane is _{l}_km/sec.</div>", 
+    "img": "5.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "options": [
+        0.577, 
+        1
+      ]
+    }, 
+    "k": {
+      "options": [
+        30, 
+        45
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            35, 
+            55
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            1600, 
+            1800
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{(l*j*i*1.732)/(1.732-i)}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,39 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>area of unshaded part of the quadrant(QPO)=area(OQO'P)- area[sector(O'QP)]</div><div>area[sector(OQP)]=\\(\\frac 14 \\times \\pi \\times R^2\\)</div><div>area[sector(O'QP)]=_{{trunc(pi_val*j*j/4,2)}}_</div><div>area of the square(OQO'P)=\\(OP^2=r^2=_{j}_^2\\)</div><div>area of unshaded part of the quadrant(QPO)\\(=_{j}_^2-_{{trunc(pi_val*j*j/4,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(j*j-(pi_val*j*j)/4,2)}}_\\)</div><div>Similary area of unshaded part of the quadrant(QPO')=area(OQOP)- area[sector(OQP)]</div><div>\\(\\Rightarrow _{{trunc(j*j-pi_val*j*j/4,2)}}_\\)</div><div>Hence area in common(shaded area)= area (OQO'P)-total unshaded area in the quadrants</div><div>area in common(shaded area)=_{{j*j}}_ - _{{trunc(2*pi_val*j*j/4,2)}}_</div><div>\\(\\Rightarrow_{{trunc((2*pi_val*j*j/4)-j*j,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Quadrants of two circles overlap each other as shown in the figure.</div><div>If both the circles have equal radius, \\(r_1=r_2=_{j}_cm\\), find the area in common</div>", 
+    "img": "18.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            99
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(2*pi_val*j*j/4,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(j*j-2*j+2*pi_val*j*j/4,2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(j*j-2*j*j+2*pi_val*j*j,2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(j*j-2*j*j+2*pi_val*j*j/4,2)}}_"
+    }
+  }
+}

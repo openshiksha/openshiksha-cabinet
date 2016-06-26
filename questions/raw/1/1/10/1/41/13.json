@@ -1,0 +1,68 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given equations are : </div><div>x + _{j}_y = _{k}_ and _{i}_x - _{j}_y = _{l}_</div><div>Pick 1st equation and write y in terms of x as follows</div><div>i.e.,_{j}_y = _{k}_-x</div><div>i.e.,y = \\(_{k}_-x\\over _{j}_\\)</div><div>Now, Substitute the value of y in 2nd equation.</div><div>We get</div><div>_{i}_x - _{j}_(\\(_{k}_-x\\over _{j}_\\)) = _{l}_</div><div>_{i}_x - (_{k}_-x) = _{l}_</div><div>_{i}_x - _{k}_ + x = _{l}_</div><div>_{{i+1}}_x = _{l}_+_{k}_</div><div>_{{i+1}}_x = _{{l+k}}_</div><div>x = \\(_{{l+k}}_\\over _{{i+1}}_\\)</div><div>Substituting this value of x in equation of y in terms of x</div><div>We get</div><div>y = \\({_{k}_-{_{{l+k}}_\\over _{{i+1}}_}}\\over _{j}_\\)</div><div>y = \\({{_{k}_\\times _{{i+1}}_}-_{{l+k}}_}\\over {_{j}_\\times_{{i+1}}_}\\)</div><div>y = \\({_{{k*(i+1)}}_-_{{l+k}}_}\\over _{{j*(i+1)}}_\\)</div><div>y = \\({_{{k*(i+1)-(l+k)}}_}\\over _{{j*(i+1)}}_\\)</div><div>Therefore, x = \\(_{{l+k}}_\\over _{{i+1}}_\\) and y = \\({_{{k*(i+1)-(l+k)}}_}\\over _{{j*(i+1)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Solve the following equation by the substitution method. </div><div>x + _{j}_y = _{k}_ and _{i}_x - _{j}_y = _{l}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            15, 
+            35
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = \\(_{{l+k+3}}_\\over _{{i+1}}_\\) and y = \\({_{{k*(i+1)-(l+k)}}_}\\over _{{j*(i+1)}}_\\)"
+      }, 
+      {
+        "text": "x = \\(_{{l+k}}_\\over _{{i+1}}_\\) and y = \\({_{{k*(i+1)-(l+k)}}_}\\over _{{j*(i+1)*2}}_\\)"
+      }, 
+      {
+        "text": "x = \\(_{{l+k}}_\\over _{{i-1}}_\\) and y = \\({_{{k*(i+2)-(l+k)}}_}\\over _{{j*(i-1)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "x = \\(_{{l+k}}_\\over _{{i+1}}_\\) and y = \\({_{{k*(i+1)-(l+k)}}_}\\over _{{j*(i+1)}}_\\)"
+    }
+  }
+}

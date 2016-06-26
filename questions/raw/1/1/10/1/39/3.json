@@ -1,0 +1,69 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given points are : P=(_{i}_,_{j}_), Q=(_{i}_,_{{j+l}}_) and R(_{{i+k}}_,_{j}_).</div><div>Apply distance formula between P and R  :</div><div>i.e., Distance  = \\(\\sqrt {(x_1-x_2)^2 + (y_1-y_2)^2}\\)</div><div>Where, \\(x_1 = _{{i+k}}_ , x_2 = _{i}_ , y_1 = _{j}_ , y_2 = _{j}_\\)</div><div>Substituting the values in distance formula to find the distance between given points.</div><div>i.e., Distance = PR = \\(\\sqrt {(_{{i+k}}_-_{i}_)^2 + (_{j}_-_{j}_)^2}\\)</div><div>i.e., PR = \\(\\sqrt {(_{k}_)^2}\\)</div><div>i.e., PR = \\(\\sqrt {_{{pow(k,2)}}_}\\)</div><div>i.e., PR = _{k}_ </div><div>Now, Distance between P and Q:</div> <div>i.e., Distance = PQ = \\(\\sqrt {(_{i}_-_{i}_)^2 + (_{{j+l}}_-_{j}_)^2}\\)</div><div>i.e., PQ = \\(\\sqrt {(_{l}_)^2}\\)</div><div>i.e., PQ = \\(\\sqrt {_{{pow(l,2)}}_}\\)</div><div>i.e., PQ = _{l}_ </div><div>Finally, find the distance between QR:</div><div>i.e., Distance = QR = \\(\\sqrt {(_{{i+k}}_-_{i}_)^2 + (_{j}_-_{{j+l}}_)^2}\\)</div><div>i.e., QR = \\(\\sqrt {(_{k}_)^2 + (-_{l}_)^2}\\)</div><div>i.e., QR = \\(\\sqrt {_{{pow(k,2)}}_ + _{{pow((l),2)}}_}\\)</div><div>i.e., QR = \\(\\sqrt {_{{pow(k,2) + pow((l),2)}}_}\\)</div><div>i.e., QR = _{m}_ </div><div>Here, \\(PQ^2 + PR^2 = QR^2\\)</div><div>So,  by the converse of Pythagoras theorem, we have \\(\\angle P = 90^\\circ\\). Therefore, PQR is a right triangle.</div>"
+  }, 
+  "content": {
+    "text": "<div>Comment on the triangle formed by the following points :</div><div> (_{i}_,_{j}_), (_{i}_,_{{j+l}}_) and (_{{i+k}}_,_{j}_).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            10, 
+            28
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        3, 
+        8, 
+        5
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            28
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "options": [
+        5, 
+        10, 
+        13
+      ]
+    }, 
+    "l": {
+      "options": [
+        4, 
+        6, 
+        12
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Equilateral Triangle"
+      }, 
+      {
+        "text": "Isosceles Triangle"
+      }, 
+      {
+        "text": "Scalene Triangle"
+      }
+    ], 
+    "correct": {
+      "text": "Right-angled Triangle"
+    }
+  }
+}

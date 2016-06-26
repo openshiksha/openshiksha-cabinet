@@ -1,0 +1,56 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given points are : (_{i}_,_{j}_) and (_{{i+k}}_,_{{j+l}}_).</div><div>Apply distance formula :</div><div>i.e., Distance = \\(\\sqrt {(x_1-x_2)^2 + (y_1-y_2)^2}\\)</div><div>Where, \\(x_1 = _{{i+k}}_ , x_2 = _{i}_ , y_1 = _{{j+l}}_ , y_2 = _{j}_\\)</div><div>Substituting the values in distance formula to find the distance between given points.</div><div>i.e., Distance = \\(\\sqrt {(_{{i+k}}_-_{i}_)^2 + (_{{j+l}}_-_{j}_)^2}\\)</div><div>i.e., Distance = \\(\\sqrt {(_{k}_)^2 + (_{l}_)^2}\\)</div><div>i.e., Distance = \\(\\sqrt {_{{pow(k,2)}}_ + _{{pow(l,2)}}_}\\)</div><div>i.e., Distance = \\(\\sqrt {_{{pow(k,2) + pow(l,2)}}_}\\)</div><div>i.e., Distance = _{m}_</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the distance between following points: (_{i}_,_{j}_) and (_{{i+k}}_,_{{j+l}}_).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            10, 
+            28
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        3, 
+        8, 
+        5
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            28
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "options": [
+        5, 
+        10, 
+        13
+      ]
+    }, 
+    "l": {
+      "options": [
+        4, 
+        6, 
+        12
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{m}_"
+  }, 
+  "type": 3
+}

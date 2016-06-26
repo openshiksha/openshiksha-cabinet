@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>First we draw the figure as per the data given in the problem</div><div>If two tangents to a circle are parallel then the distance between the two will be equal to the diameter of the circle</div><div>It is given that the tangent AB is perpendicular to PQ and cuts XY and PQ at M and N</div><div>therefore, MN=distance between XY and PQ</div><div>\\(MN=2r=_{{2*j*k}}_\\)</div>", 
+    "img": "12.png"
+  }, 
+  "content": {
+    "text": "<div>Tangents(XY and PQ) to a circle of radius=_{{j*k}}_  are parallel to each other</div><div>another tangent AB with point of contact C is  perpendicular to PQ. </div><div>If AB intersects XY at M and PQ at N, find the length of the line segment MN</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j*2*k}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,32 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Caterpillar is the common name for Larva."
+  }, 
+  "content": {
+    "text": "<div>Arrange the metamorphosis of the following species in ascending order from their young ones to adults.</div><div>(i) Silkworm</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Egg - Larva - Pupa - Caterpillar - Silkworm"
+      }, 
+      {
+        "text": "Larva - Egg - Pupa - Silkworm"
+      }, 
+      {
+        "text": "Pupa - Egg - Larva - Silkworm"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Egg - Larva - Pupa - Silkworm"
+      }, 
+      {
+        "text": "Egg - Caterpillar - Pupa - Silkworm"
+      }
+    ]
+  }
+}

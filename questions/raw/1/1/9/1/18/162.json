@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\((_{j}_x-_{k}_y)^3\\)</div><div>Comparing with the expression \\((a+b)^3\\), \\(a=_{j}_x,\\,b=_{k}_y;\\)</div><div>\\(=(_{j}_x)^3-(_{k}_y)^3-3(_{j}_x)(_{k}_y)(_{j}_x-_{k}_y)\\)</div><div>\\(=_{{j**3}}_x^3-_{{k**3}}_y^3-_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((_{j}_x-_{k}_y)^3\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{j**3}}_x^3+_{{k**3}}_y^3-_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)"
+      }, 
+      {
+        "text": "\\(_{{j**3}}_x^3-_{{k**3}}_y^3+_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)"
+      }, 
+      {
+        "text": "\\(_{{j**3}}_x^3+_{{k**3}}_y^3+_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{j**3}}_x^3-_{{k**3}}_y^3-_{{3*j*j*k}}_x^2y+_{{3*j*k*k}}_xy^2\\)"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>As DG is parallel to BF \\(\\Rightarrow \\frac {AD}{DB}=\\frac {AG}{GF}=\\frac {_{j}_}{_{k}_}\\)</div><div>Similarly GE is parallel to FC \\(\\Rightarrow \\frac {AE}{EC}=\\frac {AG}{GF}=\\frac {_{j}_}{_{k}_}\\)</div><div>using the above two equations we get \\(\\frac {AD}{DB}= \\frac {AE}{EC}=\\frac {_{j}_}{_{k}_}\\)</div><div>by adding 1 on both sides we get, \\(\\frac {AE}{EC}+1=\\frac {_{j}_}{_{k}_}+1\\)</div><div>\\(\\Rightarrow \\frac {EC+AE}{EC}=\\frac {_{{k+j}}_}{_{k}_}=\\frac {AC}{EC}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure, find the ratio \\(\\frac {AC}{EC}\\).</div><div>given that \\(\\frac {AG}{GF}=\\frac {_{j}_}{_{k}_}\\) and DG is parallel to BF and GE is parallel to FC.</div>", 
+    "img": "8.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac {_{{1+j}}_}{_{k}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{k+1+j}}_}{_{k}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac {_{{k+j}}_}{_{{k+1}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac {_{{k+j}}_}{_{k}_}\\)"
+    }
+  }
+}

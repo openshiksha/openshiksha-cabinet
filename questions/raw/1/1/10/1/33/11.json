@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>It is given that the quadrilateral circumscribe the circle</div><div>therefore we can also say that from point X,Y,Z,A tangents are drawn to the circle</div><div>So for tangent from Z we have ZS=ZP</div><div>So for tangent from Y we have YS=YR</div><div>So for tangent from X we have XQ=XR</div><div>So for tangent from A we have AQ=AP</div><div>Adding all the above, ZS+YS+XQ+AQ=ZP+YR+XR+AP</div><div>On rearranging, ZS+YS+XQ+AQ=ZP+AP+YR+XR</div><div>ZY+AX=AZ+XY</div><div>We have perimeter of quadrilateral XYZA= ZY+AX+AZ+XY=_{{36*j}}_</div><div>2*(ZY+AX)=_{{36*j}}_</div><div>ZY+AX=_{{18*j}}_</div><div>\\(\\Rightarrow ZS+YS+XQ+AQ=_{{18*j}}_\\)</div><div>\\(\\Rightarrow ZP+YS+XR+AP=_{{18*j}}_\\)</div><div>\\(\\Rightarrow _{{j*6}}_+_{{4*j}}_+_{{j*5}}_+AP=_{{18*j}}_\\)</div><div>\\(\\Rightarrow AP=_{{j*18}}_-_{{j*15}}_\\)</div><div>\\(\\Rightarrow _{{j*3}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>A quadrilateral XYZA circumscribes a circle as shown in the figure</div><div>If length of RX=_{{5*j}}_, YS=_{{4*j}}_, ZP=_{{j*6}}_ and perimeter of the quadrilateral is _{{36*j}}_</div><div>From the values listed below, choose the correct length of segment AP</div>", 
+    "img": "11.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{4*j}}_"
+      }, 
+      {
+        "text": "_{{5*j}}_"
+      }, 
+      {
+        "text": "_{{6*j}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{3*j}}_"
+    }
+  }
+}

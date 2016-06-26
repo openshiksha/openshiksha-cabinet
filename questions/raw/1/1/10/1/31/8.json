@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(1\\over \\sqrt3\\)=tan(30) and \\(\\sqrt 3\\over 2\\)=sin(60)</div><div>sin(_{j}_A+_{{4*k}}_B)=sin(60) and tan(_{j}_A-_{{4*k}}_B)=tan(30)</div><div>_{j}_A+_{{4*k}}_B=60 and _{j}_A-_{{4*k}}_B=30</div><div>adding the above 2 equations we get _{{2*j}}_A=90</div><div>hence, A=\\(90\\over _{{2*j}}_\\)=_{{90/(2*j)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>sin(_{j}_A+_{{4*k}}_B)=\\(\\sqrt 3\\over 2\\) and tan(_{j}_A-_{{4*k}}_B)=\\(1\\over \\sqrt3\\)</div><div>Given that 0&lt;_{j}_A+_{{4*k}}_B&lt;90 and _{j}_A&gt;_{{4*k}}_B find the value of A</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "options": [
+        1, 
+        3
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{90/(2*j)}}_"
+  }, 
+  "type": 3
+}

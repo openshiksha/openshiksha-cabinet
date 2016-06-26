@@ -1,0 +1,21 @@
+{
+  "content": {
+    "text": "<div>Select the appropriate pattern for the constellations mentioned below.</div><div>Ursa Major ?</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "img": "93.png"
+      }, 
+      {
+        "img": "94.png"
+      }
+    ], 
+    "correct": {
+      "img": "92.png"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

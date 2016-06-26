@@ -1,0 +1,39 @@
+{
+  "hint": {
+    "text": "Distance=Speed*time"
+  }, 
+  "solution": {
+    "text": "<div>Distance covered by the car\\(=speed\\times time\\)</div><div>Distance\\(=_{j}_\\times _{k}_ \\,km\\,=_{{j*k}}_\\times 1000\\, metres\\)</div><div>Perimeter of the wheel is\\(=\\pi \\times D=\\frac {22}7 \\times _{{Decimal('0.1')*j}}_=_{{trunc(pi_val*Decimal('0.1')*j,2)}}_\\)metres </div><div>\\(Distance=revolution\\times perimeter\\)</div><div>\\(\\Rightarrow revolutions=\\frac {_{{j*k*1000}}_}{_{{trunc(pi_val*Decimal('0.1')*j,2)}}_}\\)</div><div>Revolutions=\\(_{{trunc((j*k*1000)/(pi_val*Decimal('0.1')*j),2)}}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>If the average speed of a car is _{j}_ km/hour.</div><div>Find the revolution made by each wheel of the car in _{k}_hours</div><div>(Diameter of the wheel=_{{Decimal('0.1')*j}}_metres)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(1000*(j*k+2)/(pi_val*Decimal('0.1')*j),2)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(1000*(j*k-2)/(pi_val*Decimal('0.1')*j),2)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc((j*k*1000)/(pi_val*Decimal('0.1')*j),2)}}_\\)"
+    }
+  }
+}

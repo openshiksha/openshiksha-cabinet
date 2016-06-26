@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Radius of sphere\\(=_{j}_\\)cm</div><div>Curved surface area of a sphere\\(=4\\pi r^2\\)</div><div>\\(=4\\pi \\times _{j}_^2\\)</div><div>\\(=_{{trunc((4*pi_val*j*j),3)}}_cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "The surface area of a sphere of radius \\(_{j}_\\)cm."
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc((4*pi_val*j*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

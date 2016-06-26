@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "Find the radius."
+  }, 
+  "solution": {
+    "text": "<div>Diameter of tennis ball \\(=d_T\\)</div><div>\\(\\Rightarrow\\)Radius of tennis ball \\(=r_T\\)</div><div>Diameter of basketball \\(=d_B\\)</div><div>\\(\\Rightarrow\\)Radius of basketball \\(=r_B\\)</div><div>It is given that, \\(d_T=\\frac13 d_B\\)</div><div>\\(\\Rightarrow 2r_T=\\frac13 \\times 2r_B\\)</div><div>\\(\\Rightarrow r_T=\\frac13 r_B\\)</div><div>Volume of tennis ball\\(=\\frac43 \\pi r_T^3\\)</div><div>Volume of basketball\\(=\\frac43 \\pi r_B^3\\)</div><div>\\(\\Rightarrow \\frac{Volume\\,of\\,tennis\\,ball}{Volume\\,of\\,basketball}=\\frac{\\frac43 \\pi r_T^3}{\\frac43 \\pi r_B^3}\\)</div><div>\\(=\\frac{r_T^3}{r_B^3}=\\left(\\frac{r_T}{r_B}\\right)^3=\\left(\\frac13\\right)^3=\\frac1{27}\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "The diameter of a tennis ball is one-third the diameter of a basketball. What fraction of the volume of the basketball is the volume of the tennis ball?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(27\\)"
+      }, 
+      {
+        "text": "\\(3\\)"
+      }, 
+      {
+        "text": "\\(\\frac13\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac1{27}\\)"
+    }
+  }
+}

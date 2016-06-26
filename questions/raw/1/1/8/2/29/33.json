@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "<div>The stars appear to move from east to west because the Earth rotates from west to east.</div><div>Can you guess why the Sun rises in the east and sets in the west?</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "The Earth rotates from east to west with respect to the Sun"
+      }, 
+      {
+        "text": "The Earth is stationary with respect to the Sun"
+      }, 
+      {
+        "text": "The Sun is stationary with respect to the Earth"
+      }
+    ], 
+    "correct": {
+      "text": "The Earth rotates from west to east on its axis"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 2, 
+  "variable_constraints": {}
+}

@@ -1,0 +1,30 @@
+{
+  "hint": {
+    "text": "Remember that \\(\\Delta G = \\Delta H - T\\Delta S\\)."
+  }, 
+  "solution": {
+    "text": "\\(\\Delta G = \\Delta H - T\\Delta S\\)<br>When \\(\\Delta G \\lt 0 \\implies \\) reaction is spontaneous.<br>Therefore, \\(\\Delta H - T\\Delta S \\lt 0\\)<br>\\(\\implies \\Delta H \\lt T\\Delta S\\)"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "A reaction has a positive \\(\\Delta S\\) as well as a positive \\(\\Delta H\\). Under what conditions can it still be spontaneous?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(T\\Delta S \\lt \\Delta H\\)"
+      }, 
+      {
+        "text": "\\(\\Delta G \\gt 0\\)"
+      }, 
+      {
+        "text": "\\(\\Delta S_ {surr} \\gt 0\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\Delta H \\lt T\\Delta S\\)"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(\\sqrt {_{{j**2}}_}\\)</div><div>\\(=_{j}_\\)</div><div>\\(_{j}_\\) belongs to the integer set. Therefore, \\(\\sqrt {_{{j**2}}_}\\) is a rational number.</div>"
+  }, 
+  "content": {
+    "text": "\\(\\sqrt {_{{j**2}}_}\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Irrational"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Rational"
+    }
+  }
+}

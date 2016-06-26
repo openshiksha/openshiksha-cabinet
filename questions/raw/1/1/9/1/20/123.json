@@ -1,0 +1,18 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Diameter of hemisphere\\(=_{j}_\\)cm\\(\\Rightarrow\\)Radius,r\\(=_{{j/Decimal(2)}}_\\)cm</div><div>Total surface area of a hemisphere\\(=3\\pi r^2\\)</div><div>\\(=3\\pi \\times _{{j/Decimal(2)}}_^2\\)</div><div>\\(=_{{trunc(((3/Decimal(4))*pi_val*j*j),3)}}_cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "The total surface area of a hemisphere of diameter \\(_{j}_\\)cm."
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc(((3/Decimal(4))*pi_val*j*j),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

@@ -1,0 +1,32 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Wood, piece of leather and sheet of paper are not smoothly polished.</div><div>Therefore, the incident rays will be reflected in different directions.</div>"
+  }, 
+  "content": {
+    "text": "Some examples of a regular surface are :"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Wood"
+      }, 
+      {
+        "text": "Piece of leather"
+      }, 
+      {
+        "text": "Sheet of paper"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Plain mirror"
+      }, 
+      {
+        "text": "Stainless steel sheet"
+      }
+    ]
+  }
+}

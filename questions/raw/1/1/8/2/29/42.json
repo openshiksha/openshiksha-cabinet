@@ -1,0 +1,50 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>A very large distance cannot always be expressed in the form of kilometers.</div><div>They're expressed in the form of light years.</div><div>One light year is the distance travelled by light in one year.</div><div>Remember that the speed of light is \\(3 \\times 10^5 \\frac{km}{s}\\) </div><div>Therefore, \\(1\\) light year \\(=3 \\times 10^5 \\times 1 \\,year \\qquad\\) [Distance\\(=\\)Speed\\(\\times\\)Time]</div><div>\\(=3 \\times 10^5 \\times 365 \\times 24 \\times 60 \\times 60 \\qquad\\)[Converting 1 year to seconds]</div><div>\\(=9.46 \\times 10^{12}\\) kilometers</div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "<div>Very large distances between two celestial objects is expressed is another unit known as 'light year.'</div><div>One light year is equivalent to :</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            4, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            4, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(3 \\times 10^{8}\\) kilometers"
+      }, 
+      {
+        "text": "\\(3 \\times 10^{5}\\) kilometers"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "The distance travelled by light in one year"
+      }, 
+      {
+        "text": "\\(9.46 \\times 10^{12}\\) kilometers"
+      }
+    ]
+  }
+}

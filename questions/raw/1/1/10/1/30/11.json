@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(a_n=a_1+(n-1)*d\\)</div><div>\\(_{{j+(l-1)*k}}_=a_1+_{{l-1}}_*d\\)</div><div>\\(_{{j+(l+4)*k}}_=a_1+_{{l+4}}_*d\\)</div><div>solving the pair of linear equations with \\(a_1\\) and \\(d\\)as variables we get </div><div>\\(a_1=_{j}_,d=_{k}_\\)</div><div>Once we have the first term and the common difference we can fiqure out the complete AP</div><div>Therefore,</div><div>2nd term = \\(a_1+d\\) = _{j}_+_{k}_ = _{{j+k}}_"
+  }, 
+  "content": {
+    "text": "<div>What is the 2nd term in the AP whose _{l}_th and _{{l+5}}_th terms are _{{j+(l-1)*k}}_ and _{{j+(l+4)*k}}_  respectively</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            4, 
+            24
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j+k}}_"
+  }, 
+  "type": 3
+}

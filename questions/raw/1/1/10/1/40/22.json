@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Lets draw a square ABCD, then draw an equilateral triangle (\\(\\Delta ABP\\)) on side AB as shown in figure,</div><div>Now, join A to C and draw an equilateral triangle (\\(\\Delta ACQ\\)) on AC</div><div>Let, sides of the square be x units</div><div>i.e., AB = BC = CD = DA = x</div><div>Then,</div><div>AC = \\(\\sqrt 2\\)x</div><div>Given that:</div><div>Area of \\(\\Delta ABP\\) = _{i}_ sq.units,</div><div>Since, \\(\\Delta ABP\\) and \\(\\Delta ACQ\\), both are equilateral triangle, thus they are similar triangles as we studied in previous exercises.</div><div>Therefore,</div><div>By Theorem 6.6, we have,</div><div>\\(Area(\\Delta ABP)\\over Area(\\Delta ACQ)\\) = \\(AB^2\\over AC^2\\)</div><div>i.e., \\(_{i}_\\over Area(\\Delta ACQ)\\) = \\(x^2\\over (\\sqrt2x)^2\\)</div><div>i.e., \\(_{i}_\\over Area(\\Delta ACQ)\\) = \\(x^2\\over 2x^2\\)</div><div>i.e., \\(_{i}_\\over Area(\\Delta ACQ)\\) = \\(1\\over 2\\)</div><div>i.e., \\(Area(\\Delta ACQ)\\) = _{{2*i}}_</div>", 
+    "img": "22.png"
+  }, 
+  "content": {
+    "text": "<div>If the area of an equilateral triangle described on one side of a square is _{i}_ sq.units,then find the area of an equilateral triangle described on one of its diagonal .</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            80
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{i}_"
+      }, 
+      {
+        "text": "_{{trunc(Decimal(i)/2,2)}}_"
+      }, 
+      {
+        "text": "_{{3*i}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{2*i}}_"
+    }
+  }
+}

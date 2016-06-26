@@ -1,0 +1,39 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>In the \\(\\bigtriangleup \\)PQR and \\(\\bigtriangleup \\)SQP</div><div>we have, \\(\\angle \\)PQR=\\(\\angle \\) SQP [common]</div><div>and \\(\\frac {PQ}{RQ}=\\frac {QS}{QP}\\Rightarrow \\frac {_{{2*j}}_}{_{j}_}=\\frac {_{{4*j}}_}{_{{2*j}}_}=\\frac 21\\)</div><div>Therefore by SAS criteria ,\\(\\bigtriangleup \\)PQR ~ \\(\\bigtriangleup \\)SQP</div><div>\\(\\Rightarrow \\frac {RP}{PS}=\\frac {RQ}{PQ}=\\frac 12\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Two triangles are shown in the figure.</div><div>If it is given that QS=_{{4*j}}_ and QP=_{{2*j}}_ and QR=_{j}_</div><div>Find the value of \\(\\frac {RP}{PS}\\)</div>", 
+    "img": "14.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\frac 14\\)"
+      }, 
+      {
+        "text": "\\(\\frac 21\\)"
+      }, 
+      {
+        "text": "None of these"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac 12\\)"
+    }
+  }
+}

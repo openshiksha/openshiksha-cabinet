@@ -1,0 +1,46 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given</div><div>\\(a__{p}_=ar^{_{{p-1}}_}\\)</div><div>\\(a__{r}_=ar^{_{{r-1}}_}\\) </div><div>Dividing \\(a__{r}_\\) with \\(a__{p}_\\) </div><div>\\(\\frac{a__{{r}}_}{a__{p}_}=\\frac{r^{_{{r-1}}_}}{r^{_{{p-1}}_}}=r^{_{{r-p}}_}\\)</div><div> i.e. </div><div>\\(r^{_{{r-p}}_}=\\frac{_{{q*2**(r-1)}}_}{_{{q*2**(p-1)}}_}\\)</div><div>Solving this we get </div><div>\\(r=2\\)</div><div>now using this are in \\(a__{p}_\\) we can find a</div><div> a= _{q}_.</div><div>Therefore </div><div> \\(a__{s}_ = a\\times r^_{{s-1}}_= _{{q*2**(s-1)}}_\\) </div>"
+  }, 
+  "content": {
+    "text": "<div>In a G.P. the _{p}_\\(^{th}\\) term is _{{q*2**(p-1)}}_ and the _{{r}}_\\(^{th}\\) term is _{{q*2**(r-1)}}_. Find the _{s}_\\(th\\) term. </div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            3, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "s": {
+      "range": {
+        "include": [
+          [
+            6, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            10, 
+            13
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{q*2**(s-1)}}_"
+  }, 
+  "type": 3
+}

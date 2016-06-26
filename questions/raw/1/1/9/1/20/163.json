@@ -1,0 +1,18 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Volume is to be increased by \\(_{{m*10000}}_\\,litres\\).</div><div>\\(=_{{m*10}}_\\,m^3\\)</div><div>Cost of digging \\(=\\)Rs.\\(_{{n*10}}_\\) per cu.m.</div><div>Cost of increasing the capacity\\(=\\) Volume to be increased \\(\\times\\) Rate of digging</div><div>\\(=_{{m*10}}_ \\times _{{n*10}}_\\)</div><div>\\(=\\)Rs.\\(_{{m*10*n*10}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "What will be the cost of increasing the capacity of the reservoir, if cost of digging is Rs.\\(_{{n*10}}_\\) per cu.m.?"
+  }, 
+  "variable_constraints": {
+    "n": {}
+  }, 
+  "answer": {
+    "tolerance": 5, 
+    "value": "_{{m*10*n*10}}_"
+  }, 
+  "type": 3, 
+  "unit": "rupees"
+}

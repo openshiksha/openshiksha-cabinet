@@ -1,0 +1,46 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "The given equation can be represented as \\(_{k}_x + _{j}_y - _{l}_ = 0\\) (in the format of <b>\\(ax + by + c = 0\\) </b>)<br>Where<br>\\(a = _{k}_\\)<br>\\(b = _{j}_\\)<br>\\(c = - _{l}_\\)"
+  }, 
+  "content": {
+    "text": "<b>\\(_{k}_x + _{j}_y = _{l}_.\\)</b> Find \\(b\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            9
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 2, 
+        "include": [
+          [
+            3, 
+            7
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,108 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Given vertices are: p(_{{2*i}}_,_{{2*j}}_), Q(_{{2*k}}_,_{{2*l}}_) and R(_{{2*o}}_,_{{2*p}}_).</div><div>Therefore,</div><div>Now Using following formula:</div><div>Area of PQR = \\({1\\over 2}\\times (x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2))\\)</div><div>i.e., Area of PQR = \\({1\\over 2}\\times (_{{2*i}}_(_{{2*l}}_-_{{2*p}}_)+_{{2*k}}_(_{{2*p}}_-_{{2*j}}_)+_{{2*o}}_(_{{2*j}}_-_{{2*l}}_))\\)</div><div>i.e., Area of PQR = \\({1\\over 2}\\times (_{{2*i}}_(_{{2*l-2*p}}_)+_{{2*k}}_(_{{2*p-2*j}}_)+_{{2*o}}_(_{{2*j-2*l}}_))\\)</div><div>i.e.,Area of PQR = \\({1\\over 2}\\times (_{{4*i*(l-p)}}_+_{{4*k*(p-j)}}_+_{{4*(j-l)*o}}_)\\)</div><div>i.e., Area of PQR = \\({1\\over 2}\\times (_{{4*((i*(l-p))+(k*(p-j))+((j-l)*o))}}_)\\)</div><div>i.e., Area of PQR = _{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))*2,2)}}_</div> <div>Similarly,</div><div>i.e., Area of PMN = \\({1\\over 2}\\times (_{{2*i}}_(_{{(j+l)}}_-_{{(j+p)}}_)+_{{(i+k)}}_(_{{(j+p)}}_-_{{2*j}}_)+_{{(i+o)}}_(_{{2*j}}_-_{{(j+l)}}_))\\)</div><div>i.e., Area of PMN = \\({1\\over 2}\\times (_{{2*i}}_(_{{(l-p)}}_) + _{{(i+k)}}_(_{{(p-j)}}_) + _{{(i+o)}}_(_{{(j-l)}}_))\\)</div><div>i.e., Area of PMN = \\({1\\over 2}\\times ((_{{2*i*(l-p)}}_) + (_{{(i+k)*(p-j)}}_) + (_{{(i+o)*(j-l)}}_)\\)</div><div>i.e., Area of PMN = \\({1\\over 2}\\times (_{{(2*i*(l-p))+((i+k)*(p-j))+((i+o)*(j-l))}}_)\\)</div><div>i.e., Area of PMN = _{{trunc(((2*Decimal(i)*(l-p))+((i+k)*(p-j))+((i+o)*(j-l)))/2,2)}}_</div><div>Let the ratio be m : n</div><div>Therefore, </div><div>i.e., \\(m\\over n\\) = \\(_{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))*2,2)}}_\\over _{{trunc(((2*Decimal(i)*(l-p))+((i+k)*(p-j))+((i+o)*(j-l)))/2,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>The vertices of a triangle PQR are P(_{{2*i}}_,_{{2*j}}_), Q(_{{2*k}}_,_{{2*l}}_) and R(_{{2*o}}_,_{{2*p}}_). A line is drawn to intersect sides PQ and PR at M and N respectively, Such that M(_{{i+k}}_,_{{j+l}}_) and N(_{{i+o}}_,_{{j+p}}_).Find the ratio of the areas of PQR and PMN.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            14, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            9, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(((Decimal(i)*(l-p))+(k*(p-1-j))+((j-l)*o))*4,2)}}_\\over _{{trunc(((2*Decimal(i)*(l-p))+((i+k)*(p-j))+((i+o)*(j-l))),2)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))*4,2)}}_\\over _{{trunc(((2*Decimal(i)*(l-p-1))+((i+k)*(p-j))+((i+o)*(j-l))),2)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(((Decimal(i)*(l-p+1))+(k*(p-j))+((j-l)*o))*4,2)}}_\\over _{{trunc(((2*Decimal(i)*(l-p))+((i+k)*(p-j+1))+((i+o)*(j-l))),2)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(((Decimal(i)*(l-p))+(k*(p-j))+((j-l)*o))*4,2)}}_\\over _{{trunc(((2*Decimal(i)*(l-p))+((i+k)*(p-j))+((i+o)*(j-l))),2)}}_\\)"
+    }
+  }
+}

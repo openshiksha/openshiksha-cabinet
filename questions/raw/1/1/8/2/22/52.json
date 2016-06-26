@@ -1,0 +1,19 @@
+{
+  "content": {
+    "text": "Petrol is used for light motor vehicles, whereas heavy motor vehicles run on diesel."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "What process takes place when going from \\((P_1,V_1,T_1)\\) to \\((P_2,V_2,T_1)\\)?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Isothermal Compression"
+      }, 
+      {
+        "text": "Adiabatic Expansion"
+      }, 
+      {
+        "text": "Adiabatic Compression"
+      }
+    ], 
+    "correct": {
+      "text": "Isothermal Expansion"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 0, 
+  "variable_constraints": {}
+}

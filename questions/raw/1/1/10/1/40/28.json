@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Using Pythagoras Theorem we can write following relations</div><div>In \\(\\Delta\\)ABC - \\(AB^2 + BC^2 = AC^2\\) ----(1)</div><div>In \\(\\Delta\\)ABD - \\(AD^2 + BD^2 = AB^2\\) ----(2)</div><div>In \\(\\Delta\\)CBD - \\(CD^2 + BD^2 = BC^2\\) ----(3)</div><div>In \\(\\Delta\\)AED - \\(AE^2 + ED^2 = AD^2\\) ----(4)</div><div>In \\(\\Delta\\)CFD - \\(CF^2 + FD^2 = CD^2\\) ----(5)</div><div>In \\(\\Delta\\)BED - \\(BE^2 + ED^2 = BD^2\\) ----(6)</div><div>In \\(\\Delta\\)BFD - \\(BF^2 + FD^2 = BD^2\\) ----(7)</div><div>Subtract eq(3) from eq(2)</div><div>We get,  \\(AD^2 + BD^2 - CD^2 - BD^2 = AB^2 - BC^2\\)</div><div>We get,  \\(AD^2 - CD^2 = AB^2 - BC^2\\) ----(8)</div><div>Now, Subtract eq(5) from eq(4)</div><div>\\(AE^2 + ED^2 - CF^2 - FD^2 = AD^2 - CD^2\\)</div><div>\\(AE^2 - CF^2 + ED^2 - FD^2 = AD^2 - CD^2\\) ----(9)</div><div>Subtract eq(7) from eq(6)</div><div>\\(BE^2 + ED^2 - BF^2 - FD^2= BD^2 - BD^2\\)</div><div>\\(BE^2 + ED^2 - BF^2 - FD^2= 0\\)</div><div>\\(ED^2 -  FD^2 = BF^2 - BE^2\\) ----(10)</div><div>Subtract eq(10) from eq(9)</div><div>We get,</div><div>\\(AE^2 - CF^2 = AD^2 - CD^2 - BF^2 + BE^2\\) ----(11)</div><div>\\(AE^2 - CF^2 + BF^2 - BE^2 = AD^2 - CD^2 \\) ----(11)</div><div>Now, Add eq(8) and eq(11)</div><div>\\(AE^2 - CF^2 + BF^2 - BE^2 = AB^2 - BC^2 \\)</div><div>Now, rearrange the above equation</div><div>\\(BC^2 + AE^2 + BF^2 = AB^2 + CF^2 + BE^2\\)</div><div>Comparing with given equation, we get,</div><div> \\(X\\) = \\(CF^2\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>For given figure find \\(X\\), if \\(AB^2 + X + EB^2 = BC^2 + AE^2 +FB^2\\)</div>", 
+    "img": "28.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(FD^2\\)"
+      }, 
+      {
+        "text": "\\(AE^2\\)"
+      }, 
+      {
+        "text": "\\(ED^2\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(CF^2\\)"
+    }
+  }
+}

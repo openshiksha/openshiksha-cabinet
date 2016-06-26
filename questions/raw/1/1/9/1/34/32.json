@@ -1,0 +1,21 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "In the previous question we calculated that the probability of the number having two zeroes was 0.01. Therefore the probability of the number not having two zeroes is 1 - 0.01 = 0.99. Clearly, there is a much higher probability of the number not having two zeroes and so your answer to the question should be <b>NO</b>."
+  }, 
+  "content": {
+    "text": "Based on the probability you calculated, would you guess that the number has two zeroes?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "YES, the number probably has two zeroes."
+      }
+    ], 
+    "correct": {
+      "text": "NO, the number probably doesn't have two zeroes."
+    }
+  }
+}

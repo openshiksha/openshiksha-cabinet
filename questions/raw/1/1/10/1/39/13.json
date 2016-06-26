@@ -1,0 +1,85 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given vertices are: A(_{i}_,_{j}_), B(_{k}_,_{l}_) and C(_{m}_,_{n}_).</div><div>Now Using following formula:</div><div>Area = \\({1\\over 2}\\times (x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2))\\)</div><div>i.e., Area = \\({1\\over 2}\\times (_{i}_(_{l}_-_{n}_)+_{k}_(_{n}_-_{j}_)+_{m}_(_{j}_-_{l}_))\\)</div><div>i.e., Area = \\({1\\over 2}\\times (_{i}_(_{{l-n}}_)+_{k}_(_{{n-j}}_)+_{m}_(_{{j-l}}_))\\)</div><div>i.e., Area = \\({1\\over 2}\\times (_{{i*(l-n)}}_+_{{k*(n-j)}}_+_{{m*(j-l)}}_)\\)</div><div>i.e., Area = \\({1\\over 2}\\times (_{{(i*(l-n))+(k*(n-j))+(m*(j-l))}}_)\\)</div><div>i.e., Area = \\(_{{trunc(((Decimal(i)*(l-n))+(k*(n-j))+(m*(j-l)))/2,2)}}_\\)</div><div>Since area is a measured quantity, which can not be negative,we will take the numerical value.</div><div>Therefore area = \\(_{{trunc(-((Decimal(i)*(l-n))+(k*(n-j))+(m*(j-l)))/2,2)}}_\\) Square unit.</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the area of the triangle whose vertices are as follows: </div><div>A(_{i}_,_{j}_), B(_{k}_,_{l}_) and C(_{m}_,_{n}_).</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            12, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            12, 
+            18
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            19, 
+            24
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            19, 
+            24
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(-((Decimal(i)*(l-n-3))+(k*(n-j))+(m*(j-l)))/2,2)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(-((Decimal(i)*(l-n))+(k*(n-j))+(m*(j-l+4)))/2,2)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(-((Decimal(i)*(l-n))+(k*(n-j))+(m*(j-l)))/2,2)}}_\\)"
+    }
+  }
+}

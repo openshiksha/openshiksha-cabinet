@@ -1,0 +1,38 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Let the amount that Sarika paid be denoted by the variable <b>t</b><br>Let the amount that Sheetal paid be denoted by the variable <b>u</b><br>The statement tells us that Sarika paid <b>_{k}_ times</b> less than Sheetal did.<br>Therefore, we can infer that t is _{k}_ times less than u. Or, in other words : <b>t = \\(\\frac {u}{_{k}_}\\) </b> <br>\\(\\implies\\) <b>u = _{k}_ t </b>"
+  }, 
+  "content": {
+    "text": "Sarika paid _{k}_ times less than Sheetal for her train tickets to Mumbai. (Assume the amount that Sarika paid to be Rs.<b><i>t</i></b> and the amount that Sheetal paid to be Rs.<b><i>u</i></b>)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "u = _{{k-1}}_t"
+      }, 
+      {
+        "text": "t = u + _{k}_"
+      }, 
+      {
+        "text": "t = _{k}_u"
+      }
+    ], 
+    "correct": {
+      "text": "u =  _{k}_t"
+    }
+  }
+}

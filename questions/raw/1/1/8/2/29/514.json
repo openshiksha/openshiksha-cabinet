@@ -1,0 +1,41 @@
+{
+  "content": {
+    "text": "<div>Arrange the planets in ascending order with respect to the number of natural satellites.</div><div>Earth, _{j}_,  _{k}_, Mars</div>"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{k}_ - Mars - Earth - _{j}_"
+      }, 
+      {
+        "text": "_{j}_ - _{k}_ - Earth - Mars"
+      }, 
+      {
+        "text": "Earth - _{j}_ - _{k}_ - Mars"
+      }
+    ], 
+    "correct": {
+      "text": "_{j}_ - Earth - Mars - _{k}_"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 13, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "Jupiter", 
+        "Saturn", 
+        "Uranus", 
+        "Neptune"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "Mercury", 
+        "Venus", 
+        "Mercury", 
+        "Venus"
+      ]
+    }
+  }
+}

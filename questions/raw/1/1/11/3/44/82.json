@@ -1,0 +1,27 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "A carnot cycle considers a reversible engine that operates between only two temperatures.<br><br>The process used must be a reversible <b>adiabatic process</b> which involves no heat flow from any reservoir. If another process is employed instead (say an isochoric process) to take the system from one temperature to another, we would need a series of reservoirs in the temperature range \\(T_1\\) to \\(T_2\\) to ensure that at each stage the process is quasi-static but this violates our previous goal of operating only between two temperatures. Since the pressure and volume are increasing, it must be <b>adiabatic compression</b>"
+  }, 
+  "content": {
+    "text": "What process takes place when going from \\((P_4,V_4,T_2)\\) to \\((P_1,V_1,T_1)\\)?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Isochoric Compression"
+      }, 
+      {
+        "text": "Adiabatic Expansion"
+      }, 
+      {
+        "text": "Isothermal Expansion"
+      }
+    ], 
+    "correct": {
+      "text": "Adiabatic Compression"
+    }
+  }
+}

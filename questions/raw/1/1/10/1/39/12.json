@@ -1,0 +1,69 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Given Coordinates of Ramesh's house H1 = (_{i}_,_{j}_) and Suresh's house H2 = (_{k}_,_{l}_).</div><div>And, the ratio for first tower be = 2 : 1 or 1 : 2  </div><div>Let the coordinates of first tower be \\((x_1,y_1)\\)</div><div>Then, using section formula, we get : </div><div>Using ratio = 2:1</div><div> \\(x_1\\) = \\({_{i}_ + 2\\times _{k}_}\\over 2+1\\) , \\(y_1\\) = \\({_{j}_ + 2\\times _{l}_}\\over 2+1\\)</div><div> \\(x_1\\) = \\({_{i}_ + _{{2*k}}_}\\over 3\\) , \\(y_1\\) = \\({_{j}_ + _{{2*l}}_}\\over 3\\)</div><div> \\(x_1\\) = \\({_{{i+(2*k)}}_}\\over 3\\) , \\(y_1\\) = \\(_{{j+(2*l)}}_\\over 3\\)</div><div>Now, let the coordinates of second tower be \\((x_2,y_2)\\)</div><div>And, the ratio now will be 1:2</div><div>Again, using section formula, we get : </div><div> \\(x_2\\) = \\({_{k}_ + 2\\times _{i}_}\\over 2+1\\) , \\(y_2\\) = \\({_{l}_ + 2\\times _{j}_}\\over 2+1\\)</div><div> \\(x_2\\) = \\({_{k}_ + _{{2*i}}_}\\over 3\\) , \\(y_2\\) = \\({_{l}_ + _{{2*j}}_}\\over 3\\)</div><div> \\(x_2\\) = \\({_{{k+(2*i)}}_}\\over 3\\) , \\(y_2\\) = \\(_{{l+(2*j)}}_\\over 3\\)</div><div>Therefore, the coordinates of the tower are as follows:</div><div> \\(x_1\\) = \\({_{{i+(2*k)}}_}\\over 3\\) , \\(y_1\\) = \\(_{{j+(2*l)}}_\\over 3\\) and \\(x_2\\) = \\({_{{k+(2*i)}}_}\\over 3\\) , \\(y_2\\) = \\(_{{l+(2*j)}}_\\over 3\\)</div>", 
+    "img": "9.png"
+  }, 
+  "content": {
+    "text": "<div>Ramesh and Suresh two brothers owns a big farm where they build two separate houses, one for each at the opposite ends of the farm.Now for the lightning they have to put two light tower in between their houses in such a way that the towers trisects the line segment joining both the houses.</div><div>If the coordinates of the house's are as follows : Ramesh(_{i}_,_{j}_) and Suresh(_{k}_,_{l}_), then find the coordinates of the towers.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            14, 
+            22
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            12
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            14, 
+            22
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x_1\\) = \\({_{{i+2+(2*k)}}_}\\over 3\\) , \\(y_1\\) = \\(_{{j+(2*l)}}_\\over 3\\) and \\(x_2\\) = \\({_{{k+(2*i)}}_}\\over 3\\) , \\(y_2\\) = \\(_{{l+(2*j)}}_\\over 3\\)"
+      }, 
+      {
+        "text": "\\(x_1\\) = \\({_{{i+(2*k)}}_}\\over 3\\) , \\(y_1\\) = \\(_{{j+(2*l)}}_\\over 3\\) and \\(x_2\\) = \\({_{{k-2+(2*i)}}_}\\over 3\\) , \\(y_2\\) = \\(_{{l+(2*j)}}_\\over 3\\)"
+      }, 
+      {
+        "text": "\\(x_1\\) = \\({_{{i+(2*k)}}_}\\over 3\\) , \\(y_1\\) = \\(_{{j-2+(2*l)}}_\\over 3\\) and \\(x_2\\) = \\({_{{k+(2*i)}}_}\\over 3\\) , \\(y_2\\) = \\(_{{l+2+(2*j)}}_\\over 3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x_1\\) = \\({_{{i+(2*k)}}_}\\over 3\\) , \\(y_1\\) = \\(_{{j+(2*l)}}_\\over 3\\) and \\(x_2\\) = \\({_{{k+(2*i)}}_}\\over 3\\) , \\(y_2\\) = \\(_{{l+(2*j)}}_\\over 3\\)"
+    }
+  }
+}

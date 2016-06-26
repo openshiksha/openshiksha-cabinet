@@ -1,0 +1,24 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "<div>You must have noticed that height of an individual is more or less similar to that of some family member.</div><div> This is because height depends on the genes inherited from parents.</div><div>Similarly, Rahul's nose is very similar to that of Sumant's because Rahul inherited his father's genes.</div>"
+  }, 
+  "content": {
+    "text": "<div>Rahul lives with his parents, Sumant and Nimisha.</div><div>His friends keep telling him that his nose is very similar to that of his father's.</div><div>What do you think is the reason?</div>"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Coincidence"
+      }, 
+      {
+        "text": "They live under the same roof"
+      }
+    ], 
+    "correct": {
+      "text": "Rahul has inherited Sumant's genes"
+    }
+  }
+}

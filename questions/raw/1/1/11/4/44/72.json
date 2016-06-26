@@ -1,0 +1,74 @@
+{
+  "hint": {
+    "text": "Use the Born-Haber Cycle"
+  }, 
+  "solution": {
+    "text": "The Lattice Enthalpy \\((\\Delta _ {lattice} H)\\) = \\(\\Delta _a H + \\Delta _i H + \\frac{1}{2}\\Delta _ {bond} H + \\Delta _ {eg} H - \\Delta _f H\\)<br>Note: The bond enthalpy is divided by 2 because the formation reaction is \\(Ag + \\frac{1}{2} Cl_2 \\rightarrow AgCl\\)\\(\\implies \\Delta _ {lattice} H = _{j}_ + _{k}_ + _{l}_ + (-_{m}_) - (-_{n}_)\\)<br>\\(\\implies \\Delta _ {lattice} H = _{{j + k + l - m + n}}_\\)"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Calculate the Lattice Enthalpy for the formation of Silver Chloride under non-standard conditions \\((Ag + \\frac{1}{2}Cl_2 \\rightarrow AgCl)\\) given the following data: <br> <ul><li>\\(\\Delta _a H\\) (Atomization) of \\(Ag (s) = _{j}_ \\frac{kJ}{mol}\\)</li><li>\\(\\Delta _i H\\) (Ionization) of \\(Ag (s) = _{k}_ \\frac{kJ}{mol}\\)</li><li>\\(\\Delta _ {bond} H\\) (Bond) of \\(Cl_2 (g) = _{{2*l}}_ \\frac{kJ}{mol}\\)</li><li>\\(\\Delta _ {eg} H\\) (Electron Gain) of \\(Cl (g) = -_{m}_ \\frac{kJ}{mol}\\)</li><li>\\(\\Delta _fH\\)(Formation) of \\(AgCl (s) = -_{n}_ \\frac{kJ}{mol}\\)</li></ul>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            729, 
+            732
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "decimal": 0, 
+        "include": [
+          [
+            283, 
+            285
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            348, 
+            351
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            120, 
+            122
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            126, 
+            128
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{j + k + l - m + n}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(\\frac{kJ}{mol}\\)"
+}

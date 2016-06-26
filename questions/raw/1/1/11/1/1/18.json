@@ -1,0 +1,45 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Let a be the first term and r be the common ratio of the G.P.</div><div>a=_{p}_<div></div>it is known that, \\(a_n=ar^{n-1}\\)</div><div>\\(a_2=ar^1=_{p}_r\\)</div><div>\\(_{{p*q}}_=_{p}_r\\)</div><div>\\(r=_{q}_\\)</div><div>Let _{{p*q**(r-1)}}_ be \\(m^{th}\\) term, then)</div><div>\\(_{{p*q**(r-1)}}_=ar^{m-1}\\)</div><div>i.e</div><div>\\(_{{p*q**(r-1)}}_=_{p}_\\times_{q}_^{m-1}\\)</div><div>\\(_{{q**(r-1)}}_=_{q}_^{m-1}\\)</div><div>Solving this we get</div>    <div>\\(m=_{r}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Which term of the G.P. _{{p , p*q , p*q**2 }}_ is _{{p*q**(r-1)}}_ .</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            2, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            2, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "r": {
+      "range": {
+        "include": [
+          [
+            4, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{r}_"
+  }, 
+  "type": 3
+}

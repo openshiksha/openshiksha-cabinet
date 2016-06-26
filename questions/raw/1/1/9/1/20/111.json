@@ -1,0 +1,47 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Height of tent,h\\(=_{k}_\\)m</div><div>Base radius of tent,r\\(=_{l}_\\)m</div><div>Width of canvas material,w\\(=_{j}_\\)m</div><div>Extra length of material required\\(=50\\)cm\\(=0.5\\)m</div><div>Slant height of tent,l\\(=\\sqrt{h^2+r^2}\\)</div><div>\\(\\Rightarrow l=\\sqrt{_{k}_^2+_{l}_^2}=_{{trunc(((k**2+l**2)**Decimal(0.5)),2)}}_\\)</div><div>Curved surface area of tent\\(=\\pi rl\\)</div><div>\\(=\\pi \\times _{l}_ \\times _{{trunc(((k**2+l**2)**Decimal(0.5)),2)}}_\\)</div><div>\\(=_{{trunc((pi_val*l*(k**2+l**2)**Decimal(0.5)),2)}}_m^2\\)</div><div>Now, curved surface area of the tent \\(=\\) Quantity of canvas required</div><div>\\(\\Rightarrow _{{trunc((pi_val*l*(k**2+l**2)**Decimal(0.5)),2)}}_=w \\times\\) length of material</div><div>\\(\\Rightarrow _{{trunc((pi_val*l*(k**2+l**2)**Decimal(0.5)),2)}}_=_{j}_ \\times\\) length of material</div><div>\\(\\Rightarrow\\)Length of material\\(=\\frac{_{{trunc((pi_val*l*(k**2+l**2)**Decimal(0.5)),2)}}_}{_{j}_}\\)</div><div>\\(\\Rightarrow\\)Length of material\\(=_{{trunc((pi_val*(l/Decimal(j))*(k**2+l**2)**Decimal(0.5)),2)}}_\\)</div><div>Total length of material required(including material required for stitching)\\(=_{{trunc((pi_val*(l/Decimal(j))*(k**2+l**2)**Decimal(0.5)),2)}}_+0.5=_{{trunc((pi_val*(l/Decimal(j))*(k**2+l**2)**Decimal(0.5)+Decimal(0.5)),2)}}_\\)m</div>"
+  }, 
+  "content": {
+    "text": "What length of canvas \\(_{j}_\\)m wide will be required to make a conical tent of height \\(_{k}_\\)m and base radius \\(_{l}_\\)m. Assume that the extra length that will be required for stitching margins and wastage in cutting is \\(50\\)cm. "
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            6
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            5, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.2, 
+    "value": "_{{trunc((pi_val*(l/Decimal(j))*(k**2+l**2)**Decimal(0.5)+Decimal(0.5)),2)}}_"
+  }, 
+  "type": 3, 
+  "unit": "m"
+}

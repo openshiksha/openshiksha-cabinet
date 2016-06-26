@@ -1,0 +1,45 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let the length of court be x m</div><div>and, the breadth of court be y m.</div><div>Therefore, perimeter of the rectangular court:</div><div>i.e.,   Perimeter = 2x + 2y</div><div>i.e.,   _{{2*k}}_ = 2x + 2y</div><div>i.e.,   _{k}_ = x + y</div><div>i.e.,  y = _{k}_ - x </div><div>Now, Area = \\(x\\times y\\)</div><div>.i.e., _{l}_ = \\(x\\times (_{k}_ - x)\\)</div><div>.i.e., _{l}_ = \\(_{k}_x - x^2\\)</div><div>.i.e., \\(x^2 -_{k}_x + _{l}_ = 0\\)</div><div>Now, comparing with general equation</div><div>i.e., a = 1 , b = -_{k}_ and c = _{l}_</div><div>Discriminant = \\(b^2 -4ac = (-_{k}_)^2 - 4\\times 1\\times _{l}_\\)</div><div>i.e.,  = _{{k*k}}_ - _{{4*l}}_</div><div>i.e.,  = _{{(k*k)-(4*l)}}_</div><div>Since discriminant is negative it is not possible to design such basketball court</div>"
+  }, 
+  "content": {
+    "text": "<div>Is it possible to design a rectangular basketball court of perimeter _{{2*k}}_ m and area _{l}_ \\(m^2\\)? If yes, find its length.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            3, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            26, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Yes , _{{k-1}}_"
+      }, 
+      {
+        "text": "Yes , _{{k+1}}_"
+      }
+    ], 
+    "correct": {
+      "text": "No"
+    }
+  }
+}

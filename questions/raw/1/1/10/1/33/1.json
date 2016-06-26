@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Since OP is equal to the radius of the circle(r) and as Q lies outside the circle so it is always greater than (r)</div><div>hence, \\(OQ&gt;r\\) \\(\\Rightarrow OQ&gt;OP\\)</div> <div>It is given that XY is a tangent to the circle</div><div>\\(\\Rightarrow \\)it will touch the circle only at point P</div><div>therefore OP is the shortest distance between point Oand line XY</div> <div>\\(\\Rightarrow \\) OP is perpendicular to XY</div>"
+  }, 
+  "content": {
+    "text": "<div>In reference to the given figure, following statements are given. </div><div>If XY is tangent to the circle, select the ones which state a possible condition:</div>", 
+    "img": "1.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "OP&gt;OQ"
+      }, 
+      {
+        "text": "OQ is perpendicular to XY"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "OQ&gt;OP"
+      }, 
+      {
+        "text": "OP is perpendicular to XY"
+      }
+    ]
+  }
+}

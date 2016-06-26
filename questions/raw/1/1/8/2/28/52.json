@@ -1,0 +1,35 @@
+{
+  "content": {
+    "text": "Some examples of such objects are :"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Moon"
+      }, 
+      {
+        "text": "Rocks"
+      }, 
+      {
+        "text": "Humans"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Sun"
+      }, 
+      {
+        "text": "Fire"
+      }, 
+      {
+        "text": "Flame of a candle"
+      }, 
+      {
+        "text": "Electric Lamp"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

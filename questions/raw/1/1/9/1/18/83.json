@@ -1,0 +1,16 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>The zero of \\(_{j}_x+_{j}_\\,\\) is \\(-1\\).</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(-1)=(_{j}_ \\times (-1)^2) - (_{j}_ \\times (-1)) + _{j}_\\)</div><div>\\(\\Rightarrow p(-1)=_{j}_+_{j}_+_{j}_\\)</div><div>\\(\\Rightarrow p(-1)=_{{j+j+j}}_\\)</div><div>Therefore, the remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(_{{j+j+j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(p(x) = _{j}_x^2 - _{j}_x + _{j}_; \\, g(x) = _{j}_x + _{j}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j+j+j}}_"
+  }, 
+  "type": 3
+}

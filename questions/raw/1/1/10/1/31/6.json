@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>If we see carefully , the line joining the boy -&gt; tower base -&gt; tower top -&gt; boy</div><div>will approximately form a triangle that is right-angled at the base of the tower</div><div>then by using Pythagoras we find the hypotenuse of this triangle</div><div>hypotenuse = distance travelled by the stone</div><div>hypotenuse=\\(\\sqrt{_{{j*3}}_^2+_{{j*4}}_^2}\\)</div><div>distance=_{{j*5}}_ metres</div><div>sinB=\\(Perpendicular\\over hypotenuse\\), as hypotenuse is the longest side of any triangle</div><div>sinB can never be &gt; 1</div>"
+  }, 
+  "content": {
+    "text": "<div>If a boy is looking at the top of a tower standing _{{j*3}}_ metres away from it.</div><div>The height of the tower is _{{j*4}}_ metres, the boy throws a stone to hit the top of the tower</div><div>Assuming the stone travels in a straight direction, which one of the following cases is true:</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "distance travelled by stone &gt; _{{j*7}}_ metres"
+      }, 
+      {
+        "text": "sinB=1.5"
+      }
+    ], 
+    "correct": {
+      "text": "distance travelled by stone= _{{j*5}}_ metres"
+    }
+  }
+}

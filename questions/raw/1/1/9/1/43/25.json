@@ -1,0 +1,45 @@
+{
+  "subpart_index": 4, 
+  "solution": {
+    "text": "The given equation can be represented as \\(0x - _{k}_y + _{l}_ = 0\\) (in the format of <b>\\(ax + by + c = 0\\) </b>)<br><br>Where<br>\\(a = 0\\)<br>\\(b = -_{k}_\\)<br>\\(c = _{l}_\\)"
+  }, 
+  "content": {
+    "text": "<b>\\(_{l}_ = _{k}_y.\\)</b> Find \\(a\\)."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            90
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            70
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            10, 
+            100
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": 0
+  }, 
+  "type": 3
+}

@@ -1,0 +1,50 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Let the number of the marbles Anil have be x.</div><div>and the number of the marbles Sunil have be y.</div><div>Therefore,</div><div>Sum of the marbles : x + y = _{{i+j}}_ </div><div>i.e.,  y = _{{i+j}}_ - x ----eq.(1)</div><div>Similarly, Product of the marbles : \\(x\\times y = _{{i*j}}_\\) -----eq.(2)</div><div>Now, substitute value of y from eq(1) to eq.(2)</div><div>Therefore:</div><div>i.e., \\(x\\times (_{{i+j}}_-x) = _{{i*j}}_\\)</div><div>i.e., \\(_{{i+j}}_x - x^2 = _{{i*j}}_\\)</div><div>i.e., \\(_{{i+j}}_x - x^2 - _{{i*j}}_ = 0\\)</div><div>i.e., \\(x^2 - _{{i+j}}_x + _{{i*j}}_ = 0\\)</div><div>i.e., \\(x^2 - _{i}_x - _{j}_x + _{{i*j}}_ = 0\\)</div><div>i.e., \\(x(x - _{i}_) - _{j}_(x - _{i}_) = 0\\)</div><div>i.e., \\((x - _{i}_)\\times (x - _{j}_) = 0\\)</div><div>i.e., x = _{i}_ and x = _{j}_</div><div>Therefore here we have two possibilities.</div><div>Thus, Anil and Sunil can have _{i}_ and _{j}_ marbles respectively,</div><div>Similarly,</div> <div>They can also  have _{j}_ and _{i}_ marbles respectively.</div>"
+  }, 
+  "content": {
+    "text": "<div>Two brothers Anil and Sunil, both of them have certain number of marbles.If sum and product of the marbles they both have are _{{i+j}}_ and _{{i*j}}_ respectively.Find the number of marbles Anil and Sunil have individually.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            50
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{j+2}}_ , _{{i-2}}_"
+      }, 
+      {
+        "text": "_{{i-2}}_ , _{{j+2}}_"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "_{i}_ , _{j}_"
+      }, 
+      {
+        "text": "_{j}_ , _{i}_"
+      }
+    ]
+  }
+}

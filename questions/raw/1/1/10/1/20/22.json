@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>height of the upper half(smaller cone)= \\(\\frac {_{{6*j}}_}2=_{{3*j}}_\\)</div><div>let the radius of this cone be r</div><div>The volume of the cone = \\(\\frac 13 \\times \\pi \\times r^2 \\times _{{3*j}}_\\)</div><div>It is given that the upper half is remelted to a cylinder</div><div>so, Volume of the cylinder = volume of the upper cone</div><div>\\(\\pi \\times _{k}_^2 \\times _{j}_= \\frac 13 \\times \\pi \\times r^2 \\times _{{3*j}}_\\)</div><div>\\(\\Rightarrow r=_{k}_\\)</div><div>Now we have the radius of the base of cone = radius of the top face of the frustum</div><div>let the radius of the base of the frustum be R</div><div>By similarity of the sections of smaller and bigger cones we can say that </div><div>\\(\\frac {_{{6*j}}_}{R}=\\frac {_{{3*j}}_}{_{k}_}\\)</div><div>\\(\\Rightarrow R=_{{2*k}}_\\)</div><div>Volume of a frustum of a cone is \\(\\frac {\\pi}3 \\times H \\times [r^2 + R^2 + rR] \\)</div><div>putting the values, H=_{{3*j}}_,r=_{k}_,R=_{{2*k}}_</div><div>we get,\\(\\frac {22}{7\\times 3} \\times _{{3*j}}_ \\times [_{k}_^2 + _{{2*k}}_^2 + _{{2*k*k}}_] \\)</div><div>\\(\\Rightarrow _{{trunc(pi_val*j*(k*k+4*k*k+2*k*k),2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If a cone of height _{{6*j}}_ cm is cut into two parts at the middle of the height parallel to the base.</div><div>The upper conical part is melted and converted into a cylinder of radius _{k}_cm and height _{j}_ cm.</div><div>Find the volume of the bottom frustum of the cone.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(pi_val*j*(k*k+5*k*k+2*k*k),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*(k*k+3*k*k+2*k*k),2)}}_"
+      }, 
+      {
+        "text": "_{{trunc(pi_val*j*(k*k+6*k*k+2*k*k),2)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(pi_val*j*(k*k+4*k*k+2*k*k),2)}}_"
+    }
+  }
+}

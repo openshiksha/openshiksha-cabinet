@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>let the equation be of the form \\(ax^2+bx+c\\)</div><div>we have been given \\( \\alpha + \\beta = _{{j+k}}_=\\frac {-b}a\\) and \\(\\alpha\\times \\beta = _{{j*k}}_=\\frac ca\\)</div><div>Now if we take a=1, we can get a solution b=_{{-(j+k)}}_ and c=_{{j*k}}_</div><div>therefore the equation becomes \\(x^2-_{{j+k}}_x+_{{j*k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Sum of the zeros of a quadratic equation _{{j+k}}_ and product of the zeros is _{{j*k}}_. find the corresponding quadratic equation.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(2x^2-_{{j+k}}_x+_{{j*k}}_\\)"
+      }, 
+      {
+        "text": "\\(3x^2-_{{j+k}}_x+_{{j*k}}_\\)"
+      }, 
+      {
+        "text": "\\(x^2-_{{j+k+1}}_x+_{{j*k}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2-_{{j+k}}_x+_{{j*k}}_\\)"
+    }
+  }
+}

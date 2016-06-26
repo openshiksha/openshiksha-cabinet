@@ -1,0 +1,49 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The amount deposited in the bank is Rs _{p}_ .</div><div>At the end of first year, amount=\\(_{p}_(1+\\frac{_{r}_}{100})\\) = Rs _{p}_(_{{1+Decimal(r)/100}}_)</div><div>At the end of second year, amount = Rs _{p}_(_{{1+Decimal(r)/100}}_)(_{{1+Decimal(r)/100}}_)</div><div>Amount at the end of _{q}_ years = Rs \\(_{p}_(_{{1+Decimal(r)/100}}_)(_{{1+Decimal(r)/100}}_) ... (_{q}_ times)\\)= Rs \\(_{p}_(_{{1+Decimal(r)/100}}_) ^{_{q}_}\\)</div><div></div><div>Amount at the end of _{q}_ years =Rs _{{trunc(p*(1+Decimal(r)/100) **q,3) }}_ </div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "<div>Imagine you deposit Rs _{p}_ to a bank. What will it amounts to in _{q}_ years if the bank pays you an annual interest rate of _{r}_% compounded annually</div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "range": {
+        "include": [
+          [
+            4, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            100, 
+            500
+          ]
+        ]
+      }
+    }, 
+    "r": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rs _{{trunc(p*(1+Decimal(r)/100) **(q-1),3) }}_"
+      }, 
+      {
+        "text": "Rs _{{trunc(p*(1+Decimal(r)/100) **(q-2),3) }}_"
+      }, 
+      {
+        "text": "Rs _{{trunc(p*(1-Decimal(r)/100) **(q),3) }}_"
+      }
+    ], 
+    "correct": {
+      "text": "Rs _{{trunc(p*(1+Decimal(r)/100) **q,3) }}_"
+    }
+  }
+}

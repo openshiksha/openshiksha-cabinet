@@ -1,0 +1,28 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "The force of friction always acts in a direction opposite to the direction of motion."
+  }, 
+  "content": {
+    "text": "<div>A square box is sliding down an inclined surface.</div><div>Show the direction of the frictional force acting on it.</div><div>A, B, C or D?</div>", 
+    "img": "43.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "A"
+      }, 
+      {
+        "text": "B"
+      }, 
+      {
+        "text": "D"
+      }
+    ], 
+    "correct": {
+      "text": "C"
+    }
+  }
+}

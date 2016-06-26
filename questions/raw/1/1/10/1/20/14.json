@@ -1,0 +1,19 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>let the number of conical vessels required be x.</div><div>_{l}_ \\(\\times \\) Volume of the cylinder = x \\(\\times \\)volume of the  cone</div><div>Now volume of the cylinder\\(=_{l}_\\times [\\pi \\times r^2\\times l]\\) radius of the cylinder=\\(_{j}_\\) and l=_{k}_</div><div>\\(\\Rightarrow _{l}_\\times \\frac {22}7 \\times _{j}_^2 \\times _{k}_\\)</div><div>volume of the cones\\(=x\\times [ \\frac 13 \\times \\pi \\times r^2 \\times height]\\)</div><div>height of the cylinders = height of the cone= _{k}_and radius of the base of the cone = radius of the cylinder</div><div>volume of the cones\\(= x\\times [ \\frac 13 \\times \\frac {22}7 \\times _{j}_^2 \\times _{k}_]\\)</div><div> Now the total volumes of both the vessels should be equal\\(x\\times [ \\frac 13 \\times \\frac {22}7 \\times _{j}_^2 \\times _{k}_]=_{l}_\\times \\frac {22}7 \\times _{j}_^2 \\times _{k}_\\)</div><div>\\(\\Rightarrow x=_{{l*3}}_\\) </div>"
+  }, 
+  "content": {
+    "text": "<div>Water is filled in _{l}_ cylindrical vessels of radius _{j}_cm and height _{k}_cm</div><div>The shape of the vessels needs to be changed to conical, keeping the radius and height same as that of the cylinder.</div><div>Find the number of conical vessels required to empty all the cylindrical vessels</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "answer": {
+    "tolerance": 0, 
+    "value": "_{{3*l}}_"
+  }, 
+  "type": 3
+}

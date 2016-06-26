@@ -1,0 +1,45 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>The formula for sum is \\(S_n=\\frac n2[2a+(n-1)d]\\)</div><div>If n is the last term of AP, \\(a_n=a_1+(n-1)d=l\\)(say)</div><div>The \\(S_n\\)can be re-written as \\(S_n=\\frac n2[a+l]\\)</div><div>first even term is _{{j+1}}_ and last even term is _{{k-1}}_</div><div>total no. of even terms(n) = \\((_{{k-1}}_-_{{j+1}}_)\\over2\\) + 1</div><div>\\(n=_{{(Decimal('0.5')*(k-j-2))+1}}_\\)</div><div>therefore, \\(S_n=\\frac n2[_{{j+1}}_+_{{k-1}}_]\\)</div><div>\\(S_n=_{{Decimal('0.5')*((Decimal('0.5')*(k-j-2))+1)*(j+k)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the sum of all the even numbers between _{j}_ and _{k}_?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        101, 
+        103, 
+        105, 
+        107, 
+        109, 
+        111, 
+        113, 
+        115, 
+        117, 
+        119, 
+        121
+      ]
+    }, 
+    "j": {
+      "options": [
+        1, 
+        3, 
+        5, 
+        7, 
+        9, 
+        11, 
+        13, 
+        15, 
+        17, 
+        19, 
+        21
+      ]
+    }
+  }, 
+  "answer": {
+    "value": "_{{Decimal('0.5')*((Decimal('0.5')*(k-j-2))+1)*(j+k)}}_"
+  }, 
+  "type": 3
+}

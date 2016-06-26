@@ -1,0 +1,45 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given equation is \\(x^2 + _{k}_x + _{j}_\\) = 0</div><div>Comparing with \\(ax^2 + bx + c = 0\\)</div><div>We get, a = 1, b = _{k}_ and c = _{j}_</div><div>Now, we know :</div><div>i.e., Discriminant = \\(b^2-4ac\\)</div><div> i.e., \\(b^2-4ac\\) = \\(_{k}_^2 - 4\\times 1\\times _{j}_\\)</div><div>i.e., = _{{k*k}}_ - _{{4*j}}_</div><div>i.e., = _{{(k*k)-(4*j)}}_ </div><div>Since, \\(discriminant\\le 0\\)</div><div>Thus,Given quadratic equation have no real roots.</div>"
+  }, 
+  "content": {
+    "text": "<div>Comment on the nature of roots of the quadratic equation \\(x^2 + _{k}_x + _{j}_\\) = 0. </div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            26, 
+            38
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Two equal real roots"
+      }, 
+      {
+        "text": "Two distinct real roots"
+      }
+    ], 
+    "correct": {
+      "text": "No real roots"
+    }
+  }
+}

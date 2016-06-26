@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(_{{j**2}}_x^2+_{{k**2}}_y^2+_{{l**2}}_z^2-_{{2*j*k}}_xy-_{{2*l*k}}_yz+_{{2*j*l}}_zx\\)</div><div>\\(=(_{j}_x)^2+(_{k}_y)^2+(_{l}_z)^2+2(_{j}_x)(-_{k}_y)+2(-_{k}_y)(-_{l}_z)+2(-_{l}_z)(_{j}_x)\\)</div><div>Using identity \\((a+b+c)^2=a^2+b^2+c^2+2ab+2bc+2ca\\),</div><div>\\(=(_{j}_x+(-_{k}_)y+_{l}_z)^2\\)</div><div>\\(=(_{j}_x-_{k}_y+_{l}_z)(_{j}_x-_{k}_y+_{l}_z)\\)</div>"
+  }, 
+  "content": {
+    "text": "Factorize : \\(_{{j**2}}_x^2+_{{k**2}}_y^2+_{{l**2}}_z^2-_{{2*j*k}}_xy-_{{2*l*k}}_yz+_{{2*j*l}}_zx\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\((_{j}_x+_{k}_y+_{l}_z)(_{j}_x-_{k}_y+_{l}_z)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_x-_{k}_y-_{l}_z)(_{j}_x-_{k}_y+_{l}_z)\\)"
+      }, 
+      {
+        "text": "\\((_{j}_x-_{k}_y-_{l}_z)(_{j}_x-_{k}_y-_{l}_z)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\((_{j}_x-_{k}_y+_{l}_z)(_{j}_x-_{k}_y+_{l}_z)\\)"
+    }
+  }
+}

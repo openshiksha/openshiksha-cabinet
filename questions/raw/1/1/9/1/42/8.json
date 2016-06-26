@@ -1,0 +1,17 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Area of the quadrilateral(PQRS) = area of the \\(\\bigtriangleup \\) PSR +   \\(\\bigtriangleup \\) PQR </div><div>So for Right angled \\(\\bigtriangleup \\) PQR, we have PQ=9L, QR=40L and PR=\\(\\sqrt {PQ^2+QR^2}\\) (Pythagoras theorem)</div><div>  So we get PR=\\(\\sqrt {(9L)^2+(40L)^2}=\\sqrt {1681L^2}=41L\\)</div><div>For Right-angled triangle we can find the area directly by using \\(\\frac 12 \\times base \\times altitude \\)</div><div>So area \\(\\bigtriangleup \\) PQR= \\(\\frac 12 \\times 40L \\times 9L=180L^2=180\\times _{j}_^2\\)</div><div>\\(\\Rightarrow _{{180*j*j}}_\\)</div> <div>Now for \\(\\bigtriangleup \\) PSR we have  we have PS=28L, SR=15L and PR=41L</div><div>By using Heron's formula, area of PSR = \\(\\sqrt {s(s-a_1)(s-b_1)(s-c_1)}\\) where \\(a_1\\),\\(b_1\\),\\(c_1\\) are the sides of the triangle and \\(s=\\frac {a_1+b_1+c_1}2 \\)  </div><div>Here \\(PS=a_1=28L\\),\\(SR=b_1=15L\\) and \\(PR=c_1=41L\\) so \\(s=\\frac {28L+15L+41L}2=42L\\)</div><div>Therefore, area \\(\\bigtriangleup \\) PSR= \\(\\sqrt {42L(42L-28L)(42L-15L)(42L-41L)} = L^2\\times \\sqrt {42\\times 14\\times 27\\times 1}=9\\times 14 \\times L^2=126\\times L^2\\)</div><div>\\(\\Rightarrow _{{126*j*j}}_\\)</div><div>Hence area of the quadrilateral PQRS = area of the \\(\\bigtriangleup \\) PQR +   \\(\\bigtriangleup \\) PSR=  _{{j*j*180}}_ + _{{j*j*126}}_</div><div>\\(\\Rightarrow _{{306*j*j}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the quadrilateral PQRS,  PQ=9L, QR=40L, RS=15L, SR=28L where 9L denotes 9 \\(\\times \\) L and similarly in other sides and the value of L=_{j}_.</div>", 
+    "img": "8.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{306*j*j}}_"
+  }, 
+  "type": 3
+}

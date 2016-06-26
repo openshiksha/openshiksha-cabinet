@@ -1,0 +1,29 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Let the area of Raghav's house be denoted by the variable <b>y</b><br>Let the area of Ram's house be denoted by the variable <b>x</b><br>The question tells us that Ram's house is _{k}_ times larger than Raghav's house.<br>Therefore, we can infer that x is _{k}_ times greater than y. Or, in other words : <b>x = _{k}_ y </b>"
+  }, 
+  "content": {
+    "text": "The area of Ram's house is _{k}_ times the area of Raghav's house. (Assume the area of Ram's house to be <b><i>x</i></b> and the area of Raghav's house to be <b><i>y</i></b>)"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x = _{{k-1}}_y"
+      }, 
+      {
+        "text": "x = y + _{k}_"
+      }, 
+      {
+        "text": "y = _{k}_x"
+      }
+    ], 
+    "correct": {
+      "text": "x = _{k}_y"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(_{{(j*k*l*m+9999)/Decimal(10000)}}_\\)</div><div>Multiplying and dividing by \\(10000\\) to shift all numbers to the left of the decimal point,</div><div>\\(=\\frac{_{{(j*k*l*m+9999)/Decimal(10000)}}_ \\times 10000}{10000}\\)</div><div>\\(=\\frac{_{{(j*k*l*m+9999)}}_}{10000}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{{(j*k*l*m+9999)/Decimal(10000)}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            11, 
+            19
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(j*k*l*m+9999)}}_/10000"
+  }, 
+  "type": 3
+}

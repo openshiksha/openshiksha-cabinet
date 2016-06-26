@@ -1,0 +1,78 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Here the maximum class frequency is _{j}_,</div><div>And, </div><div>The class corresponding to this frequency is 25 - 40.</div><div>So, the modal class is 25 - 40.</div><div>Now </div><div>Modal class = 25 - 40, lower limit (l ) of modal class = 25,</div><div> class size (h) = 15</div><div>frequency ( f1 ) of the modal class = _{j}_,</div><div>frequency ( f0 ) of class preceding the modal class = _{i}_,</div><div>frequency ( f2 ) of class succeeding the modal class = _{k}_. </div><div>Now, let us substitute these values in the formula :</div><div> Mode = l + (\\((f1-f0)\\over (2*f1-f0-f2)\\))*h</div><div> Mode = 25 + (\\((_{j}_-_{i}_)\\over (2*_{j}_-_{i}_-_{k}_)\\))*15</div><div> Mode = 25 + \\(_{{j-i}}_\\over _{{(2*j)-i-k}}_\\)*15</div><div> Mode = 25 + (_{{trunc((Decimal(j)-i)/((2*j)-i-k),3)}}_)*15</div><div> Mode = 25 + (_{{trunc(((Decimal(j)-i)/((2*j)-i-k))*15,3)}}_)</div><div> Mode = _{{trunc((25+((Decimal(j)-i)/((2*j)-i-k))*15),3)}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>A study was done to find out the Percentage of NaCl in water of different rivers of India.Following table contains the data collected during the study.Find the modal percentage of NaCl.</div><div>\\begin{array}{c|lcr} Percentage of NaCl & \\text{10-25} & \\text{25-40} & \\text{40-55} & \\text{55-70} & \\text{70-85} \\\\ \\hline \\ No. of rivers & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\ \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            8, 
+            14
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            18, 
+            24
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            8, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc((27+((Decimal(j)-i)/((2*j)-i-k))*15),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((23+((Decimal(j)-i)/((2*j)-i-k))*15),3)}}_"
+      }, 
+      {
+        "text": "_{{trunc((25+((Decimal(j)-i)/((2*j)-i-4-k))*15),3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc((25+((Decimal(j)-i)/((2*j)-i-k))*15),3)}}_"
+    }
+  }
+}

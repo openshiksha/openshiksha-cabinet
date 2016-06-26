@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Geometric mean of two numbers are the root of its product</div><div>Geometric mean of a and b</div><div>\\(GM=(a\\times b)^{\\frac{1}{2}}\\)</div><div></div><div></div><div></div>"
+  }, 
+  "content": {
+    "text": "<div> Find the geometric mean of _{p}_ and _{q}_.</div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{p*q}}_"
+      }, 
+      {
+        "text": "_{{(p+q)/2}}_"
+      }, 
+      {
+        "text": "_{{trunc((sqrt(p*q))/2,3)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(sqrt(p*q),3)}}_"
+    }
+  }
+}

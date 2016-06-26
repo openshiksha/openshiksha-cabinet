@@ -1,0 +1,18 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Let a be the first term and r be the common ratio of the G.P</div><div> Sum of first n terms</div><div> \\(S_n=\\frac{a(1-r^n)}{1-r}\\)</div><div> Since there are n terms from \\((n+1)^{th}\\) to \\((2n)^{th}\\) term,</div><div> Sum of terms from \\((n+1)^{th}\\) to \\((2n)^{th}\\) term </div><div> \\(S_n^l=\\frac{a^l(1-r^n)}{1-r}\\)</div><div> where, \\(a^l=(n+1)^{th}\\) term </div><div>Thus, required ratio=\\(\\frac{S_n}{S_n^l}=\\frac{a}{a^l}=\\frac{a}{ar^{(n+1)-1}}=\\frac{1}{r^n}\\)</div>here n= _{r}_"
+  }, 
+  "content": {
+    "text": "<div>For the given G.P. _{{p}}_ , _{{p*q}}_ , _{{p*q**2 }}_ ,...the ratio of the sum of first _{r}_ terms to the sum of terms from _{{r+1}}_ to _{{2*r}}_ term is \\(\\frac{1}{_{q}_^n}\\). Find n?</div>"
+  }, 
+  "variable_constraints": {
+    "q": {}, 
+    "p": {}, 
+    "r": {}
+  }, 
+  "answer": {
+    "value": "_{r}_"
+  }, 
+  "type": 3
+}

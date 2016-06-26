@@ -1,0 +1,32 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>It is given that \\(\\bigtriangleup \\)ABC ~ \\(\\bigtriangleup \\)PQR</div><div>\\(\\Rightarrow \\frac {area(ABC)}{area(PQR)}= [\\frac {AB}{PQ}]^2=[\\frac {AC}{PR}]^2\\)</div><div>given that area(ABC)=area(PQR)\\(\\Rightarrow \\frac {area(ABC)}{area(PQR)}=1\\)</div><div>\\(\\Rightarrow \\frac {AB}{PQ}=\\frac {AC}{PR}= \\sqrt 1 \\Rightarrow AB=PQ\\,,\\,AC=PR\\)</div><div> Now in \\(\\bigtriangleup \\)ABC and \\(\\bigtriangleup \\)PQR, we have</div><div>\\(\\bigtriangleup \\)ABC ~ \\(\\bigtriangleup \\)PQR , AB=PQ and AC=PR</div><div>\\(\\Rightarrow \\bigtriangleup ABC \\cong \\bigtriangleup PQR \\)</div><div>As area of a triangle = \\(\\frac 12 \\times base \\times height\\)</div><div>\\(\\Rightarrow \\frac 12 \\times BC \\times AD=_{{j*k}}_\\)</div><div>\\(\\Rightarrow AD=_{{2*k}}_\\)</div><div>\\(\\Rightarrow PS=_{{2*k}}_\\) as \\(\\bigtriangleup ABC \\cong \\bigtriangleup PQR \\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Two triangles, \\(\\bigtriangleup \\)ABC ~ \\(\\bigtriangleup \\)PQR where BC=QR=_{j}_cm.</div><div>It is given that perpendicular from A and P intersect their opposite sides at D and S respectively.</div><div>If area(ABC)=area(PQR)=_{{j*k}}_, then choose the correct statements from the options given below.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(AB\\neq PQ\\) and \\(PR\\neq AC\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\bigtriangleup ABC \\cong \\bigtriangleup PQR \\)"
+      }, 
+      {
+        "text": "\\(AD=PS=_{{2*k}}_\\)"
+      }, 
+      {
+        "text": "\\(AB=PQ\\) and \\(PR=AC\\)"
+      }
+    ]
+  }
+}

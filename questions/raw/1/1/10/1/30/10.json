@@ -1,0 +1,41 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>This can be done in two ways</div><div>One way is to find the position of the last term that is _{{j+(m-1)*k}}_ </div><div>so, \\(_{{j+(m-1)*k}}_=a_1+(n-1)*d\\)</div><div>\\(_{{j+(m-1)*k}}_=_{j}_+(n-1)*(a_2-a_1)\\)</div><div>\\(_{{j+(m-1)*k}}_=_{j}_+(n-1)*_{k}_\\)</div><div>\\(n=_{m}_\\)</div><div>let us first find the position(t) of the given no. _{{j+(m-1)*k-(l-1)*(k)}}_ from the start. </div><div>therefore, \\(t=(_{{j+(m-1)*k-(l-1)*(k)}}_-a_1)/d\\,+\\,1\\)</div><div>\\(t=_{{m-l}}_\\)</div><div>Now position from the Last(p)= n-t</div><div>Hence,we get \\(p=_{m}_-_{{m-l}}_\\)</div><div>The value of p is \\(_{l}_\\)</div><div>the second way to solve this to by assuming the last term as the first</div><div> so, say \\(b_1=_{{j+(m-1)*k}}_\\)</div><div>and now new \\(d' = -(a_2-a_1)=-_{k}_\\)</div><div>\\(b_p=b_1+(p-1)*d'\\)</div><div>\\(_{{j+(m-1)*k-(l-1)*(k)}}_=_{{j+(m-1)*k}}_+(p-1)*(-_{k}_)\\)</div><div>we get \\(p=_{l}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>_{{j+(m-1)*k-(l-1)*(k)}}_ is the pth term from the last of an AP \\(_{j}_,_{{j+k}}_,_{{j+(2*k)}}_,......._{{j+(m-1)*k}}_\\)</div><div>find the value of P? </div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "l": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{l+2}}_"
+      }, 
+      {
+        "text": "_{{l-1}}_"
+      }, 
+      {
+        "text": "_{{m-l}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{l}_"
+    }
+  }
+}

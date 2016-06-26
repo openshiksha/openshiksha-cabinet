@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "<div>Use quadratic equation for solving the obtained quadratic equation.</div>"
+  }, 
+  "solution": {
+    "text": "<div>Let the radius of the playground be x m.</div><div>Therefore,</div><div> \\(Area = \\pi x^2\\)</div><div>Similarly,</div><div>\\(Perimeter = 2 \\pi x\\)</div><div>Thus, according to question:</div><div>i.e., \\( \\pi x^2 = _{k}_\\times (2 \\pi x) + _{{8*k*k}}_\\pi \\)</div><div>i.e., \\( \\pi x^2 = _{{k*2}}_ \\pi x + _{{8*k*k}}_\\pi \\)</div><div>i.e., \\(  x^2 = _{{k*2}}_x + _{{8*k*k}}_\\)</div><div>i.e., \\(  x^2 - _{{k*2}}_x - _{{8*k*k}}_ = 0\\)</div><div>On comparing with general equation</div><div>We get : a = 1 , b = -_{{k*2}}_ and c = -_{{8*k*k}}_</div><div>Substituting the values in quadratic formula</div><div>i.e., x = \\({_{{k*2}}_ \\pm \\sqrt{_{{k*2}}_^2-4\\times 1\\times (-_{{8*k*k}}_)}}\\over 2\\)</div><div>i.e., x = \\({_{{k*2}}_ \\pm \\sqrt {_{{pow((k*2),2)}}_+_{{4*8*k*k}}_}}\\over 2\\)</div><div>i.e., x = \\({_{{k*2}}_ \\pm \\sqrt {_{{36*k*k}}_}}\\over 2\\)</div><div>i.e., x = \\({_{{k*2}}_ \\pm {_{{6*k}}_}}\\over 2\\)</div><div>i.e., x = \\({_{{k*2}}_ + {_{{6*k}}_}}\\over 2\\) and x = \\({_{{k*2}}_ - {_{{6*k}}_}}\\over 2\\)</div><div>i.e., x = \\(_{{8*k}}_\\over 2\\) and x = \\(-_{{k*4}}_\\over 2\\)</div><div>i.e., x = _{{4*k}}_ and x = -_{{k*2}}_</div><div>Since x can not be negative, being a dimension, hence radius of the ground is _{{4*k}}_metre. </div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Area of a circular playground(in square metre) is \\(_{{8*k*k}}_\\pi\\) more than _{k}_ times of its perimeter.Find the radius of the playground.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}
+  }, 
+  "answer": {
+    "value": "_{{4*k}}_"
+  }, 
+  "type": 3
+}

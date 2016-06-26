@@ -1,0 +1,48 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>\\(_{j}_x^2+_{{2*j-l}}_x-_{{2*l}}_\\)</div><div>Splitting the middle term,</div><div>\\(_{j}_x^2+_{{2*j}}_x-_{l}_x -_{{2*l}}_\\)</div><div>\\(=_{j}_x(x+2) - _{l}_(x+2)\\)</div><div>\\(=(_{j}_x-_{l}_)(x+2)\\)</div><div>The two factors of \\(_{j}_x^2+_{{2*j-l}}_x-_{{2*l}}_\\,\\) are \\(-2\\,\\) and \\(\\frac{_{l}_}{_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x^2+_{{2*j-l}}_x-_{{2*l}}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            6, 
+            10
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(2, -_{l}_/_{j}_\\)"
+      }, 
+      {
+        "text": "\\(2, _{l}_/_{j}_\\)"
+      }, 
+      {
+        "text": "\\(-2, -_{l}_/_{j}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(-2, _{l}_/_{j}_\\)"
+    }
+  }
+}

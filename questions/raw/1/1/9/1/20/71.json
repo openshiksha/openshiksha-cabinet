@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Height of barrel, h \\(=_{j}_\\)m</div><div>Diameter of barrel, d \\(=_{k}_\\)m</div><div>\\(\\Rightarrow\\) Radius, r \\(=_{{Fraction(k,2)}}_=_{{k/Decimal(2)}}_\\)m</div><div>Total surface area of barrel \\(=2\\pi r(h+r)\\)</div><div>\\(=2\\pi \\times _{{k/Decimal(2)}}_ \\times (_{j}_+_{{k/Decimal(2)}}_)\\)</div><div>\\(=_{{trunc((2*pi_val*(k/Decimal(2))*(j+(k/Decimal(2)))),3)}}_m^2\\)</div>"
+  }, 
+  "content": {
+    "text": "The total surface area of a barrel of height \\(_{j}_\\)m and diameter \\(_{k}_\\)m used to store oil."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            5, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc((2*pi_val*(k/Decimal(2))*(j+(k/Decimal(2)))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^2\\)"
+}

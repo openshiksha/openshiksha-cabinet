@@ -1,0 +1,17 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>We know for a tangent from the point P to the circle we have</div><div> \\(\\angle\\)QPS=\\(\\angle\\)SPR and PQ=PR</div><div>as PQ=PR, triangle PQR is isosceles and \\(\\angle\\)PQS=\\(\\angle\\)PRS</div><div>therefore, \\(\\triangle\\) PQS \\(\\cong\\)\\(\\triangle\\) PSR that implies QS=SR</div><div>2*SR=QR=_{{2*j*12}}_, we get SR=_{{j*12}}_</div><div>As PR is a tangent so \\(\\angle\\)PRO= 90\\(^\\circ\\)</div><div>We can write \\(\\angle\\)PRS+\\(\\angle\\)SRO=\\(\\angle\\)PRO= 90\\(^\\circ\\) and \\(\\angle\\)SRO=90\\(^\\circ\\)-\\(\\angle\\)PRS</div><div>In right angle triangle PSR, we have \\(\\angle\\)SPR=90\\(^\\circ\\)-\\(\\angle\\)PRS</div><div>From the above 2 equations we get, \\(\\angle\\)SPR=\\(\\angle\\)SRO</div><div> Now in triangle PSR and triangle RSO we have</div><div>\\(\\angle\\)SPR=\\(\\angle\\)SRO and \\(\\angle\\)PSO=\\(\\angle\\)RSO=90\\(^\\circ\\) therefore \\(\\triangle\\)PSR~\\(\\triangle\\)RSO</div><div>\\(\\Rightarrow \\frac {PR}{RO}=\\frac {SR}{SO}\\)</div><div>SO we can find by applying Pythagoras in triangle RSO</div><div>\\(SO=\\sqrt {RO^2-SR^2}\\)</div><div>SO=_{{5*j}}_</div><div>\\(\\Rightarrow \\frac {PR}{_{{j*13}}_}=\\frac {_{{j*12}}_}{_{{j*5}}_}\\)</div><div>\\(\\Rightarrow PR=_{{j*13*12*Decimal('0.2')}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the length of the tangent PR if QR=_{{2*j*12}}_cm</div><div>Radius of the circle, OR=_{{j*13}}_cm</div>", 
+    "img": "10.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j*13*12*Decimal('0.2')}}_"
+  }, 
+  "type": 3
+}

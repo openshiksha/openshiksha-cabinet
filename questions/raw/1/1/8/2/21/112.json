@@ -1,0 +1,28 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Chickenpox is a very contagious disease caused by the varicella-zoster virus"
+  }, 
+  "content": {
+    "text": "Chicken Pox"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Bacteria"
+      }, 
+      {
+        "text": "Protozoa"
+      }, 
+      {
+        "text": "Fungi"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "Virus"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>volume of air inside the box = volume of the box - volume of the 2 cylinders</div><div>volume of the box = volume of a cuboid + volume of the half cylinder</div><div>Volume of the cuboid =\\(l\\times b \\times h\\), where \\(l\\) is length, \\(b\\) is width and \\(h\\) is height </div><div>\\(\\Rightarrow \\) Volume of the cuboid\\(=_{{4*j}}_ \\times _{{2*j}}_ \\times _{{2*j}}_=_{{16*j*j*j}}_\\)</div><div>Now volume of the half cylinder\\(=\\frac 12 \\times[\\pi \\times r^2\\times l]\\) diameter of the cylinder=\\(\\frac l2\\)</div><div>\\(\\Rightarrow \\frac 12 \\times \\frac {22}7 \\times _{j}_^2 \\times _{{4*j}}_=_{{trunc(pi_val*j*j*j*2,2)}}_\\)</div><div>volume of the cylinders inside the box\\(=2\\times [ \\pi \\times r^2 \\times height]\\)</div><div>height of the cylinders = height of the cuboid= _{{2*j}}_</div><div>volume of the cylinders\\(= 2\\times [ \\frac {22}7 \\times _{j}_^2 \\times _{{2*j}}_]= _{{trunc(2*pi_val*j*j*2*j,2)}}_\\)</div><div> Now the volume of air inside the box\\(= _{{16*j*j*j}}_ + _{{trunc(pi_val*j*j*j*2,2)}}_ - _{{trunc(2*pi_val*j*j*2*j,2)}}_\\)</div><div>\\(\\Rightarrow _{{trunc(16*j*j*j+pi_val*j*j*j*2-2*pi_val*j*j*2*j,2)}}_\\, cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div> A box is in the shape of the cuboid surmounted by a half cylinder.</div><div>Two solid gold cylinders are placed closed to each other as shown in the figure.</div><div>If the value of L is _{{4*j}}_ cm, find the volume of air inside the box.</div>", 
+    "img": "7.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(16*j*j*j+pi_val*j*j*j*4-2*pi_val*j*j*2*j,2)}}_\\,cm^3\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(16*j*j*j+pi_val*j*j*j*3-2*pi_val*j*j*2*j,2)}}_\\,cm^3\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(16*j*j*j+pi_val*j*j*j-2*pi_val*j*j*2*j,2)}}_\\,cm^3\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(16*j*j*j+pi_val*j*j*j*2-2*pi_val*j*j*2*j,2)}}_\\,cm^3\\)"
+    }
+  }
+}

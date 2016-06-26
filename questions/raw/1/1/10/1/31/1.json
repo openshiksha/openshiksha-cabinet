@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We know, cosA=\\(base\\over hypotenuse\\)</div><div>cosA=\\(_{{4*j}}_\\over_{{5*j}}_\\) (given)</div><div>So, let the base(AB)=_{{4*j}}_t and hypotenuse(CA)=_{{5*j}}_t</div><div>Now, by using Pythagoras theorem we have</div><div>\\((_{{5*j}}_t)^2-(_{{4*j}}_t)^2=(BC)^2\\)</div><div>\\(BC=_{{3*j}}_t\\)</div><div>We know, sinA=\\(perpendicualar\\over hypotenuse\\)</div><div>sinA=\\(_{{3*j}}_\\over _{{5*j}}_\\)</div><div>similarly, tanA=\\(perpendicualar\\over base\\)</div><div>tanA=\\(_{{3*j}}_\\over _{{4*j}}_\\)</div><div>\\(tanA+sinA\\)=\\(_{{3*j}}_\\over _{{4*j}}_\\)+\\(_{{3*j}}_\\over _{{5*j}}_\\)</div><div>\\(tanA+sinA=\\frac {27}{20}\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If cosA=\\(_{{4*j}}_\\over_{{5*j}}_\\),calculate \\(sinA+tanA\\).</div>", 
+    "img": "1.png"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\( 3\\over 20\\)"
+      }, 
+      {
+        "text": "\\( 1\\over 5 \\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\( 27\\over 20\\)"
+    }
+  }
+}

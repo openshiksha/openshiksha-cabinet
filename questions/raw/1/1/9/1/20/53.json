@@ -1,0 +1,16 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Length of pipe, l \\(=_{j}_\\)cm</div><div>Inner radius of pipe, \\(r_1=_{{Fraction(k,2)}}_=_{{k/Decimal(2)}}_\\)cm</div><div>Outer radius of pipe \\(r_2=_{{Fraction(l,2)}}_=_{{l/Decimal(2)}}_\\)cm</div><div>Total surface area = Inner curved surface area + Outer curved surface area + \\(2 \\pi (r_2^2-r_1^2)\\)</div><div>\\(=2\\pi r_1 h + 2\\pi r_2 h + 2 \\pi (r_2^2-r_1^2)\\)</div><div>\\(=(2\\pi \\times _{{k/Decimal(2)}}_ \\times _{j}_)+(2\\pi \\times _{{l/Decimal(2)}}_ \\times _{j}_)+(2 \\pi (_{{(l/Decimal(2))}}_^2-_{{(k/Decimal(2))}}_^2))\\)</div><div>\\(=_{{trunc((2*pi_val*(k/Decimal(2))*j),3)}}_+_{{trunc((2*pi_val*(l/Decimal(2))*j),3)}}_+_{{trunc((2*pi_val*(((l/Decimal(2))**2)-((k/Decimal(2))**2))),3)}}_\\)</div><div>\\(=_{{(trunc((2*pi_val*(k/Decimal(2))*j)+(2*pi_val*(l/Decimal(2))*j)+(2*pi_val*(((l/Decimal(2))**2)-((k/Decimal(2))**2))),3))}}_cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find the total surface area.</div>"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.3, 
+    "value": "_{{(trunc((2*pi_val*(k/Decimal(2))*j)+(2*pi_val*(l/Decimal(2))*j)+(2*pi_val*(((l/Decimal(2))**2)-((k/Decimal(2))**2))),3))}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

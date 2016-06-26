@@ -1,0 +1,48 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>\\(_{j}_x^2+_{{j+l}}_x+_{l}_\\)</div><div>Splitting the middle term,</div><div>\\(_{j}_x^2+_{j}_x+_{l}_x +_{l}_\\)</div><div>\\(=_{j}_x(x+1) + _{l}_(x+1)\\)</div><div>\\(=(_{j}_x+_{l}_)(x+1)\\)</div><div>The two factors of \\(_{j}_x^2+_{{j+l}}_x+_{l}_\\,\\) are \\(-1\\,\\) and \\(\\frac {-_{l}_}{_{j}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(_{j}_x^2+_{{j+l}}_x+_{l}_\\)"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            1, 
+            5
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            16, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(-1, _{l}_/_{j}_\\)"
+      }, 
+      {
+        "text": "\\(1, -_{l}_/_{j}_\\)"
+      }, 
+      {
+        "text": "\\(1, _{l}_/_{j}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(-1, -_{l}_/_{j}_\\)"
+    }
+  }
+}

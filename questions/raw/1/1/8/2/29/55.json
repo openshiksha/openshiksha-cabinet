@@ -1,0 +1,46 @@
+{
+  "content": {
+    "text": "Which of these planets is nearest to the Sun?"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{j}_"
+      }, 
+      {
+        "text": "_{k}_"
+      }, 
+      {
+        "text": "_{l}_"
+      }
+    ], 
+    "correct": {
+      "text": "Mercury"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 4, 
+  "variable_constraints": {
+    "k": {
+      "options": [
+        "Earth", 
+        "Mars", 
+        "Saturn"
+      ]
+    }, 
+    "j": {
+      "options": [
+        "Venus", 
+        "Earth", 
+        "Earth"
+      ]
+    }, 
+    "l": {
+      "options": [
+        "Mars", 
+        "Jupiter", 
+        "Mars"
+      ]
+    }
+  }
+}

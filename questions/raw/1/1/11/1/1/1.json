@@ -1,0 +1,32 @@
+{
+  "hint": {
+    "text": "<div> Substitute and solve nth term for n= 1,2,3,4,5</div>"
+  }, 
+  "solution": {
+    "text": "<div> Substitute and solve nth term for n= 1,2,3,4,5</div><div>\\(a_1=1\\times (1+_{p}_)=_{{1*(1+p)}}_\\)</div><div>\\(a_2=2\\times (2+_{p}_)=_{{2*(2+p)}}_\\)</div><div>\\(a_3=3\\times (3+_{p}_)=_{{3*(3+p)}}_\\)</div><div>\\(a_4=4\\times (4+_{p}_)=_{{4*(4+p)}}_\\)</div><div>\\(a_5=5\\times (5+_{p}_)=_{{5*(5+p)}}_\\)</div><div></div><div></div><div></div><div></div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Find first five terms of the sequence whose n^th term is \\( a_n= n \\times (n+_{p}_)\\) </div>"
+  }, 
+  "variable_constraints": {
+    "p": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{(1+p)}}_  ,  _{{(2+p)}}_  ,  _{{(3+p)}}_  ,  _{{(4+p)}}_  ,  _{{(5+p)}}_"
+      }, 
+      {
+        "text": "_{{1*(p)}}_  ,  _{{2*(1+p)}}_  ,  _{{3*(2+p)}}_  ,  _{{4*(3+p)}}_  ,  _{{5*(4+p)}}_"
+      }, 
+      {
+        "text": "_{{1*(1)}}_  ,  _{{2*(2)}}_  ,  _{{3*(3)}}_  ,  _{{4*(4)}}_  ,  _{{5*(5)}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{1*(1+p)}}_  ,  _{{2*(2+p)}}_  ,  _{{3*(3+p)}}_  ,  _{{4*(4+p)}}_  ,  _{{5*(5+p)}}_"
+    }
+  }
+}

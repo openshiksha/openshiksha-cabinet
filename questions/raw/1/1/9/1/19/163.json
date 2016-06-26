@@ -1,0 +1,48 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\(\\frac{1}{\\sqrt{_{j}_}-\\sqrt{_{k}_}}\\)</div><div>Multiplying numerator and denominator by \\(\\sqrt{_{j}_}+\\sqrt{_{k}_}\\),</div><div>\\(\\frac{1}{\\sqrt{_{j}_}-\\sqrt{_{k}_}} \\times \\frac{\\sqrt{_{j}_}+\\sqrt{_{k}_}}{\\sqrt{_{j}_}+\\sqrt{_{k}_}}\\)</div><div>\\(=\\frac{\\sqrt{_{j}_}+\\sqrt{_{k}_}}{_{j}_-_{k}_}\\)</div><div>\\(=\\frac{\\sqrt{_{j}_}+\\sqrt{_{k}_}}{_{{j-k}}_}\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(\\frac{1}{\\sqrt{_{j}_}-\\sqrt{_{k}_}}\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\sqrt{_{j}_}+\\sqrt{_{k}_}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{_{{j-k}}_}{\\sqrt{_{j}_}+\\sqrt{_{k}_}}\\)"
+      }, 
+      {
+        "text": "\\(\\frac{1}{_{{j-k}}_}\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(\\frac{\\sqrt{_{j}_}+\\sqrt{_{k}_}}{_{{j-k}}_}\\)"
+    }
+  }
+}

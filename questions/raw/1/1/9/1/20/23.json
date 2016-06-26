@@ -1,0 +1,36 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Surface area of all the walls\\(=2((Length \\times Height) + (Breadth \\times Height))\\)</div><div>\\(=2((_{j}_ \\times _{l}_)+(_{k}_ \\times _{l}_))\\)</div><div>\\(=2(_{{j*l}}_+_{{k*l}}_)=_{{2*(j*l+k*l)}}_sq.ft.\\)</div><div>Area of window = \\(_{m}_ \\times _{n}_=_{{m*n}}_sq.ft.\\)</div><div>Therefore, quantity of glass required \\(=\\) Area of wall \\(-\\) Area of window</div><div>\\(=_{{2*(j*l+k*l)}}_-_{{m*n}}_\\)</div><div>\\(=_{{(2*(j*l+k*l))-(m*n)}}_sq.ft.\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>What quantity of glass(in sq.ft.) is required such that it is enough to cover all the walls except the window of size \\(_{m}_\\)ft \\(\\times _{n}_\\)ft ?</div>"
+  }, 
+  "variable_constraints": {
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            3
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            3
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(2*(j*l+k*l))-(m*n)}}_"
+  }, 
+  "type": 3, 
+  "unit": "sq.ft."
+}

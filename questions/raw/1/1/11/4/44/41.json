@@ -1,0 +1,37 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "Let the quantity of heat from the reaction mixture be \\(q_ {calorimeter}\\) and the heat capacity of the calorimeter be \\(C_v\\). Then the quantity of heat absorbed by the calorimeter:\\(q_ {calorimeter} = C_v \\times \\Delta T\\)<br><br>Note that the quantity of heat from the reaction will have the same magnitude but opposite sign (because the heat lost by the reaction mixture is equal to the heat gained by the calorimeter).<br>\\(\\implies q_ {reaction} = -C_v \\times \\Delta T = - _{k}_ \\frac{kJ}{K} \\times (_{j}_-298) K = - _{{k * (j-298)}}_\\;kJ\\)<br>\\(\\implies \\Delta U = q_ {reaction} = - _{{k * (j-298)}}_\\;kJ\\)<br>(The negative sign indicates the exothermic nature of the reaction)<br><br>We know that \\(\\Delta H = \\Delta U + n_gRT \\) (but \\(n_g = 0\\) because there are not gaseous reactants or products)<br><br>Thus, Enthalpy Change \\((\\Delta H)\\) for the reaction = \\(\\Delta U\\) = \\(- _{{k * (j-298)}}_\\;kJ\\)"
+  }, 
+  "content": {
+    "text": "The following reaction is conducted in a calorimeter at a pressure of 1 atm.<br><br>\\(CuSO_4(aq) + 2NaOH(aq) \\rightarrow Cu(OH)_2(s) + Na_2SO_4(aq)\\)<br><br>During the reaction, the temperature rises from 298 K to _{j}_ K. If the heat capacity of the calorimeter is _{k}_ \\(\\frac{kJ}{K}\\), what is the enthalpy change for the above <b>reaction</b> at 298 K and 1 atmosphere?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "decimal": 1, 
+        "include": [
+          [
+            18, 
+            21
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            299, 
+            305
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k*(-1)* (j-298)}}_"
+  }, 
+  "type": 3, 
+  "unit": "kJ"
+}

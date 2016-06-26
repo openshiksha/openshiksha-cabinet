@@ -1,0 +1,66 @@
+{
+  "hint": {
+    "text": "<div>You may take \\(\\sqrt 3\\) = 1.732</div>"
+  }, 
+  "solution": {
+    "text": "<div>: In given figure the electrician is required to reach the point P on the pole PQ.</div><div>Given that : </div><div>Height of pole H1 = _{i}_ m.</div><div>Height of the vahicle H2 = _{j}_ m. </div><div>Angle of elevation A = _{k}_\\(^\\circ\\) </div><div>Here, QS represents the distance between pole and vehicle. We need to find its length D.</div><div>by similarity we can say that QS = RT.</div><div>Now consider the triangle PRT.</div><div>In PRT consider tan(A)\\(^\\circ\\).</div><div>where, A is angle of elevation of ladder.</div><div>So,  tan(A) = \\(PT\\over RT\\) ----- eq. (1)</div><div>where, PT = PQ - TQ </div><div>again, from similarity </div><div>i.e.,  TQ = RS </div><div>i.e.,  TQ = _{j}_</div><div>i.e.,  PT = _{i}_ - _{j}_</div><div>i.e.,  PT = _{{i-j}}_</div><div>Now, substituting the value of PT in Eq. 1</div><div>We get, tan(_{k}_\\(^\\circ\\)) = \\(_{{i-j}}_\\over RT\\) </div><div>i.e., RT = \\(_{{i-j}}_\\over tan(_{k}_^\\circ)\\)</div><div>i.e., RT = \\(_{{i-j}}_\\over _{l}_\\)</div><div>Since, we know QS = RT </div><div>So, the distance D between pole and vehicle is equal to \\(_{{i-j}}_\\over _{l}_\\)</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "<div>An electrician has to change the led of a street light which is _{i}_ m. above the ground.So for this purpose he uses a municipality repair vehicle that has ladder on it. Height of the vehicle is _{j}_ m. and angle of elevation of ladder attached on top of the vehicle is _{k}_ degree.Find the distance d between the bottom of the street light pole and the repair vehicle.</div>", 
+    "img": "2.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            60, 
+            90
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "options": [
+        30, 
+        45, 
+        60
+      ]
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            15, 
+            45
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "options": [
+        0.577, 
+        1, 
+        1.732
+      ]
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{i-j+3}}_\\over _{l}_\\)"
+      }, 
+      {
+        "text": "\\(_{{i-j}}_\\over _{{.22+l}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{2+i-j}}_\\over _{{.45+l}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{i-j}}_\\over _{l}_\\)"
+    }
+  }
+}

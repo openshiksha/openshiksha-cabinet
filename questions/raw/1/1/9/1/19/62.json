@@ -1,0 +1,28 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Observe carefully. The decimal value \\(6\\) in the quotient repeats itself continuously and the remainder never becomes zero.</div>", 
+    "img": "62.png"
+  }, 
+  "content": {
+    "text": "\\(\\frac{2}{3}\\)"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(0.333333..........\\)"
+      }, 
+      {
+        "text": "\\(0.666666\\)"
+      }, 
+      {
+        "text": "\\(0.333333\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(0.666666..........\\)"
+    }
+  }
+}

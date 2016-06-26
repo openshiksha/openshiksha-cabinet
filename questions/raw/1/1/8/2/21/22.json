@@ -1,0 +1,29 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Measles,also called rubeola,is a highly contagious respiratory infection.It spreads through air."
+  }, 
+  "content": {
+    "text": "Measles"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Water"
+      }, 
+      {
+        "text": "Contact"
+      }, 
+      {
+        "text": "Food"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Air"
+      }
+    ]
+  }
+}

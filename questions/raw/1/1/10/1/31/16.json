@@ -1,0 +1,36 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> Given expression : </div><div>_{k}_\\(\\times\\)_{{k+5}}_\\(\\times\\)tan_{{45-(j+3*i)}}_\\(\\times\\)tan_{{45-(j+i)}}_\\(\\times\\)tan_{{45-(2*j+3*i)}}_\\(\\times\\)tan_{{45-(2*j+2*i)}}_\\(\\times\\)tan_{{45-(3*j+i)}}_\\(\\times\\)tan45\\(\\times\\)tan_{{45+(3*j+i)}}_\\(\\times\\)tan_{{45+(2*j+2*i)}}_\\(\\times\\)tan_{{45+(2*j+3*i)}}_\\(\\times\\)tan_{{45+(j+i)}}_\\(\\times\\)tan_{{45+(j+3*i)}}_</div><div>if you carefully see on the right side of tan(45) each angle is a complementary angle of one of the angle of left side</div><div> hence, all the angles of right side can be written as cot of 90 minus that angle. i.e. tan(A)=cot(90-A)</div><div>which gives</div><div>tan_{{45-(j+3*i)}}_\\(\\times\\)tan_{{45-(j+i)}}_\\(\\times\\)tan_{{45-(2*j+3*i)}}_\\(\\times\\)tan_{{45-(2*j+2*i)}}_\\(\\times\\)tan_{{45-(3*j+i)}}_\\(\\times\\)tan45\\(\\times\\)cot_{{90-(45+(3*j+i))}}_\\(\\times\\)cot_{{90-(45+(2*j+2*i))}}_\\(\\times\\)cot_{{90-(45+(2*j+3*i))}}_\\(\\times\\)cot_{{90-(45+(j+i))}}_\\(\\times\\)cot_{{90-(45+(j+3*i))}}_</div><div>We know that cot(A)=\\(1\\over tan(A)\\)</div><div>using above given identity, expression can be written as : </div><div>_{k}_\\(\\times\\)_{{k+5}}_\\(\\times\\)tan_{{45-(j+3*i)}}_\\(\\times\\)tan_{{45-(j+i)}}_\\(\\times\\)tan_{{45-(2*j+3*i)}}_\\(\\times\\)tan_{{45-(2*j+2*i)}}_\\(\\times\\)tan_{{45-(3*j+i)}}_\\(\\times\\)tan45\\(\\times\\)\\(1\\over tan_{{90-(45+(3*j+i))}}_\\)\\(\\times\\)\\(1\\over tan_{{90-(45+(2*j+2*i))}}_\\)\\(\\times\\)\\(1\\over tan_{{90-(45+(2*j+3*i))}}_\\)\\(\\times\\)\\(1\\over tan_{{90-(45+(j+i))}}_\\)\\(\\times\\)\\(1\\over tan_{{90-(45+(j+3*i))}}_\\)</div><div>expression will reduce to_{{k*(k+5)}}_\\(\\times\\)  tan45</div><div>we know tan45=1, so finally we get _{{k*(k+5)}}_ </div>"
+  }, 
+  "content": {
+    "text": "<div>find the value of the given expression:</div><div>_{k}_\\(\\times\\)_{{k+5}}_\\(\\times\\)tan_{{45-(j+3*i)}}_\\(\\times\\)tan_{{45-(j+i)}}_\\(\\times\\)tan_{{45-(2*j+3*i)}}_\\(\\times\\)tan_{{45-(2*j+2*i)}}_\\(\\times\\)tan_{{45-(3*j+i)}}_\\(\\times\\)tan45*tan_{{45+(3*j+i)}}_\\(\\times\\)tan_{{45+(2*j+2*i)}}_\\(\\times\\)tan_{{45+(2*j+3*i)}}_\\(\\times\\)tan_{{45+(j+i)}}_\\(\\times\\)tan_{{45+(j+3*i)}}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            0, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {}, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            0, 
+            7
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{k*(k+5)}}_"
+  }, 
+  "type": 3
+}

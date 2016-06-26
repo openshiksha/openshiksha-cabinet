@@ -1,0 +1,28 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>All circles are similar</div><div>All right angled triangle need not to be similar, because angles are not equal</div><div>All squares are similar because all angles are always \\(90^{\\circ}\\)</div><div>Since angles are different, thus trapeziums are not similar</div>"
+  }, 
+  "content": {
+    "text": "<div>Which of the following pair of figures are similar?</div>", 
+    "img": "3.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "A, D"
+      }, 
+      {
+        "text": "A, B, C"
+      }, 
+      {
+        "text": "B, C"
+      }
+    ], 
+    "correct": {
+      "text": "A, C"
+    }
+  }
+}

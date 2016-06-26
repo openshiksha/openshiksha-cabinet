@@ -1,0 +1,27 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Diameter of hemispherical bowl, \\(d=_{j}_\\,cm\\)</div><div>\\(\\Rightarrow\\) Radius of the bowl, \\(r=_{{j/Decimal(2)}}_\\,cm\\)</div><div>Volume of the bowl, \\(V=\\frac23 \\pi r^3\\)</div><div>\\(\\Rightarrow V= \\frac23 \\pi \\times _{{j/Decimal(2)}}_^3\\)</div><div>\\(=_{{trunc(((2/Decimal(3))*pi_val*(j/Decimal(2))**3),3)}}_\\)</div><div>Therefore, a hemispherical bowl of diameter \\(_{j}_\\,cm\\) can hold \\(_{{trunc(((2/Decimal(3))*pi_val*(j/Decimal(2))**3),3)}}_\\,cm^3\\) of soup</div>"
+  }, 
+  "content": {
+    "text": "What quantity of soup can a hemispherical bowl of diameter \\(_{j}_\\,cm\\) hold?"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc(((2/Decimal(3))*pi_val*(j/Decimal(2))**3),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

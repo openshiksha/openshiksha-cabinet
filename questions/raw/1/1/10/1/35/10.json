@@ -1,0 +1,78 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>For the given data, first we need to find Cumulative frequency</div><div>As follows: </div><div>\\begin{array}{c|lcr} Fuel(in\\,litre) & \\text{frequency} & \\text{Cumulative frequency} \\\\ \\hline \\ 10-25 & _{i}_ & _{i}_ \\\\ \\hline \\ 25-40 & _{j}_ & _{{i+j}}_ \\\\ \\hline \\ 40-55 & _{k}_ & _{{i+j+k}}_ \\\\ \\hline \\ 55-70 & _{l}_ & _{{i+j+k+l}}_ \\\\ \\hline \\ 70-85 & _{m}_ & _{{i+j+k+l+m}}_ \\\\ \\hline \\end{array}</div><div>Now</div><div>n = _{{i+j+k+l+m}}_</div><div> So,</div><div> \\(n\\over 2\\) = \\(_{{i+j+k+l+m}}_\\over 2\\) = _{{(Decimal(i)+j+k+l+m)/2}}_</div><div>This observation lies in the class 40-55.</div><div> Then,</div><div>l (the lower limit) = 40,</div><div>cf (the cumulative frequency of the class preceding 40 - 55) = _{{i+j}}_,</div><div>f (the frequency of the median class 40 - 55) = _{k}_,</div><div>h (the class size) = 15.</div><div>Median = l +\\({{({n\\over 2} - cf})\\over {f}}\\)*h</div><div>Median = 40 +\\({{({_{{i+j+k+l+m}}_\\over 2} - _{{i+j}}_})\\over _{k}_}\\)*15</div><div>Median = 40 +\\({({_{{(i+j+k+l+m)/2}}_ - _{{i+j}}_})\\over _{k}_}\\)*15</div><div>Median = 40 +\\({({_{{((i+j+k+l+m)/2)-(i+j)}}_})\\over _{k}_}\\)*15</div><div>Median = 40 +(_{{trunc((((Decimal(i)+j+k+l+m)/2)-(i+j))/k,3)}}_)*15</div><div>Median = 40 +_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*15,3)}}_</div><div>Median = _{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*15,3)+40}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>The following frequency distribution gives the monthly consumption of fuel of _{{i+j+k+l+m}}_ cabs. Find the median.</div><div>\\begin{array}{c|lcr} Fuel(in\\,litre) & \\text{10-25} & \\text{25-40} & \\text{40-55} & \\text{55-70} & \\text{70-85} \\\\ \\hline \\ cabs & _{i}_ & _{j}_ & _{k}_ & _{l}_ & _{m}_ \\\\ \\hline\\end{array}</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "k": {
+      "range": {
+        "include": [
+          [
+            32, 
+            36
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            8
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*15,3)+42}}_"
+      }, 
+      {
+        "text": "_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*15,3)+38}}_"
+      }, 
+      {
+        "text": "_{{trunc(((((Decimal(i)+j+k+6+l+m)/2)-(i+j))/k)*15,3)+40}}_"
+      }
+    ], 
+    "correct": {
+      "text": "_{{trunc(((((Decimal(i)+j+k+l+m)/2)-(i+j))/k)*15,3)+40}}_"
+    }
+  }
+}

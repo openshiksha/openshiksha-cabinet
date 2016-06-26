@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Base radius of the cone, r\\(=_{j}_\\,cm\\)</div><div>Height of the cone, h\\(=_{k}_\\,cm\\)</div><div>Volume of the cone\\(=\\frac13 \\pi r^2h\\)</div><div>\\(=\\frac13 \\pi \\times _{j}_^2 \\times _{k}_\\)</div><div>\\(=_{{trunc(((1/Decimal(3))*pi_val*j**2*k),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Radius\\(=_{j}_\\,cm\\)</div><div>Height\\(=_{k}_\\,cm\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc(((1/Decimal(3))*pi_val*j**2*k),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

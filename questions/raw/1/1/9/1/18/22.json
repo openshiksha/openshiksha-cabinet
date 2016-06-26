@@ -1,0 +1,36 @@
+{
+  "hint": {
+    "text": "Polynomials in two variable have \\(2\\,\\) different variables."
+  }, 
+  "solution": {
+    "text": "<div>\\(_{j}_x - _{j}_y\\,\\) has two variables \\(x\\,\\) and \\(y.\\)</div><div>\\(p^a + q^b\\,\\) also has two variables \\(p\\,\\) and \\(q.\\)</div><div>\\(x^{_{j}_} + y^{_{k}_} +z + _{l}_\\,\\) and \\(t+_{k}_\\,\\) have three and one variables respectively.</div>"
+  }, 
+  "subpart_index": 1, 
+  "content": {
+    "text": "Choose polynomials in two variables."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}, 
+    "l": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^{_{j}_} + y^{_{k}_} +z + _{l}_\\)"
+      }, 
+      {
+        "text": "\\(t+_{k}_\\)"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(_{j}_x - _{j}_y\\)"
+      }, 
+      {
+        "text": "\\(p^a + q^b\\)"
+      }
+    ]
+  }
+}

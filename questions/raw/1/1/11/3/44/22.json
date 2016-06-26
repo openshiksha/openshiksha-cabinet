@@ -1,0 +1,36 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "Heat supplied to the system = - Heat removed from the system = - _{k}_ Joules<br>Work done by the system on the surroundings = - Work done by the surroundings on the system = - _{j}_ Joules<br><br>Therefore, from the First Law of Thermodynamics: \\(\\Delta U = \\Delta Q - \\Delta W\\)<br>\\(\\implies \\Delta U = - _{k}_ - (- _{j}_)\\)<br>\\(\\implies \\Delta U = _{{- k + j}}_\\) Joules"
+  }, 
+  "content": {
+    "text": "<div id='cont-div' onload='slideInitialize()'><svg height='600px' width='400px' viewbox='0 -200 400 600'><line x1='98' y1='300' x2='302' y2='300' style='stroke:rgb(0,0,0);stroke-width:5' /><line x1='100' y1='300' x2='100' y2='0' style='stroke:rgb(0,0,0);stroke-width:5' /><line x1='300' y1='300' x2='300' y2='0' style='stroke:rgb(0,0,0);stroke-width:5' /><svg id='gas' height='300px' width='200px' viewbox='0 0 200 300' x='100' y ='0'><image x='5' y='0' width='97px' height='80px' xlink:href='#{8.gif}#'/><image x='96' y='0' width='97px' height='80px' xlink:href='#{8.gif}#'/>><image x='5' y='80' width='97px' height='80px' xlink:href='#{8.gif}#'/><image x='96' y='80' width='97px' height='80px' xlink:href='#{8.gif}#'/><image x='5' y='160' width='97px' height='80px' xlink:href='#{8.gif}#'/><image x='96' y='160' width='97px' height='80px' xlink:href='#{8.gif}#'/><image x='5' y='215' width='97px' height='80px' xlink:href='#{8.gif}#'/><image x='96' y='215' width='97px' height='80px' xlink:href='#{8.gif}#'/></svg><svg id='piston' height='300px' width='200px'viewbox='100 -150 200 300' x='100' y ='-150'><rect x='105' y ='-145' width='190' height='290' style='fill:rgb(255,255,255);' /><line x1='200' y1='150' x2='200' y2='-100' style='stroke:rgb(0,0,0);stroke-width:15' /><line x1='100' y1='150' x2='300' y2='150' style='stroke:rgb(0,0,0);stroke-width:40' /></svg><image id ='ice' class='invisible' x='100' y='310' width='200px' height='75px' xlink:href='#{9.png}#'/><svg id='fire'><image x='95' y='310' width='50px' height='75px' xlink:href='#{7.gif}#'/><image x='147' y='310' width='50px' height='75px' xlink:href='#{7.gif}#'/><image x='198' y='310' width='50px' height='75px' xlink:href='#{7.gif}#'/><image x='252' y='310' width='50px' height='75px' xlink:href='#{7.gif}#'/></svg></svg><div id='formula-div'><b>Change in Internal Energy</b> \\((\\Delta U) = \\Delta Q - \\Delta W\\)<br>\\(=\\) <span id='heat'>\\(0\\) Joules</span> \\(-\\) <span id='work'>\\(0\\) Joules</span><br>\\(=\\) <span id='energy'>\\(0\\) Joules</span><br><br>\\(\\Delta Q\\) = Heat supplied to the system by the surroundings<br>\\(\\Delta W\\) = Work done by the system on the surroundings</div><div id='work-widget'><label>Piston (doing work):</label><br><div>                <span id='moveUp' class='piston-arrow glyphicon glyphicon-triangle-top' aria-hidden='true'></span><br>                <span id='moveDown' class='piston-arrow glyphicon glyphicon-triangle-bottom' aria-hidden='true'></span></div></div><div id='heat-widget'><div style='left:0px;'><label>Heat supplied to the system:</label><div id='slider'></div></div></div><style>#cont-div{border:solid 1px #000; width:700px; position:relative; background-color:#fff;} #formula-div{position:absolute; top:30px; right:60px; width:300px; font-size:20px;} #heat-widget{position:absolute; top:530px; right:12px; width:350px; font-size:20px;} #work-widget{position:absolute; top:320px; right:160px; width:200px; font-size:20px;} #slider{margin-top:10px; width:300px;} #work-widget span{color:#000;opacity:0.6;} #work-widget span:hover{opacity:1;} #work-widget button{padding:20px;height:initial;margin:5px;margin-left:0px;width:150px;font-size:18px;} #moveDown{margin-top:-20px;}.piston-arrow {font-size:80px;}.ui-widget-content {border: 1px solid #aaa !important;background: linear-gradient(to right, blue , orange, red);}.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{border: 1px solid #000 !important;}.invisible{display:none;}</style><script>var workElement = document.getElementById('piston');var work0 = parseInt(workElement.getAttribute('y'));var workcur=0;var heatcur=0; function updateE(q,w){$('#heat').html('\\('+q+'\\) Joules');$('#work').html('\\('+w+'\\) Joules');$('#energy').html('\\('+(q-w)+'\\) Joules'); }var timer2,    moveUp = function() {        var domElement = document.getElementById('piston');var ycur = parseInt(domElement.getAttribute('y'));if (ycur > -240) {domElement.setAttribute('y', ycur-1);workcur = workcur+1;updateE(heatcur, workcur);}        timer2 = setTimeout(moveUp, 20);    }; $('#moveUp').mousedown(function() {   timer2 = setTimeout(moveUp, 20);}).mouseup(function() {   clearTimeout(timer2);});var timer,    moveDown = function() {        var domElement = document.getElementById('piston');var ycur = parseInt(domElement.getAttribute('y'));if (ycur <-40 ) {domElement.setAttribute('y', ycur+1);workcur = workcur-1;updateE(heatcur, workcur);}        timer = setTimeout(moveDown, 20);    }; $('#moveDown').mousedown(function() {   timer = setTimeout(moveDown, 20);}).mouseup(function() {   clearTimeout(timer);});$('#slider').slider({  min:-200,  max:200,  value:0,      slide: function( event, ui ) {  heatcur = parseInt(ui.value);          updateE(ui.value, workcur);  if (heatcur<0){var dom = document.getElementById('fire');dom.setAttribute('class', 'invisible');var dom2 = document.getElementById('ice');dom2.setAttribute('class', '');  }  if (heatcur>0){var dom = document.getElementById('fire');dom.setAttribute('class', '');var dom2 = document.getElementById('ice');dom2.setAttribute('class', 'invisible');  }      }  });</script></div><br>You can use the widget above to influence the system (Use the slider to change the heat supplied and use the arrows to move the piston). Based on the calculations above, what is the change in internal energy if _{k}_ Joules of heat is <b>removed from the system</b> and _{j}_ Joules of work is done <b>on the system by the surroundings</b>?"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            200
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            10, 
+            100
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{- k + j}}_"
+  }, 
+  "type": 3, 
+  "unit": "Joules"
+}

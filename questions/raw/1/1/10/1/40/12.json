@@ -1,0 +1,26 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div> We know \\(\\angle aob=\\angle cob\\) [alternate angles]</div><div>also, \\(\\angle abo = \\angle ocd\\) [vertically opposite angles]</div><div>So by AA similarity criteria, \\(\\bigtriangleup \\) oba ~ \\(\\bigtriangleup \\) ocd</div><div>\\(\\Rightarrow \\frac {ob}{oc}=\\frac {ab}{cd}=\\frac 12\\)</div><div> cd = _{{2*j}}_ is given</div><div>We have, \\(ab=\\frac {cd\\times ob}{oc}=_{j}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure ab || cd and 2\\(\\times \\) ob=oc</div><div>If cd=_{{2*j}}_cm, find the value of ab?</div>", 
+    "img": "12.png"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            2, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{j}_"
+  }, 
+  "type": 3
+}

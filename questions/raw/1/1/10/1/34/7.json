@@ -1,0 +1,49 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given That :</div><div>Radius of the ground R = _{i}_m</div><div>width of canal W = _{j}_m</div><div>we have to find out the probability of getting ball in canal.</div><div>So, </div><div>Let C be an event that ball is found in canal</div><div>then,</div><div>Probability = P(C)</div><div>Now, ball can be found out any where in the garden or canal</div><div>So,</div><div>Area of entire region where ball can be found out</div><div>  A(T) = \\(\\pi\\)\\(\\times\\)\\((R+W)^2\\)</div><div> A(T) = \\(\\pi\\)\\(\\times\\)\\((_{i}_+_{j}_)^2\\)</div><div> A(T) = _{{trunc(pi_val*((i+j)**2),5)}}_</div><div>Now, the region where ball can be found</div><div>i.e., Area of canal = total area - area of ground</div><div>i.e., A(C) = A(T) - A(G)</div><div>i.e., A(C) = _{{trunc(pi_val*((i+j)**2),5)}}_ - \\(\\pi\\)\\(\\times\\)\\(R^2\\)</div><div>i.e., A(C) = _{{trunc(pi_val*((i+j)**2),5)}}_ - \\(\\pi\\)\\(\\times\\)\\(_{i}_^2\\)</div><div>i.e., A(C) = _{{trunc(pi_val*((i+j)**2),5)}}_ - _{{trunc(pi_val*((i)**2),5)}}_</div><div>i.e., A(C) = _{{trunc((pi_val*((i+j)**2))-(pi_val*((i)**2)),5)}}_</div><div>Now,</div><div> P(B) = \\(E(C)\\over E(T)\\)</div><div>Where, </div><div>Favorable event E(C) = A(C)</div><div>Total event E(T) = A(T)</div><div>Hence,</div><div> P(B) = \\(A(C)\\over A(T)\\)</div><div> P(B) = \\(_{{trunc((pi_val*((i+j)**2))-(pi_val*((i)**2)),5)}}_\\over _{{trunc(pi_val*((i+j)**2),5)}}_\\)</div><div> P(B) = \\(_{{trunc(((pi_val*((i+j)**2))-(pi_val*((i)**2)))/(pi_val*((i+j)**2)),5)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Some students are playing cricket in a circular ground which is surrounded by a canal as shown in fig.While playing one of the student hit the ball and nobody could track the ball where is it. Find the probability that ball will be found in the canal.It is known that the radius of ground is _{i}_m and the width of canal is _{j}_m.</div>", 
+    "img": "5.png"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            20, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            9
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{trunc(((pi_val*((i+j+2)**2))-(pi_val*((i)**2)))/(pi_val*((i+j)**2)),3)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(((pi_val*((i+j)**2))-(pi_val*((i)**2)))/(pi_val*((i+j+2)**2)),3)}}_\\)"
+      }, 
+      {
+        "text": "\\(_{{trunc(((pi_val*((i+j)**2))-(pi_val*((i+1)**2)))/(pi_val*((i+j)**2)),3)}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{{trunc(((pi_val*((i+j)**2))-(pi_val*((i)**2)))/(pi_val*((i+j)**2)),3)}}_\\)"
+    }
+  }
+}

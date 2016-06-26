@@ -1,0 +1,50 @@
+{
+  "hint": {
+    "text": "\\(10000cm^2=1m^2\\)"
+  }, 
+  "solution": {
+    "text": "<div>Diameter of roller brush, d \\(=_{j}_ \\Rightarrow\\)Radius, r \\(=_{{Fraction(j,2)}}_=_{{j/Decimal(2)}}_\\)</div><div>Length of roller brush, h\\(=_{k}_\\)</div><div>No. of revolutions of brush to paint an entire wall, n \\(=_{l}_\\)</div><div>Curved surface area of roller brush\\(=2\\pi rh\\)</div><div>\\(=2 \\times \\pi \\times _{{j/Decimal(2)}}_ \\times _{k}_\\)</div><div>\\(=_{{trunc((2*pi_val*(j/Decimal(2))*k),3)}}_cm^2\\)</div><div>Surface area of the wall\\(=\\)curved surface area of the brush \\(\\times\\) no. of revolutions of brush</div><div>\\(=_{{trunc((2*pi_val*(j/Decimal(2))*k),3)}}_ \\times _{l}_\\)</div><div>\\(=_{{trunc((2*pi_val*(j/Decimal(2))*k*l),3)}}_cm^2\\)</div><div>\\(=_{{trunc(((2/Decimal(10000))*pi_val*(j/Decimal(2))*k*l),3)}}_m^2\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>The diameter of a roller required to paint a wall is \\(_{j}_\\)cm and its length is \\(_{k}_\\)cm. It takes \\(_{l}_\\) revolutions to paint an entire wall once.</div><div>Find the area of the wall in sq.m.</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            15, 
+            25
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            8
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            1500, 
+            2000
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.3, 
+    "value": "_{{trunc(((2/Decimal(10000))*pi_val*(j/Decimal(2))*k*l),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(m^2\\)"
+}

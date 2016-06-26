@@ -1,0 +1,32 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "In the following cases:<ul><li>\\(H_2 (g) + \\frac{1}{2} O_2 (g) \\rightarrow H_2O (l)\\) : The reactants are gases and the product is a liquid. Since gases are in a higher state of disorder than liquids, the entropy of the given system is <b>decreasing.</b></li><li>\\(2Cl (g) \\rightarrow Cl_2 (g)\\) : One mole of \\(Cl_2\\) has a lower entropy than two moles of \\(Cl\\). Therefore, the entropy of the given system is <b>decreasing.</b></li><li>A solid melts to become a liquid : Liquids are in a higher state of disorder than solids. Therefore, the entropy of the given system is <b>increasing.</b></li><li>A substance increases its temperature by 20K : As the substance is heated, the constituent particles are in a greater state of motion and disorder. Therefore, the entropy of the given system is <b>increasing.</b></li><li>A solid sublimes : As the solid sublimes to a gas, it goes into a higher state of disorder. Therefore, the entropy of the given system is <b>increasing.</b></li></ul>"
+  }, 
+  "content": {
+    "text": "Select cases from the following where entropy decreases:"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "A solid melts to become a liquid"
+      }, 
+      {
+        "text": "A substance is heated to increase its temperature by 20 K"
+      }, 
+      {
+        "text": "A solid sublimes"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(H_2 (g) + \\frac{1}{2} O_2 (g) \\rightarrow H_2O (l)\\)"
+      }, 
+      {
+        "text": "\\(2Cl (g) \\rightarrow Cl_2 (g)\\)"
+      }
+    ]
+  }
+}

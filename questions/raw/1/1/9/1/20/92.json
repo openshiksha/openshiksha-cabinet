@@ -1,0 +1,16 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Height of cone,h \\(=_{j}_\\)cm</div><div>Diameter of cone,d \\(=_{k}_\\)cm\\(\\Rightarrow\\)Radius,r\\(=_{{k/Decimal(2)}}_\\)cm</div><div>Slant height,l\\(=\\sqrt{h^2+r^2}=\\sqrt{_{j}_^2+_{{k/Decimal(2)}}_^2}=_{{trunc(((j**2+(k/Decimal(2))**2)**Decimal(0.5)),3)}}_\\)cm</div><div>Total surface area\\(=\\pi r(l+r)\\)</div><div>\\(=\\pi \\times _{{k/Decimal(2)}}_ \\times (_{{trunc(((j**2+(k/Decimal(2))**2)**Decimal(0.5)),3)}}_+_{{k/Decimal(2)}}_)\\)</div><div>\\(=_{{trunc((pi_val*(k/Decimal(2))*((j**2+(k/Decimal(2))**2)**Decimal(0.5)+k/Decimal(2))),3)}}_\\,cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "The total surface area of the cone."
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.5, 
+    "value": "_{{trunc((pi_val*(k/Decimal(2))*((j**2+(k/Decimal(2))**2)**Decimal(0.5)+k/Decimal(2))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

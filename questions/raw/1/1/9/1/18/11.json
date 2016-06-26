@@ -1,0 +1,17 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>The highest power of the variable is \\(_{{j+13}}_\\).</div><div>Therefore, the degree of the polynomial is \\(_{{j+13}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\(x^{_{{j+13}}_} + 2x^{_{{j+1}}_} - {_{k}_}x^{_{{j/2}}_} + _{{j+5}}_\\)"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": "_{{j+13}}_"
+  }, 
+  "type": 3
+}

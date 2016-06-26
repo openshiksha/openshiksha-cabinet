@@ -1,0 +1,28 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>We have two concentric circles</div><div>Area of the colored region= Area of the sector (OCD) - area of the sector(OAB)</div><div>given that angle subtended by both sector\\(=\\theta =\\angle COD=_{k}_^\\circ\\)</div><div>Area of the colored region= \\(\\pi \\times OD^2 \\times \\frac {\\theta}{360} - \\pi \\times OB^2 \\times \\frac {\\theta}{360}\\)</div> <div>Area of the colored region= \\(\\pi \\times _{{j+4}}_^2 \\times \\frac {_{k}_}{360} - \\pi \\times _{j}_^2 \\times \\frac {_{k}_}{360}\\)</div><div>\\(\\Rightarrow area= _{{trunc(pi_val*(16+8*j)*k/360,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>If OB = _{j}_cm and OD=_{{j+4}}_cm</div><div>If \\(\\angle COD=_{k}_^\\circ\\) find the area of the colored region of the figure</div>", 
+    "img": "15.png"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            90
+          ]
+        ]
+      }
+    }, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 2, 
+    "value": "_{{trunc(pi_val*(16+8*j)*k/360,2)}}_"
+  }, 
+  "type": 3
+}

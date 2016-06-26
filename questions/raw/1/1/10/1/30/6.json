@@ -1,0 +1,63 @@
+{
+  "hint": {
+    "text": "There are 2 arithmetic progressions which needs to be determined with the help of their first term and common difference."
+  }, 
+  "solution": {
+    "text": "<div>distance between A to B is = _{{j*0.5}}_ </div><div>So for the first km Rohan will be charged \\(a_1=_{k}_\\)</div> <div>and for the second km Rohan will be charged \\(a_2=_{k}_+_{l}_=_{{k+l}}_\\)</div><div>and for the third km Rohan will be charged \\(a_3=_{k}_+\\,2*_{l}_=_{{k+(2*l)}}_\\)</div><div>Now distance between B to C is = _{{j*0.5}}_ </div><div>So for the 4th km Rohan will be charged \\(b_1=_{m}_\\)</div> <div>and for the 5th km Rohan will be charged \\(b_2=_{m}_+_{n}_ =_{{m+n}}_\\)</div><div>and for the 6th km Rohan will be charged \\(b_3=_{m}_+\\,2*_{n}_=_{{m+(2*n)}}_\\)</div>  <div>Total money spent = \\(a_1+a_2+a_3+b_1+b_2+b_3 = _{{3*(k+l+m+n)}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>Rohan wants to travel from point A to Point C via B.</div><div>B is at the midpoint of the _{j}_ kilometers road joining A and C.</div> <div>From A to B the only conveyance available is an auto rickshaw at a fare of Rs _{k}_ for the first km and Rs _{l}_ more than the previous km for each additional km.</div><div>From B to C the only conveyance available is an Ola Cab at a fare of Rs _{{m}}_ for the first km and Rs _{{n}}_ more than the previous km for each additional km.</div>. <div>Find the total money that Rohan spends on his travel?</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "options": [
+        6
+      ]
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            15
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            2, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{3*(k+l+m+n)}}_"
+  }, 
+  "type": 3
+}

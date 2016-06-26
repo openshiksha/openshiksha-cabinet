@@ -1,0 +1,22 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Let's consider a pipe through which water is flowing.</div><div>Now, create a hole in the pipe.</div><div>You'll observe a spray of water coming out from the hole.</div><div>This is because liquids exert pressure on the walls of a container.</div>"
+  }, 
+  "content": {
+    "text": "Liquids exert pressure on the wall of the container in which they are stored."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "False"
+      }
+    ], 
+    "use_dropdown_widget": true, 
+    "correct": {
+      "text": "True"
+    }
+  }
+}

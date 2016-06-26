@@ -1,0 +1,19 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Height\\(=_{j}_cm\\)</div><div>Diameter\\(=_{k}_cm \\Rightarrow\\)Radius\\(=_{{k/Decimal(2)}}_cm\\)</div><div>Curved surface area\\(=2\\pi rh\\)</div><div>\\(=2 \\times \\pi \\times _{{k/Decimal(2)}}_ \\times _{j}_\\)</div><div>\\(=_{{trunc((2*(pi_val)*j*(k/Decimal(2))),3)}}_cm^2\\)</div>"
+  }, 
+  "content": {
+    "text": "Find the curved surface area of a cylinder of height \\(_{j}_\\)cm and diameter \\(_{k}_\\)cm."
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.05, 
+    "value": "_{{trunc((2*(pi_val)*j*(k/Decimal(2))),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^2\\)"
+}

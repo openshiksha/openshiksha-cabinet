@@ -1,0 +1,31 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>let \\(\\sqrt {_{{j*j}}_}\\) be a rational number</div><div>\\(\\Rightarrow \\sqrt {_{{j*j}}_}\\) can be represented as \\(\\frac ab\\), where a and b are coprime</div><div>\\(\\Rightarrow _{{j*j}}_=\\frac {a^2}{b^2}\\)</div><div>taking square root on both sides we get</div><div>\\(_{j}_=\\frac ab\\)</div><div>hence we get \\(\\frac ab = _{j}_\\) that we clearly know is a rational number.</div><div>For the other correct answer we know coprime numbers are those in which numerator and denominator do not have any common factor other then 1</div><div>We can see clearly see the  in \\(\\frac 23\\); 2,3  has no common factors</div><div> while _{j}_ is common in _{{j*3}}_ and _{{j*2}}_</div>"
+  }, 
+  "content": {
+    "text": "<div>choose the correct statements from the ones given below.</div>"
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\sqrt {_{{2*j*j}}_}\\) is a rational number"
+      }, 
+      {
+        "text": "In the number \\(\\frac {_{{j*3}}_}{_{{j*2}}_}\\) , we say _{{j*3}}_ and _{{j*2}}_ are coprime"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\sqrt {_{{j*j}}_}\\) is a rational number"
+      }, 
+      {
+        "text": "In the number \\(\\frac 32\\) , we say 3 and 2 are coprime"
+      }
+    ]
+  }
+}

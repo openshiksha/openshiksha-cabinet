@@ -1,0 +1,30 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>It is given that \\(\\bigtriangleup \\) PRQ ~ \\(\\bigtriangleup \\) TSU</div><div>\\(\\Rightarrow \\angle TSU=\\angle PRQ \\Rightarrow \\angle VSU=\\angle WRQ\\)</div> <div>Also, \\( \\frac {TS}{PS}=\\frac {US}{QR}\\)</div><div>\\(\\Rightarrow \\frac {2\\times VS}{2\\times WR}=\\frac {US}{QR}\\)</div><div>So now in \\(\\bigtriangleup \\) UVS and\\(\\bigtriangleup \\) QWR</div><div> we have \\(\\frac {VS}{WR}=\\frac {US}{QR}\\) and \\(\\angle VSU=\\angle WRQ\\)</div> <div>\\(\\Rightarrow \\bigtriangleup \\) UVS ~ \\(\\bigtriangleup \\) QWR</div><div>Similarly we can prove and say, \\(\\bigtriangleup \\) UVT ~ \\(\\bigtriangleup \\) QWT</div>"
+  }, 
+  "content": {
+    "text": "<div>In the given figure \\(\\bigtriangleup \\) PRQ ~ \\(\\bigtriangleup \\) TSU</div><div>QW and UV are the medians of the \\(\\bigtriangleup \\) PRQ and \\(\\bigtriangleup \\) TSU repectively. </div><div>Choose the correct statements from the options given below</div>", 
+    "img": "15.png"
+  }, 
+  "variable_constraints": {}, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(\\bigtriangleup \\) UVS ~ \\(\\bigtriangleup \\)  UVT"
+      }, 
+      {
+        "text": "\\(\\bigtriangleup \\) QWR ~ \\(\\bigtriangleup \\)  QWP"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "\\(\\bigtriangleup \\) UVS ~ \\(\\bigtriangleup \\)  QWR"
+      }, 
+      {
+        "text": "\\(\\bigtriangleup \\) UVT ~ \\(\\bigtriangleup \\)  QWP"
+      }
+    ]
+  }
+}

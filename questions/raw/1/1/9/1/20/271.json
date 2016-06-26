@@ -1,0 +1,18 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "<div>Radius of the sphere\\(=_{j}_\\,cm\\)</div><div>Volume of the sphere\\(=\\frac43 \\pi r^3\\)</div><div>\\(=\\frac43 \\pi \\times _{j}_^3\\)</div><div>\\(=_{{trunc(((4/Decimal(3))*pi_val*j**3),3)}}_\\,cm^3\\)</div>"
+  }, 
+  "content": {
+    "text": "The volume of a sphere of radius \\(_{j}_\\,cm\\)."
+  }, 
+  "variable_constraints": {
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc(((4/Decimal(3))*pi_val*j**3),3)}}_"
+  }, 
+  "type": 3, 
+  "unit": "\\(cm^3\\)"
+}

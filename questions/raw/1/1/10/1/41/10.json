@@ -1,0 +1,26 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>Given pair of equations are:</div><div>_{i}_x + y = _{{3*i}}_ ------(1)</div><div>And x - _{{i+1}}_y = _{{4*i}}_ --------(2)</div><div>Comparing with general pair of equations</div><div>We get,</div><div>i.e., \\(a_1 = _{i}_ , a_2 = 1 , b_1 = 1 , b_2 = -_{{i+1}}_ , c_1 = -_{{3*i}}_ and c_2 = -_{{4*i}}_\\)</div><div>Here, </div><div>\\({_{i}_\\over 1} \\neq {1\\over -_{{i+1}}_} , {a_1\\over a_2} \\neq {b_1\\over b_2}\\)</div><div>Therefore pair of linear equations are consistent</div>"
+  }, 
+  "content": {
+    "text": "<div>Find out whether the following pairs of linear equations are  consistent, or inconsistent.</div><div>_{i}_x + y = _{{3*i}}_ and x - _{{i+1}}_y = _{{4*i}}_</div>"
+  }, 
+  "variable_constraints": {
+    "i": {}
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Inconsistent"
+      }, 
+      {
+        "text": "Insufficient data"
+      }
+    ], 
+    "correct": {
+      "text": "Consistent"
+    }
+  }
+}

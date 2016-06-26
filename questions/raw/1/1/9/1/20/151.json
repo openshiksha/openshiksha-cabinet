@@ -1,0 +1,79 @@
+{
+  "hint": {
+    "text": "<div>Find ratio of the volumes.</div><div>\\(100cm=1m\\)</div>"
+  }, 
+  "solution": {
+    "text": "<div>Volume of carton \\(=_{j}_cm \\times _{k}_cm \\times _{l}_cm\\)</div><div>\\(=_{{j*k*l}}_\\,cm^3\\)</div><div>Volume of godown \\(=_{{m*k}}_m \\times _{{n*l}}_m \\times _{{o*j}}_m\\)</div><div>\\(=_{{m*k*n*l*o*j}}_\\,m^3\\)</div><div>Total number of cartons that can be stored \\(= \\frac{volume\\,of\\,godown}{volume\\,of\\,carton}\\)</div><div>\\(=\\frac{_{{m*k*n*l*o*j}}_\\,m^3}{_{{j*k*l}}_\\,cm^3}\\)</div><div>\\(=\\frac{_{{m*k*n*l*o*j}}_ \\times {10}^6\\,cm^3}{_{{j*k*l}}_\\,cm^3}\\)</div><div>\\(=_{{(m*n*o)*10**6}}_\\)</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "How many cartons of size measuring \\(_{j}_\\)cm \\(\\times \\, _{k}_\\)cm \\(\\times \\,_{l}_\\)cm can be stored in a godown of size \\(_{{m*k}}_\\)m \\(\\times \\,_{{n*l}}_\\)m \\(\\times \\,_{{o*j}}_\\)m."
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            30, 
+            40
+          ]
+        ]
+      }
+    }, 
+    "m": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            20, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            2, 
+            4
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{(m*n*o)*10**6}}_"
+  }, 
+  "type": 3, 
+  "unit": "cartons"
+}

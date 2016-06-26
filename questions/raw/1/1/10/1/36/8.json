@@ -1,0 +1,18 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Circumference of the circle is \\(2\\times \\pi \\times r\\)</div><div>\\(\\Rightarrow 2\\times \\pi \\times r= _{{trunc(2*j*pi_val,2)}}_\\)</div><div>\\(\\Rightarrow r=_{j}_\\)</div><div>\\(Now\\,area \\,of\\,a \\,sector=\\pi \\times r^2 \\times \\frac {\\theta}{360}\\)</div><div>sector area\\(=\\frac {22}7\\times _{j}_^2 \\times \\frac {_{k}_}{360}\\)</div><div>\\(\\Rightarrow area=_{{trunc(pi_val*j*j*k/360,2)}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Circumference of a circle is _{{trunc(2*j*pi_val,2)}}_.</div><div>Find the area of the sector of the circle if the angle of the sector is _{k}_\\(^\\circ\\)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "tolerance": 1, 
+    "value": "_{{trunc(pi_val*j*j*k/360,2)}}_"
+  }, 
+  "type": 3
+}

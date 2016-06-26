@@ -1,0 +1,38 @@
+{
+  "content": {
+    "text": "2. Petrol"
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Fuel for stoves"
+      }, 
+      {
+        "text": "Fuel for heavy motor vehicles"
+      }, 
+      {
+        "text": "Vaseline"
+      }, 
+      {
+        "text": "Fuel for electric generators"
+      }, 
+      {
+        "text": "Lubrication"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "Motor fuel"
+      }, 
+      {
+        "text": "Aviation Fuel"
+      }, 
+      {
+        "text": "Solvent for dry cleaning"
+      }
+    ]
+  }, 
+  "type": 2, 
+  "subpart_index": 1, 
+  "variable_constraints": {}
+}

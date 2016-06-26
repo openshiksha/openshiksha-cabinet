@@ -1,0 +1,24 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "<div>We do not experience the effect of atmospheric pressure because the pressure inside our bodies is equal to the atmospheric pressure and cancels the pressure from outside.</div>"
+  }, 
+  "content": {
+    "text": "The air exerts a huge amount of atmospheric pressure on us. But we do not experience its effect because _____ ."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "the pressure inside our body is more than the atmospheric pressure"
+      }, 
+      {
+        "text": "the surface area of our body is large enough to annul the effect of the pressure"
+      }
+    ], 
+    "correct": {
+      "text": "the pressure inside our body is equivalent to the atmospheric pressure"
+    }
+  }
+}

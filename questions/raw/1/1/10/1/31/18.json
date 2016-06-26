@@ -1,0 +1,38 @@
+{
+  "subpart_index": 1, 
+  "solution": {
+    "text": "<div>Given expression is : </div><div>\\(_{j}_ + _{j}_sec(A)\\over sec(A)\\)</div><div>Take _{j}_ common from numerator</div><div>\\(_{j}_(1 + sec(A))\\over sec(A)\\)</div><div>now write sec(A) in the form of cos(A)</div><div>\\({{(_{j}_)(1 + {1\\over cos(A)}})\\over {1\\over cos(A)}}\\)</div><div>\\(\\Rightarrow \\)\\(_{j}_(cos(A)+1)\\over 1\\)</div><div>now multiply numerator and denominator by (1-cos(A))</div><div>which gives</div><div>\\(_{j}_(1+cos(A))*(1-cos(A))\\over 1-cos(A)\\)</div><div>\\(_{j}_(1-cos^2(A))\\over 1-cos(A)\\)</div><div>we know \\(sin^2(A)=1-cos^2(A)\\)</div><div>\\(_{j}_sin^2(A)\\over 1-cos(A)\\)</div>"
+  }, 
+  "content": {
+    "text": "<div>Find out the correct answer for given expression</div><div> \\(_{j}_ + _{j}_sec(A)\\over sec(A)\\) </div>"
+  }, 
+  "variable_constraints": {
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            52
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(_{{2*j}}_sin^2(A)\\over 1-cos(A)\\)"
+      }, 
+      {
+        "text": "\\(_{{j/2}}_sin^2(A)\\over 1-cos(A)\\)"
+      }, 
+      {
+        "text": "\\(_{j}_sin^2(A)\\over 1-sin(A)\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(_{j}_sin^2(A)\\over 1-cos(A)\\)"
+    }
+  }
+}

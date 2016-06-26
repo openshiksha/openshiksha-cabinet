@@ -1,0 +1,48 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>\\((x+_{j}_)(x-_{k}_)\\)</div><div>Using identity\\((x+a)(x+b)\\), </div><div>\\((x+_{j}_)(x+(-_{k}_))=x^2+(_{j}_-_{k}_)x+(_{j}_)(-_{k}_)\\)</div><div>\\(=x^2+_{{j-k}}_x-_{{j*k}}_\\)</div>"
+  }, 
+  "content": {
+    "text": "\\((x+_{j}_)(x-_{k}_)\\)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            10
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            11, 
+            20
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "\\(x^2-_{{j-k}}_x-_{{j*k}}_\\)"
+      }, 
+      {
+        "text": "\\(x^2+_{{j-k}}_x+_{{j*k}}_\\)"
+      }, 
+      {
+        "text": "\\(x^2-_{{j-k}}_x+_{{j*k}}_\\)"
+      }
+    ], 
+    "correct": {
+      "text": "\\(x^2+_{{j-k}}_x-_{{j*k}}_\\)"
+    }
+  }
+}

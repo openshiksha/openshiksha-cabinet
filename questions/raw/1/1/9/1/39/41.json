@@ -1,0 +1,51 @@
+{
+  "hint": {
+    "text": "The coordinates of a point are of the form (+ , +) in the first quadrant, (- , +) in the second quadrant, (- , -) in the third quadrant and (+ , -) in the fourth quadrant, where + denotes a positive real number and - denotes a negative real number."
+  }, 
+  "solution": {
+    "text": "Since the coordinates of the point are of the form (- , +), it lies in the <b>Second Quadrant</b>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "(x,y) = (_{j}_,_{k}_)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            1, 
+            100
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            -100, 
+            1
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "First Quadrant"
+      }, 
+      {
+        "text": "Third Quadrant"
+      }, 
+      {
+        "text": "Fourth Quadrant"
+      }
+    ], 
+    "correct": {
+      "text": "Second Quadrant"
+    }
+  }
+}

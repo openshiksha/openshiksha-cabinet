@@ -1,0 +1,24 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>We know that \\(Pressure=\\frac{Force}{Unit\\,area\\,of\\,surface}\\)</div><div>When the straps of the bag are wider, the surface area increases.</div><div>As a result, the pressure decreases and it is easier to carry the bag.</div>"
+  }, 
+  "content": {
+    "text": "It is easier to carry school bags having broad straps than those having narrow straps because _____ ."
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "the force of gravity decreases"
+      }, 
+      {
+        "text": "the weight of the bag decreases"
+      }
+    ], 
+    "correct": {
+      "text": "the area of contact increases"
+    }
+  }
+}

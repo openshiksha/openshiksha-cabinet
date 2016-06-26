@@ -1,0 +1,66 @@
+{
+  "subpart_index": 0, 
+  "solution": {
+    "text": "In the given data, there are a total of _{{j+k+l}}_ women surveyed.<br>Of that number, _{j}_ women stated that Sports was their favourite hobby.<br><br>We know that<br>\\(P(E) = \\frac{Number\\;of\\;trials\\;in\\;which\\;E\\;has\\;happened}{Total\\;number\\;of\\;trials}\\)<br><br>Therefore the Probability of the Event, P(E), of having sports as a favourite hobby is : \\(\\frac{_{j}_}{_{{j+k+l}}_}\\) = \\(_{{trunc((Decimal(j)/(j+k+l)),3)}}_\\)"
+  }, 
+  "content": {
+    "text": "<div>_{{j+k+l}}_ young women between the ages of _{n}_ and _{o}_ were selected randomly in the city of Mumbai and asked what their favourite hobby was. The following data was recorded:</div><br><table class='table table-bordered table-condensed'><tr><th>Hobby</th><th>Number</th></tr><tr><td>Sports</td><td>_{j}_</td></tr><tr><td>Art/Dance</td><td>_{k}_</td></tr><tr><td>Reading</td><td>_{l}_</td></tr></table><div>Compute the probability of an individual from the group whose favourite hobby is <b>Sports</b> (Enter the answer as a decimal and round off after 3 decimal places if necessary)</div>"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            10, 
+            30
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            21, 
+            42
+          ]
+        ]
+      }
+    }, 
+    "l": {
+      "range": {
+        "include": [
+          [
+            12, 
+            25
+          ]
+        ]
+      }
+    }, 
+    "o": {
+      "range": {
+        "include": [
+          [
+            15, 
+            21
+          ]
+        ]
+      }
+    }, 
+    "n": {
+      "range": {
+        "include": [
+          [
+            8, 
+            12
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "tolerance": 0.01, 
+    "value": "_{{trunc((Decimal(j)/(j+k+l)),3)}}_"
+  }, 
+  "type": 3
+}

@@ -1,0 +1,48 @@
+{
+  "subpart_index": 2, 
+  "solution": {
+    "text": "<div>Given expression is : </div><div>(_{i}_(cosec(A)-sin(A)))\\(\\times \\)(_{j}_sec(A)-_{j}_cos(A))</div><div>change all the trigonometric ratios in cosine and sine </div><div>which gives</div><div>{_{i}_(\\(1\\over sin(A)\\) - sin(A))}{\\(_{j}_\\over cos(A)\\)-_{j}_cos(A)}</div><div>_{i}_\\((1-sin^2(A))\\over sin(A)\\)\\((_{j}_-_{j}_cos^2(A))\\over cos(A)\\)</div><div>now take _{j}_ common</div><div>_{i}_\\((1-sin^2(A))\\over sin(A)\\)_{j}_\\(1-cos^2(A))\\over cos(A)\\)</div><div>_{{i*j}}_\\(cos^2(A)\\over sin(A)\\)\\(sin^2(A)\\over cos(A)\\)</div><div>which finally gives</div><div>_{{i*j}}_sin(A)\\(\\times\\)cos(A)</div>"
+  }, 
+  "content": {
+    "text": "<div>simplify the given expression </div><div>_{i}_[cosec(A)-sin(A)]\\(\\times \\)(_{j}_sec(A)-_{j}_cos(A)), and choose the correct option.</div>"
+  }, 
+  "variable_constraints": {
+    "i": {
+      "range": {
+        "include": [
+          [
+            2, 
+            22
+          ]
+        ]
+      }
+    }, 
+    "j": {
+      "range": {
+        "include": [
+          [
+            3, 
+            26
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "_{{2*i*j}}_sin(A)*cos(A)"
+      }, 
+      {
+        "text": "_{{i*j/2}}_sin(A)*cos(A)"
+      }, 
+      {
+        "text": "_{{i/2*j}}_sin(A)*cos(A)"
+      }
+    ], 
+    "correct": {
+      "text": "_{{i*j}}_sin(A)*cos(A)"
+    }
+  }
+}

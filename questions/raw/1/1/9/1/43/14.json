@@ -1,0 +1,40 @@
+{
+  "subpart_index": 3, 
+  "solution": {
+    "text": "Let the amount that Mohammad donated be <b>x</b><br>Let the amount that Arjun donated be <b>y</b><br>The statement tells us they both collectively donated Rs._{{10*k}}_<br>Therefore, we can know that x and y together add up to Rs._{{10*k}}_<br>\\(\\implies\\) <b>x + y = _{{k*10}}_ </b> OR <b>y = _{{k*10}}_ - x </b>"
+  }, 
+  "content": {
+    "text": "Mohammad and Arjun together contributed Rs._{{10*k}}_ towards the National Relief Fund to help drought victims in Maharashtra. (You may denote their contributions as <b><i>x</i></b> and <b><i>y</i></b> respectively)"
+  }, 
+  "variable_constraints": {
+    "k": {
+      "range": {
+        "include": [
+          [
+            20, 
+            50
+          ]
+        ]
+      }
+    }
+  }, 
+  "type": 2, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "x - y = _{{k*10}}_"
+      }, 
+      {
+        "text": "x + y = _{{k*8}}_"
+      }
+    ], 
+    "correct": [
+      {
+        "text": "x + y = _{{k*10}}_"
+      }, 
+      {
+        "text": "y = _{{k*10}}_ - x"
+      }
+    ]
+  }
+}

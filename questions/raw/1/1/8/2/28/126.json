@@ -1,0 +1,24 @@
+{
+  "content": {
+    "text": "The cones are sensitive to _____ light and the rods are sensitive to _____ light."
+  }, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "dim , bright"
+      }, 
+      {
+        "text": "moderate , bright"
+      }, 
+      {
+        "text": "dim , moderate"
+      }
+    ], 
+    "correct": {
+      "text": "bright , dim"
+    }
+  }, 
+  "type": 1, 
+  "subpart_index": 5, 
+  "variable_constraints": {}
+}

@@ -1,0 +1,50 @@
+{
+  "hint": {
+    "text": "<div>find the \\(n^{th}\\) term and use </div><div>Sum of an A.P. = \\(\\frac n2(2a+(n-1)d)\\)</div><div>Then find \\(S_n\\) using following identities </div><div></div><div>\\(\\sum_1^n(n)=\\frac{n(n+1)}{2}\\)</div><div>\\(\\sum_1^n(n^2)=\\frac{n(n+1)(2n+1)}{6}\\)</div><div>\\(\\sum_1^n(n^3)=\\frac{\\left(n(n+1)\\right)^2}{4}\\)</div><div></div><div></div>"
+  }, 
+  "solution": {
+    "text": "<div>The \\(n^{th}\\) term of the given series is the sum of n terms of an A.P.</div><div>i.e.</div><div>\\(a_n=S_n^l\\)</div><div>Where, \\(S_n^l\\) = sum of n terms of the A.P.</div><div> \\(_{p}_ , _{{p+q}}_ , _{{p+2*q}}_ , _{{p+3*q}}_ , ...\\) </div><div>i.e.</div><div>\\(a_n= \\frac n2(2a+(n-1)d)\\)</div><div>where, a and d are the first term and common difference of the A.P. mentioned above</div><div>\\(a_n= \\frac d2 n^2 + (a-\\frac d2)n\\)</div><div>\\(a_n= _{{q/2}}_ n^2 + _{{p-(q/2)}}_n\\)</div><div></div><div>now summing this from 1 to n we will get the sum</div><div>\\(S_n=\\sum_1^n a_n= \\sum_1^n(_{{q/2}}_ n^2 + _{{p-(q/2)}}_n)\\)</div><div>\\(S_n=_{{q/2}}_\\sum_1^n(n^2)+_{{p-(q/2)}}_\\sum_1^n(n)\\) .....(1)</div><div>also we know</div><div>\\(\\sum_1^n(1)=n\\)</div><div>\\(\\sum_1^n(n)=\\frac{n(n+1)}{2}\\)</div><div>\\(\\sum_1^n(n^2)=\\frac{n(n+1)(2n+1)}{6}\\)</div><div>substitution this in equation (1), we will get</div><div>\\(S_n=_{{q/2}}_\\frac{n(n+1)(2n+1)}{6}+_{{p-(q/2)}}_\\frac{n(n+1)}{2}\\) </div><div>Now putting n=_{s}_</div><div>\\(S_ {_{s}_}=_{{q/2}}_\\frac{_{{s*(s+1)*(2*s+1)}}_}{6}+_{{p-(q/2)}}_\\frac{_{{s*(s+1)}}_}{2}\\) </div><div>\\(S_ {_{s}_}=_{{(q*s*(s+1)*(2*s+1))/12}}_+_{{((p-(q/2))*s*(s+1))/2}}_\\) </div><div>\\(S_ {_{s}_}=_{{((q*s*(s+1)*(2*s+1))/12)+(((p-(q/2))*s*(s+1))/2)}}_\\) </div><div></div><div></div>"
+  }, 
+  "subpart_index": 2, 
+  "content": {
+    "text": "<div>Find the sum to _{s}_ terms of the series \\( (_{p}_) + (_{p}_+_{{p+q}}_) + (_{p}_+_{{p+q}}_+_{{p+2*q}}_) + (_{p}_+_{{p+q}}_+_{{p+2*q}}_+_{{p+3*q}}_) +\\cdot \\cdot \\cdot\\) </div>"
+  }, 
+  "variable_constraints": {
+    "q": {
+      "options": [
+        2, 
+        4, 
+        6, 
+        10, 
+        -10, 
+        -6, 
+        -4, 
+        -2
+      ]
+    }, 
+    "p": {
+      "range": {
+        "include": [
+          [
+            2, 
+            11
+          ]
+        ]
+      }
+    }, 
+    "s": {
+      "range": {
+        "include": [
+          [
+            6, 
+            15
+          ]
+        ]
+      }
+    }
+  }, 
+  "answer": {
+    "value": "_{{((q*s*(s+1)*(2*s+1))/12)+(((p-(q/2))*s*(s+1))/2)}}_"
+  }, 
+  "type": 3
+}

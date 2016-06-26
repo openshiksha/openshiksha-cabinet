@@ -1,0 +1,19 @@
+{
+  "hint": {
+    "text": "Use the following values for the standard enthalpy of formation \\(\\Delta_fH^\\circleddash\\):<br>\\(C_2H_5OH(l) = -277.69 \\frac{kJ}{mol}, O_2(g) = 0 \\frac{kJ}{mol}, CO_2 = -393.509 \\frac{kJ}{mol}, H_2O = -285.83 \\frac{kJ}{mol}\\)"
+  }, 
+  "solution": {
+    "text": "Use the standard enthalpies of formation to calculate the enthalpy of change for the reaction as follows:<br>\\(\\Delta_rH^\\circleddash = \\sum \\Delta_fH^\\circleddash_ {products} - \\sum \\Delta_fH^\\circleddash_ {reactants}\\)<br>\\(\\implies \\Delta_rH^\\circleddash = ((2 \\times -393.509) + (3 \\times -285.83)) - (1 \\times -277.69) = - 1366.818 \\frac{kJ}{mol}\\)"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "\\(C_2H_5OH(l) + 3O_2 (g) \\rightarrow 2CO_2 (g) + 3H_2O(l)\\)"
+  }, 
+  "variable_constraints": {}, 
+  "answer": {
+    "tolerance": 0.1, 
+    "value": -1366.818
+  }, 
+  "type": 3, 
+  "unit": "kJ"
+}

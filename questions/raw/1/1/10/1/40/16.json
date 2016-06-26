@@ -1,0 +1,21 @@
+{
+  "hint": {
+    "text": "Distance = speed * time"
+  }, 
+  "solution": {
+    "text": "<div>we can clearly see that the smaller triangle with base as Robot and bigger triangle with base as candle are similar</div><div>if the  speed is v and time taken is _{k}_ sec, distance (d) of robot from the candle =v\\(\\times \\)_{k}_</div><div>as triangles are similar we can write, \\(\\frac L{_{k}_v+L}=\\frac hH\\)</div><div>Putting L=_{{3*k}}_ , h=_{j}_, H= _{{2*j}}_, we get</div><div>\\(\\frac {_{{3*k}}_}{_{k}_v+_{{3*k}}_}=\\frac {_{j}_}{_{{2*j}}_}\\)</div><div>\\(\\Rightarrow 2\\times _{{3*k}}_=_{k}_v + _{{3*k}}_\\)</div><div>hence,v=3 cm/s</div>"
+  }, 
+  "subpart_index": 0, 
+  "content": {
+    "text": "<div>A toy robot of height _{j}_ cm is walking  away from the base of a candle at a speed v cm/s. If the candle is  _{{2*j}}_cm high</div><div>If the length of it's shadow after _{k}_ seconds is _{{3*k}}_cm , determine the value of v</div>", 
+    "img": "16.png"
+  }, 
+  "variable_constraints": {
+    "k": {}, 
+    "j": {}
+  }, 
+  "answer": {
+    "value": 3
+  }, 
+  "type": 3
+}
