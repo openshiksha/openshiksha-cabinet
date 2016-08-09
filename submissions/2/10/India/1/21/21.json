@@ -1,0 +1,210 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>by using Snell's law, \\(n_1\\times sin(30)=n_2\\times sin(r)\\)</div><div>\\(40\\times sin(30)=20\\times sin(r)\\)</div><div>we know sin(30)=\\(1\\over 2\\)</div><div>sin(r)=\\(40\\over 2\\times 20\\)</div><div>sin(r)=1</div><div>r=90</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>When a ray of light passes from 1 medium to other the angle formed at the boundary of the two mediums with the normal is related by Snell's law</div><div>Given \\(n_1\\times sin(i)=n_2\\times sin(r)\\)(Snell's law), where \\(n_1\\)and \\(n_2\\) are the refractive index of medium1 and medium2.</div><div>If angle of incidence(i) is equal to 30 and \\(n_1\\) and \\(n_2\\) are 40 and 20 respectively.</div><div>Find the angle of refraction(r).</div>", 
+            "img_url": "/secure-static/ZXJpY2FfbG9jazpodHRwOi8vMTAuMTMwLjMyLjM3Ojk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvMTAvMS8zMS9pbWcvMTAucG5nOnlQVHB2Y3A2ckVIT3lUcDczQUhucWZTTzAtRQ/", 
+            "img": "10.png"
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "90"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>we know sin(45)=cos(45)=\\(1\\over \\sqrt 3\\)</div><div>we know for any angle between 0 to 45 degree </div><div>The value of sin \\(\\theta \\) is less than cos \\(\\theta \\)</div><div>For example cos(0)&gt;sin(0), cos(30)&gt;sin(30)</div><div>The value of sin \\(\\theta \\) increases as \\(\\theta \\) increases and the value of cos \\(\\theta \\) decreases as \\(\\theta \\) increases</div><div>at \\(\\theta \\) = 45 the values of sin \\(\\theta \\) and cos \\(\\theta \\) are equal</div><div> also as cos(90)=0 and tan \\(\\theta \\)=\\(sin \\theta\\over cos \\theta\\)=\\(\\frac 10\\) that is not defined</div> <div> similarly as cos(90)=0 and sec \\(\\theta \\)=\\(1\\over cos \\theta\\)=\\(\\frac 10\\) that is not defined</div><div> and as sin(0)=0 and cot \\(\\theta\\)=\\(cos \\theta\\over sin \\theta\\)=\\(\\frac 10\\) that is not defined</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>From the options given below choose the correct ones</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 2, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "sin(A+B)=sinA+sinB", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "order": [
+              3, 
+              2, 
+              0, 
+              1
+            ], 
+            "correct": [
+              {
+                "text": "The value of cos21\\(^\\circ\\)-sin21\\(^\\circ\\) is always greater than 0", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "cos(x)=sin(x) , ( for x=45\\(^\\circ\\))", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "The values of , cot(0), tan(90) and sec(90) are 'Not Defined'", 
+                "img_url": null, 
+                "img": null
+              }
+            ]
+          }
+        }
+      ], 
+      "pk": 488, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          10, 
+          11
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>side opposite to angle(p)=192cm=perpendicular</div><div>tanP=\\(perpendicular\\over base\\)</div><div>Angle(P)=30 degree, tan(30)=\\(1\\over \\sqrt3\\)</div><div>therefore, base=\\(192\\sqrt3\\)</div><div>sin(p)=\\(perpendicular\\over hypotenuse\\)</div><div>sin(30)=\\(\\frac 12\\)=\\(192\\over hypotenuse\\)</div><div>hence the longest side, hypotenuse=\\(384cm\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>In a triangle PQR right-angled at Q, it is given that the side opposite to the angle(P)=30 is 192cm.</div><div>Find the longest side of the triangle.</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "384"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(1\\over \\sqrt3\\)=tan(30) and \\(\\sqrt 3\\over 2\\)=sin(60)</div><div>sin(1A+20B)=sin(60) and tan(1A-20B)=tan(30)</div><div>1A+20B=60 and 1A-20B=30</div><div>adding the above 2 equations we get 2A=90</div><div>hence, A=\\(90\\over 2\\)=45</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>sin(1A+20B)=\\(\\sqrt 3\\over 2\\) and tan(1A-20B)=\\(1\\over \\sqrt3\\)</div><div>Given that 0&lt;1A+20B&lt;90 and 1A&gt;20B find the value of A</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "45"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>we know cos(30)=\\(\\sqrt 3\\over 2\\)</div><div>we know cosec(60)=\\(2\\over \\sqrt 3\\)</div><div>we know cot(45)= 1 </div><div>we know sin(30)=\\( 1\\over 2\\)</div><div>putting the values in the expression we get</div><div>\\({{20\\times 3\\over 4}+{10\\times 4\\over 3}-{16}}\\over 1\\)</div><div>15+13.33-16</div><div>12.33</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "<div>Solve and find the value of the expression given below</div><div>\\(20cos^2(30)+10cosec^2(60)-16cot^2(45)\\over sin^2(30) + cos^2(30)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "28.2", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "(-3.8)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "13.2", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": {
+              "text": "<div>12.33</div>", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 487, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          7, 
+          8, 
+          9
+        ], 
+        "hint": null
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": null, 
+        "value": null
+      }, 
+      {
+        "correct": null, 
+        "choices": []
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": null
+      }, 
+      {
+        "correct": null, 
+        "value": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }
+    ]
+  ]
+}
