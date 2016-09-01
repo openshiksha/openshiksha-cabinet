@@ -1,0 +1,279 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Assume that after leaving the rope the stone travels in the direction of the tangent at point P", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>let O denote the position of Rohan</div><div>OC=130 is given </div><div>As PC is the tangent to the circle in which the rope rotates</div><div>line OP joining the centre to point P is perpendicular to PC</div><div>Also the length of OP=radius=50cm</div><div>therefore a right-angle triangle(OPC) is formed</div><div>By Pythagoras theorem we can find PC</div><div>PC=\\(\\sqrt {OC^2-OP^2}\\)</div><div>\\(\\Rightarrow PC =120\\,cm\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>Rohan ties a stone at an end of a 50cm rope and rotates the rope by holding it at the other end forming a circle in the horizontal plane.</div><div>After few rotation when the stone reaches to the point P in the circle, it accidently loosen it's grip and leaves the rope,</div><div>if the stone hits at point C on the wall,130cm away from Rohan,</div> <div>find the distance between point C and P</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "120"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 497, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          5
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>we know tangent intersect at 1 point so , t=1</div><div>maximum number of parallel tangents on a circle is m=2</div><div>therefore, 6\\(\\times \\)t + 7\\(\\times \\)m=6\\(\\times \\)1 + 7\\(\\times \\)2=20</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>find the value of 6t+7m, if t is the number of point(s) at which a tangent intersects a circle and m is the maximum number of parallel tangents a circle can have</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "13", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "26", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "33", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              2, 
+              0, 
+              3
+            ], 
+            "correct": {
+              "text": "20", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>we know secant intersect at 2 point so , l=2</div><div>largest secant is the diameter of the circle, length= 2r = n = 2\\(\\times \\)5</div><div>therefore, 5\\(\\times\\)l + 19\\(\\times \\)n=200</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>find the value of 5l+19n, if l is maximum the number of point(s) at which a secant can intersect a circle and n is the largest possible length covered by any secant inside a circle of radius 5cm</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "210", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "238", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "295", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "200", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 496, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          3, 
+          4
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Since OP is equal to the radius of the circle(r) and as Q lies outside the circle so it is always greater than (r)</div><div>hence, \\(OQ&gt;r\\) \\(\\Rightarrow OQ&gt;OP\\)</div> <div>It is given that XY is a tangent to the circle</div><div>\\(\\Rightarrow \\)it will touch the circle only at point P</div><div>therefore OP is the shortest distance between point Oand line XY</div> <div>\\(\\Rightarrow \\) OP is perpendicular to XY</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "<div>In reference to the given figure, following statements are given. </div><div>If XY is tangent to the circle, select the ones which state a possible condition:</div>", 
+            "img_url": "/secure-static/ZXJpY2FfbG9jazpodHRwOi8vMTAuMTMwLjMyLjM3Ojk4NzgvcXVlc3Rpb25zL3Jhdy8xLzEvMTAvMS8zMy9pbWcvMS5wbmc6cHFtbXIxZmo2QnRBUnhHdnpJUTZMTHkxZGpn/", 
+            "img": "1.png"
+          }, 
+          "type": 2, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "OP&gt;OQ", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "OQ is perpendicular to XY", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "order": [
+              0, 
+              1, 
+              3, 
+              2
+            ], 
+            "correct": [
+              {
+                "text": "OQ&gt;OP", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "OP is perpendicular to XY", 
+                "img_url": null, 
+                "img": null
+              }
+            ]
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>As AB is tangent the to the circle </div><div>line OC joining the centre to point C is perpendicular to AB</div><div>Also the length of OC=radius=64 and OD is 80</div><div>therefore a right-angle triangle(OCD) is formed</div><div>By Pythagoras theorem we can find CD</div><div>\\(CD=\\sqrt {OD^2-OC^2}=\\sqrt {80^2-64^2}\\)</div><div>\\(\\Rightarrow CD =48\\)</div> <div> and 5\\(\\times\\)CD=240</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "<div>Line AB is tangent to a circle of radius=64cm at point C.</div><div>Another line passing through the centre O cuts the line AB at D such that OD is 80.</div><div>Find the value of 5*CD</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "320", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "75", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "288", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "240", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 495, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          1, 
+          2
+        ], 
+        "hint": null
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": null, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choices": []
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }
+    ]
+  ]
+}
