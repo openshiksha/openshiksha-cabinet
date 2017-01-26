@@ -1,0 +1,446 @@
+{
+  "questions": [
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(1x^2+19x+18\\)</div><div>Splitting the middle term,</div><div>\\(1x^2+1x+18x +18\\)</div><div>\\(=1x(x+1) + 18(x+1)\\)</div><div>\\(=(1x+18)(x+1)\\)</div><div>The two factors of \\(1x^2+19x+18\\,\\) are \\(-1\\,\\) and \\(\\frac {-18}{1}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(1x^2+19x+18\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(-1, 18/1\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(1, -18/1\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(1, 18/1\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              1, 
+              3, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\(-1, -18/1\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(15x^2+23x-14\\)</div><div>Splitting the middle term,</div><div>\\(15x^2+30x-7x -14\\)</div><div>\\(=15x(x+2) - 7(x+2)\\)</div><div>\\(=(15x-7)(x+2)\\)</div><div>The two factors of \\(15x^2+23x-14\\,\\) are \\(-2\\,\\) and \\(\\frac{7}{15}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(15x^2+23x-14\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\(2, -7/15\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(2, 7/15\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\(-2, -7/15\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              2, 
+              1
+            ], 
+            "correct": {
+              "text": "\\(-2, 7/15\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 341, 
+      "container": {
+        "content": {
+          "text": "Factorize by splitting the middle term.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          111, 
+          112
+        ], 
+        "hint": {
+          "text": "\\(ax^2+bx+c\\,\\). Find two numbers \\(p\\,\\) and \\(q\\,\\) such that \\(p+q=b\\,\\) and \\(p \\times q = a \\times c\\)", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Use Remainder Theorem.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>The zero of \\(x+7\\,\\) is \\(-7\\)</div><div>Substituting the zero of \\(g(x)\\,\\) in \\(p(x)\\) should give a remainder \\(0\\,\\) as \\(g(x)\\,\\) is a factor of \\(p(x)\\)</div><div>\\(p(-7)=(12 \\times (-7)^3)-(17 \\times (-7)^2) + (17 \\times (-7)) - a=0\\)</div><div>\\(\\Rightarrow (-4116)-833-119-a=0\\)</div><div>\\(\\Rightarrow (-5068)=a\\)</div><div>Therefore, \\(a=(-5068)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Find the value of \\(a\\,\\) if \\(x+7\\,\\) is a factor of \\(12x^3-17x^2+17x-a\\).", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "-5068"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 340, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          101
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The zero of \\(x-2\\,\\) is \\(2\\)</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(2)=(11 \\times 2^2) + (19 \\times 2) - 15\\)</div><div>\\(\\Rightarrow p(2)=44+38 - 15\\)</div><div>\\(\\Rightarrow p(2)=67\\)</div><div>Therefore, the remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(67\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(p(x) = 11x^2 + 19x - 15; g(x) = x - 2\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "67"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The zero of \\(6x+7\\,\\) is \\(\\frac{-7}{6}\\).</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(\\frac{-7}{6})=(20 \\times \\frac{-7}{6}) - (15 \\times (\\frac{-7}{6})^3) + 8\\)</div><div>\\(\\Rightarrow p(\\frac{-7}{6})=\\frac{-70}{3}-(\\frac{-1715}{72}) + 8\\)</div><div>\\(\\Rightarrow p(\\frac{-7}{6})=\\frac{611}{72}\\)</div><div>Therefore, the remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(\\frac{611}{72}\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(p(x) = 20x - 15x^3 + 8; g(x) = 6x + 7\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": 0.005, 
+            "value": "8.486"
+          }, 
+          "type": 3, 
+          "unit": null
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>The zero of \\(13x+13\\,\\) is \\(-1\\).</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(-1)=(13 \\times (-1)^2) - (13 \\times (-1)) + 13\\)</div><div>\\(\\Rightarrow p(-1)=13+13+13\\)</div><div>\\(\\Rightarrow p(-1)=39\\)</div><div>Therefore, the remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(39\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 2, 
+          "content": {
+            "text": "\\(p(x) = 13x^2 - 13x + 13; \\, g(x) = 13x + 13\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "answer": {
+            "tolerance": null, 
+            "value": "39"
+          }, 
+          "type": 3, 
+          "unit": null
+        }
+      ], 
+      "pk": 338, 
+      "container": {
+        "content": {
+          "text": "Find the remainder when \\(p(x)\\,\\) is divided by \\(g(x)\\).", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          81, 
+          82, 
+          83
+        ], 
+        "hint": {
+          "text": "Use remainder theorem.", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": {
+            "text": "Use Remainder Theorem.", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "solution": {
+            "text": "<div>The zero of \\(5+9x\\,\\) is \\(\\frac{-5}{9}\\).</div><div>Substituting zero of \\(g(x)\\,\\) in \\(p(x)\\,\\), we get,</div><div>\\(p(\\frac{-5}{9})=(5 \\times (\\frac{-5}{9})^3) + (9 \\times (\\frac{-5}{9})^2)\\)</div><div>\\(\\Rightarrow p(\\frac{-5}{9})=\\frac{-625}{729}+(\\frac{25}{9})\\)</div><div>\\(\\Rightarrow p(\\frac{-5}{9})=\\frac{-2650}{729}\\)</div><div>The remainder when \\(p(x)\\) is divided by \\(g(x)\\) is \\(\\frac{-2650}{729}\\)</div><div>Therefore,  \\(5+9x\\,\\) is not a factor of \\(5x^3+9x^2\\).</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "Examine whether \\(5+9x\\,\\) is a factor of \\(5x^3+9x^2\\).", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "Yes", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": true, 
+            "order": [
+              1, 
+              0
+            ], 
+            "correct": {
+              "text": "No", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 339, 
+      "container": {
+        "content": null, 
+        "subparts": [
+          91
+        ], 
+        "hint": null
+      }
+    }, 
+    {
+      "subparts": [
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>Let \\(p(x)=x^2 - 10x + 24\\).</div><div>Now if \\(p(x)=(x-a)(x-b)\\),</div><div>We can say that \\(a \\times b = 24\\)</div><div>To find the factors of \\(p(x)\\,\\) we must find the factors of \\(24\\).</div><div>\\(24=4 \\times 6\\)</div><div>Now, \\(p(4)=4^2 - (10 \\times 4) + 24=0\\)</div><div>Also, \\(p(6)=6^2 - (10 \\times 6) + 24=0\\)</div><div>Therefore, \\((x-4)\\,\\) and \\((x-6)\\,\\) are the factors of \\(p(x)\\).</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 0, 
+          "content": {
+            "text": "\\(x^2 - 10x + 24\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x-4)(x+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+4)(x-6)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+4)(x+6)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              0, 
+              3, 
+              1, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((x-4)(x-6)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }, 
+        {
+          "hint": null, 
+          "solution": {
+            "text": "<div>\\(x^3 - 9x^2 - 46x+120\\)</div><div>We shall now look at all the factors of \\(120\\)</div><div>By trial we find that \\(p(2)=8-36-92+120=0\\)</div><div>So,\\((x-2)\\,\\) is a factor of \\(p(x)\\).</div><div>Now, dividing \\(p(x)\\,\\) by \\((x-2)\\,\\) we get, </div><div>\\(p(x)=(x-2)(x^2-7x-60)\\)</div><div>Now, by splitting the middle term we have, \\(p(x)=(x-2)(x^2-12x+5x-60)\\)</div><div>\\(\\Rightarrow p(x)=(x-2)(x(x-12)+5(x-12))\\)</div><div>\\(\\Rightarrow p(x)=(x-2)(x-12)(x+5)\\)</div>", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "subpart_index": 1, 
+          "content": {
+            "text": "\\(x^3 - 9x^2 - 46x+120\\)", 
+            "img_url": null, 
+            "img": null
+          }, 
+          "type": 1, 
+          "options": {
+            "incorrect": [
+              {
+                "text": "\\((x-2)(x+12)(x+5)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x-2)(x-12)(x-5)\\)", 
+                "img_url": null, 
+                "img": null
+              }, 
+              {
+                "text": "\\((x+2)(x-12)(x+5)\\)", 
+                "img_url": null, 
+                "img": null
+              }
+            ], 
+            "use_dropdown_widget": false, 
+            "order": [
+              3, 
+              1, 
+              0, 
+              2
+            ], 
+            "correct": {
+              "text": "\\((x-2)(x-12)(x+5)\\)", 
+              "img_url": null, 
+              "img": null
+            }
+          }
+        }
+      ], 
+      "pk": 342, 
+      "container": {
+        "content": {
+          "text": "Factorize by using factor theorem.", 
+          "img_url": null, 
+          "img": null
+        }, 
+        "subparts": [
+          121, 
+          122
+        ], 
+        "hint": {
+          "text": "\\((x-a)\\,\\) is a factor of the polynomial if p(a) is \\(0\\).", 
+          "img_url": null, 
+          "img": null
+        }
+      }
+    }
+  ], 
+  "answers": [
+    [
+      {
+        "correct": null, 
+        "choice": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "value": null
+      }, 
+      {
+        "correct": null, 
+        "value": null
+      }, 
+      {
+        "correct": null, 
+        "value": null
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": null
+      }
+    ], 
+    [
+      {
+        "correct": null, 
+        "choice": null
+      }, 
+      {
+        "correct": null, 
+        "choice": null
+      }
+    ]
+  ]
+}
