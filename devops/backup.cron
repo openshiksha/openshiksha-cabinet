@@ -1,2 +1,2 @@
-1 22 * * * oasis /home/oasis/hwcentral-cabinet/devops/backup.sh >> /home/oasis/hwcentral-cabinet/devops/cron.log 2>&1
+1 22 * * * __USER__ __CABINET_PATH__/devops/backup.sh >> __CABINET_PATH__/devops/cron.log 2>&1
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Usage: devops/deploy.sh (from hwcentral-cabinet root dir)
+# Usage: devops/deploy.sh (from root dir)
 
 sudo nginx -s stop
 git pull origin master
