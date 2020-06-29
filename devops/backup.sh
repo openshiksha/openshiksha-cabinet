@@ -7,7 +7,7 @@ echo "Running backup script on $(date)" >> backup-tmp.log 2>&1
 echo 'Dumping db state to backup file...' >> backup-tmp.log 2>&1
 
 # create the database dump which will be backed up in a snapshot
-mysqldump --single-transaction -u ${DB_BACKUP_USER} -p ${DB_BACKUP_PASSWORD} ${DB_NAME} 2>> backup-tmp.log 1> ../db_bak/${DB_NAME}.sql
+mysqldump --single-transaction -u openshiksha_app -p ${OPENSHIKSHA_DB_PASSWORD} openshiksha 2>> backup-tmp.log 1> ../db_bak/openshiksha.sql
 
 echo 'db state dumped ->' >> backup-tmp.log 2>&1
 ls -alt ../db_bak/ >> backup-tmp.log 2>&1
