@@ -9,7 +9,7 @@ WORKDIR ${WORKDIR}
 COPY . .
 
 # Setup nginx conf
-RUN devops/compile-nginx.sh all http://openshiksha-cabinet
+RUN devops/compile-nginx.sh all openshiksha-cabinet
 
 RUN echo "include ${WORKDIR}/devops/nginx.compiled.conf;" > /etc/nginx/nginx.conf
 
