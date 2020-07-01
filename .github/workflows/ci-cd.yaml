@@ -37,17 +37,17 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Setup Gcloud CLI
-                uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
-                with:
-                version: '290.0.1'
-                service_account_key: ${{ secrets.GKE_SA_KEY }}
-                project_id: ${{ secrets.GKE_QA_PROJECT_ID }}
+            uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+            with:
+              version: '290.0.1'
+              service_account_key: ${{ secrets.GKE_QA_SA_KEY }}
+              project_id: ${{ secrets.GKE_QA_PROJECT_ID }}
 
             - name: Fetch Cluster KubeConfig
-                run: |-
+              run: |-
                 gcloud container clusters get-credentials ${{ secrets.GKE_QA_CLUSTER_NAME }} --zone ${{ secrets.GKE_QA_ZONE_ID }}
             - name: Restart statefulset
-                run: kubectl rollout restart statefulset ${{ secrets.GKE_QA_CLUSTER_RELEASE }}-openshiksha-cabinet
+              run: kubectl rollout restart statefulset ${{ secrets.GKE_QA_CLUSTER_RELEASE }}-openshiksha-cabinet
     deploy-prod:
         name: Deploy to PROD Cluster
         needs: build-publish
@@ -56,14 +56,14 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Setup Gcloud CLI
-                uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
-                with:
+              uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+              with:
                 version: '290.0.1'
-                service_account_key: ${{ secrets.GKE_SA_KEY }}
+                service_account_key: ${{ secrets.GKE_PROD_SA_KEY }}
                 project_id: ${{ secrets.GKE_PROD_PROJECT_ID }}
 
             - name: Fetch Cluster KubeConfig
-                run: |-
+              run: |-
                 gcloud container clusters get-credentials ${{ secrets.GKE_PROD_CLUSTER_NAME }} --zone ${{ secrets.GKE_PROD_ZONE_ID }}
             - name: Restart statefulset
-                run: kubectl rollout restart statefulset ${{ secrets.GKE_PROD_CLUSTER_RELEASE }}-openshiksha-cabinet
+              run: kubectl rollout restart statefulset ${{ secrets.GKE_PROD_CLUSTER_RELEASE }}-openshiksha-cabinet
