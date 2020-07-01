@@ -1,0 +1,1 @@
+echo "We should probably run some checks here to validate the cabinet data..."

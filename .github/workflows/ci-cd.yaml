@@ -1,0 +1,31 @@
+name: CI/CD Pipeline
+# This workflow is triggered on pushes to the repository.
+on: push
+
+jobs:
+    test:
+        name: Test
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out the repo
+              uses: actions/checkout@v2
+            - name: Run Tests
+              run: scripts/validator.sh
+    build-publish:
+        name: Build & Publish
+        needs: test
+        # only run this on qa & prod branches
+        if: github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/prod'
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out the repo
+              uses: actions/checkout@v2
+            - name: Build Docker Image & Push to GitHub Packages
+              uses: docker/build-push-action@v1
+              with:
+                username: ${{ github.actor }}
+                password: ${{ secrets.GITHUB_TOKEN }}
+                registry: docker.pkg.github.com
+                repository: openshiksha/openshiksha-cabinet/openshiksha-cabinet
+                tag_with_ref: true
+                tag_with_sha: true
