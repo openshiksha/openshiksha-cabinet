@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": ""
+  }, 
+  "tags": [], 
+  "subpart_index": 4, 
+  "solution": {
+    "text": "Maple seeds are very light. So they are dispersed by wind\nLotus seeds are dispersed by water\nCastor seeds disperse by bursting\nUrena seeds are dispersed by animals"
+  }, 
+  "content": {
+    "text": "Which of the following seeds is dispersed by wind?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Lotus"
+      }, 
+      {
+        "text": "Castor"
+      }, 
+      {
+        "text": "Urena"
+      }
+    ], 
+    "correct": {
+      "text": "Maple"
+    }
+  }
+}

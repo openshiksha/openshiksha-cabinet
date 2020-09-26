@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": ""
+  }, 
+  "tags": [], 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "Papaya is a unisexual flower\nRose is a bisexual flower\nPetunia is a bisexual flower\nMustard is a bisexual flower"
+  }, 
+  "content": {
+    "text": "Which of the following is a unisexual flower?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rose"
+      }, 
+      {
+        "text": "Petunia"
+      }, 
+      {
+        "text": "Mustard"
+      }
+    ], 
+    "correct": {
+      "text": "Papaya"
+    }
+  }
+}

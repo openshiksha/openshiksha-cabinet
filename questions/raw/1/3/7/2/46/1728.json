@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": ""
+  }, 
+  "tags": [], 
+  "subpart_index": 3, 
+  "solution": {
+    "text": "Cucumber is a unisexual flower. So it needs to reproduce by cross pollination\nRose is a bisexual flower. So it can reproduce by self pollination\nPotato reproduces by vegetative propagation. Pollination is not involved\nHibiscus is a bisexual flower. So it can reproduce by self pollination"
+  }, 
+  "content": {
+    "text": "Cross pollination is more likely to occur in"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Rose"
+      }, 
+      {
+        "text": "Potato"
+      }, 
+      {
+        "text": "Hibiscus"
+      }
+    ], 
+    "correct": {
+      "text": "Cucumber"
+    }
+  }
+}

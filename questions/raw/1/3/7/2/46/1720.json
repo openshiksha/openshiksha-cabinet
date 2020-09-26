@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": ""
+  }, 
+  "tags": [], 
+  "subpart_index": 1, 
+  "solution": {
+    "text": "A flower which contains both male and female reproductive parts is a bisexual flower\nA flower which contains only the male reproductive part is a unisexual flower\nA flower which contains only the female reproductive part is a unisexual flower\nOne of the above options is correct"
+  }, 
+  "content": {
+    "text": "Which of the following is a bisexual flower?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "A flower which contains only stamen"
+      }, 
+      {
+        "text": "A flower which contains only pistil"
+      }, 
+      {
+        "text": "None of the above"
+      }
+    ], 
+    "correct": {
+      "text": "A flower which contains stamen and pistil"
+    }
+  }
+}

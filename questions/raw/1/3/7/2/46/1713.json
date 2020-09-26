@@ -1,0 +1,31 @@
+{
+  "hint": {
+    "text": ""
+  }, 
+  "tags": [], 
+  "subpart_index": 2, 
+  "solution": {
+    "text": "The ovule contains the female gamete or egg\nThe stigma does not contain the female gamete\nThe style does not contain the female gamete\nThe anther contains pollen, which is the male part"
+  }, 
+  "content": {
+    "text": "Which part of the plant contains the female gamete?"
+  }, 
+  "variable_constraints": {}, 
+  "type": 1, 
+  "options": {
+    "incorrect": [
+      {
+        "text": "Stigma"
+      }, 
+      {
+        "text": "Style"
+      }, 
+      {
+        "text": "Anther"
+      }
+    ], 
+    "correct": {
+      "text": "Ovule"
+    }
+  }
+}
